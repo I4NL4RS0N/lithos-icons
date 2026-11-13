@@ -1,0 +1,799 @@
+{
+  "concept": "software",
+  "query": "software",
+  "fetched": "2026-11-13T03:32:30.029Z",
+  "topTerms": [
+    [
+      "software",
+      50
+    ],
+    [
+      "development",
+      21
+    ],
+    [
+      "application",
+      19
+    ],
+    [
+      "programming",
+      13
+    ],
+    [
+      "coding",
+      13
+    ],
+    [
+      "system",
+      12
+    ],
+    [
+      "program",
+      12
+    ],
+    [
+      "computer",
+      10
+    ],
+    [
+      "software-development",
+      9
+    ],
+    [
+      "technology",
+      8
+    ],
+    [
+      "software-engineering",
+      7
+    ],
+    [
+      "app",
+      7
+    ],
+    [
+      "code",
+      6
+    ],
+    [
+      "digital",
+      5
+    ],
+    [
+      "cms",
+      5
+    ],
+    [
+      "web",
+      5
+    ],
+    [
+      "service",
+      4
+    ],
+    [
+      "website",
+      3
+    ],
+    [
+      "laptop",
+      3
+    ],
+    [
+      "monitor",
+      3
+    ],
+    [
+      "repair",
+      3
+    ],
+    [
+      "approved",
+      2
+    ],
+    [
+      "quality",
+      2
+    ],
+    [
+      "automation",
+      2
+    ],
+    [
+      "interface",
+      2
+    ],
+    [
+      "digital-technology",
+      2
+    ],
+    [
+      "digital-solution",
+      2
+    ],
+    [
+      "management",
+      2
+    ],
+    [
+      "platform",
+      2
+    ],
+    [
+      "cloud",
+      2
+    ],
+    [
+      "computing",
+      2
+    ],
+    [
+      "devops",
+      2
+    ],
+    [
+      "saas",
+      2
+    ],
+    [
+      "3d-design",
+      2
+    ],
+    [
+      "cad-software",
+      2
+    ],
+    [
+      "engineering-tool",
+      2
+    ],
+    [
+      "settings",
+      2
+    ],
+    [
+      "display",
+      1
+    ],
+    [
+      "graph",
+      1
+    ],
+    [
+      "report",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Software",
+          "tags": [
+            "software",
+            "software",
+            "software-development"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409893-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "approved",
+            "computer",
+            "development",
+            "quality",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6465598-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "display",
+            "graph",
+            "report",
+            "software",
+            "statistics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6030127-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "computer",
+            "programming",
+            "software",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495052-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "computer",
+            "programming",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495029-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "automation",
+            "development",
+            "interface",
+            "programming",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487079-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "development",
+            "digital-technology",
+            "programming",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486898-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "development",
+            "digital-technology",
+            "programming",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486857-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "development",
+            "digital",
+            "program",
+            "software",
+            "software-development",
+            "software-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478500-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "app",
+            "application",
+            "code",
+            "coding",
+            "program",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472131-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471951-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "apps",
+            "coding",
+            "programming",
+            "site",
+            "software",
+            "website"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462728-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "development",
+            "digital",
+            "program",
+            "software",
+            "software-development",
+            "software-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456038-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "development",
+            "digital",
+            "program",
+            "software",
+            "software-development",
+            "software-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456023-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "app",
+            "application",
+            "coding",
+            "development",
+            "laptop",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8451440-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "approved",
+            "execute",
+            "programming",
+            "quality",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449702-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "code",
+            "coding",
+            "development",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8448206-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "code",
+            "program",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8446354-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "cms",
+            "monitor",
+            "repair",
+            "software",
+            "software-development",
+            "software-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443822-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "digital-solution",
+            "program",
+            "programming",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441929-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "computer",
+            "development",
+            "management",
+            "programming",
+            "software",
+            "web"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "computer",
+            "development",
+            "management",
+            "programming",
+            "software",
+            "web"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441305-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "app",
+            "coding",
+            "development",
+            "program",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "design",
+            "digital",
+            "program",
+            "software",
+            "workflow"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428104-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "cms",
+            "monitor",
+            "repair",
+            "software",
+            "software-development",
+            "software-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8423982-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "automation",
+            "development",
+            "interface",
+            "programming",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422492-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "digital-solution",
+            "program",
+            "programming",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8421458-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8421423-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "digital",
+            "platform",
+            "software",
+            "software",
+            "software-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8410709-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "software",
+            "software-development"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409895-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "software",
+            "software-development"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409892-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "app",
+            "coding",
+            "development",
+            "program",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8407548-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "app",
+            "code",
+            "coding",
+            "software",
+            "web",
+            "website"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8404701-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "cloud",
+            "computing",
+            "devops",
+            "saas",
+            "service",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403723-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "cloud",
+            "computing",
+            "devops",
+            "saas",
+            "service",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "3d-design",
+            "cad-software",
+            "engineering-tool",
+            "laptop",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8401948-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "3d-design",
+            "cad-software",
+            "engineering-tool",
+            "laptop",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8401923-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "cms",
+            "monitor",
+            "repair",
+            "software",
+            "software-development",
+            "software-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "code",
+            "coding",
+            "development",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400347-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "cms",
+            "service",
+            "settings",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "cms",
+            "service",
+            "settings",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400217-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "code",
+            "coding",
+            "computer",
+            "development",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8396211-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "developing",
+            "interacting",
+            "running",
+            "simulating",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8396112-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "coding",
+            "computer",
+            "development",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390917-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "coding",
+            "computer",
+            "development",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390910-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "coding",
+            "computer",
+            "development",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390876-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "coding",
+            "computer",
+            "development",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390869-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "app",
+            "application",
+            "program",
+            "programming",
+            "software",
+            "web"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8380054-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "app",
+            "application",
+            "program",
+            "software",
+            "web",
+            "website"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8379984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Software",
+          "tags": [
+            "application",
+            "development",
+            "platform",
+            "process",
+            "software",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8375514-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "code-window",
+    "rationale": "Refs for \"software\" dominated by windows/screens with </> and gears.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

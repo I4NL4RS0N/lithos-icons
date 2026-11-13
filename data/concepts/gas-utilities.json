@@ -1,0 +1,18 @@
+{
+  "id": "gas-utilities",
+  "name": "Gas Utilities",
+  "kind": "industry",
+  "parent": "utilities",
+  "metaphor": "burner-flame",
+  "keywords": [
+    "natural gas",
+    "gas distribution",
+    "gas",
+    "LNG",
+    "burner"
+  ],
+  "reduction": "24+: inner flame. 20+: burner feet.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

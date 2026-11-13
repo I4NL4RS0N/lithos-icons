@@ -1,0 +1,18 @@
+{
+  "id": "water-utilities",
+  "name": "Water Utilities",
+  "kind": "industry",
+  "parent": "utilities",
+  "metaphor": "tap",
+  "keywords": [
+    "water",
+    "water supply",
+    "wastewater",
+    "tap",
+    "faucet"
+  ],
+  "reduction": "None — tap, handle and drop at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

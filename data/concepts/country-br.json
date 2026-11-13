@@ -1,0 +1,18 @@
+{
+  "id": "country-br",
+  "name": "Brazil",
+  "kind": "country",
+  "iso2": "BR",
+  "m49": "076",
+  "iso3": "BRA",
+  "keywords": [
+    "Brazil",
+    "BR"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass cluster; islands below a size-based area threshold are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

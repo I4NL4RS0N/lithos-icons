@@ -1,0 +1,802 @@
+{
+  "concept": "rmbs",
+  "query": "mortgage",
+  "fetched": "2026-11-13T03:32:30.572Z",
+  "topTerms": [
+    [
+      "mortgage",
+      50
+    ],
+    [
+      "property",
+      29
+    ],
+    [
+      "house",
+      18
+    ],
+    [
+      "finance",
+      17
+    ],
+    [
+      "loan",
+      16
+    ],
+    [
+      "home",
+      10
+    ],
+    [
+      "installment",
+      9
+    ],
+    [
+      "real-estate",
+      8
+    ],
+    [
+      "expense",
+      8
+    ],
+    [
+      "house-loan",
+      8
+    ],
+    [
+      "recurring-payment",
+      8
+    ],
+    [
+      "housing",
+      7
+    ],
+    [
+      "building",
+      6
+    ],
+    [
+      "payment",
+      5
+    ],
+    [
+      "money",
+      4
+    ],
+    [
+      "home-loan",
+      4
+    ],
+    [
+      "architecture",
+      4
+    ],
+    [
+      "contract",
+      3
+    ],
+    [
+      "debt",
+      3
+    ],
+    [
+      "estate",
+      3
+    ],
+    [
+      "investment",
+      3
+    ],
+    [
+      "file",
+      2
+    ],
+    [
+      "discount",
+      2
+    ],
+    [
+      "bank-loan",
+      2
+    ],
+    [
+      "housing-credit",
+      2
+    ],
+    [
+      "property-loan",
+      2
+    ],
+    [
+      "real-estate-finance",
+      2
+    ],
+    [
+      "business",
+      2
+    ],
+    [
+      "credit",
+      2
+    ],
+    [
+      "report",
+      2
+    ],
+    [
+      "hand",
+      2
+    ],
+    [
+      "banking",
+      2
+    ],
+    [
+      "home-mortgage",
+      1
+    ],
+    [
+      "housing-loan-mortgage",
+      1
+    ],
+    [
+      "property-mortgage",
+      1
+    ],
+    [
+      "real-estate-mortgage",
+      1
+    ],
+    [
+      "analytics",
+      1
+    ],
+    [
+      "broker",
+      1
+    ],
+    [
+      "invest",
+      1
+    ],
+    [
+      "refinance",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Mortgage",
+          "tags": [
+            "contract",
+            "file",
+            "home",
+            "mortgage",
+            "mortgage",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512094-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "contract",
+            "file",
+            "home",
+            "mortgage",
+            "mortgage",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512072-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "debt",
+            "home",
+            "loan",
+            "mortgage",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507643-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "home-mortgage",
+            "housing-loan-mortgage",
+            "mortgage",
+            "property-mortgage",
+            "real-estate-mortgage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "house",
+            "loan",
+            "mortgage",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506802-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "house",
+            "loan",
+            "money",
+            "mortgage",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495583-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "building",
+            "discount",
+            "house",
+            "mortgage",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475071-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "bank-loan",
+            "home-loan",
+            "housing-credit",
+            "mortgage",
+            "property-loan",
+            "real-estate-finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471098-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "analytics",
+            "house",
+            "mortgage",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470101-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "architecture",
+            "building",
+            "house",
+            "mortgage",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468011-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "architecture",
+            "building",
+            "house",
+            "mortgage",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467999-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "building",
+            "discount",
+            "house",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454385-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "business",
+            "home",
+            "house",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453380-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "business",
+            "home",
+            "house",
+            "mortgage",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453347-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "housing",
+            "loan",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449296-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "credit",
+            "debt",
+            "home-loan",
+            "house",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8445163-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "credit",
+            "debt",
+            "home-loan",
+            "house",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8445122-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438027-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438024-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438012-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437989-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437987-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437983-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "expense",
+            "house-loan",
+            "installment",
+            "mortgage",
+            "recurring-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437981-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "house",
+            "loan",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "house",
+            "loan",
+            "mortgage",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435995-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "broker",
+            "invest",
+            "mortgage",
+            "property",
+            "refinance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428686-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "housing",
+            "loan",
+            "mortgage",
+            "payment",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425401-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "housing",
+            "loan",
+            "mortgage",
+            "payment",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425383-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "interest",
+            "loan",
+            "mortgage",
+            "property",
+            "repayment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422115-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "house",
+            "money",
+            "mortgage",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8406905-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "hand",
+            "housing",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405218-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "hand",
+            "housing",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405191-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "housing",
+            "loan",
+            "mortgage",
+            "payment",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405032-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "housing",
+            "loan",
+            "mortgage",
+            "payment",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405012-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "house",
+            "money",
+            "mortgage",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8393327-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "estate",
+            "home",
+            "investment",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8372340-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "banking",
+            "home",
+            "loan",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364276-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "bank-loan",
+            "home-loan",
+            "housing-credit",
+            "mortgage",
+            "property-loan",
+            "real-estate-finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8362939-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "banking",
+            "home",
+            "loan",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8358544-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "house",
+            "loan",
+            "mortgage",
+            "payment",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8358060-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "architecture",
+            "building",
+            "estate",
+            "mortgage",
+            "price-tag"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8357986-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "investment",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351667-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "business-and-finance",
+            "finance",
+            "money",
+            "mortgage",
+            "mortgage-loan",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8345639-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "mortgage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8324211-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "borrowing",
+            "equity",
+            "finance",
+            "installment",
+            "lending",
+            "mortgage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8316670-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "contract",
+            "estate",
+            "investment",
+            "mortgage",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8316507-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "home",
+            "house",
+            "loan",
+            "mortgage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8301340-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mortgage",
+          "tags": [
+            "finance",
+            "home",
+            "house",
+            "loan",
+            "mortgage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8301326-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "house-on-tranches",
+    "rationale": "Refs for \"mortgage\" dominated by houses (with %/documents). Tranche base marks it as securitized and keeps it distinct from Real Estate.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

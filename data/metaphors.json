@@ -46,7 +46,8 @@
     "chemicals"
   ],
   "capsule": [
-    "pharma"
+    "pharma",
+    "pharmaceuticals"
   ],
   "umbrella": [
     "insurance"
@@ -67,5 +68,48 @@
     "speech-bubble": "communication-services (\u2192 antenna)",
     "pylon": "utilities (\u2192 drop-bolt)",
     "monitor": "information-technology (\u2192 laptop)"
-  }
+  },
+  "tap": [
+    "water-utilities"
+  ],
+  "pump-jack": [
+    "oil-gas"
+  ],
+  "pickaxe": [
+    "metals-mining"
+  ],
+  "gear": [
+    "machinery"
+  ],
+  "plane": [
+    "aerospace-defense"
+  ],
+  "car": [
+    "automobiles"
+  ],
+  "bank-building": [
+    "banks"
+  ],
+  "dna": [
+    "biotechnology"
+  ],
+  "code-window": [
+    "software"
+  ],
+  "house-on-tranches": [
+    "rmbs"
+  ],
+  "office-on-tranches": [
+    "cmbs"
+  ],
+  "card-on-tranches": [
+    "abs"
+  ],
+  "loan-on-tranches": [
+    "clo"
+  ],
+  "civic-dome": [
+    "municipal-bonds"
+  ],
+  "tranche-base": "modifier: two stacked lines under an asset = securitized product (RMBS, CMBS, ABS, CLO)"
 }

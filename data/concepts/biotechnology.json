@@ -1,0 +1,18 @@
+{
+  "id": "biotechnology",
+  "name": "Biotechnology",
+  "kind": "industry",
+  "parent": "health-care",
+  "metaphor": "dna",
+  "keywords": [
+    "biotech",
+    "genomics",
+    "DNA",
+    "life sciences",
+    "gene therapy"
+  ],
+  "reduction": "16: one rung. 20+: three rungs.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

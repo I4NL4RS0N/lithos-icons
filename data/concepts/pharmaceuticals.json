@@ -1,0 +1,19 @@
+{
+  "id": "pharmaceuticals",
+  "name": "Pharmaceuticals",
+  "kind": "industry",
+  "parent": "health-care",
+  "metaphor": "capsule",
+  "keywords": [
+    "pharma",
+    "drugs",
+    "medicine",
+    "pills",
+    "prescription",
+    "generics"
+  ],
+  "reduction": "None — capsule and divider at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

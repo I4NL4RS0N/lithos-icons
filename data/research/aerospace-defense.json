@@ -1,0 +1,813 @@
+{
+  "concept": "aerospace-defense",
+  "query": "aerospace",
+  "fetched": "2026-11-13T03:32:26.259Z",
+  "topTerms": [
+    [
+      "aerospace",
+      37
+    ],
+    [
+      "rocket",
+      21
+    ],
+    [
+      "engineering",
+      17
+    ],
+    [
+      "aerospace engineering",
+      14
+    ],
+    [
+      "aerospace-engineering",
+      14
+    ],
+    [
+      "space",
+      13
+    ],
+    [
+      "spaceship",
+      11
+    ],
+    [
+      "aircraft",
+      10
+    ],
+    [
+      "aviation",
+      8
+    ],
+    [
+      "technology",
+      8
+    ],
+    [
+      "launch",
+      8
+    ],
+    [
+      "airplane",
+      5
+    ],
+    [
+      "transportation",
+      5
+    ],
+    [
+      "flight",
+      4
+    ],
+    [
+      "gear",
+      4
+    ],
+    [
+      "industry",
+      4
+    ],
+    [
+      "spacecraft",
+      4
+    ],
+    [
+      "book",
+      4
+    ],
+    [
+      "science",
+      4
+    ],
+    [
+      "engineer",
+      4
+    ],
+    [
+      "jet",
+      4
+    ],
+    [
+      "astronaut",
+      3
+    ],
+    [
+      "engine",
+      3
+    ],
+    [
+      "turbine",
+      3
+    ],
+    [
+      "plane",
+      3
+    ],
+    [
+      "satellite",
+      3
+    ],
+    [
+      "advanced-technology",
+      2
+    ],
+    [
+      "worldwide",
+      2
+    ],
+    [
+      "mission",
+      2
+    ],
+    [
+      "aeronautical",
+      2
+    ],
+    [
+      "airspace",
+      2
+    ],
+    [
+      "astronautical",
+      2
+    ],
+    [
+      "navigation",
+      2
+    ],
+    [
+      "aircraft-engineering",
+      2
+    ],
+    [
+      "rocket-engineering",
+      2
+    ],
+    [
+      "travel",
+      2
+    ],
+    [
+      "astronomer",
+      2
+    ],
+    [
+      "physicist",
+      2
+    ],
+    [
+      "design",
+      2
+    ],
+    [
+      "space-rocket",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "airplane",
+            "aviation",
+            "rocket",
+            "space"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281044-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft",
+            "astronaut",
+            "rocket",
+            "space",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8141870-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft",
+            "astronaut",
+            "rocket",
+            "space",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8141865-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft",
+            "aviation",
+            "flight",
+            "space",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7912488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "airplane",
+            "aviation",
+            "rocket",
+            "space"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7843199-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aerospace",
+            "airplane",
+            "aviation",
+            "rocket",
+            "space"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7793503-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "advanced-technology",
+            "aerospace",
+            "aircraft",
+            "engineering",
+            "rocket",
+            "worldwide"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7551803-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "engineering",
+            "gear",
+            "rocket",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7448715-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "engineering",
+            "gear",
+            "rocket",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7448671-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "engineering",
+            "mission",
+            "rocket",
+            "space",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7353083-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "engineering",
+            "mission",
+            "rocket",
+            "space",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7353059-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "engine",
+            "industry",
+            "technology",
+            "turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6955427-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "cog",
+            "cogwheel",
+            "engineering",
+            "gear",
+            "rocket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6916700-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft",
+            "airplane",
+            "aviation",
+            "flight",
+            "plane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6912761-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6892998-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft",
+            "airplane",
+            "aviation",
+            "gear",
+            "plane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6871277-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft",
+            "aviation",
+            "fighter-plane",
+            "supersonic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6182316-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "advanced-technology",
+            "aerospace",
+            "aircraft",
+            "engineering",
+            "rocket",
+            "worldwide"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5726094-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aeronautical",
+            "aerospace",
+            "airspace",
+            "astronautical",
+            "navigation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5059447-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "alien",
+            "planet",
+            "rocket",
+            "space",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4874813-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft-engineering",
+            "engineering",
+            "rocket",
+            "rocket-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4474863-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "aircraft-engineering",
+            "engineering",
+            "rocket",
+            "rocket-engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4474836-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "carrying",
+            "landing",
+            "launch",
+            "rocked"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4147657-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aeronautical",
+            "aeroplane",
+            "aerospace",
+            "airspace",
+            "astronautical",
+            "navigation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3944049-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "education",
+            "online",
+            "technology",
+            "webinar"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3928493-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "air-plane",
+            "faa",
+            "fly",
+            "transportation",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3085644-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "astronomer",
+            "engineering",
+            "physicist",
+            "rocket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2754385-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "astronomer",
+            "engineering",
+            "physicist",
+            "rocket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2752290-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "industry",
+            "launch",
+            "satellite",
+            "spacecraft"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1837478-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "industry",
+            "launch",
+            "satellite",
+            "spacecraft"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1837442-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace",
+          "tags": [
+            "aerospace",
+            "astro",
+            "astronaut",
+            "final-frontier",
+            "future",
+            "rocket",
+            "space",
+            "stars",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/169029-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace",
+            "aerospace-engineering",
+            "book",
+            "engineering",
+            "science",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8439050-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace",
+            "aerospace-engineering",
+            "book",
+            "engineering",
+            "science",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8439049-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace",
+            "aerospace-engineering",
+            "book",
+            "engineering",
+            "science",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8439048-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace",
+            "aerospace-engineering",
+            "book",
+            "engineering",
+            "science",
+            "spaceship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8439047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Printing in aerospace",
+          "tags": [
+            "3d-printer",
+            "engineering",
+            "jet-engine",
+            "printing",
+            "printing-in-aerospace",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8238039-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace-engineering",
+            "aircraft",
+            "aviation",
+            "design",
+            "engineering",
+            "space"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7912502-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace-engineering",
+            "design",
+            "flight",
+            "space",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7608306-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace research",
+          "tags": [
+            "aerospace-research",
+            "flight",
+            "innovation",
+            "research",
+            "space",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7608296-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace-engineering",
+            "launch",
+            "space-rocket",
+            "spacecraft",
+            "spaceship",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7588275-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace-engineering",
+            "launch",
+            "space-rocket",
+            "spacecraft",
+            "spaceship",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7588225-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace-engineering",
+            "engine",
+            "engineer",
+            "jet",
+            "technology",
+            "turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7521966-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace-engineering",
+            "engine",
+            "engineer",
+            "jet",
+            "technology",
+            "turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7521908-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace",
+            "aerospace-engineering",
+            "jet",
+            "launch",
+            "rocket",
+            "startup"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7490095-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerospace",
+            "aerospace-engineering",
+            "jet",
+            "launch",
+            "rocket",
+            "startup"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7490047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerodynamics",
+            "aeronautics",
+            "aerospace-engineering",
+            "engineer",
+            "flight-mechanics",
+            "satellite-systems"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7440554-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Aerospace Engineering",
+          "tags": [
+            "aerodynamics",
+            "aeronautics",
+            "aerospace-engineering",
+            "engineer",
+            "flight-mechanics",
+            "satellite-systems"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7440532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace ship",
+          "tags": [
+            "aerospace-ship",
+            "launch",
+            "rocket",
+            "space-ship",
+            "start-up",
+            "universe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7343021-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace setting",
+          "tags": [
+            "aerospace-setting",
+            "aircraft",
+            "airline",
+            "management",
+            "space-flight"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7025930-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "aerospace applications",
+          "tags": [
+            "aerospace-applications",
+            "energy",
+            "industry",
+            "lithium",
+            "plane",
+            "satellite"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6957096-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "plane",
+    "rationale": "Refs for \"aerospace\" split between rockets and planes; plane covers aviation and defense.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

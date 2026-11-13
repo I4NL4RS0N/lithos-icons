@@ -1,0 +1,18 @@
+{
+  "id": "banks",
+  "name": "Banks",
+  "kind": "industry",
+  "parent": "financials",
+  "metaphor": "bank-building",
+  "keywords": [
+    "banks",
+    "banking",
+    "commercial banks",
+    "regional banks",
+    "lending"
+  ],
+  "reduction": "Columns: 2 at 16, 3 at 20+.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

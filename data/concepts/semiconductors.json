@@ -1,0 +1,19 @@
+{
+  "id": "semiconductors",
+  "name": "Semiconductors",
+  "kind": "industry",
+  "parent": "information-technology",
+  "metaphor": "chip",
+  "keywords": [
+    "chips",
+    "semiconductors",
+    "microchips",
+    "foundry",
+    "processors",
+    "chip shortage"
+  ],
+  "reduction": "Pins: 2 per side at 16–20, 3 at 24+. 32+: die square.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

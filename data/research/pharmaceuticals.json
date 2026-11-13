@@ -1,0 +1,810 @@
+{
+  "concept": "pharmaceuticals",
+  "query": "pharmaceutical",
+  "fetched": "2026-11-13T03:32:28.439Z",
+  "topTerms": [
+    [
+      "pharmaceutical",
+      45
+    ],
+    [
+      "medicine",
+      31
+    ],
+    [
+      "pharmacy",
+      18
+    ],
+    [
+      "drug",
+      17
+    ],
+    [
+      "medication",
+      13
+    ],
+    [
+      "drugs",
+      11
+    ],
+    [
+      "medical",
+      10
+    ],
+    [
+      "lab",
+      9
+    ],
+    [
+      "healthcare",
+      9
+    ],
+    [
+      "research",
+      6
+    ],
+    [
+      "health",
+      6
+    ],
+    [
+      "pills",
+      6
+    ],
+    [
+      "capsule",
+      5
+    ],
+    [
+      "pharmaceuticals",
+      5
+    ],
+    [
+      "laboratory",
+      5
+    ],
+    [
+      "science",
+      4
+    ],
+    [
+      "care",
+      4
+    ],
+    [
+      "factory",
+      3
+    ],
+    [
+      "bottle",
+      3
+    ],
+    [
+      "doctor",
+      3
+    ],
+    [
+      "biomedical",
+      3
+    ],
+    [
+      "biotechnology",
+      3
+    ],
+    [
+      "pharmacology",
+      3
+    ],
+    [
+      "prescription",
+      3
+    ],
+    [
+      "analysis",
+      2
+    ],
+    [
+      "pill",
+      2
+    ],
+    [
+      "building",
+      2
+    ],
+    [
+      "facility",
+      2
+    ],
+    [
+      "manufacturing",
+      2
+    ],
+    [
+      "production",
+      2
+    ],
+    [
+      "chemistry",
+      2
+    ],
+    [
+      "industri",
+      2
+    ],
+    [
+      "pharmachy",
+      2
+    ],
+    [
+      "test",
+      2
+    ],
+    [
+      "antibiotic",
+      2
+    ],
+    [
+      "dna",
+      2
+    ],
+    [
+      "genetic",
+      2
+    ],
+    [
+      "industry",
+      2
+    ],
+    [
+      "healthy",
+      2
+    ],
+    [
+      "healthcare-and-medical",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "analysis",
+            "lab",
+            "medicine",
+            "pharmaceutical",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "analysis",
+            "lab",
+            "medicine",
+            "pharmaceutical",
+            "pill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424486-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "capsule",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424484-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drugs",
+            "health",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424483-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "chemical",
+            "factory",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424482-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "capsule",
+            "health",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424481-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "healthcare",
+            "medical",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403307-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "building",
+            "drug",
+            "facility",
+            "manufacturing",
+            "pharmaceutical",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8395014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "building",
+            "drug",
+            "facility",
+            "manufacturing",
+            "pharmaceutical",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8365794-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "bottle",
+            "capsule",
+            "healthcare",
+            "medicine",
+            "pharmaceutical",
+            "pills"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8356586-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceuticals",
+          "tags": [
+            "doctor",
+            "healthcare",
+            "history",
+            "hospital",
+            "pharmaceuticals"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8338590-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "book",
+            "chemistry",
+            "formula",
+            "pharmaceutical",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8282749-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "bottle",
+            "capsule",
+            "factory",
+            "industri",
+            "pharmaceutical",
+            "pharmachy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233573-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "cure",
+            "lab",
+            "medicine",
+            "pharma",
+            "pharmaceutical",
+            "pill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8126985-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "lab",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8112121-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "lab",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8103242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "chemistry",
+            "drug",
+            "laboratory",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8092422-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "lab",
+            "medicine",
+            "pharmaceutical",
+            "pharmaceutical",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8066561-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "lab",
+            "pharmaceutical",
+            "pharmaceutical",
+            "research",
+            "test"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8066552-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "lab",
+            "medicine",
+            "pharmaceutical",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8059655-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "lab",
+            "pharmaceutical",
+            "research",
+            "test"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8059637-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "antibiotic",
+            "dna",
+            "drug",
+            "genetic",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8014966-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "antibiotic",
+            "dna",
+            "drug",
+            "genetic",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7961272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "industry",
+            "medicine",
+            "pharmaceutical",
+            "pharmaceutical",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7914976-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "biomedical",
+            "biotechnology",
+            "medicine-antibiotic",
+            "pharmaceutical",
+            "pharmacology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7865298-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "industry",
+            "medicine",
+            "pharmaceutical",
+            "prescription",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7828140-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "care",
+            "health",
+            "medical",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7714352-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "care",
+            "health",
+            "medical",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7714346-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "care",
+            "health",
+            "medical",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7714342-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "doctor",
+            "healthcare",
+            "healthy",
+            "medical",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7660803-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "doctor",
+            "healthcare",
+            "healthy",
+            "medical",
+            "medicine",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7660798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drugs",
+            "laboratory",
+            "medication",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7649743-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drugs",
+            "laboratory",
+            "medication",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7649727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "medical",
+            "medication",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy",
+            "prescription"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7587825-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "medical",
+            "medication",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy",
+            "prescription"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7587811-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceuticals",
+          "tags": [
+            "drugs",
+            "healthcare",
+            "medication",
+            "pharmaceuticals",
+            "pharmacy",
+            "pills"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7515030-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceuticals",
+          "tags": [
+            "drugs",
+            "healthcare",
+            "medication",
+            "pharmaceuticals",
+            "pharmacy",
+            "pills"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7514776-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "medication",
+            "medicine",
+            "pharmaceutical",
+            "pharmaceutical-industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7501501-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceuticals",
+          "tags": [
+            "drugs",
+            "healthcare",
+            "medication",
+            "pharmaceuticals",
+            "pharmacy",
+            "pills"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7238634-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceuticals",
+          "tags": [
+            "drugs",
+            "healthcare",
+            "medication",
+            "pharmaceuticals",
+            "pharmacy",
+            "pills"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7238613-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "bottle",
+            "capsule",
+            "factory",
+            "industri",
+            "pharmaceutical",
+            "pharmachy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7219708-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "biomedical",
+            "biotechnology",
+            "healthcare-and-medical",
+            "pharmaceutical",
+            "pharmacology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7074533-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "drugs",
+            "medical",
+            "medication",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7050780-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drug",
+            "drugs",
+            "medical",
+            "medication",
+            "pharmaceutical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7050773-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drugs",
+            "laboratory",
+            "medication",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6993513-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "drugs",
+            "laboratory",
+            "medication",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6993485-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "biomedical",
+            "biotechnology",
+            "healthcare-and-medical",
+            "pharmaceutical",
+            "pharmacology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6976560-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "jar",
+            "pharmaceutical",
+            "pills",
+            "test-tube",
+            "testing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6910586-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "ayurveda",
+            "healing",
+            "herbal",
+            "natural",
+            "pharmaceutical",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6824726-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pharmaceutical",
+          "tags": [
+            "care",
+            "health",
+            "medicine",
+            "pharmaceutical",
+            "pharmacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6586100-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "capsule",
+    "rationale": "Refs for \"pharmaceutical\" show pill bottles, capsules and flasks; capsule is simplest.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

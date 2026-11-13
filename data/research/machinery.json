@@ -1,0 +1,813 @@
+{
+  "concept": "machinery",
+  "query": "machinery",
+  "fetched": "2026-11-13T03:32:25.679Z",
+  "topTerms": [
+    [
+      "machinery",
+      50
+    ],
+    [
+      "machine",
+      26
+    ],
+    [
+      "factory",
+      17
+    ],
+    [
+      "construction",
+      17
+    ],
+    [
+      "engineering",
+      14
+    ],
+    [
+      "tool",
+      13
+    ],
+    [
+      "equipment",
+      13
+    ],
+    [
+      "mechanical",
+      12
+    ],
+    [
+      "automation",
+      12
+    ],
+    [
+      "industry",
+      11
+    ],
+    [
+      "industrial",
+      11
+    ],
+    [
+      "gear",
+      10
+    ],
+    [
+      "technology",
+      8
+    ],
+    [
+      "robot",
+      7
+    ],
+    [
+      "tools",
+      7
+    ],
+    [
+      "manufacturing",
+      6
+    ],
+    [
+      "mechanism",
+      5
+    ],
+    [
+      "wheel",
+      4
+    ],
+    [
+      "engine",
+      3
+    ],
+    [
+      "control",
+      2
+    ],
+    [
+      "process",
+      2
+    ],
+    [
+      "production",
+      2
+    ],
+    [
+      "arm",
+      2
+    ],
+    [
+      "operations",
+      2
+    ],
+    [
+      "system",
+      2
+    ],
+    [
+      "mechanic",
+      2
+    ],
+    [
+      "service",
+      2
+    ],
+    [
+      "work",
+      2
+    ],
+    [
+      "automatic-control",
+      2
+    ],
+    [
+      "warehouse",
+      2
+    ],
+    [
+      "modeling",
+      2
+    ],
+    [
+      "printer",
+      2
+    ],
+    [
+      "noise",
+      1
+    ],
+    [
+      "pollution",
+      1
+    ],
+    [
+      "device",
+      1
+    ],
+    [
+      "3d",
+      1
+    ],
+    [
+      "model",
+      1
+    ],
+    [
+      "tech",
+      1
+    ],
+    [
+      "business",
+      1
+    ],
+    [
+      "hardware",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "machinery",
+          "tags": [
+            "control",
+            "factory",
+            "industry",
+            "machinery",
+            "manufacturing",
+            "process"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8099490-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "factory",
+            "industry",
+            "machine",
+            "machinery",
+            "robot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470285-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "factory",
+            "machine",
+            "machinery",
+            "mechanical",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392227-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "gear",
+            "machinery",
+            "mechanism",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281051-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "construction",
+            "engineering",
+            "industrial",
+            "machinery",
+            "machinery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8273541-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "construction",
+            "engineering",
+            "industrial",
+            "machinery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8273524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "factory",
+            "industry",
+            "machinery",
+            "noise",
+            "pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8244693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "factory",
+            "industrial",
+            "machinery",
+            "production",
+            "robot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8223798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "engineering",
+            "industrial",
+            "machine",
+            "machinery",
+            "manufacturing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8218259-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "engineering",
+            "industrial",
+            "machine",
+            "machinery",
+            "manufacturing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8218233-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "arm",
+            "automation",
+            "factory",
+            "industrial",
+            "machinery",
+            "robot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8199668-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "arm",
+            "automation",
+            "factory",
+            "industrial",
+            "machinery",
+            "robot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8199644-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "control",
+            "factory",
+            "industry",
+            "machinery",
+            "manufacturing",
+            "process"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8190055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "gear",
+            "machine",
+            "machinery",
+            "mechanical",
+            "tools",
+            "wheel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8116559-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "gear",
+            "machine",
+            "machinery",
+            "mechanical",
+            "tools",
+            "wheel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8116539-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "gear",
+            "machine",
+            "machinery",
+            "mechanical",
+            "tools",
+            "wheel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7915922-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "gear",
+            "machine",
+            "machinery",
+            "mechanical",
+            "tools",
+            "wheel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7915914-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "factory",
+            "machine",
+            "machinery",
+            "robot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7908720-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engine",
+            "engineering",
+            "machinery",
+            "mechanism",
+            "operations",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861728-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engine",
+            "engineering",
+            "machinery",
+            "mechanism",
+            "operations",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861553-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "gear",
+            "machinery",
+            "mechanism",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7843201-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "engine",
+            "gear",
+            "machinery",
+            "mechanism",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7793500-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "device",
+            "gear",
+            "industrial",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7681573-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "gear",
+            "industry",
+            "machinery",
+            "manufacturing",
+            "mechanic",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7408153-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "gear",
+            "industry",
+            "machinery",
+            "manufacturing",
+            "mechanic",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7408101-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "factory",
+            "industry",
+            "machine",
+            "machinery",
+            "robot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7360528-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "factory",
+            "industry",
+            "machine",
+            "machinery",
+            "robot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7360500-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "equipment",
+            "industrial",
+            "machinery",
+            "technology",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7289674-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "factory",
+            "industrial",
+            "machinery",
+            "mechanical",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7085479-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "factory",
+            "industrial",
+            "machinery",
+            "mechanical",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7085454-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "factory",
+            "machinery",
+            "mechanical",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6937608-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automatic-control",
+            "construction",
+            "industry",
+            "machinery",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6689200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automatic-control",
+            "construction",
+            "industry",
+            "machinery",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6689197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "automation",
+            "equipment",
+            "machinery",
+            "mechanical",
+            "technology",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6554778-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "3d",
+            "machine",
+            "machinery",
+            "model",
+            "modeling",
+            "printer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6510476-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "machine",
+            "machinery",
+            "modeling",
+            "printer",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6510456-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "factory",
+            "machine",
+            "machinery",
+            "mechanical",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6331468-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "factory",
+            "machine",
+            "machinery",
+            "mechanical",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6331427-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "factory",
+            "machinery",
+            "mechanical",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5737291-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "business",
+            "equipment",
+            "industry",
+            "machine",
+            "machinery",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5130433-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821084-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821077-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821036-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821034-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821020-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821005-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821001-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "construction",
+            "equipment",
+            "machine",
+            "machinery",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4821000-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "machinery",
+          "tags": [
+            "engineering",
+            "equipment",
+            "hardware",
+            "machinery",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4679808-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "gear",
+    "rationale": "Refs for \"machinery\" split between robot arms and gears; gear is simpler at 16px.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

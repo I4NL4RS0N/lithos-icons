@@ -1,0 +1,19 @@
+{
+  "id": "software",
+  "name": "Software",
+  "kind": "industry",
+  "parent": "information-technology",
+  "metaphor": "code-window",
+  "keywords": [
+    "software",
+    "SaaS",
+    "applications",
+    "cloud",
+    "code",
+    "developers"
+  ],
+  "reduction": "20+: title bar. 32+: slash between brackets.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

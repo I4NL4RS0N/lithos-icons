@@ -1,0 +1,21 @@
+{
+  "id": "oil-gas",
+  "name": "Oil & Gas",
+  "kind": "industry",
+  "parent": "energy",
+  "metaphor": "pump-jack",
+  "keywords": [
+    "oil",
+    "gas",
+    "drilling",
+    "exploration",
+    "production",
+    "upstream",
+    "crude",
+    "pump jack"
+  ],
+  "reduction": "24+: counterweight.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

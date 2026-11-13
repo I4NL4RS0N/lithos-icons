@@ -40,7 +40,8 @@ for (const id of readdirSync('icons')) {
       if (img.data[(y * img.width + x) * 4 + 3] > 40) { ink++; minX = Math.min(minX, x); minY = Math.min(minY, y); maxX = Math.max(maxX, x); maxY = Math.max(maxY, y); }
     }
     const W = img.width;
-    (weights[`${style}-${size}`] ||= []).push({ file, cov: ink / (W * W) });
+    // Maps follow real geography, so they're exempt from the weight band (SPEC §6).
+    if (!/^(country|region)-/.test(id)) (weights[`${style}-${size}`] ||= []).push({ file, cov: ink / (W * W) });
     if (!ink) fail(file, 'empty');
     else if (minX < lim || minY < lim || maxX > W - 1 - lim || maxY > W - 1 - lim) fail(file, `ink outside live area (${[minX, minY, maxX, maxY].map((v) => (v / Z).toFixed(1))})`);
   }

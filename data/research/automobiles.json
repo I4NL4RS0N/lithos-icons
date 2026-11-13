@@ -1,0 +1,803 @@
+{
+  "concept": "automobiles",
+  "query": "automobile",
+  "fetched": "2026-11-13T03:32:26.861Z",
+  "topTerms": [
+    [
+      "automobile",
+      48
+    ],
+    [
+      "car",
+      40
+    ],
+    [
+      "vehicle",
+      31
+    ],
+    [
+      "transport",
+      27
+    ],
+    [
+      "transportation",
+      14
+    ],
+    [
+      "auto",
+      11
+    ],
+    [
+      "drive",
+      7
+    ],
+    [
+      "eco-friendly",
+      6
+    ],
+    [
+      "travel",
+      4
+    ],
+    [
+      "car-wash",
+      4
+    ],
+    [
+      "cleaning",
+      4
+    ],
+    [
+      "mobility",
+      3
+    ],
+    [
+      "suv",
+      3
+    ],
+    [
+      "sedan",
+      3
+    ],
+    [
+      "automotive",
+      3
+    ],
+    [
+      "repair",
+      3
+    ],
+    [
+      "service",
+      3
+    ],
+    [
+      "green",
+      2
+    ],
+    [
+      "automobiles",
+      2
+    ],
+    [
+      "cars",
+      2
+    ],
+    [
+      "engineering",
+      2
+    ],
+    [
+      "vehicles",
+      2
+    ],
+    [
+      "wheel",
+      2
+    ],
+    [
+      "car-services",
+      2
+    ],
+    [
+      "brake",
+      2
+    ],
+    [
+      "brakes",
+      2
+    ],
+    [
+      "disc",
+      2
+    ],
+    [
+      "disc-brake",
+      2
+    ],
+    [
+      "trunk-open",
+      2
+    ],
+    [
+      "tire",
+      2
+    ],
+    [
+      "future",
+      1
+    ],
+    [
+      "innovation",
+      1
+    ],
+    [
+      "urban",
+      1
+    ],
+    [
+      "lamborghini",
+      1
+    ],
+    [
+      "sport-car",
+      1
+    ],
+    [
+      "transportations",
+      1
+    ],
+    [
+      "delivery",
+      1
+    ],
+    [
+      "motor",
+      1
+    ],
+    [
+      "taxi",
+      1
+    ],
+    [
+      "traffic",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8302747-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8235344-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "future",
+            "innovation",
+            "mobility",
+            "transportation",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8204073-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "lamborghini",
+            "sport-car",
+            "transportations"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7907350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "eco-friendly",
+            "green",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7753246-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "eco-friendly",
+            "green",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7753232-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "transport",
+            "travel",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7664414-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "automobiles",
+          "tags": [
+            "automobiles",
+            "cars",
+            "engineering",
+            "mobility",
+            "transport",
+            "vehicles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7627016-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "automobiles",
+          "tags": [
+            "automobiles",
+            "cars",
+            "engineering",
+            "mobility",
+            "transport",
+            "vehicles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7626974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "eco-friendly",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7564714-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "eco-friendly",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7564662-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "eco-friendly",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7564501-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "eco-friendly",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7564486-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "suv",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7494977-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "suv",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7494963-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "drive",
+            "wheel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7411262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "drive",
+            "wheel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7411216-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "car-services",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7365056-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "delivery",
+            "motor",
+            "taxi",
+            "traffic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7305952-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7256034-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "brake",
+            "brakes",
+            "disc",
+            "disc-brake"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7218388-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "brake",
+            "brakes",
+            "disc",
+            "disc-brake"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7218387-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "clean",
+            "electric",
+            "energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7188049-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "car-wash",
+            "cleaning",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7132355-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "car-wash",
+            "cleaning",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7132338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "car-wash",
+            "cleaning",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7132215-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "car-wash",
+            "cleaning",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7132175-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "drive",
+            "sedan",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7074314-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "drive",
+            "sedan",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7074243-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "automotive",
+            "car",
+            "drive",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6999806-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "automotive",
+            "car",
+            "drive",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6999778-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6809397-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "best",
+            "car",
+            "celebrate",
+            "price",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6749841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6639501-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6639494-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "transportation",
+            "trunk-open"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6613643-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "transportation",
+            "trunk-open"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6524218-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "drive",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6368402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "transport",
+            "travel",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6280276-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "ai",
+            "artificial-intelligence",
+            "automobile",
+            "smart-car",
+            "transportation",
+            "wireless"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5965360-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "electricity",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5861373-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "emission",
+            "gas",
+            "pollution",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5820112-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "repair",
+            "service",
+            "tire"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5814287-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "repair",
+            "service",
+            "tire"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5814196-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "gps",
+            "map",
+            "navigation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5766184-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto-car",
+            "automobile",
+            "car",
+            "sedan",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5736268-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "suv",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5736242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "auto",
+            "automobile",
+            "car",
+            "technology",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5523096-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "automotive",
+            "car",
+            "maintenance",
+            "repair",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5480415-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Automobile",
+          "tags": [
+            "automobile",
+            "car",
+            "car-services",
+            "transport",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5435931-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "car",
+    "rationale": "Refs for \"automobile\" dominated by cars.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

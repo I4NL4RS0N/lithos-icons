@@ -1,0 +1,19 @@
+{
+  "id": "aerospace-defense",
+  "name": "Aerospace & Defense",
+  "kind": "industry",
+  "parent": "industrials",
+  "metaphor": "plane",
+  "keywords": [
+    "aerospace",
+    "defense",
+    "aircraft",
+    "aviation",
+    "military",
+    "plane"
+  ],
+  "reduction": "None — single silhouette.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

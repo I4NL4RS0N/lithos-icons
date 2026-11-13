@@ -1,0 +1,818 @@
+{
+  "concept": "water-utilities",
+  "query": "water supply",
+  "fetched": "2026-11-13T03:32:22.561Z",
+  "topTerms": [
+    [
+      "water supply",
+      50
+    ],
+    [
+      "water-supply",
+      50
+    ],
+    [
+      "water",
+      31
+    ],
+    [
+      "supply",
+      24
+    ],
+    [
+      "plumbing",
+      20
+    ],
+    [
+      "home",
+      9
+    ],
+    [
+      "faucet",
+      9
+    ],
+    [
+      "sanitation",
+      8
+    ],
+    [
+      "house",
+      7
+    ],
+    [
+      "pipe",
+      7
+    ],
+    [
+      "water-tap",
+      6
+    ],
+    [
+      "filtration",
+      5
+    ],
+    [
+      "hydration",
+      4
+    ],
+    [
+      "truck",
+      4
+    ],
+    [
+      "system",
+      4
+    ],
+    [
+      "sustainability",
+      4
+    ],
+    [
+      "tap",
+      4
+    ],
+    [
+      "clean",
+      3
+    ],
+    [
+      "tanker",
+      3
+    ],
+    [
+      "utility",
+      3
+    ],
+    [
+      "purification",
+      3
+    ],
+    [
+      "distribution",
+      3
+    ],
+    [
+      "resource",
+      3
+    ],
+    [
+      "hydraulics",
+      3
+    ],
+    [
+      "wastewater-treatment",
+      3
+    ],
+    [
+      "charity",
+      2
+    ],
+    [
+      "community",
+      2
+    ],
+    [
+      "help",
+      2
+    ],
+    [
+      "humanitarian",
+      2
+    ],
+    [
+      "support",
+      2
+    ],
+    [
+      "emergency",
+      2
+    ],
+    [
+      "fire",
+      2
+    ],
+    [
+      "hose",
+      2
+    ],
+    [
+      "drop",
+      2
+    ],
+    [
+      "pipeline",
+      2
+    ],
+    [
+      "arrow",
+      2
+    ],
+    [
+      "pump",
+      2
+    ],
+    [
+      "up",
+      2
+    ],
+    [
+      "city",
+      2
+    ],
+    [
+      "quality",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "water supply",
+          "tags": [
+            "charity",
+            "community",
+            "help",
+            "humanitarian",
+            "support",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "charity",
+            "community",
+            "help",
+            "humanitarian",
+            "support",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487322-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "emergency",
+            "fire",
+            "hose",
+            "hydrant",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8431114-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "emergency",
+            "fire",
+            "hose",
+            "supply",
+            "tank",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "clean",
+            "filtration",
+            "home",
+            "house",
+            "plumbing",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8358014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "drink",
+            "drop",
+            "supply",
+            "survival",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8314537-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "drinking",
+            "hydration",
+            "pipeline",
+            "plumbing",
+            "supply",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281611-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "arrow",
+            "pump",
+            "supply",
+            "up",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8268747-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "pipe",
+            "supply",
+            "tanker",
+            "truck",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8256131-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "arrow",
+            "increase",
+            "pump",
+            "up",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8228184-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "pipe",
+            "supply",
+            "tanker",
+            "truck",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8208541-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "pipe",
+            "supply",
+            "tanker",
+            "truck",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8208508-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "city",
+            "house",
+            "plumbing",
+            "system",
+            "utility",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8173425-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "city",
+            "house",
+            "plumbing",
+            "system",
+            "utility",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8173411-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "pipeline",
+            "purification",
+            "reservoir",
+            "water-supply",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8091154-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "quality",
+            "sanitation",
+            "supply",
+            "sustainability",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8056230-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "quality",
+            "sanitation",
+            "supply",
+            "sustainability",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8056203-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "clean",
+            "filtration",
+            "pipe",
+            "plumbing",
+            "water-supply",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7996062-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "clean",
+            "filtration",
+            "pipe",
+            "plumbing",
+            "water-supply",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7996026-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "distribution",
+            "drop",
+            "hydration",
+            "savings",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7947334-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "home",
+            "pipe",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7753130-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "home",
+            "pipe",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7753116-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "sustainability",
+            "system",
+            "tap",
+            "treatment",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7736192-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "sustainability",
+            "system",
+            "tap",
+            "treatment",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7736157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "aid",
+            "distribution",
+            "hydration",
+            "relief",
+            "resource",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7682016-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "supply",
+            "tap",
+            "water",
+            "water-supply",
+            "water-tap"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7669306-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "supply",
+            "transportation",
+            "truck",
+            "vehicle",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7562387-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "drinking-water",
+            "filtration",
+            "plumbing",
+            "purification",
+            "sanitation",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7534519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "drinking-water",
+            "filtration",
+            "plumbing",
+            "purification",
+            "sanitation",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7534494-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "plumbing",
+            "resource",
+            "supply",
+            "utility",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7325435-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "domestic",
+            "home",
+            "management",
+            "resource",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7134813-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7067413-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7067391-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply",
+            "water-tap"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7042511-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply",
+            "water-tap"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7042500-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "hydration",
+            "liquid",
+            "plumbing",
+            "tap",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7036489-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "industry",
+            "sanitation",
+            "supply",
+            "water",
+            "water-pipe",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6980132-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "access",
+            "distribution",
+            "infrastructure",
+            "provision",
+            "resources",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6947454-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "supply",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6942793-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "supply",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6942780-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "home",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply",
+            "water-tap"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6918733-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "home",
+            "plumbing",
+            "supply",
+            "water",
+            "water-supply",
+            "water-tap"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6918658-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "home",
+            "house",
+            "plumbing",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6902969-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "faucet",
+            "home",
+            "house",
+            "plumbing",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6902946-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "architect",
+            "construction",
+            "house",
+            "renovation",
+            "repair",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6802826-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "conservation",
+            "groundwater",
+            "home",
+            "management",
+            "water",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6777716-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "house",
+            "infrastructure",
+            "supply",
+            "water",
+            "water-supply",
+            "water-tap"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6747978-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "hydraulics",
+            "sanitation",
+            "wastewater-treatment",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6737787-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "hydraulics",
+            "sanitation",
+            "wastewater-treatment",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6737737-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "water supply",
+          "tags": [
+            "hydraulics",
+            "sanitation",
+            "wastewater-treatment",
+            "water-supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6737676-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "tap",
+    "rationale": "Refs for \"water supply\" dominated by taps/faucets with a drop.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

@@ -106,14 +106,15 @@ export default [
       const gap = (k.sw + 1.2) / k.L, wt = low + gap * 0.6;
       const door = k.tier >= 1;
       const walls = k.path([['M', 0.08, wt], ['V', 1], ['H', 0.92], ['V', wt]]);
-      const doorP = k.path([['M', 0.38, 1], ['V', 0.68], ['H', 0.62], ['V', 1]]);
+      const [d0, d1, dt0] = k.tier >= 3 ? [0.34, 0.66, 0.6] : [0.38, 0.62, 0.68];
+      const doorP = k.path([['M', d0, 1], ['V', dt0], ['H', d1], ['V', 1]]);
       const g = k.grow, bt = low + gap;
       const body = [[0.08, bt], [0.92, bt], [0.92, 1]];
-      if (door) body.push([0.62 + g, 1], [0.62 + g, 0.68 + g], [0.38 - g, 0.68 + g], [0.38 - g, 1]);
+      if (door) body.push([d1 + g, 1], [d1 + g, dt0 + g], [d0 - g, dt0 + g], [d0 - g, 1]);
       body.push([0.08, 1]);
       return {
         outline: [k.path(awn, { snap: false }), walls, ...(door ? [doorP] : [])],
-        solid: [{ d: k.path(awn, { snap: false }), fill: true }, { d: k.poly(body, { snap: false }), fill: true }],
+        solid: [{ d: k.path(awn, { snap: false }), fill: true }, { d: walls, fill: false }, ...(door ? [{ d: k.path([['M', d0, 1], ['V', dt0], ['H', d1], ['V', 1], ['Z']]), fill: true }] : [])],
       };
     },
   },

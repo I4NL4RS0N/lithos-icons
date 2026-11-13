@@ -1,0 +1,808 @@
+{
+  "concept": "oil-gas",
+  "query": "oil drilling",
+  "fetched": "2026-11-13T03:32:23.706Z",
+  "topTerms": [
+    [
+      "oil-drilling",
+      25
+    ],
+    [
+      "oil-drill",
+      22
+    ],
+    [
+      "drilling",
+      21
+    ],
+    [
+      "oil drill",
+      20
+    ],
+    [
+      "oil drilling",
+      20
+    ],
+    [
+      "oil",
+      17
+    ],
+    [
+      "petroleum",
+      16
+    ],
+    [
+      "exploration",
+      12
+    ],
+    [
+      "rig",
+      12
+    ],
+    [
+      "energy",
+      11
+    ],
+    [
+      "drill",
+      10
+    ],
+    [
+      "energy-production",
+      9
+    ],
+    [
+      "natural-resources",
+      9
+    ],
+    [
+      "oil-exploration",
+      9
+    ],
+    [
+      "pump",
+      6
+    ],
+    [
+      "oil-derrick",
+      5
+    ],
+    [
+      "industry",
+      5
+    ],
+    [
+      "resource",
+      5
+    ],
+    [
+      "drilling oil",
+      4
+    ],
+    [
+      "drilling-oil",
+      4
+    ],
+    [
+      "industrial",
+      4
+    ],
+    [
+      "extraction",
+      4
+    ],
+    [
+      "machinery",
+      3
+    ],
+    [
+      "machine",
+      3
+    ],
+    [
+      "economy",
+      3
+    ],
+    [
+      "bit",
+      3
+    ],
+    [
+      "fuel",
+      3
+    ],
+    [
+      "layer",
+      3
+    ],
+    [
+      "drilling-rig",
+      2
+    ],
+    [
+      "oil-platform",
+      2
+    ],
+    [
+      "oil derrick",
+      2
+    ],
+    [
+      "derrick",
+      2
+    ],
+    [
+      "oil-well",
+      2
+    ],
+    [
+      "equipment",
+      2
+    ],
+    [
+      "fossil",
+      2
+    ],
+    [
+      "ground",
+      2
+    ],
+    [
+      "platform",
+      2
+    ],
+    [
+      "auger",
+      2
+    ],
+    [
+      "gasoline",
+      2
+    ],
+    [
+      "mining-industry",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "drilling oil",
+          "tags": [
+            "drilling",
+            "drilling-oil",
+            "drilling-rig",
+            "oil",
+            "oil-drilling",
+            "oil-platform"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7973969-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drilling oil",
+          "tags": [
+            "drilling",
+            "drilling-oil",
+            "drilling-rig",
+            "oil",
+            "oil-drilling",
+            "oil-platform"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7402133-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil derrick",
+          "tags": [
+            "derrick",
+            "drilling",
+            "oil",
+            "oil-derrick",
+            "oil-drilling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5934633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil derrick",
+          "tags": [
+            "derrick",
+            "drilling",
+            "oil",
+            "oil-derrick",
+            "oil-drilling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5857558-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil well",
+          "tags": [
+            "drilling",
+            "oil",
+            "oil-derrick",
+            "oil-drilling",
+            "oil-rig",
+            "oil-well"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5499654-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drilling",
+            "exploration",
+            "machinery",
+            "oil-drill",
+            "oil-drill",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515663-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drilling",
+            "exploration",
+            "machinery",
+            "oil-drill",
+            "oil-drill",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515629-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drill",
+            "extract",
+            "oil",
+            "oil-drill",
+            "petroleum",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501184-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drilling",
+            "exploration",
+            "oil-drill",
+            "petroleum",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443309-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drilling",
+            "exploration",
+            "oil-drill",
+            "oil-drill",
+            "petroleum",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443192-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Crude oil  Driller",
+          "tags": [
+            "crude-oil",
+            "crude-oil-driller",
+            "crude-oil-driller",
+            "machine",
+            "oil-driller"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233141-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "equipment",
+            "machine",
+            "oil-drill",
+            "petroleum",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8159025-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "equipment",
+            "machine",
+            "oil-drill",
+            "oil-drill",
+            "petroleum",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8159000-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "petroleum",
+          "tags": [
+            "drilling",
+            "industry",
+            "oil-drill",
+            "oil-pumps",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7960962-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "business",
+            "economic",
+            "economy",
+            "industrial",
+            "industry",
+            "oil-drilling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7751356-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bit",
+          "tags": [
+            "bit",
+            "drill",
+            "oil-drill",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7728054-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "factory",
+            "industry",
+            "oil-drilling",
+            "petroleum",
+            "pumpjack",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7589850-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553795-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553789-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553786-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "oil-drilling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553785-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553784-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553783-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553782-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553781-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553780-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "energy",
+            "energy-production",
+            "natural-resources",
+            "oil-drilling",
+            "oil-exploration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7553779-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drill",
+            "fossil",
+            "ground",
+            "oil",
+            "oil-drill",
+            "platform"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7476873-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drill",
+            "fossil",
+            "ground",
+            "oil",
+            "oil-drill",
+            "platform"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7471084-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "auger",
+            "bit",
+            "drill",
+            "drilling",
+            "oil",
+            "oil-drill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7149469-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "auger",
+            "bit",
+            "drill",
+            "drilling",
+            "oil",
+            "oil-drill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7149028-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "exploration",
+            "gasoline",
+            "oil-drill",
+            "petroleum",
+            "pump",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7085511-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "exploration",
+            "gasoline",
+            "oil-drill",
+            "petroleum",
+            "pump",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7085462-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "energy",
+            "exploration",
+            "fuel",
+            "industrial",
+            "oil-drill",
+            "pump"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6937620-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "extraction",
+            "mining-industry",
+            "oil-derrick",
+            "oil-drill",
+            "oil-mining",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6714444-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "extraction",
+            "mining-industry",
+            "oil-derrick",
+            "oil-drill",
+            "oil-mining",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6714388-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "drilling",
+            "layer",
+            "oil",
+            "oil-drilling",
+            "resource",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6690152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "drilling",
+            "layer",
+            "oil",
+            "oil-drilling",
+            "resource",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6690113-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "drilling",
+            "earth",
+            "exploration",
+            "oil-drilling",
+            "pump",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6671552-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "drilling",
+            "exploration",
+            "oil",
+            "oil-drilling",
+            "pump",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6671546-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "drill",
+            "drill-hole",
+            "oil",
+            "oil-drill",
+            "well"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6567881-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "drill",
+            "drilling",
+            "offshore",
+            "oil",
+            "oil-drilling",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6567842-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drilling oil",
+          "tags": [
+            "drilling",
+            "drilling-oil",
+            "exploration",
+            "extraction",
+            "oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6507683-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "construction",
+            "economy",
+            "industrial",
+            "industry",
+            "oil-drilling",
+            "oil-well"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6451874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drilling oil",
+          "tags": [
+            "drilling-oil",
+            "exploration",
+            "extraction",
+            "machinery",
+            "operation",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6422132-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "development",
+            "drilling-ships",
+            "economy",
+            "industry",
+            "oil-drilling",
+            "oil-prices"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6246853-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drilling",
+          "tags": [
+            "drilling",
+            "layer",
+            "oil",
+            "oil-drilling",
+            "resource",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5981960-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "construction-and-tools",
+            "drill",
+            "drilling",
+            "oil-drill",
+            "petroleum",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5939508-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "construction-and-tools",
+            "drill",
+            "drilling",
+            "fuel",
+            "oil-drill",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5939479-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil drill",
+          "tags": [
+            "energy",
+            "exploration",
+            "fuel",
+            "industrial",
+            "oil-drill",
+            "pump"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5737315-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "pump-jack",
+    "rationale": "Refs for \"oil drilling\" dominated by pump jacks and derricks.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

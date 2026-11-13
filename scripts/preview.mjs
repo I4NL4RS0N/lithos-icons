@@ -20,7 +20,7 @@ for (const style of ['outline', 'solid']) {
 }
 items.forEach((c, r) => {
   const y = oy + top + r * rowH;
-  out += `<text x="16" y="${y + 30}" font-size="13" fill="${fg}">${c.name}</text><text x="16" y="${y + 47}" font-size="10.5" fill="#999">${c.id}</text>`;
+  out += `<text x="16" y="${y + 30}" font-size="13" fill="${fg}">${c.name.replace(/&/g, "&amp;")}</text><text x="16" y="${y + 47}" font-size="10.5" fill="#999">${c.id}</text>`;
   out += `<line x1="16" x2="${W - 16}" y1="${y + rowH - 4}" y2="${y + rowH - 4}" stroke="${line}"/>`;
   for (const style of ['outline', 'solid']) SIZES.forEach((s, i) => {
     const src = readFileSync(`icons/${c.id}/${style}-${s}.svg`, 'utf8').trim()

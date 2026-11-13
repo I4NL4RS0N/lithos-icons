@@ -1,0 +1,809 @@
+{
+  "concept": "insurance",
+  "query": "insurance",
+  "fetched": "2026-11-13T03:32:27.926Z",
+  "topTerms": [
+    [
+      "insurance",
+      50
+    ],
+    [
+      "protection",
+      29
+    ],
+    [
+      "coverage",
+      14
+    ],
+    [
+      "safety",
+      12
+    ],
+    [
+      "finance",
+      11
+    ],
+    [
+      "policy",
+      10
+    ],
+    [
+      "security",
+      10
+    ],
+    [
+      "shield",
+      10
+    ],
+    [
+      "assurance",
+      9
+    ],
+    [
+      "health-insurance",
+      6
+    ],
+    [
+      "money",
+      5
+    ],
+    [
+      "guarantee",
+      5
+    ],
+    [
+      "healthcare",
+      5
+    ],
+    [
+      "risk",
+      4
+    ],
+    [
+      "safe",
+      4
+    ],
+    [
+      "document",
+      3
+    ],
+    [
+      "law",
+      3
+    ],
+    [
+      "property",
+      3
+    ],
+    [
+      "risk-management",
+      3
+    ],
+    [
+      "package",
+      3
+    ],
+    [
+      "financial-insurance",
+      2
+    ],
+    [
+      "life-insurance",
+      2
+    ],
+    [
+      "business-and-fiannce",
+      2
+    ],
+    [
+      "cash",
+      2
+    ],
+    [
+      "economy",
+      2
+    ],
+    [
+      "medical-insurance",
+      2
+    ],
+    [
+      "warranty",
+      2
+    ],
+    [
+      "tax",
+      2
+    ],
+    [
+      "checkmark",
+      2
+    ],
+    [
+      "financial-security",
+      2
+    ],
+    [
+      "protect",
+      2
+    ],
+    [
+      "investment",
+      2
+    ],
+    [
+      "check-mark",
+      2
+    ],
+    [
+      "delivery-box",
+      2
+    ],
+    [
+      "shipping-and-delivery",
+      2
+    ],
+    [
+      "file",
+      2
+    ],
+    [
+      "page",
+      2
+    ],
+    [
+      "business-insurance",
+      1
+    ],
+    [
+      "money-insurance",
+      1
+    ],
+    [
+      "coin",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "insurance",
+          "tags": [
+            "coverage",
+            "insurance",
+            "policy",
+            "protection",
+            "risk",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462769-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "business-insurance",
+            "financial-insurance",
+            "health-insurance",
+            "insurance",
+            "money-insurance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409839-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "coin",
+            "coverage",
+            "insurance",
+            "insurance",
+            "protection",
+            "safe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8330598-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "financial-insurance",
+            "health-insurance",
+            "insurance",
+            "insurance",
+            "insurance-paper",
+            "life-insurance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8052842-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "e-commerce",
+            "insurance",
+            "protection",
+            "shield",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6560482-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "health-insurance",
+            "insurance",
+            "life-insurance",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5679559-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "insurance",
+            "insurance",
+            "policy",
+            "protection",
+            "safety",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516383-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "business-and-fiannce",
+            "cash",
+            "economy",
+            "finance",
+            "insurance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514318-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "business-and-fiannce",
+            "cash",
+            "economy",
+            "finance",
+            "insurance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514304-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "document",
+            "insurance",
+            "protection",
+            "safety",
+            "security",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "guarantee",
+            "insurance",
+            "protection",
+            "safe",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507647-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "coverage",
+            "guarantee",
+            "insurance",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "court",
+            "insurance",
+            "judge",
+            "jury",
+            "justice",
+            "law"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505426-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "coverage",
+            "healthcare",
+            "insurance",
+            "medical-insurance",
+            "protection",
+            "risk"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500234-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "coverage",
+            "guarantee",
+            "insurance",
+            "policy",
+            "protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488368-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "coverage",
+            "insurance",
+            "policy",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488352-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "dollar",
+            "hand",
+            "insurance",
+            "protection",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487204-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "coverage",
+            "healthcare",
+            "insurance",
+            "medical-insurance",
+            "protection",
+            "risk"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486443-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "degree",
+            "health-insurance",
+            "healthcare",
+            "insurance",
+            "protection",
+            "warranty"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485085-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "health-insurance",
+            "healthcare",
+            "insurance",
+            "protection",
+            "warranty"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485083-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "insurance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482246-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "finance",
+            "insurance",
+            "insurance",
+            "law",
+            "tax"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478443-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "finance",
+            "insurance",
+            "law",
+            "tax"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478433-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "claim",
+            "health-insurance",
+            "insurance",
+            "protection",
+            "umbrella"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478414-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "checkmark",
+            "insurance",
+            "property",
+            "safety",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "construction",
+            "engineering",
+            "helmet",
+            "insurance",
+            "protection",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474169-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "coverage",
+            "financial-security",
+            "insurance",
+            "policy",
+            "protection",
+            "risk-management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471119-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "coverage",
+            "insurance",
+            "package",
+            "protection",
+            "risk-management",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "coverage",
+            "house-insurance",
+            "insurance",
+            "protection-plan",
+            "risk-management",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471099-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "home-insurance",
+            "insurance",
+            "property",
+            "protection",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8469908-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "disability",
+            "disabled",
+            "injury",
+            "insurance",
+            "patient",
+            "wheelchair"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468568-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "hnad",
+            "insurance",
+            "protect",
+            "safe",
+            "secure",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468075-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "guarantee",
+            "insurance",
+            "job",
+            "safe",
+            "security",
+            "user"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468074-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "banking",
+            "finance",
+            "insurance",
+            "investment",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467308-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "finance",
+            "insurance",
+            "investment",
+            "management",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466740-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "finance",
+            "insurance",
+            "insurance",
+            "money",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466457-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "finance",
+            "insurance",
+            "money",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466444-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "finance",
+            "insurance",
+            "money",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466430-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "insurance",
+            "insurance",
+            "protection",
+            "safety",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8463404-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "coverage",
+            "insurance",
+            "policy",
+            "protection",
+            "risk",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462765-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "finance",
+            "insurance",
+            "policy",
+            "protect",
+            "protection",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459829-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "coverage",
+            "finance",
+            "guarantee",
+            "insurance",
+            "policy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459750-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "coverage",
+            "healthcare",
+            "insurance",
+            "policy",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459738-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "insurance",
+            "insurance",
+            "protection",
+            "safety",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459292-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "check-mark",
+            "delivery-box",
+            "insurance",
+            "package",
+            "protection",
+            "shipping-and-delivery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8458550-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "check-mark",
+            "delivery-box",
+            "insurance",
+            "package",
+            "protection",
+            "shipping-and-delivery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8458528-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "assurance",
+            "coverage",
+            "financial-security",
+            "insurance",
+            "policy",
+            "protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455668-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "checkmark",
+            "insurance",
+            "property",
+            "safety",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454357-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "document",
+            "file",
+            "insurance",
+            "page",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453283-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "insurance",
+          "tags": [
+            "document",
+            "file",
+            "insurance",
+            "page",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453243-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "umbrella",
+    "rationale": "Refs for \"insurance\" split between umbrellas and shields; shield clashes with security/defense.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

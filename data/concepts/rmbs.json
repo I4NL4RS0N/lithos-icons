@@ -1,0 +1,18 @@
+{
+  "id": "rmbs",
+  "name": "RMBS",
+  "kind": "asset-class",
+  "metaphor": "house-on-tranches",
+  "keywords": [
+    "residential mortgage-backed securities",
+    "mortgage",
+    "MBS",
+    "agency MBS",
+    "non-agency",
+    "home loans"
+  ],
+  "reduction": "20+: door.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

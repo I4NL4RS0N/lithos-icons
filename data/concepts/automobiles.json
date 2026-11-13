@@ -1,0 +1,19 @@
+{
+  "id": "automobiles",
+  "name": "Automobiles",
+  "kind": "industry",
+  "parent": "consumer-discretionary",
+  "metaphor": "car",
+  "keywords": [
+    "autos",
+    "cars",
+    "automakers",
+    "vehicles",
+    "EV",
+    "auto parts"
+  ],
+  "reduction": "24+: window.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

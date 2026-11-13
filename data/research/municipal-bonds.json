@@ -1,0 +1,786 @@
+{
+  "concept": "municipal-bonds",
+  "query": "municipal government",
+  "fetched": "2026-11-13T03:32:32.656Z",
+  "topTerms": [
+    [
+      "government",
+      38
+    ],
+    [
+      "municipal",
+      38
+    ],
+    [
+      "building",
+      23
+    ],
+    [
+      "city-hall",
+      13
+    ],
+    [
+      "city hall",
+      8
+    ],
+    [
+      "city",
+      8
+    ],
+    [
+      "administration",
+      7
+    ],
+    [
+      "hall",
+      7
+    ],
+    [
+      "architecture",
+      6
+    ],
+    [
+      "office",
+      6
+    ],
+    [
+      "court",
+      5
+    ],
+    [
+      "courthouse",
+      4
+    ],
+    [
+      "bank",
+      4
+    ],
+    [
+      "capital",
+      4
+    ],
+    [
+      "mayor",
+      3
+    ],
+    [
+      "council",
+      3
+    ],
+    [
+      "flag",
+      3
+    ],
+    [
+      "town-hall",
+      3
+    ],
+    [
+      "local-government",
+      3
+    ],
+    [
+      "municipal-hall",
+      3
+    ],
+    [
+      "city-government",
+      3
+    ],
+    [
+      "municipal-building",
+      3
+    ],
+    [
+      "capitol",
+      3
+    ],
+    [
+      "house",
+      3
+    ],
+    [
+      "federal",
+      3
+    ],
+    [
+      "parliament",
+      3
+    ],
+    [
+      "school",
+      2
+    ],
+    [
+      "public",
+      2
+    ],
+    [
+      "official",
+      2
+    ],
+    [
+      "local",
+      2
+    ],
+    [
+      "town",
+      2
+    ],
+    [
+      "meeting",
+      2
+    ],
+    [
+      "town hall",
+      2
+    ],
+    [
+      "community",
+      2
+    ],
+    [
+      "meetings",
+      2
+    ],
+    [
+      "municipal services",
+      2
+    ],
+    [
+      "amenities",
+      2
+    ],
+    [
+      "municipal-services",
+      2
+    ],
+    [
+      "institution",
+      2
+    ],
+    [
+      "administrative",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "School",
+          "tags": [
+            "campus",
+            "education",
+            "government",
+            "municipal",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2235595-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "administration",
+            "city-hall",
+            "government",
+            "mayor",
+            "municipal",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7363239-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "architecture",
+            "building",
+            "city-hall",
+            "cityhall",
+            "government",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8317436-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "administration",
+            "building",
+            "city-hall",
+            "council",
+            "government",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8238308-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hall",
+          "tags": [
+            "city",
+            "flag",
+            "government",
+            "hall",
+            "municipal",
+            "official"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8090680-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "City",
+          "tags": [
+            "city",
+            "flag",
+            "government",
+            "hall",
+            "municipal",
+            "official"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8087522-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "city",
+            "government",
+            "local",
+            "municipal",
+            "municipal",
+            "town"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7905508-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "building",
+            "city-hall",
+            "courthouse",
+            "government",
+            "meeting",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7635368-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "building",
+            "city-hall",
+            "courthouse",
+            "government",
+            "meeting",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7635346-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Town Hall",
+          "tags": [
+            "building",
+            "community",
+            "government",
+            "meetings",
+            "municipal",
+            "town-hall"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7450148-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Town Hall",
+          "tags": [
+            "building",
+            "community",
+            "government",
+            "meetings",
+            "municipal",
+            "town-hall"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7450087-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "administration",
+            "city-hall",
+            "government",
+            "mayor",
+            "municipal",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7363213-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "building",
+            "government",
+            "hand-drawn",
+            "municipal",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1721885-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal services",
+          "tags": [
+            "administration",
+            "amenities",
+            "building",
+            "local-government",
+            "municipal-hall",
+            "municipal-services"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6892864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal services",
+          "tags": [
+            "administration",
+            "amenities",
+            "building",
+            "local-government",
+            "municipal-hall",
+            "municipal-services"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6388084-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "building",
+            "city-government",
+            "city-hall",
+            "government",
+            "institution",
+            "metro",
+            "metropolitan",
+            "metropolitan-institution",
+            "municipal-building",
+            "municipal-institution",
+            "town-hall"
+          ],
+          "thumb": "https://static.thenounproject.com/png/108868-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "administration",
+            "city-hall",
+            "civic-center",
+            "government",
+            "municipal-hall",
+            "public-affairs"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6388094-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "city",
+            "government",
+            "local",
+            "municipal",
+            "town"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7905504-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "architecture",
+            "building",
+            "civic",
+            "government",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7647088-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "building",
+            "government",
+            "hall",
+            "municipal",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6856878-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "building",
+            "government",
+            "hall",
+            "municipal",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6856849-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "building",
+            "government",
+            "hall",
+            "municipal",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6856756-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "administrative",
+            "capitol",
+            "government",
+            "hall",
+            "municipal",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6622722-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "administrative",
+            "capitol",
+            "government",
+            "hall",
+            "municipal",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6622694-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "architecture",
+            "building",
+            "city",
+            "government",
+            "house",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6607190-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "architecture",
+            "building",
+            "city",
+            "government",
+            "house",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6607158-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "architecture",
+            "building",
+            "city",
+            "government",
+            "house",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6607143-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "council",
+            "government",
+            "institution",
+            "mayor",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6450961-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "courthouse",
+            "governance",
+            "government",
+            "ministry",
+            "municipal",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5590502-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "courthouse",
+            "governance",
+            "government",
+            "ministry",
+            "municipal",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5590482-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "city",
+            "government",
+            "municipal",
+            "municipality",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5410740-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "bank",
+            "building",
+            "court",
+            "flag",
+            "government",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5378599-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "bank",
+            "building",
+            "court",
+            "government",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5017031-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "bank",
+            "building",
+            "court",
+            "government",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5016837-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "capital",
+            "federal",
+            "government",
+            "municipal",
+            "parliament"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4284912-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "capital",
+            "federal",
+            "government",
+            "municipal",
+            "parliament"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4283180-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "capital",
+            "federal",
+            "government",
+            "municipal",
+            "parliament"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4283172-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "architecture",
+            "building",
+            "capital",
+            "government",
+            "monument",
+            "municipal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4180591-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal",
+          "tags": [
+            "building",
+            "city-hall",
+            "court",
+            "government",
+            "municipal",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3040311-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "local government",
+          "tags": [
+            "administration",
+            "authority",
+            "council",
+            "local-government",
+            "municipal",
+            "officials"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7175573-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government bond",
+          "tags": [
+            "economy",
+            "government-bond",
+            "investment",
+            "municipal",
+            "stock",
+            "treasury"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2147068-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "along",
+            "building",
+            "court",
+            "fashion",
+            "formation",
+            "government",
+            "judge",
+            "municipal",
+            "supplement",
+            "wide"
+          ],
+          "thumb": "https://static.thenounproject.com/png/376580-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "government building",
+          "tags": [
+            "administrative-facility",
+            "city-hall",
+            "government-building",
+            "municipal-center",
+            "official-offices"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8211338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "government building",
+          "tags": [
+            "administrative-facility",
+            "city-hall",
+            "government-building",
+            "municipal-center",
+            "official-offices"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7764497-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "government center",
+          "tags": [
+            "capitol",
+            "city-hall",
+            "civic-office",
+            "government-center",
+            "municipal-building",
+            "public-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7033777-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal property",
+          "tags": [
+            "city-administration",
+            "city-government",
+            "housing",
+            "land-policy",
+            "municipal-property",
+            "municipality"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4324582-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "municipal building",
+          "tags": [
+            "city-government",
+            "city-hall",
+            "federal-court",
+            "municipal-building",
+            "supreme-court"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1204556-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "civic-dome",
+    "rationale": "Refs for \"municipal government\" dominated by domed civic buildings and city halls.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "concept": "metals-mining",
+  "query": "mining",
+  "fetched": "2026-11-13T03:32:24.310Z",
+  "topTerms": [
+    [
+      "mining",
+      50
+    ],
+    [
+      "pickaxe",
+      29
+    ],
+    [
+      "rock",
+      25
+    ],
+    [
+      "industry",
+      23
+    ],
+    [
+      "digging",
+      21
+    ],
+    [
+      "mine",
+      21
+    ],
+    [
+      "crypto",
+      8
+    ],
+    [
+      "excavation",
+      8
+    ],
+    [
+      "coal",
+      6
+    ],
+    [
+      "construction",
+      5
+    ],
+    [
+      "axe",
+      5
+    ],
+    [
+      "coin",
+      4
+    ],
+    [
+      "digital",
+      4
+    ],
+    [
+      "stone",
+      4
+    ],
+    [
+      "dig",
+      3
+    ],
+    [
+      "financial",
+      3
+    ],
+    [
+      "work",
+      3
+    ],
+    [
+      "blockchain",
+      3
+    ],
+    [
+      "ore",
+      3
+    ],
+    [
+      "cryptocurrency",
+      2
+    ],
+    [
+      "construction-and-tools",
+      2
+    ],
+    [
+      "work-in-progress",
+      2
+    ],
+    [
+      "mountain",
+      2
+    ],
+    [
+      "geology",
+      2
+    ],
+    [
+      "drill",
+      2
+    ],
+    [
+      "tools",
+      2
+    ],
+    [
+      "block",
+      2
+    ],
+    [
+      "process",
+      2
+    ],
+    [
+      "quarry",
+      2
+    ],
+    [
+      "tunnel",
+      2
+    ],
+    [
+      "money",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "production",
+      1
+    ],
+    [
+      "drilling",
+      1
+    ],
+    [
+      "exploring-metals",
+      1
+    ],
+    [
+      "unearthing",
+      1
+    ],
+    [
+      "business",
+      1
+    ],
+    [
+      "finance",
+      1
+    ],
+    [
+      "investment",
+      1
+    ],
+    [
+      "equipment",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Mining",
+          "tags": [
+            "coal",
+            "construction",
+            "dig",
+            "industry",
+            "mining",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7288426-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "drilling",
+            "exploring-metals",
+            "mining",
+            "pickaxe",
+            "unearthing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2049937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "coin",
+            "crypto",
+            "cryptocurrency",
+            "digital",
+            "mining",
+            "pickaxe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8504666-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "coin",
+            "crypto",
+            "cryptocurrency",
+            "digital",
+            "mining",
+            "pickaxe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8504637-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "business",
+            "finance",
+            "financial",
+            "investment",
+            "mining",
+            "mining"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492548-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "equipment",
+            "excavation",
+            "industry",
+            "laptop",
+            "mineral",
+            "mining"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474305-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408146-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408144-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408142-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408141-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "axe",
+            "mining",
+            "stone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8404289-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "axe",
+            "construction-and-tools",
+            "dig",
+            "mining",
+            "pickaxe",
+            "work-in-progress"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390834-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "axe",
+            "construction-and-tools",
+            "dig",
+            "mining",
+            "pickaxe",
+            "work-in-progress"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390826-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "mining",
+            "mining",
+            "mountain",
+            "pickaxe",
+            "rock",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8363367-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "coal",
+            "geology",
+            "industry",
+            "mine",
+            "mining",
+            "mining"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8348621-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "coal",
+            "geology",
+            "industry",
+            "mine",
+            "mining"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334796-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "axe",
+            "drill",
+            "excavation",
+            "mining",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281054-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "blockchain",
+            "cart",
+            "dollar",
+            "fintech",
+            "mining",
+            "processing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8265277-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8237183-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8237182-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "crypto",
+            "liquidity",
+            "mining",
+            "pool",
+            "staking",
+            "yield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206143-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "coal",
+            "digging",
+            "mining",
+            "pickaxe",
+            "rock",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8199676-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "coal",
+            "digging",
+            "mining",
+            "pickaxe",
+            "rock",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8199657-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "compute",
+            "hash",
+            "mining",
+            "mining",
+            "reward",
+            "verify"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8195123-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194060-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194053-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194052-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194045-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194024-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194022-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194018-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194017-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "industry",
+            "mine",
+            "miner",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8190214-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "blockchain",
+            "excavation",
+            "mining",
+            "pickaxe",
+            "rock",
+            "stone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8190195-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "digging",
+            "extracting",
+            "mining",
+            "mountain",
+            "pickaxe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8179989-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "block",
+            "coin",
+            "crypto",
+            "mining",
+            "process"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8168471-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "blockchain",
+            "excavation",
+            "mining",
+            "pickaxe",
+            "rock",
+            "stone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8134170-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "construction",
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8117649-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "excavation",
+            "mining",
+            "mining",
+            "pickaxe",
+            "rock",
+            "stone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8114276-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "excavation",
+            "mining",
+            "ore",
+            "quarry",
+            "tunnel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8105241-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "excavation",
+            "mining",
+            "mining",
+            "ore",
+            "quarry",
+            "tunnel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8105210-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "crypto",
+            "digital",
+            "financial",
+            "mining",
+            "money",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8091017-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "crypto",
+            "digital",
+            "financial",
+            "mining",
+            "money",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8090994-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "block",
+            "coin",
+            "crypto",
+            "mining",
+            "mining",
+            "process"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8082527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "excavation",
+            "mining",
+            "pickaxe",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8063825-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "coal",
+            "crypto",
+            "industry",
+            "mine",
+            "mining",
+            "pickaxe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8051021-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "drill",
+            "extract",
+            "mining",
+            "mining",
+            "ore",
+            "shaft"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8043918-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "construction",
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "construction",
+            "digging",
+            "industry",
+            "mine",
+            "mining",
+            "rock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036445-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Mining",
+          "tags": [
+            "axe",
+            "construction",
+            "mining",
+            "tool",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8025997-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "pickaxe",
+    "rationale": "Refs for \"mining\" dominated by pickaxes (often with rocks).",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "chemicals",
+  "name": "Chemicals",
+  "kind": "industry",
+  "parent": "materials",
+  "metaphor": "flask",
+  "keywords": [
+    "chemicals",
+    "specialty chemicals",
+    "fertilizers",
+    "petrochemicals",
+    "lab",
+    "flask"
+  ],
+  "reduction": "20+: liquid line.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

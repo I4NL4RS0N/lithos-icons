@@ -1,0 +1,815 @@
+{
+  "concept": "gas-utilities",
+  "query": "natural gas",
+  "fetched": "2026-11-13T03:32:23.079Z",
+  "topTerms": [
+    [
+      "natural gas",
+      50
+    ],
+    [
+      "natural-gas",
+      50
+    ],
+    [
+      "energy",
+      32
+    ],
+    [
+      "gas",
+      29
+    ],
+    [
+      "fuel",
+      19
+    ],
+    [
+      "natural",
+      11
+    ],
+    [
+      "industry",
+      10
+    ],
+    [
+      "power",
+      8
+    ],
+    [
+      "resource",
+      7
+    ],
+    [
+      "ecology",
+      7
+    ],
+    [
+      "flame",
+      6
+    ],
+    [
+      "pipeline",
+      5
+    ],
+    [
+      "fire",
+      4
+    ],
+    [
+      "eco",
+      4
+    ],
+    [
+      "environment",
+      4
+    ],
+    [
+      "fossil",
+      4
+    ],
+    [
+      "methane",
+      3
+    ],
+    [
+      "kitchen",
+      3
+    ],
+    [
+      "lpg-gas",
+      2
+    ],
+    [
+      "industrial",
+      2
+    ],
+    [
+      "storage",
+      2
+    ],
+    [
+      "gas-supply",
+      2
+    ],
+    [
+      "location",
+      2
+    ],
+    [
+      "map-pin",
+      2
+    ],
+    [
+      "resource-point",
+      2
+    ],
+    [
+      "awareness",
+      2
+    ],
+    [
+      "biology",
+      2
+    ],
+    [
+      "eco-friendly",
+      2
+    ],
+    [
+      "environmen",
+      2
+    ],
+    [
+      "hands",
+      2
+    ],
+    [
+      "nature",
+      2
+    ],
+    [
+      "water-drop",
+      2
+    ],
+    [
+      "gas-fire",
+      2
+    ],
+    [
+      "gas-plant",
+      2
+    ],
+    [
+      "gas-tower",
+      2
+    ],
+    [
+      "industrial-gas",
+      2
+    ],
+    [
+      "gas-cylinder",
+      1
+    ],
+    [
+      "burner",
+      1
+    ],
+    [
+      "flare",
+      1
+    ],
+    [
+      "pressure",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "natural gas",
+          "tags": [
+            "flame",
+            "fuel",
+            "gas",
+            "gas-cylinder",
+            "lpg-gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472576-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "gas",
+            "industrial",
+            "industry",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5129846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fire",
+            "flame",
+            "fuel",
+            "lpg-gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450313-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "burner",
+            "flare",
+            "natural-gas",
+            "pressure",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8416556-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "eco",
+            "energy",
+            "fuel",
+            "gas",
+            "natural-gas",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339514-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "eco",
+            "energy",
+            "fuel",
+            "gas",
+            "natural-gas",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339510-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas-supply",
+            "natural-gas",
+            "natural-gas",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298998-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "location",
+            "map-pin",
+            "natural-gas",
+            "natural-gas",
+            "resource-point"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298991-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "location",
+            "map-pin",
+            "natural-gas",
+            "natural-gas",
+            "resource-point"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298990-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas-supply",
+            "natural-gas",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298987-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "industry",
+            "natural-gas",
+            "natural-resources",
+            "nen-renewable",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8175800-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "cng",
+            "compressor",
+            "natural-gas",
+            "pipeline",
+            "reservoir",
+            "well"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8128144-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "fire",
+            "flames",
+            "flammable",
+            "gas",
+            "gas-industry",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7931931-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "eco",
+            "energy",
+            "gas",
+            "industry",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7921932-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "ecology",
+            "energy",
+            "gas",
+            "industry",
+            "natural-gas",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7902931-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "ecology",
+            "energy",
+            "gas",
+            "industry",
+            "natural-gas",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7893262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "awareness",
+            "biology",
+            "energy",
+            "environment",
+            "natural-gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7888356-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "burn",
+            "clean",
+            "fuel",
+            "methane",
+            "natural-gas",
+            "pipeline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827118-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "combustion",
+            "energy",
+            "fuel",
+            "methane",
+            "natural-gas",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7734117-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "compressed",
+            "industry",
+            "natural-gas",
+            "silo",
+            "storage",
+            "tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7702733-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas",
+            "natural-gas",
+            "pipeline",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7690155-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas",
+            "natural-gas",
+            "pipeline",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7690127-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "eco-friendly",
+            "energy",
+            "fuel",
+            "gas",
+            "industry",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7627023-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "eco-friendly",
+            "energy",
+            "fuel",
+            "gas",
+            "industry",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7626975-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas",
+            "natural-gas",
+            "natural-gas",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7601431-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fossil",
+            "gas",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7346739-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fossil",
+            "gas",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7346727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fossil-fuel",
+            "heating",
+            "methane",
+            "natural-gas",
+            "resource"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6977057-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "ecology",
+            "energy",
+            "environment",
+            "gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6967256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "ecology",
+            "energy",
+            "environment",
+            "gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6967242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "eco",
+            "efficiency",
+            "environmental",
+            "natural-gas",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6904874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "ecology",
+            "environmen",
+            "hands",
+            "natural-gas",
+            "nature",
+            "water-drop"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6869280-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "ecology",
+            "environmen",
+            "hands",
+            "natural-gas",
+            "nature",
+            "water-drop"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6869197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "fire",
+            "flame",
+            "natural-gas",
+            "nature-fire",
+            "stove"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6649617-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "eco-energy",
+            "gas",
+            "green-energy",
+            "green-gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6129670-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas",
+            "natural-gas",
+            "power",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5950547-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "awareness",
+            "biology",
+            "ecology",
+            "environment",
+            "gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5784149-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "gas",
+            "natural-gas",
+            "valve"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5728944-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "flame",
+            "gas-fire",
+            "gas-plant",
+            "gas-tower",
+            "industrial-gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5688496-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fossil",
+            "gas",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5563351-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas",
+            "kitchen",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5173869-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas",
+            "kitchen",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5173843-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fuel",
+            "gas",
+            "kitchen",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5173796-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "gas",
+            "industrial",
+            "industry",
+            "natural",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5129874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "fuel",
+            "industry",
+            "natural",
+            "natural-gas",
+            "oil",
+            "pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5074439-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fossil",
+            "gas",
+            "natural",
+            "natural-gas",
+            "rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4916809-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "flame",
+            "gas",
+            "natural-gas",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4894679-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "gas-fire",
+            "gas-plant",
+            "gas-tower",
+            "industrial-gas",
+            "natural-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4805283-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "fuel",
+            "gas-measurement",
+            "gas-pipeline",
+            "natural-gas",
+            "pipeline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4727338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "natural gas",
+          "tags": [
+            "energy",
+            "fire",
+            "flame",
+            "gas",
+            "natural-gas",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4655880-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "burner-flame",
+    "rationale": "Refs for \"natural gas\" dominated by burner flames and gas cylinders.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

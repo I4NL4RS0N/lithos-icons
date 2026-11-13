@@ -1,0 +1,18 @@
+{
+  "id": "abs",
+  "name": "ABS",
+  "kind": "asset-class",
+  "metaphor": "card-on-tranches",
+  "keywords": [
+    "asset-backed securities",
+    "auto loans",
+    "credit cards",
+    "student loans",
+    "receivables",
+    "consumer ABS"
+  ],
+  "reduction": "20+: magnetic stripe.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

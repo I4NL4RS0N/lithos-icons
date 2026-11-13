@@ -1,0 +1,801 @@
+{
+  "concept": "electric-utilities",
+  "query": "electricity",
+  "fetched": "2026-11-13T03:32:21.970Z",
+  "topTerms": [
+    [
+      "electricity",
+      48
+    ],
+    [
+      "power",
+      33
+    ],
+    [
+      "energy",
+      32
+    ],
+    [
+      "electric",
+      16
+    ],
+    [
+      "lightning",
+      12
+    ],
+    [
+      "electrical",
+      8
+    ],
+    [
+      "plug",
+      7
+    ],
+    [
+      "current",
+      6
+    ],
+    [
+      "environment",
+      5
+    ],
+    [
+      "voltage",
+      4
+    ],
+    [
+      "bolt",
+      4
+    ],
+    [
+      "process",
+      4
+    ],
+    [
+      "utility",
+      4
+    ],
+    [
+      "charge",
+      3
+    ],
+    [
+      "light",
+      3
+    ],
+    [
+      "electrical-panel",
+      3
+    ],
+    [
+      "electrical-system",
+      3
+    ],
+    [
+      "energy-supply",
+      3
+    ],
+    [
+      "electronics",
+      3
+    ],
+    [
+      "electic",
+      2
+    ],
+    [
+      "thunder",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "eco",
+      2
+    ],
+    [
+      "ecology",
+      2
+    ],
+    [
+      "green",
+      2
+    ],
+    [
+      "nature",
+      2
+    ],
+    [
+      "no electricity",
+      2
+    ],
+    [
+      "blackout",
+      2
+    ],
+    [
+      "no-electricity",
+      2
+    ],
+    [
+      "flash",
+      2
+    ],
+    [
+      "ac",
+      2
+    ],
+    [
+      "air-conditioner",
+      2
+    ],
+    [
+      "air-conditioning",
+      2
+    ],
+    [
+      "wire",
+      2
+    ],
+    [
+      "decentralized-energy",
+      1
+    ],
+    [
+      "energy-sharing",
+      1
+    ],
+    [
+      "local-grid",
+      1
+    ],
+    [
+      "power-distribution",
+      1
+    ],
+    [
+      "residential-electricity",
+      1
+    ],
+    [
+      "battery",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Electricity",
+          "tags": [
+            "decentralized-energy",
+            "electricity",
+            "energy-sharing",
+            "local-grid",
+            "power-distribution",
+            "residential-electricity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495259-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "charge",
+            "electric",
+            "electricity",
+            "electricity",
+            "energy",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296148-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electic",
+            "electrical",
+            "electricity",
+            "energy",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "battery",
+            "electricity",
+            "electricity",
+            "energy",
+            "environmental",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7996044-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "electricity",
+            "energy",
+            "light",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7952669-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "charge",
+            "charging",
+            "electricity",
+            "energy",
+            "power",
+            "shock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6139085-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electrical",
+            "electricity",
+            "lightning",
+            "thunder"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3815163-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electrical",
+            "electricity",
+            "energy",
+            "power",
+            "transmission"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512297-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "current",
+            "electric",
+            "electricity",
+            "energy",
+            "power",
+            "wiring"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8452087-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430069-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430043-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "current",
+            "electricity",
+            "energy",
+            "power",
+            "technology",
+            "voltage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8423424-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "bolt",
+            "charge",
+            "current",
+            "electric",
+            "electrical",
+            "electricity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417449-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electrical-panel",
+            "electrical-system",
+            "electricity",
+            "energy-supply",
+            "power",
+            "voltage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8379730-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electrical-panel",
+            "electrical-system",
+            "electricity",
+            "energy-supply",
+            "power",
+            "voltage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374806-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electrical-panel",
+            "electrical-system",
+            "electricity",
+            "energy-supply",
+            "power",
+            "voltage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8373892-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "eco",
+            "ecology",
+            "electricity",
+            "environment",
+            "green",
+            "nature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8367246-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "eco",
+            "ecology",
+            "electricity",
+            "environment",
+            "green",
+            "nature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8367222-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "power",
+            "process",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364466-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "power",
+            "process",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364465-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "electron",
+            "electronics",
+            "industry",
+            "process"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351130-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "no electricity",
+          "tags": [
+            "blackout",
+            "energy",
+            "lack",
+            "no-electricity",
+            "power",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8341530-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "bolt",
+            "electricity",
+            "energy",
+            "flash",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8306214-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "distribution",
+            "electricity",
+            "energy",
+            "plant",
+            "power",
+            "tower"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "bioelectricity",
+            "electric",
+            "electricity",
+            "electricity-sources",
+            "energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8297879-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "bolt",
+            "electricity",
+            "energy",
+            "flash",
+            "light"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8297858-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "ac",
+            "air-conditioner",
+            "air-conditioning",
+            "electricity",
+            "electronics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296212-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "ac",
+            "air-conditioner",
+            "air-conditioning",
+            "electricity",
+            "electronics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296182-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electrical",
+            "electricity",
+            "energy",
+            "power",
+            "wire"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8290341-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "energy",
+            "house",
+            "power",
+            "wire"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8290324-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "power",
+            "process",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8289119-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electic",
+            "electrical",
+            "electricity",
+            "energy",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284795-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "lightning",
+            "lightning-bolt",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8275779-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric",
+            "electricity",
+            "energy",
+            "lightning",
+            "power",
+            "spark"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8275730-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "environment",
+            "plug"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8258371-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "energy",
+            "environment",
+            "lamp",
+            "light"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8258354-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "energy",
+            "plug",
+            "recycle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8258353-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "plug",
+            "socket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8258352-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "environment",
+            "plug"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8258340-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "current",
+            "electric",
+            "electricity",
+            "energy",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8239785-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "no electricity",
+          "tags": [
+            "blackout",
+            "dark",
+            "no-electricity",
+            "no-energy",
+            "power-loss"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8236877-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "energy",
+            "lightning",
+            "plug",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233155-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "home",
+            "power",
+            "smart-home"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233048-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "bolt",
+            "electric",
+            "electricity",
+            "energy",
+            "lightning",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8227425-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electrical",
+            "electricity",
+            "plug",
+            "power",
+            "power-connector"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8217930-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electricity",
+            "energy",
+            "outlet",
+            "pictogram",
+            "technology",
+            "wayfinding"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8216701-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "current",
+            "electric-flow",
+            "electricity",
+            "energy",
+            "power",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8212299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "current",
+            "electric",
+            "electricity",
+            "energy",
+            "plug",
+            "power"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8210351-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Electricity",
+          "tags": [
+            "electric-panel",
+            "electrical",
+            "electricity",
+            "power",
+            "thunder"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8204376-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "bolt",
+    "rationale": "Refs for \"electricity\" dominated by bolts and plugs.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

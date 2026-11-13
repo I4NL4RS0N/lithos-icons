@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { kit, svg, SIZES } from './lib/kit.mjs';
+import { buildGeo } from './geo.mjs';
 
 const pkg = JSON.parse(await import('node:fs').then((fs) => fs.readFileSync('package.json', 'utf8')));
 const files = readdirSync('src/concepts').filter((f) => f.endsWith('.mjs'));
@@ -21,5 +22,7 @@ for (const c of concepts) {
   writeFileSync(join('data/concepts', `${c.id}.json`), JSON.stringify(record, null, 2) + '\n');
   index.push(record);
 }
+const geo = buildGeo(pkg.version);
+for (const r of geo) { writeFileSync(join('data/concepts', `${r.id}.json`), JSON.stringify(r, null, 2) + '\n'); index.push(r); }
 writeFileSync('data/index.json', JSON.stringify(index, null, 2) + '\n');
-console.log(`built ${concepts.length} concepts × ${SIZES.length} sizes × 2 styles = ${concepts.length * SIZES.length * 2} SVGs`);
+console.log(`built ${concepts.length + geo.length} concepts × ${SIZES.length} sizes × 2 styles = ${(concepts.length + geo.length) * SIZES.length * 2} SVGs + flags`);

@@ -1,0 +1,772 @@
+{
+  "concept": "semiconductors",
+  "query": "semiconductor",
+  "fetched": "2026-11-13T03:32:29.464Z",
+  "topTerms": [
+    [
+      "semiconductor",
+      50
+    ],
+    [
+      "chip",
+      25
+    ],
+    [
+      "transistor",
+      19
+    ],
+    [
+      "electronics",
+      18
+    ],
+    [
+      "microchip",
+      15
+    ],
+    [
+      "electronic",
+      12
+    ],
+    [
+      "ai",
+      10
+    ],
+    [
+      "technology",
+      9
+    ],
+    [
+      "devices",
+      7
+    ],
+    [
+      "component",
+      6
+    ],
+    [
+      "tech",
+      5
+    ],
+    [
+      "computer",
+      5
+    ],
+    [
+      "cpu",
+      5
+    ],
+    [
+      "insulators",
+      5
+    ],
+    [
+      "gpu",
+      4
+    ],
+    [
+      "electron",
+      4
+    ],
+    [
+      "processor",
+      3
+    ],
+    [
+      "electric",
+      3
+    ],
+    [
+      "chips",
+      3
+    ],
+    [
+      "memory",
+      3
+    ],
+    [
+      "circuit",
+      2
+    ],
+    [
+      "carbon",
+      2
+    ],
+    [
+      "energy",
+      2
+    ],
+    [
+      "generators",
+      2
+    ],
+    [
+      "microprocessor",
+      1
+    ],
+    [
+      "machine",
+      1
+    ],
+    [
+      "nanotech",
+      1
+    ],
+    [
+      "conductor",
+      1
+    ],
+    [
+      "integrated-circuit",
+      1
+    ],
+    [
+      "robotics",
+      1
+    ],
+    [
+      "science",
+      1
+    ],
+    [
+      "scientific-experiment",
+      1
+    ],
+    [
+      "silicon",
+      1
+    ],
+    [
+      "semiconductor-shortage",
+      1
+    ],
+    [
+      "diode",
+      1
+    ],
+    [
+      "resistor",
+      1
+    ],
+    [
+      "chipset",
+      1
+    ],
+    [
+      "electrical",
+      1
+    ],
+    [
+      "electricity",
+      1
+    ],
+    [
+      "pc",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "microchip",
+            "microprocessor",
+            "processor",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6321786-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8266731-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "machine",
+            "nanotech",
+            "semiconductor",
+            "semiconductor",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7671409-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "chip",
+            "conductor",
+            "semiconductor",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7631952-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "electronics",
+            "integrated-circuit",
+            "microchip",
+            "robotics",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7548914-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "computer",
+            "cpu",
+            "gpu",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7496413-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "computer",
+            "cpu",
+            "gpu",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7496412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "computer",
+            "cpu",
+            "gpu",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7496409-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "computer",
+            "cpu",
+            "gpu",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7496407-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7201183-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "science",
+            "scientific-experiment",
+            "semiconductor",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7065757-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7005116-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7005096-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "devices",
+            "electronic",
+            "processor",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984701-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "devices",
+            "electron",
+            "electronic",
+            "semiconductor",
+            "silicon"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984699-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "circuit",
+            "electric",
+            "electronic",
+            "semiconductor",
+            "semiconductor-shortage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "component",
+            "devices",
+            "electronic",
+            "insulators",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "component",
+            "devices",
+            "electronic",
+            "insulators",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984689-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "component",
+            "devices",
+            "electronic",
+            "insulators",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984686-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "component",
+            "devices",
+            "electronic",
+            "insulators",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984684-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "component",
+            "devices",
+            "electronic",
+            "insulators",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6984678-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "electronic",
+            "semiconductor",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6951634-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "electric",
+            "semiconductor",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6951633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "electronic",
+            "semiconductor",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6951630-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "electronic",
+            "semiconductor",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6951628-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6883116-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "circuit",
+            "diode",
+            "electric",
+            "resistor",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6829308-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6757247-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6757192-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6751735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6751686-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6751665-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6747406-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6747373-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "electronics",
+            "microchip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6746956-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "chipset",
+            "electronics",
+            "processor",
+            "semiconductor",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6561139-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "carbon",
+            "electrical",
+            "energy",
+            "generators",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6510888-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "carbon",
+            "electricity",
+            "energy",
+            "generators",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6510862-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "ai",
+            "cpu",
+            "pc",
+            "semiconductor",
+            "smart",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6052235-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chips",
+            "electron",
+            "electronics",
+            "memory",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5985321-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chips",
+            "electron",
+            "electronics",
+            "memory",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5985310-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chips",
+            "electron",
+            "electronics",
+            "memory",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5985306-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "hardware",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5830033-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "component",
+            "computer",
+            "electronic",
+            "microcircuit",
+            "semiconductor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5766902-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4001700-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4001699-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4001698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4001697-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4001696-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "semiconductor",
+          "tags": [
+            "chip",
+            "semiconductor",
+            "transistor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4001695-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "chip",
+    "rationale": "Refs for \"semiconductor\" dominated by chips.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

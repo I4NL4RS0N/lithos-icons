@@ -1,0 +1,18 @@
+{
+  "id": "municipal-bonds",
+  "name": "Municipal Bonds",
+  "kind": "asset-class",
+  "metaphor": "civic-dome",
+  "keywords": [
+    "munis",
+    "municipal",
+    "public finance",
+    "state and local government",
+    "tax-exempt",
+    "general obligation"
+  ],
+  "reduction": "20+: spire. 24+: columns.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -139,6 +139,9 @@ flags/
 - **Classification tags (not icons):** MSCI Developed/Emerging/Frontier, World Bank income groups — used as filters.
 - **Map source:** Natural Earth (public domain), including its point-of-view variants for disputed areas.
 - **Generated, not drawn:** country outlines, region maps and grouping maps are generated from geodata, then simplified per size.
+- **Projection:** Mercator for countries; per-region override (Europe uses a conic equal-area projection, clipped, with Russia omitted from the outline but kept as a member).
+- **Main landmass:** keep polygons near the largest one (drops Alaska, Hawaii, French Guiana); a full-territory variant comes later.
+- **Squint test:** maps are exempt from the weight band because they follow real geography.
 - **Small-country rule:** if a country's shape is under a minimum area at a given size, render a locator: simplified continent context + dot. Threshold tuned per size.
 - **Flags:** 4:3 frame, fixed corner radius, 1px inner hairline for white-edged flags. Emblems simplified at 20px, dropped or reduced to a silhouette at 16px. Colours from official specs.
 - **Worldview param:** `worldview=default|<iso2>` across site, API, MCP.
@@ -160,6 +163,7 @@ We follow Helena Zhang's *7 Principles of Icon Design* (uxdesign.cc). Each princ
 
 ### Metaphor rules
 - **A sector uses the most recognised metaphor from research; where that is its industries' symbols, it combines them.** Example: Utilities is a drop with a bolt inside; Electric Utilities a bolt, Water Utilities a drop, Gas Utilities a flame on a burner.
+- **Modifier: tranche base.** Two stacked lines under an asset mean a securitized product (RMBS = house, CMBS = office, ABS = card, CLO = loan document). One line at 16px.
 - **No two concepts at the same level may share a silhouette at 16px.** Checked in the preview before merge.
 - A child concept may reuse its parent's metaphor with a modifier, but never another branch's metaphor (Energy's flame ≠ Gas Utilities' burner flame).
 

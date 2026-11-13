@@ -1,0 +1,803 @@
+{
+  "concept": "banks",
+  "query": "bank",
+  "fetched": "2026-11-13T03:32:27.425Z",
+  "topTerms": [
+    [
+      "bank",
+      47
+    ],
+    [
+      "finance",
+      26
+    ],
+    [
+      "building",
+      15
+    ],
+    [
+      "business",
+      15
+    ],
+    [
+      "banking",
+      14
+    ],
+    [
+      "bank to bank",
+      11
+    ],
+    [
+      "bank-to-bank",
+      11
+    ],
+    [
+      "money",
+      10
+    ],
+    [
+      "savings",
+      7
+    ],
+    [
+      "bank-transfer",
+      7
+    ],
+    [
+      "investment",
+      7
+    ],
+    [
+      "architecture-and-city",
+      5
+    ],
+    [
+      "transaction",
+      5
+    ],
+    [
+      "bank-building",
+      4
+    ],
+    [
+      "account",
+      4
+    ],
+    [
+      "connection",
+      4
+    ],
+    [
+      "economy",
+      4
+    ],
+    [
+      "financial",
+      4
+    ],
+    [
+      "bank-service",
+      3
+    ],
+    [
+      "bank-transaction",
+      3
+    ],
+    [
+      "transfer",
+      3
+    ],
+    [
+      "institution",
+      3
+    ],
+    [
+      "saving",
+      3
+    ],
+    [
+      "bank-account",
+      2
+    ],
+    [
+      "financial-institution",
+      2
+    ],
+    [
+      "bank-excange",
+      2
+    ],
+    [
+      "buildings",
+      2
+    ],
+    [
+      "court",
+      2
+    ],
+    [
+      "architecture",
+      2
+    ],
+    [
+      "city",
+      2
+    ],
+    [
+      "modern",
+      2
+    ],
+    [
+      "urban",
+      2
+    ],
+    [
+      "business-and-fiannce",
+      2
+    ],
+    [
+      "cash",
+      2
+    ],
+    [
+      "business-and-finance",
+      2
+    ],
+    [
+      "loss",
+      2
+    ],
+    [
+      "analysis",
+      2
+    ],
+    [
+      "bank bank",
+      1
+    ],
+    [
+      "bank-bank",
+      1
+    ],
+    [
+      "treasury",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-account",
+            "bank-building",
+            "bank-service",
+            "bank-to-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8095299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "architecture-and-city",
+            "bank",
+            "building",
+            "business",
+            "finance",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476583-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "account",
+            "bank",
+            "banking",
+            "finance",
+            "financial-institution",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8446176-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-excange",
+            "bank-to-bank",
+            "bank-transaction",
+            "bank-transfer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7398355-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-excange",
+            "bank-to-bank",
+            "bank-transaction",
+            "bank-transfer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7398327-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank bank",
+          "tags": [
+            "bank-bank",
+            "building",
+            "buildings",
+            "business",
+            "finance",
+            "treasury"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7370172-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-to-bank",
+            "bank-transfer",
+            "connection",
+            "transaction"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6187268-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-to-bank",
+            "bank-transfer",
+            "connection",
+            "transaction"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6187243-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-to-bank",
+            "bank-to-bank-transfer",
+            "business",
+            "online",
+            "transfer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5994214-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "banking",
+            "economy",
+            "euro",
+            "investment",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5827028-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-to-bank",
+            "business",
+            "finance",
+            "transfer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4958184-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank-exchange",
+            "bank-to-bank",
+            "bank-transaction",
+            "bank-transfer",
+            "financial-institute-exchange"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4772145-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "banking",
+            "building",
+            "capital",
+            "court"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4299258-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank-to-bank",
+            "business",
+            "finance",
+            "inter",
+            "transfer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3412465-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank-building",
+            "bank-location",
+            "bank-service",
+            "banking",
+            "banks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1725319-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-to-bank",
+            "bank-transfer",
+            "connection",
+            "transaction"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1135565-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bank to bank",
+          "tags": [
+            "bank",
+            "bank-to-bank",
+            "bank-transfer",
+            "connection",
+            "transaction"
+          ],
+          "thumb": "https://static.thenounproject.com/png/763866-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank-account",
+            "bank-app",
+            "bank-building",
+            "bank-service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/607257-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank",
+            "court",
+            "finance",
+            "institution",
+            "justice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8517363-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "architecture",
+            "bank",
+            "building",
+            "city",
+            "modern",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516966-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "architecture",
+            "bank",
+            "building",
+            "city",
+            "modern",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "architecture-and-city",
+            "bank",
+            "building",
+            "business",
+            "finance",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516071-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "architecture-and-city",
+            "bank",
+            "building",
+            "business",
+            "finance",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516058-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "business-and-fiannce",
+            "cash",
+            "economy",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514329-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "business-and-fiannce",
+            "cash",
+            "economy",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514310-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "account",
+            "bank",
+            "bank",
+            "business",
+            "click"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508033-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "account",
+            "bank",
+            "bank",
+            "business",
+            "protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508032-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank",
+            "business",
+            "card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508024-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "account",
+            "bank",
+            "bank",
+            "business"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508023-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank-finance-building",
+            "banking-center",
+            "corporate-bank",
+            "financial-institution-bank",
+            "money-bank-building"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507124-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank",
+            "banking",
+            "finance",
+            "money",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506784-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "architecture-and-city",
+            "bank",
+            "building",
+            "business",
+            "finance",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "finance",
+            "money",
+            "saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495485-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "finance",
+            "money",
+            "saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495433-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "business",
+            "finance",
+            "financial",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492549-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bankruptcy",
+            "building",
+            "business-and-finance",
+            "crisis",
+            "loss"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bankcruptcy",
+            "brokwn",
+            "building",
+            "business-and-finance",
+            "loss"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491510-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank",
+            "banking",
+            "finance",
+            "financial",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8489162-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "analysis",
+            "bank",
+            "business",
+            "finance",
+            "financial",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487776-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "analysis",
+            "bank",
+            "business",
+            "finance",
+            "financial",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487775-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "architecture-and-city",
+            "bank",
+            "bank",
+            "banking",
+            "buildings",
+            "museum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486392-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "banking",
+            "building",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482821-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank",
+            "building",
+            "depository-house",
+            "financial-institute",
+            "treasury-house"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8479807-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank",
+            "banking",
+            "finance",
+            "financial-institution",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477770-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "banking",
+            "economy",
+            "finance",
+            "savings",
+            "transaction"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476773-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "building",
+            "finance",
+            "institution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470137-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "banking",
+            "building",
+            "finance",
+            "institution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470111-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "banking",
+            "building",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467750-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "bank-building",
+            "banking",
+            "finance",
+            "investment",
+            "saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "banking",
+            "finance",
+            "investment",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466447-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "bank-building",
+    "rationale": "Refs for \"bank\" dominated by columned bank buildings.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

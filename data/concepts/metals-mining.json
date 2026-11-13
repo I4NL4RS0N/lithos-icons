@@ -1,0 +1,21 @@
+{
+  "id": "metals-mining",
+  "name": "Metals & Mining",
+  "kind": "industry",
+  "parent": "materials",
+  "metaphor": "pickaxe",
+  "keywords": [
+    "mining",
+    "metals",
+    "gold",
+    "copper",
+    "steel",
+    "aluminum",
+    "iron ore",
+    "pickaxe"
+  ],
+  "reduction": "16–20: head as a single curve. 24+: crescent head.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

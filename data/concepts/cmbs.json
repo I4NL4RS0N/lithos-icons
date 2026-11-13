@@ -1,0 +1,17 @@
+{
+  "id": "cmbs",
+  "name": "CMBS",
+  "kind": "asset-class",
+  "metaphor": "office-on-tranches",
+  "keywords": [
+    "commercial mortgage-backed securities",
+    "commercial real estate",
+    "CRE",
+    "office",
+    "conduit"
+  ],
+  "reduction": "Windows: 1 row at 16, 2 rows (single column) at 20, 2×2 at 24, 3×2 at 32+.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

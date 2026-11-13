@@ -1,0 +1,818 @@
+{
+  "concept": "biotechnology",
+  "query": "biotechnology",
+  "fetched": "2026-11-13T03:32:28.986Z",
+  "topTerms": [
+    [
+      "biotechnology",
+      50
+    ],
+    [
+      "science",
+      26
+    ],
+    [
+      "research",
+      22
+    ],
+    [
+      "dna",
+      17
+    ],
+    [
+      "biology",
+      13
+    ],
+    [
+      "biotech",
+      13
+    ],
+    [
+      "genetic",
+      12
+    ],
+    [
+      "laboratory",
+      11
+    ],
+    [
+      "technology",
+      8
+    ],
+    [
+      "genetics",
+      8
+    ],
+    [
+      "lab",
+      8
+    ],
+    [
+      "innovation",
+      6
+    ],
+    [
+      "healthcare",
+      5
+    ],
+    [
+      "engineering",
+      5
+    ],
+    [
+      "crispr",
+      5
+    ],
+    [
+      "education",
+      4
+    ],
+    [
+      "biochemistry",
+      4
+    ],
+    [
+      "chemistry",
+      4
+    ],
+    [
+      "plant",
+      4
+    ],
+    [
+      "botany",
+      4
+    ],
+    [
+      "renewable",
+      3
+    ],
+    [
+      "experiment",
+      3
+    ],
+    [
+      "microscope",
+      3
+    ],
+    [
+      "smart-farming",
+      3
+    ],
+    [
+      "medical",
+      2
+    ],
+    [
+      "botanical",
+      2
+    ],
+    [
+      "stem-cell",
+      2
+    ],
+    [
+      "molecule",
+      2
+    ],
+    [
+      "tech",
+      2
+    ],
+    [
+      "futuristic",
+      1
+    ],
+    [
+      "eco",
+      1
+    ],
+    [
+      "fuel",
+      1
+    ],
+    [
+      "gas-station",
+      1
+    ],
+    [
+      "analysis",
+      1
+    ],
+    [
+      "scientific",
+      1
+    ],
+    [
+      "bioengineering",
+      1
+    ],
+    [
+      "bio",
+      1
+    ],
+    [
+      "analyze",
+      1
+    ],
+    [
+      "engineer",
+      1
+    ],
+    [
+      "modify",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "education",
+            "laboratory",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512934-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "education",
+            "laboratory",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512888-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "biotechnology",
+            "dna",
+            "futuristic",
+            "healthcare",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453701-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "biotechnology",
+            "eco",
+            "fuel",
+            "gas-station",
+            "renewable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8447405-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "innovation",
+            "laboratory",
+            "research",
+            "science",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422406-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422403-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotech",
+            "biotechnology",
+            "laboratory",
+            "medical",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403329-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "analysis",
+            "biotechnology",
+            "dna",
+            "laboratory",
+            "scientific"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8337772-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotech",
+            "biotechnology",
+            "dna",
+            "genetic",
+            "healthcare",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334910-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotech",
+            "biotechnology",
+            "dna",
+            "genetic",
+            "healthcare",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "bioengineering",
+            "biology",
+            "biotech",
+            "biotechnology",
+            "genetics",
+            "laboratory"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334420-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "bio",
+            "biotechnology",
+            "dna",
+            "engineering",
+            "genetic",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8327657-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "analyze",
+            "biotechnology",
+            "biotechnology",
+            "engineer",
+            "modify",
+            "produce"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8318728-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "crispr",
+            "genetic",
+            "innovation",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8294306-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "crispr",
+            "genetic",
+            "innovation",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8294273-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "ai",
+            "artificial-intelligence",
+            "biotechnology",
+            "leaf",
+            "nature",
+            "smart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8293928-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biochemistry",
+            "biotechnology",
+            "chemistry",
+            "experiment",
+            "lab",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8279202-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biochemistry",
+            "biotech",
+            "biotechnology",
+            "botanical",
+            "botany",
+            "education"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8192744-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "crispr",
+            "genetic",
+            "innovation",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8183758-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "biotechnology",
+            "lab",
+            "research",
+            "science",
+            "stem-cell"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8183487-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "biotechnology",
+            "lab",
+            "research",
+            "science",
+            "stem-cell"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8183465-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biochemistry",
+            "biotech",
+            "biotechnology",
+            "botanical",
+            "botany",
+            "education"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8137921-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotech",
+            "biotechnology",
+            "dna",
+            "genetic",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8137721-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "dna",
+            "lab",
+            "research",
+            "science",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8112140-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "dna",
+            "lab",
+            "research",
+            "science",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8103264-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "agriculture",
+            "biotechnology",
+            "crop",
+            "genetics",
+            "innovation",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8081801-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "dna",
+            "lab",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8066551-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "dna",
+            "lab",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8059635-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "botany",
+            "experiment",
+            "laboratory",
+            "molecule"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8059188-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "botany",
+            "experiment",
+            "laboratory",
+            "molecule"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8057505-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "crispr",
+            "engineering",
+            "genetic",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8056620-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "crispr",
+            "engineering",
+            "genetic",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8056594-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "dna",
+            "genetics",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8055959-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotech",
+            "biotechnology",
+            "dna",
+            "genetics",
+            "science",
+            "tech"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7990599-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotech",
+            "biotechnology",
+            "dna",
+            "genetics",
+            "science",
+            "tech"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7990550-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotech",
+            "biotechnology",
+            "biotechnology",
+            "science",
+            "test-tube"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7924217-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "laboratory",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7921960-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "engineering",
+            "genetic",
+            "plant",
+            "research",
+            "smart-farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7881200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "engineering",
+            "genetic",
+            "plant",
+            "research",
+            "smart-farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7881150-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotech",
+            "biotechnology",
+            "biotechnology",
+            "chemistry",
+            "lab",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7841726-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "genetics",
+            "healthcare",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7841601-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "cell",
+            "dna",
+            "genetics",
+            "innovation",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7816994-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biochemistry",
+            "biology",
+            "biotechnology",
+            "biotechnology",
+            "chemical-lab",
+            "data-science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7815233-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotech",
+            "biotechnology",
+            "smart-agriculture",
+            "smart-farming",
+            "smart-irrigation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7815192-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "dna",
+            "laboratory",
+            "microscope",
+            "science",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7808760-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "dna",
+            "laboratory",
+            "microscope",
+            "science",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7808727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotech",
+            "biotechnology",
+            "dna",
+            "genetic",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7757498-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biotechnology",
+            "discovery",
+            "genetics",
+            "healthcare",
+            "molecular"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7720332-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "chemistry",
+            "renewable",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7692392-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "biotechnology",
+          "tags": [
+            "biology",
+            "biotechnology",
+            "chemistry",
+            "renewable",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7692366-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "dna",
+    "rationale": "Refs for \"biotechnology\" dominated by DNA helices and plant+flask.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

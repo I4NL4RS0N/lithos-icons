@@ -1,0 +1,18 @@
+{
+  "id": "machinery",
+  "name": "Machinery",
+  "kind": "industry",
+  "parent": "industrials",
+  "metaphor": "gear",
+  "keywords": [
+    "machinery",
+    "industrial machinery",
+    "equipment",
+    "heavy equipment",
+    "gear"
+  ],
+  "reduction": "6 broad teeth at 16–20, 8 at 24+.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

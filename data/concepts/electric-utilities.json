@@ -1,0 +1,18 @@
+{
+  "id": "electric-utilities",
+  "name": "Electric Utilities",
+  "kind": "industry",
+  "parent": "utilities",
+  "metaphor": "bolt",
+  "keywords": [
+    "electricity",
+    "power",
+    "electric",
+    "grid",
+    "power generation"
+  ],
+  "reduction": "None — single shape.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

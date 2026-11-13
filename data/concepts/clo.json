@@ -1,0 +1,17 @@
+{
+  "id": "clo",
+  "name": "CLO",
+  "kind": "asset-class",
+  "metaphor": "loan-on-tranches",
+  "keywords": [
+    "collateralized loan obligations",
+    "leveraged loans",
+    "CLO",
+    "structured credit",
+    "loan portfolio"
+  ],
+  "reduction": "20+: text lines on the document.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

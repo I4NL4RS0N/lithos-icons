@@ -1,0 +1,779 @@
+{
+  "concept": "cmbs",
+  "query": "commercial real estate",
+  "fetched": "2026-11-13T03:32:31.050Z",
+  "topTerms": [
+    [
+      "commercial",
+      45
+    ],
+    [
+      "real-estate",
+      44
+    ],
+    [
+      "building",
+      36
+    ],
+    [
+      "office",
+      30
+    ],
+    [
+      "skyline",
+      19
+    ],
+    [
+      "property",
+      12
+    ],
+    [
+      "buildings",
+      8
+    ],
+    [
+      "commercial-real-estate",
+      6
+    ],
+    [
+      "city",
+      6
+    ],
+    [
+      "commercial real estate",
+      4
+    ],
+    [
+      "estate",
+      4
+    ],
+    [
+      "apartment",
+      4
+    ],
+    [
+      "hotel",
+      4
+    ],
+    [
+      "business",
+      3
+    ],
+    [
+      "office building",
+      3
+    ],
+    [
+      "office-building",
+      3
+    ],
+    [
+      "hostel",
+      2
+    ],
+    [
+      "interior",
+      2
+    ],
+    [
+      "real",
+      2
+    ],
+    [
+      "advertisement",
+      2
+    ],
+    [
+      "real-estate-ads",
+      2
+    ],
+    [
+      "billboard",
+      2
+    ],
+    [
+      "advertising",
+      2
+    ],
+    [
+      "marketing",
+      2
+    ],
+    [
+      "skyscraper",
+      2
+    ],
+    [
+      "modern",
+      1
+    ],
+    [
+      "downtown",
+      1
+    ],
+    [
+      "telecom",
+      1
+    ],
+    [
+      "retail",
+      1
+    ],
+    [
+      "shop",
+      1
+    ],
+    [
+      "commercial-building",
+      1
+    ],
+    [
+      "stores",
+      1
+    ],
+    [
+      "office-bulding",
+      1
+    ],
+    [
+      "work",
+      1
+    ],
+    [
+      "commerical",
+      1
+    ],
+    [
+      "offices",
+      1
+    ],
+    [
+      "build",
+      1
+    ],
+    [
+      "institution",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "commercial real estate",
+          "tags": [
+            "building",
+            "commercial",
+            "commercial-real-estate",
+            "estate",
+            "hostel",
+            "interior"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7470955-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "commercial real estate",
+          "tags": [
+            "building",
+            "commercial",
+            "commercial-real-estate",
+            "estate",
+            "hostel",
+            "interior"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7470906-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "commercial real estate",
+          "tags": [
+            "buildings",
+            "city",
+            "commercial-real-estate",
+            "modern",
+            "property",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6902405-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "commercial real estate",
+          "tags": [
+            "building",
+            "business",
+            "city",
+            "commercial-real-estate",
+            "downtown",
+            "telecom"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5652584-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "estate",
+            "property",
+            "real"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3732016-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Retail",
+          "tags": [
+            "commercial-real-estate",
+            "property",
+            "real-estate",
+            "retail",
+            "shop"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3340980-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial-building",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1291697-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stores",
+          "tags": [
+            "commercial-real-estate",
+            "office-bulding",
+            "property",
+            "real-estate",
+            "stores"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3340979-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "advertisement",
+          "tags": [
+            "advertisement",
+            "building",
+            "commercial",
+            "property",
+            "real-estate",
+            "real-estate-ads"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2348632-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "advertisement",
+          "tags": [
+            "advertisement",
+            "building",
+            "commercial",
+            "property",
+            "real-estate",
+            "real-estate-ads"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2348630-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "office building",
+          "tags": [
+            "business",
+            "commercial",
+            "office-building",
+            "real-estate",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7454212-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Billboard",
+          "tags": [
+            "advertising",
+            "billboard",
+            "commercial",
+            "marketing",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5913397-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Billboard",
+          "tags": [
+            "advertising",
+            "billboard",
+            "commercial",
+            "marketing",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5913374-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Office",
+          "tags": [
+            "business",
+            "city",
+            "commercial",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5857240-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Skyscraper",
+          "tags": [
+            "buildings",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyscraper"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4855961-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Skyscraper",
+          "tags": [
+            "buildings",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyscraper"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4231557-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "buildings",
+          "tags": [
+            "buildings",
+            "city",
+            "commercial",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3770292-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "buildings",
+          "tags": [
+            "buildings",
+            "city",
+            "commercial",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3770258-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "buildings",
+          "tags": [
+            "buildings",
+            "city",
+            "commercial",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3770093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "apartment",
+            "building",
+            "commercial",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3752589-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "apartment",
+            "building",
+            "commercial",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3750816-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "apartment",
+            "building",
+            "commercial",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3750793-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "apartment",
+            "building",
+            "commercial",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3750759-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "commerical",
+          "tags": [
+            "building",
+            "commercial",
+            "commerical",
+            "estate",
+            "property",
+            "real"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3732000-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "buildings",
+          "tags": [
+            "buildings",
+            "commercial",
+            "offices",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3340978-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "office building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "office-building",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2078861-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "office building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "office-building",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2077568-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "buildings",
+          "tags": [
+            "build",
+            "buildings",
+            "commercial",
+            "institution",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1420867-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "hotel",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192451-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "hotel",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192388-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192317-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192316-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192234-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192227-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "hotel",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192035-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1192002-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "hotel",
+            "office",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191946-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191915-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191879-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191876-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191872-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191869-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191867-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191866-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191861-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191859-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191848-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191847-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "building",
+          "tags": [
+            "building",
+            "commercial",
+            "office",
+            "real-estate",
+            "skyline"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1191826-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "office-on-tranches",
+    "rationale": "Refs for \"commercial real estate\" dominated by office buildings.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

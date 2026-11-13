@@ -1,0 +1,190 @@
+{
+  "concept": "abs",
+  "query": "securitization",
+  "fetched": "2026-11-13T03:32:31.608Z",
+  "topTerms": [
+    [
+      "securitization",
+      11
+    ],
+    [
+      "assets",
+      8
+    ],
+    [
+      "financial",
+      8
+    ],
+    [
+      "debt",
+      8
+    ],
+    [
+      "pooling",
+      6
+    ],
+    [
+      "economic",
+      5
+    ],
+    [
+      "aggregation",
+      3
+    ],
+    [
+      "asset",
+      3
+    ],
+    [
+      "credit",
+      3
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "economic",
+            "financial",
+            "pooling",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5937918-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "economic",
+            "financial",
+            "pooling",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5937757-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "economic",
+            "financial",
+            "pooling",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5937742-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "debt",
+            "financial",
+            "pooling",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5298005-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "debt",
+            "financial",
+            "pooling",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5296339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "debt",
+            "financial",
+            "pooling",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5296318-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "debt",
+            "economic",
+            "financial",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4742733-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "assets",
+            "debt",
+            "economic",
+            "financial",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4727104-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "aggregation",
+            "asset",
+            "credit",
+            "debt",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4581656-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "aggregation",
+            "asset",
+            "credit",
+            "debt",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4581197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "securitization",
+          "tags": [
+            "aggregation",
+            "asset",
+            "credit",
+            "debt",
+            "securitization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4580537-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "card-on-tranches",
+    "rationale": "Refs for \"securitization\" were thin; card stands for consumer receivables (cards, autos, student loans).",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

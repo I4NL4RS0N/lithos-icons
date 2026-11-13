@@ -1,0 +1,18 @@
+{
+  "id": "country-jp",
+  "name": "Japan",
+  "kind": "country",
+  "iso2": "JP",
+  "m49": "392",
+  "iso3": "JPN",
+  "keywords": [
+    "Japan",
+    "JP"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass cluster; islands below a size-based area threshold are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

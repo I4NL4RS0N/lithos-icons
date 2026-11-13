@@ -1,0 +1,828 @@
+{
+  "concept": "chemicals",
+  "query": "chemicals",
+  "fetched": "2026-11-13T03:32:25.065Z",
+  "topTerms": [
+    [
+      "chemical",
+      39
+    ],
+    [
+      "science",
+      24
+    ],
+    [
+      "laboratory",
+      20
+    ],
+    [
+      "chemistry",
+      19
+    ],
+    [
+      "lab",
+      19
+    ],
+    [
+      "chemicals",
+      13
+    ],
+    [
+      "research",
+      10
+    ],
+    [
+      "experiment",
+      8
+    ],
+    [
+      "medicine",
+      8
+    ],
+    [
+      "substance",
+      6
+    ],
+    [
+      "liquid",
+      6
+    ],
+    [
+      "flask",
+      5
+    ],
+    [
+      "toxic",
+      5
+    ],
+    [
+      "beaker",
+      4
+    ],
+    [
+      "healthcare",
+      4
+    ],
+    [
+      "material",
+      3
+    ],
+    [
+      "nourish",
+      3
+    ],
+    [
+      "scientific",
+      3
+    ],
+    [
+      "trial",
+      3
+    ],
+    [
+      "danger",
+      3
+    ],
+    [
+      "poison",
+      3
+    ],
+    [
+      "formula",
+      3
+    ],
+    [
+      "jobs",
+      3
+    ],
+    [
+      "professions",
+      3
+    ],
+    [
+      "industrial",
+      2
+    ],
+    [
+      "catalyst",
+      2
+    ],
+    [
+      "solvent",
+      2
+    ],
+    [
+      "synthesis",
+      2
+    ],
+    [
+      "toxicology",
+      2
+    ],
+    [
+      "energy",
+      2
+    ],
+    [
+      "hazardous",
+      2
+    ],
+    [
+      "education",
+      2
+    ],
+    [
+      "no chemical",
+      2
+    ],
+    [
+      "no-chemical",
+      2
+    ],
+    [
+      "biology",
+      2
+    ],
+    [
+      "ecology-and-environment",
+      2
+    ],
+    [
+      "plant",
+      2
+    ],
+    [
+      "business",
+      2
+    ],
+    [
+      "management",
+      2
+    ],
+    [
+      "professional",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemicals",
+            "chemistry",
+            "erlenmeyer-flask",
+            "lab",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1792984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "beaker",
+            "chemical",
+            "chemistry",
+            "design",
+            "experiment",
+            "flask",
+            "healthcare",
+            "illustration",
+            "liquids",
+            "research",
+            "science",
+            "shape",
+            "signs",
+            "solid-icon"
+          ],
+          "thumb": "https://static.thenounproject.com/png/73158-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "industrial",
+            "laboratory",
+            "substance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515647-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "industrial",
+            "laboratory",
+            "substance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515628-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "lab",
+            "laboratory",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511955-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "lab",
+            "laboratory",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "catalyst",
+            "chemical",
+            "material",
+            "solvent",
+            "synthesis",
+            "toxicology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491473-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "alternative",
+            "chemical",
+            "eco-friendly",
+            "energy",
+            "renewable",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484624-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "hazardous",
+            "laboratory",
+            "science",
+            "toxic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482603-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "education",
+            "laboratory",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "education",
+            "laboratory",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481277-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "catalyst",
+            "chemical",
+            "material",
+            "solvent",
+            "synthesis",
+            "toxicology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8427613-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemicals",
+            "chemistry",
+            "flask",
+            "laboratory"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409573-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "No chemical",
+          "tags": [
+            "chemical",
+            "forbidden",
+            "harsh",
+            "no-chemical",
+            "toxin"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8366174-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemicals",
+            "chemistry",
+            "flask",
+            "lab",
+            "laboratory"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8359145-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemical",
+            "container",
+            "hazardous",
+            "laboratory",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8346070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "beaker",
+            "chemical",
+            "chemistry",
+            "experiment",
+            "liquid",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8320207-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "nourish",
+            "science",
+            "scientific",
+            "trial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8303657-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "beaker",
+            "chemical",
+            "chemistry",
+            "experiment",
+            "liquid",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8291147-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "beaker",
+            "chemical",
+            "chemistry",
+            "experiment",
+            "liquid",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8291115-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "No chemical",
+          "tags": [
+            "clean",
+            "natural",
+            "no-chemical",
+            "organic",
+            "safe",
+            "toxin-free"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8268339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "danger",
+            "lab",
+            "liquid",
+            "poison",
+            "toxic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8247019-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "danger",
+            "lab",
+            "liquid",
+            "poison",
+            "toxic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8244776-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "nourish",
+            "science",
+            "scientific",
+            "trial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8239518-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "nourish",
+            "science",
+            "scientific",
+            "trial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8239493-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "experiment",
+            "formula",
+            "industri",
+            "lab",
+            "laboratorium"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233602-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "atom",
+            "chemicals",
+            "chemicals",
+            "energy",
+            "lab",
+            "testtubes"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233147-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemistry",
+            "flask",
+            "lab",
+            "laboratory",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8223797-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "danger",
+            "lab",
+            "liquid",
+            "poison",
+            "toxic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8211571-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "biology",
+            "chemical",
+            "ecology",
+            "ecology-and-environment",
+            "lab",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206630-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "biology",
+            "chemical",
+            "ecology-and-environment",
+            "lab",
+            "leaf",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206606-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "business",
+            "chemicals",
+            "experiment",
+            "management",
+            "professional",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8190547-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "business",
+            "chemicals",
+            "experiment",
+            "lab",
+            "management",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8190532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "chemicals",
+            "chemicals",
+            "laboratory",
+            "medicine",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8186823-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "chemicals",
+            "laboratory",
+            "medicine",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8186817-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "chemicals",
+            "laboratory",
+            "medicine",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8186787-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "chemicals",
+            "chemistry",
+            "laboratory",
+            "material",
+            "medicine",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8148104-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemical",
+            "chemistry",
+            "flask",
+            "lab",
+            "laboratory"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8118086-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemical",
+            "healthcare",
+            "jobs",
+            "medical",
+            "professions"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8110893-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "and",
+            "chemical",
+            "chemical",
+            "healthcare",
+            "jobs",
+            "professions"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8110877-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemical",
+            "healthcare",
+            "jobs",
+            "medical",
+            "professions"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8110875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "chemicals",
+            "laboratory",
+            "medicine",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8089087-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "chemical",
+            "laboratory",
+            "medicine",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8089065-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "chemicals",
+            "chemicals",
+            "laboratory",
+            "medicine",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8089055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemicals",
+          "tags": [
+            "chemicals",
+            "chemicals",
+            "laboratory",
+            "medicine",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8089054-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "bottle",
+            "chemical",
+            "compound",
+            "lab",
+            "substance",
+            "test"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8028200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "formula",
+            "lab",
+            "reaction",
+            "science",
+            "substance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8028167-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "experiment",
+            "lab",
+            "science",
+            "solution",
+            "toxic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8028164-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "bottle",
+            "chemical",
+            "compound",
+            "lab",
+            "substance",
+            "test"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8028163-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "chemical",
+          "tags": [
+            "chemical",
+            "formula",
+            "lab",
+            "reaction",
+            "science",
+            "substance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8028162-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "flask",
+    "rationale": "Refs for \"chemicals\" dominated by flasks.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

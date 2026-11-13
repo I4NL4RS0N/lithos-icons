@@ -95,7 +95,18 @@ export function kit(size, style) {
     return out.map((ring) => 'M' + ring.map((p) => `${r2(p.X / S)} ${r2(p.Y / S)}`).join('L') + 'Z').join('');
   }
 
-  return { size, style, solid, pad, L, sw, tier, X, len, path, rrect, circle, poly, capsule, offsetPoly, holeW, holeN, grow };
+  // Offset an open polyline (normalized) into a closed shape with round ends; deltaPx = half the visual width.
+  function offsetLine(pts, deltaPx) {
+    const S = 1000;
+    const co = new ClipperLib.ClipperOffset(2, 0.25 * S);
+    co.AddPath(pts.map(([x, y]) => ({ X: Math.round((pad + x * L) * S), Y: Math.round((pad + y * L) * S) })), ClipperLib.JoinType.jtRound, ClipperLib.EndType.etOpenRound);
+    const out = new ClipperLib.Paths();
+    co.Execute(out, deltaPx * S);
+    return out.map((ring) => 'M' + ring.map((p) => `${r2(p.X / S)} ${r2(p.Y / S)}`).join('L') + 'Z').join('');
+  }
+  const gapN = (k = 1.5) => (sw + k) / L; // normalized clear gap between strokes
+
+  return { size, style, solid, pad, L, sw, tier, X, len, path, rrect, circle, poly, capsule, offsetPoly, offsetLine, gapN, holeW, holeN, grow };
 }
 
 export function svg(size, style, elements) {
