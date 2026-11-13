@@ -2,17 +2,17 @@
   "id": "materials",
   "name": "Materials",
   "kind": "sector",
-  "metaphor": "ingots",
+  "metaphor": "mine-cart",
   "keywords": [
     "metals",
     "mining",
     "chemicals",
     "commodities",
     "steel",
-    "gold",
+    "ore",
     "raw materials"
   ],
-  "reduction": "Same three bars at all sizes; gaps scale with stroke.",
+  "reduction": "16: three-facet ore pile. 20+: five facets.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

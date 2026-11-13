@@ -2,7 +2,7 @@
   "id": "communication-services",
   "name": "Communication Services",
   "kind": "sector",
-  "metaphor": "speech-bubble",
+  "metaphor": "antenna",
   "keywords": [
     "telecom",
     "media",
@@ -10,9 +10,10 @@
     "advertising",
     "social media",
     "publishing",
-    "broadcasting"
+    "broadcasting",
+    "wireless"
   ],
-  "reduction": "None — single bubble at all sizes.",
+  "reduction": "16: one wave each side. 20+: two.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

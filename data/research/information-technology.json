@@ -1,0 +1,824 @@
+{
+  "concept": "information-technology",
+  "query": "information technology",
+  "fetched": "2026-11-13T03:25:13.885Z",
+  "topTerms": [
+    [
+      "information technology",
+      50
+    ],
+    [
+      "information-technology",
+      50
+    ],
+    [
+      "technology",
+      41
+    ],
+    [
+      "digital",
+      34
+    ],
+    [
+      "information",
+      32
+    ],
+    [
+      "computer",
+      21
+    ],
+    [
+      "network",
+      17
+    ],
+    [
+      "system",
+      7
+    ],
+    [
+      "software",
+      5
+    ],
+    [
+      "it",
+      4
+    ],
+    [
+      "electronics",
+      4
+    ],
+    [
+      "it-systems",
+      4
+    ],
+    [
+      "coding",
+      3
+    ],
+    [
+      "data",
+      3
+    ],
+    [
+      "development",
+      3
+    ],
+    [
+      "connection",
+      3
+    ],
+    [
+      "ebook",
+      3
+    ],
+    [
+      "laptop",
+      2
+    ],
+    [
+      "programming",
+      2
+    ],
+    [
+      "cloud-service",
+      2
+    ],
+    [
+      "innovation",
+      2
+    ],
+    [
+      "business",
+      2
+    ],
+    [
+      "code",
+      2
+    ],
+    [
+      "programing",
+      2
+    ],
+    [
+      "computer-sciences",
+      2
+    ],
+    [
+      "computer-technology",
+      2
+    ],
+    [
+      "setting-tools",
+      2
+    ],
+    [
+      "web-development",
+      2
+    ],
+    [
+      "chart",
+      2
+    ],
+    [
+      "mail",
+      2
+    ],
+    [
+      "futuristic",
+      2
+    ],
+    [
+      "servers",
+      2
+    ],
+    [
+      "transfer-file",
+      2
+    ],
+    [
+      "hand",
+      2
+    ],
+    [
+      "database",
+      2
+    ],
+    [
+      "data-engineering",
+      1
+    ],
+    [
+      "data-storage",
+      1
+    ],
+    [
+      "globalization",
+      1
+    ],
+    [
+      "innovative-technology",
+      1
+    ],
+    [
+      "internet-data",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Information Technology",
+          "tags": [
+            "coding",
+            "computer",
+            "information-technology",
+            "information-technology",
+            "laptop",
+            "programming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493080-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "data-engineering",
+            "data-storage",
+            "globalization",
+            "information-technology",
+            "it"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5942798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "information-technology",
+            "innovative-technology",
+            "internet-data",
+            "it",
+            "laptop",
+            "online-data"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2130978-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information-technology",
+            "internet",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491655-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "data",
+            "information",
+            "information-technology",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8375510-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "information",
+            "information-technology",
+            "software",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8371741-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "cloud-service",
+            "electronics",
+            "information",
+            "information-technology",
+            "it-systems",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334304-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "cloud-service",
+            "electronics",
+            "information",
+            "information-technology",
+            "it-systems",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "information-technology",
+            "innovation",
+            "network",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296114-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "information-technology",
+            "innovation",
+            "network",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8250994-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "business",
+            "company",
+            "hr",
+            "human-resources",
+            "information-technology",
+            "management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8065542-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "code",
+            "coding",
+            "computer",
+            "development",
+            "information-technology",
+            "programing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8011957-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "code",
+            "coding",
+            "computer",
+            "development",
+            "information-technology",
+            "programing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8011949-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "electronics",
+            "information-technology",
+            "it-systems",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7889114-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "electronics",
+            "information-technology",
+            "it-systems",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7888989-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "business",
+            "development",
+            "information-technology",
+            "programming",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7886844-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer-sciences",
+            "computer-technology",
+            "information-technology",
+            "information-technology",
+            "setting-tools",
+            "web-development"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7879179-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer-sciences",
+            "computer-technology",
+            "information-technology",
+            "information-technology",
+            "setting-tools",
+            "web-development"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7879178-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "information-technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871159-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871158-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "connection",
+            "digital",
+            "information-technology",
+            "network",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871154-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "connection",
+            "digital",
+            "information-technology",
+            "network",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871140-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871137-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871134-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871130-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871126-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871115-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871109-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871107-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "connection",
+            "digital",
+            "information-technology",
+            "network",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871105-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "digital",
+            "information",
+            "information-technology",
+            "network",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7871103-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "information",
+            "information-technology",
+            "it",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7809440-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "information",
+            "information-technology",
+            "it",
+            "software",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7809408-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "data",
+            "digital",
+            "information",
+            "information-technology",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7808776-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "computer",
+            "data",
+            "digital",
+            "information",
+            "information-technology",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7808747-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "file",
+            "information",
+            "information-technology",
+            "technology",
+            "transfer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756472-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "chart",
+            "digital",
+            "ebook",
+            "information",
+            "information-technology",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756471-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "ebook",
+            "inform",
+            "information",
+            "information-technology",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "information",
+            "information-technology",
+            "mail",
+            "technology",
+            "transmitter"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756469-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "flashdisk",
+            "information",
+            "information-technology",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756468-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "futuristic",
+            "information",
+            "information-technology",
+            "servers",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756467-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "futuristic",
+            "information",
+            "information-technology",
+            "technology",
+            "transfer-file"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756466-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "chart",
+            "digital",
+            "hand",
+            "information",
+            "information-technology",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756465-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "communication",
+            "digital",
+            "information",
+            "information-technology",
+            "mail",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756464-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "database",
+            "digital",
+            "information",
+            "information-technology",
+            "servers",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756463-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "global",
+            "information",
+            "information-technology",
+            "technology",
+            "transfer-file"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756462-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "digital",
+            "hand",
+            "information",
+            "information-technology",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756461-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Information Technology",
+          "tags": [
+            "database",
+            "digital",
+            "ebook",
+            "information",
+            "information-technology",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756460-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "laptop",
+    "rationale": "Refs for \"information technology\" dominated by laptops/monitors; laptop kept.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

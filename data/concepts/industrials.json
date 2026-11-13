@@ -2,7 +2,7 @@
   "id": "industrials",
   "name": "Industrials",
   "kind": "sector",
-  "metaphor": "gear",
+  "metaphor": "factory",
   "keywords": [
     "machinery",
     "manufacturing",
@@ -10,9 +10,9 @@
     "defense",
     "construction",
     "engineering",
-    "transport"
+    "factory"
   ],
-  "reduction": "6 broad teeth at 16–20, 8 at 24+.",
+  "reduction": "32+: row of windows.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

@@ -1,0 +1,801 @@
+{
+  "concept": "energy",
+  "query": "oil and gas",
+  "fetched": "2026-11-13T03:25:09.522Z",
+  "topTerms": [
+    [
+      "oil",
+      46
+    ],
+    [
+      "gas",
+      31
+    ],
+    [
+      "oil-and-gas",
+      25
+    ],
+    [
+      "fuel",
+      20
+    ],
+    [
+      "industry",
+      15
+    ],
+    [
+      "oil-rig",
+      11
+    ],
+    [
+      "oil-industry",
+      9
+    ],
+    [
+      "petroleum",
+      8
+    ],
+    [
+      "oil-tank",
+      7
+    ],
+    [
+      "oil and gas",
+      6
+    ],
+    [
+      "oil tank",
+      6
+    ],
+    [
+      "gas-station",
+      5
+    ],
+    [
+      "oil rig",
+      5
+    ],
+    [
+      "oil industry",
+      4
+    ],
+    [
+      "tank",
+      3
+    ],
+    [
+      "exploration",
+      3
+    ],
+    [
+      "refinery",
+      3
+    ],
+    [
+      "oil-barrel",
+      3
+    ],
+    [
+      "oil-drop",
+      3
+    ],
+    [
+      "transport",
+      2
+    ],
+    [
+      "oil-pump",
+      2
+    ],
+    [
+      "palm oil",
+      2
+    ],
+    [
+      "palm-oil",
+      2
+    ],
+    [
+      "energy",
+      2
+    ],
+    [
+      "oil gas",
+      2
+    ],
+    [
+      "oil-gas",
+      2
+    ],
+    [
+      "firm",
+      2
+    ],
+    [
+      "law",
+      2
+    ],
+    [
+      "mining",
+      2
+    ],
+    [
+      "drop",
+      2
+    ],
+    [
+      "valve",
+      2
+    ],
+    [
+      "gas-pipe",
+      2
+    ],
+    [
+      "natural-gas",
+      2
+    ],
+    [
+      "oil-valve",
+      2
+    ],
+    [
+      "oil platform",
+      2
+    ],
+    [
+      "oil-platform",
+      2
+    ],
+    [
+      "oil-tanker",
+      2
+    ],
+    [
+      "no oil",
+      2
+    ],
+    [
+      "no-leakage",
+      2
+    ],
+    [
+      "no-oil",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "oil and gas",
+          "tags": [
+            "barrel",
+            "industry",
+            "oil-and-gas",
+            "tank",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6785298-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil",
+          "tags": [
+            "gas",
+            "industry",
+            "oil",
+            "oil",
+            "oil-and-gas",
+            "oil-tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506554-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil pump",
+          "tags": [
+            "gas",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "oil-pump",
+            "oil-pump"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506552-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Palm Oil",
+          "tags": [
+            "gas",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "palm-oil",
+            "palm-oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506549-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Tank",
+          "tags": [
+            "gas",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "oil-tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506546-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Tank",
+          "tags": [
+            "gas",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "oil-tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil and gas",
+          "tags": [
+            "exploration",
+            "fuel",
+            "oil",
+            "oil-and-gas",
+            "petroleum",
+            "refinery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil and gas",
+          "tags": [
+            "exploration",
+            "fuel",
+            "oil",
+            "oil-and-gas",
+            "petroleum",
+            "refinery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861501-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil and gas",
+          "tags": [
+            "drilling",
+            "energy",
+            "exploration",
+            "fuel",
+            "oil-and-gas",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7681594-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil gas",
+          "tags": [
+            "energy",
+            "oil",
+            "oil-gas",
+            "petroleum",
+            "power",
+            "refinery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7338591-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil gas",
+          "tags": [
+            "holiday",
+            "oil-gas",
+            "transport",
+            "transportation",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6852576-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil and gas",
+          "tags": [
+            "firm",
+            "gas",
+            "law",
+            "mining",
+            "oil",
+            "oil-and-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6704284-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil and gas",
+          "tags": [
+            "firm",
+            "gas",
+            "law",
+            "mining",
+            "oil",
+            "oil-and-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6092864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gas oil",
+          "tags": [
+            "diesel",
+            "fuel",
+            "gas-oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4589018-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil",
+          "tags": [
+            "gas",
+            "industry",
+            "oil",
+            "oil-and-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506548-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "high oil pice",
+          "tags": [
+            "gas",
+            "high-oil-pice",
+            "high-oil-price",
+            "industry",
+            "oil",
+            "oil-and-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506547-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Fuel",
+          "tags": [
+            "fuel",
+            "industry",
+            "oil",
+            "oil-and-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488609-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Fuel",
+          "tags": [
+            "fuel",
+            "gas",
+            "gas-station",
+            "oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7762716-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil",
+          "tags": [
+            "drop",
+            "gas",
+            "oil",
+            "oil-and-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7471106-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil",
+          "tags": [
+            "drop",
+            "gas",
+            "oil",
+            "oil-and-gas"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7471072-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Tank",
+          "tags": [
+            "gas",
+            "gas-station",
+            "oil",
+            "oil-tank",
+            "petrol",
+            "tank-oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7136630-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "valve",
+          "tags": [
+            "gas-pipe",
+            "natural-gas",
+            "oil",
+            "oil-valve",
+            "valve"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6582349-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "valve",
+          "tags": [
+            "gas-pipe",
+            "natural-gas",
+            "oil",
+            "oil-valve",
+            "valve"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1832982-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Platform",
+          "tags": [
+            "gas",
+            "industry",
+            "oil",
+            "oil-platform",
+            "oil-platform",
+            "oil-rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506553-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil price",
+          "tags": [
+            "fuel",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "oil-price",
+            "oil-price"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488617-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Truck",
+          "tags": [
+            "fuel",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "oil-truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488614-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Tank",
+          "tags": [
+            "fuel",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "oil-tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488613-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Palm Oil",
+          "tags": [
+            "fuel",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "palm-oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488611-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Tank",
+          "tags": [
+            "fuel",
+            "industry",
+            "oil",
+            "oil-and-gas",
+            "oil-tank",
+            "oil-tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488610-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Platform",
+          "tags": [
+            "fuel",
+            "oil",
+            "oil-and-gas",
+            "oil-platform",
+            "oil-pump",
+            "oil-rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488608-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Fuel",
+          "tags": [
+            "fuel",
+            "fuel",
+            "gas",
+            "gas-pump",
+            "gas-station",
+            "oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364981-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil",
+          "tags": [
+            "oil",
+            "oil-and-gas",
+            "oil-barrel",
+            "oil-drop",
+            "oil-drum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8215935-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil",
+          "tags": [
+            "oil",
+            "oil-and-gas",
+            "oil-barrel",
+            "oil-drop"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8215900-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil",
+          "tags": [
+            "oil",
+            "oil-and-gas",
+            "oil-barrel",
+            "oil-drop"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8215858-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "fossil fuel",
+          "tags": [
+            "coal",
+            "fossil-fuel",
+            "gas",
+            "oil",
+            "pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8105256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Tanker",
+          "tags": [
+            "gas",
+            "oil",
+            "oil-tanker",
+            "tanker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8031716-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil rig",
+          "tags": [
+            "fuel",
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-rig",
+            "oil-rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827302-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil industry",
+          "tags": [
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-industry",
+            "oil-rig",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil industry",
+          "tags": [
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-industry",
+            "oil-rig",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827289-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil industry",
+          "tags": [
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-industry",
+            "oil-rig",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827287-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil industry",
+          "tags": [
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-industry",
+            "oil-rig",
+            "petroleum"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827280-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil rig",
+          "tags": [
+            "fuel",
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-rig",
+            "oil-rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827271-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil rig",
+          "tags": [
+            "fuel",
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-rig",
+            "oil-rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827268-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil rig",
+          "tags": [
+            "fuel",
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-rig",
+            "oil-rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "oil rig",
+          "tags": [
+            "fuel",
+            "gas",
+            "oil",
+            "oil-industry",
+            "oil-rig",
+            "oil-rig"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827261-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Fuel",
+          "tags": [
+            "fuel",
+            "fuel",
+            "gas",
+            "gas-station",
+            "oil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7762697-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Oil Tank",
+          "tags": [
+            "gas",
+            "oil",
+            "oil-tank",
+            "oil-tank",
+            "oil-tanker",
+            "tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7676798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "No oil",
+          "tags": [
+            "gas",
+            "no-leakage",
+            "no-oil",
+            "no-oil",
+            "oil",
+            "prohibited"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7665252-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "No oil",
+          "tags": [
+            "gas",
+            "no-leakage",
+            "no-oil",
+            "no-oil",
+            "oil",
+            "prohibited"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7665015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Fuel",
+          "tags": [
+            "fuel",
+            "gas",
+            "gas-station",
+            "gas-tank",
+            "oil",
+            "tank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7466844-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "oil-barrel",
+    "rationale": "Refs for \"oil and gas\" dominated by barrels, pump jacks, drops and refineries; flame rare. Barrel is simplest at 16px and avoids clashing with the Utilities drop.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

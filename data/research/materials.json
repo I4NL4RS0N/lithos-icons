@@ -1,0 +1,819 @@
+{
+  "concept": "materials",
+  "query": "raw materials",
+  "fetched": "2026-11-13T03:25:10.444Z",
+  "topTerms": [
+    [
+      "raw material",
+      26
+    ],
+    [
+      "raw-material",
+      26
+    ],
+    [
+      "raw materials",
+      24
+    ],
+    [
+      "raw-materials",
+      24
+    ],
+    [
+      "material",
+      15
+    ],
+    [
+      "raw",
+      11
+    ],
+    [
+      "resources",
+      10
+    ],
+    [
+      "supply",
+      10
+    ],
+    [
+      "industry",
+      10
+    ],
+    [
+      "inventory",
+      9
+    ],
+    [
+      "manufacturing",
+      7
+    ],
+    [
+      "production",
+      7
+    ],
+    [
+      "materials",
+      6
+    ],
+    [
+      "procurement",
+      6
+    ],
+    [
+      "sourcing",
+      5
+    ],
+    [
+      "input",
+      4
+    ],
+    [
+      "business",
+      4
+    ],
+    [
+      "natural-resources",
+      4
+    ],
+    [
+      "commodity",
+      4
+    ],
+    [
+      "transport",
+      4
+    ],
+    [
+      "supplies",
+      3
+    ],
+    [
+      "distribution",
+      3
+    ],
+    [
+      "base-materials",
+      3
+    ],
+    [
+      "input-materials",
+      3
+    ],
+    [
+      "production-input",
+      3
+    ],
+    [
+      "coal",
+      3
+    ],
+    [
+      "factory",
+      3
+    ],
+    [
+      "technology",
+      3
+    ],
+    [
+      "components",
+      2
+    ],
+    [
+      "ingredients",
+      2
+    ],
+    [
+      "mining",
+      2
+    ],
+    [
+      "cargo",
+      2
+    ],
+    [
+      "delivery",
+      2
+    ],
+    [
+      "shipping",
+      2
+    ],
+    [
+      "oil",
+      2
+    ],
+    [
+      "resource",
+      2
+    ],
+    [
+      "mineral",
+      2
+    ],
+    [
+      "ingredient",
+      2
+    ],
+    [
+      "art",
+      2
+    ],
+    [
+      "craft",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "raw material",
+          "tags": [
+            "raw-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516314-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "components",
+            "ingredients",
+            "input",
+            "raw-materials",
+            "resources",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488342-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "chemicals",
+            "education",
+            "flask",
+            "laboratory",
+            "raw",
+            "raw-materials"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460691-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "machine",
+            "materials",
+            "productions",
+            "raw-material",
+            "supply",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8457085-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "industry",
+            "materials",
+            "mining",
+            "raw",
+            "raw-materials",
+            "resources"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430092-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "industry",
+            "materials",
+            "mining",
+            "raw",
+            "raw-materials",
+            "resources"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430057-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "business",
+            "cargo",
+            "delivery",
+            "distribution",
+            "raw-materials",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "business",
+            "cargo",
+            "delivery",
+            "distribution",
+            "raw-materials",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408165-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "base-materials",
+            "input-materials",
+            "natural-resources",
+            "production-input",
+            "raw-material",
+            "resources"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8379734-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "base-materials",
+            "input-materials",
+            "natural-resources",
+            "production-input",
+            "raw-material",
+            "resources"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374786-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "base-materials",
+            "input-materials",
+            "natural-resources",
+            "production-input",
+            "raw-material",
+            "resources"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8373895-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "industry",
+            "material",
+            "oil",
+            "raw-material",
+            "resource",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8369867-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "leaf",
+            "material",
+            "raw-material",
+            "resource",
+            "sack",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8369866-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "brick",
+            "lumber",
+            "material",
+            "raw-material",
+            "trolley",
+            "wood"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8327787-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "input",
+            "materials",
+            "raw",
+            "raw-materials",
+            "resources",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8300219-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "coal",
+            "iron",
+            "material",
+            "mineral",
+            "raw",
+            "raw-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298336-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "fabric",
+            "grain",
+            "input",
+            "mineral",
+            "ore",
+            "raw-materials"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8217986-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "compound",
+            "element",
+            "feedstock",
+            "ingredient",
+            "raw-materials",
+            "substance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8174481-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "art",
+            "craft",
+            "creative",
+            "fashion",
+            "material",
+            "raw-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8122703-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "art",
+            "craft",
+            "creative",
+            "fashion",
+            "handcraft",
+            "raw-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8118319-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "distribution",
+            "inventory",
+            "management",
+            "organization",
+            "raw-materials",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8082222-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "ingredient",
+            "materials",
+            "raw",
+            "raw-materials",
+            "resources",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8038713-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "barrel",
+            "industry",
+            "material",
+            "package",
+            "raw-material",
+            "supply-chain"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8016355-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "fuel",
+            "gas",
+            "gasoline",
+            "material",
+            "raw",
+            "raw-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7969828-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "barrel",
+            "industry",
+            "material",
+            "package",
+            "raw-material",
+            "supply-chain"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7964352-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "component",
+            "input",
+            "processing",
+            "raw-material",
+            "resources"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7928208-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "common",
+            "consumption",
+            "economy",
+            "natural-resources",
+            "raw-materials",
+            "sharing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7904835-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "commodity",
+            "inventory",
+            "material",
+            "procurement",
+            "raw-material",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7900101-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "commodity",
+            "inventory",
+            "material",
+            "procurement",
+            "raw-material",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7900033-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "fuel",
+            "gas",
+            "material",
+            "oil",
+            "raw",
+            "raw-materials"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7890245-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "commodity",
+            "inventory",
+            "material",
+            "procurement",
+            "raw-material",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861684-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "commodity",
+            "inventory",
+            "material",
+            "procurement",
+            "raw-material",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861607-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "materials",
+            "quality",
+            "raw",
+            "raw-materials",
+            "sourcing",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7735488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "business",
+            "marketing",
+            "raw-material",
+            "sewing",
+            "social",
+            "taylor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7689872-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "business",
+            "marketing",
+            "raw-material",
+            "sewing",
+            "social",
+            "taylor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7689854-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "material",
+            "procurement",
+            "raw",
+            "raw-material",
+            "stock",
+            "wheelbarrow"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7480936-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "material",
+            "procurement",
+            "raw",
+            "raw-material",
+            "stock",
+            "wheelbarrow"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7480889-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "architecture",
+            "bricks",
+            "building",
+            "cement",
+            "construction",
+            "raw-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7437619-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "architecture",
+            "bricks",
+            "building",
+            "cement",
+            "construction",
+            "raw-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7437408-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "inventory",
+            "manufacturing",
+            "production",
+            "raw-materials",
+            "sourcing",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7415632-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "inventory",
+            "manufacturing",
+            "production",
+            "raw-materials",
+            "sourcing",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7415538-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "coal",
+            "industry",
+            "mine",
+            "raw-materials",
+            "stone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7408483-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "coal",
+            "industry",
+            "mine",
+            "raw-materials",
+            "stone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7408468-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "factory",
+            "industry",
+            "manufacturing",
+            "production",
+            "raw-materials",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7355438-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "factory",
+            "industry",
+            "manufacturing",
+            "production",
+            "raw-materials",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7355402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "raw material",
+          "tags": [
+            "factory",
+            "industry",
+            "manufacturing",
+            "production",
+            "raw-material",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7309040-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "raw-materials"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7289692-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "components",
+            "ingredients",
+            "inputs",
+            "raw-materials",
+            "resources",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7289691-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "inventory",
+            "manufacturing",
+            "production",
+            "raw-materials",
+            "sourcing",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7280115-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Raw materials",
+          "tags": [
+            "inventory",
+            "manufacturing",
+            "production",
+            "raw-materials",
+            "sourcing",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7280061-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "mine-cart",
+    "rationale": "Refs for \"raw materials\" dominated by mine carts with ore; ingots rare.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

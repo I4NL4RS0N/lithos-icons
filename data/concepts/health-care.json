@@ -2,7 +2,7 @@
   "id": "health-care",
   "name": "Health Care",
   "kind": "sector",
-  "metaphor": "first-aid-kit",
+  "metaphor": "heart-cross",
   "keywords": [
     "healthcare",
     "pharma",
@@ -12,7 +12,7 @@
     "medicine",
     "health"
   ],
-  "reduction": "None — kit, handle and cross at all sizes.",
+  "reduction": "None — heart and cross at all sizes.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

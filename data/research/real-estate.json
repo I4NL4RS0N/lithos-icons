@@ -1,0 +1,832 @@
+{
+  "concept": "real-estate",
+  "query": "real estate",
+  "fetched": "2026-11-13T03:25:15.043Z",
+  "topTerms": [
+    [
+      "real estate",
+      50
+    ],
+    [
+      "real-estate",
+      50
+    ],
+    [
+      "house",
+      28
+    ],
+    [
+      "home",
+      23
+    ],
+    [
+      "property",
+      15
+    ],
+    [
+      "investment",
+      15
+    ],
+    [
+      "housing",
+      11
+    ],
+    [
+      "building",
+      6
+    ],
+    [
+      "estate",
+      5
+    ],
+    [
+      "apartment",
+      5
+    ],
+    [
+      "realtor",
+      3
+    ],
+    [
+      "business",
+      3
+    ],
+    [
+      "land",
+      3
+    ],
+    [
+      "realty",
+      3
+    ],
+    [
+      "sale",
+      3
+    ],
+    [
+      "purchase",
+      3
+    ],
+    [
+      "location",
+      3
+    ],
+    [
+      "business-and-finance",
+      2
+    ],
+    [
+      "coins",
+      2
+    ],
+    [
+      "stack-of-coins",
+      2
+    ],
+    [
+      "state",
+      2
+    ],
+    [
+      "search",
+      2
+    ],
+    [
+      "ownership",
+      2
+    ],
+    [
+      "hand",
+      2
+    ],
+    [
+      "market",
+      2
+    ],
+    [
+      "map",
+      2
+    ],
+    [
+      "broker",
+      2
+    ],
+    [
+      "premises",
+      2
+    ],
+    [
+      "home-sales",
+      2
+    ],
+    [
+      "housing-market",
+      2
+    ],
+    [
+      "realestate",
+      2
+    ],
+    [
+      "finance",
+      2
+    ],
+    [
+      "financial",
+      2
+    ],
+    [
+      "strategy",
+      2
+    ],
+    [
+      "computer",
+      2
+    ],
+    [
+      "online-sale",
+      2
+    ],
+    [
+      "online-shopping",
+      2
+    ],
+    [
+      "online-store",
+      2
+    ],
+    [
+      "architecture-and-city",
+      2
+    ],
+    [
+      "feedback",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Real Estate",
+          "tags": [
+            "building",
+            "business-and-finance",
+            "coins",
+            "house",
+            "real-estate",
+            "stack-of-coins"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383363-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "delivery",
+            "estate",
+            "home",
+            "real",
+            "real-estate",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7969580-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "house",
+            "info",
+            "information",
+            "property",
+            "real-estate",
+            "search"
+          ],
+          "thumb": "https://static.thenounproject.com/png/716244-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "asset",
+            "home",
+            "home-buyer",
+            "house",
+            "owner",
+            "ownership",
+            "real-estate",
+            "real-estate-agent",
+            "realtor",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/300274-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "apartment",
+            "building",
+            "business",
+            "buy",
+            "buy-home",
+            "buying",
+            "chimney",
+            "condominium",
+            "door",
+            "estate-sale",
+            "for-rent",
+            "for-sale",
+            "give",
+            "give-home",
+            "hand",
+            "handing",
+            "house",
+            "housing",
+            "investment",
+            "land",
+            "lease",
+            "leasing",
+            "market",
+            "offer",
+            "offering",
+            "ownership",
+            "profession",
+            "property",
+            "real-estate",
+            "realty",
+            "receive",
+            "renting",
+            "sale",
+            "salesman",
+            "salesperson",
+            "saleswoman",
+            "sell",
+            "sell-home",
+            "selling",
+            "take",
+            "window"
+          ],
+          "thumb": "https://static.thenounproject.com/png/45113-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "approval",
+            "home",
+            "housing",
+            "real-estate",
+            "validation",
+            "verified-property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518604-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "chat",
+            "conversation",
+            "home",
+            "house",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490147-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "real-estate",
+            "search"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490136-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "purchase",
+            "real-estate",
+            "sale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490131-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "investment",
+            "purchase",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490128-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "investment",
+            "law",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490122-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "protection",
+            "real-estate",
+            "secure",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490120-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "favourite",
+            "home",
+            "house",
+            "real-estate",
+            "star"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490117-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "location",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490113-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "investment",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "investment",
+            "price",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490107-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "purchase",
+            "real-estate",
+            "sign"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490103-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "growth",
+            "home",
+            "house",
+            "investment",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490099-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home",
+            "house",
+            "location",
+            "map",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490098-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "house",
+            "location",
+            "map",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490097-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "house",
+            "lineal-house",
+            "real-estate",
+            "real-estate-developer",
+            "simple-house"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488639-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "hand",
+            "home",
+            "house",
+            "property",
+            "real-estate",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487203-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "building",
+            "homehouse",
+            "property",
+            "real-estate",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482829-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471117-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "agency",
+            "architecture",
+            "broker",
+            "house",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467768-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "estate",
+            "land",
+            "premises",
+            "real-estate",
+            "realty"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465558-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "estate",
+            "land",
+            "premises",
+            "real-estate",
+            "realty"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465549-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "house",
+            "investment",
+            "property-investment",
+            "real-estate",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461499-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home-sales",
+            "housing-market",
+            "investment",
+            "property",
+            "real-estate",
+            "realtor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450525-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "building",
+            "home",
+            "house",
+            "property",
+            "real-estate",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8446323-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "apartment",
+            "building",
+            "estate",
+            "home",
+            "housing",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8429513-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "estate",
+            "home",
+            "property",
+            "real-estate",
+            "residential"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8410749-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "decline",
+            "economy",
+            "housing",
+            "market",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405556-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "apartment",
+            "housing",
+            "investment",
+            "property",
+            "real-estate",
+            "realestate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405203-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "apartment",
+            "housing",
+            "investment",
+            "property",
+            "real-estate",
+            "realestate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "business",
+            "finance",
+            "financial",
+            "investment",
+            "real-estate",
+            "strategy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390950-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "business",
+            "finance",
+            "financial",
+            "investment",
+            "real-estate",
+            "strategy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390924-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "computer",
+            "house",
+            "online-sale",
+            "online-shopping",
+            "online-store",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383367-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "architecture-and-city",
+            "feedback",
+            "home",
+            "house",
+            "marketing",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383365-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "building",
+            "business-and-finance",
+            "coins",
+            "house",
+            "real-estate",
+            "stack-of-coins"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383340-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "architecture-and-city",
+            "feedback",
+            "home",
+            "house",
+            "marketing",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "computer",
+            "house",
+            "online-sale",
+            "online-shopping",
+            "online-store",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "apartment",
+            "home",
+            "investment",
+            "property",
+            "real-estate",
+            "residence"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8378714-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "broker",
+            "housing",
+            "investment",
+            "property-market",
+            "real-estate",
+            "realtor-services"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8362931-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "home-sales",
+            "housing-market",
+            "investment",
+            "property",
+            "real-estate",
+            "realtor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8362912-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "browser",
+            "homepage",
+            "laptop",
+            "online",
+            "real-estate",
+            "website"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8358004-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "housing",
+            "lock",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351261-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "housing",
+            "property",
+            "real-estate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351260-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "housing",
+            "property",
+            "real-estate",
+            "sale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351257-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Real Estate",
+          "tags": [
+            "housing",
+            "property",
+            "real-estate",
+            "route"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351256-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "house",
+    "rationale": "Refs for \"real estate\" dominated by houses; kept.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

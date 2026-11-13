@@ -1,0 +1,822 @@
+{
+  "concept": "industrials",
+  "query": "industrial",
+  "fetched": "2026-11-13T03:25:11.056Z",
+  "topTerms": [
+    [
+      "industrial",
+      50
+    ],
+    [
+      "factory",
+      36
+    ],
+    [
+      "manufacturing",
+      32
+    ],
+    [
+      "industry",
+      31
+    ],
+    [
+      "production",
+      23
+    ],
+    [
+      "engineering",
+      16
+    ],
+    [
+      "construction",
+      12
+    ],
+    [
+      "manufacture",
+      12
+    ],
+    [
+      "pollution",
+      6
+    ],
+    [
+      "company",
+      6
+    ],
+    [
+      "building",
+      5
+    ],
+    [
+      "sewage",
+      4
+    ],
+    [
+      "project",
+      4
+    ],
+    [
+      "industrialization",
+      3
+    ],
+    [
+      "waste-water",
+      3
+    ],
+    [
+      "water-pollution",
+      3
+    ],
+    [
+      "factory-based",
+      3
+    ],
+    [
+      "heavy-industry",
+      3
+    ],
+    [
+      "machine",
+      3
+    ],
+    [
+      "oil",
+      2
+    ],
+    [
+      "petroleum",
+      2
+    ],
+    [
+      "refinery",
+      2
+    ],
+    [
+      "engine",
+      2
+    ],
+    [
+      "gear-machine",
+      2
+    ],
+    [
+      "mechanism",
+      2
+    ],
+    [
+      "torch",
+      2
+    ],
+    [
+      "business",
+      2
+    ],
+    [
+      "machinery",
+      2
+    ],
+    [
+      "fuel",
+      1
+    ],
+    [
+      "waste-management",
+      1
+    ],
+    [
+      "waste",
+      1
+    ],
+    [
+      "water",
+      1
+    ],
+    [
+      "water-waste-management",
+      1
+    ],
+    [
+      "chimney",
+      1
+    ],
+    [
+      "equipment",
+      1
+    ],
+    [
+      "complex",
+      1
+    ],
+    [
+      "smoke",
+      1
+    ],
+    [
+      "cogwheel",
+      1
+    ],
+    [
+      "gear",
+      1
+    ],
+    [
+      "technology",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "industrial",
+          "tags": [
+            "industrial",
+            "oil",
+            "petroleum",
+            "production",
+            "refinery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490016-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "fuel",
+            "industrial",
+            "oil",
+            "petroleum",
+            "refinery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "construction",
+            "factory",
+            "industrial",
+            "industrialization",
+            "manufacturing",
+            "pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8457091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "industrial",
+            "industry",
+            "sewage",
+            "waste-management",
+            "waste-water",
+            "water-pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405499-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "industrial",
+            "pollution",
+            "sewage",
+            "waste",
+            "water",
+            "water-waste-management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405483-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "building",
+            "industrial",
+            "industry",
+            "manufacturing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8381009-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engineering",
+            "factory-based",
+            "heavy-industry",
+            "industrial",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8379720-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engineering",
+            "factory-based",
+            "heavy-industry",
+            "industrial",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374784-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engineering",
+            "factory-based",
+            "heavy-industry",
+            "industrial",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8373887-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engineering",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8349145-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engineering",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8349134-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engineering",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8349125-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engineering",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8349119-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "chimney",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298328-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "company",
+            "factory",
+            "industrial",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8273537-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "company",
+            "factory",
+            "industrial",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8273526-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "building",
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "manufacture"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8251219-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "building",
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "manufacture"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8251197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "building",
+            "construction",
+            "equipment",
+            "factory",
+            "industrial",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8244316-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industrialization",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8218277-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industrialization",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8218256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "company",
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8190171-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engine",
+            "gear-machine",
+            "industrial",
+            "machine",
+            "mechanism",
+            "torch"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8189188-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "building",
+            "complex",
+            "industrial",
+            "manufacturing",
+            "pollution",
+            "smoke"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8168743-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "company",
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8134189-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "engine",
+            "gear-machine",
+            "industrial",
+            "machine",
+            "mechanism",
+            "torch"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8132822-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "business",
+            "company",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8124703-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "business",
+            "company",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8124676-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8117629-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8117628-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8117627-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "cogwheel",
+            "factory",
+            "gear",
+            "industrial",
+            "machine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8116196-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "industrial",
+            "industry",
+            "pollution",
+            "sewage",
+            "waste-water",
+            "water-pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8044954-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "industrial",
+            "industry",
+            "pollution",
+            "sewage",
+            "waste-water",
+            "water-pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8044928-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8044275-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036554-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036550-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036546-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036522-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "industry",
+            "manufacture",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8036521-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "construction",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8012410-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "construction",
+            "factory",
+            "industrial",
+            "industry",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8012385-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "college",
+            "education",
+            "engineering",
+            "industrial",
+            "industry",
+            "major"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7920972-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "manufacturing",
+            "project"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7900055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "manufacturing",
+            "project"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7900041-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "manufacturing",
+            "project"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "construction",
+            "engineering",
+            "factory",
+            "industrial",
+            "manufacturing",
+            "project"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7861665-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "factory",
+            "industrial",
+            "innovation",
+            "machinery",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7838120-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial",
+          "tags": [
+            "efficiency",
+            "factory",
+            "industrial",
+            "machinery",
+            "manufacturing",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7838072-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "factory",
+    "rationale": "Refs for \"industrial\" dominated by factories (sawtooth roof + chimney); gears second.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

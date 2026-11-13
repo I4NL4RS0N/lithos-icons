@@ -3,7 +3,7 @@
     "id": "energy",
     "name": "Energy",
     "kind": "sector",
-    "metaphor": "flame",
+    "metaphor": "oil-barrel",
     "keywords": [
       "oil",
       "gas",
@@ -11,9 +11,10 @@
       "fuel",
       "fossil fuels",
       "petroleum",
-      "power"
+      "barrel",
+      "crude"
     ],
-    "reduction": "24+: inner flame. 16–20: outer flame only.",
+    "reduction": "16–20: barrel + two hoops. 24+: hoops move out and a drop sits between them.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -22,17 +23,17 @@
     "id": "materials",
     "name": "Materials",
     "kind": "sector",
-    "metaphor": "ingots",
+    "metaphor": "mine-cart",
     "keywords": [
       "metals",
       "mining",
       "chemicals",
       "commodities",
       "steel",
-      "gold",
+      "ore",
       "raw materials"
     ],
-    "reduction": "Same three bars at all sizes; gaps scale with stroke.",
+    "reduction": "16: three-facet ore pile. 20+: five facets.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -41,7 +42,7 @@
     "id": "industrials",
     "name": "Industrials",
     "kind": "sector",
-    "metaphor": "gear",
+    "metaphor": "factory",
     "keywords": [
       "machinery",
       "manufacturing",
@@ -49,9 +50,9 @@
       "defense",
       "construction",
       "engineering",
-      "transport"
+      "factory"
     ],
-    "reduction": "6 broad teeth at 16–20, 8 at 24+.",
+    "reduction": "32+: row of windows.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -60,7 +61,7 @@
     "id": "consumer-discretionary",
     "name": "Consumer Discretionary",
     "kind": "sector",
-    "metaphor": "shopping-bag",
+    "metaphor": "storefront",
     "keywords": [
       "retail",
       "autos",
@@ -69,9 +70,10 @@
       "hotels",
       "restaurants",
       "luxury",
-      "e-commerce"
+      "e-commerce",
+      "shop"
     ],
-    "reduction": "None — body and handle at all sizes.",
+    "reduction": "Scallops: 3 at 16–24, 4 at 32+. 20+: door.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -99,7 +101,7 @@
     "id": "health-care",
     "name": "Health Care",
     "kind": "sector",
-    "metaphor": "first-aid-kit",
+    "metaphor": "heart-cross",
     "keywords": [
       "healthcare",
       "pharma",
@@ -109,7 +111,7 @@
       "medicine",
       "health"
     ],
-    "reduction": "None — kit, handle and cross at all sizes.",
+    "reduction": "None — heart and cross at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -118,7 +120,7 @@
     "id": "financials",
     "name": "Financials",
     "kind": "sector",
-    "metaphor": "bank-building",
+    "metaphor": "coins",
     "keywords": [
       "banks",
       "insurance",
@@ -126,9 +128,10 @@
       "finance",
       "lending",
       "asset management",
-      "payments"
+      "payments",
+      "money"
     ],
-    "reduction": "Columns: 2 at 16, 3 at 20+.",
+    "reduction": "None — two coins at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -156,7 +159,7 @@
     "id": "communication-services",
     "name": "Communication Services",
     "kind": "sector",
-    "metaphor": "speech-bubble",
+    "metaphor": "antenna",
     "keywords": [
       "telecom",
       "media",
@@ -164,9 +167,10 @@
       "advertising",
       "social media",
       "publishing",
-      "broadcasting"
+      "broadcasting",
+      "wireless"
     ],
-    "reduction": "None — single bubble at all sizes.",
+    "reduction": "16: one wave each side. 20+: two.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"

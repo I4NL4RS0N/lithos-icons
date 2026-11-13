@@ -1,22 +1,71 @@
 {
-  "flame": ["energy"],
-  "drop": ["oil-gas"],
-  "ingots": ["materials", "metals"],
-  "flask": ["chemicals"],
-  "gear": ["industrials", "machinery"],
-  "shopping-bag": ["consumer-discretionary", "retail"],
-  "basket": ["consumer-staples", "groceries"],
-  "first-aid-kit": ["health-care"],
-  "capsule": ["pharma"],
-  "bank-building": ["financials", "banks"],
-  "umbrella": ["insurance"],
-  "document-percent": ["debt"],
-  "monitor": [],
-  "chip": ["semiconductors"],
-  "speech-bubble": ["communication-services"],
-  "bolt": ["electric-utilities"],
-  "drop-bolt": ["utilities", "multi-utilities"],
-  "pylon": [],
-  "laptop": ["information-technology"],
-  "house": ["real-estate", "residential"]
+  "drop-bolt": [
+    "utilities",
+    "multi-utilities"
+  ],
+  "bolt": [
+    "electric-utilities"
+  ],
+  "drop": [
+    "water-utilities"
+  ],
+  "burner-flame": [
+    "gas-utilities"
+  ],
+  "oil-barrel": [
+    "energy"
+  ],
+  "mine-cart": [
+    "materials"
+  ],
+  "factory": [
+    "industrials"
+  ],
+  "storefront": [
+    "consumer-discretionary"
+  ],
+  "basket": [
+    "consumer-staples"
+  ],
+  "heart-cross": [
+    "health-care"
+  ],
+  "coins": [
+    "financials"
+  ],
+  "laptop": [
+    "information-technology"
+  ],
+  "antenna": [
+    "communication-services"
+  ],
+  "house": [
+    "real-estate"
+  ],
+  "flask": [
+    "chemicals"
+  ],
+  "capsule": [
+    "pharma"
+  ],
+  "umbrella": [
+    "insurance"
+  ],
+  "chip": [
+    "semiconductors"
+  ],
+  "document-percent": [
+    "debt"
+  ],
+  "_retired": {
+    "flame": "energy (\u2192 oil-barrel)",
+    "ingots": "materials (\u2192 mine-cart)",
+    "gear": "industrials (\u2192 factory)",
+    "shopping-bag": "consumer-discretionary (\u2192 storefront)",
+    "first-aid-kit": "health-care (\u2192 heart-cross)",
+    "bank-building": "financials (\u2192 coins)",
+    "speech-bubble": "communication-services (\u2192 antenna)",
+    "pylon": "utilities (\u2192 drop-bolt)",
+    "monitor": "information-technology (\u2192 laptop)"
+  }
 }

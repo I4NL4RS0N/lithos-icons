@@ -2,7 +2,7 @@
   "id": "financials",
   "name": "Financials",
   "kind": "sector",
-  "metaphor": "bank-building",
+  "metaphor": "coins",
   "keywords": [
     "banks",
     "insurance",
@@ -10,9 +10,10 @@
     "finance",
     "lending",
     "asset management",
-    "payments"
+    "payments",
+    "money"
   ],
-  "reduction": "Columns: 2 at 16, 3 at 20+.",
+  "reduction": "None — two coins at all sizes.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

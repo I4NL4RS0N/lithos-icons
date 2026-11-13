@@ -9,26 +9,46 @@ import { KEY } from '../../scripts/lib/kit.mjs';
 const pick = (k, arr) => arr[k.tier];
 const R = KEY.radius;
 
+// Teardrop polygon (apex up, round bottom) for exact knockouts via offsetPoly.
+function dropPts(cx, top, bot, w, n = 24) {
+  const r = w / 2, cy = bot - r, d = cy - top, a = Math.asin(Math.min(1, r / d));
+  // y-down coords: tangent points sit at angle (a - 90°) right and (270° - a) left, swept through the bottom (90°).
+  const phiR = a - Math.PI / 2, phiL = 1.5 * Math.PI - a;
+  const pts = [[cx, top]];
+  for (let i = 0; i <= n; i++) { const p = phiR + ((phiL - phiR) * i) / n; pts.push([cx + r * Math.cos(p), cy + r * Math.sin(p)]); }
+  return pts;
+}
+
+// Arc from angle a0 to a1 (degrees, y-down, 0 = right) on circle (cx, cy, r) as path commands.
+function arc(cx, cy, r, a0, a1) {
+  const p = (a) => [cx + r * Math.cos((a * Math.PI) / 180), cy + r * Math.sin((a * Math.PI) / 180)];
+  const [x0, y0] = p(a0), [x1, y1] = p(a1);
+  const large = Math.abs(a1 - a0) > 180 ? 1 : 0, sweep = a1 > a0 ? 1 : 0;
+  return [['M', x0, y0], ['A', r, r, 0, large, sweep, x1, y1]];
+}
+
+
 export default [
   {
     id: 'energy',
     name: 'Energy',
     kind: 'sector',
-    metaphor: 'flame',
-    keywords: ['oil', 'gas', 'coal', 'fuel', 'fossil fuels', 'petroleum', 'power'],
-    reduction: '24+: inner flame. 16–20: outer flame only.',
+    metaphor: 'oil-barrel',
+    keywords: ['oil', 'gas', 'coal', 'fuel', 'fossil fuels', 'petroleum', 'barrel', 'crude'],
+    reduction: '16–20: barrel + two hoops. 24+: hoops move out and a drop sits between them.',
     draw(k) {
-      // Round shape: uses the full circle keyline height, narrower width for optical balance.
-      const outer = [['M', 0.5, 0], ['C', 0.62, 0.2, 0.86, 0.36, 0.86, 0.64], ['C', 0.86, 0.85, 0.7, 1, 0.5, 1],
-        ['C', 0.3, 1, 0.14, 0.85, 0.14, 0.64], ['C', 0.14, 0.48, 0.24, 0.36, 0.33, 0.27],
-        ['C', 0.36, 0.38, 0.42, 0.44, 0.47, 0.46], ['C', 0.44, 0.3, 0.45, 0.14, 0.5, 0], ['Z']];
-      const inner = (g = 0) => [['M', 0.5, 0.6 - g], ['C', 0.56 + g, 0.68, 0.63 + g, 0.73, 0.63 + g, 0.8],
-        ['C', 0.63 + g, 0.87 + g, 0.57, 0.9 + g, 0.5, 0.9 + g], ['C', 0.43, 0.9 + g, 0.37 - g, 0.87 + g, 0.37 - g, 0.8],
-        ['C', 0.37 - g, 0.73, 0.44 - g, 0.68, 0.5, 0.6 - g], ['Z']];
-      const detail = k.tier >= 2;
+      // Barrel: bulged sides, flat rims top and bottom (rims wider than the waist so it can't read as a phone).
+      const L0 = 0.2, R0 = 0.8, bulge = 0.08;
+      const barrelCmds = [['M', L0, 0.02], ['H', R0], ['Q', R0 + bulge * 2, 0.5, R0, 0.98], ['H', L0], ['Q', L0 - bulge * 2, 0.5, L0, 0.02], ['Z']];
+      const body = k.path(barrelCmds, { snap: false });
+      const drop = k.tier >= 2;
+      const hy = drop ? [0.24, 0.76] : [0.36, 0.64];
+      const xAt = (y) => { const t = y - 0.02, u = t / 0.96; const off = 2 * (1 - u) * u * (bulge * 2); return [L0 - off, R0 + off]; };
+      const hoops = hy.map((y) => { const [a, b] = xAt(y); return k.path([['M', a, y], ['H', b]], { snap: false }); });
+      const dp = dropPts(0.5, 0.36, 0.66, 0.22);
       return {
-        outline: [k.path(outer, { snap: false }), ...(detail ? [k.path(inner(), { snap: false })] : [])],
-        solid: [{ d: k.path(outer, { snap: false }) + (detail ? k.path(inner(k.grow * 1.4), { snap: false }) : ''), fill: true }],
+        outline: [body, ...hoops, ...(drop ? [k.poly(dp, { snap: false })] : [])],
+        solid: [{ d: body + hy.map((y) => { const [a, b] = xAt(y); return k.capsule(a + 0.1, y, b - 0.1, y, k.holeW(k.sw)); }).join('') + (drop ? k.offsetPoly(dp, k.sw / 2) : ''), fill: true }],
       };
     },
   },
@@ -36,39 +56,37 @@ export default [
     id: 'materials',
     name: 'Materials',
     kind: 'sector',
-    metaphor: 'ingots',
-    keywords: ['metals', 'mining', 'chemicals', 'commodities', 'steel', 'gold', 'raw materials'],
-    reduction: 'Same three bars at all sizes; gaps scale with stroke.',
+    metaphor: 'mine-cart',
+    keywords: ['metals', 'mining', 'chemicals', 'commodities', 'steel', 'ore', 'raw materials'],
+    reduction: '16: three-facet ore pile. 20+: five facets.',
     draw(k) {
-      // Flat front-on bars (no faux 3D). Gaps always ≥ stroke + 1.5px for readability.
-      const gap = (k.sw + 1.5) / k.L;
-      const top = 0.06, rowH = (1 - top - gap) / 2, w = (1 - gap) / 2, inset = 0.1;
-      const bars = [[0, w, 1 - rowH, 1], [1 - w, 1, 1 - rowH, 1], [(1 - w) / 2, (1 + w) / 2, top, top + rowH]];
-      const trap = ([x0, x1, yt, yb]) => k.poly([[x0, yb], [x1, yb], [x1 - inset, yt], [x0 + inset, yt]]);
-      return { outline: bars.map(trap), solid: bars.map((b) => ({ d: trap(b), fill: true })) };
+      const wr = 0.1, wy = 0.9, gap = (k.sw + 1.5) / k.L;
+      const top = 0.4, bot = wy - wr - gap;
+      const cart = k.poly([[0, top], [1, top], [0.88, bot], [0.12, bot]]);
+      const wheels = [k.circle(0.3, wy, wr), k.circle(0.7, wy, wr)];
+      const ore = (k.tier >= 1
+        ? [[0.1, top], [0.2, 0.2], [0.36, 0.24], [0.5, 0.06], [0.66, 0.18], [0.8, 0.14], [0.9, top]]
+        : [[0.14, top], [0.3, 0.16], [0.52, 0.1], [0.72, 0.18], [0.86, top]]).map(([x, y], i) => [i ? 'L' : 'M', x, y]);
+      return {
+        outline: [cart, ...wheels, k.path(ore, { snap: false })],
+        solid: [{ d: cart, fill: true }, { d: k.path([...ore, ['Z']], { snap: false }), fill: true }, ...wheels.map((d) => ({ d, fill: true }))],
+      };
     },
   },
   {
     id: 'industrials',
     name: 'Industrials',
     kind: 'sector',
-    metaphor: 'gear',
-    keywords: ['machinery', 'manufacturing', 'aerospace', 'defense', 'construction', 'engineering', 'transport'],
-    reduction: '6 broad teeth at 16–20, 8 at 24+.',
+    metaphor: 'factory',
+    keywords: ['machinery', 'manufacturing', 'aerospace', 'defense', 'construction', 'engineering', 'factory'],
+    reduction: '32+: row of windows.',
     draw(k) {
-      const N = pick(k, [6, 6, 8, 8, 8]);
-      const Ro = 0.5, Ri = pick(k, [0.32, 0.34, 0.37, 0.38, 0.39]);
-      const pitch = (2 * Math.PI) / N, ht = pitch * pick(k, [0.2, 0.2, 0.17, 0.17, 0.16]), hr = pitch * 0.29;
-      const pts = [];
-      for (let i = 0; i < N; i++) {
-        const a = i * pitch - Math.PI / 2;
-        for (const [r, da] of [[Ri, -hr], [Ro, -ht], [Ro, ht], [Ri, hr]]) pts.push([0.5 + r * Math.cos(a + da), 0.5 + r * Math.sin(a + da)]);
-      }
-      const hole = pick(k, [0.12, 0.13, 0.14, 0.14, 0.14]);
-      const gear = k.poly(pts, { snap: false });
+      const pts = [[0, 1], [0, 0.1], [0.2, 0.1], [0.2, 0.52], [0.47, 0.32], [0.47, 0.52], [0.74, 0.32], [0.74, 0.52], [1, 0.32], [1, 1]];
+      const shape = k.poly(pts);
+      const win = k.tier >= 3 ? [0.3, 0.5, 0.7].map((x) => [x - 0.05, 0.7, x + 0.05, 0.82]) : [];
       return {
-        outline: [gear, k.circle(0.5, 0.5, hole)],
-        solid: [{ d: gear + k.circle(0.5, 0.5, hole + k.grow), fill: true }],
+        outline: [shape, ...win.map(([a, b, c, d]) => k.rrect(a, b, c, d, 0.02))],
+        solid: [{ d: shape + win.map(([a, b, c, d]) => k.offsetPoly([[a, b], [c, b], [c, d], [a, d]], k.sw / 2)).join(''), fill: true }],
       };
     },
   },
@@ -76,15 +94,27 @@ export default [
     id: 'consumer-discretionary',
     name: 'Consumer Discretionary',
     kind: 'sector',
-    metaphor: 'shopping-bag',
-    keywords: ['retail', 'autos', 'apparel', 'leisure', 'hotels', 'restaurants', 'luxury', 'e-commerce'],
-    reduction: 'None — body and handle at all sizes.',
+    metaphor: 'storefront',
+    keywords: ['retail', 'autos', 'apparel', 'leisure', 'hotels', 'restaurants', 'luxury', 'e-commerce', 'shop'],
+    reduction: 'Scallops: 3 at 16–24, 4 at 32+. 20+: door.',
     draw(k) {
-      const [x0, , x1] = KEY.portrait;
-      const rim = 0.32;
-      const body = k.rrect(x0 - 0.04, rim, x1 + 0.04, 1, R);
-      const handle = k.path([['M', 0.33, rim], ['V', 0.2], ['A', 0.17, 0.17, 0, 0, 1, 0.67, 0.2], ['V', rim]]);
-      return { outline: [body, handle], solid: [{ d: body, fill: true }, { d: handle, fill: false }] };
+      const n = pick(k, [3, 3, 3, 4, 4]);
+      const s = 1 / n, base = 0.3, low = base + s / 2;
+      const awn = [['M', 0, 0.04], ['H', 1], ['V', base]];
+      for (let i = 0; i < n; i++) awn.push(['A', s / 2, s / 2, 0, 0, 1, 1 - (i + 1) * s, base]);
+      awn.push(['Z']);
+      const gap = (k.sw + 1.2) / k.L, wt = low + gap * 0.6;
+      const door = k.tier >= 1;
+      const walls = k.path([['M', 0.08, wt], ['V', 1], ['H', 0.92], ['V', wt]]);
+      const doorP = k.path([['M', 0.38, 1], ['V', 0.68], ['H', 0.62], ['V', 1]]);
+      const g = k.grow, bt = low + gap;
+      const body = [[0.08, bt], [0.92, bt], [0.92, 1]];
+      if (door) body.push([0.62 + g, 1], [0.62 + g, 0.68 + g], [0.38 - g, 0.68 + g], [0.38 - g, 1]);
+      body.push([0.08, 1]);
+      return {
+        outline: [k.path(awn, { snap: false }), walls, ...(door ? [doorP] : [])],
+        solid: [{ d: k.path(awn, { snap: false }), fill: true }, { d: k.poly(body, { snap: false }), fill: true }],
+      };
     },
   },
   {
@@ -114,39 +144,41 @@ export default [
     id: 'health-care',
     name: 'Health Care',
     kind: 'sector',
-    metaphor: 'first-aid-kit',
+    metaphor: 'heart-cross',
     keywords: ['healthcare', 'pharma', 'biotech', 'hospitals', 'medical devices', 'medicine', 'health'],
-    reduction: 'None — kit, handle and cross at all sizes.',
+    reduction: 'None — heart and cross at all sizes.',
     draw(k) {
-      const top = 0.28, bot = 0.94;
-      const body = k.rrect(0, top, 1, bot, R);
-      const handle = k.path([['M', 0.34, top], ['V', 0.14], ['Q', 0.34, 0.06, 0.42, 0.06], ['H', 0.58], ['Q', 0.66, 0.06, 0.66, 0.14], ['V', top]]);
-      const cy = (top + bot) / 2, a = 0.16;
-      const cross = [k.path([['M', 0.5 - a, cy], ['H', 0.5 + a]]), k.path([['M', 0.5, cy - a], ['V', cy + a]])];
-      const h = k.sw / k.L, e = a + k.grow;
-      const plus = k.poly([[0.5 - h, cy - e], [0.5 + h, cy - e], [0.5 + h, cy - h], [0.5 + e, cy - h], [0.5 + e, cy + h], [0.5 + h, cy + h],
-        [0.5 + h, cy + e], [0.5 - h, cy + e], [0.5 - h, cy + h], [0.5 - e, cy + h], [0.5 - e, cy - h], [0.5 - h, cy - h]], { snap: false });
-      return { outline: [body, handle, ...cross], solid: [{ d: body + plus, fill: true }, { d: handle, fill: false }] };
+      const heart = k.path([['M', 0.5, 0.96], ['C', 0.5, 0.96, 0, 0.66, 0, 0.32], ['C', 0, 0.14, 0.14, 0.02, 0.3, 0.02],
+        ['C', 0.4, 0.02, 0.47, 0.08, 0.5, 0.14], ['C', 0.53, 0.08, 0.6, 0.02, 0.7, 0.02], ['C', 0.86, 0.02, 1, 0.14, 1, 0.32],
+        ['C', 1, 0.66, 0.5, 0.96, 0.5, 0.96], ['Z']], { snap: false });
+      const cx = 0.5, cy = 0.44, a = pick(k, [0.14, 0.15, 0.16, 0.17, 0.17]);
+      const cross = [k.path([['M', cx - a, cy], ['H', cx + a]]), k.path([['M', cx, cy - a], ['V', cy + a]])];
+      const h = 0.0001, plusPts = [[cx - h, cy - a], [cx + h, cy - a], [cx + h, cy - h], [cx + a, cy - h], [cx + a, cy + h], [cx + h, cy + h],
+        [cx + h, cy + a], [cx - h, cy + a], [cx - h, cy + h], [cx - a, cy + h], [cx - a, cy - h], [cx - h, cy - h]];
+      return { outline: [heart, ...cross], solid: [{ d: heart + k.offsetPoly(plusPts, k.sw), fill: true }] };
     },
   },
   {
     id: 'financials',
     name: 'Financials',
     kind: 'sector',
-    metaphor: 'bank-building',
-    keywords: ['banks', 'insurance', 'capital markets', 'finance', 'lending', 'asset management', 'payments'],
-    reduction: 'Columns: 2 at 16, 3 at 20+.',
+    metaphor: 'coins',
+    keywords: ['banks', 'insurance', 'capital markets', 'finance', 'lending', 'asset management', 'payments', 'money'],
+    reduction: 'None — two coins at all sizes.',
     draw(k) {
-      const n = pick(k, [2, 3, 3, 3, 3]);
-      const eave = 0.36;
-      const roof = k.poly([[0.02, eave], [0.5, 0.04], [0.98, eave]]);
-      const xs = Array.from({ length: n }, (_, i) => 0.2 + (i * 0.6) / (n - 1));
-      const colTop = eave + (k.sw + 1.5) / k.L, colBot = 1 - (k.sw + 1.5) / k.L;
-      const cols = xs.map((x) => k.path([['M', x, colTop], ['V', colBot]]));
-      const base = k.path([['M', 0.02, 1], ['H', 0.98]]);
+      // Two coins, front-on: back coin shows as an arc that stops short of the front coin.
+      const b = [0.36, 0.36, 0.34], f = [0.63, 0.63, 0.36];
+      const gap = (k.sw + 1.5) / k.L, R2 = f[2] + gap;
+      const dx = f[0] - b[0], dy = f[1] - b[1], d = Math.hypot(dx, dy);
+      const x = (d * d + b[2] * b[2] - R2 * R2) / (2 * d), base = (Math.atan2(dy, dx) * 180) / Math.PI;
+      const half = (Math.acos(Math.max(-1, Math.min(1, x / b[2]))) * 180) / Math.PI;
+      const back = k.path(arc(b[0], b[1], b[2], base + half, base + 360 - half), { snap: false });
+      const front = k.circle(f[0], f[1], f[2]);
+      const ring = [];
+      const ringHole = '';
       return {
-        outline: [roof, ...cols, base],
-        solid: [{ d: roof, fill: true }, ...xs.map((x) => ({ d: k.capsule(x, colTop, x, colBot, k.sw * 0.9), fill: true })), { d: base, fill: false }],
+        outline: [back, front, ...ring],
+        solid: [{ d: front + ringHole, fill: true }, { d: back, fill: false }],
       };
     },
   },
@@ -167,14 +199,20 @@ export default [
     id: 'communication-services',
     name: 'Communication Services',
     kind: 'sector',
-    metaphor: 'speech-bubble',
-    keywords: ['telecom', 'media', 'entertainment', 'advertising', 'social media', 'publishing', 'broadcasting'],
-    reduction: 'None — single bubble at all sizes.',
+    metaphor: 'antenna',
+    keywords: ['telecom', 'media', 'entertainment', 'advertising', 'social media', 'publishing', 'broadcasting', 'wireless'],
+    reduction: '16: one wave each side. 20+: two.',
     draw(k) {
-      const r = 0.22, t = 0.08, b = 0.8;
-      const bubble = k.path([['M', r, t], ['H', 1 - r], ['Q', 1, t, 1, t + r], ['V', b - r], ['Q', 1, b, 1 - r, b],
-        ['H', 0.44], ['L', 0.24, 0.98], ['V', b], ['H', r], ['Q', 0, b, 0, b - r], ['V', t + r], ['Q', 0, t, r, t], ['Z']]);
-      return { outline: [bubble], solid: [{ d: bubble, fill: true }] };
+      const cx = 0.5, cy = 0.32, dot = pick(k, [0.08, 0.07, 0.07, 0.065, 0.06]);
+      const step = (k.sw + 1.5) / k.L;
+      const radii = k.tier === 0 ? [dot + step + 0.04] : [dot + step, dot + step * 2 + 0.04];
+      const waves = radii.flatMap((r) => [k.path(arc(cx, cy, r, -40, 40), { snap: false }), k.path(arc(cx, cy, r, 140, 220), { snap: false })]);
+      const mast = k.poly([[0.28, 1], [cx, cy + dot + step * 0.6], [0.72, 1]], { closed: false, snap: false });
+      const mastS = k.poly([[0.26, 1], [cx, cy + dot + step * 0.4], [0.74, 1]], { snap: false });
+      return {
+        outline: [k.circle(cx, cy, dot), ...waves, mast],
+        solid: [{ d: k.circle(cx, cy, dot * 1.35), fill: true }, { d: mastS, fill: true }, ...waves.map((d) => ({ d, fill: false }))],
+      };
     },
   },
   {

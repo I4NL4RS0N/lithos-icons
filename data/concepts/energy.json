@@ -2,7 +2,7 @@
   "id": "energy",
   "name": "Energy",
   "kind": "sector",
-  "metaphor": "flame",
+  "metaphor": "oil-barrel",
   "keywords": [
     "oil",
     "gas",
@@ -10,9 +10,10 @@
     "fuel",
     "fossil fuels",
     "petroleum",
-    "power"
+    "barrel",
+    "crude"
   ],
-  "reduction": "24+: inner flame. 16–20: outer flame only.",
+  "reduction": "16–20: barrel + two hoops. 24+: hoops move out and a drop sits between them.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

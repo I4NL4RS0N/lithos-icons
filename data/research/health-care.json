@@ -1,0 +1,815 @@
+{
+  "concept": "health-care",
+  "query": "healthcare",
+  "fetched": "2026-11-13T03:25:12.735Z",
+  "topTerms": [
+    [
+      "healthcare",
+      50
+    ],
+    [
+      "medical",
+      36
+    ],
+    [
+      "hospital",
+      20
+    ],
+    [
+      "health",
+      19
+    ],
+    [
+      "care",
+      19
+    ],
+    [
+      "treatment",
+      17
+    ],
+    [
+      "heart",
+      16
+    ],
+    [
+      "wellness",
+      15
+    ],
+    [
+      "insurance",
+      6
+    ],
+    [
+      "emergency",
+      5
+    ],
+    [
+      "medicine",
+      4
+    ],
+    [
+      "doctor",
+      4
+    ],
+    [
+      "stethoscope",
+      4
+    ],
+    [
+      "services",
+      4
+    ],
+    [
+      "clinic",
+      3
+    ],
+    [
+      "service",
+      3
+    ],
+    [
+      "system",
+      3
+    ],
+    [
+      "love",
+      3
+    ],
+    [
+      "cardiology",
+      2
+    ],
+    [
+      "health-care",
+      2
+    ],
+    [
+      "health-insurance",
+      2
+    ],
+    [
+      "support",
+      2
+    ],
+    [
+      "monitoring",
+      2
+    ],
+    [
+      "prevention",
+      2
+    ],
+    [
+      "healthy",
+      2
+    ],
+    [
+      "protection",
+      2
+    ],
+    [
+      "clinical",
+      2
+    ],
+    [
+      "wellbeing",
+      2
+    ],
+    [
+      "life",
+      2
+    ],
+    [
+      "shield",
+      2
+    ],
+    [
+      "assurance",
+      2
+    ],
+    [
+      "access",
+      1
+    ],
+    [
+      "quality",
+      1
+    ],
+    [
+      "systems",
+      1
+    ],
+    [
+      "heartbeat",
+      1
+    ],
+    [
+      "cross",
+      1
+    ],
+    [
+      "beats",
+      1
+    ],
+    [
+      "psychology",
+      1
+    ],
+    [
+      "diagnosis",
+      1
+    ],
+    [
+      "cardiac",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Healthcare",
+          "tags": [
+            "health",
+            "healthcare",
+            "medical",
+            "medicine",
+            "treatment",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518292-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "doctor",
+            "healthcare",
+            "healthcare",
+            "hospital",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493084-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "emergency",
+            "health",
+            "healthcare",
+            "heart",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485081-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "access",
+            "healthcare",
+            "quality",
+            "services",
+            "systems",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8232847-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "cardiology",
+            "healthcare",
+            "healthcare",
+            "heartbeat",
+            "medical",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8113099-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "cross",
+            "health",
+            "health-care",
+            "healthcare",
+            "medical",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7627137-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "emergency",
+            "health",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7547587-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "beats",
+            "clinic",
+            "health",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5330723-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "health",
+            "healthcare",
+            "medical",
+            "medicine",
+            "psychology",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518319-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "emergency",
+            "healthcare",
+            "healthcare",
+            "heart",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510467-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "health-insurance",
+            "healthcare",
+            "medical",
+            "services",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501094-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "health-insurance",
+            "healthcare",
+            "medical",
+            "services",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501071-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "heart",
+            "monitoring",
+            "prevention",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500227-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "health",
+            "healthcare",
+            "hospital",
+            "medical",
+            "medicine",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500076-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "diagnosis",
+            "health",
+            "healthcare",
+            "medical",
+            "medicine",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "doctor",
+            "healthcare",
+            "healthcare",
+            "hospital",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497625-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "heart",
+            "monitoring",
+            "prevention",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486446-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "emergency",
+            "health-care",
+            "healthcare",
+            "heart",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "health",
+            "healthcare",
+            "healthy",
+            "heart",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478226-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "medical",
+            "service",
+            "system",
+            "treatment",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476606-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "medical",
+            "service",
+            "system",
+            "treatment",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476599-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "health",
+            "healthcare",
+            "insurance",
+            "medical",
+            "protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475325-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "clinical",
+            "health",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470970-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "clinical",
+            "health",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470935-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "health",
+            "healthcare",
+            "healthy",
+            "heart",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468051-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "clinic",
+            "healthcare",
+            "medical",
+            "treatment",
+            "wellbeing",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461544-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "clinic",
+            "healthcare",
+            "medical",
+            "treatment",
+            "wellbeing",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461520-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "cardiac",
+            "cardiology",
+            "healthcare",
+            "heart",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8457236-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "healthcare",
+            "heart",
+            "love",
+            "self-care",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8452681-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "health",
+            "healthcare",
+            "healthcare",
+            "medical",
+            "services"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450778-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "doctor",
+            "emergency",
+            "health",
+            "healthcare",
+            "heart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450775-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8434619-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "caring",
+            "healthcare",
+            "insurance",
+            "medical",
+            "policy",
+            "protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "heart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "digital",
+            "health",
+            "healthcare",
+            "medical",
+            "technology",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430254-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "health",
+            "healthcare",
+            "hospital",
+            "medical",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "doctor",
+            "healthcare",
+            "hospital",
+            "medical",
+            "treatment",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8418454-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "hospital",
+            "insurance",
+            "life",
+            "medical",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8416734-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "hospital",
+            "medical",
+            "treatment",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8415542-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "hospital",
+            "medical",
+            "treatment",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8415514-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "heart",
+            "hospital",
+            "love",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409588-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "health-services",
+            "healthcare",
+            "healthcare",
+            "hospital",
+            "medical-care",
+            "patient-care"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8380222-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "assurance",
+            "care",
+            "health",
+            "healthcare",
+            "hospital",
+            "insurance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8378634-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "heart",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8369814-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "heart",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8369779-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "hospital",
+            "insurance",
+            "life",
+            "medical",
+            "shield"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8368369-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "heart",
+            "hospital",
+            "love",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364126-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "healthcare",
+            "medical",
+            "service",
+            "system",
+            "treatment",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352254-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "care",
+            "healthcare",
+            "healthcare-and-medical",
+            "heart",
+            "selfcare"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8345630-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Healthcare",
+          "tags": [
+            "assurance",
+            "care",
+            "health",
+            "healthcare",
+            "hospital",
+            "insurance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8331868-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "heart-cross",
+    "rationale": "Refs for \"healthcare\" dominated by hearts with a cross, hands and stethoscopes; first-aid kit rare.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

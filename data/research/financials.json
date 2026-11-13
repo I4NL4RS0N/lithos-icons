@@ -1,0 +1,798 @@
+{
+  "concept": "financials",
+  "query": "finance",
+  "fetched": "2026-11-13T03:25:13.309Z",
+  "topTerms": [
+    [
+      "finance",
+      47
+    ],
+    [
+      "money",
+      21
+    ],
+    [
+      "investment",
+      16
+    ],
+    [
+      "business",
+      13
+    ],
+    [
+      "accounting",
+      12
+    ],
+    [
+      "dollar",
+      8
+    ],
+    [
+      "calculator",
+      8
+    ],
+    [
+      "budgeting",
+      8
+    ],
+    [
+      "capital",
+      8
+    ],
+    [
+      "financial",
+      7
+    ],
+    [
+      "banking",
+      5
+    ],
+    [
+      "currency",
+      5
+    ],
+    [
+      "profit",
+      5
+    ],
+    [
+      "wealth",
+      5
+    ],
+    [
+      "budget",
+      4
+    ],
+    [
+      "money-management",
+      4
+    ],
+    [
+      "financing",
+      3
+    ],
+    [
+      "cash",
+      3
+    ],
+    [
+      "payment",
+      3
+    ],
+    [
+      "coins",
+      3
+    ],
+    [
+      "saving",
+      3
+    ],
+    [
+      "bill",
+      2
+    ],
+    [
+      "energy",
+      2
+    ],
+    [
+      "report",
+      2
+    ],
+    [
+      "analysis",
+      2
+    ],
+    [
+      "monitor",
+      2
+    ],
+    [
+      "economy",
+      2
+    ],
+    [
+      "monetary",
+      2
+    ],
+    [
+      "management",
+      2
+    ],
+    [
+      "operations",
+      2
+    ],
+    [
+      "process",
+      2
+    ],
+    [
+      "workflow",
+      2
+    ],
+    [
+      "computer-functions",
+      2
+    ],
+    [
+      "feature",
+      2
+    ],
+    [
+      "education",
+      2
+    ],
+    [
+      "edutainment",
+      2
+    ],
+    [
+      "learning",
+      2
+    ],
+    [
+      "reporting",
+      1
+    ],
+    [
+      "sector",
+      1
+    ],
+    [
+      "soe",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "bill",
+            "business",
+            "dollar",
+            "finance",
+            "reporting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471282-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "business",
+            "finance",
+            "financial",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8267660-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "banking",
+            "finance",
+            "financial",
+            "sector",
+            "soe",
+            "state-owned-enterprise"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8020633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Financing",
+          "tags": [
+            "efficiency",
+            "electricity",
+            "energy",
+            "financing",
+            "power",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7478322-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "calculator",
+            "dollar",
+            "finance",
+            "financial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7456588-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "calculator",
+            "dollar",
+            "finance",
+            "financial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7456555-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "cash",
+            "dollar",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7344670-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "bill",
+            "currency",
+            "doller",
+            "finance",
+            "invoice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7211367-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "finance",
+            "growth",
+            "investment",
+            "money",
+            "profit"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7132543-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "finance",
+            "payment",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7109731-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "analysis",
+            "budgeting",
+            "capital",
+            "finance",
+            "financials"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6880710-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "analysis",
+            "finance",
+            "financial",
+            "money",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5889521-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "finance",
+            "financial",
+            "investment",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5846477-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "commerce",
+            "economic",
+            "finance",
+            "investment",
+            "loan",
+            "spending"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5350390-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "dollar",
+            "finance",
+            "money",
+            "monitor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4254361-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "finance",
+            "financial",
+            "income",
+            "profit",
+            "statement"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2500574-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Financing",
+          "tags": [
+            "cashflow",
+            "coins",
+            "contribution",
+            "cost",
+            "financing",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1886193-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516250-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "budget",
+            "calculator",
+            "finance",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516178-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "budget",
+            "calculator",
+            "finance",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "finance",
+            "math",
+            "money-bag",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "assets",
+            "capital",
+            "economy",
+            "finance",
+            "monetary",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496102-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "certificate",
+            "finance",
+            "investment",
+            "money",
+            "stock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495463-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "clean",
+            "energy",
+            "finance",
+            "green",
+            "investing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8489831-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "banking",
+            "finance",
+            "investment",
+            "monitor",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487670-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "budgeting",
+            "capital",
+            "finance",
+            "investment",
+            "money-management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482729-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "cash",
+            "finance",
+            "gear",
+            "management",
+            "monetary",
+            "planning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480205-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Financing",
+          "tags": [
+            "budget",
+            "capital",
+            "financing",
+            "investment",
+            "profit",
+            "revenue"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477700-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "budgeting",
+            "capital",
+            "finance",
+            "investment",
+            "money-management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475585-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "finance",
+            "investment",
+            "management",
+            "setting",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466741-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "finance",
+            "investment",
+            "money",
+            "profit",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466460-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "finance",
+            "finance",
+            "operations",
+            "process",
+            "workflow"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465822-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance,",
+          "tags": [
+            "business",
+            "cash",
+            "currency",
+            "dollar",
+            "finance",
+            "payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "currency",
+            "dollar",
+            "finance",
+            "money",
+            "payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461485-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "budgeting",
+            "capital",
+            "economy",
+            "finance",
+            "investment",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460640-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "budgeting",
+            "capital",
+            "finance",
+            "investment",
+            "money-management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455641-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "computer-functions",
+            "currency",
+            "feature",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455415-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "computer-functions",
+            "currency",
+            "feature",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455392-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "banking",
+            "budgeting",
+            "calculator",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8452643-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "banking",
+            "budgeting",
+            "calculator",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8452598-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "coin",
+            "finance",
+            "graph",
+            "money",
+            "profit"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8447255-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "finance",
+            "operations",
+            "process",
+            "workflow"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8446534-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "budgeting",
+            "capital",
+            "finance",
+            "investment",
+            "money-management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8446185-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "accounting",
+            "banking",
+            "finance",
+            "investment",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "coins",
+            "finance",
+            "money",
+            "saving",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432574-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "coins",
+            "finance",
+            "money",
+            "saving",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432554-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "calculator",
+            "education",
+            "edutainment",
+            "finance",
+            "learning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424570-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "calculator",
+            "education",
+            "edutainment",
+            "finance",
+            "learning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424547-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "balance",
+            "budget",
+            "finance",
+            "investment",
+            "money",
+            "saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422720-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "finance",
+          "tags": [
+            "business",
+            "dollar",
+            "finance",
+            "financial-report",
+            "pie-chart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417782-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "coins",
+    "rationale": "Refs for \"finance\" dominated by coins and money; bank minor. Coins without a currency symbol work globally.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}

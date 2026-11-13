@@ -2,7 +2,7 @@
   "id": "consumer-discretionary",
   "name": "Consumer Discretionary",
   "kind": "sector",
-  "metaphor": "shopping-bag",
+  "metaphor": "storefront",
   "keywords": [
     "retail",
     "autos",
@@ -11,9 +11,10 @@
     "hotels",
     "restaurants",
     "luxury",
-    "e-commerce"
+    "e-commerce",
+    "shop"
   ],
-  "reduction": "None — body and handle at all sizes.",
+  "reduction": "Scallops: 3 at 16–24, 4 at 32+. 20+: door.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

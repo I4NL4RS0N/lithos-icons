@@ -1,0 +1,816 @@
+{
+  "concept": "consumer-staples",
+  "query": "groceries",
+  "fetched": "2026-11-13T03:25:12.150Z",
+  "topTerms": [
+    [
+      "groceries",
+      50
+    ],
+    [
+      "food",
+      34
+    ],
+    [
+      "shopping",
+      34
+    ],
+    [
+      "supermarket",
+      21
+    ],
+    [
+      "basket",
+      16
+    ],
+    [
+      "grocery",
+      9
+    ],
+    [
+      "market",
+      8
+    ],
+    [
+      "bag",
+      6
+    ],
+    [
+      "business",
+      5
+    ],
+    [
+      "purchase",
+      5
+    ],
+    [
+      "essentials",
+      4
+    ],
+    [
+      "supplies",
+      4
+    ],
+    [
+      "bread",
+      4
+    ],
+    [
+      "ecommerce",
+      3
+    ],
+    [
+      "retail",
+      3
+    ],
+    [
+      "food-and-restaurant",
+      3
+    ],
+    [
+      "shop",
+      3
+    ],
+    [
+      "items",
+      3
+    ],
+    [
+      "daily-needs",
+      2
+    ],
+    [
+      "grocery-shopping",
+      2
+    ],
+    [
+      "delivery",
+      2
+    ],
+    [
+      "order",
+      2
+    ],
+    [
+      "package",
+      2
+    ],
+    [
+      "service",
+      2
+    ],
+    [
+      "internet",
+      2
+    ],
+    [
+      "store",
+      2
+    ],
+    [
+      "shopping-bag",
+      2
+    ],
+    [
+      "daily",
+      2
+    ],
+    [
+      "supply",
+      2
+    ],
+    [
+      "banner",
+      2
+    ],
+    [
+      "black-friday",
+      2
+    ],
+    [
+      "discount",
+      2
+    ],
+    [
+      "promotion",
+      2
+    ],
+    [
+      "commerce",
+      2
+    ],
+    [
+      "shopping-bags",
+      2
+    ],
+    [
+      "checklist",
+      2
+    ],
+    [
+      "shopping-list",
+      2
+    ],
+    [
+      "edible",
+      1
+    ],
+    [
+      "grocery-bag",
+      1
+    ],
+    [
+      "meal",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "groceries",
+          "tags": [
+            "edible",
+            "food",
+            "groceries",
+            "groceries",
+            "grocery-bag",
+            "meal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8371395-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "business",
+            "buy",
+            "groceries",
+            "market",
+            "paper-bag",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1411730-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "groceries",
+            "groceries",
+            "monthly",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "daily-needs",
+            "essentials",
+            "food",
+            "groceries",
+            "grocery",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422717-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "food",
+            "groceries",
+            "ingredients",
+            "shopping",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422113-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "daily-needs",
+            "essentials",
+            "food",
+            "groceries",
+            "grocery",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8399843-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "vegetable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8385335-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347870-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347869-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347868-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347867-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347866-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347865-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347863-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347862-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347861-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bag",
+            "groceries",
+            "groceries",
+            "pay",
+            "pick",
+            "weigh"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8231681-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bread",
+            "food",
+            "food-shopping",
+            "groceries",
+            "grocery-shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8157642-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "delivery",
+            "food",
+            "groceries",
+            "order",
+            "package",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8146886-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "delivery",
+            "food",
+            "groceries",
+            "order",
+            "package",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8146849-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "business",
+            "ecommerce",
+            "groceries",
+            "internet",
+            "shopping",
+            "store"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8111648-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "business",
+            "ecommerce",
+            "groceries",
+            "internet",
+            "shopping",
+            "store"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8111633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "ecommerce",
+            "groceries",
+            "retail",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8087365-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "essentials",
+            "food",
+            "groceries",
+            "market",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8076599-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bag",
+            "food",
+            "food-and-restaurant",
+            "groceries",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8034499-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "groceries",
+            "market",
+            "shop",
+            "shopping",
+            "shopping-bag",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7984174-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "groceries",
+            "market",
+            "shop",
+            "shopping",
+            "shopping-bag",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7984172-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7983656-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "cart",
+            "food",
+            "groceries",
+            "shop",
+            "supermarket",
+            "vegetables"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7960820-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bag",
+            "budget",
+            "food",
+            "groceries",
+            "groceries",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7953263-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "food",
+            "groceries",
+            "grocery",
+            "market",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7953083-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "daily",
+            "groceries",
+            "market",
+            "shopping",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7944149-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "basket",
+            "daily",
+            "groceries",
+            "market",
+            "shopping",
+            "supply"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7944108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "food",
+            "groceries",
+            "items",
+            "market",
+            "produce",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7926071-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "banner",
+            "black-friday",
+            "business",
+            "discount",
+            "groceries",
+            "promotion"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7920376-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "banner",
+            "black-friday",
+            "business",
+            "discount",
+            "groceries",
+            "promotion"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7920353-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bag",
+            "food",
+            "groceries",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7834667-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "checkout",
+            "groceries",
+            "items",
+            "products",
+            "retail"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827592-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "commerce",
+            "food",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7750307-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "essentials",
+            "food",
+            "groceries",
+            "items",
+            "pantry",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7729932-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bread",
+            "food",
+            "groceries",
+            "grocery-shopping",
+            "milk",
+            "shopping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7643478-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bread",
+            "groceries",
+            "grocery",
+            "purchase",
+            "shopping",
+            "shopping-bags"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7633764-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "checklist",
+            "food",
+            "groceries",
+            "grocery",
+            "purchase",
+            "shopping-list"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7633762-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bread",
+            "groceries",
+            "grocery",
+            "purchase",
+            "shopping",
+            "shopping-bags"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7633739-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "checklist",
+            "food",
+            "groceries",
+            "grocery",
+            "purchase",
+            "shopping-list"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7633730-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bag",
+            "food",
+            "food-and-restaurant",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7614943-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "bag",
+            "food",
+            "food-and-restaurant",
+            "groceries",
+            "shopping",
+            "supermarket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7614918-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "commerce",
+            "groceries",
+            "grocery",
+            "product",
+            "retail"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7612635-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "groceries",
+          "tags": [
+            "food",
+            "groceries",
+            "grocery",
+            "healthy",
+            "purchase",
+            "shopping-basket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7593462-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "basket",
+    "rationale": "Refs for \"groceries\" show baskets and grocery bags; basket kept.",
+    "reviewedBy": "Ian",
+    "date": "2026-11-13"
+  }
+}
