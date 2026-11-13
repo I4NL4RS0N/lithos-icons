@@ -68,20 +68,24 @@
   .std-head .codechip, .cell .codechip { font: 11.5px var(--mono); color: var(--fg); background: var(--pill); border-radius: 6px; padding: 1px 6px; }
   .cell .nm .codechip { display: inline-block; margin-bottom: 4px; }
   .cell.inherited .art { opacity: .38; }
-  .tree { margin: 0 -10px; }
-  .trow { display: flex; align-items: center; padding-left: calc(var(--d) * 26px); }
-  .tw { flex: none; width: 24px; height: 28px; border: 0; background: transparent; color: var(--faint); display: grid; place-items: center; border-radius: 6px; padding: 0; }
-  button.tw:hover { color: var(--fg); background: var(--hover); }
-  .tw svg { transition: transform .12s; } .tw[aria-expanded="true"] svg { transform: rotate(90deg); }
-  .tnode { flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; border: 0; background: transparent; text-align: left; padding: 5px 10px 5px 4px; border-radius: 8px; }
-  .tnode:hover, .tnode[aria-current="true"] { background: var(--hover); }
-  .tnode .art { flex: none; width: 20px; height: 20px; display: grid; place-items: center; }
-  .trow.inherited .art { opacity: .38; }
-  .tnode .codechip { flex: none; font: 11.5px var(--mono); color: var(--fg); background: var(--pill); border-radius: 6px; padding: 1px 6px; }
-  .tnode .nm { font-size: 13.5px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .trow[style="--d:0"] .nm { color: var(--fg); font-weight: 500; }
-  .tnode:hover .nm, .tnode[aria-current="true"] .nm { color: var(--fg); }
-  .tnode .cnt { margin-left: auto; font: 11.5px var(--mono); color: var(--faint); }
+  .grid.dense { grid-auto-flow: dense; }
+  .tcell { position: relative; display: grid; min-width: 0; border-radius: 12px; }
+  .tcell.inherited .art { opacity: .38; }
+  .tcell.open { background: var(--hover); border-radius: 12px 12px 0 0; }
+  .clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .more { position: absolute; top: 6px; right: 6px; display: flex; align-items: center; gap: 2px; border: 0; border-radius: 999px; padding: 2px 5px 2px 7px;
+    font: 11px var(--mono); color: var(--muted); background: var(--pill); }
+  .more:hover, .more[aria-expanded="true"] { color: var(--accent-fg); background: var(--accent); }
+  .more svg { transition: transform .12s; } .more[aria-expanded="true"] svg { transform: rotate(180deg); }
+  .sub { grid-column: 1 / -1; background: var(--hover); border-radius: 14px; padding: 12px 14px 8px; margin: 0 0 10px; }
+  .sub .grid { margin: 0 -4px; }
+  .sub .sub { background: var(--bg); }
+  .sub .sub .sub { background: var(--hover); }
+  .sub .sub .sub .sub { background: var(--bg); }
+  .sub .cell:hover, .sub .cell[aria-current="true"] { background: var(--pill-on); }
+  .sub-h { margin: 0 0 4px; font-size: 13px; font-weight: 550; display: flex; gap: 8px; align-items: baseline; }
+  .sub-h .codechip { font: 11.5px var(--mono); background: var(--pill-on); border-radius: 6px; padding: 1px 6px; }
+  .sub-h .cnt { margin-left: auto; font: 11.5px var(--mono); color: var(--faint); font-weight: 400; }
   .std-intro .ghost { margin-left: 6px; }
   .codes { display: grid; gap: 4px; }
   .codes div { display: flex; gap: 8px; align-items: baseline; }
@@ -322,9 +326,9 @@ function syncControls() {
   $('#kind').value = state.kind;
 }
 
-// Browse by standard: the standard's full tree on one page. A node with its own icon shows it; level 2 shows its
-// parent's icon faded until its own is drawn; deeper nodes without an icon are text only.
-const STD = {}, STD_LOADING = {}, TREE = { base: 'all', flip: new Set() };
+// Browse by standard: the standard's full tree as icon tiles. A node with its own icon shows it; the rest show
+// the nearest ancestor's icon, faded, until theirs is drawn.
+const STD = {}, STD_LOADING = {}, TREE = { base: 'none', flip: new Set() };
 function loadStd(std) {
   if (STD[std.id] || STD_LOADING[std.id]) return;
   STD_LOADING[std.id] = fetch(`std/${std.id}.json`).then((r) => r.json()).then((j) => {
@@ -346,18 +350,22 @@ function renderStandard(std) {
   const byId = Object.fromEntries(DATA.concepts.map((c) => [c.id, c])), memo = {};
   const icon = (n, size) => (byId[n.concept] ? (memo[n.concept + size] ||= draw(byId[n.concept], size)) : '');
   const open = (n) => (q.length ? below.get(n) : TREE.base === 'all') !== TREE.flip.has(n.code); // while searching, branches open down to the matches
-  const row = (n) => {
+  // Icon-first: every node is a tile. A tile with children opens an inset panel right under its row holding its
+  // children as tiles, so nesting shows as panels within panels. `dense` flow keeps the tile's own row intact.
+  const lvl = (d, n) => { const l = std.levels[d] || 'item'; return n === 1 ? l : l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's'); };
+  const group = (nodes) => `<div class="grid dense">${nodes.map(tile).join('')}</div>`;
+  const tile = (n) => {
     const kids = q.length && below.get(n) ? n.kids.filter((k) => vis.get(k)) : n.kids, isOpen = kids.length && open(n);
-    return `<div class="trow${n.direct ? '' : ' inherited'}" style="--d:${n.depth - 1}">`
-      + (kids.length ? `<button class="tw" type="button" data-toggle="${esc(n.code)}" aria-expanded="${!!isOpen}" aria-label="${isOpen ? 'Collapse' : 'Expand'} ${esc(n.code)}"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 2.5 8 6l-3.5 3.5"/></svg></button>` : '<span class="tw"></span>')
-      + `<button class="tnode" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}">${n.direct || n.depth === 1 ? `<span class="art">${icon(n, 20)}</span>` : ''}<span class="codechip">${esc(n.code)}</span><span class="nm">${esc(n.name)}</span>${kids.length && !isOpen ? `<span class="cnt">${n.total}</span>` : ''}</button></div>`
-      + (isOpen ? kids.map(row).join('') : '');
+    return `<div class="tcell${n.direct ? '' : ' inherited'}${isOpen ? ' open' : ''}"><button class="cell" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc(n.code + ' ' + n.name)}">
+        <span class="art">${icon(n, state.size)}</span><span class="nm"><span class="codechip">${esc(n.code)}</span><br><span class="clamp">${esc(n.name)}</span></span></button>`
+      + (kids.length ? `<button class="more" type="button" data-toggle="${esc(n.code)}" aria-expanded="${!!isOpen}" aria-label="${isOpen ? 'Hide' : 'Show'} ${n.total} inside ${esc(n.code)}">${n.kids.length}<svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button>` : '') + '</div>'
+      + (isOpen ? `<div class="sub"><p class="sub-h"><span class="codechip">${esc(n.code)}</span> ${esc(n.name)} <span class="cnt">${kids.length} ${lvl(n.depth + 1, kids.length)}</span></p>${group(kids)}</div>` : '');
   };
   const sections = tree.tops.filter((t) => vis.get(t)).map((t) => `<section class="std"><button class="std-head" type="button" data-id="${t.concept || ''}" title="${esc(t.name)}"><span class="art">${icon(t, state.size)}</span><span class="codechip">${esc(t.code)}</span><span class="t">${esc(t.name)}</span></button>
-      <div class="tree">${(q.length && below.get(t) ? t.kids.filter((k) => vis.get(k)) : q.length ? [] : t.kids).map(row).join('')}</div></section>`).join('');
+      ${group(q.length && below.get(t) ? t.kids.filter((k) => vis.get(k)) : q.length ? [] : t.kids)}</section>`).join('');
   const counts = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`).join(', ');
   const own = tree.nodes.filter((n) => n.direct).length;
-  $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · ${counts}. ${own} have their own icon; the rest use the nearest parent’s.
+  $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · ${counts}. ${own} have their own icon; faded ones use their parent’s until theirs is drawn.
     <button class="ghost" type="button" id="treeAll">${TREE.base === 'all' ? 'Collapse all' : 'Expand all'}</button></p>`
     + (sections || `<p class="empty">No ${esc(std.name)} code or title matches “${esc(state.q)}”.</p>`);
   renderDetail();
@@ -438,8 +446,8 @@ $('#kind').onchange = (e) => { state.kind = e.target.value; render(); };
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); render(); };
 $('#main').onclick = (e) => {
   if (e.target.closest('#treeAll')) { TREE.base = TREE.base === 'all' ? 'none' : 'all'; TREE.flip.clear(); return render(); }
-  const tw = e.target.closest('button.tw'); if (tw) { const c = tw.dataset.toggle; TREE.flip.has(c) ? TREE.flip.delete(c) : TREE.flip.add(c); return render(); }
-  const t = e.target.closest('.cell, .std-head, .tnode'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
+  const tw = e.target.closest('button.more'); if (tw) { const c = tw.dataset.toggle; TREE.flip.has(c) ? TREE.flip.delete(c) : TREE.flip.add(c); return render(); }
+  const t = e.target.closest('.cell, .std-head'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
 dark.addEventListener('change', () => syncControls());
 document.addEventListener('pointerdown', (e) => { if (state.pop && !e.target.closest('#pop, #custom')) { state.pop = false; syncControls(); } });
 document.addEventListener('keydown', (e) => {
