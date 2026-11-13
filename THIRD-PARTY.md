@@ -36,5 +36,10 @@ ISO 3166-1 codes via `i18n-iso-countries` (MIT); UN M49 regions via `un-m49` (MI
 NAICS 2022 and SIC 1987 are US government works (public domain); titles read from `naicsjs` (MIT) and `naics-sic-crosswalk` (MIT, Census concordance; SIC industry titles are the concordance's short forms).
 NACE Rev. 2.1 © European Union, reuse permitted with attribution (Eurostat); read from `nace-mcp` (MIT).
 
+## GICS and Fitch Ratings (not MIT)
+GICS is a standard of MSCI Inc. and S&P Dow Jones Indices. The Fitch Ratings market sector list is Fitch's (2020, partially reconstructed).
+Both are included with permission for non-commercial use, as confirmed by the project owner on 2026-11-13. The MIT licence does not
+cover their names, codes or hierarchy (`data/{schemes,nodes,mappings}/{gics-2025,fitch-2020}.json`); do not reuse them commercially.
+
 ## Metaphor research
 The Noun Project is used as a reference for which images people recognise. No Noun Project artwork is copied or shipped.

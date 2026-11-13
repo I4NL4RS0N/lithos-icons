@@ -38,12 +38,12 @@ const standards = readdirSync('data/schemes').filter((f) => f.endsWith('.json'))
   const byCode = Object.fromEntries(raw.map((n) => [n.code, n]));
   const inherit = (n) => { for (let x = n; x; x = byCode[x.parent]) if (map[x.code]) return map[x.code]; return null; }; // nearest ancestor with an icon
   const nodes = raw.map((n) => ({ code: n.code, name: n.name, parent: n.parent, concept: inherit(n), direct: !!map[n.code] }));
-  for (const n of nodes) if (n.direct) { const c = concepts.find((x) => x.id === n.concept); (c.codes ||= []).push({ scheme: scheme.name, code: n.code, name: n.name }); }
+  for (const n of nodes) if (n.direct) { const c = concepts.find((x) => x.id === n.concept); (c.codes ||= []).push({ scheme: scheme.name, code: scheme.codes === false ? '' : n.code, name: n.name }); }
   // The tree is large (NAICS: 2,125 nodes), so it loads on demand; concept ids are indexed to keep the file small.
   const ids = [...new Set(nodes.map((n) => n.concept).filter(Boolean))];
   mkdirSync(join(out, 'std'), { recursive: true });
   writeFileSync(join(out, 'std', `${scheme.id}.json`), JSON.stringify({ ids, nodes: nodes.map((n) => [n.code, n.name, n.parent, n.concept ? ids.indexOf(n.concept) : -1, n.direct ? 1 : 0]) }));
-  return { id: scheme.id, name: scheme.name, version: scheme.version, fullName: scheme.fullName, levels: scheme.levels };
+  return { id: scheme.id, name: scheme.name, version: scheme.version, fullName: scheme.fullName, levels: scheme.levels, codes: scheme.codes !== false, credit: scheme.credit || '', source: scheme.credit ? scheme.source : '' };
 }).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name));
 const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts, standards };
 const tpl = readFileSync('site/index.html', 'utf8');

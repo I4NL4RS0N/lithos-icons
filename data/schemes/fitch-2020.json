@@ -1,0 +1,17 @@
+{
+ "id": "fitch-2020",
+ "name": "Fitch Ratings",
+ "fullName": "Fitch Ratings market sectors",
+ "version": "2020",
+ "codes": false,
+ "levels": [
+  "group",
+  "sector",
+  "sub-sector",
+  "segment"
+ ],
+ "source": "Fitch Ratings market sector taxonomy (2020). Historical and partially reconstructed; not verified as complete or current.",
+ "licence": "permission-noncommercial",
+ "publish": true,
+ "credit": "Published with permission for non-commercial use (confirmed by the project owner, 2026-11-13). Not covered by the MIT licence; do not reuse commercially."
+}

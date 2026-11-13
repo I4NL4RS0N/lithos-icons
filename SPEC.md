@@ -43,13 +43,15 @@ Codes and names of proprietary standards are owned by their publishers. The icon
 | NACE | Industry | EU | Yes (sections, divisions, groups) |
 | ISIC | Industry | UN | Yes (sections, divisions, groups) |
 | SIC | Industry | US gov | Yes |
-| GICS | Equity | MSCI / S&P DJI | **Held** until permission |
+| GICS | Equity | MSCI / S&P DJI | **Published by permission**, non-commercial only (owner-confirmed 2026-11-13) |
 | ICB | Equity | FTSE Russell | **Held** |
 | BICS | Terminal | Bloomberg | **Held** |
 | TRBC | Terminal | LSEG | **Held** |
-| Fitch sectors | Credit | Fitch | **Held** + employer policy check |
+| Fitch sectors | Credit | Fitch | **Published by permission**, non-commercial only (owner-confirmed 2026-11-13); 2020 list, partially reconstructed |
 | Moody's sectors / CLO industries | Credit | Moody's | **Held** |
 | S&P Ratings sectors | Credit | S&P | **Held** |
+
+**Published by permission** means: the project owner has confirmed permission for non-commercial use. The scheme's names, codes and hierarchy are not MIT — each scheme file carries `licence: permission-noncommercial` and a credit line the site shows. If the project ever becomes commercial, or permission is withdrawn, set `publish: false` and remove the data. Built by `scripts/standards-licensed.mjs` from `standards-private/`.
 
 **Held** means: mapping files live in a private `standards-private/` location (or are generated locally from a user's licensed data) and are not published until permission is granted. Icons for those concepts still ship — they're mapped to free standards and to search keywords.
 
@@ -274,7 +276,7 @@ Static site + Netlify Functions. Framework: Astro (static output, small JS islan
 
 **Layout:** icon-first grid (no cards), floating command bar (category, search with ⌘K, outline/solid, Customize), detail panel with a shareable `?icon=` URL.
 
-**Browse by standard:** the category menu lists each published standard (NAICS 2022, NACE Rev. 2.1, SIC 1987; every level). Navigation is two rows of tabs under the headline: subject (All icons · Sectors and industries · Credit · Countries · Regions), then, for sectors, "Organised by" (Plain names · each published standard). A standard's page shows the whole tree open with no clicking: a jump row of top-level codes, each top level as a section head, each node with children as a group header (icon, code, name, count) and every leaf code as an icon tile with its code. A node whose only child is a leaf is one tile carrying both codes. Search opens branches down to the matches. Tree data loads on demand from `std/<scheme>.json`; rebuild node files with `scripts/standards.mjs`. Each node shows the icon of its mapped concept (`data/mappings/<scheme>.json`); a node without one shows its nearest ancestor's icon, faded. Codes are searchable everywhere, and each icon's panel lists its codes in every standard, labelled as related. ISIC is not loaded yet (no reliable source reached). Held standards (GICS, ICB, BICS, TRBC, Fitch, Moody's, S&P) stay in `standards-private/`, which is git-ignored.
+**Browse by standard:** the category menu lists each published standard (NAICS 2022, NACE Rev. 2.1, SIC 1987, GICS 2025, Fitch Ratings 2020; every level). Navigation is two rows of tabs under the headline: subject (All icons · Sectors and industries · Credit · Countries · Regions), then, for sectors, "Organised by" (Plain names · each published standard). A standard's page shows the whole tree open with no clicking: a jump row of top-level codes, each top level as a section head, each node with children as a group header (icon, code, name, count) and every leaf code as an icon tile with its code. A node whose only child is a leaf is one tile carrying both codes. Search opens branches down to the matches. Tree data loads on demand from `std/<scheme>.json`; rebuild node files with `scripts/standards.mjs`. Each node shows the icon of its mapped concept (`data/mappings/<scheme>.json`); a node without one shows its nearest ancestor's icon, faded. Codes are searchable everywhere, and each icon's panel lists its codes in every standard, labelled as related. ISIC is not loaded yet (no reliable source reached). GICS and Fitch Ratings are published by permission (non-commercial; §3); Fitch has no codes, so its tiles show names only. Held standards (ICB, BICS, TRBC, Moody's, S&P) stay in `standards-private/`, which is git-ignored.
 
 **Which nodes get their own icon (decided 2026-11-13):** the top two levels of every standard always. Deeper nodes only when they are a visibly different thing people look for (Forestry, Fishing, Livestock under Agriculture) — never one icon per code. Everything else inherits from the nearest ancestor. One concept serves every standard (Forestry = SIC 08, NAICS 113, NACE A02). Agents must not add a concept for a node whose picture would be a near-duplicate of its parent's.
 

@@ -1,0 +1,1694 @@
+[
+ {
+  "code": "1",
+  "name": "Corporate Finance",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "1.1",
+  "name": "Financial Institutions",
+  "level": "sector",
+  "parent": "1"
+ },
+ {
+  "code": "1.1.1",
+  "name": "Banks",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.1.1.1",
+  "name": "Corporate Credit Union",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.2",
+  "name": "Bank Financing Vehicles / Special Purpose Entities",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.3",
+  "name": "Bank Holding Companies",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.4",
+  "name": "Development Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.5",
+  "name": "Islamic Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.6",
+  "name": "Private Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.7",
+  "name": "Retail & Consumer Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.8",
+  "name": "Trade Finance Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.9",
+  "name": "Trading & Investment Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.10",
+  "name": "Universal Commercial Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.1.11",
+  "name": "Central Banks",
+  "level": "segment",
+  "parent": "1.1.1"
+ },
+ {
+  "code": "1.1.2",
+  "name": "Non-Bank Financial Institutions",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.1.2.1",
+  "name": "Credit Card Companies",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.2",
+  "name": "Mortgage Companies",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.3",
+  "name": "Broker / Dealers",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.4",
+  "name": "Consumer Finance Companies",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.5",
+  "name": "Commercial Finance Companies",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.6",
+  "name": "Leasing Companies",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.7",
+  "name": "Investment Managers",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.8",
+  "name": "Securities Firms",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.2.9",
+  "name": "Business Development Companies",
+  "level": "segment",
+  "parent": "1.1.2"
+ },
+ {
+  "code": "1.1.3",
+  "name": "Insurance",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.1.3.1",
+  "name": "Life Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.2",
+  "name": "Health Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.3",
+  "name": "Mortgage Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.4",
+  "name": "Composite Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.5",
+  "name": "Non-Life Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.6",
+  "name": "Reinsurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.7",
+  "name": "Title Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.8",
+  "name": "Title Reinsurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.9",
+  "name": "Trade Credit Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.10",
+  "name": "Insurance Brokers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.3.11",
+  "name": "Captive Insurers",
+  "level": "segment",
+  "parent": "1.1.3"
+ },
+ {
+  "code": "1.1.4",
+  "name": "Savings Banks, Savings & Loans, Building Societies",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.1.5",
+  "name": "Derivative Product Companies",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.1.6",
+  "name": "Real Estate Investment Trusts",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.1.7",
+  "name": "Covered Bonds",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.1.8",
+  "name": "Multi-Issuers",
+  "level": "sub-sector",
+  "parent": "1.1"
+ },
+ {
+  "code": "1.2",
+  "name": "Global Power",
+  "level": "sector",
+  "parent": "1"
+ },
+ {
+  "code": "1.2.1",
+  "name": "Electric - Corporate",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.2",
+  "name": "Public Power",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.3",
+  "name": "Natural Gas & Propane",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.4",
+  "name": "Energy Project Finance",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.5",
+  "name": "IOU Commercial Paper",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.6",
+  "name": "Public Power Commercial Paper",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.7",
+  "name": "Project Finance",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.8",
+  "name": "Industrial Revenue & Pollution Control",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.9",
+  "name": "Water / Waste Water Utility",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.10",
+  "name": "Global Power Projects",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.11",
+  "name": "Investor-Owned Water",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.2.12",
+  "name": "Power Markets & Generation",
+  "level": "sub-sector",
+  "parent": "1.2"
+ },
+ {
+  "code": "1.3",
+  "name": "Corporates",
+  "level": "sector",
+  "parent": "1"
+ },
+ {
+  "code": "1.3.1",
+  "name": "Food, Beverage & Tobacco",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.1.1",
+  "name": "Food",
+  "level": "segment",
+  "parent": "1.3.1"
+ },
+ {
+  "code": "1.3.1.2",
+  "name": "Beverage",
+  "level": "segment",
+  "parent": "1.3.1"
+ },
+ {
+  "code": "1.3.1.3",
+  "name": "Tobacco",
+  "level": "segment",
+  "parent": "1.3.1"
+ },
+ {
+  "code": "1.3.2",
+  "name": "Consumer",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.3",
+  "name": "Retailing",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.3.1",
+  "name": "Food Retailing",
+  "level": "segment",
+  "parent": "1.3.3"
+ },
+ {
+  "code": "1.3.3.2",
+  "name": "General Retailing",
+  "level": "segment",
+  "parent": "1.3.3"
+ },
+ {
+  "code": "1.3.4",
+  "name": "Telecommunications",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.5",
+  "name": "Technology",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.6",
+  "name": "Aerospace & Defense",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.7",
+  "name": "Media & Entertainment",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.8",
+  "name": "Transportation",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.8.1",
+  "name": "Infrastructure",
+  "level": "segment",
+  "parent": "1.3.8"
+ },
+ {
+  "code": "1.3.8.2",
+  "name": "Operating",
+  "level": "segment",
+  "parent": "1.3.8"
+ },
+ {
+  "code": "1.3.9",
+  "name": "Building Materials & Construction",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.9.1",
+  "name": "Building Materials",
+  "level": "segment",
+  "parent": "1.3.9"
+ },
+ {
+  "code": "1.3.9.2",
+  "name": "Construction",
+  "level": "segment",
+  "parent": "1.3.9"
+ },
+ {
+  "code": "1.3.10",
+  "name": "Energy (Oil & Gas)",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.11",
+  "name": "Chemicals",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.12",
+  "name": "Natural Resources",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.12.1",
+  "name": "Paper & Forest Products",
+  "level": "segment",
+  "parent": "1.3.12"
+ },
+ {
+  "code": "1.3.12.2",
+  "name": "Metals & Mining",
+  "level": "segment",
+  "parent": "1.3.12"
+ },
+ {
+  "code": "1.3.12.3",
+  "name": "Other Natural Resources",
+  "level": "segment",
+  "parent": "1.3.12"
+ },
+ {
+  "code": "1.3.13",
+  "name": "Auto & Related",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.13.1",
+  "name": "Automotive Manufacturer",
+  "level": "segment",
+  "parent": "1.3.13"
+ },
+ {
+  "code": "1.3.13.2",
+  "name": "Auto Suppliers",
+  "level": "segment",
+  "parent": "1.3.13"
+ },
+ {
+  "code": "1.3.14",
+  "name": "Capital Goods",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.15",
+  "name": "Diversified Manufacturing",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.16",
+  "name": "Diversified Services",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.17",
+  "name": "Health Care",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.17.1",
+  "name": "Acute & Long-Term Care",
+  "level": "segment",
+  "parent": "1.3.17"
+ },
+ {
+  "code": "1.3.17.2",
+  "name": "Medical Devices",
+  "level": "segment",
+  "parent": "1.3.17"
+ },
+ {
+  "code": "1.3.17.3",
+  "name": "Pharmaceuticals",
+  "level": "segment",
+  "parent": "1.3.17"
+ },
+ {
+  "code": "1.3.18",
+  "name": "Property / Real Estate",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.19",
+  "name": "Water / Wastewater Utility",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.20",
+  "name": "Lodging",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.21",
+  "name": "Gaming, Lodging & Leisure",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.21.1",
+  "name": "Gaming",
+  "level": "segment",
+  "parent": "1.3.21"
+ },
+ {
+  "code": "1.3.22",
+  "name": "Utilities - Non US",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.23",
+  "name": "Environmental Services",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.24",
+  "name": "Homebuilding",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.25",
+  "name": "Food Services",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.26",
+  "name": "Post Utility",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.27",
+  "name": "Food Retail",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.28",
+  "name": "General Retail",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.29",
+  "name": "Food",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.30",
+  "name": "Beverage",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.31",
+  "name": "Tobacco",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.32",
+  "name": "Building Materials",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.33",
+  "name": "Construction",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.34",
+  "name": "Paper & Forest Products",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.35",
+  "name": "Metals & Mining",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.36",
+  "name": "Other Natural Resources",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.37",
+  "name": "Operating Transportation",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.38",
+  "name": "Transportation Infrastructure",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.39",
+  "name": "Acute & Long-Term Care",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.40",
+  "name": "Medical Devices",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.41",
+  "name": "Pharmaceuticals",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.3.42",
+  "name": "Distribution / Postal Services",
+  "level": "sub-sector",
+  "parent": "1.3"
+ },
+ {
+  "code": "1.4",
+  "name": "Bank Loans",
+  "level": "sector",
+  "parent": "1"
+ },
+ {
+  "code": "1.5",
+  "name": "Commercial Paper",
+  "level": "sector",
+  "parent": "1"
+ },
+ {
+  "code": "1.6",
+  "name": "Leveraged Finance",
+  "level": "sector",
+  "parent": "1"
+ },
+ {
+  "code": "1.7",
+  "name": "Hybrids & Capital Securities",
+  "level": "sector",
+  "parent": "1"
+ },
+ {
+  "code": "2",
+  "name": "Structured Finance",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "2.1",
+  "name": "Asset-Backed Securities",
+  "level": "sector",
+  "parent": "2"
+ },
+ {
+  "code": "2.1.1",
+  "name": "Commercial",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.2",
+  "name": "Consumer",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.2.1",
+  "name": "Auto Loans",
+  "level": "segment",
+  "parent": "2.1.2"
+ },
+ {
+  "code": "2.1.2.2",
+  "name": "Credit Card Receivables",
+  "level": "segment",
+  "parent": "2.1.2"
+ },
+ {
+  "code": "2.1.2.3",
+  "name": "Corporate",
+  "level": "segment",
+  "parent": "2.1.2"
+ },
+ {
+  "code": "2.1.2.4",
+  "name": "Auto Lease",
+  "level": "segment",
+  "parent": "2.1.2"
+ },
+ {
+  "code": "2.1.2.5",
+  "name": "Dealer Floorplan",
+  "level": "segment",
+  "parent": "2.1.2"
+ },
+ {
+  "code": "2.1.2.6",
+  "name": "Rental Car",
+  "level": "segment",
+  "parent": "2.1.2"
+ },
+ {
+  "code": "2.1.3",
+  "name": "Student Loans",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.4",
+  "name": "Asset-Backed Commercial Paper",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.5",
+  "name": "Aircraft Finance",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.6",
+  "name": "Equipment",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.6.1",
+  "name": "Equipment - Loan / Lease",
+  "level": "segment",
+  "parent": "2.1.6"
+ },
+ {
+  "code": "2.1.6.2",
+  "name": "Equipment - Floorplan",
+  "level": "segment",
+  "parent": "2.1.6"
+ },
+ {
+  "code": "2.1.7",
+  "name": "Small Business Loans",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.7.1",
+  "name": "SBA - Conventional Small Business",
+  "level": "segment",
+  "parent": "2.1.7"
+ },
+ {
+  "code": "2.1.7.2",
+  "name": "SBA - Others",
+  "level": "segment",
+  "parent": "2.1.7"
+ },
+ {
+  "code": "2.1.8",
+  "name": "Marine Loans",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.9",
+  "name": "Truck Loans",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.10",
+  "name": "Insurance Premium Receivables",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.11",
+  "name": "Life Settlements",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.12",
+  "name": "Provincial Debt",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.1.13",
+  "name": "Social Housing",
+  "level": "sub-sector",
+  "parent": "2.1"
+ },
+ {
+  "code": "2.2",
+  "name": "Commercial Mortgage",
+  "level": "sector",
+  "parent": "2"
+ },
+ {
+  "code": "2.2.1",
+  "name": "Multiborrower",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.2",
+  "name": "Single Borrower",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.3",
+  "name": "Large Loans",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.4",
+  "name": "Small Balance",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.5",
+  "name": "Colocation Data Centres",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.6",
+  "name": "CREL CDO",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.7",
+  "name": "US Agency",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.8",
+  "name": "Single Family Rental",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.2.9",
+  "name": "Commercial Mortgage Servicers",
+  "level": "sub-sector",
+  "parent": "2.2"
+ },
+ {
+  "code": "2.3",
+  "name": "Residential Mortgage",
+  "level": "sector",
+  "parent": "2"
+ },
+ {
+  "code": "2.3.1",
+  "name": "Residential Single Family First Liens",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.2",
+  "name": "Subperforming & Nonperforming Residential Mortgage Loans",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.3",
+  "name": "Subprime",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.4",
+  "name": "Prime RMBS",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.5",
+  "name": "Alt-A RMBS",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.6",
+  "name": "Manufactured Housing",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.7",
+  "name": "Reperforming Loans",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.8",
+  "name": "Buy-to-Let",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.9",
+  "name": "Reverse Mortgages",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.10",
+  "name": "Credit Risk Transfer",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.11",
+  "name": "RMBS Servicers",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.3.12",
+  "name": "Tax Liens",
+  "level": "sub-sector",
+  "parent": "2.3"
+ },
+ {
+  "code": "2.4",
+  "name": "Emerging Markets",
+  "level": "sector",
+  "parent": "2"
+ },
+ {
+  "code": "2.5",
+  "name": "European Structured Finance",
+  "level": "sector",
+  "parent": "2"
+ },
+ {
+  "code": "2.5.1",
+  "name": "Structured Investment Vehicles",
+  "level": "sub-sector",
+  "parent": "2.5"
+ },
+ {
+  "code": "2.5.2",
+  "name": "Balance Sheet",
+  "level": "sub-sector",
+  "parent": "2.5"
+ },
+ {
+  "code": "2.5.3",
+  "name": "Managed / High Yield Arbitrage",
+  "level": "sub-sector",
+  "parent": "2.5"
+ },
+ {
+  "code": "2.5.4",
+  "name": "Fully Supported",
+  "level": "sub-sector",
+  "parent": "2.5"
+ },
+ {
+  "code": "2.5.5",
+  "name": "Partially Supported",
+  "level": "sub-sector",
+  "parent": "2.5"
+ },
+ {
+  "code": "2.5.6",
+  "name": "Pubs",
+  "level": "sub-sector",
+  "parent": "2.5"
+ },
+ {
+  "code": "2.6",
+  "name": "Operational Risk Group",
+  "level": "sector",
+  "parent": "2"
+ },
+ {
+  "code": "2.7",
+  "name": "Structured Credit",
+  "level": "sector",
+  "parent": "2"
+ },
+ {
+  "code": "2.7.1",
+  "name": "CLOs",
+  "level": "sub-sector",
+  "parent": "2.7"
+ },
+ {
+  "code": "2.7.2",
+  "name": "CBOs",
+  "level": "sub-sector",
+  "parent": "2.7"
+ },
+ {
+  "code": "2.7.3",
+  "name": "SME CDOs",
+  "level": "sub-sector",
+  "parent": "2.7"
+ },
+ {
+  "code": "2.7.4",
+  "name": "Credit Linked Notes",
+  "level": "sub-sector",
+  "parent": "2.7"
+ },
+ {
+  "code": "2.7.5",
+  "name": "Structured Finance CDOs",
+  "level": "sub-sector",
+  "parent": "2.7"
+ },
+ {
+  "code": "2.7.5.1",
+  "name": "Real Estate SF CDOs",
+  "level": "segment",
+  "parent": "2.7.5"
+ },
+ {
+  "code": "2.7.5.2",
+  "name": "Diversified SF CDOs",
+  "level": "segment",
+  "parent": "2.7.5"
+ },
+ {
+  "code": "2.7.5.3",
+  "name": "CDOs of CDOs",
+  "level": "segment",
+  "parent": "2.7.5"
+ },
+ {
+  "code": "2.7.6",
+  "name": "Market Value CDOs",
+  "level": "sub-sector",
+  "parent": "2.7"
+ },
+ {
+  "code": "2.7.6.1",
+  "name": "Corporate Market Value CDOs",
+  "level": "segment",
+  "parent": "2.7.6"
+ },
+ {
+  "code": "2.7.6.2",
+  "name": "Mortgage Market Value CDOs",
+  "level": "segment",
+  "parent": "2.7.6"
+ },
+ {
+  "code": "3",
+  "name": "U.S. Public Finance",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "3.1",
+  "name": "Tax-Supported",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.1.1",
+  "name": "State",
+  "level": "sub-sector",
+  "parent": "3.1"
+ },
+ {
+  "code": "3.1.2",
+  "name": "County",
+  "level": "sub-sector",
+  "parent": "3.1"
+ },
+ {
+  "code": "3.1.3",
+  "name": "City",
+  "level": "sub-sector",
+  "parent": "3.1"
+ },
+ {
+  "code": "3.1.4",
+  "name": "School District",
+  "level": "sub-sector",
+  "parent": "3.1"
+ },
+ {
+  "code": "3.1.5",
+  "name": "Special District",
+  "level": "sub-sector",
+  "parent": "3.1"
+ },
+ {
+  "code": "3.2",
+  "name": "Revenue Supported",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.2.1",
+  "name": "Water & Sewer",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.2",
+  "name": "Toll Roads / Bridges / Tunnels",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.3",
+  "name": "Airports",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.4",
+  "name": "Ports",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.5",
+  "name": "Public Power",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.6",
+  "name": "Parking Facilities",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.7",
+  "name": "Solid Waste / Resource Recovery",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.8",
+  "name": "Stadiums",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.2.9",
+  "name": "State Revolving Fund",
+  "level": "sub-sector",
+  "parent": "3.2"
+ },
+ {
+  "code": "3.3",
+  "name": "Healthcare",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.3.1",
+  "name": "Hospitals",
+  "level": "sub-sector",
+  "parent": "3.3"
+ },
+ {
+  "code": "3.3.2",
+  "name": "Life Plan Communities",
+  "level": "sub-sector",
+  "parent": "3.3"
+ },
+ {
+  "code": "3.3.3",
+  "name": "Nursing Homes",
+  "level": "sub-sector",
+  "parent": "3.3"
+ },
+ {
+  "code": "3.3.4",
+  "name": "Physician Groups",
+  "level": "sub-sector",
+  "parent": "3.3"
+ },
+ {
+  "code": "3.3.5",
+  "name": "Assisted Living",
+  "level": "sub-sector",
+  "parent": "3.3"
+ },
+ {
+  "code": "3.4",
+  "name": "Municipal Structured Finance",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.5",
+  "name": "Financial Guaranties",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.6",
+  "name": "Native American Finance",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.7",
+  "name": "Education and Nonprofit Institutions",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.7.1",
+  "name": "Higher Education",
+  "level": "sub-sector",
+  "parent": "3.7"
+ },
+ {
+  "code": "3.7.2",
+  "name": "Nonprofit Institutions",
+  "level": "sub-sector",
+  "parent": "3.7"
+ },
+ {
+  "code": "3.7.3",
+  "name": "Other Education",
+  "level": "sub-sector",
+  "parent": "3.7"
+ },
+ {
+  "code": "3.8",
+  "name": "Tax-Exempt Housing",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.9",
+  "name": "Tobacco Settlements - USPF",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "3.10",
+  "name": "Student Loans Non-Profit - USPF",
+  "level": "sector",
+  "parent": "3"
+ },
+ {
+  "code": "4",
+  "name": "Sovereigns",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "4.1",
+  "name": "Supranationals",
+  "level": "sector",
+  "parent": "4"
+ },
+ {
+  "code": "4.2",
+  "name": "Common Country Ceiling",
+  "level": "sector",
+  "parent": "4"
+ },
+ {
+  "code": "5",
+  "name": "International Public Finance",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "5.1",
+  "name": "Local and Regional Governments",
+  "level": "sector",
+  "parent": "5"
+ },
+ {
+  "code": "5.2",
+  "name": "Public Entities",
+  "level": "sector",
+  "parent": "5"
+ },
+ {
+  "code": "6",
+  "name": "Global Infrastructure and Project Finance",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "6.1",
+  "name": "Power Projects",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.2",
+  "name": "Industrial & Energy Projects",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.3",
+  "name": "Public Infrastructure Projects; Sports & Other Facilities",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.4",
+  "name": "Infrastructure (PPP / PFI)",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.5",
+  "name": "Energy",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.5.1",
+  "name": "Power",
+  "level": "sub-sector",
+  "parent": "6.5"
+ },
+ {
+  "code": "6.5.2",
+  "name": "Oil & Gas",
+  "level": "sub-sector",
+  "parent": "6.5"
+ },
+ {
+  "code": "6.5.3",
+  "name": "Other Energy",
+  "level": "sub-sector",
+  "parent": "6.5"
+ },
+ {
+  "code": "6.6",
+  "name": "Industrials",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.6.1",
+  "name": "Mining",
+  "level": "sub-sector",
+  "parent": "6.6"
+ },
+ {
+  "code": "6.6.2",
+  "name": "Other Industrials",
+  "level": "sub-sector",
+  "parent": "6.6"
+ },
+ {
+  "code": "6.7",
+  "name": "Other Utilities & Public Infrastructure",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.7.1",
+  "name": "Solid Waste",
+  "level": "sub-sector",
+  "parent": "6.7"
+ },
+ {
+  "code": "6.7.2",
+  "name": "Telecom",
+  "level": "sub-sector",
+  "parent": "6.7"
+ },
+ {
+  "code": "6.7.3",
+  "name": "Water / Wastewater",
+  "level": "sub-sector",
+  "parent": "6.7"
+ },
+ {
+  "code": "6.8",
+  "name": "Social Infrastructure",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.8.1",
+  "name": "Education",
+  "level": "sub-sector",
+  "parent": "6.8"
+ },
+ {
+  "code": "6.8.2",
+  "name": "Healthcare",
+  "level": "sub-sector",
+  "parent": "6.8"
+ },
+ {
+  "code": "6.8.3",
+  "name": "Housing",
+  "level": "sub-sector",
+  "parent": "6.8"
+ },
+ {
+  "code": "6.8.4",
+  "name": "Prisons",
+  "level": "sub-sector",
+  "parent": "6.8"
+ },
+ {
+  "code": "6.8.5",
+  "name": "Other Social Infrastructure",
+  "level": "sub-sector",
+  "parent": "6.8"
+ },
+ {
+  "code": "6.9",
+  "name": "Sports / Entertainment",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.10",
+  "name": "Transportation",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.10.1",
+  "name": "Airports",
+  "level": "sub-sector",
+  "parent": "6.10"
+ },
+ {
+  "code": "6.10.2",
+  "name": "Parking",
+  "level": "sub-sector",
+  "parent": "6.10"
+ },
+ {
+  "code": "6.10.3",
+  "name": "Seaports",
+  "level": "sub-sector",
+  "parent": "6.10"
+ },
+ {
+  "code": "6.10.4",
+  "name": "Toll Roads",
+  "level": "sub-sector",
+  "parent": "6.10"
+ },
+ {
+  "code": "6.10.5",
+  "name": "Transit / Rail",
+  "level": "sub-sector",
+  "parent": "6.10"
+ },
+ {
+  "code": "6.10.6",
+  "name": "Other Transportation",
+  "level": "sub-sector",
+  "parent": "6.10"
+ },
+ {
+  "code": "6.11",
+  "name": "CDOs / CLOs",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.12",
+  "name": "PPP / PFI",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.13",
+  "name": "Project Finance",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "6.14",
+  "name": "Whole Business Securitizations",
+  "level": "sector",
+  "parent": "6"
+ },
+ {
+  "code": "7",
+  "name": "Fund and Asset Manager Ratings",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "7.1",
+  "name": "Funds",
+  "level": "sector",
+  "parent": "7"
+ },
+ {
+  "code": "7.1.1",
+  "name": "Money Market Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.2",
+  "name": "Local Government Investment Pools",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.3",
+  "name": "Fixed Income Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.4",
+  "name": "Equity Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.5",
+  "name": "Real Estate Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.6",
+  "name": "Balanced Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.7",
+  "name": "Alternative and Other Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.8",
+  "name": "Pension Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.1.9",
+  "name": "Closed-End Funds",
+  "level": "sub-sector",
+  "parent": "7.1"
+ },
+ {
+  "code": "7.2",
+  "name": "Asset Managers",
+  "level": "sector",
+  "parent": "7"
+ },
+ {
+  "code": "7.2.1",
+  "name": "Traditional Asset Managers",
+  "level": "sub-sector",
+  "parent": "7.2"
+ },
+ {
+  "code": "7.2.2",
+  "name": "Alternative Asset Managers",
+  "level": "sub-sector",
+  "parent": "7.2"
+ },
+ {
+  "code": "7.2.3",
+  "name": "Credit Asset Managers",
+  "level": "sub-sector",
+  "parent": "7.2"
+ },
+ {
+  "code": "7.2.4",
+  "name": "Real Estate Asset Managers",
+  "level": "sub-sector",
+  "parent": "7.2"
+ },
+ {
+  "code": "7.2.5",
+  "name": "Fund of Hedge Fund Managers",
+  "level": "sub-sector",
+  "parent": "7.2"
+ },
+ {
+  "code": "7.3",
+  "name": "Closed-End Funds",
+  "level": "sector",
+  "parent": "7"
+ },
+ {
+  "code": "8",
+  "name": "Financial Services",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "9",
+  "name": "Global Credit Derivatives",
+  "level": "group",
+  "parent": null
+ },
+ {
+  "code": "10",
+  "name": "Subprime Market Focus",
+  "level": "group",
+  "parent": null
+ }
+]

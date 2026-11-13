@@ -27,4 +27,4 @@ Outline icons keep live strokes, so you can change stroke width in CSS:
 Solid icons use a baked stroke to match the outline footprint — don't override their stroke width.
 
 ## Licence
-Icons and code: MIT. Classification data: per standard, see SPEC.md §3. Held standards are not published.
+Icons and code: MIT. Classification data: per standard, see SPEC.md §3. GICS and Fitch Ratings data are included by permission for non-commercial use only and are not MIT. Other proprietary standards are not published.

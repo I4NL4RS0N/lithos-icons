@@ -1,1 +1,1 @@
-Held standards (GICS, ICB, BICS, TRBC, Fitch, Moody's, S&P) live here locally and are never committed or published. See SPEC.md §3.
+Owner-supplied source lists. Git-ignored. GICS and Fitch are published by permission via `scripts/standards-licensed.mjs` (SPEC.md §3); other held standards (ICB, BICS, TRBC, Moody's, S&P) are never committed or published.

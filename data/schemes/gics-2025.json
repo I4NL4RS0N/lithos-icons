@@ -1,0 +1,16 @@
+{
+ "id": "gics-2025",
+ "name": "GICS",
+ "fullName": "Global Industry Classification Standard",
+ "version": "2025",
+ "levels": [
+  "sector",
+  "industry group",
+  "industry",
+  "sub-industry"
+ ],
+ "source": "GICS is a standard of MSCI Inc. and S&P Dow Jones Indices. Structure effective per the February 2025 methodology.",
+ "licence": "permission-noncommercial",
+ "publish": true,
+ "credit": "Published with permission for non-commercial use (confirmed by the project owner, 2026-11-13). Not covered by the MIT licence; do not reuse commercially."
+}
