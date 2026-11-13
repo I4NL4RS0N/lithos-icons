@@ -48,6 +48,7 @@
   section.kind h2 { font-size: 26px; letter-spacing: -0.025em; margin: 0 0 14px; font-weight: 650; display: flex; align-items: baseline; gap: 8px; }
   section.kind h2 .n { font: 12px var(--mono); color: var(--faint); font-weight: 400; letter-spacing: 0; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 2px; margin: 0 -10px; }
+  .gbody .grid { grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); }
   .grid.nolabels { grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); }
   .cell { position: relative; border: 0; background: transparent; border-radius: 12px; padding: 16px 6px 12px; display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
   .nolabels .cell { padding: 0; aspect-ratio: 1; justify-content: center; }
@@ -68,24 +69,30 @@
   .std-head .codechip, .cell .codechip { font: 11.5px var(--mono); color: var(--fg); background: var(--pill); border-radius: 6px; padding: 1px 6px; }
   .cell .nm .codechip { display: inline-block; margin-bottom: 4px; }
   .cell.inherited .art { opacity: .38; }
-  .grid.dense { grid-auto-flow: dense; }
-  .tcell { position: relative; display: grid; min-width: 0; border-radius: 12px; }
-  .tcell.inherited .art { opacity: .38; }
-  .tcell.open { background: var(--hover); border-radius: 12px 12px 0 0; }
+  #tabs { margin-top: 34px; display: grid; gap: 10px; }
+  .tabrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tabrow button { border: 0; background: var(--pill); color: var(--muted); border-radius: 999px; padding: 7px 14px; font-size: 14px; font-weight: 500; display: flex; gap: 7px; align-items: baseline; }
+  .tabrow button:hover { color: var(--fg); }
+  .tabrow button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+  .tabrow .n { font: 11px var(--mono); opacity: .6; font-weight: 400; }
+  .tabrow.by button { font-size: 13px; padding: 5px 12px; }
+  .tabrow .lab { font-size: 13px; color: var(--faint); margin-right: 4px; }
+  .jump { display: flex; flex-wrap: wrap; gap: 4px 6px; margin: 14px 0 0; }
+  .jump a { font-size: 12.5px; color: var(--muted); text-decoration: none; padding: 3px 8px 3px 4px; border-radius: 8px; display: flex; gap: 6px; align-items: center; }
+  .jump a:hover { background: var(--hover); color: var(--fg); }
+  .jump .codechip, .ghead .codechip { font: 11.5px var(--mono); color: var(--fg); background: var(--pill); border-radius: 6px; padding: 1px 6px; }
+  section.std { content-visibility: auto; contain-intrinsic-size: auto 900px; scroll-margin-top: 16px; }
+  .cell.inherited .art, .ghead.inherited .art { opacity: .38; }
   .clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  .more { position: absolute; top: 6px; right: 6px; display: flex; align-items: center; gap: 2px; border: 0; border-radius: 999px; padding: 2px 5px 2px 7px;
-    font: 11px var(--mono); color: var(--muted); background: var(--pill); }
-  .more:hover, .more[aria-expanded="true"] { color: var(--accent-fg); background: var(--accent); }
-  .more svg { transition: transform .12s; } .more[aria-expanded="true"] svg { transform: rotate(180deg); }
-  .sub { grid-column: 1 / -1; background: var(--hover); border-radius: 14px; padding: 12px 14px 8px; margin: 0 0 10px; }
-  .sub .grid { margin: 0 -4px; }
-  .sub .sub { background: var(--bg); }
-  .sub .sub .sub { background: var(--hover); }
-  .sub .sub .sub .sub { background: var(--bg); }
-  .sub .cell:hover, .sub .cell[aria-current="true"] { background: var(--pill-on); }
-  .sub-h { margin: 0 0 4px; font-size: 13px; font-weight: 550; display: flex; gap: 8px; align-items: baseline; }
-  .sub-h .codechip { font: 11.5px var(--mono); background: var(--pill-on); border-radius: 6px; padding: 1px 6px; }
-  .sub-h .cnt { margin-left: auto; font: 11.5px var(--mono); color: var(--faint); font-weight: 400; }
+  .group { margin: 14px 0 6px; }
+  .ghead { display: flex; align-items: center; gap: 10px; width: 100%; border: 0; background: transparent; text-align: left; padding: 6px 10px; margin: 0 -10px; border-radius: 10px; }
+  .ghead:hover, .ghead[aria-current="true"] { background: var(--hover); }
+  .ghead .art { flex: none; width: 20px; height: 20px; display: grid; place-items: center; }
+  .ghead .t { font-size: 14px; font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ghead .cnt { margin-left: auto; font: 11.5px var(--mono); color: var(--faint); }
+  .gbody { margin-left: -1px; padding-left: 18px; border-left: 1px solid var(--line); }
+  .gbody .grid { margin: 0 -6px; }
+  .gbody .group { margin-top: 8px; }
   .std-intro .ghost { margin-left: 6px; }
   .codes { display: grid; gap: 4px; }
   .codes div { display: flex; gap: 8px; align-items: baseline; }
@@ -189,6 +196,7 @@
     <h1>Icons for finance.</h1>
     <p>Sectors, industries, credit asset classes, countries and regions. Every icon is drawn at five sizes, in outline and solid, and chosen from research into what people already recognise.</p>
   </div>
+  <nav id="tabs" aria-label="Browse"></nav>
   <main id="main"></main>
   <footer>
     Icons and code are MIT. Country and region outlines are generated from Natural Earth (public domain); regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). Pilot build: shapes and content will change before 1.0.
@@ -214,7 +222,6 @@
 </div>
 
 <div class="bar" role="toolbar" aria-label="Browse and customise">
-  <select id="kind" aria-label="Category"></select>
   <label class="search">
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
     <input id="q" type="search" autocomplete="off" aria-label="Search icons"><kbd>⌘K</kbd>
@@ -232,6 +239,15 @@
 <script>
 const DATA = /*__DATA__*/null;
 const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['country', 'Countries'], ['region', 'Regions']];
+// Two questions, in order: what are you looking for (subject), then which scheme files it (only sectors have schemes).
+const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors and industries'], ['asset-class', 'Credit'], ['country', 'Countries'], ['region', 'Regions']];
+const inKind = (c, kind) => kind === 'all' || (kind === 'sectors' ? c.kind === 'sector' || c.kind === 'industry' : c.kind === kind);
+function renderTabs() {
+  const isStd = state.kind.startsWith('std:'), subject = isStd ? 'sectors' : state.kind;
+  const tab = (v, label, on, sub = '') => `<button type="button" data-kind="${v}" aria-pressed="${on}">${label}${sub ? `<span class="n">${sub}</span>` : ''}</button>`;
+  $('#tabs').innerHTML = `<div class="tabrow">${SUBJECTS.map(([v, l]) => tab(v, l, v === subject, DATA.concepts.filter((c) => inKind(c, v)).length)).join('')}</div>`
+    + (subject === 'sectors' ? `<div class="tabrow by"><span class="lab">Organised by</span>${tab('sectors', 'Plain names', !isStd)}${DATA.standards.map((x) => tab('std:' + x.id, `${esc(x.name)} ${esc(x.version)}`, state.kind === 'std:' + x.id)).join('')}</div>` : '');
+}
 const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', country: 'Country', region: 'Region' };
 const COLORS = [['', 'Default'], ['#2f6feb', 'Blue'], ['#7c5cff', 'Violet'], ['#2da44e', 'Green'], ['#d1434b', 'Red'], ['#d4901f', 'Amber'], ['#74777d', 'Grey']];
 const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
@@ -242,7 +258,9 @@ const save = () => { try { localStorage.setItem('li:settings3', JSON.stringify(O
 const state = { ...DEF, ...load(), q: '', kind: 'all', sel: null, pop: false };
 { const u = new URLSearchParams(location.search);
   if (u.get('q')) state.q = u.get('q'); if (u.get('icon')) state.sel = u.get('icon');
-  if (KINDS.some(([k]) => k === u.get('kind')) || DATA.standards.some((x) => 'std:' + x.id === u.get('kind'))) state.kind = u.get('kind');
+  const k = u.get('kind');
+  if (k === 'sector' || k === 'industry') state.kind = 'sectors'; // old links
+  else if (SUBJECTS.some(([v]) => v === k) || DATA.standards.some((x) => 'std:' + x.id === k)) state.kind = k;
   if (['light', 'dark', 'system'].includes(u.get('theme'))) state.appearance = u.get('theme');
   if (['outline', 'solid'].includes(u.get('style'))) state.style = u.get('style');
   if (DATA.sizes.includes(+u.get('size'))) state.size = +u.get('size');
@@ -323,12 +341,12 @@ function syncControls() {
     ? '<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg>'
     : '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/></svg>';
   $('#pop').classList.toggle('open', state.pop); $('#pop').setAttribute('aria-hidden', !state.pop); $('#custom').setAttribute('aria-expanded', state.pop);
-  $('#kind').value = state.kind;
+  renderTabs();
 }
 
 // Browse by standard: the standard's full tree as icon tiles. A node with its own icon shows it; the rest show
 // the nearest ancestor's icon, faded, until theirs is drawn.
-const STD = {}, STD_LOADING = {}, TREE = { base: 'none', flip: new Set() };
+const STD = {}, STD_LOADING = {};
 function loadStd(std) {
   if (STD[std.id] || STD_LOADING[std.id]) return;
   STD_LOADING[std.id] = fetch(`std/${std.id}.json`).then((r) => r.json()).then((j) => {
@@ -349,24 +367,26 @@ function renderStandard(std) {
   tree.tops.forEach(mark);
   const byId = Object.fromEntries(DATA.concepts.map((c) => [c.id, c])), memo = {};
   const icon = (n, size) => (byId[n.concept] ? (memo[n.concept + size] ||= draw(byId[n.concept], size)) : '');
-  const open = (n) => (q.length ? below.get(n) : TREE.base === 'all') !== TREE.flip.has(n.code); // while searching, branches open down to the matches
-  // Icon-first: every node is a tile. A tile with children opens an inset panel right under its row holding its
-  // children as tiles, so nesting shows as panels within panels. `dense` flow keeps the tile's own row intact.
-  const lvl = (d, n) => { const l = std.levels[d] || 'item'; return n === 1 ? l : l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's'); };
-  const group = (nodes) => `<div class="grid dense">${nodes.map(tile).join('')}</div>`;
-  const tile = (n) => {
-    const kids = q.length && below.get(n) ? n.kids.filter((k) => vis.get(k)) : n.kids, isOpen = kids.length && open(n);
-    return `<div class="tcell${n.direct ? '' : ' inherited'}${isOpen ? ' open' : ''}"><button class="cell" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc(n.code + ' ' + n.name)}">
-        <span class="art">${icon(n, state.size)}</span><span class="nm"><span class="codechip">${esc(n.code)}</span><br><span class="clamp">${esc(n.name)}</span></span></button>`
-      + (kids.length ? `<button class="more" type="button" data-toggle="${esc(n.code)}" aria-expanded="${!!isOpen}" aria-label="${isOpen ? 'Hide' : 'Show'} ${n.total} inside ${esc(n.code)}">${n.kids.length}<svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></button>` : '') + '</div>'
-      + (isOpen ? `<div class="sub"><p class="sub-h"><span class="codechip">${esc(n.code)}</span> ${esc(n.name)} <span class="cnt">${kids.length} ${lvl(n.depth + 1, kids.length)}</span></p>${group(kids)}</div>` : '');
+  // Every code is an icon tile and the whole tree is open. A node with children becomes a group: its own tile as the
+  // header, then its leaf children as a tile grid and its branch children as nested groups, indented with a rule.
+  const shown = (n) => (q.length ? n.kids.filter((k) => vis.get(k)) : n.kids);
+  // A node whose only child is a leaf (NAICS 11111 → 111110) is one tile carrying both codes, not a group of one.
+  const solo = (n) => { const k = shown(n); return k.length === 1 && !shown(k[0]).length ? k[0] : null; };
+  const tile = (n) => { const c = solo(n), d = c && c.direct ? c : n;
+    return `<button class="cell${d.direct ? '' : ' inherited'}" type="button" data-id="${d.concept || ''}" aria-current="${state.sel === d.concept && d.direct}" title="${esc(n.code + ' ' + n.name + (c ? ' · ' + c.code + ' ' + c.name : ''))}">
+      <span class="art">${icon(d, state.size)}</span><span class="nm"><span class="codechip">${esc(n.code)}</span>${c ? ` <span class="codechip">${esc(c.code)}</span>` : ''}<br><span class="clamp">${esc(n.name)}</span></span></button>`; };
+  const head = (n) => `<button class="ghead${n.direct ? '' : ' inherited'}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}"><span class="art">${icon(n, 20)}</span><span class="codechip">${esc(n.code)}</span><span class="t">${esc(n.name)}</span><span class="cnt">${n.total}</span></button>`;
+  const body = (nodes) => {
+    const leaves = nodes.filter((n) => !shown(n).length || solo(n)), branches = nodes.filter((n) => shown(n).length && !solo(n));
+    return (leaves.length ? `<div class="grid">${leaves.map((n) => tile(n)).join('')}</div>` : '') + branches.map((n) => `<div class="group">${head(n)}<div class="gbody">${body(shown(n))}</div></div>`).join('');
   };
-  const sections = tree.tops.filter((t) => vis.get(t)).map((t) => `<section class="std"><button class="std-head" type="button" data-id="${t.concept || ''}" title="${esc(t.name)}"><span class="art">${icon(t, state.size)}</span><span class="codechip">${esc(t.code)}</span><span class="t">${esc(t.name)}</span></button>
-      ${group(q.length && below.get(t) ? t.kids.filter((k) => vis.get(k)) : q.length ? [] : t.kids)}</section>`).join('');
+  const tops = tree.tops.filter((t) => vis.get(t));
+  const sections = tops.map((t) => `<section class="std" id="s-${esc(t.code)}"><button class="std-head" type="button" data-id="${t.concept || ''}" title="${esc(t.name)}"><span class="art">${icon(t, state.size)}</span><span class="codechip">${esc(t.code)}</span><span class="t">${esc(t.name)}</span></button>
+      ${body(shown(t))}</section>`).join('');
+  const jump = tops.length > 1 ? `<div class="jump">${tops.map((t) => `<a href="#s-${esc(t.code)}" title="${esc(t.name)}"><span class="codechip">${esc(t.code)}</span>${esc(t.name.split(/,| and | And /)[0])}</a>`).join('')}</div>` : '';
   const counts = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`).join(', ');
   const own = tree.nodes.filter((n) => n.direct).length;
-  $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · ${counts}. ${own} have their own icon; faded ones use their parent’s until theirs is drawn.
-    <button class="ghost" type="button" id="treeAll">${TREE.base === 'all' ? 'Collapse all' : 'Expand all'}</button></p>`
+  $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · ${counts}. ${own} have their own icon; faded ones use their parent’s until theirs is drawn.</p>` + jump
     + (sections || `<p class="empty">No ${esc(std.name)} code or title matches “${esc(state.q)}”.</p>`);
   renderDetail();
 }
@@ -376,7 +396,7 @@ function render() {
   const std = state.kind.startsWith('std:') && DATA.standards.find((x) => 'std:' + x.id === state.kind);
   if (std) return renderStandard(std);
   const list = DATA.concepts.filter((c) => matches(c, state.q));
-  const shown = list.filter((c) => state.kind === 'all' || c.kind === state.kind);
+  const shown = list.filter((c) => inKind(c, state.kind));
   if (!shown.length) { $('#main').innerHTML = `<p class="empty">Nothing matches “${esc(state.q)}”. Try a sector, an industry, a country or a code.</p>`; }
   else $('#main').innerHTML = KINDS.filter(([k]) => shown.some((c) => c.kind === k)).map(([k, l]) => {
     const items = shown.filter((c) => c.kind === k);
@@ -423,8 +443,6 @@ function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('s
 async function copy(text, msg) { try { await navigator.clipboard.writeText(text); toast(msg); } catch { toast('Copy was blocked by the browser'); } }
 
 // Static control setup
-$('#kind').innerHTML = `<option value="all">All icons</option>` + KINDS.map(([k, l]) => `<option value="${k}">${l}</option>`).join('')
-  + `<optgroup label="Browse by standard">${DATA.standards.map((x) => `<option value="std:${x.id}">${esc(x.name)} ${esc(x.version)}</option>`).join('')}</optgroup>`;
 $('#swatches').innerHTML = COLORS.map(([c, n]) => `<button class="sw" type="button" data-v="${c}" style="--c:${c || 'var(--fg)'}" aria-label="${n}" title="${n}"></button>`).join('')
   + `<span class="sw custom" title="Custom colour"><input type="color" id="pick" aria-label="Custom colour" value="#2f6feb"></span>`;
 $('#q').placeholder = `Search ${DATA.concepts.length} icons`;
@@ -442,12 +460,10 @@ $('#gap').oninput = (e) => set('gap', +e.target.value);
 $('#reset').onclick = () => { Object.assign(state, DEF); save(); render(); };
 $('#styleBtn').onclick = () => set('style', state.style === 'solid' ? 'outline' : 'solid');
 $('#custom').onclick = () => { state.pop = !state.pop; syncControls(); };
-$('#kind').onchange = (e) => { state.kind = e.target.value; render(); };
+$('#tabs').onclick = (e) => { const b = e.target.closest('button[data-kind]'); if (!b) return; state.kind = b.dataset.kind; state.sel = null; render(); };
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); render(); };
 $('#main').onclick = (e) => {
-  if (e.target.closest('#treeAll')) { TREE.base = TREE.base === 'all' ? 'none' : 'all'; TREE.flip.clear(); return render(); }
-  const tw = e.target.closest('button.more'); if (tw) { const c = tw.dataset.toggle; TREE.flip.has(c) ? TREE.flip.delete(c) : TREE.flip.add(c); return render(); }
-  const t = e.target.closest('.cell, .std-head'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
+  const t = e.target.closest('.cell, .std-head, .ghead'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
 dark.addEventListener('change', () => syncControls());
 document.addEventListener('pointerdown', (e) => { if (state.pop && !e.target.closest('#pop, #custom')) { state.pop = false; syncControls(); } });
 document.addEventListener('keydown', (e) => {
