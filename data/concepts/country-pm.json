@@ -1,0 +1,21 @@
+{
+  "id": "country-pm",
+  "name": "St. Pierre & Miquelon",
+  "kind": "country",
+  "iso2": "PM",
+  "iso3": "SPM",
+  "m49": "666",
+  "keywords": [
+    "St. Pierre & Miquelon",
+    "St. Pierre and Miquelon",
+    "Saint Pierre and Miquelon",
+    "PM",
+    "SPM"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

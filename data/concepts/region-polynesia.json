@@ -1,0 +1,30 @@
+{
+  "id": "region-polynesia",
+  "name": "Polynesia",
+  "kind": "region",
+  "m49": "061",
+  "parentM49": "009",
+  "level": 2,
+  "members": [
+    "016",
+    "184",
+    "258",
+    "570",
+    "612",
+    "772",
+    "776",
+    "798",
+    "876",
+    "882"
+  ],
+  "keywords": [
+    "Polynesia",
+    "M49 061"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size. Island groups are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

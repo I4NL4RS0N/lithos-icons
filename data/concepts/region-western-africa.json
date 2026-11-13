@@ -1,0 +1,37 @@
+{
+  "id": "region-western-africa",
+  "name": "Western Africa",
+  "kind": "region",
+  "m49": "011",
+  "parentM49": "202",
+  "level": 3,
+  "members": [
+    "132",
+    "204",
+    "270",
+    "288",
+    "324",
+    "384",
+    "430",
+    "466",
+    "478",
+    "562",
+    "566",
+    "624",
+    "654",
+    "686",
+    "694",
+    "768",
+    "854"
+  ],
+  "keywords": [
+    "Western Africa",
+    "M49 011"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

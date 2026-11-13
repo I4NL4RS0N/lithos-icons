@@ -1,0 +1,30 @@
+{
+  "id": "region-eastern-europe",
+  "name": "Eastern Europe",
+  "kind": "region",
+  "m49": "151",
+  "parentM49": "150",
+  "level": 2,
+  "members": [
+    "100",
+    "112",
+    "203",
+    "348",
+    "498",
+    "616",
+    "642",
+    "643",
+    "703",
+    "804"
+  ],
+  "keywords": [
+    "Eastern Europe",
+    "M49 151"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

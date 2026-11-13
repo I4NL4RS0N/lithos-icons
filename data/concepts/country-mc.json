@@ -1,0 +1,19 @@
+{
+  "id": "country-mc",
+  "name": "Monaco",
+  "kind": "country",
+  "iso2": "MC",
+  "iso3": "MCO",
+  "m49": "492",
+  "keywords": [
+    "Monaco",
+    "MC",
+    "MCO"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

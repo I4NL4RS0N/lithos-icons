@@ -1,0 +1,27 @@
+{
+  "id": "region-northern-africa",
+  "name": "Northern Africa",
+  "kind": "region",
+  "m49": "015",
+  "parentM49": "002",
+  "level": 2,
+  "members": [
+    "012",
+    "434",
+    "504",
+    "729",
+    "732",
+    "788",
+    "818"
+  ],
+  "keywords": [
+    "Northern Africa",
+    "M49 015"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

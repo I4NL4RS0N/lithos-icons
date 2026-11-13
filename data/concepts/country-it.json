@@ -1,0 +1,19 @@
+{
+  "id": "country-it",
+  "name": "Italy",
+  "kind": "country",
+  "iso2": "IT",
+  "iso3": "ITA",
+  "m49": "380",
+  "keywords": [
+    "Italy",
+    "IT",
+    "ITA"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "region-southern-europe",
+  "name": "Southern Europe",
+  "kind": "region",
+  "m49": "039",
+  "parentM49": "150",
+  "level": 2,
+  "members": [
+    "008",
+    "020",
+    "070",
+    "191",
+    "292",
+    "300",
+    "336",
+    "380",
+    "470",
+    "499",
+    "620",
+    "674",
+    "688",
+    "705",
+    "724",
+    "807"
+  ],
+  "keywords": [
+    "Southern Europe",
+    "M49 039"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size. Island groups are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

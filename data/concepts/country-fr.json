@@ -3,15 +3,16 @@
   "name": "France",
   "kind": "country",
   "iso2": "FR",
-  "m49": "250",
   "iso3": "FRA",
+  "m49": "250",
   "keywords": [
     "France",
-    "FR"
+    "FR",
+    "FRA"
   ],
   "metaphor": "map-outline",
-  "reduction": "Main landmass cluster; islands below a size-based area threshold are dropped.",
-  "source": "Natural Earth 1:50m via world-atlas",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

@@ -1,0 +1,21 @@
+{
+  "id": "country-fk",
+  "name": "Falkland Islands",
+  "kind": "country",
+  "iso2": "FK",
+  "iso3": "FLK",
+  "m49": "238",
+  "keywords": [
+    "Falkland Islands",
+    "Falkland Is.",
+    "Falkland Islands (Malvinas)",
+    "FK",
+    "FLK"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

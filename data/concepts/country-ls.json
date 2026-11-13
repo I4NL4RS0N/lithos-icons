@@ -1,0 +1,19 @@
+{
+  "id": "country-ls",
+  "name": "Lesotho",
+  "kind": "country",
+  "iso2": "LS",
+  "iso3": "LSO",
+  "m49": "426",
+  "keywords": [
+    "Lesotho",
+    "LS",
+    "LSO"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

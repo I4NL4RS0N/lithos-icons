@@ -1,0 +1,21 @@
+{
+  "id": "country-bl",
+  "name": "St. Barthélemy",
+  "kind": "country",
+  "iso2": "BL",
+  "iso3": "BLM",
+  "m49": "652",
+  "keywords": [
+    "St. Barthélemy",
+    "St-Barthélemy",
+    "Saint Barthélemy",
+    "BL",
+    "BLM"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

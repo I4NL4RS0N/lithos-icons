@@ -1,0 +1,27 @@
+{
+  "id": "region-eastern-asia",
+  "name": "Eastern Asia",
+  "kind": "region",
+  "m49": "030",
+  "parentM49": "142",
+  "level": 2,
+  "members": [
+    "156",
+    "344",
+    "392",
+    "408",
+    "410",
+    "446",
+    "496"
+  ],
+  "keywords": [
+    "Eastern Asia",
+    "M49 030"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

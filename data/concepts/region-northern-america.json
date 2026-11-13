@@ -1,0 +1,25 @@
+{
+  "id": "region-northern-america",
+  "name": "Northern America",
+  "kind": "region",
+  "m49": "021",
+  "parentM49": "019",
+  "level": 2,
+  "members": [
+    "060",
+    "124",
+    "304",
+    "666",
+    "840"
+  ],
+  "keywords": [
+    "Northern America",
+    "M49 021"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "region-southern-asia",
+  "name": "Southern Asia",
+  "kind": "region",
+  "m49": "034",
+  "parentM49": "142",
+  "level": 2,
+  "members": [
+    "004",
+    "050",
+    "064",
+    "144",
+    "356",
+    "364",
+    "462",
+    "524",
+    "586"
+  ],
+  "keywords": [
+    "Southern Asia",
+    "M49 034"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

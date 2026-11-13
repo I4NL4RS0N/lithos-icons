@@ -3,6 +3,8 @@
   "name": "Europe",
   "kind": "region",
   "m49": "150",
+  "parentM49": "001",
+  "level": 1,
   "members": [
     "008",
     "020",

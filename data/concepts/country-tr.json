@@ -1,0 +1,20 @@
+{
+  "id": "country-tr",
+  "name": "Türkiye",
+  "kind": "country",
+  "iso2": "TR",
+  "iso3": "TUR",
+  "m49": "792",
+  "keywords": [
+    "Türkiye",
+    "Turkey",
+    "TR",
+    "TUR"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

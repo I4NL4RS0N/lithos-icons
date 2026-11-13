@@ -1,0 +1,19 @@
+{
+  "id": "country-pl",
+  "name": "Poland",
+  "kind": "country",
+  "iso2": "PL",
+  "iso3": "POL",
+  "m49": "616",
+  "keywords": [
+    "Poland",
+    "PL",
+    "POL"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

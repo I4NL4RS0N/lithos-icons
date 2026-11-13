@@ -1,0 +1,20 @@
+{
+  "id": "country-mo",
+  "name": "Macao",
+  "kind": "country",
+  "iso2": "MO",
+  "iso3": "MAC",
+  "m49": "446",
+  "keywords": [
+    "Macao",
+    "China, Macao Special Administrative Region",
+    "MO",
+    "MAC"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

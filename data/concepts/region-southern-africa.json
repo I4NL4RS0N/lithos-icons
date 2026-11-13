@@ -1,0 +1,25 @@
+{
+  "id": "region-southern-africa",
+  "name": "Southern Africa",
+  "kind": "region",
+  "m49": "018",
+  "parentM49": "202",
+  "level": 3,
+  "members": [
+    "072",
+    "426",
+    "516",
+    "710",
+    "748"
+  ],
+  "keywords": [
+    "Southern Africa",
+    "M49 018"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

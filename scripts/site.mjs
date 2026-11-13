@@ -15,8 +15,6 @@ cpSync('flags', join(out, 'flags'), { recursive: true });
 // Code-drawn concepts are redrawn live in the browser; only maps and flags ship as strings.
 const concepts = index.map((c) => {
   const geo = c.kind === 'country' || c.kind === 'region';
-  const svgs = {};
-  if (geo) for (const style of ['outline', 'solid']) for (const s of SIZES) svgs[`${style}-${s}`] = readFileSync(join('icons', c.id, `${style}-${s}.svg`), 'utf8').trim();
   const flag = {};
   if (c.kind === 'country') for (const s of SIZES) {
     const f = join('flags', c.iso2.toLowerCase(), `4x3-${s}.svg`);
@@ -25,8 +23,15 @@ const concepts = index.map((c) => {
   const rf = join('data/research', `${c.id}.json`);
   const decision = existsSync(rf) ? JSON.parse(readFileSync(rf, 'utf8')).decision : null;
   return { id: c.id, name: c.name, kind: c.kind, parent: c.parent || null, keywords: c.keywords || [], metaphor: c.metaphor,
-    reduction: c.reduction, iso2: c.iso2 || null, m49: c.m49 || null, rationale: decision?.rationale || null, svgs, flag };
+    reduction: c.reduction, iso2: c.iso2 || null, m49: c.m49 || null, rationale: decision?.rationale || null, geo, flag };
 });
+// Map outlines are too many to inline: one JSON per size (id → path), fetched when that size is shown.
+mkdirSync(join(out, 'geo'), { recursive: true });
+for (const s of SIZES) {
+  const paths = {};
+  for (const c of index) if (c.kind === 'country' || c.kind === 'region') paths[c.id] = readFileSync(join('icons', c.id, `outline-${s}.svg`), 'utf8').match(/ d="([^"]+)"/)[1];
+  writeFileSync(join(out, 'geo', `${s}.json`), JSON.stringify(paths));
+}
 const bundle = (await build({ entryPoints: ['src/browser.mjs'], bundle: true, minify: true, format: 'iife', globalName: 'LI', write: false, platform: 'browser', target: 'es2020' })).outputFiles[0].text;
 const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts };
 const tpl = readFileSync('site/index.html', 'utf8');

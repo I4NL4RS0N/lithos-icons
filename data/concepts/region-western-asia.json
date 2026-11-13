@@ -1,0 +1,38 @@
+{
+  "id": "region-western-asia",
+  "name": "Western Asia",
+  "kind": "region",
+  "m49": "145",
+  "parentM49": "142",
+  "level": 2,
+  "members": [
+    "031",
+    "048",
+    "051",
+    "196",
+    "268",
+    "275",
+    "368",
+    "376",
+    "400",
+    "414",
+    "422",
+    "512",
+    "634",
+    "682",
+    "760",
+    "784",
+    "792",
+    "887"
+  ],
+  "keywords": [
+    "Western Asia",
+    "M49 145"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

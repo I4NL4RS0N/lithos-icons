@@ -1,0 +1,21 @@
+{
+  "id": "country-kn",
+  "name": "St. Kitts & Nevis",
+  "kind": "country",
+  "iso2": "KN",
+  "iso3": "KNA",
+  "m49": "659",
+  "keywords": [
+    "St. Kitts & Nevis",
+    "St. Kitts and Nevis",
+    "Saint Kitts and Nevis",
+    "KN",
+    "KNA"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

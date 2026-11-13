@@ -1,0 +1,19 @@
+{
+  "id": "country-gt",
+  "name": "Guatemala",
+  "kind": "country",
+  "iso2": "GT",
+  "iso3": "GTM",
+  "m49": "320",
+  "keywords": [
+    "Guatemala",
+    "GT",
+    "GTM"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

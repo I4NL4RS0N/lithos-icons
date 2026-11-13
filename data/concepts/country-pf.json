@@ -1,0 +1,20 @@
+{
+  "id": "country-pf",
+  "name": "French Polynesia",
+  "kind": "country",
+  "iso2": "PF",
+  "iso3": "PYF",
+  "m49": "258",
+  "keywords": [
+    "French Polynesia",
+    "Fr. Polynesia",
+    "PF",
+    "PYF"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

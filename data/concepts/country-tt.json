@@ -1,0 +1,20 @@
+{
+  "id": "country-tt",
+  "name": "Trinidad & Tobago",
+  "kind": "country",
+  "iso2": "TT",
+  "iso3": "TTO",
+  "m49": "780",
+  "keywords": [
+    "Trinidad & Tobago",
+    "Trinidad and Tobago",
+    "TT",
+    "TTO"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

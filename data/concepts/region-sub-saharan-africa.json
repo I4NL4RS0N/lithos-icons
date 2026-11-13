@@ -3,6 +3,8 @@
   "name": "Sub-Saharan Africa",
   "kind": "region",
   "m49": "202",
+  "parentM49": "002",
+  "level": 2,
   "members": [
     "024",
     "072",

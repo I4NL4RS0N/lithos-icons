@@ -1,0 +1,21 @@
+{
+  "id": "country-vc",
+  "name": "St. Vincent & Grenadines",
+  "kind": "country",
+  "iso2": "VC",
+  "iso3": "VCT",
+  "m49": "670",
+  "keywords": [
+    "St. Vincent & Grenadines",
+    "St. Vin. and Gren.",
+    "Saint Vincent and the Grenadines",
+    "VC",
+    "VCT"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

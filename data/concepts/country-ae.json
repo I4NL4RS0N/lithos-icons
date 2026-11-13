@@ -1,0 +1,19 @@
+{
+  "id": "country-ae",
+  "name": "United Arab Emirates",
+  "kind": "country",
+  "iso2": "AE",
+  "iso3": "ARE",
+  "m49": "784",
+  "keywords": [
+    "United Arab Emirates",
+    "AE",
+    "ARE"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

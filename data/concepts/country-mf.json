@@ -1,0 +1,21 @@
+{
+  "id": "country-mf",
+  "name": "St. Martin",
+  "kind": "country",
+  "iso2": "MF",
+  "iso3": "MAF",
+  "m49": "663",
+  "keywords": [
+    "St. Martin",
+    "St-Martin",
+    "Saint Martin (French Part)",
+    "MF",
+    "MAF"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "country-cf",
+  "name": "Central African Republic",
+  "kind": "country",
+  "iso2": "CF",
+  "iso3": "CAF",
+  "m49": "140",
+  "keywords": [
+    "Central African Republic",
+    "Central African Rep.",
+    "CF",
+    "CAF"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

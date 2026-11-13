@@ -139,9 +139,13 @@ flags/
 - **Classification tags (not icons):** MSCI Developed/Emerging/Frontier, World Bank income groups — used as filters.
 - **Map source:** Natural Earth (public domain), including its point-of-view variants for disputed areas.
 - **Generated, not drawn:** country outlines, region maps and grouping maps are generated from geodata, then simplified per size.
-- **Projection:** Mercator for countries; per-region override (Europe uses a conic equal-area projection, clipped, with Russia omitted from the outline but kept as a member).
-- **Main landmass:** keep polygons near the largest one (drops Alaska, Hawaii, French Guiana); a full-territory variant comes later.
+- **Coverage:** every geometry in Natural Earth 1:50m with an ISO code (234 countries and territories) and all 30 UN M49 regions including World. Not yet drawn: Antarctica, and areas without an ISO code (Kosovo, Somaliland, Northern Cyprus), which wait for the worldview work.
+- **Names:** CLDR English names (`Intl.DisplayNames`); UN and Natural Earth names are kept as search keywords.
+- **Projection:** azimuthal equal-area centred on each shape, so shapes are true and nothing breaks at the antimeridian or poles. Overrides: Europe (conic, clipped, Russia omitted from the outline but kept as a member), World (Equal Earth).
+- **Main landmass:** keep everything chained to the largest landmass within a gap that scales with its size (2°–5.8°). Drops Alaska, Hawaii, French Guiana, the Canaries; keeps archipelagos. Regions use a 12° gap so overseas territories don't shrink the continent.
+- **Islands:** when little survives as an outline at a size, lost islands are drawn as dots.
 - **Squint test:** maps are exempt from the weight band because they follow real geography.
+- **Site loading:** map paths are not inlined; the site fetches one JSON per size (`/geo/<size>.json`).
 - **Small-country rule:** if a country's shape is under a minimum area at a given size, render a locator: simplified continent context + dot. Threshold tuned per size.
 - **Flags:** 4:3 frame, fixed corner radius, 1px inner hairline for white-edged flags. Emblems simplified at 20px, dropped or reduced to a silhouette at 16px. Colours from official specs.
 - **Worldview param:** `worldview=default|<iso2>` across site, API, MCP.

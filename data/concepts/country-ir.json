@@ -1,0 +1,20 @@
+{
+  "id": "country-ir",
+  "name": "Iran",
+  "kind": "country",
+  "iso2": "IR",
+  "iso3": "IRN",
+  "m49": "364",
+  "keywords": [
+    "Iran",
+    "Iran (Islamic Republic of)",
+    "IR",
+    "IRN"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

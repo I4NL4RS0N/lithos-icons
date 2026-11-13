@@ -1,0 +1,26 @@
+{
+  "id": "region-australia-and-new-zealand",
+  "name": "Australia and New Zealand",
+  "kind": "region",
+  "m49": "053",
+  "parentM49": "009",
+  "level": 2,
+  "members": [
+    "036",
+    "162",
+    "166",
+    "334",
+    "554",
+    "574"
+  ],
+  "keywords": [
+    "Australia and New Zealand",
+    "M49 053"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

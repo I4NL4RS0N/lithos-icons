@@ -1,0 +1,31 @@
+{
+  "id": "region-south-eastern-asia",
+  "name": "South-eastern Asia",
+  "kind": "region",
+  "m49": "035",
+  "parentM49": "142",
+  "level": 2,
+  "members": [
+    "096",
+    "104",
+    "116",
+    "360",
+    "418",
+    "458",
+    "608",
+    "626",
+    "702",
+    "704",
+    "764"
+  ],
+  "keywords": [
+    "South-eastern Asia",
+    "M49 035"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

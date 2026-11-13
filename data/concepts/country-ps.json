@@ -1,0 +1,21 @@
+{
+  "id": "country-ps",
+  "name": "Palestinian Territories",
+  "kind": "country",
+  "iso2": "PS",
+  "iso3": "PSE",
+  "m49": "275",
+  "keywords": [
+    "Palestinian Territories",
+    "Palestine",
+    "State of Palestine",
+    "PS",
+    "PSE"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

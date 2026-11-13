@@ -1,0 +1,19 @@
+{
+  "id": "country-km",
+  "name": "Comoros",
+  "kind": "country",
+  "iso2": "KM",
+  "iso3": "COM",
+  "m49": "174",
+  "keywords": [
+    "Comoros",
+    "KM",
+    "COM"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

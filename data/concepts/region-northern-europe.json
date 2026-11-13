@@ -1,0 +1,36 @@
+{
+  "id": "region-northern-europe",
+  "name": "Northern Europe",
+  "kind": "region",
+  "m49": "154",
+  "parentM49": "150",
+  "level": 2,
+  "members": [
+    "208",
+    "233",
+    "234",
+    "246",
+    "248",
+    "352",
+    "372",
+    "428",
+    "440",
+    "578",
+    "744",
+    "752",
+    "826",
+    "831",
+    "832",
+    "833"
+  ],
+  "keywords": [
+    "Northern Europe",
+    "M49 154"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

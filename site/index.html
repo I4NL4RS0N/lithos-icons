@@ -203,11 +203,11 @@ const DATA = /*__DATA__*/null;
 const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['country', 'Countries'], ['region', 'Regions']];
 const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', country: 'Country', region: 'Region' };
 const COLORS = [['', 'Default'], ['#2f6feb', 'Blue'], ['#7c5cff', 'Violet'], ['#2da44e', 'Green'], ['#d1434b', 'Red'], ['#d4901f', 'Amber'], ['#74777d', 'Grey']];
-const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
+const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'map', labels: 'on', appearance: 'system' };
 const BASE_RADIUS_PX = 2.8, BASE_GAP_PX = 1.5;
 
-const load = () => { try { return JSON.parse(localStorage.getItem('li:settings')) || {}; } catch { return {}; } };
-const save = () => { try { localStorage.setItem('li:settings', JSON.stringify(Object.fromEntries(Object.keys(DEF).map((k) => [k, state[k]])))); } catch {} };
+const load = () => { try { return JSON.parse(localStorage.getItem('li:settings2')) || {}; } catch { return {}; } };
+const save = () => { try { localStorage.setItem('li:settings2', JSON.stringify(Object.fromEntries(Object.keys(DEF).map((k) => [k, state[k]])))); } catch {} };
 const state = { ...DEF, ...load(), q: '', kind: 'all', sel: null, pop: false };
 { const u = new URLSearchParams(location.search);
   if (u.get('q')) state.q = u.get('q'); if (u.get('icon')) state.sel = u.get('icon');
@@ -227,12 +227,34 @@ function strokeAt(size) {
   const s = state.scaling === 'scale' ? (base * g.stroke) / ref : base;
   return Math.round(Math.min(g.max, Math.max(g.min, s)) * 100) / 100;
 }
-const isFlag = (c) => c.kind === 'country' && state.ctry === 'flag';
+const isFlag = (c) => c.kind === 'country' && state.ctry === 'flag' && !!c.flag[state.size];
+// Map outlines load on demand: one file per size for the grid, the icon's own files for the detail panel.
+const GEO = {}, GEO_LOADING = {}, ONE = {};
+function loadGeo(size) {
+  if (GEO[size] || GEO_LOADING[size]) return;
+  GEO_LOADING[size] = fetch(`geo/${size}.json`).then((r) => r.json()).then((j) => { GEO[size] = j; render(); }).catch(() => { GEO_LOADING[size] = null; });
+}
+function loadOne(c) {
+  if (ONE[c.id]) return;
+  ONE[c.id] = {};
+  Promise.all(DATA.sizes.map((s) => fetch(`icons/${c.id}/outline-${s}.svg`).then((r) => r.text()).then((t) => { ONE[c.id][s] = (t.match(/ d="([^"]+)"/) || [])[1]; })))
+    .then(() => { if (state.sel === c.id) renderDetail(); }).catch(() => { delete ONE[c.id]; });
+}
+function mapSvg(size, style, d, stroke) {
+  const common = `xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"`;
+  return style === 'outline'
+    ? `<svg ${common} fill="none" stroke="currentColor" stroke-width="${stroke}" stroke-linecap="round" stroke-linejoin="round" class="li li-outline"><path d="${d}"/></svg>`
+    : `<svg ${common} fill="currentColor" stroke="currentColor" stroke-width="${DATA.grid[size].stroke}" stroke-linecap="round" stroke-linejoin="round" class="li li-solid"><path d="${d}" fill-rule="evenodd"/></svg>`;
+}
 function draw(c, size = state.size, style = state.style) {
-  if (isFlag(c) && c.flag[size]) return c.flag[size];
+  if (c.kind === 'country' && state.ctry === 'flag' && c.flag[size]) return c.flag[size];
   let s;
   if (LI.has(c.id)) s = LI.render(c.id, size, style, { stroke: strokeAt(size), radius: state.radius, gap: state.gap });
-  else { s = c.svgs[`${style}-${size}`] || ''; if (style === 'outline') s = s.replace(/stroke-width="[\d.]+"/, `stroke-width="${strokeAt(size)}"`); }
+  else {
+    const d = GEO[size]?.[c.id] ?? ONE[c.id]?.[size];
+    if (!d) { if (size === state.size) loadGeo(size); else loadOne(c); return `<svg class="ic" width="${size}" height="${size}" aria-hidden="true"></svg>`; }
+    s = mapSvg(size, style, d, strokeAt(size));
+  }
   return s.replace('class="li ', 'class="ic li ');
 }
 function exportSvg(c) {

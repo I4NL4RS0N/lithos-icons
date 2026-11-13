@@ -1,0 +1,20 @@
+{
+  "id": "country-do",
+  "name": "Dominican Republic",
+  "kind": "country",
+  "iso2": "DO",
+  "iso3": "DOM",
+  "m49": "214",
+  "keywords": [
+    "Dominican Republic",
+    "Dominican Rep.",
+    "DO",
+    "DOM"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

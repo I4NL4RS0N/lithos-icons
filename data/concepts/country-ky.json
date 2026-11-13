@@ -1,0 +1,20 @@
+{
+  "id": "country-ky",
+  "name": "Cayman Islands",
+  "kind": "country",
+  "iso2": "KY",
+  "iso3": "CYM",
+  "m49": "136",
+  "keywords": [
+    "Cayman Islands",
+    "Cayman Is.",
+    "KY",
+    "CYM"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

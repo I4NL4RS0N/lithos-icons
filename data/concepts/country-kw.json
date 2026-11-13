@@ -1,0 +1,19 @@
+{
+  "id": "country-kw",
+  "name": "Kuwait",
+  "kind": "country",
+  "iso2": "KW",
+  "iso3": "KWT",
+  "m49": "414",
+  "keywords": [
+    "Kuwait",
+    "KW",
+    "KWT"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

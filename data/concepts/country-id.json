@@ -1,0 +1,19 @@
+{
+  "id": "country-id",
+  "name": "Indonesia",
+  "kind": "country",
+  "iso2": "ID",
+  "iso3": "IDN",
+  "m49": "360",
+  "keywords": [
+    "Indonesia",
+    "ID",
+    "IDN"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

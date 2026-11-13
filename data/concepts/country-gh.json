@@ -1,0 +1,19 @@
+{
+  "id": "country-gh",
+  "name": "Ghana",
+  "kind": "country",
+  "iso2": "GH",
+  "iso3": "GHA",
+  "m49": "288",
+  "keywords": [
+    "Ghana",
+    "GH",
+    "GHA"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

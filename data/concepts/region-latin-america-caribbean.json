@@ -3,6 +3,8 @@
   "name": "Latin America & Caribbean",
   "kind": "region",
   "m49": "419",
+  "parentM49": "019",
+  "level": 2,
   "members": [
     "028",
     "032",
@@ -59,6 +61,7 @@
   ],
   "keywords": [
     "Latin America & Caribbean",
+    "Latin America and the Caribbean",
     "M49 419"
   ],
   "metaphor": "map-outline",

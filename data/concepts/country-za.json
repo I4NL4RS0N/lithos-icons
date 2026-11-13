@@ -1,0 +1,19 @@
+{
+  "id": "country-za",
+  "name": "South Africa",
+  "kind": "country",
+  "iso2": "ZA",
+  "iso3": "ZAF",
+  "m49": "710",
+  "keywords": [
+    "South Africa",
+    "ZA",
+    "ZAF"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

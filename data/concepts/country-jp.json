@@ -3,15 +3,16 @@
   "name": "Japan",
   "kind": "country",
   "iso2": "JP",
-  "m49": "392",
   "iso3": "JPN",
+  "m49": "392",
   "keywords": [
     "Japan",
-    "JP"
+    "JP",
+    "JPN"
   ],
   "metaphor": "map-outline",
-  "reduction": "Main landmass cluster; islands below a size-based area threshold are dropped.",
-  "source": "Natural Earth 1:50m via world-atlas",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

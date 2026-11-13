@@ -1,0 +1,19 @@
+{
+  "id": "country-bj",
+  "name": "Benin",
+  "kind": "country",
+  "iso2": "BJ",
+  "iso3": "BEN",
+  "m49": "204",
+  "keywords": [
+    "Benin",
+    "BJ",
+    "BEN"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

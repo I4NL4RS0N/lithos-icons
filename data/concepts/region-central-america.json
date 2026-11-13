@@ -1,0 +1,28 @@
+{
+  "id": "region-central-america",
+  "name": "Central America",
+  "kind": "region",
+  "m49": "013",
+  "parentM49": "419",
+  "level": 3,
+  "members": [
+    "084",
+    "188",
+    "222",
+    "320",
+    "340",
+    "484",
+    "558",
+    "591"
+  ],
+  "keywords": [
+    "Central America",
+    "M49 013"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

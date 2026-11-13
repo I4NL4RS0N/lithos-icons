@@ -1,0 +1,29 @@
+{
+  "id": "region-middle-africa",
+  "name": "Middle Africa",
+  "kind": "region",
+  "m49": "017",
+  "parentM49": "202",
+  "level": 3,
+  "members": [
+    "024",
+    "120",
+    "140",
+    "148",
+    "178",
+    "180",
+    "226",
+    "266",
+    "678"
+  ],
+  "keywords": [
+    "Middle Africa",
+    "M49 017"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

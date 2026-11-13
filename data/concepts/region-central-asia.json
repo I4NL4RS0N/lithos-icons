@@ -1,0 +1,25 @@
+{
+  "id": "region-central-asia",
+  "name": "Central Asia",
+  "kind": "region",
+  "m49": "143",
+  "parentM49": "142",
+  "level": 2,
+  "members": [
+    "398",
+    "417",
+    "762",
+    "795",
+    "860"
+  ],
+  "keywords": [
+    "Central Asia",
+    "M49 143"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

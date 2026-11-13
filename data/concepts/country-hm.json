@@ -1,0 +1,21 @@
+{
+  "id": "country-hm",
+  "name": "Heard & McDonald Islands",
+  "kind": "country",
+  "iso2": "HM",
+  "iso3": "HMD",
+  "m49": "334",
+  "keywords": [
+    "Heard & McDonald Islands",
+    "Heard I. and McDonald Is.",
+    "Heard Island and McDonald Islands",
+    "HM",
+    "HMD"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "country-mn",
+  "name": "Mongolia",
+  "kind": "country",
+  "iso2": "MN",
+  "iso3": "MNG",
+  "m49": "496",
+  "keywords": [
+    "Mongolia",
+    "MN",
+    "MNG"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

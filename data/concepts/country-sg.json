@@ -1,0 +1,19 @@
+{
+  "id": "country-sg",
+  "name": "Singapore",
+  "kind": "country",
+  "iso2": "SG",
+  "iso3": "SGP",
+  "m49": "702",
+  "keywords": [
+    "Singapore",
+    "SG",
+    "SGP"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

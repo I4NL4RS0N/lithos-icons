@@ -1,0 +1,36 @@
+{
+  "id": "region-south-america",
+  "name": "South America",
+  "kind": "region",
+  "m49": "005",
+  "parentM49": "419",
+  "level": 3,
+  "members": [
+    "032",
+    "068",
+    "074",
+    "076",
+    "152",
+    "170",
+    "218",
+    "238",
+    "239",
+    "254",
+    "328",
+    "600",
+    "604",
+    "740",
+    "858",
+    "862"
+  ],
+  "keywords": [
+    "South America",
+    "M49 005"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "region-micronesia",
+  "name": "Micronesia",
+  "kind": "region",
+  "m49": "057",
+  "parentM49": "009",
+  "level": 2,
+  "members": [
+    "296",
+    "316",
+    "520",
+    "580",
+    "581",
+    "583",
+    "584",
+    "585"
+  ],
+  "keywords": [
+    "Micronesia",
+    "M49 057"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size. Island groups are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "country-fm",
+  "name": "Micronesia",
+  "kind": "country",
+  "iso2": "FM",
+  "iso3": "FSM",
+  "m49": "583",
+  "keywords": [
+    "Micronesia",
+    "Micronesia (Federated States of)",
+    "FM",
+    "FSM"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

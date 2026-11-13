@@ -1,0 +1,19 @@
+{
+  "id": "country-cl",
+  "name": "Chile",
+  "kind": "country",
+  "iso2": "CL",
+  "iso3": "CHL",
+  "m49": "152",
+  "keywords": [
+    "Chile",
+    "CL",
+    "CHL"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

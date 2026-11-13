@@ -1,0 +1,21 @@
+{
+  "id": "country-cd",
+  "name": "Congo - Kinshasa",
+  "kind": "country",
+  "iso2": "CD",
+  "iso3": "COD",
+  "m49": "180",
+  "keywords": [
+    "Congo - Kinshasa",
+    "Dem. Rep. Congo",
+    "Democratic Republic of the Congo",
+    "CD",
+    "COD"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

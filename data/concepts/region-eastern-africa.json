@@ -1,0 +1,42 @@
+{
+  "id": "region-eastern-africa",
+  "name": "Eastern Africa",
+  "kind": "region",
+  "m49": "014",
+  "parentM49": "202",
+  "level": 3,
+  "members": [
+    "086",
+    "108",
+    "174",
+    "175",
+    "231",
+    "232",
+    "260",
+    "262",
+    "404",
+    "450",
+    "454",
+    "480",
+    "508",
+    "638",
+    "646",
+    "690",
+    "706",
+    "716",
+    "728",
+    "800",
+    "834",
+    "894"
+  ],
+  "keywords": [
+    "Eastern Africa",
+    "M49 014"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Union of member countries; small islands dropped by size.",
+  "source": "Natural Earth 1:50m via world-atlas; membership UN M49",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "country-st",
+  "name": "São Tomé & Príncipe",
+  "kind": "country",
+  "iso2": "ST",
+  "iso3": "STP",
+  "m49": "678",
+  "keywords": [
+    "São Tomé & Príncipe",
+    "São Tomé and Principe",
+    "Sao Tome and Principe",
+    "ST",
+    "STP"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped. Small islands are drawn as dots.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "country-cg",
+  "name": "Congo - Brazzaville",
+  "kind": "country",
+  "iso2": "CG",
+  "iso3": "COG",
+  "m49": "178",
+  "keywords": [
+    "Congo - Brazzaville",
+    "Congo",
+    "CG",
+    "COG"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

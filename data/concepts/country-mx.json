@@ -1,0 +1,19 @@
+{
+  "id": "country-mx",
+  "name": "Mexico",
+  "kind": "country",
+  "iso2": "MX",
+  "iso3": "MEX",
+  "m49": "484",
+  "keywords": [
+    "Mexico",
+    "MX",
+    "MEX"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -3,15 +3,16 @@
   "name": "Germany",
   "kind": "country",
   "iso2": "DE",
-  "m49": "276",
   "iso3": "DEU",
+  "m49": "276",
   "keywords": [
     "Germany",
-    "DE"
+    "DE",
+    "DEU"
   ],
   "metaphor": "map-outline",
-  "reduction": "Main landmass cluster; islands below a size-based area threshold are dropped.",
-  "source": "Natural Earth 1:50m via world-atlas",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

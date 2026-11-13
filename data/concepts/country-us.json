@@ -3,15 +3,17 @@
   "name": "United States",
   "kind": "country",
   "iso2": "US",
-  "m49": "840",
   "iso3": "USA",
+  "m49": "840",
   "keywords": [
     "United States",
-    "US"
+    "United States of America",
+    "US",
+    "USA"
   ],
   "metaphor": "map-outline",
-  "reduction": "Main landmass cluster; islands below a size-based area threshold are dropped.",
-  "source": "Natural Earth 1:50m via world-atlas",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

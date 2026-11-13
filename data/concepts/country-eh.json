@@ -1,0 +1,20 @@
+{
+  "id": "country-eh",
+  "name": "Western Sahara",
+  "kind": "country",
+  "iso2": "EH",
+  "iso3": "ESH",
+  "m49": "732",
+  "keywords": [
+    "Western Sahara",
+    "W. Sahara",
+    "EH",
+    "ESH"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

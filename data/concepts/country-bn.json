@@ -1,0 +1,20 @@
+{
+  "id": "country-bn",
+  "name": "Brunei",
+  "kind": "country",
+  "iso2": "BN",
+  "iso3": "BRN",
+  "m49": "096",
+  "keywords": [
+    "Brunei",
+    "Brunei Darussalam",
+    "BN",
+    "BRN"
+  ],
+  "metaphor": "map-outline",
+  "reduction": "Main landmass and nearby islands; distant territories and islands too small for the size are dropped.",
+  "source": "Natural Earth 1:50m via world-atlas; names CLDR",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
