@@ -77,7 +77,8 @@
   .tabrow .n { font: 11px var(--mono); opacity: .6; font-weight: 400; }
   .tabrow.by button { font-size: 13px; padding: 5px 12px; }
   .tabrow .lab { font-size: 13px; color: var(--faint); margin-right: 4px; }
-  .cell .art:empty::before, .ghead .art:empty::before, .std-head .art:empty::before { content: ''; width: 18px; height: 18px; border: 1.5px dashed var(--faint); border-radius: 5px; opacity: .6; }
+  .std-head .art:empty { display: none; }
+  .cell .art:empty::before, .ghead .art:empty::before { content: ''; width: 18px; height: 18px; border: 1.5px dashed var(--faint); border-radius: 5px; opacity: .6; }
   .std-intro .credit { font-size: 12.5px; color: var(--faint); }
   .jump a { padding-left: 8px; }
   .jump { display: flex; flex-wrap: wrap; gap: 4px 6px; margin: 14px 0 0; }
@@ -87,6 +88,10 @@
   section.std { content-visibility: auto; contain-intrinsic-size: auto 900px; scroll-margin-top: 16px; }
   .cell.inherited .art, .ghead.inherited .art { opacity: .38; }
   .clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .tcell { position: relative; display: grid; min-width: 0; }
+  .down { position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; display: grid; place-items: center; border-radius: 999px; color: var(--muted); background: var(--pill); }
+  .down:hover { color: var(--accent-fg); background: var(--accent); }
+  .ghead { scroll-margin-top: 16px; }
   .group { margin: 14px 0 6px; }
   .ghead { display: flex; align-items: center; gap: 10px; width: 100%; border: 0; background: transparent; text-align: left; padding: 6px 10px; margin: 0 -10px; border-radius: 10px; }
   .ghead:hover, .ghead[aria-current="true"] { background: var(--hover); }
@@ -379,11 +384,14 @@ function renderStandard(std) {
   const tile = (n) => { const c = solo(n), d = c && c.direct ? c : n;
     return `<button class="cell${d.direct ? '' : ' inherited'}" type="button" data-id="${d.concept || ''}" aria-current="${state.sel === d.concept && d.direct}" title="${esc(n.code + ' ' + n.name + (c ? ' · ' + c.code + ' ' + c.name : ''))}">
       <span class="art">${icon(d, state.size)}</span><span class="nm">${chip(n)}${c ? ' ' + chip(c) : ''}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`; };
-  const head = (n) => `<button class="ghead${n.direct ? '' : ' inherited'}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}"><span class="art">${icon(n, 20)}</span>${chip(n)}<span class="t">${esc(n.name)}</span><span class="cnt">${n.total}</span></button>`;
-  const body = (nodes) => {
-    const leaves = nodes.filter((n) => !shown(n).length || solo(n)), branches = nodes.filter((n) => shown(n).length && !solo(n));
-    return (leaves.length ? `<div class="grid">${leaves.map((n) => tile(n)).join('')}</div>` : '') + branches.map((n) => `<div class="group">${head(n)}<div class="gbody">${body(shown(n))}</div></div>`).join('');
-  };
+  // One rule at every level: a node's children sit in one horizontal row of tiles, in the standard's order. A child
+  // that has children of its own also gets a section below the row (header + its own row), linked from its tile.
+  const lvl = (d, n) => { const l = std.levels[d] || 'item'; return n === 1 ? l : l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's'); };
+  const gid = (n) => 'g-' + n.code.replace(/[^\w-]/g, '_');
+  const isBranch = (n) => shown(n).length && !solo(n);
+  const head = (n) => `<button class="ghead${n.direct ? '' : ' inherited'}" type="button" id="${gid(n)}" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}"><span class="art">${icon(n, 20)}</span>${chip(n)}<span class="t">${esc(n.name)}</span><span class="cnt">${shown(n).length} ${lvl(n.depth + 1, shown(n).length)}</span></button>`;
+  const body = (nodes) => `<div class="grid">${nodes.map((n) => (isBranch(n) ? `<div class="tcell">${tile(n)}<a class="down" href="#${gid(n)}" title="Jump to the ${shown(n).length} ${lvl(n.depth + 1, shown(n).length)} in ${esc(n.name)}" aria-label="Jump to ${esc(n.name)}"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5"/></svg></a></div>` : tile(n))).join('')}</div>`
+    + nodes.filter(isBranch).map((n) => `<div class="group">${head(n)}<div class="gbody">${body(shown(n))}</div></div>`).join('');
   const tops = tree.tops.filter((t) => vis.get(t));
   const sections = tops.map((t) => `<section class="std" id="s-${esc(t.code)}"><button class="std-head" type="button" data-id="${t.concept || ''}" title="${esc(t.name)}"><span class="art">${icon(t, state.size)}</span>${chip(t)}<span class="t">${esc(t.name)}</span></button>
       ${body(shown(t))}</section>`).join('');
