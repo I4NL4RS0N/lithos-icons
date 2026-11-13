@@ -60,7 +60,7 @@ export default [
     keywords: ['metals', 'mining', 'chemicals', 'commodities', 'steel', 'ore', 'raw materials'],
     reduction: '16: three-facet ore pile. 20+: five facets.',
     draw(k) {
-      const wr = 0.1, wy = 0.9, gap = (k.sw + 1.5) / k.L;
+      const wr = 0.1, wy = 0.9, gap = k.gapN();
       const top = 0.4, bot = wy - wr - gap;
       const cart = k.poly([[0, top], [1, top], [0.88, bot], [0.12, bot]]);
       const wheels = [k.circle(0.3, wy, wr), k.circle(0.7, wy, wr)];
@@ -103,7 +103,7 @@ export default [
       const awn = [['M', 0, 0.04], ['H', 1], ['V', base]];
       for (let i = 0; i < n; i++) awn.push(['A', s / 2, s / 2, 0, 0, 1, 1 - (i + 1) * s, base]);
       awn.push(['Z']);
-      const gap = (k.sw + 1.2) / k.L, wt = low + gap * 0.6;
+      const gap = k.gapN(1.2), wt = low + gap * 0.6;
       const door = k.tier >= 1;
       const walls = k.path([['M', 0.08, wt], ['V', 1], ['H', 0.92], ['V', wt]]);
       const [d0, d1, dt0] = k.tier >= 3 ? [0.34, 0.66, 0.6] : [0.38, 0.62, 0.68];
@@ -169,7 +169,7 @@ export default [
     draw(k) {
       // Two coins, front-on: back coin shows as an arc that stops short of the front coin.
       const b = [0.36, 0.36, 0.34], f = [0.63, 0.63, 0.36];
-      const gap = (k.sw + 1.5) / k.L, R2 = f[2] + gap;
+      const gap = k.gapN(), R2 = f[2] + gap;
       const dx = f[0] - b[0], dy = f[1] - b[1], d = Math.hypot(dx, dy);
       const x = (d * d + b[2] * b[2] - R2 * R2) / (2 * d), base = (Math.atan2(dy, dx) * 180) / Math.PI;
       const half = (Math.acos(Math.max(-1, Math.min(1, x / b[2]))) * 180) / Math.PI;
@@ -205,7 +205,7 @@ export default [
     reduction: '16: one wave each side. 20+: two.',
     draw(k) {
       const cx = 0.5, cy = 0.32, dot = pick(k, [0.08, 0.07, 0.07, 0.065, 0.06]);
-      const step = (k.sw + 1.5) / k.L;
+      const step = k.gapN();
       const radii = k.tier === 0 ? [dot + step + 0.04] : [dot + step, dot + step * 2 + 0.04];
       const waves = radii.flatMap((r) => [k.path(arc(cx, cy, r, -40, 40), { snap: false }), k.path(arc(cx, cy, r, 140, 220), { snap: false })]);
       const mast = k.poly([[0.28, 1], [cx, cy + dot + step * 0.6], [0.72, 1]], { closed: false, snap: false });

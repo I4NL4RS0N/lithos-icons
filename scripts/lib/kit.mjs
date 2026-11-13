@@ -1,5 +1,4 @@
-import { createRequire } from 'node:module';
-const ClipperLib = createRequire(import.meta.url)('clipper-lib');
+import ClipperLib from 'clipper-lib';
 
 // Drawing kit: per-size grid, stroke and detail tier.
 // Concepts draw in normalized live-area coordinates (0..1). The kit maps them to
@@ -28,8 +27,14 @@ export const KEY = {
   radius: 0.14, // standard corner radius
 };
 
-export function kit(size, style) {
-  const { pad, stroke: sw, tier } = GRID[size];
+// opts (all optional, used by the site's live Customize panel):
+//   stroke — outline stroke width in px (solid keeps the size default)
+//   radius — multiplier on corner radii (1 = default)
+//   gap    — multiplier on clear gaps and knockouts (1 = default)
+export function kit(size, style, opts = {}) {
+  const { pad, tier } = GRID[size];
+  const sw = style === 'outline' && opts.stroke ? opts.stroke : GRID[size].stroke;
+  const radiusK = opts.radius ?? 1, gapK = opts.gap ?? 1;
   const L = size - 2 * pad;
   const solid = style === 'solid';
   const X = (t, s = true) => r2(s ? snap(pad + t * L) : pad + t * L);
@@ -53,6 +58,7 @@ export function kit(size, style) {
 
   // Rounded rect in normalized coords; r normalized.
   function rrect(x0, y0, x1, y1, r) {
+    r = Math.max(0.001, Math.min(r * radiusK, (x1 - x0) / 2, (y1 - y0) / 2));
     return path([
       ['M', x0 + r, y0], ['H', x1 - r], ['A', r, r, 0, 0, 1, x1, y0 + r],
       ['V', y1 - r], ['A', r, r, 0, 0, 1, x1 - r, y1],
@@ -80,7 +86,7 @@ export function kit(size, style) {
 
   // Solid style paints fills with a baked stroke (same colour) so solid and outline
   // share one footprint. Holes must therefore be drawn larger by one stroke width.
-  const holeW = (visualPx) => visualPx + sw; // path width for a hole that reads as visualPx
+  const holeW = (visualPx) => visualPx * gapK + sw; // path width for a hole that reads as visualPx
   const holeN = (visualPx) => holeW(visualPx) / L; // same, normalized
   const grow = sw / 2 / L; // normalized half-stroke
 
@@ -104,13 +110,12 @@ export function kit(size, style) {
     co.Execute(out, deltaPx * S);
     return out.map((ring) => 'M' + ring.map((p) => `${r2(p.X / S)} ${r2(p.Y / S)}`).join('L') + 'Z').join('');
   }
-  const gapN = (k = 1.5) => (sw + k) / L; // normalized clear gap between strokes
+  const gapN = (k = 1.5) => (sw + k * gapK) / L; // normalized clear gap between strokes
 
   return { size, style, solid, pad, L, sw, tier, X, len, path, rrect, circle, poly, capsule, offsetPoly, offsetLine, gapN, holeW, holeN, grow };
 }
 
-export function svg(size, style, elements) {
-  const { stroke } = GRID[size];
+export function svg(size, style, elements, stroke = GRID[size].stroke) {
   const common = `xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"`;
   if (style === 'outline') {
     const body = elements.map((d) => `<path d="${d}"/>`).join('');

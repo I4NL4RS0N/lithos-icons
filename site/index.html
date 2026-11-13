@@ -3,250 +3,349 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lithos Icons</title>
-<meta name="description" content="Open icons for finance: sectors, industries, credit asset classes, countries and regions. Outline and solid, five optical sizes, adjustable stroke. MIT.">
+<title>Lithos Icons — icons for finance</title>
+<meta name="description" content="Open icons for finance: sectors, industries, credit asset classes, countries and regions. Outline and solid, five drawn sizes, live customisation. MIT.">
+<meta property="og:title" content="Lithos Icons — icons for finance">
+<meta property="og:description" content="Sectors, industries, credit asset classes, countries and regions. Outline and solid, five drawn sizes. MIT.">
+<meta property="og:image" content="https://icons.lithos.design/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111'/%3E%3Cpath d='M16 5c2.4 3.6 7.6 8.6 7.6 13.4a7.6 7.6 0 0 1-15.2 0C8.4 13.6 13.6 8.6 16 5Z' fill='%23fff'/%3E%3Cpath d='m17.2 13-3.8 6h2.8l-1 4.4 3.8-6h-2.8Z' fill='%23111'/%3E%3C/svg%3E">
 <style>
   :root {
-    --bg: #ffffff; --fg: #111111; --muted: #6b6f76; --line: #e7e8ea; --tile: #f6f7f8; --tile-hover: #eef0f2;
-    --accent: #111111; --accent-fg: #ffffff; --focus: #2f6feb; --shadow: 0 10px 40px rgba(0,0,0,.12);
-    --radius: 10px; --font: ui-sans-serif, -apple-system, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
-    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --bg: #fbfbfa; --fg: #111111; --muted: #74777d; --faint: #a4a7ad; --line: #e8e8e6; --hover: #efefed; --panel: #ffffff;
+    --pill: #f1f1ef; --pill-on: #ffffff; --accent: #111111; --accent-fg: #ffffff; --focus: #2f6feb;
+    --shadow: 0 1px 2px rgba(0,0,0,.06), 0 12px 40px rgba(0,0,0,.12);
+    --font: "Inter", ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
   }
   [data-theme="dark"] {
-    --bg: #111214; --fg: #f2f2f2; --muted: #9aa0a6; --line: #26282c; --tile: #18191c; --tile-hover: #202226;
-    --accent: #f2f2f2; --accent-fg: #111214; --shadow: 0 10px 40px rgba(0,0,0,.5);
+    --bg: #0e0f11; --fg: #f3f3f2; --muted: #9a9da3; --faint: #6c6f75; --line: #24262a; --hover: #1c1d20; --panel: #17181b;
+    --pill: #222327; --pill-on: #3a3c41; --accent: #f3f3f2; --accent-fg: #0e0f11;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 40px rgba(0,0,0,.55);
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 14px; line-height: 1.45; }
-  button, input { font: inherit; color: inherit; }
-  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-  a { color: inherit; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 14px; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  a { color: inherit; text-underline-offset: 3px; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
 
-  header.top { display: flex; align-items: center; justify-content: space-between; padding: 20px 28px 8px; }
-  .brand { display: flex; align-items: baseline; gap: 10px; }
-  .brand h1 { font-size: 18px; margin: 0; letter-spacing: -0.01em; }
-  .brand .ver { font-size: 12px; color: var(--muted); }
-  .tagline { padding: 0 28px 16px; color: var(--muted); max-width: 720px; margin: 0; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+  header.top { display: flex; align-items: center; justify-content: space-between; padding: 22px 0; border-bottom: 1px solid var(--line); }
+  .mark { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: -0.01em; }
+  .mark .ver { font: 12px var(--mono); color: var(--faint); font-weight: 400; }
+  nav.links { display: flex; gap: 20px; color: var(--muted); font-size: 13px; }
+  nav.links a { text-decoration: none; }
+  nav.links a:hover { color: var(--fg); }
+  .intro { padding: 56px 0 8px; max-width: 640px; }
+  .intro h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.02; letter-spacing: -0.035em; margin: 0 0 14px; font-weight: 650; }
+  .intro p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.5; }
 
-  .bar { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
-    display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; padding: 12px 28px; }
-  .search { flex: 1 1 240px; min-width: 200px; position: relative; }
-  .search input { width: 100%; height: 36px; border: 1px solid var(--line); background: var(--tile); border-radius: 8px; padding: 0 12px 0 34px; }
-  .search svg { position: absolute; left: 10px; top: 9px; color: var(--muted); }
-  .group { display: flex; align-items: center; gap: 8px; }
-  .group > .lbl { font-size: 12px; color: var(--muted); }
-  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
-  .seg button { border: 0; background: transparent; padding: 0 10px; height: 32px; cursor: pointer; font-size: 13px; }
-  .seg button + button { border-left: 1px solid var(--line); }
-  .seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
-  .stroke { display: flex; align-items: center; gap: 8px; }
-  .stroke input[type=range] { width: 110px; accent-color: var(--fg); }
-  .stroke output { font-family: var(--mono); font-size: 12px; width: 34px; }
-  .stroke[aria-disabled="true"] { opacity: .4; }
-  .icon-btn { border: 1px solid var(--line); background: transparent; border-radius: 8px; height: 32px; width: 32px; display: grid; place-items: center; cursor: pointer; }
+  main { padding: 16px 0 60px; min-height: 50vh; }
+  section.kind { padding-top: 40px; }
+  section.kind h2 { font-size: 26px; letter-spacing: -0.025em; margin: 0 0 14px; font-weight: 650; display: flex; align-items: baseline; gap: 8px; }
+  section.kind h2 .n { font: 12px var(--mono); color: var(--faint); font-weight: 400; letter-spacing: 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 2px; margin: 0 -10px; }
+  .grid.nolabels { grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); }
+  .cell { position: relative; border: 0; background: transparent; border-radius: 12px; padding: 16px 6px 12px; display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
+  .nolabels .cell { padding: 0; aspect-ratio: 1; justify-content: center; }
+  .cell:hover, .cell[aria-current="true"] { background: var(--hover); }
+  .cell .art { height: 48px; display: grid; place-items: center; }
+  .cell .nm { font-size: 11.5px; line-height: 1.25; color: var(--muted); text-align: center; text-wrap: balance; }
+  .cell:hover .nm, .cell[aria-current="true"] .nm { color: var(--fg); }
+  .nolabels .cell .nm { position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%); background: var(--accent); color: var(--accent-fg); padding: 3px 8px; border-radius: 6px;
+    white-space: nowrap; opacity: 0; pointer-events: none; z-index: 3; }
+  .nolabels .cell:hover .nm, .nolabels .cell:focus-visible .nm { opacity: 1; color: var(--accent-fg); }
+  .ic { color: var(--icon, var(--fg)); display: block; }
+  .empty { color: var(--muted); padding: 60px 0; font-size: 15px; }
 
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 14px 28px 0; }
-  .chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 4px 12px; cursor: pointer; font-size: 13px; }
-  .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
-  .chip .n { color: var(--muted); margin-left: 4px; }
-  .chip[aria-pressed="true"] .n { color: inherit; opacity: .7; }
+  /* Command bar */
+  .bar { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 20; width: min(680px, calc(100% - 24px));
+    background: var(--panel); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 6px; padding: 6px; }
+  .bar select { appearance: none; border: 0; background: var(--pill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%2374777d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m1 1 4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center;
+    border-radius: 999px; height: 38px; padding: 0 30px 0 14px; font-size: 13px; font-weight: 500; max-width: 46%; }
+  .bar .search { flex: 1; min-width: 0; position: relative; display: flex; align-items: center; }
+  .bar .search svg { position: absolute; left: 12px; color: var(--faint); pointer-events: none; }
+  .bar .search input { width: 100%; height: 38px; border: 0; background: var(--pill); border-radius: 999px; padding: 0 44px 0 36px; outline-offset: 0; }
+  .bar .search input::placeholder { color: var(--faint); }
+  .bar kbd { position: absolute; right: 10px; font: 11px var(--mono); color: var(--faint); border: 1px solid var(--line); border-radius: 5px; padding: 1px 5px; pointer-events: none; }
+  .round { border: 0; background: var(--pill); width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; flex: none; }
+  .round:hover { background: var(--hover); }
+  .round[aria-pressed="true"], .round[aria-expanded="true"] { background: var(--accent); color: var(--accent-fg); }
 
-  main { padding: 8px 28px 60px; }
-  section.kind h2 { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 26px 0 10px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; }
-  .tile { background: var(--tile); border: 1px solid transparent; border-radius: var(--radius); padding: 18px 8px 10px; cursor: pointer;
-    display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; min-height: 118px; }
-  .tile:hover { background: var(--tile-hover); }
-  .tile[aria-selected="true"] { border-color: var(--fg); }
-  .tile .art { height: 48px; display: grid; place-items: center; color: var(--fg); }
-  .tile .nm { font-size: 12px; line-height: 1.3; }
-  .empty { color: var(--muted); padding: 40px 0; }
+  /* Customize popover */
+  .pop { position: fixed; left: 50%; bottom: 82px; transform: translateX(-50%) translateY(8px); z-index: 19; width: min(400px, calc(100% - 24px)); max-height: calc(100vh - 110px); overflow-y: auto;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); padding: 20px 20px 22px; opacity: 0; pointer-events: none; transition: opacity .14s, transform .14s; }
+  .pop.open { opacity: 1; pointer-events: auto; transform: translateX(-50%); }
+  .pop header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .pop h3 { margin: 0; font-size: 17px; letter-spacing: -0.01em; }
+  .ghost { border: 0; background: transparent; color: var(--muted); font-size: 13px; padding: 4px 6px; border-radius: 6px; }
+  .ghost:hover { color: var(--fg); }
+  .field { margin-top: 14px; }
+  .field > .lbl { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--muted); margin-bottom: 7px; }
+  .field output { font-family: var(--mono); color: var(--fg); font-size: 12px; }
+  .seg { display: flex; background: var(--pill); border-radius: 999px; padding: 3px; }
+  .seg button { flex: 1; border: 0; background: transparent; border-radius: 999px; height: 32px; font-size: 13px; white-space: nowrap; padding: 0 8px; }
+  .seg button[aria-pressed="true"] { background: var(--pill-on); box-shadow: 0 1px 2px rgba(0,0,0,.12); font-weight: 500; }
+  .seg.mono button { font-family: var(--mono); font-size: 12px; }
+  .swatches { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 4px; }
+  .sw { width: 26px; height: 26px; border-radius: 50%; border: 0; padding: 0; background: var(--c); position: relative; }
+  .sw[aria-pressed="true"]::after { content: ""; position: absolute; inset: -4px; border: 2px solid var(--fg); border-radius: 50%; }
+  .sw.custom { background: conic-gradient(#e5484d, #f5a524, #30a46c, #2f6feb, #8e4ec6, #e5484d); }
+  .sw.custom input { position: absolute; inset: 0; opacity: 0; width: 100%; height: 100%; cursor: pointer; }
+  input[type=range] { width: 100%; accent-color: var(--fg); margin: 0; height: 20px; }
+  .field[aria-disabled="true"] { opacity: .4; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 
-  .li-outline.custom { stroke-width: var(--li-stroke); }
-
-  aside.panel { position: fixed; top: 0; right: 0; height: 100%; width: min(420px, 100%); background: var(--bg); border-left: 1px solid var(--line);
-    box-shadow: var(--shadow); transform: translateX(100%); transition: transform .18s ease; z-index: 10; overflow-y: auto; padding: 22px 24px 40px; }
-  aside.panel.open { transform: none; }
-  .panel header { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
-  .panel h3 { margin: 0; font-size: 18px; }
-  .panel .sub { color: var(--muted); font-size: 12px; font-family: var(--mono); margin-top: 2px; }
-  .sizes { display: flex; align-items: end; gap: 18px; padding: 22px 0 8px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
-  .sizes figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
-  .sizes figcaption { font-size: 11px; color: var(--muted); }
-  .hero { display: grid; place-items: center; height: 160px; background: var(--tile); border-radius: var(--radius); margin-top: 16px; }
+  /* Detail panel */
+  aside.detail { position: fixed; top: 0; right: 0; height: 100%; width: min(420px, 100%); background: var(--panel); border-left: 1px solid var(--line); box-shadow: var(--shadow);
+    transform: translateX(105%); transition: transform .18s ease; z-index: 30; overflow-y: auto; padding: 22px 24px 40px; }
+  aside.detail.open { transform: none; }
+  .detail header { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  .detail h3 { margin: 0; font-size: 20px; letter-spacing: -0.02em; }
+  .detail .sub { color: var(--muted); font: 12px var(--mono); margin-top: 3px; }
+  .hero { display: grid; place-items: center; height: 176px; background: var(--bg); border: 1px solid var(--line); border-radius: 16px; margin-top: 18px;
+    background-image: radial-gradient(var(--line) 1px, transparent 1px); background-size: 12px 12px; }
   .hero svg { width: 96px; height: 96px; }
-  .actions { display: flex; flex-wrap: wrap; gap: 8px; padding: 16px 0; }
-  .btn { border: 1px solid var(--line); background: transparent; border-radius: 8px; padding: 7px 12px; cursor: pointer; font-size: 13px; }
+  .sizes { display: flex; align-items: end; gap: 20px; padding: 20px 2px 14px; border-bottom: 1px solid var(--line); }
+  .sizes figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .sizes figcaption { font: 11px var(--mono); color: var(--faint); }
+  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 16px 0; }
+  .btn { border: 1px solid var(--line); background: transparent; border-radius: 10px; padding: 9px 12px; font-size: 13px; font-weight: 500; }
+  .btn:hover { background: var(--hover); }
   .btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
-  dl { margin: 0; display: grid; grid-template-columns: 96px 1fr; gap: 8px 12px; font-size: 13px; }
-  dt { color: var(--muted); }
-  dd { margin: 0; }
+  .code { font: 12px/1.5 var(--mono); background: var(--pill); border-radius: 10px; padding: 10px 12px; overflow-x: auto; white-space: nowrap; margin-bottom: 16px; }
+  dl { margin: 0; display: grid; grid-template-columns: 84px 1fr; gap: 9px 12px; font-size: 13px; }
+  dt { color: var(--muted); } dd { margin: 0; }
   .kw { display: flex; flex-wrap: wrap; gap: 4px; }
-  .kw span { background: var(--tile); border-radius: 6px; padding: 1px 7px; font-size: 12px; }
-  .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--accent); color: var(--accent-fg);
-    padding: 8px 14px; border-radius: 8px; font-size: 13px; opacity: 0; transition: opacity .15s; pointer-events: none; z-index: 20; }
+  .kw span { background: var(--pill); border-radius: 6px; padding: 1px 7px; font-size: 12px; }
+  .toast { position: fixed; bottom: 86px; left: 50%; transform: translateX(-50%); background: var(--accent); color: var(--accent-fg); padding: 8px 14px; border-radius: 999px; font-size: 13px;
+    opacity: 0; transition: opacity .15s; pointer-events: none; z-index: 40; }
   .toast.show { opacity: 1; }
-  footer { border-top: 1px solid var(--line); padding: 20px 28px 40px; color: var(--muted); font-size: 12px; }
-  @media (max-width: 640px) { header.top, .tagline, .bar, .chips, main, footer { padding-left: 16px; padding-right: 16px; } }
+  footer { border-top: 1px solid var(--line); padding: 22px 0 120px; color: var(--muted); font-size: 12.5px; max-width: 760px; }
+
+  @media (min-width: 1000px) { body.has-detail .bar, body.has-detail .pop, body.has-detail .toast { left: calc(50% - 210px); } }
+  @media (max-width: 640px) {
+    .wrap { padding: 0 18px; }
+    .bar select { max-width: 38%; }
+    .intro { padding-top: 36px; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); }
+    .bar { bottom: 12px; }
+    .bar kbd { display: none; }
+    .bar .search input { padding-right: 12px; }
+    .pop { bottom: 70px; }
+    aside.detail { top: auto; bottom: 0; height: 86%; width: 100%; border-left: 0; border-top: 1px solid var(--line); border-radius: 22px 22px 0 0; transform: translateY(105%); }
+    nav.links { gap: 14px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
-<header class="top">
-  <div class="brand"><h1>Lithos Icons</h1><span class="ver">v__VERSION__ · pilot</span></div>
-  <button class="icon-btn" id="theme" aria-label="Toggle light or dark mode" title="Light / dark"></button>
-</header>
-<p class="tagline">Open icons for finance — sectors, industries, credit asset classes, countries and regions. Outline and solid, five optical sizes, adjustable stroke. MIT.</p>
-
-<div class="bar" role="toolbar" aria-label="Display options">
-  <label class="search">
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
-    <input id="q" type="search" placeholder="Search icons, keywords, codes…" autocomplete="off" aria-label="Search icons">
-  </label>
-  <div class="group"><span class="lbl">Style</span><div class="seg" id="style"></div></div>
-  <div class="group"><span class="lbl">Size</span><div class="seg" id="size"></div></div>
-  <div class="group stroke" id="strokeGroup"><span class="lbl">Stroke</span>
-    <input id="stroke" type="range" aria-label="Stroke width"><output id="strokeVal"></output>
-    <button class="btn" id="strokeReset" title="Reset to default" style="padding:4px 8px">Reset</button></div>
-  <div class="group"><span class="lbl">Countries</span><div class="seg" id="ctry"></div></div>
+<div class="wrap">
+  <header class="top">
+    <div class="mark">
+      <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M16 5c2.4 3.6 7.6 8.6 7.6 13.4a7.6 7.6 0 0 1-15.2 0C8.4 13.6 13.6 8.6 16 5Z" fill="var(--bg)"/><path d="m17.2 13-3.8 6h2.8l-1 4.4 3.8-6h-2.8Z" fill="currentColor"/></svg>
+      Lithos Icons <span class="ver">v__VERSION__ pilot</span>
+    </div>
+    <nav class="links" aria-label="Site">
+      <a href="https://github.com/I4NL4RS0N/lithos-icons">GitHub</a>
+      <a href="https://github.com/I4NL4RS0N/lithos-icons/blob/main/LICENSE">MIT</a>
+    </nav>
+  </header>
+  <div class="intro">
+    <h1>Icons for finance.</h1>
+    <p>Sectors, industries, credit asset classes, countries and regions. Every icon is drawn at five sizes, in outline and solid, and chosen from research into what people already recognise.</p>
+  </div>
+  <main id="main"></main>
+  <footer>
+    Icons and code are MIT. Country and region outlines are generated from Natural Earth (public domain); regions follow UN M49. Pilot build: shapes and content will change before 1.0.
+  </footer>
 </div>
 
-<div class="chips" id="chips" role="group" aria-label="Filter by type"></div>
-<main id="main"></main>
+<div class="pop" id="pop" role="dialog" aria-label="Customize" aria-hidden="true">
+  <header><h3>Customize</h3><button class="ghost" id="reset" type="button">Reset</button></header>
+  <div class="field"><div class="lbl">Style</div><div class="seg" data-key="style"><button data-v="outline">Outline</button><button data-v="solid">Solid</button></div></div>
+  <div class="field"><div class="lbl">Size</div><div class="seg mono" data-key="size"><button data-v="16">16</button><button data-v="20">20</button><button data-v="24">24</button><button data-v="32">32</button><button data-v="48">48</button></div></div>
+  <div class="field"><div class="lbl">Colour</div><div class="swatches" id="swatches"></div></div>
+  <div class="field" id="strokeField"><div class="lbl"><span>Stroke</span><output id="strokeOut"></output></div><input type="range" id="stroke" min="1.25" max="2.5" step="0.25" aria-label="Stroke width"></div>
+  <div class="field"><div class="lbl"><span>Corner radius</span><output id="radiusOut"></output></div><input type="range" id="radius" min="0" max="2" step="0.05" aria-label="Corner radius"></div>
+  <div class="field"><div class="lbl"><span>Knockout gap</span><output id="gapOut"></output></div><input type="range" id="gap" min="0.5" max="2" step="0.1" aria-label="Knockout gap"></div>
+  <div class="two">
+    <div class="field"><div class="lbl">Stroke scaling</div><div class="seg" data-key="scaling"><button data-v="constant">Constant</button><button data-v="scale">Scale</button></div></div>
+    <div class="field"><div class="lbl">Countries</div><div class="seg" data-key="ctry"><button data-v="flag">Flag</button><button data-v="map">Map</button></div></div>
+  </div>
+  <div class="two">
+    <div class="field"><div class="lbl">Labels</div><div class="seg" data-key="labels"><button data-v="on">Show</button><button data-v="off">Hide</button></div></div>
+    <div class="field"><div class="lbl">Appearance</div><div class="seg" data-key="appearance"><button data-v="system">Auto</button><button data-v="light">Light</button><button data-v="dark">Dark</button></div></div>
+  </div>
+</div>
 
-<aside class="panel" id="panel" aria-label="Icon details" aria-hidden="true"></aside>
+<div class="bar" role="toolbar" aria-label="Browse and customise">
+  <select id="kind" aria-label="Category"></select>
+  <label class="search">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
+    <input id="q" type="search" autocomplete="off" aria-label="Search icons"><kbd>⌘K</kbd>
+  </label>
+  <button class="round" id="styleBtn" type="button" aria-label="Switch between outline and solid" title="Outline / solid"></button>
+  <button class="round" id="custom" type="button" aria-label="Customize" aria-expanded="false" title="Customize">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M2 4.5h5M11 4.5h3M2 11.5h3M9 11.5h5"/><circle cx="9" cy="4.5" r="2"/><circle cx="7" cy="11.5" r="2"/></svg>
+  </button>
+</div>
+
+<aside class="detail" id="detail" aria-label="Icon details" aria-hidden="true"></aside>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<footer>
-  Icons and code: MIT. Country and region outlines generated from Natural Earth (public domain); regions follow UN M49. Each icon's metaphor is chosen from research into what other libraries use, then drawn on our own grid.
-  Pilot build — content and shapes will change before 1.0.
-</footer>
-
+<script>/*__BUNDLE__*/</script>
 <script>
 const DATA = /*__DATA__*/null;
-const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', country: 'Country', region: 'Region' };
 const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['country', 'Countries'], ['region', 'Regions']];
-const store = { get(k, d) { try { return localStorage.getItem('li:' + k) ?? d; } catch { return d; } }, set(k, v) { try { localStorage.setItem('li:' + k, v); } catch {} } };
-const state = {
-  q: '', kind: 'all', style: store.get('style', 'outline'), size: +store.get('size', 24), stroke: null,
-  ctry: store.get('ctry', 'flag'), theme: store.get('theme', matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'), sel: null,
-};
-// Deep links: ?q=&icon=&theme=&style=&size=&countries=
+const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', country: 'Country', region: 'Region' };
+const COLORS = [['', 'Default'], ['#2f6feb', 'Blue'], ['#7c5cff', 'Violet'], ['#2da44e', 'Green'], ['#d1434b', 'Red'], ['#d4901f', 'Amber'], ['#74777d', 'Grey']];
+const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
+const BASE_RADIUS_PX = 2.8, BASE_GAP_PX = 1.5;
+
+const load = () => { try { return JSON.parse(localStorage.getItem('li:settings')) || {}; } catch { return {}; } };
+const save = () => { try { localStorage.setItem('li:settings', JSON.stringify(Object.fromEntries(Object.keys(DEF).map((k) => [k, state[k]])))); } catch {} };
+const state = { ...DEF, ...load(), q: '', kind: 'all', sel: null, pop: false };
 { const u = new URLSearchParams(location.search);
   if (u.get('q')) state.q = u.get('q'); if (u.get('icon')) state.sel = u.get('icon');
-  if (['light', 'dark'].includes(u.get('theme'))) state.theme = u.get('theme');
+  if (KINDS.some(([k]) => k === u.get('kind'))) state.kind = u.get('kind');
+  if (['light', 'dark', 'system'].includes(u.get('theme'))) state.appearance = u.get('theme');
   if (['outline', 'solid'].includes(u.get('style'))) state.style = u.get('style');
-  if ([16, 20, 24, 32, 48].includes(+u.get('size'))) state.size = +u.get('size');
-  if (['flag', 'map'].includes(u.get('countries'))) state.ctry = u.get('countries'); }
+  if (DATA.sizes.includes(+u.get('size'))) state.size = +u.get('size');
+  if (u.get('customize')) state.pop = true; }
+
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const dark = matchMedia('(prefers-color-scheme: dark)');
+const isMac = /Mac|iPhone|iPad/.test(navigator.platform);
 
-function seg(el, items, key, onChange) {
-  el.innerHTML = items.map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${String(state[key]) === String(v)}">${l}</button>`).join('');
-  el.onclick = (e) => { const b = e.target.closest('button'); if (!b) return; state[key] = isNaN(+b.dataset.v) ? b.dataset.v : +b.dataset.v; store.set(key, state[key]);
-    el.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', x === b)); onChange && onChange(); render(); };
+function strokeAt(size) {
+  const g = DATA.grid[size], ref = DATA.grid[24].stroke, base = state.stroke ?? ref;
+  const s = state.scaling === 'scale' ? (base * g.stroke) / ref : base;
+  return Math.round(Math.min(g.max, Math.max(g.min, s)) * 100) / 100;
 }
-
-function svgFor(c, size = state.size, style = state.style) {
-  if (c.kind === 'country' && state.ctry === 'flag' && c.flag[size]) return c.flag[size];
-  let s = c.svgs[`${style}-${size}`] || '';
-  if (style === 'outline' && state.stroke != null) s = s.replace('class="li li-outline"', 'class="li li-outline custom"');
-  return s;
+const isFlag = (c) => c.kind === 'country' && state.ctry === 'flag';
+function draw(c, size = state.size, style = state.style) {
+  if (isFlag(c) && c.flag[size]) return c.flag[size];
+  let s;
+  if (LI.has(c.id)) s = LI.render(c.id, size, style, { stroke: strokeAt(size), radius: state.radius, gap: state.gap });
+  else { s = c.svgs[`${style}-${size}`] || ''; if (style === 'outline') s = s.replace(/stroke-width="[\d.]+"/, `stroke-width="${strokeAt(size)}"`); }
+  return s.replace('class="li ', 'class="ic li ');
 }
 function exportSvg(c) {
-  let s = svgFor(c);
-  if (state.style === 'outline' && state.stroke != null && !(c.kind === 'country' && state.ctry === 'flag'))
-    s = s.replace(/stroke-width="[\d.]+"/, `stroke-width="${state.stroke}"`).replace(' custom', '');
+  let s = draw(c).replace('class="ic li ', 'class="li ');
+  if (state.color && !isFlag(c)) s = s.replace(/currentColor/g, state.color);
   return s;
 }
-function fileUrl(c) {
-  if (c.kind === 'country' && state.ctry === 'flag') return `/flags/${c.iso2.toLowerCase()}/4x3-${state.size}.svg`;
-  return `/icons/${c.id}/${state.style}-${state.size}.svg`;
-}
-
+const fileUrl = (c) => isFlag(c) ? `/flags/${c.iso2.toLowerCase()}/4x3-${state.size}.svg` : `/icons/${c.id}/${state.style}-${state.size}.svg`;
 function matches(c, q) {
   if (!q) return true;
   const hay = [c.name, c.id, c.metaphor, c.iso2, c.m49, c.parent, ...(c.keywords || [])].filter(Boolean).join(' ').toLowerCase();
   return q.toLowerCase().split(/\s+/).every((t) => hay.includes(t));
 }
 
-function renderChips(list) {
-  const counts = Object.fromEntries(KINDS.map(([k]) => [k, list.filter((c) => c.kind === k).length]));
-  const items = [['all', 'All', list.length], ...KINDS.map(([k, l]) => [k, l, counts[k]])];
-  $('#chips').innerHTML = items.map(([k, l, n]) => `<button class="chip" type="button" data-k="${k}" aria-pressed="${state.kind === k}">${l}<span class="n">${n}</span></button>`).join('');
+function syncUrl() {
+  const u = new URLSearchParams();
+  if (state.q) u.set('q', state.q); if (state.kind !== 'all') u.set('kind', state.kind); if (state.sel) u.set('icon', state.sel);
+  try { history.replaceState(null, '', u.toString() ? '?' + u : location.pathname); } catch {}
+}
+
+function syncControls() {
+  const theme = state.appearance === 'system' ? (dark.matches ? 'dark' : 'light') : state.appearance;
+  document.documentElement.dataset.theme = theme;
+  document.documentElement.style.setProperty('--icon', state.color || 'var(--fg)');
+  document.querySelectorAll('.seg[data-key]').forEach((seg) => seg.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(state[seg.dataset.key]) === b.dataset.v)));
+  document.querySelectorAll('#swatches .sw').forEach((b) => b.setAttribute('aria-pressed', b.classList.contains('custom') ? !COLORS.some(([c]) => c === state.color) : b.dataset.v === state.color));
+  const solid = state.style === 'solid';
+  $('#strokeField').setAttribute('aria-disabled', solid); $('#stroke').disabled = solid;
+  $('#stroke').value = state.stroke ?? DATA.grid[24].stroke; $('#strokeOut').textContent = (+$('#stroke').value).toFixed(2) + ' px';
+  $('#radius').value = state.radius; $('#radiusOut').textContent = (state.radius * BASE_RADIUS_PX).toFixed(2);
+  $('#gap').value = state.gap; $('#gapOut').textContent = (state.gap * BASE_GAP_PX).toFixed(2);
+  $('#styleBtn').innerHTML = solid
+    ? '<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg>'
+    : '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/></svg>';
+  $('#pop').classList.toggle('open', state.pop); $('#pop').setAttribute('aria-hidden', !state.pop); $('#custom').setAttribute('aria-expanded', state.pop);
+  $('#kind').value = state.kind;
 }
 
 function render() {
-  document.documentElement.dataset.theme = state.theme;
-  $('#theme').innerHTML = state.theme === 'dark'
-    ? '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><path d="M8 1.5v1.5M8 13v1.5M1.5 8H3M13 8h1.5M3.4 3.4l1 1M11.6 11.6l1 1M3.4 12.6l1-1M11.6 4.4l1-1"/></svg>'
-    : '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M13.5 9.5A5.5 5.5 0 0 1 6.5 2.5a5.5 5.5 0 1 0 7 7Z"/></svg>';
-  const g = DATA.grid[state.size];
-  const r = $('#stroke'); r.min = g.min; r.max = g.max; r.step = 0.25;
-  const val = state.stroke ?? g.stroke; r.value = Math.min(g.max, Math.max(g.min, val));
-  if (state.stroke != null) state.stroke = +r.value;
-  $('#strokeVal').textContent = (+r.value).toFixed(2);
-  document.documentElement.style.setProperty('--li-stroke', r.value);
-  const solid = state.style === 'solid';
-  $('#strokeGroup').setAttribute('aria-disabled', solid); r.disabled = solid; $('#strokeReset').disabled = solid || state.stroke == null;
-
+  syncControls(); syncUrl();
   const list = DATA.concepts.filter((c) => matches(c, state.q));
-  renderChips(list);
   const shown = list.filter((c) => state.kind === 'all' || c.kind === state.kind);
-  if (!shown.length) { $('#main').innerHTML = `<p class="empty">No icons match “${esc(state.q)}”.</p>`; return; }
-  $('#main').innerHTML = KINDS.filter(([k]) => shown.some((c) => c.kind === k)).map(([k, l]) => `
-    <section class="kind"><h2>${l}</h2><div class="grid">${shown.filter((c) => c.kind === k).map((c) => `
-      <button class="tile" type="button" data-id="${c.id}" aria-selected="${state.sel === c.id}" title="${esc(c.name)}">
-        <span class="art">${svgFor(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>`).join('');
-  if (state.sel) renderPanel();
+  if (!shown.length) { $('#main').innerHTML = `<p class="empty">Nothing matches “${esc(state.q)}”. Try a sector, an industry, a country or a code.</p>`; }
+  else $('#main').innerHTML = KINDS.filter(([k]) => shown.some((c) => c.kind === k)).map(([k, l]) => {
+    const items = shown.filter((c) => c.kind === k);
+    return `<section class="kind"><h2>${l}<span class="n">${items.length}</span></h2><div class="grid${state.labels === 'off' ? ' nolabels' : ''}">${items.map((c) => `
+      <button class="cell" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>`;
+  }).join('');
+  renderDetail();
 }
 
-function renderPanel() {
-  const c = DATA.concepts.find((x) => x.id === state.sel); if (!c) return;
-  const flag = c.kind === 'country' && state.ctry === 'flag';
-  const big = flag ? c.flag[48] : (c.svgs[`${state.style}-48`] || '').replace('class="li li-outline"', state.stroke != null ? 'class="li li-outline custom"' : 'class="li li-outline"');
+function renderDetail() {
+  const el = $('#detail'), c = DATA.concepts.find((x) => x.id === state.sel);
+  document.body.classList.toggle('has-detail', !!c);
+  if (!c) { el.classList.remove('open'); el.setAttribute('aria-hidden', 'true'); return; }
   const parent = c.parent && DATA.concepts.find((x) => x.id === c.parent);
-  $('#panel').innerHTML = `
+  el.innerHTML = `
     <header><div><h3>${esc(c.name)}</h3><div class="sub">${esc(c.id)}${c.iso2 ? ' · ' + c.iso2 : ''}${c.m49 ? ' · M49 ' + c.m49 : ''}</div></div>
-      <button class="icon-btn" id="close" aria-label="Close details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 3l8 8M11 3l-8 8"/></svg></button></header>
-    <div class="hero">${big}</div>
-    <div class="sizes">${DATA.sizes.map((s) => `<figure>${svgFor(c, s)}<figcaption>${s}</figcaption></figure>`).join('')}</div>
+      <button class="round" id="close" type="button" aria-label="Close details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 3l8 8M11 3l-8 8"/></svg></button></header>
+    <div class="hero">${draw(c, 48)}</div>
+    <div class="sizes">${DATA.sizes.map((s) => `<figure>${draw(c, s)}<figcaption>${s}</figcaption></figure>`).join('')}</div>
     <div class="actions">
-      <button class="btn primary" id="copy">Copy SVG</button>
-      <button class="btn" id="dl">Download</button>
-      <button class="btn" id="url">Copy URL</button>
-      <button class="btn" id="cid">Copy ID</button>
+      <button class="btn primary" id="copy" type="button">Copy SVG</button><button class="btn" id="dl" type="button">Download</button>
+      <button class="btn" id="url" type="button">Copy file URL</button><button class="btn" id="cid" type="button">Copy ID</button>
     </div>
+    <div class="code">${esc(location.host + fileUrl(c))}</div>
     <dl>
-      <dt>Type</dt><dd>${esc(SINGULAR[c.kind] || c.kind)}${parent ? ` · in <a href="#" data-goto="${parent.id}">${esc(parent.name)}</a>` : ''}</dd>
-      ${c.metaphor ? `<dt>Metaphor</dt><dd>${esc(c.metaphor)}</dd>` : ''}
+      <dt>Type</dt><dd>${esc(SINGULAR[c.kind] || c.kind)}${parent ? ` in <a href="?icon=${parent.id}" data-goto="${parent.id}">${esc(parent.name)}</a>` : ''}</dd>
+      ${c.metaphor ? `<dt>Image</dt><dd>${esc(c.metaphor.replace(/-/g, ' '))}</dd>` : ''}
       ${c.reduction ? `<dt>By size</dt><dd>${esc(c.reduction)}</dd>` : ''}
       ${c.rationale ? `<dt>Why</dt><dd>${esc(c.rationale)}</dd>` : ''}
       ${c.keywords?.length ? `<dt>Keywords</dt><dd class="kw">${c.keywords.map((k) => `<span>${esc(k)}</span>`).join('')}</dd>` : ''}
     </dl>`;
-  $('#panel').classList.add('open'); $('#panel').setAttribute('aria-hidden', 'false');
-  $('#close').onclick = closePanel;
+  el.classList.add('open'); el.setAttribute('aria-hidden', 'false');
+  $('#close').onclick = () => { state.sel = null; render(); };
   $('#copy').onclick = () => copy(exportSvg(c), 'SVG copied');
   $('#url').onclick = () => copy(location.origin + fileUrl(c), 'URL copied');
   $('#cid').onclick = () => copy(c.id, 'ID copied');
   $('#dl').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([exportSvg(c)], { type: 'image/svg+xml' }));
-    a.download = `${c.id}-${flag ? 'flag' : state.style}-${state.size}.svg`; a.click(); URL.revokeObjectURL(a.href); };
-  $('#panel').querySelectorAll('[data-goto]').forEach((a) => (a.onclick = (e) => { e.preventDefault(); state.sel = a.dataset.goto; render(); }));
+    a.download = `${c.id}-${isFlag(c) ? 'flag' : state.style}-${state.size}.svg`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); };
+  el.querySelectorAll('[data-goto]').forEach((a) => (a.onclick = (e) => { e.preventDefault(); state.sel = a.dataset.goto; render(); }));
 }
-function closePanel() { state.sel = null; $('#panel').classList.remove('open'); $('#panel').setAttribute('aria-hidden', 'true'); render(); }
 function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 1400); }
-async function copy(text, msg) { try { await navigator.clipboard.writeText(text); toast(msg); } catch { toast('Copy not allowed here'); } }
+async function copy(text, msg) { try { await navigator.clipboard.writeText(text); toast(msg); } catch { toast('Copy was blocked by the browser'); } }
 
-seg($('#style'), [['outline', 'Outline'], ['solid', 'Solid']], 'style');
-seg($('#size'), DATA.sizes.map((s) => [s, s]), 'size', () => { state.stroke = null; });
-seg($('#ctry'), [['flag', 'Flag'], ['map', 'Map']], 'ctry');
+// Static control setup
+$('#kind').innerHTML = `<option value="all">All icons</option>` + KINDS.map(([k, l]) => `<option value="${k}">${l}</option>`).join('');
+$('#swatches').innerHTML = COLORS.map(([c, n]) => `<button class="sw" type="button" data-v="${c}" style="--c:${c || 'var(--fg)'}" aria-label="${n}" title="${n}"></button>`).join('')
+  + `<span class="sw custom" title="Custom colour"><input type="color" id="pick" aria-label="Custom colour" value="#2f6feb"></span>`;
+$('#q').placeholder = `Search ${DATA.concepts.length} icons`;
+if (!isMac) document.querySelector('.bar kbd').textContent = 'Ctrl K';
 $('#q').value = state.q;
+
+const set = (k, v) => { state[k] = v; save(); render(); };
+document.querySelectorAll('.seg[data-key]').forEach((seg) => (seg.onclick = (e) => { const b = e.target.closest('button'); if (!b) return;
+  const k = seg.dataset.key; set(k, k === 'size' ? +b.dataset.v : b.dataset.v); }));
+$('#swatches').onclick = (e) => { const b = e.target.closest('button.sw'); if (b) set('color', b.dataset.v); };
+$('#pick').oninput = (e) => set('color', e.target.value);
+$('#stroke').oninput = (e) => set('stroke', +e.target.value);
+$('#radius').oninput = (e) => set('radius', +e.target.value);
+$('#gap').oninput = (e) => set('gap', +e.target.value);
+$('#reset').onclick = () => { Object.assign(state, DEF); save(); render(); };
+$('#styleBtn').onclick = () => set('style', state.style === 'solid' ? 'outline' : 'solid');
+$('#custom').onclick = () => { state.pop = !state.pop; syncControls(); };
+$('#kind').onchange = (e) => { state.kind = e.target.value; render(); };
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); render(); };
-$('#stroke').oninput = (e) => { state.stroke = +e.target.value; render(); };
-$('#strokeReset').onclick = () => { state.stroke = null; render(); };
-$('#theme').onclick = () => { state.theme = state.theme === 'dark' ? 'light' : 'dark'; store.set('theme', state.theme); render(); };
-$('#chips').onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; state.kind = b.dataset.k; render(); };
-$('#main').onclick = (e) => { const t = e.target.closest('.tile'); if (!t) return; state.sel = t.dataset.id; render(); };
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && state.sel) closePanel(); if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus(); } });
+$('#main').onclick = (e) => { const t = e.target.closest('.cell'); if (!t) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
+dark.addEventListener('change', () => syncControls());
+document.addEventListener('pointerdown', (e) => { if (state.pop && !e.target.closest('#pop, #custom')) { state.pop = false; syncControls(); } });
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') { if (state.pop) { state.pop = false; syncControls(); } else if (state.sel) { state.sel = null; render(); } else if (document.activeElement === $('#q')) $('#q').blur(); }
+  if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName))) { e.preventDefault(); $('#q').focus(); $('#q').select(); }
+});
 render();
 </script>
 </body>

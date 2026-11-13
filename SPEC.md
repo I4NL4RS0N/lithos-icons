@@ -266,6 +266,10 @@ Static site + Netlify Functions. Framework: Astro (static output, small JS islan
 - Size: 16 / 20 / 24 / 32 / 48
 - Stroke: slider within allowed range
 
+**Customize panel (live):** style, size, colour, stroke, corner radius, knockout gap, stroke scaling (constant / scale), flag or map, labels, appearance (auto / light / dark). Code-drawn icons are redrawn in the browser by the same drawing kit the build uses (`src/browser.mjs`, bundled with esbuild); maps and flags ship pre-rendered and respond to stroke and colour only. Not yet matched from IconMCP: dot size, a 40px size.
+
+**Layout:** icon-first grid (no cards), floating command bar (category, search with ⌘K, outline/solid, Customize), detail panel with a shareable `?icon=` URL.
+
 **Pages:** home (search + featured themes), browse by standard (tree), icon detail (all sizes/styles, codes in every scheme, related concepts, copy SVG/JSX/URL, download), themes, geography (map browser), changelog, licence & data sources, API/MCP docs.
 
 **Search:** keyword + synonyms + semantic (embeddings), CLDR names in multiple languages, search by code in any published scheme. Log zero-result queries (anonymous) for the Gap filler.
