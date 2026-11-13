@@ -158,6 +158,21 @@ We follow Helena Zhang's *7 Principles of Icon Design* (uxdesign.cc). Each princ
 | **Personality** | Soft geometric: generous radius (0.14 of live area), round caps and joins, full forms. | Preview review |
 | **Ease of use** | Clear IDs and names, documented rules, previews at real sizes in light and dark. | `npm run all` |
 
+### Metaphor rules
+- **Sector = infrastructure, industry = product.** Example: Utilities is a pylon; Electric Utilities a bolt, Water Utilities a drop, Gas Utilities a flame on a burner, Multi-Utilities drop + bolt.
+- A child concept may reuse its parent's metaphor with a modifier, but never another branch's metaphor (Energy's flame ≠ Gas Utilities' burner flame).
+
+### Metaphor research
+Before drawing a new concept, the Designer agent runs `scripts/research.mjs <id>`:
+1. Queries the Noun Project and Iconfinder APIs for the concept name and keywords.
+2. Saves titles, tags, term counts and thumbnail URLs to `data/research/<id>.json`. Never their SVGs.
+3. Groups the results by metaphor (using the thumbnails), picks the most widely recognised one that fits, and records `decision.metaphor` + `decision.rationale`.
+4. Draws our own version on our grid. A similarity check against the reference thumbnails rejects near-copies.
+
+Third-party icons are references only. Noun Project free icons require attribution and Iconfinder free icons carry per-creator licences, so nothing from either is copied, traced or shipped.
+
+Secrets (GitHub Actions): `NOUN_PROJECT_KEY`, `NOUN_PROJECT_SECRET`, `ICONFINDER_KEY`.
+
 ### Grid per size
 | Size | Padding | Default stroke | Allowed stroke | Tier |
 |---|---|---|---|---|
@@ -295,7 +310,7 @@ Rate limiting per IP; no auth for read.
 
 1. Create public GitHub repo (`lithos-icons`).
 2. Connect repo to Netlify; set custom domain `icons.lithos.design`.
-3. Add `ANTHROPIC_API_KEY` as a GitHub Actions secret.
+3. Add GitHub Actions secrets: `ANTHROPIC_API_KEY`, `NOUN_PROJECT_KEY`, `NOUN_PROJECT_SECRET`, `ICONFINDER_KEY`.
 4. Check Fitch outside-activities / IP policy.
 
 ## 15. Open questions

@@ -14,7 +14,8 @@
   "monitor": [],
   "chip": ["semiconductors"],
   "speech-bubble": ["communication-services"],
-  "bolt": ["utilities", "electric-utilities"],
+  "bolt": ["electric-utilities"],
+  "pylon": ["utilities"],
   "laptop": ["information-technology"],
   "house": ["real-estate", "residential"]
 }

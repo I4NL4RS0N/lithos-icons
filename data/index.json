@@ -175,7 +175,7 @@
     "id": "utilities",
     "name": "Utilities",
     "kind": "sector",
-    "metaphor": "bolt",
+    "metaphor": "pylon",
     "keywords": [
       "electric",
       "power",
@@ -183,9 +183,10 @@
       "gas utilities",
       "renewables",
       "grid",
-      "electricity"
+      "electricity",
+      "transmission"
     ],
-    "reduction": "None — single shape at all sizes.",
+    "reduction": "16–24: legs + two arms. 32+: cross-brace and insulators.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
