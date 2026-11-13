@@ -92,6 +92,8 @@
   .down { position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; display: grid; place-items: center; border-radius: 999px; color: var(--muted); background: var(--pill); }
   .down:hover { color: var(--accent-fg); background: var(--accent); }
   .ghead { scroll-margin-top: 16px; }
+  .grid.flat { margin-top: 22px; }
+  .grid.flat .cell { scroll-margin-top: 16px; }
   .group { margin: 14px 0 6px; }
   .ghead { display: flex; align-items: center; gap: 10px; width: 100%; border: 0; background: transparent; text-align: left; padding: 6px 10px; margin: 0 -10px; border-radius: 10px; }
   .ghead:hover, .ghead[aria-current="true"] { background: var(--hover); }
@@ -370,31 +372,17 @@ function renderStandard(std) {
   if (!tree) { loadStd(std); $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · loading…</p>`; return renderDetail(); }
   const q = state.q.toLowerCase().split(/\s+/).filter(Boolean);
   const self = (n) => q.every((t) => (n.code + ' ' + n.name).toLowerCase().includes(t));
-  const vis = new Map(), below = new Map(); // show a node when it or a descendant matches; `below` = a descendant matches
-  const mark = (n) => { let d = false; for (const k of n.kids) d = mark(k) || d; below.set(n, d); const v = !q.length || d || self(n); vis.set(n, v); return v; };
-  tree.tops.forEach(mark);
   const byId = Object.fromEntries(DATA.concepts.map((c) => [c.id, c])), memo = {};
   const icon = (n, size) => (byId[n.concept] ? (memo[n.concept + size] ||= draw(byId[n.concept], size)) : '');
-  // Every code is an icon tile and the whole tree is open. A node with children becomes a group: its own tile as the
-  // header, then its leaf children as a tile grid and its branch children as nested groups, indented with a rule.
-  const shown = (n) => (q.length ? n.kids.filter((k) => vis.get(k)) : n.kids);
+  // One flat grid, like the main page: every code is an equal tile, in code order (a parent sits just before its
+  // children: 11, 111, 1111 …). No headers or nesting; the code chip carries the hierarchy.
   const chip = (n) => (std.codes ? `<span class="codechip">${esc(n.code)}</span>` : ''); // some schemes have names only
-  // A node whose only child is a leaf (NAICS 11111 → 111110) is one tile carrying both codes, not a group of one.
-  const solo = (n) => { const k = shown(n); return k.length === 1 && !shown(k[0]).length ? k[0] : null; };
-  const tile = (n) => { const c = solo(n), d = c && c.direct ? c : n;
-    return `<button class="cell${d.direct ? '' : ' inherited'}" type="button" data-id="${d.concept || ''}" aria-current="${state.sel === d.concept && d.direct}" title="${esc(n.code + ' ' + n.name + (c ? ' · ' + c.code + ' ' + c.name : ''))}">
-      <span class="art">${icon(d, state.size)}</span><span class="nm">${chip(n)}${c ? ' ' + chip(c) : ''}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`; };
-  // One rule at every level: a node's children sit in one horizontal row of tiles, in the standard's order. A child
-  // that has children of its own also gets a section below the row (header + its own row), linked from its tile.
-  const lvl = (d, n) => { const l = std.levels[d] || 'item'; return n === 1 ? l : l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's'); };
-  const gid = (n) => 'g-' + n.code.replace(/[^\w-]/g, '_');
-  const isBranch = (n) => shown(n).length && !solo(n);
-  const head = (n) => `<button class="ghead${n.direct ? '' : ' inherited'}" type="button" id="${gid(n)}" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}"><span class="art">${icon(n, 20)}</span>${chip(n)}<span class="t">${esc(n.name)}</span><span class="cnt">${shown(n).length} ${lvl(n.depth + 1, shown(n).length)}</span></button>`;
-  const body = (nodes) => `<div class="grid">${nodes.map((n) => (isBranch(n) ? `<div class="tcell">${tile(n)}<a class="down" href="#${gid(n)}" title="Jump to the ${shown(n).length} ${lvl(n.depth + 1, shown(n).length)} in ${esc(n.name)}" aria-label="Jump to ${esc(n.name)}"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v8M2.5 6.5 6 10l3.5-3.5"/></svg></a></div>` : tile(n))).join('')}</div>`
-    + nodes.filter(isBranch).map((n) => `<div class="group">${head(n)}<div class="gbody">${body(shown(n))}</div></div>`).join('');
-  const tops = tree.tops.filter((t) => vis.get(t));
-  const sections = tops.map((t) => `<section class="std" id="s-${esc(t.code)}"><button class="std-head" type="button" data-id="${t.concept || ''}" title="${esc(t.name)}"><span class="art">${icon(t, state.size)}</span>${chip(t)}<span class="t">${esc(t.name)}</span></button>
-      ${body(shown(t))}</section>`).join('');
+  const order = []; const walk = (n) => { order.push(n); n.kids.forEach(walk); }; tree.tops.forEach(walk);
+  const list = q.length ? order.filter(self) : order;
+  const tile = (n) => `<button class="cell${n.direct ? '' : ' inherited'}" type="button"${n.parent ? '' : ` id="s-${esc(n.code)}"`} data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc((std.codes ? n.code + ' ' : '') + n.name)}">
+      <span class="art">${icon(n, state.size)}</span><span class="nm">${chip(n)}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`;
+  const sections = list.length ? `<div class="grid flat">${list.map(tile).join('')}</div>` : '';
+  const tops = q.length ? [] : tree.tops;
   const jump = tops.length > 1 ? `<div class="jump">${tops.map((t) => `<a href="#s-${esc(t.code)}" title="${esc(t.name)}">${chip(t)}${esc(std.codes ? t.name.split(/,| and | And /)[0] : t.name)}</a>`).join('')}</div>` : '';
   const counts = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`).join(', ');
   const own = tree.nodes.filter((n) => n.direct).length;
