@@ -12,7 +12,7 @@ export default [
     keywords: ['renewables', 'wind', 'solar', 'clean energy', 'independent power producers', 'green energy'],
     reduction: '24+: ground line.',
     draw(k) {
-      const hx = 0.5, hy = 0.38, L = 0.36, hub = 0.06;
+      const hx = 0.5, hy = k.solid ? 0.42 : 0.38, L = k.solid ? 0.36 - (k.sw * 0.6) / k.L : 0.36, hub = 0.06;
       const tip = (deg) => [hx + L * Math.cos((deg * Math.PI) / 180), hy + L * Math.sin((deg * Math.PI) / 180)];
       const start = (deg) => [hx + hub * 1.6 * Math.cos((deg * Math.PI) / 180), hy + hub * 1.6 * Math.sin((deg * Math.PI) / 180)];
       const blades = [-90, 30, 150].map((d) => [k.tier >= 1 ? start(d) : [hx, hy], tip(d)]);
@@ -77,9 +77,9 @@ export default [
     keywords: ['investment managers', 'funds', 'portfolio', 'wealth management', 'allocation', 'custody'],
     reduction: 'None — pie and slice at all sizes.',
     draw(k) {
-      const cx = 0.46, cy = 0.54, r = 0.44, off = Math.max(0.08, k.gapN(1) * 0.8) + (k.solid ? k.sw / k.L * 0.75 : 0);
+      const cx = k.solid ? 0.43 : 0.46, cy = k.solid ? 0.57 : 0.54, r = k.solid ? 0.4 : 0.44, off = Math.max(0.08, k.gapN(1) * 0.8) + (k.solid ? k.sw / k.L * 0.75 : 0);
       const pie = k.path([['M', cx, cy], ['L', cx, cy - r], ['A', r, r, 0, 1, 0, cx + r, cy], ['Z']], { snap: false });
-      const sx = cx + off, sy = cy - off, rr = r - 0.04;
+      const sx = cx + off, sy = cy - off, rr = Math.min(r - 0.04, 0.98 - sx, sy - 0.02);
       const slice = k.path([['M', sx, sy], ['L', sx, sy - rr], ['A', rr, rr, 0, 0, 1, sx + rr, sy], ['Z']], { snap: false });
       return { outline: [pie, slice], solid: [{ d: pie, fill: true }, { d: slice, fill: true }] };
     },
@@ -109,7 +109,7 @@ export default [
       const h = 0.0001, plus = [[0.5 - h, cy - a], [0.5 + h, cy - a], [0.5 + h, cy - h], [0.5 + a, cy - h], [0.5 + a, cy + h], [0.5 + h, cy + h], [0.5 + h, cy + a], [0.5 - h, cy + a], [0.5 - h, cy + h], [0.5 - a, cy + h], [0.5 - a, cy - h], [0.5 - h, cy - h]];
       return {
         outline: [shell, ...cross, ...doorP],
-        solid: [{ d: shell + k.offsetPoly(plus, k.sw) + (door ? k.offsetPoly([[0.42, 0.76], [0.58, 0.76], [0.58, 1.2], [0.42, 1.2]], k.sw / 2) : ''), fill: true }],
+        solid: [{ d: shell + k.offsetPoly(plus, k.sw) + (door ? k.poly([[0.42 - g, 0.76 - g], [0.58 + g, 0.76 - g], [0.58 + g, 1], [0.42 - g, 1]], { snap: false }) : ''), fill: true }],
       };
     },
   },
