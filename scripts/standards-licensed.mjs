@@ -14,6 +14,9 @@ const ALIAS = {
   'pharmaceuticals-biotechnology-life-sciences': 'pharmaceuticals', 'software-services': 'software', 'automobiles-components': 'automobiles', 'capital-goods': 'industrials',
   'media-entertainment': 'media', 'financial-services': 'financials', 'commercial-professional-services': 'professional-services', 'equity-real-estate-investment-trusts-reits': 'real-estate',
   'real-estate-management-development': 'real-estate', 'telecommunication-services': 'communication-services', 'technology-hardware-equipment': 'information-technology',
+  'textiles-apparel-luxury-goods': 'apparel', 'apparel-accessories-luxury-goods': 'apparel', 'apparel-retail': 'apparel', 'home-furnishings': 'furniture', 'air-freight-logistics': 'postal-courier',
+  'hotels-resorts-cruise-lines': 'lodging', 'environmental-facilities-services': 'waste-management', 'forest-products': 'forestry', 'agricultural-products-services': 'crops',
+  'electrical-components-equipment': 'electrical-equipment', 'heavy-electrical-equipment': 'electrical-equipment',
   // Fitch
   'financial-institutions': 'financials', 'global-power': 'electric-utilities', 'corporates': 'industrials', 'asset-backed-securities': 'abs', 'commercial-mortgage': 'cmbs',
   'residential-mortgage': 'rmbs', 'structured-credit': 'clo', 'cdos-clos': 'clo', 'structured-finance': 'abs', 'u-s-public-finance': 'municipal-bonds', 'healthcare': 'health-care',

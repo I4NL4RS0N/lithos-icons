@@ -799,6 +799,236 @@
     "since": "0.1.0"
   },
   {
+    "id": "forestry",
+    "name": "Forestry",
+    "kind": "industry",
+    "parent": "agriculture",
+    "metaphor": "log-pile",
+    "keywords": [
+      "logging",
+      "timber",
+      "lumber",
+      "wood",
+      "silviculture",
+      "forest"
+    ],
+    "reduction": "24+: growth ring in each log.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "fishing",
+    "name": "Fishing",
+    "kind": "industry",
+    "parent": "agriculture",
+    "metaphor": "fish",
+    "keywords": [
+      "fisheries",
+      "aquaculture",
+      "seafood",
+      "fish farming",
+      "trawling"
+    ],
+    "reduction": "20+: eye.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "livestock",
+    "name": "Livestock",
+    "kind": "industry",
+    "parent": "agriculture",
+    "metaphor": "cow-head",
+    "keywords": [
+      "cattle",
+      "animal production",
+      "ranching",
+      "dairy",
+      "poultry",
+      "hogs",
+      "meat"
+    ],
+    "reduction": "16: head, horns and ears only. 20+: muzzle line. 24+: eyes. 32+: nostrils.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "crops",
+    "name": "Crops",
+    "kind": "industry",
+    "parent": "agriculture",
+    "metaphor": "wheat-ear",
+    "keywords": [
+      "crop production",
+      "grain",
+      "wheat",
+      "farming",
+      "harvest",
+      "cereals",
+      "oilseeds"
+    ],
+    "reduction": "16–20: two pairs of grains. 24+: three pairs.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "apparel",
+    "name": "Apparel",
+    "kind": "industry",
+    "parent": "consumer-discretionary",
+    "metaphor": "t-shirt",
+    "keywords": [
+      "textiles",
+      "clothing",
+      "fashion",
+      "garments",
+      "luxury goods",
+      "footwear"
+    ],
+    "reduction": "None — one silhouette at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "furniture",
+    "name": "Furniture",
+    "kind": "industry",
+    "parent": "consumer-discretionary",
+    "metaphor": "armchair",
+    "keywords": [
+      "home furnishings",
+      "household durables",
+      "sofa",
+      "chairs",
+      "fixtures"
+    ],
+    "reduction": "16: no seat line.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "publishing",
+    "name": "Publishing",
+    "kind": "industry",
+    "parent": "communication-services",
+    "metaphor": "open-book",
+    "keywords": [
+      "books",
+      "newspapers",
+      "printing",
+      "magazines",
+      "publishers",
+      "press"
+    ],
+    "reduction": "None — two pages and a spine at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "waste-management",
+    "name": "Waste Management",
+    "kind": "industry",
+    "parent": "industrials",
+    "metaphor": "bin",
+    "keywords": [
+      "waste",
+      "recycling",
+      "environmental services",
+      "sanitation",
+      "disposal",
+      "refuse"
+    ],
+    "reduction": "16: one rib. 20+: two ribs.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "postal-courier",
+    "name": "Postal & Courier",
+    "kind": "industry",
+    "parent": "transportation",
+    "metaphor": "envelope",
+    "keywords": [
+      "mail",
+      "post",
+      "parcels",
+      "delivery",
+      "air freight",
+      "logistics",
+      "couriers"
+    ],
+    "reduction": "None — envelope and flap at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "legal-services",
+    "name": "Legal Services",
+    "kind": "industry",
+    "parent": "professional-services",
+    "metaphor": "scales",
+    "keywords": [
+      "law",
+      "lawyers",
+      "justice",
+      "courts",
+      "compliance",
+      "litigation",
+      "regulation"
+    ],
+    "reduction": "16–20: bowls hang straight off the beam. 24+: pans on strings.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "electrical-equipment",
+    "name": "Electrical Equipment",
+    "kind": "industry",
+    "parent": "industrials",
+    "metaphor": "plug",
+    "keywords": [
+      "electrical components",
+      "power equipment",
+      "cables",
+      "batteries",
+      "appliances",
+      "wiring"
+    ],
+    "reduction": "None — plug, two prongs and cord at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "lodging",
+    "name": "Lodging",
+    "kind": "industry",
+    "parent": "accommodation-food",
+    "metaphor": "bed",
+    "keywords": [
+      "hotels",
+      "resorts",
+      "accommodation",
+      "motels",
+      "hospitality",
+      "cruise lines"
+    ],
+    "reduction": "16: pillow as a dot.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "energy",
     "name": "Energy",
     "kind": "sector",

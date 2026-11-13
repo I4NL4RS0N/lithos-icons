@@ -1,0 +1,801 @@
+{
+ "concept": "livestock",
+ "query": "livestock",
+ "fetched": "2026-11-13T21:08:13.490Z",
+ "topTerms": [
+  [
+   "livestock",
+   45
+  ],
+  [
+   "farm",
+   20
+  ],
+  [
+   "cow",
+   18
+  ],
+  [
+   "farming",
+   17
+  ],
+  [
+   "cattle",
+   16
+  ],
+  [
+   "animal",
+   14
+  ],
+  [
+   "agriculture",
+   10
+  ],
+  [
+   "animals",
+   7
+  ],
+  [
+   "goat",
+   4
+  ],
+  [
+   "chicken",
+   4
+  ],
+  [
+   "transport",
+   4
+  ],
+  [
+   "livestock management",
+   4
+  ],
+  [
+   "livestock-management",
+   4
+  ],
+  [
+   "pig",
+   3
+  ],
+  [
+   "field",
+   3
+  ],
+  [
+   "feed",
+   3
+  ],
+  [
+   "nutrition",
+   3
+  ],
+  [
+   "supplement",
+   3
+  ],
+  [
+   "milk",
+   3
+  ],
+  [
+   "livestock ship",
+   3
+  ],
+  [
+   "livestock-ship",
+   3
+  ],
+  [
+   "ship",
+   3
+  ],
+  [
+   "agribusiness",
+   3
+  ],
+  [
+   "barn",
+   2
+  ],
+  [
+   "sheep",
+   2
+  ],
+  [
+   "nature",
+   2
+  ],
+  [
+   "husbandry",
+   2
+  ],
+  [
+   "feeding",
+   2
+  ],
+  [
+   "hemp",
+   2
+  ],
+  [
+   "organic",
+   2
+  ],
+  [
+   "domestic",
+   2
+  ],
+  [
+   "iot",
+   2
+  ],
+  [
+   "horse",
+   2
+  ],
+  [
+   "ranch",
+   2
+  ],
+  [
+   "climate-change",
+   2
+  ],
+  [
+   "poultry",
+   2
+  ],
+  [
+   "cargo",
+   2
+  ],
+  [
+   "vessel",
+   2
+  ],
+  [
+   "business",
+   2
+  ],
+  [
+   "control",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "cattle",
+      "farm",
+      "goat",
+      "livestock",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8344427-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animals",
+      "chicken",
+      "cow",
+      "farm",
+      "goat",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8336970-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animals",
+      "chicken",
+      "cow",
+      "farm",
+      "goat",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8336946-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animals",
+      "barn",
+      "cow",
+      "farming",
+      "livestock",
+      "pig"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8081817-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animals",
+      "cattle",
+      "chicken",
+      "livestock",
+      "sheep"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7472291-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cattle",
+      "farm",
+      "livestock",
+      "pig",
+      "sheep"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7242891-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "agriculture",
+      "farm",
+      "farming",
+      "field",
+      "livestock",
+      "nature"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6786738-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "agriculture",
+      "farm",
+      "farming",
+      "field",
+      "livestock",
+      "nature"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6786694-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "agriculture",
+      "farming",
+      "livestock",
+      "smart-farm",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6379964-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "agriculture",
+      "animal",
+      "cattle",
+      "cow",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5258542-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "feed",
+      "livestock",
+      "nutrition",
+      "supplement"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5216904-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "feed",
+      "livestock",
+      "nutrition",
+      "supplement"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5216882-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "feed",
+      "livestock",
+      "nutrition",
+      "supplement"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5216846-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "farm",
+      "farming",
+      "husbandry",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5195610-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "farming",
+      "feeding",
+      "hemp",
+      "livestock",
+      "organic"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4785015-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "farming",
+      "feeding",
+      "hemp",
+      "livestock",
+      "organic"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4784219-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cattle",
+      "cow",
+      "domestic",
+      "farm",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4664752-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animals",
+      "cow",
+      "cows",
+      "farm",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4624597-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cattle",
+      "cow",
+      "domestic",
+      "farm",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4544589-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "agriculture",
+      "cow",
+      "farm",
+      "iot",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4318077-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cow",
+      "farming",
+      "iot",
+      "livestock",
+      "smart"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4318041-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "cattle",
+      "cow",
+      "farming",
+      "gardening",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4293290-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "cow",
+      "livestock",
+      "pig"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4028569-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cattle",
+      "cow",
+      "dairy",
+      "farm",
+      "livestock",
+      "milk"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3719305-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cattle",
+      "cow",
+      "farm",
+      "livestock",
+      "milk"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3694277-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animals",
+      "cattle",
+      "horse",
+      "livestock",
+      "ranch"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3636812-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animals",
+      "cattle",
+      "horse",
+      "livestock",
+      "ranch"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3634683-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "agriculture",
+      "animal",
+      "farm",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3565153-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "agriculture",
+      "animal",
+      "farm",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3565119-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cattle",
+      "climate-change",
+      "farm",
+      "farming",
+      "livestock",
+      "poultry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3191205-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cattle",
+      "climate-change",
+      "farm",
+      "farming",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3189082-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cow",
+      "farm-animal",
+      "farming",
+      "goat",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2736285-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cow",
+      "livestock",
+      "milk"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2009534-84.png",
+     "licence": "public-domain"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "barn",
+      "cow",
+      "farm",
+      "field",
+      "livestock"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1176661-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "cage",
+      "chicken",
+      "farmer",
+      "farming",
+      "livestock",
+      "poultry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/974215-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock",
+     "tags": [
+      "animal",
+      "cattle",
+      "cow",
+      "development",
+      "farm",
+      "food",
+      "humanitarian",
+      "livestock",
+      "socioeconomic"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4273-84.png",
+     "licence": "public-domain"
+    },
+    {
+     "title": "Livestock ship",
+     "tags": [
+      "livestock",
+      "livestock-carrier",
+      "livestock-ship",
+      "seagoing-vessel",
+      "ship",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8400489-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock ship",
+     "tags": [
+      "cargo",
+      "livestock",
+      "livestock-ship",
+      "ship",
+      "transport",
+      "vessel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8346331-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "livestock market",
+     "tags": [
+      "business",
+      "livestock",
+      "livestock-market",
+      "meat-shop",
+      "shopping"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8344440-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "livestock management",
+     "tags": [
+      "animal",
+      "business",
+      "livestock",
+      "livestock-management",
+      "livestock-management",
+      "management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8344435-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock Health",
+     "tags": [
+      "animal",
+      "checking",
+      "farm",
+      "health",
+      "livestock-health"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8344425-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock Equipment",
+     "tags": [
+      "livestock",
+      "livestock-equipment",
+      "pitchfork",
+      "rake",
+      "shovel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8344423-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "livestock management",
+     "tags": [
+      "control",
+      "cow",
+      "farming",
+      "livestock-management",
+      "productivity",
+      "system"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8304586-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "livestock management",
+     "tags": [
+      "control",
+      "farming",
+      "livestock",
+      "livestock-management",
+      "monitoring",
+      "system"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8304584-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "livestock management",
+     "tags": [
+      "agribusiness",
+      "agriculture",
+      "care",
+      "livestock-management",
+      "productivity"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8252187-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock ship",
+     "tags": [
+      "cargo",
+      "livestock",
+      "livestock-ship",
+      "ship",
+      "transport",
+      "vessel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8224967-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "livestock truck",
+     "tags": [
+      "delivery",
+      "livestock",
+      "livestock-truck",
+      "trailer",
+      "transport",
+      "truck"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8224910-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "livestock truck",
+     "tags": [
+      "delivery",
+      "livestock",
+      "livestock-truck",
+      "trailer",
+      "transport",
+      "truck"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8186743-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock farming",
+     "tags": [
+      "agribusiness",
+      "agriculture",
+      "cattle",
+      "farming",
+      "husbandry",
+      "livestock-farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8145299-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Livestock farming",
+     "tags": [
+      "agribusiness",
+      "agriculture",
+      "animal",
+      "cattle",
+      "farming",
+      "livestock-farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8145297-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "cow-head",
+  "rationale": "Cow and cattle dominate the refs.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

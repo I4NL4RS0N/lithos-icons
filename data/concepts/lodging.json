@@ -1,0 +1,19 @@
+{
+  "id": "lodging",
+  "name": "Lodging",
+  "kind": "industry",
+  "parent": "accommodation-food",
+  "metaphor": "bed",
+  "keywords": [
+    "hotels",
+    "resorts",
+    "accommodation",
+    "motels",
+    "hospitality",
+    "cruise lines"
+  ],
+  "reduction": "16: pillow as a dot.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

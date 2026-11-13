@@ -1,0 +1,797 @@
+{
+ "concept": "lodging",
+ "query": "hotel",
+ "fetched": "2026-11-13T21:08:19.238Z",
+ "topTerms": [
+  [
+   "hotel",
+   50
+  ],
+  [
+   "building",
+   25
+  ],
+  [
+   "vacation",
+   22
+  ],
+  [
+   "accommodation",
+   17
+  ],
+  [
+   "travel",
+   16
+  ],
+  [
+   "resort",
+   12
+  ],
+  [
+   "architecture",
+   6
+  ],
+  [
+   "stay",
+   6
+  ],
+  [
+   "reservation",
+   6
+  ],
+  [
+   "holiday",
+   5
+  ],
+  [
+   "bed",
+   5
+  ],
+  [
+   "room",
+   5
+  ],
+  [
+   "city",
+   5
+  ],
+  [
+   "tourism",
+   5
+  ],
+  [
+   "modern",
+   4
+  ],
+  [
+   "lodging",
+   4
+  ],
+  [
+   "buildings",
+   3
+  ],
+  [
+   "holidays",
+   3
+  ],
+  [
+   "hotel-service",
+   3
+  ],
+  [
+   "vacations",
+   3
+  ],
+  [
+   "booking",
+   3
+  ],
+  [
+   "hospitality",
+   3
+  ],
+  [
+   "luxury",
+   3
+  ],
+  [
+   "hostel",
+   3
+  ],
+  [
+   "location",
+   3
+  ],
+  [
+   "trip",
+   3
+  ],
+  [
+   "hotel-building",
+   2
+  ],
+  [
+   "urban",
+   2
+  ],
+  [
+   "construction",
+   2
+  ],
+  [
+   "ski-resort",
+   2
+  ],
+  [
+   "winter",
+   2
+  ],
+  [
+   "summer",
+   2
+  ],
+  [
+   "map-and-navigation",
+   2
+  ],
+  [
+   "rest",
+   2
+  ],
+  [
+   "star-hotel",
+   2
+  ],
+  [
+   "hotels",
+   2
+  ],
+  [
+   "condominium",
+   1
+  ],
+  [
+   "faceda",
+   1
+  ],
+  [
+   "office",
+   1
+  ],
+  [
+   "hotel-bed",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "Hotel",
+     "tags": [
+      "architecture",
+      "building",
+      "condominium",
+      "faceda",
+      "hotel",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8388270-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "holiday",
+      "hotel",
+      "resort",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8385176-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "hotel",
+      "hotel-bed",
+      "hotel-booking"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6493767-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "bed",
+      "bedroom",
+      "hotel",
+      "room"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4390996-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "building",
+      "hotel",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4119014-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "hotel",
+      "hotel-building",
+      "luxury-hotel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1815010-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "architecture",
+      "buildings",
+      "holidays",
+      "hotel",
+      "hotel-service",
+      "vacations"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8517392-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "architecture",
+      "building",
+      "city",
+      "hotel",
+      "modern",
+      "urban"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8516965-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "architecture",
+      "building",
+      "city",
+      "hotel",
+      "modern",
+      "urban"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8516948-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "booking",
+      "hotel",
+      "hotel",
+      "resort",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8516379-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "hospitality",
+      "hotel",
+      "lodging",
+      "resort",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8513732-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "booking",
+      "building",
+      "hotel",
+      "hotel",
+      "room",
+      "stay"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8512409-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hotel",
+      "luxury",
+      "reservation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8510081-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hotel",
+      "luxury",
+      "reservation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8510078-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accomodation",
+      "building",
+      "holidays",
+      "hotel",
+      "vacations"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8508908-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "architecture",
+      "building",
+      "city",
+      "construction",
+      "hotel",
+      "modern"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8506295-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "architecture",
+      "building",
+      "city",
+      "construction",
+      "hotel",
+      "modern"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8506288-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "building",
+      "holiday",
+      "hostel",
+      "hotel",
+      "resort"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8503898-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hotel",
+      "service",
+      "stay",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8502962-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "hotel",
+      "ski-resort",
+      "vacation",
+      "winter"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8500205-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "hotel",
+      "ski-resort",
+      "vacation",
+      "winter"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8500160-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "building",
+      "hotel",
+      "lodging",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8485925-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hotel",
+      "luxury",
+      "room",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8485781-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "holiday",
+      "hotel",
+      "summer",
+      "tourism",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8484560-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "holiday",
+      "hotel",
+      "summer",
+      "tourism",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8484548-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "bed",
+      "hotel",
+      "hotel",
+      "location",
+      "map-and-navigation",
+      "rest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8480782-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hostel",
+      "hotel",
+      "resort",
+      "tourism"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8477292-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hostel",
+      "hotel",
+      "resort",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8475194-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "hotel",
+      "lodging",
+      "stay",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8473612-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "buildings",
+      "holidays",
+      "hotel",
+      "hotel-service",
+      "vacations"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8469465-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "guide",
+      "home",
+      "hotel",
+      "location",
+      "navigation",
+      "pin"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8465801-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "hotel",
+      "star-hotel",
+      "tourism",
+      "travel",
+      "trip",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8465800-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "bed",
+      "hotel",
+      "star-hotel",
+      "tourism",
+      "trip",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8465799-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "building",
+      "hotel",
+      "reservation",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8464690-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "building",
+      "hotel",
+      "reservation",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8464666-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "apartment",
+      "building",
+      "hotel",
+      "hotels",
+      "real-estate",
+      "restaurant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8463075-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hotel",
+      "resort",
+      "stay",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8458288-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "building",
+      "hotel",
+      "hotel-building",
+      "hotels",
+      "resort",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8456293-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "bed",
+      "hotel",
+      "location",
+      "map-and-navigation",
+      "rest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8454128-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hospitality",
+      "hotel",
+      "resort"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8450064-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hospitality",
+      "hotel",
+      "resort"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8450031-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "buildings",
+      "hotel",
+      "house",
+      "resort",
+      "trip"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8449932-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "holiday",
+      "hotel",
+      "journey",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8449581-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "hotel",
+      "lodging",
+      "stay",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8448068-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "hotel",
+      "reservation",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8445780-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "hotel",
+      "reservation",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8445746-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "bed",
+      "hotel",
+      "room"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8442678-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "city",
+      "hotel",
+      "hotel-service",
+      "trip-holidays",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8441651-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "accommodation",
+      "building",
+      "hotel",
+      "resort",
+      "stay",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8439034-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hotel",
+     "tags": [
+      "booking",
+      "hotel",
+      "room",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8437208-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "bed",
+  "rationale": "Hotel buildings lead but would clash with hospitals; the bed is the next most common.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

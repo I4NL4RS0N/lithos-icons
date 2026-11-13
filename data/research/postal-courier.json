@@ -1,0 +1,801 @@
+{
+ "concept": "postal-courier",
+ "query": "postal service",
+ "fetched": "2026-11-13T21:08:17.443Z",
+ "topTerms": [
+  [
+   "postal service",
+   43
+  ],
+  [
+   "postal-service",
+   43
+  ],
+  [
+   "mail",
+   37
+  ],
+  [
+   "delivery",
+   36
+  ],
+  [
+   "courier",
+   29
+  ],
+  [
+   "post-office",
+   26
+  ],
+  [
+   "service",
+   9
+  ],
+  [
+   "envelope",
+   8
+  ],
+  [
+   "postal services",
+   7
+  ],
+  [
+   "postal-services",
+   7
+  ],
+  [
+   "mailbox",
+   6
+  ],
+  [
+   "post",
+   6
+  ],
+  [
+   "letter",
+   5
+  ],
+  [
+   "postal",
+   5
+  ],
+  [
+   "communications",
+   4
+  ],
+  [
+   "deliveries",
+   3
+  ],
+  [
+   "business",
+   2
+  ],
+  [
+   "email",
+   2
+  ],
+  [
+   "management",
+   2
+  ],
+  [
+   "professional",
+   2
+  ],
+  [
+   "express",
+   2
+  ],
+  [
+   "hand",
+   2
+  ],
+  [
+   "transport",
+   2
+  ],
+  [
+   "truck",
+   2
+  ],
+  [
+   "postbox",
+   2
+  ],
+  [
+   "setting",
+   2
+  ],
+  [
+   "shipping",
+   2
+  ],
+  [
+   "box",
+   2
+  ],
+  [
+   "carton",
+   2
+  ],
+  [
+   "signage",
+   2
+  ],
+  [
+   "air-mail",
+   2
+  ],
+  [
+   "give",
+   2
+  ],
+  [
+   "message",
+   2
+  ],
+  [
+   "building",
+   2
+  ],
+  [
+   "packages",
+   1
+  ],
+  [
+   "postage",
+   1
+  ],
+  [
+   "logistics",
+   1
+  ],
+  [
+   "tracking",
+   1
+  ],
+  [
+   "delivery-services",
+   1
+  ],
+  [
+   "mail-handling",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "postal service",
+     "tags": [
+      "business",
+      "email",
+      "management",
+      "postal-service",
+      "professional",
+      "service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8190540-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "business",
+      "email",
+      "management",
+      "postal-service",
+      "professional",
+      "service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8190515-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "delivery",
+      "mail",
+      "mailbox",
+      "post-office",
+      "postal-service",
+      "service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7854993-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "delivery",
+      "mail",
+      "mailbox",
+      "post-office",
+      "postal-service",
+      "service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7854918-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "envelope",
+      "express",
+      "hand",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7833516-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "envelope",
+      "express",
+      "hand",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7833500-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "delivery",
+      "letter",
+      "mail",
+      "post",
+      "postal-service",
+      "service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7782758-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "communications",
+      "delivery",
+      "mail",
+      "postal-service",
+      "transport",
+      "truck"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7761189-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "communications",
+      "delivery",
+      "mail",
+      "postal-service",
+      "transport",
+      "truck"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7761165-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "communications",
+      "envelope",
+      "mailbox",
+      "postal-service",
+      "postbox",
+      "setting"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7690061-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "communications",
+      "envelope",
+      "mailbox",
+      "postal-service",
+      "postbox",
+      "setting"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7689988-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal services",
+     "tags": [
+      "delivery",
+      "mail",
+      "packages",
+      "postage",
+      "postal-services",
+      "shipping"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7534505-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal services",
+     "tags": [
+      "delivery",
+      "logistics",
+      "mail",
+      "postal-services",
+      "shipping",
+      "tracking"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7534504-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "box",
+      "carton",
+      "postal",
+      "postal-service",
+      "service",
+      "signage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7383192-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "air-mail",
+      "delivery",
+      "envelope",
+      "mail",
+      "postal",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7352800-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "air-mail",
+      "delivery",
+      "envelope",
+      "mail",
+      "postal",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7352762-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "box",
+      "carton",
+      "postal",
+      "postal-service",
+      "service",
+      "signage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7290703-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal services",
+     "tags": [
+      "courier",
+      "deliveries",
+      "mail",
+      "post",
+      "postal-services"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6737743-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal services",
+     "tags": [
+      "courier",
+      "deliveries",
+      "mail",
+      "post",
+      "postal-services"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6737722-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal services",
+     "tags": [
+      "courier",
+      "deliveries",
+      "mail",
+      "post",
+      "postal-services"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6737677-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal services",
+     "tags": [
+      "delivery-services",
+      "mail-handling",
+      "mail-services",
+      "postal-operations",
+      "postal-services"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6734795-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "envelope",
+      "give",
+      "letter",
+      "message",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6626681-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "envelope",
+      "give",
+      "letter",
+      "message",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6626610-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal services",
+     "tags": [
+      "delivery",
+      "mail",
+      "postal",
+      "postal-services",
+      "shipment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6396409-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "building",
+      "letter",
+      "mailbox",
+      "post",
+      "postal-service",
+      "service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6320158-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "building",
+      "letter",
+      "mailbox",
+      "post",
+      "postal-service",
+      "service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6320139-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041617-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041615-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041614-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041613-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041611-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041609-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041607-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041605-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041604-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041603-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041602-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041601-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041600-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041599-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041598-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041597-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041596-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041595-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041594-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041593-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041592-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041591-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041590-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "postal service",
+     "tags": [
+      "courier",
+      "delivery",
+      "mail",
+      "post-office",
+      "postal-service"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6041589-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "envelope",
+  "rationale": "Mail and envelope lead.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

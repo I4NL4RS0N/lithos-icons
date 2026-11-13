@@ -1,0 +1,18 @@
+{
+  "id": "furniture",
+  "name": "Furniture",
+  "kind": "industry",
+  "parent": "consumer-discretionary",
+  "metaphor": "armchair",
+  "keywords": [
+    "home furnishings",
+    "household durables",
+    "sofa",
+    "chairs",
+    "fixtures"
+  ],
+  "reduction": "16: no seat line.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

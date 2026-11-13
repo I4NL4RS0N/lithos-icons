@@ -1,0 +1,19 @@
+{
+  "id": "publishing",
+  "name": "Publishing",
+  "kind": "industry",
+  "parent": "communication-services",
+  "metaphor": "open-book",
+  "keywords": [
+    "books",
+    "newspapers",
+    "printing",
+    "magazines",
+    "publishers",
+    "press"
+  ],
+  "reduction": "None — two pages and a spine at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

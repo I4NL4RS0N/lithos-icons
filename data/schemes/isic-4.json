@@ -1,0 +1,15 @@
+{
+ "id": "isic-4",
+ "name": "ISIC",
+ "fullName": "International Standard Industrial Classification of All Economic Activities",
+ "version": "Rev. 4",
+ "levels": [
+  "section",
+  "division",
+  "group",
+  "class"
+ ],
+ "licence": "public",
+ "publish": true,
+ "source": "United Nations Statistics Division (https://unstats.un.org/unsd/classifications/Econ/isic). Structure via the polca/premise repository (BSD-3-Clause)."
+}

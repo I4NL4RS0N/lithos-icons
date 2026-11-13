@@ -1,0 +1,779 @@
+{
+ "concept": "electrical-equipment",
+ "query": "electrical equipment",
+ "fetched": "2026-11-13T21:08:18.606Z",
+ "topTerms": [
+  [
+   "equipment",
+   42
+  ],
+  [
+   "electrical",
+   38
+  ],
+  [
+   "technology",
+   12
+  ],
+  [
+   "electrical-equipment",
+   8
+  ],
+  [
+   "capacitor",
+   8
+  ],
+  [
+   "engineering",
+   8
+  ],
+  [
+   "electricity",
+   8
+  ],
+  [
+   "drill machine",
+   6
+  ],
+  [
+   "construction-tool",
+   6
+  ],
+  [
+   "drill-machine",
+   6
+  ],
+  [
+   "industrial-equipment",
+   6
+  ],
+  [
+   "socket",
+   6
+  ],
+  [
+   "plug",
+   6
+  ],
+  [
+   "industrial",
+   6
+  ],
+  [
+   "vacuum",
+   5
+  ],
+  [
+   "electrical-drill",
+   4
+  ],
+  [
+   "cleaning",
+   4
+  ],
+  [
+   "outlet",
+   4
+  ],
+  [
+   "energy",
+   3
+  ],
+  [
+   "refrigerator",
+   3
+  ],
+  [
+   "fuse",
+   3
+  ],
+  [
+   "power meter",
+   3
+  ],
+  [
+   "device",
+   3
+  ],
+  [
+   "electrical-maintenance",
+   3
+  ],
+  [
+   "power-meter",
+   3
+  ],
+  [
+   "electrical equipment",
+   2
+  ],
+  [
+   "saving",
+   2
+  ],
+  [
+   "television",
+   2
+  ],
+  [
+   "tv",
+   2
+  ],
+  [
+   "iron",
+   2
+  ],
+  [
+   "clothes",
+   2
+  ],
+  [
+   "ironing",
+   2
+  ],
+  [
+   "electrical-drill-machine",
+   2
+  ],
+  [
+   "sensor",
+   2
+  ],
+  [
+   "detect",
+   2
+  ],
+  [
+   "plc",
+   2
+  ],
+  [
+   "automatic",
+   2
+  ],
+  [
+   "encoder",
+   2
+  ],
+  [
+   "electric",
+   2
+  ],
+  [
+   "vacuum cleaning",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "electrical equipment",
+     "tags": [
+      "electrical-equipment",
+      "energy",
+      "refrigerator",
+      "saving",
+      "television",
+      "tv"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3065778-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "electrical equipment",
+     "tags": [
+      "electrical-equipment",
+      "energy",
+      "refrigerator",
+      "saving",
+      "television",
+      "tv"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3065725-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "vacuum cleaning",
+     "tags": [
+      "electrical",
+      "equipment",
+      "vacuum-cleaning"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1925073-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "drill machine",
+     "tags": [
+      "construction-tool",
+      "drill-machine",
+      "electrical-drill",
+      "electrical-equipment",
+      "industrial-equipment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3147283-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "drill machine",
+     "tags": [
+      "construction-tool",
+      "drill-machine",
+      "electrical-drill",
+      "electrical-equipment",
+      "industrial-equipment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3147249-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "drill machine",
+     "tags": [
+      "construction-tool",
+      "drill-machine",
+      "electrical-drill",
+      "electrical-equipment",
+      "industrial-equipment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3147236-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "drill machine",
+     "tags": [
+      "construction-tool",
+      "drill-machine",
+      "electrical-drill",
+      "electrical-equipment",
+      "industrial-equipment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3146368-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "cleaning",
+     "tags": [
+      "cleaning",
+      "electrical",
+      "equipment",
+      "vacuum"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2537759-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "cleaning",
+     "tags": [
+      "cleaning",
+      "electrical",
+      "equipment",
+      "vacuum"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2529100-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "cleaning",
+     "tags": [
+      "cleaning",
+      "electrical",
+      "equipment",
+      "vacuum"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2447802-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7279939-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7279932-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7279929-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7279927-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7279926-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7279925-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7279923-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "capacitor",
+     "tags": [
+      "capacitor",
+      "electrical",
+      "engineering",
+      "equipment",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7263848-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Computer",
+     "tags": [
+      "computer",
+      "electrical",
+      "equipment",
+      "monitor",
+      "pc"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5843096-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Microwave",
+     "tags": [
+      "appliance",
+      "electrical",
+      "equipment",
+      "microwave",
+      "oven"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5843095-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "wall plug",
+     "tags": [
+      "electrical",
+      "equipment",
+      "outlet",
+      "socket",
+      "wall-plug"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5843090-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "motor",
+     "tags": [
+      "dynamo",
+      "electrical",
+      "equipment",
+      "generator",
+      "motor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5843089-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "socket",
+     "tags": [
+      "electrical",
+      "energy",
+      "equipment",
+      "plug",
+      "socket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5585259-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Voltmeter",
+     "tags": [
+      "electrical",
+      "electricity",
+      "equipment",
+      "voltage",
+      "voltmeter"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5390032-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Outlet",
+     "tags": [
+      "electrical",
+      "equipment",
+      "outlet",
+      "plug",
+      "socket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5240607-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Outlet",
+     "tags": [
+      "electrical",
+      "equipment",
+      "outlet",
+      "plug",
+      "socket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5001509-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Outlet",
+     "tags": [
+      "electrical",
+      "equipment",
+      "outlet",
+      "plug",
+      "socket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5001480-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fuse",
+     "tags": [
+      "electrical",
+      "electricity",
+      "equipment",
+      "fuse",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4386015-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fuse",
+     "tags": [
+      "electrical",
+      "electricity",
+      "equipment",
+      "fuse",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4385998-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fuse",
+     "tags": [
+      "electrical",
+      "electricity",
+      "equipment",
+      "fuse",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4385993-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "socket",
+     "tags": [
+      "electrical",
+      "equipment",
+      "plug",
+      "socket",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3236144-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Toolbox",
+     "tags": [
+      "electrical",
+      "electrician",
+      "equipment",
+      "toolbox",
+      "work"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3078956-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "freezer",
+     "tags": [
+      "electrical",
+      "equipment",
+      "freezer",
+      "kitchen",
+      "refrigerator"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2724801-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Iron",
+     "tags": [
+      "clothes",
+      "electrical",
+      "equipment",
+      "iron",
+      "ironing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2724787-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Iron",
+     "tags": [
+      "clothes",
+      "electrical",
+      "equipment",
+      "iron",
+      "ironing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2717228-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "vacuum",
+     "tags": [
+      "cleaner",
+      "electrical",
+      "equipment",
+      "hoover",
+      "vacuum"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2717223-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Plug",
+     "tags": [
+      "cable",
+      "electrical",
+      "electricity",
+      "equipment",
+      "plug"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2450958-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "drill machine",
+     "tags": [
+      "construction-tool",
+      "drill-machine",
+      "electrical-drill-machine",
+      "electrical-equipment",
+      "industrial-equipment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2407502-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "drill machine",
+     "tags": [
+      "construction-tool",
+      "drill-machine",
+      "electrical-drill-machine",
+      "electrical-equipment",
+      "industrial-equipment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2391874-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "vacuum",
+     "tags": [
+      "cleaning",
+      "dust",
+      "electrical",
+      "equipment",
+      "vacuum"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2197010-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "sensor",
+     "tags": [
+      "detect",
+      "electrical",
+      "equipment",
+      "industrial",
+      "sensor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2133152-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "PLC",
+     "tags": [
+      "automatic",
+      "electrical",
+      "equipment",
+      "industrial",
+      "plc"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2133150-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Encoder",
+     "tags": [
+      "electric",
+      "electrical",
+      "encoder",
+      "equipment",
+      "industrial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2133149-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "PLC",
+     "tags": [
+      "automatic",
+      "electrical",
+      "equipment",
+      "industrial",
+      "plc"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2133126-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "sensor",
+     "tags": [
+      "detect",
+      "electrical",
+      "equipment",
+      "industrial",
+      "sensor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2133122-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Encoder",
+     "tags": [
+      "electric",
+      "electrical",
+      "encoder",
+      "equipment",
+      "industrial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2133119-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Power meter",
+     "tags": [
+      "device",
+      "electrical-maintenance",
+      "electricity",
+      "equipment",
+      "power-meter"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8392694-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Power meter",
+     "tags": [
+      "device",
+      "electrical-maintenance",
+      "electricity",
+      "equipment",
+      "power-meter"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8392672-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Power meter",
+     "tags": [
+      "device",
+      "electrical-maintenance",
+      "electricity",
+      "equipment",
+      "power-meter"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8392669-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "combination wrench",
+     "tags": [
+      "combination-wrench",
+      "electrical-tool",
+      "equipment",
+      "tool",
+      "wrench"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8191233-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "plug",
+  "rationale": "Socket, plug and capacitor appear; the plug is the most recognisable.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

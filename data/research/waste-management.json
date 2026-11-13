@@ -1,0 +1,824 @@
+{
+ "concept": "waste-management",
+ "query": "waste management",
+ "fetched": "2026-11-13T21:08:16.790Z",
+ "topTerms": [
+  [
+   "waste management",
+   50
+  ],
+  [
+   "waste-management",
+   50
+  ],
+  [
+   "recycling",
+   26
+  ],
+  [
+   "disposal",
+   19
+  ],
+  [
+   "waste",
+   18
+  ],
+  [
+   "trash",
+   15
+  ],
+  [
+   "garbage",
+   12
+  ],
+  [
+   "management",
+   12
+  ],
+  [
+   "recycle",
+   9
+  ],
+  [
+   "environment",
+   9
+  ],
+  [
+   "sustainability",
+   6
+  ],
+  [
+   "recycle-bin",
+   6
+  ],
+  [
+   "treatment",
+   5
+  ],
+  [
+   "ecology",
+   5
+  ],
+  [
+   "trash-bin",
+   4
+  ],
+  [
+   "budget",
+   4
+  ],
+  [
+   "cost",
+   4
+  ],
+  [
+   "ecology-and-environment",
+   4
+  ],
+  [
+   "cleanliness",
+   4
+  ],
+  [
+   "control",
+   4
+  ],
+  [
+   "collection",
+   3
+  ],
+  [
+   "sustainable",
+   3
+  ],
+  [
+   "waste-control",
+   3
+  ],
+  [
+   "sanitation",
+   3
+  ],
+  [
+   "energy",
+   3
+  ],
+  [
+   "segregation",
+   3
+  ],
+  [
+   "gear",
+   2
+  ],
+  [
+   "infrastructure",
+   2
+  ],
+  [
+   "urban",
+   2
+  ],
+  [
+   "eco-waste",
+   2
+  ],
+  [
+   "zero",
+   2
+  ],
+  [
+   "bin",
+   2
+  ],
+  [
+   "business",
+   2
+  ],
+  [
+   "professional",
+   2
+  ],
+  [
+   "compost",
+   2
+  ],
+  [
+   "efficiency",
+   2
+  ],
+  [
+   "handling",
+   2
+  ],
+  [
+   "product-chain",
+   2
+  ],
+  [
+   "waste-processing",
+   2
+  ],
+  [
+   "household-waste",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "garbage",
+      "gear",
+      "recycle",
+      "trash-bin",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8479988-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "garbage",
+      "gear",
+      "recycle",
+      "trash-bin",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8479958-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "garbage",
+      "recycling",
+      "sustainability",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8461965-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "household-waste",
+      "inorganic-waste",
+      "organic-waste",
+      "plastic-waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8437141-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "environmentally-friendly",
+      "recycle-waste",
+      "recycling",
+      "waste-management",
+      "waste-sorting"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8437136-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "collection",
+      "management",
+      "recycling",
+      "sorting",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8430264-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "civil",
+      "construction",
+      "engineering",
+      "infrastructure",
+      "urban",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8419295-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "budget",
+      "cost",
+      "ecology-and-environment",
+      "garbage",
+      "recycling",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405507-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "budget",
+      "cost",
+      "ecology-and-environment",
+      "garbage",
+      "recycling",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405504-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "budget",
+      "cost",
+      "ecology-and-environment",
+      "garbage",
+      "recycling",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405490-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "budget",
+      "cost",
+      "ecology-and-environment",
+      "garbage",
+      "recycling",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405484-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "eco-waste",
+      "recycling",
+      "sustainable",
+      "waste",
+      "waste-management",
+      "zero"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8403766-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "eco-waste",
+      "recycling",
+      "sustainable",
+      "waste",
+      "waste-management",
+      "zero"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8403741-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "recycling",
+      "sustainability",
+      "treatment",
+      "waste-control",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8379726-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "recycling",
+      "sustainability",
+      "treatment",
+      "waste-control",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8374794-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "recycling",
+      "sustainability",
+      "treatment",
+      "waste-control",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8373901-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "ecology",
+      "environment",
+      "esg",
+      "management",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8316012-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "bin",
+      "disposal",
+      "management",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8305620-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "environment",
+      "recycle",
+      "recycle-bin",
+      "trash",
+      "waste-management",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8305615-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "garbage",
+      "management",
+      "recycle",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8298341-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "management",
+      "recycling",
+      "sustainability",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8296051-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "collection",
+      "disposal",
+      "recycling",
+      "sanitation",
+      "trash",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8281605-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "cleanliness",
+      "disposal",
+      "recycling",
+      "sustainability",
+      "trash",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8281581-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "air",
+      "ecology",
+      "environment",
+      "nature",
+      "pollution",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8241303-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "bin",
+      "cleanliness",
+      "environment",
+      "habitat",
+      "surrounding",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8206765-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "business",
+      "management",
+      "professional",
+      "trash",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8190544-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "business",
+      "ecology",
+      "management",
+      "professional",
+      "trash",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8190517-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "city",
+      "development",
+      "infrastructure",
+      "urban",
+      "urbanization",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8178768-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "energy",
+      "environment",
+      "green",
+      "investment",
+      "trash",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8130299-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "compost",
+      "garbage",
+      "recycling",
+      "trash",
+      "waste-management",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8091200-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "compost",
+      "garbage",
+      "recycling",
+      "trash",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8091155-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "bag",
+      "disposal",
+      "management",
+      "segregation",
+      "waste-management",
+      "waste-reduction"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8045740-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "management",
+      "recycle",
+      "recycle-bin",
+      "trash",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8044944-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "management",
+      "recycle",
+      "recycle-bin",
+      "trash",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8044922-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "control",
+      "disposal",
+      "garbage",
+      "trash",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8037548-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "control",
+      "disposal",
+      "garbage",
+      "trash",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8037524-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "cleanliness",
+      "environment",
+      "recycling",
+      "trash",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8026174-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "control",
+      "energy",
+      "management",
+      "recycling",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8016367-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "cleanliness",
+      "environment",
+      "recycling",
+      "trash",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7983372-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "eco-friendly",
+      "ecology",
+      "industrial",
+      "recycling",
+      "sustainable",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7965656-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "control",
+      "energy",
+      "management",
+      "recycling",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7964351-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "collection",
+      "disposal",
+      "recycling",
+      "reduction",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7942622-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "efficiency",
+      "segregation",
+      "treatment",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7928867-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "efficiency",
+      "segregation",
+      "treatment",
+      "waste-management",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7928829-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "handling",
+      "recycle",
+      "sanitation",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7861520-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "disposal",
+      "handling",
+      "recycle",
+      "sanitation",
+      "waste",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7861475-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "circular-economy",
+      "ecology",
+      "environment",
+      "recycle",
+      "recycle-bin",
+      "waste-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7844053-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "product-chain",
+      "recycle-bin",
+      "recycling",
+      "trash-bin",
+      "waste-management",
+      "waste-processing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7807689-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "product-chain",
+      "recycle-bin",
+      "recycling",
+      "trash-bin",
+      "waste-management",
+      "waste-processing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7807673-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "waste management",
+     "tags": [
+      "environment",
+      "recycling",
+      "trash",
+      "waste",
+      "waste-management",
+      "waster-management"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7783723-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "bin",
+  "rationale": "Trash bin and recycling lead; the bin is simpler at small sizes.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

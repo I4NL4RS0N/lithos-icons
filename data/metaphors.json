@@ -1,184 +1,220 @@
 {
-  "drop-bolt": [
-    "utilities",
-    "multi-utilities"
-  ],
-  "bolt": [
-    "electric-utilities"
-  ],
-  "drop": [
-    "water-utilities"
-  ],
-  "burner-flame": [
-    "gas-utilities"
-  ],
-  "oil-barrel": [
-    "energy"
-  ],
-  "mine-cart": [
-    "materials"
-  ],
-  "factory": [
-    "industrials"
-  ],
-  "storefront": [
-    "consumer-discretionary"
-  ],
-  "basket": [
-    "consumer-staples"
-  ],
-  "heart-cross": [
-    "health-care"
-  ],
-  "coins": [
-    "financials"
-  ],
-  "laptop": [
-    "information-technology"
-  ],
-  "antenna": [
-    "communication-services"
-  ],
-  "house": [
-    "real-estate"
-  ],
-  "flask": [
-    "chemicals"
-  ],
-  "capsule": [
-    "pharma",
-    "pharmaceuticals"
-  ],
-  "umbrella": [
-    "insurance"
-  ],
-  "chip": [
-    "semiconductors"
-  ],
-  "document-percent": [
-    "debt"
-  ],
-  "_retired": {
-    "flame": "energy (\u2192 oil-barrel)",
-    "ingots": "materials (\u2192 mine-cart)",
-    "gear": "industrials (\u2192 factory)",
-    "shopping-bag": "consumer-discretionary (\u2192 storefront)",
-    "first-aid-kit": "health-care (\u2192 heart-cross)",
-    "bank-building": "financials (\u2192 coins)",
-    "speech-bubble": "communication-services (\u2192 antenna)",
-    "pylon": "utilities (\u2192 drop-bolt)",
-    "monitor": "information-technology (\u2192 laptop)"
-  },
-  "tap": [
-    "water-utilities"
-  ],
-  "pump-jack": [
-    "oil-gas"
-  ],
-  "pickaxe": [
-    "metals-mining"
-  ],
-  "gear": [
-    "machinery"
-  ],
-  "plane": [
-    "aerospace-defense"
-  ],
-  "car": [
-    "automobiles"
-  ],
-  "bank-building": [
-    "banks"
-  ],
-  "dna": [
-    "biotechnology"
-  ],
-  "code-window": [
-    "software"
-  ],
-  "house-on-tranches": [
-    "rmbs"
-  ],
-  "office-on-tranches": [
-    "cmbs"
-  ],
-  "card-on-tranches": [
-    "abs"
-  ],
-  "loan-on-tranches": [
-    "clo"
-  ],
-  "civic-dome": [
-    "municipal-bonds"
-  ],
-  "tranche-base": "modifier: two stacked lines under an asset = securitized product (RMBS, CMBS, ABS, CLO)",
-  "sprout": [
-    "agriculture"
-  ],
-  "tower-crane": [
-    "construction"
-  ],
-  "warehouse": [
-    "wholesale-trade"
-  ],
-  "truck": [
-    "transportation"
-  ],
-  "briefcase": [
-    "professional-services"
-  ],
-  "clipboard-check": [
-    "administrative-services"
-  ],
-  "graduation-cap": [
-    "education"
-  ],
-  "theatre-mask": [
-    "arts-recreation"
-  ],
-  "cloche": [
-    "accommodation-food"
-  ],
-  "wrench": [
-    "other-services"
-  ],
-  "capitol-flag": [
-    "government"
-  ],
-  "wind-turbine": [
-    "renewable-energy"
-  ],
-  "cargo-ship": [
-    "marine-shipping"
-  ],
-  "train-front": [
-    "rail"
-  ],
-  "candlesticks": [
-    "capital-markets"
-  ],
-  "pie-chart": [
-    "asset-management"
-  ],
-  "credit-card": [
-    "consumer-finance"
-  ],
-  "hospital-building": [
-    "hospitals"
-  ],
-  "globe": [
-    "sovereigns"
-  ],
-  "play-screen": [
-    "media"
-  ],
-  "box": [
-    "packaging"
-  ],
-  "conifer": [
-    "paper-forest-products"
-  ],
-  "cloud": [
-    "it-services"
-  ]
+ "drop-bolt": [
+  "utilities",
+  "multi-utilities"
+ ],
+ "bolt": [
+  "electric-utilities"
+ ],
+ "drop": [
+  "water-utilities"
+ ],
+ "burner-flame": [
+  "gas-utilities"
+ ],
+ "oil-barrel": [
+  "energy"
+ ],
+ "mine-cart": [
+  "materials"
+ ],
+ "factory": [
+  "industrials"
+ ],
+ "storefront": [
+  "consumer-discretionary"
+ ],
+ "basket": [
+  "consumer-staples"
+ ],
+ "heart-cross": [
+  "health-care"
+ ],
+ "coins": [
+  "financials"
+ ],
+ "laptop": [
+  "information-technology"
+ ],
+ "antenna": [
+  "communication-services"
+ ],
+ "house": [
+  "real-estate"
+ ],
+ "flask": [
+  "chemicals"
+ ],
+ "capsule": [
+  "pharma",
+  "pharmaceuticals"
+ ],
+ "umbrella": [
+  "insurance"
+ ],
+ "chip": [
+  "semiconductors"
+ ],
+ "document-percent": [
+  "debt"
+ ],
+ "_retired": {
+  "flame": "energy (\u2192 oil-barrel)",
+  "ingots": "materials (\u2192 mine-cart)",
+  "gear": "industrials (\u2192 factory)",
+  "shopping-bag": "consumer-discretionary (\u2192 storefront)",
+  "first-aid-kit": "health-care (\u2192 heart-cross)",
+  "bank-building": "financials (\u2192 coins)",
+  "speech-bubble": "communication-services (\u2192 antenna)",
+  "pylon": "utilities (\u2192 drop-bolt)",
+  "monitor": "information-technology (\u2192 laptop)"
+ },
+ "tap": [
+  "water-utilities"
+ ],
+ "pump-jack": [
+  "oil-gas"
+ ],
+ "pickaxe": [
+  "metals-mining"
+ ],
+ "gear": [
+  "machinery"
+ ],
+ "plane": [
+  "aerospace-defense"
+ ],
+ "car": [
+  "automobiles"
+ ],
+ "bank-building": [
+  "banks"
+ ],
+ "dna": [
+  "biotechnology"
+ ],
+ "code-window": [
+  "software"
+ ],
+ "house-on-tranches": [
+  "rmbs"
+ ],
+ "office-on-tranches": [
+  "cmbs"
+ ],
+ "card-on-tranches": [
+  "abs"
+ ],
+ "loan-on-tranches": [
+  "clo"
+ ],
+ "civic-dome": [
+  "municipal-bonds"
+ ],
+ "tranche-base": "modifier: two stacked lines under an asset = securitized product (RMBS, CMBS, ABS, CLO)",
+ "sprout": [
+  "agriculture"
+ ],
+ "tower-crane": [
+  "construction"
+ ],
+ "warehouse": [
+  "wholesale-trade"
+ ],
+ "truck": [
+  "transportation"
+ ],
+ "briefcase": [
+  "professional-services"
+ ],
+ "clipboard-check": [
+  "administrative-services"
+ ],
+ "graduation-cap": [
+  "education"
+ ],
+ "theatre-mask": [
+  "arts-recreation"
+ ],
+ "cloche": [
+  "accommodation-food"
+ ],
+ "wrench": [
+  "other-services"
+ ],
+ "capitol-flag": [
+  "government"
+ ],
+ "wind-turbine": [
+  "renewable-energy"
+ ],
+ "cargo-ship": [
+  "marine-shipping"
+ ],
+ "train-front": [
+  "rail"
+ ],
+ "candlesticks": [
+  "capital-markets"
+ ],
+ "pie-chart": [
+  "asset-management"
+ ],
+ "credit-card": [
+  "consumer-finance"
+ ],
+ "hospital-building": [
+  "hospitals"
+ ],
+ "globe": [
+  "sovereigns"
+ ],
+ "play-screen": [
+  "media"
+ ],
+ "box": [
+  "packaging"
+ ],
+ "conifer": [
+  "paper-forest-products"
+ ],
+ "cloud": [
+  "it-services"
+ ],
+ "log-pile": [
+  "forestry"
+ ],
+ "fish": [
+  "fishing"
+ ],
+ "cow-head": [
+  "livestock"
+ ],
+ "wheat-ear": [
+  "crops"
+ ],
+ "t-shirt": [
+  "apparel"
+ ],
+ "armchair": [
+  "furniture"
+ ],
+ "open-book": [
+  "publishing"
+ ],
+ "bin": [
+  "waste-management"
+ ],
+ "envelope": [
+  "postal-courier"
+ ],
+ "scales": [
+  "legal-services"
+ ],
+ "plug": [
+  "electrical-equipment"
+ ],
+ "bed": [
+  "lodging"
+ ]
 }

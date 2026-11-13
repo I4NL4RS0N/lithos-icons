@@ -1,0 +1,19 @@
+{
+  "id": "apparel",
+  "name": "Apparel",
+  "kind": "industry",
+  "parent": "consumer-discretionary",
+  "metaphor": "t-shirt",
+  "keywords": [
+    "textiles",
+    "clothing",
+    "fashion",
+    "garments",
+    "luxury goods",
+    "footwear"
+  ],
+  "reduction": "None — one silhouette at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

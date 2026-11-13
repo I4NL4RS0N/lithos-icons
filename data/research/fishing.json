@@ -1,0 +1,535 @@
+{
+ "concept": "fishing",
+ "query": "fishing industry",
+ "fetched": "2026-11-13T21:08:12.895Z",
+ "topTerms": [
+  [
+   "industry",
+   15
+  ],
+  [
+   "fishing",
+   12
+  ],
+  [
+   "fish",
+   9
+  ],
+  [
+   "fishing-industry",
+   9
+  ],
+  [
+   "boat",
+   7
+  ],
+  [
+   "fishery",
+   6
+  ],
+  [
+   "sea",
+   6
+  ],
+  [
+   "fishing boat",
+   5
+  ],
+  [
+   "fishing-boat",
+   5
+  ],
+  [
+   "ship",
+   5
+  ],
+  [
+   "commercial-fishing",
+   5
+  ],
+  [
+   "ocean",
+   5
+  ],
+  [
+   "business",
+   4
+  ],
+  [
+   "trawler",
+   4
+  ],
+  [
+   "marine",
+   4
+  ],
+  [
+   "commercial fishing",
+   4
+  ],
+  [
+   "catch",
+   3
+  ],
+  [
+   "seafood",
+   3
+  ],
+  [
+   "hook",
+   3
+  ],
+  [
+   "water",
+   3
+  ],
+  [
+   "fishing industry",
+   2
+  ],
+  [
+   "fishing-vessel",
+   2
+  ],
+  [
+   "aquaculture",
+   2
+  ],
+  [
+   "tool",
+   2
+  ],
+  [
+   "angling",
+   2
+  ],
+  [
+   "fishing-hook",
+   2
+  ],
+  [
+   "net",
+   2
+  ],
+  [
+   "sailor",
+   2
+  ],
+  [
+   "nautical",
+   2
+  ],
+  [
+   "nautical-industry",
+   2
+  ],
+  [
+   "nautical-oil-industry",
+   2
+  ],
+  [
+   "oil",
+   2
+  ],
+  [
+   "oil-industry",
+   2
+  ],
+  [
+   "oil-rig",
+   2
+  ],
+  [
+   "vessel",
+   1
+  ],
+  [
+   "kitchen",
+   1
+  ],
+  [
+   "pisces",
+   1
+  ],
+  [
+   "fisheries",
+   1
+  ],
+  [
+   "resources",
+   1
+  ],
+  [
+   "equipment",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "fishing industry",
+     "tags": [
+      "business",
+      "catch",
+      "fish",
+      "fishery",
+      "fishing",
+      "fishing-industry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8238074-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fishing industry",
+     "tags": [
+      "fishing",
+      "fishing-industry",
+      "industry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4910498-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fishing boat",
+     "tags": [
+      "boat",
+      "fishing",
+      "fishing-boat",
+      "fishing-industry",
+      "trawler",
+      "vessel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4216312-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fishing boat",
+     "tags": [
+      "boat",
+      "fishing-boat",
+      "fishing-industry",
+      "fishing-vessel",
+      "ship",
+      "trawler"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4216304-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fish",
+     "tags": [
+      "fish",
+      "fishing",
+      "fishing-industry",
+      "kitchen",
+      "pisces",
+      "sea",
+      "seafood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/121985-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fisheries",
+     "tags": [
+      "aquaculture",
+      "fisheries",
+      "fishing",
+      "industry",
+      "marine",
+      "seafood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8296262-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "commercial fishing",
+     "tags": [
+      "business",
+      "commercial-fishing",
+      "fish",
+      "fishery",
+      "fishing",
+      "industry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8238052-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fishery",
+     "tags": [
+      "fishery",
+      "fishery",
+      "fishing",
+      "industry",
+      "ocean",
+      "resources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7645278-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hook",
+     "tags": [
+      "equipment",
+      "fishing",
+      "hanging",
+      "hook",
+      "industry",
+      "tool"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7503699-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "commercial fishing",
+     "tags": [
+      "angling",
+      "business",
+      "commercial-fishing",
+      "fishery",
+      "fishing",
+      "industry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6957851-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fishing boat",
+     "tags": [
+      "boat",
+      "fish",
+      "fishing-boat",
+      "fishing-industry",
+      "trawler"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4216299-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Hook",
+     "tags": [
+      "fishing-hook",
+      "hook",
+      "industry",
+      "production",
+      "tool"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1494074-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "commercial fishing",
+     "tags": [
+      "boat",
+      "catch",
+      "commercial-fishing",
+      "commercial-fishing",
+      "industry",
+      "net"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8093633-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fishing boat",
+     "tags": [
+      "boat",
+      "fishing-boat",
+      "fishing-industry",
+      "sailor",
+      "seafarer",
+      "ship"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4216300-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fishing boat",
+     "tags": [
+      "boat",
+      "fish",
+      "fish-net",
+      "fishing-boat",
+      "fishing-industry",
+      "trawler"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4216308-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fishing Lure",
+     "tags": [
+      "bait",
+      "fish",
+      "fish-bait",
+      "fisher",
+      "fisherman",
+      "fishing",
+      "fishing-bait",
+      "fishing-lure",
+      "industry",
+      "nautical",
+      "nautical-industry",
+      "nautical-oil-industry",
+      "ocean",
+      "oil",
+      "oil-industry",
+      "oil-rig",
+      "sea",
+      "tackle",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/73573-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fish",
+     "tags": [
+      "aquarium-enthusiasts",
+      "fish",
+      "marine-biodiversity",
+      "oceanic-ecosystems",
+      "seafood-industry",
+      "sustainable-fishing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6455186-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fishing Hook",
+     "tags": [
+      "fish",
+      "fishing",
+      "fishing-hook",
+      "hook",
+      "industry",
+      "nautical",
+      "nautical-industry",
+      "nautical-oil-industry",
+      "ocean",
+      "oil",
+      "oil-industry",
+      "oil-rig",
+      "sailor",
+      "sea",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/73569-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fish",
+     "tags": [
+      "animal",
+      "atlantic",
+      "fish",
+      "fishery",
+      "fishing",
+      "fishing-indistry",
+      "industry",
+      "mamml",
+      "nature",
+      "ocean",
+      "pacific",
+      "salmon",
+      "sustainable",
+      "swim",
+      "swimming",
+      "town",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/40542-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Fishing Vessel",
+     "tags": [
+      "activity",
+      "angling",
+      "aquaculture",
+      "artisan-fishers",
+      "boat",
+      "catch-fish",
+      "commercial-fishing",
+      "factory-trawler",
+      "fishing-industry",
+      "fishing-vessel",
+      "lake",
+      "netting",
+      "ocean",
+      "river",
+      "sea",
+      "seine-net",
+      "seiner-fishing",
+      "ship",
+      "waves"
+     ],
+     "thumb": "https://static.thenounproject.com/png/23815-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Commercial Fishing Boat",
+     "tags": [
+      "commercial-fishing-boat",
+      "crew",
+      "industry",
+      "marine",
+      "nets",
+      "seafood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8393393-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "commercial fishing",
+     "tags": [
+      "business",
+      "catch",
+      "commercial-fishing",
+      "fishery",
+      "industry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6349175-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "industrial fishing",
+     "tags": [
+      "industrial-fishing",
+      "industry",
+      "marine",
+      "net",
+      "sea",
+      "ship"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6283132-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "net fishing",
+     "tags": [
+      "industry",
+      "marine",
+      "net-fishing",
+      "professional",
+      "sea",
+      "ship"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6283121-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "fish",
+  "rationale": "Fish and fishing boats lead; the ship is already marine shipping.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

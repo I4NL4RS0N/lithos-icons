@@ -1,0 +1,19 @@
+{
+  "id": "waste-management",
+  "name": "Waste Management",
+  "kind": "industry",
+  "parent": "industrials",
+  "metaphor": "bin",
+  "keywords": [
+    "waste",
+    "recycling",
+    "environmental services",
+    "sanitation",
+    "disposal",
+    "refuse"
+  ],
+  "reduction": "16: one rib. 20+: two ribs.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,775 @@
+{
+ "concept": "crops",
+ "query": "crop farming",
+ "fetched": "2026-11-13T21:08:14.171Z",
+ "topTerms": [
+  [
+   "farming",
+   48
+  ],
+  [
+   "crop",
+   31
+  ],
+  [
+   "agriculture",
+   18
+  ],
+  [
+   "crops",
+   18
+  ],
+  [
+   "fruit",
+   13
+  ],
+  [
+   "vegetable",
+   13
+  ],
+  [
+   "harvest",
+   8
+  ],
+  [
+   "farm",
+   6
+  ],
+  [
+   "field",
+   4
+  ],
+  [
+   "plant",
+   4
+  ],
+  [
+   "wheat",
+   3
+  ],
+  [
+   "plantation",
+   3
+  ],
+  [
+   "irrigation",
+   2
+  ],
+  [
+   "crop-rotation",
+   2
+  ],
+  [
+   "farmer",
+   2
+  ],
+  [
+   "fields",
+   2
+  ],
+  [
+   "land",
+   2
+  ],
+  [
+   "vertical farming",
+   2
+  ],
+  [
+   "smart-farming",
+   2
+  ],
+  [
+   "vertical-farming",
+   2
+  ],
+  [
+   "pepper",
+   2
+  ],
+  [
+   "agriculture field",
+   2
+  ],
+  [
+   "agriculture-field",
+   2
+  ],
+  [
+   "cereal",
+   2
+  ],
+  [
+   "melon",
+   2
+  ],
+  [
+   "scarecrow",
+   1
+  ],
+  [
+   "corn-crops",
+   1
+  ],
+  [
+   "countryside",
+   1
+  ],
+  [
+   "crop-field",
+   1
+  ],
+  [
+   "crops rotation",
+   1
+  ],
+  [
+   "crops-rotation",
+   1
+  ],
+  [
+   "growing crops",
+   1
+  ],
+  [
+   "crops-grow",
+   1
+  ],
+  [
+   "growing-crops",
+   1
+  ],
+  [
+   "growth",
+   1
+  ],
+  [
+   "gardening",
+   1
+  ],
+  [
+   "hay",
+   1
+  ],
+  [
+   "wheat crop",
+   1
+  ],
+  [
+   "wheat-crop",
+   1
+  ],
+  [
+   "nature",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "Agriculture",
+     "tags": [
+      "agriculture",
+      "crops",
+      "farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6153818-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Scarecrow",
+     "tags": [
+      "crop",
+      "farming",
+      "scarecrow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1046349-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "irrigation",
+     "tags": [
+      "agriculture",
+      "crops",
+      "farming",
+      "irrigation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8123671-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Farm",
+     "tags": [
+      "corn-crops",
+      "countryside",
+      "crops",
+      "farm",
+      "farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7267001-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "field",
+     "tags": [
+      "agriculture",
+      "crop-field",
+      "crops",
+      "farming",
+      "field"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6808713-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "crops rotation",
+     "tags": [
+      "crop-rotation",
+      "crops-rotation",
+      "farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6153833-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "growing crops",
+     "tags": [
+      "crops",
+      "crops-grow",
+      "farming",
+      "growing-crops",
+      "growth"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6153813-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Plant",
+     "tags": [
+      "crop",
+      "farming",
+      "gardening",
+      "plant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4695080-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "crops",
+     "tags": [
+      "crop",
+      "crops",
+      "farming",
+      "hay"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4624628-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "wheat crop",
+     "tags": [
+      "crop",
+      "farming",
+      "wheat",
+      "wheat-crop"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1727086-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "nature",
+     "tags": [
+      "crop",
+      "farming",
+      "nature",
+      "plant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1724575-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "soybean",
+     "tags": [
+      "agriculture",
+      "agro",
+      "crop-farming",
+      "crops",
+      "soybean",
+      "sprout"
+     ],
+     "thumb": "https://static.thenounproject.com/png/687127-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Farmer",
+     "tags": [
+      "agriculture",
+      "crops",
+      "farmer",
+      "farming",
+      "harvest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8483757-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Farmer",
+     "tags": [
+      "agriculture",
+      "crops",
+      "farmer",
+      "farming",
+      "harvest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8483724-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fields",
+     "tags": [
+      "barn",
+      "crop",
+      "farming",
+      "fields",
+      "land"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8482645-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Plant Care",
+     "tags": [
+      "agriculture",
+      "crop",
+      "farming",
+      "plant-care",
+      "temperature"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8279195-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Tractor",
+     "tags": [
+      "agriculture",
+      "crop",
+      "farming",
+      "field",
+      "tractor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8219924-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "agronomy",
+     "tags": [
+      "agribusiness",
+      "agronomy",
+      "crop-production",
+      "crop-science",
+      "wheat-farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8210192-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "harvesting",
+     "tags": [
+      "crop",
+      "farming",
+      "harvest",
+      "harvesting",
+      "reap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8162618-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Farm",
+     "tags": [
+      "agriculture",
+      "crop",
+      "farm",
+      "farming",
+      "harvest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8153941-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "vertical farming",
+     "tags": [
+      "crops",
+      "farming",
+      "plant",
+      "smart-farming",
+      "technology",
+      "vertical-farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8137761-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "agricultural",
+     "tags": [
+      "agricultural",
+      "crops",
+      "farm",
+      "farming",
+      "horticulture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8111676-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "smart agriculture",
+     "tags": [
+      "crop",
+      "farming",
+      "irrigation",
+      "sensor",
+      "smart-agriculture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8100968-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "vertical farming",
+     "tags": [
+      "crops",
+      "farm",
+      "farming",
+      "smart-farming",
+      "vertical",
+      "vertical-farming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7757539-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Pepper",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "pepper",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7731245-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fields",
+     "tags": [
+      "agriculture",
+      "crops",
+      "farming",
+      "fields",
+      "landscape"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7572168-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "harvest",
+     "tags": [
+      "agriculture",
+      "apples",
+      "crop",
+      "farming",
+      "harvest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7513570-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "harvest",
+     "tags": [
+      "agriculture",
+      "crop",
+      "farming",
+      "fruits",
+      "harvest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7513565-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "agriculture field",
+     "tags": [
+      "agriculture",
+      "agriculture-field",
+      "crop",
+      "farming",
+      "field"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7445561-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "agriculture field",
+     "tags": [
+      "agriculture",
+      "agriculture-field",
+      "crop",
+      "farming",
+      "field"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7445531-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Wheat",
+     "tags": [
+      "cereal",
+      "crop",
+      "farming",
+      "harvest",
+      "wheat"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7378315-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Wheat",
+     "tags": [
+      "cereal",
+      "crop",
+      "farming",
+      "harvest",
+      "wheat"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7378314-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "plantation",
+     "tags": [
+      "agriculture",
+      "crops",
+      "farming",
+      "land",
+      "plantation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7364107-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Farm",
+     "tags": [
+      "agriculture",
+      "crops",
+      "farm",
+      "farming",
+      "garden"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7361095-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "country",
+     "tags": [
+      "agriculture",
+      "country",
+      "crops",
+      "farm",
+      "farming",
+      "plough"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7361056-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "planting",
+     "tags": [
+      "crops",
+      "farming",
+      "plant",
+      "planting",
+      "pot"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7344192-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Crop Rotation",
+     "tags": [
+      "agriculture",
+      "crop-rotation",
+      "crops",
+      "farming",
+      "plantation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7341889-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "crop seed",
+     "tags": [
+      "crop",
+      "crop-seed",
+      "farming",
+      "fertilizer",
+      "plantation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7331883-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Radish",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "radish",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7289543-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Melon",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "melon",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087478-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Chestnut",
+     "tags": [
+      "chestnut",
+      "crop",
+      "farming",
+      "fruit",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087449-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Watermelon",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "vegetable",
+      "watermelon"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087447-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Melon",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "melon",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087438-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Pepper",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "pepper",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087436-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Eggplant",
+     "tags": [
+      "crop",
+      "eggplant",
+      "farming",
+      "fruit",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087434-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "tomato",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "tomato",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087428-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "potato",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "potato",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087427-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Cucumber",
+     "tags": [
+      "crop",
+      "cucumber",
+      "farming",
+      "fruit",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087425-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Carrot",
+     "tags": [
+      "carrot",
+      "crop",
+      "farming",
+      "fruit",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087423-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Sweet Potato",
+     "tags": [
+      "crop",
+      "farming",
+      "fruit",
+      "sweet-potato",
+      "vegetable"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7087422-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "wheat-ear",
+  "rationale": "Farming refs are broad (fruit, vegetable, field); a wheat ear is the clearest single crop.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

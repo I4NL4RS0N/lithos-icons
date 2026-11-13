@@ -1,0 +1,807 @@
+{
+ "concept": "apparel",
+ "query": "apparel",
+ "fetched": "2026-11-13T21:08:14.914Z",
+ "topTerms": [
+  [
+   "apparel",
+   50
+  ],
+  [
+   "fashion",
+   32
+  ],
+  [
+   "clothing",
+   27
+  ],
+  [
+   "shirt",
+   20
+  ],
+  [
+   "clothes",
+   14
+  ],
+  [
+   "dress",
+   13
+  ],
+  [
+   "t-shirt",
+   13
+  ],
+  [
+   "wear",
+   6
+  ],
+  [
+   "garment",
+   6
+  ],
+  [
+   "outfit",
+   5
+  ],
+  [
+   "attire",
+   4
+  ],
+  [
+   "bag",
+   4
+  ],
+  [
+   "discount",
+   4
+  ],
+  [
+   "fabric",
+   3
+  ],
+  [
+   "business",
+   3
+  ],
+  [
+   "cloth",
+   3
+  ],
+  [
+   "jumper",
+   3
+  ],
+  [
+   "style",
+   3
+  ],
+  [
+   "textile",
+   3
+  ],
+  [
+   "hanger",
+   2
+  ],
+  [
+   "marketing",
+   2
+  ],
+  [
+   "social",
+   2
+  ],
+  [
+   "shoes",
+   2
+  ],
+  [
+   "blouse",
+   2
+  ],
+  [
+   "casual",
+   2
+  ],
+  [
+   "shopping",
+   2
+  ],
+  [
+   "boutique",
+   2
+  ],
+  [
+   "shirts",
+   2
+  ],
+  [
+   "sale",
+   2
+  ],
+  [
+   "promotion",
+   2
+  ],
+  [
+   "pullover",
+   2
+  ],
+  [
+   "sweater",
+   2
+  ],
+  [
+   "tee",
+   2
+  ],
+  [
+   "garment-cover",
+   2
+  ],
+  [
+   "suit-cover",
+   2
+  ],
+  [
+   "evening",
+   1
+  ],
+  [
+   "women",
+   1
+  ],
+  [
+   "singlet",
+   1
+  ],
+  [
+   "sleeveless",
+   1
+  ],
+  [
+   "tank-top",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "fabric",
+      "fashion",
+      "hanger",
+      "wear"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8365192-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "dress",
+      "evening",
+      "fashion",
+      "women"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8244706-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "fashion",
+      "shirt",
+      "singlet",
+      "sleeveless",
+      "tank-top"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7841416-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "business",
+      "clothes",
+      "fashion",
+      "marketing",
+      "social"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7689874-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "business",
+      "clothes",
+      "fashion",
+      "marketing",
+      "social"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7689852-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "cloth",
+      "fashion",
+      "shoes",
+      "supermarket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7598443-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "fashion",
+      "outfit",
+      "wear"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7536382-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "blouse",
+      "boy",
+      "clothing",
+      "jumper"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7483411-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "business",
+      "clothing",
+      "fashion",
+      "lifestyle"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7446792-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "cap",
+      "fashion",
+      "pants",
+      "shorts",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7426063-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "casual",
+      "clothes",
+      "garment",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7375833-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothes",
+      "fashion",
+      "sewing",
+      "tshirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7375814-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "casual",
+      "clothes",
+      "garment",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7375753-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "shoes",
+      "washing",
+      "wear"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7347713-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "attire",
+      "clothing",
+      "fashion",
+      "outfit",
+      "wear"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7316663-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7274189-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothes",
+      "clothing",
+      "dress",
+      "fashion",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7130801-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothes",
+      "clothing",
+      "fashion",
+      "shirt",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7130797-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "fashion",
+      "hat",
+      "outfit",
+      "shirt",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7129722-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "attire",
+      "bag",
+      "clothing",
+      "dress",
+      "fashion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7129711-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "bag",
+      "clothing",
+      "fashion",
+      "jacket",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7129702-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "bag",
+      "dress",
+      "fashion",
+      "shirt",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6987725-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "bag",
+      "clothes",
+      "dress",
+      "fashion",
+      "syle"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6987709-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "dress",
+      "shirt",
+      "shopping",
+      "style"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6987686-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "dress",
+      "fashion",
+      "shirt",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6899882-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "dress",
+      "fashion",
+      "outfit",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6899847-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "dress",
+      "fashion",
+      "shirt",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6863336-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "dress",
+      "fashion",
+      "shirt",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6863308-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "boutique",
+      "clothing",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6863191-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "blouse",
+      "clothes",
+      "clothing",
+      "shirt",
+      "wear"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6827076-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothes",
+      "clothing",
+      "shirts",
+      "style",
+      "textile"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6670633-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothes",
+      "clothing",
+      "shirts",
+      "style",
+      "textile"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6670573-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "discount",
+      "fashion",
+      "sale",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6481217-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "discount",
+      "fashion",
+      "sale",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6481194-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "cloth",
+      "dress",
+      "garment",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6321802-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "discount",
+      "fashion",
+      "promotion",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6250360-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothing",
+      "discount",
+      "fashion",
+      "promotion",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6250278-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "boutique",
+      "clothing",
+      "shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6250005-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "attire",
+      "clothes",
+      "clothing",
+      "fashion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6242759-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "attire",
+      "fabric",
+      "garments",
+      "textile"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5980055-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "fashion",
+      "jumper",
+      "pullover",
+      "sweater",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5438244-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothes",
+      "online",
+      "shirt",
+      "shopping",
+      "tee"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5345875-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "clothes",
+      "fashion",
+      "garment",
+      "outfit",
+      "wear"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5122365-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "dress",
+      "fashion",
+      "femenine",
+      "garment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4899714-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "fashion",
+      "jumper",
+      "pullover",
+      "sweater",
+      "t-shirt"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4657767-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "cloth",
+      "dress",
+      "fabric",
+      "female-shirt",
+      "gift"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4626238-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "garment",
+      "garment-cover",
+      "laundry",
+      "suit-cover"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4484607-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "garment-cover",
+      "hanger",
+      "suit-cover"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4484599-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "fashion",
+      "location",
+      "pin",
+      "t-shirt",
+      "tee"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4358889-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Apparel",
+     "tags": [
+      "apparel",
+      "hobby",
+      "interest"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4129081-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "t-shirt",
+  "rationale": "Shirt and t-shirt lead the refs.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

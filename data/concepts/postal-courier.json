@@ -1,0 +1,20 @@
+{
+  "id": "postal-courier",
+  "name": "Postal & Courier",
+  "kind": "industry",
+  "parent": "transportation",
+  "metaphor": "envelope",
+  "keywords": [
+    "mail",
+    "post",
+    "parcels",
+    "delivery",
+    "air freight",
+    "logistics",
+    "couriers"
+  ],
+  "reduction": "None — envelope and flap at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

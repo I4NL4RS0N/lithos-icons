@@ -1,0 +1,795 @@
+{
+ "concept": "legal-services",
+ "query": "legal",
+ "fetched": "2026-11-13T21:08:18.090Z",
+ "topTerms": [
+  [
+   "legal",
+   50
+  ],
+  [
+   "law",
+   26
+  ],
+  [
+   "contract",
+   12
+  ],
+  [
+   "document",
+   11
+  ],
+  [
+   "justice",
+   11
+  ],
+  [
+   "regulation",
+   10
+  ],
+  [
+   "compliance",
+   9
+  ],
+  [
+   "business",
+   9
+  ],
+  [
+   "court",
+   6
+  ],
+  [
+   "lawyer",
+   6
+  ],
+  [
+   "planning",
+   5
+  ],
+  [
+   "democracy",
+   4
+  ],
+  [
+   "scale",
+   4
+  ],
+  [
+   "judicial",
+   4
+  ],
+  [
+   "professional",
+   4
+  ],
+  [
+   "strategy",
+   4
+  ],
+  [
+   "rights",
+   3
+  ],
+  [
+   "auction",
+   3
+  ],
+  [
+   "judge",
+   3
+  ],
+  [
+   "corporate",
+   3
+  ],
+  [
+   "management",
+   3
+  ],
+  [
+   "decision",
+   3
+  ],
+  [
+   "lawful",
+   3
+  ],
+  [
+   "draw",
+   3
+  ],
+  [
+   "note",
+   3
+  ],
+  [
+   "sketch",
+   3
+  ],
+  [
+   "write",
+   3
+  ],
+  [
+   "claims",
+   3
+  ],
+  [
+   "hammer",
+   2
+  ],
+  [
+   "legality",
+   2
+  ],
+  [
+   "verdict",
+   2
+  ],
+  [
+   "provisions",
+   2
+  ],
+  [
+   "gavel",
+   2
+  ],
+  [
+   "enforceable",
+   2
+  ],
+  [
+   "regulatory",
+   2
+  ],
+  [
+   "statutory",
+   2
+  ],
+  [
+   "agreement",
+   2
+  ],
+  [
+   "files-and-folders",
+   2
+  ],
+  [
+   "privacy-policy",
+   2
+  ],
+  [
+   "approach",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "contract",
+      "legal",
+      "regulation",
+      "rights"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8156165-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "document",
+      "hammer",
+      "law",
+      "legal",
+      "legal-document"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6717330-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "auction",
+      "court",
+      "judge",
+      "law",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6222828-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "corporate",
+      "legal",
+      "management",
+      "organization",
+      "strategic"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8505181-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "legal",
+      "legality"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8493350-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "legal",
+      "legality"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8493346-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "auction",
+      "justice",
+      "law",
+      "legal",
+      "verdict"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8411430-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "auction",
+      "justice",
+      "law",
+      "legal",
+      "verdict"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8411411-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "contract",
+      "document",
+      "justice",
+      "law",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8409748-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "contract",
+      "law",
+      "legal",
+      "regulation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8375044-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "contract",
+      "law",
+      "legal",
+      "regulation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8375004-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "court",
+      "decision",
+      "legal",
+      "provisions",
+      "regulation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8330945-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "court",
+      "decision",
+      "legal",
+      "provisions",
+      "regulation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8330921-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "court",
+      "democracy",
+      "law",
+      "lawyer",
+      "legal",
+      "scale"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8302426-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "court",
+      "democracy",
+      "law",
+      "lawyer",
+      "legal",
+      "scale"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8302340-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "computer",
+      "gavel",
+      "law",
+      "legal",
+      "online"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8283895-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "court",
+      "democracy",
+      "law",
+      "lawyer",
+      "legal",
+      "scale"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8272945-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "enforceable",
+      "judicial",
+      "lawful",
+      "legal",
+      "regulatory",
+      "statutory"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8249645-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "enforceable",
+      "judicial",
+      "lawful",
+      "legal",
+      "regulatory",
+      "statutory"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8249591-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "agreement",
+      "compliance",
+      "contract",
+      "legal",
+      "regulation",
+      "treaty"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8240056-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "contract",
+      "document",
+      "files-and-folders",
+      "legal",
+      "privacy-policy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8229768-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "attorney",
+      "business",
+      "ethics",
+      "justice",
+      "law",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8210335-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "agreement",
+      "contract",
+      "document",
+      "law",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8208355-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "governance",
+      "law",
+      "legal",
+      "policies",
+      "regulation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8204644-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "contract",
+      "legal",
+      "regulation",
+      "rights"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8203278-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "compliance",
+      "contract",
+      "legal",
+      "regulation",
+      "rights"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8203245-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "law",
+      "legal",
+      "management",
+      "police",
+      "professional"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8194604-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "law",
+      "legal",
+      "management",
+      "professional",
+      "regulation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8194581-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8152523-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "code",
+      "lawful",
+      "legal",
+      "legal",
+      "legit",
+      "statute"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8150743-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "democracy",
+      "law",
+      "lawyer",
+      "legal",
+      "scale"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8084948-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "draw",
+      "legal",
+      "note",
+      "planning",
+      "sketch",
+      "write"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8078122-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "aid",
+      "decision",
+      "gavel",
+      "judge",
+      "justice",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8073994-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "copyright",
+      "digital-rights",
+      "law",
+      "legal",
+      "online-justice",
+      "website"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8069401-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "document",
+      "law",
+      "lawyer",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8053448-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "approach",
+      "defense",
+      "justice",
+      "legal",
+      "strategy",
+      "tactic"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8033810-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "draw",
+      "legal",
+      "note",
+      "planning",
+      "sketch",
+      "write"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8032866-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "draw",
+      "legal",
+      "note",
+      "planning",
+      "sketch",
+      "write"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8032837-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "corporate",
+      "legal",
+      "planning",
+      "professional",
+      "strategy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8015190-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "corporate",
+      "legal",
+      "planning",
+      "professional",
+      "strategy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8015175-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "approach",
+      "defense",
+      "justice",
+      "legal",
+      "strategy",
+      "tactic"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8012067-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "contract",
+      "document",
+      "files-and-folders",
+      "legal",
+      "privacy-policy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8004604-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "claims",
+      "justice",
+      "law",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7982905-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "claims",
+      "justice",
+      "law",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7982892-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "claims",
+      "justice",
+      "law",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7982881-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "document",
+      "law",
+      "lawyer",
+      "legal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7982131-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "contract",
+      "document",
+      "judicial",
+      "law",
+      "legal",
+      "legislation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7968006-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "contract",
+      "document",
+      "judicial",
+      "law",
+      "legal",
+      "legislation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7967935-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "document",
+      "hammer",
+      "judge",
+      "law",
+      "legal",
+      "paper"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7966316-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "legal",
+     "tags": [
+      "business",
+      "document",
+      "justice",
+      "legal",
+      "low"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7962584-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "scales",
+  "rationale": "Law and justice refs centre on the scales.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

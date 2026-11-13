@@ -1,0 +1,792 @@
+{
+ "concept": "forestry",
+ "query": "forestry",
+ "fetched": "2026-11-13T21:08:12.271Z",
+ "topTerms": [
+  [
+   "forestry",
+   44
+  ],
+  [
+   "biomass",
+   21
+  ],
+  [
+   "energy",
+   21
+  ],
+  [
+   "wood",
+   16
+  ],
+  [
+   "forest",
+   9
+  ],
+  [
+   "organic",
+   9
+  ],
+  [
+   "sources",
+   9
+  ],
+  [
+   "source",
+   9
+  ],
+  [
+   "ecology",
+   8
+  ],
+  [
+   "trees",
+   5
+  ],
+  [
+   "tree",
+   5
+  ],
+  [
+   "lumberjack",
+   4
+  ],
+  [
+   "sustainable forestry",
+   4
+  ],
+  [
+   "sustainable",
+   4
+  ],
+  [
+   "sustainable-forestry",
+   4
+  ],
+  [
+   "firewood",
+   3
+  ],
+  [
+   "timber",
+   3
+  ],
+  [
+   "axe",
+   3
+  ],
+  [
+   "natural",
+   3
+  ],
+  [
+   "working",
+   3
+  ],
+  [
+   "green",
+   3
+  ],
+  [
+   "forestry equipment",
+   3
+  ],
+  [
+   "forestry-equipment",
+   3
+  ],
+  [
+   "biomass forestry crops",
+   3
+  ],
+  [
+   "biomass-forestry-crops",
+   3
+  ],
+  [
+   "crops",
+   3
+  ],
+  [
+   "logs",
+   2
+  ],
+  [
+   "nature",
+   2
+  ],
+  [
+   "earth",
+   2
+  ],
+  [
+   "environment",
+   2
+  ],
+  [
+   "eco",
+   2
+  ],
+  [
+   "agriculture-tools",
+   2
+  ],
+  [
+   "demon-tools",
+   2
+  ],
+  [
+   "grim-reaper",
+   2
+  ],
+  [
+   "sickle",
+   2
+  ],
+  [
+   "forestry cranes",
+   2
+  ],
+  [
+   "cranes",
+   2
+  ],
+  [
+   "forestry-cranes",
+   2
+  ],
+  [
+   "grabbing",
+   2
+  ],
+  [
+   "truck",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "forestry",
+     "tags": [
+      "firewood",
+      "forestry",
+      "logs",
+      "timber",
+      "trees",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8167433-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "forest",
+      "forestry",
+      "management",
+      "silviculture",
+      "trees",
+      "woods"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8145487-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "afforestation",
+      "evergreen",
+      "forestry",
+      "landscape"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7820608-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "firewood",
+      "forestry",
+      "logs",
+      "lumber",
+      "trees",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7746134-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "axe",
+      "forestry",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7342013-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "axe",
+      "firewood",
+      "forestry",
+      "lumberjack",
+      "woodcutting"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6808735-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "forestry",
+      "nature",
+      "plantation",
+      "trees",
+      "woodland"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6715164-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "forest",
+      "forestry",
+      "natural",
+      "nature",
+      "tree",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5189651-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "axe",
+      "forest",
+      "forestry",
+      "logging",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4671002-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "forestry",
+      "gear",
+      "lumberjack",
+      "mechanical",
+      "working"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3958215-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "earth",
+      "ecology",
+      "forest",
+      "forestry",
+      "tree"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2887824-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "earth",
+      "ecology",
+      "forest",
+      "forestry",
+      "tree"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2885159-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "farm",
+      "forest",
+      "forestry",
+      "green",
+      "growth",
+      "trees"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2823275-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "climate-change",
+      "deforestation",
+      "environmental",
+      "forestry",
+      "global-impact",
+      "global-warming"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2615588-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2090502-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2090499-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2072025-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2072013-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2071999-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2071996-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2071943-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2069521-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2069517-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1902617-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1886401-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1886396-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1884939-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1884930-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1775572-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "organic",
+      "sources"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1775536-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1744621-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "biomass",
+      "energy",
+      "forestry",
+      "source",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1744614-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry",
+     "tags": [
+      "ecology",
+      "forestry",
+      "jungle",
+      "man",
+      "planting",
+      "tree"
+     ],
+     "thumb": "https://static.thenounproject.com/png/974221-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry shovel",
+     "tags": [
+      "forest-fire-shovel",
+      "forestry-shovel",
+      "forestry-shovel",
+      "shovel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8506192-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "sustainable forestry",
+     "tags": [
+      "ecology",
+      "environment",
+      "forestry",
+      "natural",
+      "sustainable",
+      "sustainable-forestry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7353154-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "sustainable forestry",
+     "tags": [
+      "eco",
+      "forest",
+      "green",
+      "sustainable",
+      "sustainable-forestry",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7195507-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "sustainable forestry",
+     "tags": [
+      "eco",
+      "forest",
+      "green",
+      "sustainable",
+      "sustainable-forestry",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7195500-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "sustainable forestry",
+     "tags": [
+      "ecology",
+      "environment",
+      "forestry",
+      "natural",
+      "sustainable",
+      "sustainable-forestry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6490998-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry defender",
+     "tags": [
+      "defender",
+      "forestry",
+      "forestry-defender",
+      "lumberjack",
+      "protector",
+      "working"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3958210-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry equipment",
+     "tags": [
+      "agriculture-tools",
+      "demon-tools",
+      "forestry-equipment",
+      "grim-reaper",
+      "sickle"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3244316-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry equipment",
+     "tags": [
+      "agriculture-tools",
+      "demon-tools",
+      "forestry-equipment",
+      "grim-reaper",
+      "sickle"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3244079-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry equipment",
+     "tags": [
+      "building",
+      "equipment",
+      "forestry",
+      "forestry-equipment",
+      "heavy",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3136925-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry cranes",
+     "tags": [
+      "cranes",
+      "forestry",
+      "forestry-cranes",
+      "grabbing",
+      "timber",
+      "truck"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3047562-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "forestry cranes",
+     "tags": [
+      "cranes",
+      "forestry",
+      "forestry-cranes",
+      "grabbing",
+      "timber",
+      "truck"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3047531-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "biomass forestry crops",
+     "tags": [
+      "biomass",
+      "biomass-forestry-crops",
+      "crops",
+      "ecology",
+      "energy",
+      "forestry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7126520-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "biomass forestry crops",
+     "tags": [
+      "biomass",
+      "biomass-forestry-crops",
+      "crops",
+      "ecology",
+      "energy",
+      "forestry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7126488-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "biomass forestry crops",
+     "tags": [
+      "biomass",
+      "biomass-forestry-crops",
+      "crops",
+      "ecology",
+      "energy",
+      "forestry"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7126480-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "wordwide forestry safe",
+     "tags": [
+      "forestry",
+      "lumberjack",
+      "safe",
+      "wordwide",
+      "wordwide-forestry-safe",
+      "working"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3958202-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Tree",
+     "tags": [
+      "farmhouse",
+      "forestry",
+      "tree"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1710660-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "World Forestry Day",
+     "tags": [
+      "forest",
+      "world-forestry-day"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1671052-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "log-pile",
+  "rationale": "Refs led by wood and logs; the conifer is already paper & forest products.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

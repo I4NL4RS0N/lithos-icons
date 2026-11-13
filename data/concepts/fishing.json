@@ -1,0 +1,18 @@
+{
+  "id": "fishing",
+  "name": "Fishing",
+  "kind": "industry",
+  "parent": "agriculture",
+  "metaphor": "fish",
+  "keywords": [
+    "fisheries",
+    "aquaculture",
+    "seafood",
+    "fish farming",
+    "trawling"
+  ],
+  "reduction": "20+: eye.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

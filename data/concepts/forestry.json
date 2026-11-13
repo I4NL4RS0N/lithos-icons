@@ -1,0 +1,19 @@
+{
+  "id": "forestry",
+  "name": "Forestry",
+  "kind": "industry",
+  "parent": "agriculture",
+  "metaphor": "log-pile",
+  "keywords": [
+    "logging",
+    "timber",
+    "lumber",
+    "wood",
+    "silviculture",
+    "forest"
+  ],
+  "reduction": "24+: growth ring in each log.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

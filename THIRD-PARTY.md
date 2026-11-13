@@ -34,6 +34,7 @@ ISO 3166-1 codes via `i18n-iso-countries` (MIT); UN M49 regions via `un-m49` (MI
 
 ## Industry classifications
 NAICS 2022 and SIC 1987 are US government works (public domain); titles read from `naicsjs` (MIT) and `naics-sic-crosswalk` (MIT, Census concordance; SIC industry titles are the concordance's short forms).
+ISIC Rev. 4 © United Nations, reuse permitted with attribution; division, group and class titles read from the `polca/premise` repository (BSD-3-Clause).
 NACE Rev. 2.1 © European Union, reuse permitted with attribution (Eurostat); read from `nace-mcp` (MIT).
 
 ## GICS and Fitch Ratings (not MIT)

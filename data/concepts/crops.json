@@ -1,0 +1,20 @@
+{
+  "id": "crops",
+  "name": "Crops",
+  "kind": "industry",
+  "parent": "agriculture",
+  "metaphor": "wheat-ear",
+  "keywords": [
+    "crop production",
+    "grain",
+    "wheat",
+    "farming",
+    "harvest",
+    "cereals",
+    "oilseeds"
+  ],
+  "reduction": "16–20: two pairs of grains. 24+: three pairs.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

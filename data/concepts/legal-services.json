@@ -1,0 +1,20 @@
+{
+  "id": "legal-services",
+  "name": "Legal Services",
+  "kind": "industry",
+  "parent": "professional-services",
+  "metaphor": "scales",
+  "keywords": [
+    "law",
+    "lawyers",
+    "justice",
+    "courts",
+    "compliance",
+    "litigation",
+    "regulation"
+  ],
+  "reduction": "16–20: bowls hang straight off the beam. 24+: pans on strings.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

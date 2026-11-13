@@ -1,0 +1,19 @@
+{
+  "id": "electrical-equipment",
+  "name": "Electrical Equipment",
+  "kind": "industry",
+  "parent": "industrials",
+  "metaphor": "plug",
+  "keywords": [
+    "electrical components",
+    "power equipment",
+    "cables",
+    "batteries",
+    "appliances",
+    "wiring"
+  ],
+  "reduction": "None — plug, two prongs and cord at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

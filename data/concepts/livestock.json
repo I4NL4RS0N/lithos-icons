@@ -1,0 +1,20 @@
+{
+  "id": "livestock",
+  "name": "Livestock",
+  "kind": "industry",
+  "parent": "agriculture",
+  "metaphor": "cow-head",
+  "keywords": [
+    "cattle",
+    "animal production",
+    "ranching",
+    "dairy",
+    "poultry",
+    "hogs",
+    "meat"
+  ],
+  "reduction": "16: head, horns and ears only. 20+: muzzle line. 24+: eyes. 32+: nostrils.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,814 @@
+{
+ "concept": "furniture",
+ "query": "furniture",
+ "fetched": "2026-11-13T21:08:15.620Z",
+ "topTerms": [
+  [
+   "furniture",
+   50
+  ],
+  [
+   "interior",
+   38
+  ],
+  [
+   "decoration",
+   26
+  ],
+  [
+   "sofa",
+   16
+  ],
+  [
+   "lamp",
+   15
+  ],
+  [
+   "table",
+   15
+  ],
+  [
+   "household",
+   14
+  ],
+  [
+   "chair",
+   13
+  ],
+  [
+   "cabinet",
+   8
+  ],
+  [
+   "cupboard",
+   8
+  ],
+  [
+   "home",
+   7
+  ],
+  [
+   "room",
+   6
+  ],
+  [
+   "decor",
+   4
+  ],
+  [
+   "seat",
+   4
+  ],
+  [
+   "wardrobe",
+   4
+  ],
+  [
+   "storage",
+   4
+  ],
+  [
+   "couch",
+   3
+  ],
+  [
+   "dressing-table",
+   3
+  ],
+  [
+   "mirror",
+   3
+  ],
+  [
+   "furnishing",
+   3
+  ],
+  [
+   "furnishings",
+   3
+  ],
+  [
+   "indoor",
+   3
+  ],
+  [
+   "house",
+   2
+  ],
+  [
+   "home-decor",
+   2
+  ],
+  [
+   "discount",
+   2
+  ],
+  [
+   "living-room",
+   2
+  ],
+  [
+   "drawer",
+   2
+  ],
+  [
+   "plant",
+   2
+  ],
+  [
+   "television",
+   2
+  ],
+  [
+   "bookcase",
+   2
+  ],
+  [
+   "armchair",
+   1
+  ],
+  [
+   "home-furniture",
+   1
+  ],
+  [
+   "house-furniture",
+   1
+  ],
+  [
+   "interior-furniture",
+   1
+  ],
+  [
+   "wooden-furniture",
+   1
+  ],
+  [
+   "interiors",
+   1
+  ],
+  [
+   "mall",
+   1
+  ],
+  [
+   "desk",
+   1
+  ],
+  [
+   "foot",
+   1
+  ],
+  [
+   "store",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "home",
+      "interior",
+      "lamp",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8314586-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "couch",
+      "furniture",
+      "house",
+      "household",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8496911-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "couch",
+      "furniture",
+      "house",
+      "household",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8496902-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "chair",
+      "decoration",
+      "furniture",
+      "interior",
+      "room"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8469418-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "chair",
+      "decoration",
+      "furniture",
+      "interior",
+      "room"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8469414-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "decoration",
+      "furniture",
+      "interior",
+      "room",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8459429-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "chair",
+      "decoration",
+      "furniture",
+      "interior",
+      "room"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8459421-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "armchair",
+      "chair",
+      "decoration",
+      "furniture",
+      "interior",
+      "room"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8459409-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "chair",
+      "decoration",
+      "furniture",
+      "interior",
+      "room"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8459406-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "decor",
+      "furniture",
+      "home",
+      "interior",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8444759-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "furniture",
+      "interior",
+      "lamp",
+      "seat"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8414287-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "furniture",
+      "interior",
+      "lamp",
+      "seat"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8414283-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "furniture",
+      "interior",
+      "lamp",
+      "seat"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8414277-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "interior",
+      "lamp",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8369399-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "interior",
+      "lamp",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8369323-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "furniture",
+      "home-furniture",
+      "house-furniture",
+      "interior-furniture",
+      "wooden-furniture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8327050-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "home",
+      "interior",
+      "lamp",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8315299-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "dressing-table",
+      "furniture",
+      "interior",
+      "mirror",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8315295-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "dressing-table",
+      "furniture",
+      "interior",
+      "mirror",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8314605-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "home",
+      "interior",
+      "lamp",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8314604-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "dressing-table",
+      "furniture",
+      "interior",
+      "mirror",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8314583-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "furnishing",
+      "furniture",
+      "home-decor",
+      "household",
+      "interior"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8254547-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "furnishing",
+      "furniture",
+      "home-decor",
+      "household",
+      "interior"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8254544-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decor",
+      "furniture",
+      "home",
+      "interior",
+      "sofa",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8223874-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "furniture",
+      "furniture",
+      "interior",
+      "seat",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8222077-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "furnishings",
+      "furniture",
+      "indoor",
+      "sofa",
+      "wardrobe"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8212950-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cupboard",
+      "furniture",
+      "household",
+      "interior",
+      "storage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8188311-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "cupboard",
+      "furniture",
+      "interiors",
+      "storage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8188306-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "couch",
+      "furniture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8161024-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "furnishings",
+      "furniture",
+      "indoor",
+      "sofa",
+      "wardrobe"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8159872-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cabinet",
+      "furnishings",
+      "furniture",
+      "indoor",
+      "sofa",
+      "wardrobe"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8159806-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "decor",
+      "discount",
+      "furniture",
+      "mall",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8157084-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "chair",
+      "decor",
+      "discount",
+      "furniture",
+      "sofa",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8157033-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "household",
+      "interior",
+      "living-room",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147778-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "household",
+      "interior",
+      "living-room",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147762-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "household",
+      "interior",
+      "lamp",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147761-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "household",
+      "interior",
+      "lamp",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147760-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "household",
+      "interior",
+      "lamp",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147759-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cupboard",
+      "drawer",
+      "furniture",
+      "household",
+      "interior",
+      "lamp"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147758-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "household",
+      "interior",
+      "lamp",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147757-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cupboard",
+      "furniture",
+      "home",
+      "household",
+      "interior",
+      "storage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147756-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cupboard",
+      "decoration",
+      "furniture",
+      "household",
+      "interior",
+      "storage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8147755-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "desk",
+      "drawer",
+      "foot",
+      "furniture",
+      "store",
+      "wooden"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8135048-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Furnitures",
+     "tags": [
+      "door",
+      "furnishing",
+      "furniture",
+      "furnitures",
+      "setting",
+      "wardrobe"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8109685-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "cupboard",
+      "furniture",
+      "interior",
+      "lamp",
+      "table"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8107390-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "home",
+      "interior",
+      "sofa"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8107388-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "interior",
+      "plant",
+      "table",
+      "television"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8094780-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "book",
+      "bookcase",
+      "cupboard",
+      "decoration",
+      "furniture",
+      "interior"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8094779-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "bookcase",
+      "cupboard",
+      "decoration",
+      "furniture",
+      "interior",
+      "lamp"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8094776-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "furniture",
+     "tags": [
+      "decoration",
+      "furniture",
+      "interior",
+      "plant",
+      "table",
+      "television"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8094775-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "armchair",
+  "rationale": "Sofa, chair and table lead; an armchair holds up at 16px.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}
