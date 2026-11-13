@@ -562,5 +562,6023 @@
   "name": "Nonclassifiable Establishments",
   "level": "major group",
   "parent": "K"
+ },
+ {
+  "code": "0111",
+  "name": "Wheat",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0112",
+  "name": "Rice",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0115",
+  "name": "Corn",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0116",
+  "name": "Soybeans",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0119",
+  "name": "Cash Grains, NEC",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0131",
+  "name": "Cotton",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0132",
+  "name": "Tobacco",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0133",
+  "name": "Sugarcane and Sugar Beets",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0134",
+  "name": "Irish Potatoes",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0139",
+  "name": "Field Crops, Except Cash Grain",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0161",
+  "name": "Vegetables and Melons",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0171",
+  "name": "Berry Crops",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0172",
+  "name": "Grapes",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0173",
+  "name": "Tree Nuts",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0174",
+  "name": "Citrus Fruits",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0175",
+  "name": "Deciduous Tree Fruits",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0179",
+  "name": "Fruits and Tree Nuts, NEC",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0181",
+  "name": "Ornamental Nursery Products",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0182",
+  "name": "Food Crops Grown Under Cover",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0191",
+  "name": "General Farms, Primarily Crop",
+  "level": "industry",
+  "parent": "01"
+ },
+ {
+  "code": "0211",
+  "name": "Beef Cattle Feedlots",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0212",
+  "name": "Beef Cattle, Except Feedlots",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0213",
+  "name": "Hogs",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0214",
+  "name": "Sheep and Goats",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0219",
+  "name": "General Livestock, NEC",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0241",
+  "name": "Dairy Farms",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0251",
+  "name": "Broiler, Fryer, and Roaster Chickens",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0252",
+  "name": "Chicken Eggs",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0253",
+  "name": "Turkeys and Turkey Eggs",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0254",
+  "name": "Poultry Hatcheries",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0259",
+  "name": "Poultry and Eggs, NEC",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0271",
+  "name": "Fur-bearing Animals and Rabbits",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0272",
+  "name": "Horses and Other Equines",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0273",
+  "name": "Animal Aquaculture",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0279",
+  "name": "Animal Specialties, NEC",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0291",
+  "name": "General Farms, Primarily animals",
+  "level": "industry",
+  "parent": "02"
+ },
+ {
+  "code": "0711",
+  "name": "Soil Preparation Services",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0721",
+  "name": "Crop Planting and Protection",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0722",
+  "name": "Crop Harvesting",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0723",
+  "name": "Crop Preparation Services For Market",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0724",
+  "name": "Cotton Ginning",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0741",
+  "name": "Veterinary Services For Livestock",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0742",
+  "name": "Veterinary Services, Specialties",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0751",
+  "name": "Livestock Services, Except Veterinary",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0752",
+  "name": "Animal Specialty Services",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0761",
+  "name": "Farm Labor Contractors",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0762",
+  "name": "Farm Management Services",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0781",
+  "name": "Landscape Counseling and Planning",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0782",
+  "name": "Lawn and Garden Services",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0783",
+  "name": "Ornamental Shrub and Tree Services",
+  "level": "industry",
+  "parent": "07"
+ },
+ {
+  "code": "0811",
+  "name": "Timber Tracts",
+  "level": "industry",
+  "parent": "08"
+ },
+ {
+  "code": "0831",
+  "name": "Forest Products",
+  "level": "industry",
+  "parent": "08"
+ },
+ {
+  "code": "0851",
+  "name": "Forestry Services",
+  "level": "industry",
+  "parent": "08"
+ },
+ {
+  "code": "0912",
+  "name": "Finfish",
+  "level": "industry",
+  "parent": "09"
+ },
+ {
+  "code": "0913",
+  "name": "Shellfish",
+  "level": "industry",
+  "parent": "09"
+ },
+ {
+  "code": "0919",
+  "name": "Miscellaneous Marine Products",
+  "level": "industry",
+  "parent": "09"
+ },
+ {
+  "code": "0921",
+  "name": "Fish Hatcheries and Preserves",
+  "level": "industry",
+  "parent": "09"
+ },
+ {
+  "code": "0971",
+  "name": "Hunting, Trapping, Game Propagation",
+  "level": "industry",
+  "parent": "09"
+ },
+ {
+  "code": "1011",
+  "name": "Iron Ores",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1021",
+  "name": "Copper Ores",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1031",
+  "name": "Lead and Zinc Ores",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1041",
+  "name": "Gold Ores",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1044",
+  "name": "Silver Ores",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1061",
+  "name": "Ferroalloy Ores, Except Vanadium",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1081",
+  "name": "Metal Mining Services",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1094",
+  "name": "Uranium-radium-vanadium Ores",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1099",
+  "name": "Metal Ores, NEC",
+  "level": "industry",
+  "parent": "10"
+ },
+ {
+  "code": "1221",
+  "name": "Bituminous Coal and Lignite-surface Mining",
+  "level": "industry",
+  "parent": "12"
+ },
+ {
+  "code": "1222",
+  "name": "Bituminous Coal-underground Mining",
+  "level": "industry",
+  "parent": "12"
+ },
+ {
+  "code": "1231",
+  "name": "Anthracite Mining",
+  "level": "industry",
+  "parent": "12"
+ },
+ {
+  "code": "1241",
+  "name": "Coal Mining Services",
+  "level": "industry",
+  "parent": "12"
+ },
+ {
+  "code": "1311",
+  "name": "Crude Petroleum and Natural Gas",
+  "level": "industry",
+  "parent": "13"
+ },
+ {
+  "code": "1321",
+  "name": "Natural Gas Liquids",
+  "level": "industry",
+  "parent": "13"
+ },
+ {
+  "code": "1381",
+  "name": "Drilling Oil and Gas Wells",
+  "level": "industry",
+  "parent": "13"
+ },
+ {
+  "code": "1382",
+  "name": "Oil and Gas Exploration Services",
+  "level": "industry",
+  "parent": "13"
+ },
+ {
+  "code": "1389",
+  "name": "Oil and Gas Field Services, NEC",
+  "level": "industry",
+  "parent": "13"
+ },
+ {
+  "code": "1411",
+  "name": "Dimension Stone",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1422",
+  "name": "Crushed and Broken Limestone",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1423",
+  "name": "Crushed and Broken Granite",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1429",
+  "name": "Crushed and Broken Stone, NEC",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1442",
+  "name": "Construction Sand and Gravel",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1446",
+  "name": "Industrial Sand",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1455",
+  "name": "Kaolin and Ball Clay",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1459",
+  "name": "Clay and Related Minerals, NEC",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1474",
+  "name": "Potash, Soda, and Borate Minerals",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1475",
+  "name": "Phosphate Rock",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1479",
+  "name": "Chemical and Fertilizer Mining",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1481",
+  "name": "Nonmetallic Mineral Services",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1499",
+  "name": "Miscellaneous Nonmetallic Mining",
+  "level": "industry",
+  "parent": "14"
+ },
+ {
+  "code": "1521",
+  "name": "Single-family Housing Construction",
+  "level": "industry",
+  "parent": "15"
+ },
+ {
+  "code": "1522",
+  "name": "Residential Construction, NEC",
+  "level": "industry",
+  "parent": "15"
+ },
+ {
+  "code": "1531",
+  "name": "Operative Builders",
+  "level": "industry",
+  "parent": "15"
+ },
+ {
+  "code": "1541",
+  "name": "Industrial Buildings and Warehouses",
+  "level": "industry",
+  "parent": "15"
+ },
+ {
+  "code": "1542",
+  "name": "Nonresidential Construction, NEC",
+  "level": "industry",
+  "parent": "15"
+ },
+ {
+  "code": "1611",
+  "name": "Highway and Street Construction",
+  "level": "industry",
+  "parent": "16"
+ },
+ {
+  "code": "1622",
+  "name": "Bridge, Tunnel, and Elevated Highway",
+  "level": "industry",
+  "parent": "16"
+ },
+ {
+  "code": "1623",
+  "name": "Water, Sewer, and Utility Lines",
+  "level": "industry",
+  "parent": "16"
+ },
+ {
+  "code": "1629",
+  "name": "Heavy Construction, NEC",
+  "level": "industry",
+  "parent": "16"
+ },
+ {
+  "code": "1711",
+  "name": "Plumbing, Heating, Air-conditioning",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1721",
+  "name": "Painting and Paper Hanging",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1731",
+  "name": "Electrical Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1741",
+  "name": "Masonry and Other Stonework",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1742",
+  "name": "Plastering, Drywall, and Insulation",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1743",
+  "name": "Terrazzo, Tile, Marble, Mosaic Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1751",
+  "name": "Carpentry Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1752",
+  "name": "Floor Laying and Floor Work, NEC",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1761",
+  "name": "Roofing, Siding, and Sheetmetal Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1771",
+  "name": "Concrete Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1781",
+  "name": "Water Well Drilling",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1791",
+  "name": "Structural Steel Erection",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1793",
+  "name": "Glass and Glazing Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1794",
+  "name": "Excavation Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1795",
+  "name": "Wrecking and Demolition Work",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1796",
+  "name": "Installing Building Equipment",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "1799",
+  "name": "Special Trade Contractors, NEC",
+  "level": "industry",
+  "parent": "17"
+ },
+ {
+  "code": "2011",
+  "name": "Meat Packing Plants",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2013",
+  "name": "Sausages and Other Prepared Meats",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2015",
+  "name": "Poultry Slaughtering and Processing",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2021",
+  "name": "Creamery Butter",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2022",
+  "name": "Cheese; Natural and Processed",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2023",
+  "name": "Dry, Condensed, Evaporated Products",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2024",
+  "name": "Ice Cream and Frozen Desserts",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2026",
+  "name": "Fluid Milk",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2032",
+  "name": "Canned Specialties",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2033",
+  "name": "Canned Fruits and Specialties",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2034",
+  "name": "Dehydrated Fruits, Vegetables, Soups",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2035",
+  "name": "Pickles, Sauces, and Salad Dressings",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2037",
+  "name": "Frozen Fruits and Vegetables",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2038",
+  "name": "Frozen Specialties, NEC",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2041",
+  "name": "Flour and Other Grain Mill Products",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2043",
+  "name": "Cereal Breakfast Foods",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2044",
+  "name": "Rice Milling",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2045",
+  "name": "Prepared Flour Mixes and Doughs",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2046",
+  "name": "Wet Corn Milling",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2047",
+  "name": "Dog and Cat Food",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2048",
+  "name": "Prepared Feeds, NEC",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2051",
+  "name": "Bread, Cake, and Related Products",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2052",
+  "name": "Cookies and Crackers",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2053",
+  "name": "Frozen Bakery Products, Except Bread",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2061",
+  "name": "Raw Cane Sugar",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2062",
+  "name": "Cane Sugar Refining",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2063",
+  "name": "Beet Sugar",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2064",
+  "name": "Candy and Other Confectionery Products",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2066",
+  "name": "Chocolate and Cocoa Products",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2067",
+  "name": "Chewing Gum",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2068",
+  "name": "Salted and Roasted Nuts and Seeds",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2074",
+  "name": "Cottonseed Oil Mills",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2075",
+  "name": "Soybean Oil Mills",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2076",
+  "name": "Vegetable Oil Mills, NEC",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2077",
+  "name": "Animal and Marine Fats and Oils",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2079",
+  "name": "Edible Fats and Oils",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2082",
+  "name": "Malt Beverages",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2083",
+  "name": "Malt",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2084",
+  "name": "Wines, Brandy, and Brandy Spirits",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2085",
+  "name": "Distilled and Blended Liquors",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2086",
+  "name": "Bottled and Canned Soft Drinks",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2087",
+  "name": "Flavoring Extracts and Syrups, NEC",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2091",
+  "name": "Canned and Cured Fish and Seafoods",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2092",
+  "name": "Fresh or Frozen Packaged Fish",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2095",
+  "name": "Roasted Coffee",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2096",
+  "name": "Potato Chips and Similar Snacks",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2097",
+  "name": "Manufactured Ice",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2098",
+  "name": "Macaroni and Spaghetti",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2099",
+  "name": "Food Preparations, NEC",
+  "level": "industry",
+  "parent": "20"
+ },
+ {
+  "code": "2111",
+  "name": "Cigarettes",
+  "level": "industry",
+  "parent": "21"
+ },
+ {
+  "code": "2121",
+  "name": "Cigars",
+  "level": "industry",
+  "parent": "21"
+ },
+ {
+  "code": "2131",
+  "name": "Chewing and Smoking Tobacco",
+  "level": "industry",
+  "parent": "21"
+ },
+ {
+  "code": "2141",
+  "name": "Tobacco Stemming and Redrying",
+  "level": "industry",
+  "parent": "21"
+ },
+ {
+  "code": "2211",
+  "name": "Broadwoven Fabric Mills, Cotton",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2221",
+  "name": "Broadwoven Fabric Mills, Manmade",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2231",
+  "name": "Broadwoven Fabric Mills, Wool",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2241",
+  "name": "Narrow Fabric Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2251",
+  "name": "Women's Hosiery, Except Socks",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2252",
+  "name": "Hosiery, NEC",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2253",
+  "name": "Knit Outerwear Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2254",
+  "name": "Knit Underwear Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2257",
+  "name": "Weft Knit Fabric Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2258",
+  "name": "Lace and Warp Knit Fabric Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2259",
+  "name": "Knitting Mills, NEC",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2261",
+  "name": "Finishing Plants, Cotton",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2262",
+  "name": "Finishing Plants, Manmade",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2269",
+  "name": "Finishing Plants, NEC",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2273",
+  "name": "Carpets and Rugs",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2281",
+  "name": "Yarn Spinning Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2282",
+  "name": "Throwing and Winding Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2284",
+  "name": "Thread Mills",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2295",
+  "name": "Coated Fabrics, Not Rubberized",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2296",
+  "name": "Tire Cord and Fabrics",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2297",
+  "name": "Nonwoven Fabrics",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2298",
+  "name": "Cordage and Twine",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2299",
+  "name": "Textile Goods, NEC",
+  "level": "industry",
+  "parent": "22"
+ },
+ {
+  "code": "2311",
+  "name": "Men's and Boy's Suits and Coats",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2321",
+  "name": "Men's and Boy's Furnishings",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2322",
+  "name": "Men's and Boy's Underwear and Nightwear",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2323",
+  "name": "Men's and Boy's Neckwear",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2325",
+  "name": "Men's and Boy's Trousers and Slacks",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2326",
+  "name": "Men's and Boy's Work Clothing",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2329",
+  "name": "Men's and Boy's Clothing, NEC",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2331",
+  "name": "Women's and Misses' Blouses and Shirts",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2335",
+  "name": "Women's, Junior's, and Misses' Dresses",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2337",
+  "name": "Women's and Misses' Suits and Coats",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2339",
+  "name": "Women's and Misses' Outerwear, NEC",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2341",
+  "name": "Women's and Children's Underwear",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2342",
+  "name": "Bras, Girdles, and Allied Garments",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2353",
+  "name": "Hats, Caps, and Millinery",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2361",
+  "name": "Girl's and Children's Dresses, Blouses",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2369",
+  "name": "Girl's and Children's Outerwear, NEC",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2371",
+  "name": "Fur Goods",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2381",
+  "name": "Fabric Dress and Work Gloves",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2384",
+  "name": "Robes and Dressing Gowns",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2385",
+  "name": "Waterproof Outerwear",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2386",
+  "name": "Leather and Sheep-lined Clothing",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2387",
+  "name": "Apparel Belts",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2389",
+  "name": "Apparel and Accessories, NEC",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2391",
+  "name": "Curtains and Draperies",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2392",
+  "name": "Household Furnishings, NEC",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2393",
+  "name": "Textile Bags",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2394",
+  "name": "Canvas and Related Products",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2395",
+  "name": "Pleating and Stitching",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2396",
+  "name": "Automotive and Apparel Trimmings",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2397",
+  "name": "Schiffli Machine Embroideries",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2399",
+  "name": "Fabricated Textile Products, NEC",
+  "level": "industry",
+  "parent": "23"
+ },
+ {
+  "code": "2411",
+  "name": "Logging",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2421",
+  "name": "Sawmills and Planing Mills, General",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2426",
+  "name": "Hardwood Dimension and Flooring Mills",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2429",
+  "name": "Special Product Sawmills, NEC",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2431",
+  "name": "Millwork",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2434",
+  "name": "Wood Kitchen Cabinets",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2435",
+  "name": "Hardwood Veneer and Plywood",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2436",
+  "name": "Softwood Veneer and Plywood",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2439",
+  "name": "Structural Wood Members, NEC",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2441",
+  "name": "Nailed Wood Boxes and Shook",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2448",
+  "name": "Wood Pallets and Skids",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2449",
+  "name": "Wood Containers, NEC",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2451",
+  "name": "Mobile Homes",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2452",
+  "name": "Prefabricated Wood Buildings",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2491",
+  "name": "Wood Preserving",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2493",
+  "name": "Reconstituted Wood Products",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2499",
+  "name": "Wood Products, NEC",
+  "level": "industry",
+  "parent": "24"
+ },
+ {
+  "code": "2511",
+  "name": "Wood Household Furniture",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2512",
+  "name": "Upholstered Household Furniture",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2514",
+  "name": "Metal Household Furniture",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2515",
+  "name": "Mattresses and Bedsprings",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2517",
+  "name": "Wood Television and Radio Cabinets",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2519",
+  "name": "Household Furniture, NEC",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2521",
+  "name": "Wood Office Furniture",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2522",
+  "name": "Office Furniture, Except Wood",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2531",
+  "name": "Public Building and Related Furniture",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2541",
+  "name": "Wood Partitions and Fixtures",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2542",
+  "name": "Partitions and Fixtures, Except Wood",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2591",
+  "name": "Drapery Hardware and Blinds and Shades",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2599",
+  "name": "Furniture and Fixtures, NEC",
+  "level": "industry",
+  "parent": "25"
+ },
+ {
+  "code": "2611",
+  "name": "Pulp Mills",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2621",
+  "name": "Paper Mills",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2631",
+  "name": "Paperboard Mills",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2652",
+  "name": "Setup Paperboard Boxes",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2653",
+  "name": "Corrugated and Solid Fiber Boxes",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2655",
+  "name": "Fiber Cans, Drums, and Similar Products",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2656",
+  "name": "Sanitary Food Containers",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2657",
+  "name": "Folding Paperboard Boxes",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2671",
+  "name": "Paper; Coated and Laminated Packaging",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2672",
+  "name": "Paper; Coated and Laminated, NEC",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2673",
+  "name": "Bags: Plastic, Laminated, and Coated",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2674",
+  "name": "Bags: Uncoated Paper and Multiwall",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2675",
+  "name": "Die-cut Paper and Board",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2676",
+  "name": "Sanitary Paper Products",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2677",
+  "name": "Envelopes",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2678",
+  "name": "Stationery Products",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2679",
+  "name": "Converted Paper Products, NEC",
+  "level": "industry",
+  "parent": "26"
+ },
+ {
+  "code": "2711",
+  "name": "Newspapers",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2721",
+  "name": "Periodicals",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2731",
+  "name": "Book Publishing",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2732",
+  "name": "Book Printing",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2741",
+  "name": "Miscellaneous Publishing",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2752",
+  "name": "Commercial Printing, Lithographic",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2754",
+  "name": "Commercial Printing, Gravure",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2759",
+  "name": "Commercial Printing, NEC",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2761",
+  "name": "Manifold Business Forms",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2771",
+  "name": "Greeting Cards",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2782",
+  "name": "Blankbooks and Looseleaf Binders",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2789",
+  "name": "Bookbinding and Related Work",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2791",
+  "name": "Typesetting",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2796",
+  "name": "Platemaking Services",
+  "level": "industry",
+  "parent": "27"
+ },
+ {
+  "code": "2812",
+  "name": "Alkalies and Chlorine",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2813",
+  "name": "Industrial Gases",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2816",
+  "name": "Inorganic Pigments",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2819",
+  "name": "Industrial Inorganic Chemicals, NEC",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2821",
+  "name": "Plastics Materials and Resins",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2822",
+  "name": "Synthetic Rubber",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2823",
+  "name": "Cellulosic Manmade Fibers",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2824",
+  "name": "Organic Fibers, Noncellulosic",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2833",
+  "name": "Medicinals and Botanicals",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2834",
+  "name": "Pharmaceutical Preparations",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2835",
+  "name": "Diagnostic Substances",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2836",
+  "name": "Biological Products, Except Diagnostic",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2841",
+  "name": "Soap and Other Detergents",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2842",
+  "name": "Polishes and Sanitation Goods",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2843",
+  "name": "Surface Active Agents",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2844",
+  "name": "Toilet Preparations",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2851",
+  "name": "Paints and Allied Products",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2861",
+  "name": "Gum and Wood Chemicals",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2865",
+  "name": "Cyclic Crudes and Intermediates",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2869",
+  "name": "Industrial Organic Chemicals, NEC",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2873",
+  "name": "Nitrogenous Fertilizers",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2874",
+  "name": "Phosphatic Fertilizers",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2875",
+  "name": "Fertilizers, Mixing Only",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2879",
+  "name": "Agricultural Chemicals, NEC",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2891",
+  "name": "Adhesives and Sealants",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2892",
+  "name": "Explosives",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2893",
+  "name": "Printing Ink",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2895",
+  "name": "Carbon Black",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2899",
+  "name": "Chemical Preparations, NEC",
+  "level": "industry",
+  "parent": "28"
+ },
+ {
+  "code": "2911",
+  "name": "Petroleum Refining",
+  "level": "industry",
+  "parent": "29"
+ },
+ {
+  "code": "2951",
+  "name": "Asphalt Paving Mixtures and Blocks",
+  "level": "industry",
+  "parent": "29"
+ },
+ {
+  "code": "2952",
+  "name": "Asphalt Felts and Coatings",
+  "level": "industry",
+  "parent": "29"
+ },
+ {
+  "code": "2992",
+  "name": "Lubricating Oils and Greases",
+  "level": "industry",
+  "parent": "29"
+ },
+ {
+  "code": "2999",
+  "name": "Petroleum and Coal Products, NEC",
+  "level": "industry",
+  "parent": "29"
+ },
+ {
+  "code": "3011",
+  "name": "Tires and Inner Tubes",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3021",
+  "name": "Rubber and Plastics Footwear",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3052",
+  "name": "Rubber and Plastics Hose and Beltings",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3053",
+  "name": "Gaskets; Packing and Sealing Devices",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3061",
+  "name": "Mechanical Rubber Goods",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3069",
+  "name": "Fabricated Rubber Products, NEC",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3081",
+  "name": "Unsupported Plastics Film and Sheet",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3082",
+  "name": "Unsupported Plastics Profile Shapes",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3083",
+  "name": "Laminated Plastics Plate and Sheet",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3084",
+  "name": "Plastics Pipe",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3085",
+  "name": "Plastics Bottles",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3086",
+  "name": "Plastics Foam Products",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3087",
+  "name": "Custom Compound Purchased Resins",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3088",
+  "name": "Plastics Plumbing Fixtures",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3089",
+  "name": "Plastics Products, NEC",
+  "level": "industry",
+  "parent": "30"
+ },
+ {
+  "code": "3111",
+  "name": "Leather Tanning and Finishing",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3131",
+  "name": "Footwear Cut Stock",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3142",
+  "name": "House Slippers",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3143",
+  "name": "Men's Footwear, Except athletic",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3144",
+  "name": "Women's Footwear, Except athletic",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3149",
+  "name": "Footwear, Except Rubber, NEC",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3151",
+  "name": "Leather Gloves and Mittens",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3161",
+  "name": "Luggage",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3171",
+  "name": "Women's Handbags and Purses",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3172",
+  "name": "Personal Leather Goods, NEC",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3199",
+  "name": "Leather Goods, NEC",
+  "level": "industry",
+  "parent": "31"
+ },
+ {
+  "code": "3211",
+  "name": "Flat Glass",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3221",
+  "name": "Glass Containers",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3229",
+  "name": "Pressed and Blown Glass, NEC",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3231",
+  "name": "Products of Purchased Glass",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3241",
+  "name": "Cement, Hydraulic",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3251",
+  "name": "Brick and Structural Clay Tile",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3253",
+  "name": "Ceramic Wall and Floor Tile",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3255",
+  "name": "Clay Refractories",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3259",
+  "name": "Structural Clay Products, NEC",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3261",
+  "name": "Vitreous Plumbing Fixtures",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3262",
+  "name": "Vitreous China Table and Kitchenware",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3263",
+  "name": "Semivitreous Table and Kitchenware",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3264",
+  "name": "Porcelain Electrical Supplies",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3269",
+  "name": "Pottery Products, NEC",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3271",
+  "name": "Concrete Block and Brick",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3272",
+  "name": "Concrete Products, NEC",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3273",
+  "name": "Ready-mixed Concrete",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3274",
+  "name": "Lime",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3275",
+  "name": "Gypsum Products",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3281",
+  "name": "Cut Stone and Stone Products",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3291",
+  "name": "Abrasive Products",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3292",
+  "name": "Asbestos Products",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3295",
+  "name": "Minerals, Ground or Treated",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3296",
+  "name": "Mineral Wool",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3297",
+  "name": "Nonclay Refractories",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3299",
+  "name": "Nonmetallic Mineral Products,",
+  "level": "industry",
+  "parent": "32"
+ },
+ {
+  "code": "3312",
+  "name": "Blast Furnaces and Steel Mills",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3313",
+  "name": "Electrometallurgical Products",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3315",
+  "name": "Steel Wire and Related Products",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3316",
+  "name": "Cold Finishing of Steel Shapes",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3317",
+  "name": "Steel Pipe and Tubes",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3321",
+  "name": "Gray and Ductile Iron Foundries",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3322",
+  "name": "Malleable Iron Foundries",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3324",
+  "name": "Steel Investment Foundries",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3325",
+  "name": "Steel Foundries, NEC",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3331",
+  "name": "Primary Copper",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3334",
+  "name": "Primary Aluminum",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3339",
+  "name": "Primary Nonferrous Metals, NEC",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3341",
+  "name": "Secondary Nonferrous Metals",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3351",
+  "name": "Copper Rolling and Drawing",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3353",
+  "name": "Aluminum Sheet, Plate, and Foil",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3354",
+  "name": "Aluminum Extruded Products",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3355",
+  "name": "Aluminum Rolling and Drawing, NEC",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3356",
+  "name": "Nonferrous Rolling and Drawing, NEC",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3357",
+  "name": "Nonferrous Wiredrawing and Insulating",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3363",
+  "name": "Aluminum Die-castings",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3364",
+  "name": "Nonferrous Die-castings Except Aluminum",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3365",
+  "name": "Aluminum Foundries",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3366",
+  "name": "Copper Foundries",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3369",
+  "name": "Nonferrous Foundries, NEC",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3398",
+  "name": "Metal Heat Treating",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3399",
+  "name": "Primary Metal Products",
+  "level": "industry",
+  "parent": "33"
+ },
+ {
+  "code": "3411",
+  "name": "Metal Cans",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3412",
+  "name": "Metal Barrels, Drums, and Pails",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3421",
+  "name": "Cutlery",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3423",
+  "name": "Hand and Edge Tools, NEC",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3425",
+  "name": "Saw Blades and Handsaws",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3429",
+  "name": "Hardware, NEC",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3431",
+  "name": "Metal Sanitary Ware",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3432",
+  "name": "Plumbing Fixture Fittings and Trim",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3433",
+  "name": "Heating Equipment, Except Electric",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3441",
+  "name": "Fabricated Structural Metal",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3442",
+  "name": "Metal Doors, Sash, and Trim",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3443",
+  "name": "Fabricated Plate Work (boiler Shop)",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3444",
+  "name": "Sheet Metalwork",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3446",
+  "name": "Architectural Metalwork",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3448",
+  "name": "Prefabricated Metal Buildings",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3449",
+  "name": "Miscellaneous Metalwork",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3451",
+  "name": "Screw Machine Products",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3452",
+  "name": "Bolts, Nuts, Rivets, and Washers",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3462",
+  "name": "Iron and Steel Forgings",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3463",
+  "name": "Nonferrous Forgings",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3465",
+  "name": "Automotive Stampings",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3466",
+  "name": "Crowns and Closures",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3469",
+  "name": "Metal Stampings, NEC",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3471",
+  "name": "Plating and Polishing",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3479",
+  "name": "Metal Coating and Allied Services",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3482",
+  "name": "Small Arms Ammunition",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3483",
+  "name": "Ammunition, Except For Small Arms, NEC",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3484",
+  "name": "Small Arms",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3489",
+  "name": "Ordnance and Accessories, NEC",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3491",
+  "name": "Industrial Valves",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3492",
+  "name": "Fluid Power Valves and Hose Fittings",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3493",
+  "name": "Steel Springs, Except Wire",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3494",
+  "name": "Valves and Pipe Fittings, NEC",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3495",
+  "name": "Wire Springs",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3496",
+  "name": "Miscellaneous Fabricated Wire Products",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3497",
+  "name": "Metal Foil and Leaf",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3498",
+  "name": "Fabricated Pipe and Fittings",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3499",
+  "name": "Fabricated Metal Products, NEC",
+  "level": "industry",
+  "parent": "34"
+ },
+ {
+  "code": "3511",
+  "name": "Turbines and Turbine Generator Sets",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3519",
+  "name": "Internal Combustion Engines, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3523",
+  "name": "Farm Machinery and Equipment",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3524",
+  "name": "Lawn and Garden Equipment",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3531",
+  "name": "Construction Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3532",
+  "name": "Mining Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3533",
+  "name": "Oil and Gas Field Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3534",
+  "name": "Elevators and Moving Stairways",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3535",
+  "name": "Conveyors and Conveying Equipment",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3536",
+  "name": "Hoists, Cranes, and Monorails",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3537",
+  "name": "Industrial Trucks and Tractors",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3541",
+  "name": "Machine Tools, Metal Cutting Type",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3542",
+  "name": "Machine Tools, Metal Forming Type",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3543",
+  "name": "Industrial Patterns",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3544",
+  "name": "Special Dies, Tools, Jigs, and Fixtures",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3545",
+  "name": "Machine Tool Accessories",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3546",
+  "name": "Power-driven Handtools",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3547",
+  "name": "Rolling Mill Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3548",
+  "name": "Welding Apparatus",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3549",
+  "name": "Metalworking Machinery, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3552",
+  "name": "Textile Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3553",
+  "name": "Woodworking Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3554",
+  "name": "Paper Industries Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3555",
+  "name": "Printing Trades Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3556",
+  "name": "Food Products Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3559",
+  "name": "Special Industry Machinery, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3561",
+  "name": "Pumps and Pumping Equipment",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3562",
+  "name": "Ball and Roller Bearings",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3563",
+  "name": "Air and Gas Compressors",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3564",
+  "name": "Blowers and Fans",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3565",
+  "name": "Packaging Machinery",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3566",
+  "name": "Speed Changers, Drives, and Gears",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3567",
+  "name": "Industrial Furnaces and Ovens",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3568",
+  "name": "Power Transmission Equipment, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3569",
+  "name": "General Industrial Machinery,",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3571",
+  "name": "Electronic Computers",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3572",
+  "name": "Computer Storage Devices",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3575",
+  "name": "Computer Terminals",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3577",
+  "name": "Computer Peripheral Equipment, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3578",
+  "name": "Calculating and Accounting Equipment",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3579",
+  "name": "Office Machines, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3581",
+  "name": "Automatic Vending Machines",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3582",
+  "name": "Commercial Laundry Equipment",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3585",
+  "name": "Refrigeration and Heating Equipment",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3586",
+  "name": "Measuring and Dispensing Pumps",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3589",
+  "name": "Service Industry Machinery, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3592",
+  "name": "Carburetors, Pistons, Rings, Valves",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3593",
+  "name": "Fluid Power Cylinders and Actuators",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3594",
+  "name": "Fluid Power Pumps and Motors",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3596",
+  "name": "Scales and Balances, Except Laboratory",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3599",
+  "name": "Industrial Machinery, NEC",
+  "level": "industry",
+  "parent": "35"
+ },
+ {
+  "code": "3612",
+  "name": "Power, Distribution and Specialty Transformers",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3613",
+  "name": "Switchgear and Switchboard Apparatus",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3621",
+  "name": "Motors and Generators",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3624",
+  "name": "Carbon and Graphite Products",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3625",
+  "name": "Relays and Industrial Controls",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3629",
+  "name": "Electrical Industrial Apparatus",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3631",
+  "name": "Household Cooking Equipment",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3632",
+  "name": "Household Refrigerators and Freezers",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3633",
+  "name": "Household Laundry Equipment",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3634",
+  "name": "Electric Housewares and Fans",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3635",
+  "name": "Household Vacuum Cleaners",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3639",
+  "name": "Household Appliances, NEC",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3641",
+  "name": "Electric Lamps",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3643",
+  "name": "Current-carrying Wiring Devices",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3644",
+  "name": "Noncurrent-carrying Wiring Devices",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3645",
+  "name": "Residential Lighting Fixtures",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3646",
+  "name": "Commercial Lighting Fixtures",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3647",
+  "name": "Vehicular Lighting Equipment",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3648",
+  "name": "Lighting Equipment, NEC",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3651",
+  "name": "Household Audio and Video Equipment",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3652",
+  "name": "Prerecorded Records and Tapes",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3661",
+  "name": "Telephone and Telegraph Apparatus",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3663",
+  "name": "Radio and T.v. Communications Equipment",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3669",
+  "name": "Communications Equipment, NEC",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3671",
+  "name": "Electron Tubes",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3672",
+  "name": "Printed Circuit Boards",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3674",
+  "name": "Semiconductors and Related Devices",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3675",
+  "name": "Electronic Capacitors",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3676",
+  "name": "Electronic Resistors",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3677",
+  "name": "Electronic Coils and Transformers",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3678",
+  "name": "Electronic Connectors",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3679",
+  "name": "Electronic Components, NEC",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3691",
+  "name": "Storage Batteries",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3692",
+  "name": "Primary Batteries, Dry and Wet",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3694",
+  "name": "Engine Electrical Equipment",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3695",
+  "name": "Magnetic and Optical Recording Media",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3699",
+  "name": "Electrical Equipment and Supplies, NEC",
+  "level": "industry",
+  "parent": "36"
+ },
+ {
+  "code": "3711",
+  "name": "Motor Vehicles and Car Bodies",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3713",
+  "name": "Truck and Bus Bodies",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3714",
+  "name": "Motor Vehicle Parts and Accessories",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3715",
+  "name": "Truck Trailers",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3716",
+  "name": "Motor Homes",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3721",
+  "name": "Aircraft",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3724",
+  "name": "Aircraft Engines and Engine Parts",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3728",
+  "name": "Aircraft Parts and Equipment, NEC",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3731",
+  "name": "Shipbuilding and Repairing",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3732",
+  "name": "Boatbuilding and Repairing",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3743",
+  "name": "Railroad Equipment",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3751",
+  "name": "Motorcycles, Bicycles, and Parts",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3761",
+  "name": "Guided Missiles and Space Vehicles",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3764",
+  "name": "Space Propulsion Units and Parts",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3769",
+  "name": "Space Vehicle Equipment, NEC",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3792",
+  "name": "Travel Trailers and Campers",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3795",
+  "name": "Tanks and Tank Components",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3799",
+  "name": "Transportation Equipment, NEC",
+  "level": "industry",
+  "parent": "37"
+ },
+ {
+  "code": "3812",
+  "name": "Search and Navigation Equipment",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3821",
+  "name": "Laboratory Apparatus and Furniture",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3822",
+  "name": "Environmental Controls",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3823",
+  "name": "Process Control Instruments",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3824",
+  "name": "Fluid Meters and Counting Devices",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3825",
+  "name": "Instruments To Measure Electricity",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3826",
+  "name": "Analytical Instruments",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3827",
+  "name": "Optical Instruments and Lenses",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3829",
+  "name": "Measuring and Controlling Devices, NEC",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3841",
+  "name": "Surgical and Medical Instruments",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3842",
+  "name": "Surgical Appliances and Supplies",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3843",
+  "name": "Dental Equipment and Supplies",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3844",
+  "name": "X-ray Apparatus and Tubes",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3845",
+  "name": "Electromedical Equipment",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3851",
+  "name": "Ophthalmic Goods",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3861",
+  "name": "Photographic Equipment and Supplies",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3873",
+  "name": "Watches, Clocks, Watchcases, and Parts",
+  "level": "industry",
+  "parent": "38"
+ },
+ {
+  "code": "3911",
+  "name": "Jewelry, Precious Metal",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3914",
+  "name": "Silverware and Plated Ware",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3915",
+  "name": "Jewelers' Materials and Lapidary Work",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3931",
+  "name": "Musical Instruments",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3942",
+  "name": "Dolls and Stuffed Toys",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3944",
+  "name": "Games, Toys, and Children's Vehicles",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3949",
+  "name": "Sporting and athletic Goods, NEC",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3951",
+  "name": "Pens and Mechanical Pencils",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3952",
+  "name": "Lead Pencils and Art Goods",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3953",
+  "name": "Marking Devices",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3955",
+  "name": "Carbon Paper and Inked Ribbons",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3961",
+  "name": "Costume Jewelry",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3965",
+  "name": "Fasteners, Buttons, Needles, and Pins",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3991",
+  "name": "Brooms and Brushes",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3993",
+  "name": "Signs and Advertising Specialties",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3995",
+  "name": "Burial Caskets",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3996",
+  "name": "Hard Surface Floor Coverings, NEC",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "3999",
+  "name": "Manufacturing Industries, NEC",
+  "level": "industry",
+  "parent": "39"
+ },
+ {
+  "code": "4011",
+  "name": "Railroads, Line-haul Operating",
+  "level": "industry",
+  "parent": "40"
+ },
+ {
+  "code": "4013",
+  "name": "Switching and Terminal Services",
+  "level": "industry",
+  "parent": "40"
+ },
+ {
+  "code": "4111",
+  "name": "Local and Suburban Transit",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4119",
+  "name": "Local Passenger Transportation, NEC",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4121",
+  "name": "Taxicabs",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4131",
+  "name": "Intercity and Rural Bus Transportation",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4141",
+  "name": "Local Bus Charter Service",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4142",
+  "name": "Bus Charter Service, Except Local",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4151",
+  "name": "School Buses",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4173",
+  "name": "Bus Terminal and Service Facilities",
+  "level": "industry",
+  "parent": "41"
+ },
+ {
+  "code": "4212",
+  "name": "Local Trucking, Without Storage",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4213",
+  "name": "Trucking, Except Local",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4214",
+  "name": "Local Trucking With Storage",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4215",
+  "name": "Courier Services, Except By Air",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4221",
+  "name": "Farm Product Warehousing and Storage",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4222",
+  "name": "Refrigerated Warehousing and Storage",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4225",
+  "name": "General Warehousing and Storage",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4226",
+  "name": "Special Warehousing and Storage, NEC",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4231",
+  "name": "Trucking Terminal Facilities",
+  "level": "industry",
+  "parent": "42"
+ },
+ {
+  "code": "4311",
+  "name": "U.S. Postal Service",
+  "level": "industry",
+  "parent": "43"
+ },
+ {
+  "code": "4412",
+  "name": "Deep Sea Foreign Transportation of Freight",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4424",
+  "name": "Deep Sea Domestic Transportation of Freight",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4432",
+  "name": "Freight Transportation On The Great Lakes",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4449",
+  "name": "Water Transportation of Freight",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4481",
+  "name": "Deep Sea Passenger Transportation, Except Ferry",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4482",
+  "name": "Ferries",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4489",
+  "name": "Water Passenger Transportation",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4491",
+  "name": "Marine Cargo Handling",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4492",
+  "name": "Towing and Tugboat Service",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4493",
+  "name": "Marinas",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4499",
+  "name": "Water Transportation Services, NEC",
+  "level": "industry",
+  "parent": "44"
+ },
+ {
+  "code": "4512",
+  "name": "Air Transportation, Scheduled",
+  "level": "industry",
+  "parent": "45"
+ },
+ {
+  "code": "4513",
+  "name": "Air Courier Services",
+  "level": "industry",
+  "parent": "45"
+ },
+ {
+  "code": "4522",
+  "name": "Air Transportation, Nonscheduled",
+  "level": "industry",
+  "parent": "45"
+ },
+ {
+  "code": "4581",
+  "name": "Airports, Flying Fields, and Services",
+  "level": "industry",
+  "parent": "45"
+ },
+ {
+  "code": "4612",
+  "name": "Crude Petroleum Pipelines",
+  "level": "industry",
+  "parent": "46"
+ },
+ {
+  "code": "4613",
+  "name": "Refined Petroleum Pipelines",
+  "level": "industry",
+  "parent": "46"
+ },
+ {
+  "code": "4619",
+  "name": "Pipelines, NEC",
+  "level": "industry",
+  "parent": "46"
+ },
+ {
+  "code": "4724",
+  "name": "Travel Agencies",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4725",
+  "name": "Tour Operators",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4729",
+  "name": "Passenger Transportation Arrangement",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4731",
+  "name": "Freight Transportation Arrangement",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4741",
+  "name": "Rental of Railroad Cars",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4783",
+  "name": "Packing and Crating",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4785",
+  "name": "Inspection and Fixed Facilities",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4789",
+  "name": "Transportation Services, NEC",
+  "level": "industry",
+  "parent": "47"
+ },
+ {
+  "code": "4812",
+  "name": "Radiotelephone Communication",
+  "level": "industry",
+  "parent": "48"
+ },
+ {
+  "code": "4813",
+  "name": "Telephone Communication, Except Radio",
+  "level": "industry",
+  "parent": "48"
+ },
+ {
+  "code": "4822",
+  "name": "Telegraph and Other Communications",
+  "level": "industry",
+  "parent": "48"
+ },
+ {
+  "code": "4832",
+  "name": "Radio Broadcasting Stations",
+  "level": "industry",
+  "parent": "48"
+ },
+ {
+  "code": "4833",
+  "name": "Television Broadcasting Stations",
+  "level": "industry",
+  "parent": "48"
+ },
+ {
+  "code": "4841",
+  "name": "Cable and Other Pay Television Services",
+  "level": "industry",
+  "parent": "48"
+ },
+ {
+  "code": "4899",
+  "name": "Communication Services, NEC",
+  "level": "industry",
+  "parent": "48"
+ },
+ {
+  "code": "4911",
+  "name": "Electric Services",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4922",
+  "name": "Natural Gas Transmission",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4923",
+  "name": "Gas Transmission and Distribution",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4924",
+  "name": "Natural Gas Distribution",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4925",
+  "name": "Gas Production and/or Distribution",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4931",
+  "name": "Electric and Other Services Combined",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4932",
+  "name": "Gas and Other Services Combined",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4939",
+  "name": "Combination Utilities, NEC",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4941",
+  "name": "Water Supply",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4952",
+  "name": "Sewerage Systems",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4953",
+  "name": "Refuse Systems",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4959",
+  "name": "Sanitary Services, NEC",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4961",
+  "name": "Steam and Air-conditioning Supply",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "4971",
+  "name": "Irrigation Systems",
+  "level": "industry",
+  "parent": "49"
+ },
+ {
+  "code": "5012",
+  "name": "Automobiles and Other Motor Vehicles",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5013",
+  "name": "Motor Vehicle Supplies and New Parts",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5014",
+  "name": "Tires and Tubes",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5015",
+  "name": "Motor Vehicle Parts, Used",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5021",
+  "name": "Furniture",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5023",
+  "name": "Homefurnishings",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5031",
+  "name": "Lumber, Plywood, and Millwork",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5032",
+  "name": "Brick, Stone, and Related Material",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5033",
+  "name": "Roofing, Siding, and Insulation",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5039",
+  "name": "Construction Materials, NEC",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5043",
+  "name": "Photographic Equipment and Supplies",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5044",
+  "name": "Office Equipment",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5045",
+  "name": "Computers, Peripherals, and Software",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5046",
+  "name": "Commercial Equipment, NEC",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5047",
+  "name": "Medical and Hospital Equipment",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5048",
+  "name": "Ophthalmic Goods",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5049",
+  "name": "Professional Equipment, NEC",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5051",
+  "name": "Metals Service Centers and Offices",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5052",
+  "name": "Coal and Other Minerals and Ores",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5063",
+  "name": "Electrical Apparatus and Equipment",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5064",
+  "name": "Electrical Appliances, Television and Radio",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5065",
+  "name": "Electronic Parts and Equipment, NEC",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5072",
+  "name": "Hardware",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5074",
+  "name": "Plumbing and Hydronic Heating Supplies",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5075",
+  "name": "Warm Air Heating and Air Conditioning",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5078",
+  "name": "Refrigeration Equipment and Supplies",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5082",
+  "name": "Construction and Mining Machinery",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5083",
+  "name": "Farm and Garden Machinery",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5084",
+  "name": "Industrial Machinery and Equipment",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5085",
+  "name": "Industrial Supplies",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5087",
+  "name": "Service Establishment Equipment",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5088",
+  "name": "Transportation Equipment and Supplies",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5091",
+  "name": "Sporting and Recreation Goods",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5092",
+  "name": "Toys and Hobby Goods and Supplies",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5093",
+  "name": "Scrap and Waste Materials",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5094",
+  "name": "Jewelry and Precious Stones",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5099",
+  "name": "Durable Goods, NEC",
+  "level": "industry",
+  "parent": "50"
+ },
+ {
+  "code": "5111",
+  "name": "Printing and Writing Paper",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5112",
+  "name": "Stationery and Office Supplies",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5113",
+  "name": "Industrial and Personal Service Paper",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5122",
+  "name": "Drugs, Proprietaries, and Sundries",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5131",
+  "name": "Piece Goods and Notions",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5136",
+  "name": "Men's and Boy's Clothing",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5137",
+  "name": "Women's and Children's Clothing",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5139",
+  "name": "Footwear",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5141",
+  "name": "Groceries, General Line",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5142",
+  "name": "Packaged Frozen Goods",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5143",
+  "name": "Dairy Products, Except Dried or Canned",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5144",
+  "name": "Poultry and Poultry Products",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5145",
+  "name": "Confectionery",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5146",
+  "name": "Fish and Seafoods",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5147",
+  "name": "Meats and Meat Products",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5148",
+  "name": "Fresh Fruits and Vegetables",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5149",
+  "name": "Groceries and Related Products, NEC",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5153",
+  "name": "Grain and Field Beans",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5154",
+  "name": "Livestock",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5159",
+  "name": "Farm-product Raw Materials, NEC",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5162",
+  "name": "Plastics Materials and Basic Shapes",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5169",
+  "name": "Chemicals and Allied Products, NEC",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5171",
+  "name": "Petroleum Bulk Stations and Terminals",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5172",
+  "name": "Petroleum Products, NEC",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5181",
+  "name": "Beer and Ale",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5182",
+  "name": "Wine and Distilled Beverages",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5191",
+  "name": "Farm Supplies",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5192",
+  "name": "Books, Periodicals, and Newspapers",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5193",
+  "name": "Flowers and Florists Supplies",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5194",
+  "name": "Tobacco and Tobacco Products",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5198",
+  "name": "Paints, Varnishes, and Supplies",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5199",
+  "name": "Nondurable Goods, NEC",
+  "level": "industry",
+  "parent": "51"
+ },
+ {
+  "code": "5211",
+  "name": "Lumber and Other Building Materials",
+  "level": "industry",
+  "parent": "52"
+ },
+ {
+  "code": "5231",
+  "name": "Paint, Glass, and Wallpaper Stores",
+  "level": "industry",
+  "parent": "52"
+ },
+ {
+  "code": "5251",
+  "name": "Hardware Stores",
+  "level": "industry",
+  "parent": "52"
+ },
+ {
+  "code": "5261",
+  "name": "Retail Nurseries and Garden Stores",
+  "level": "industry",
+  "parent": "52"
+ },
+ {
+  "code": "5271",
+  "name": "Mobile Home Dealers",
+  "level": "industry",
+  "parent": "52"
+ },
+ {
+  "code": "5311",
+  "name": "Department Stores",
+  "level": "industry",
+  "parent": "53"
+ },
+ {
+  "code": "5331",
+  "name": "Variety Stores",
+  "level": "industry",
+  "parent": "53"
+ },
+ {
+  "code": "5399",
+  "name": "Miscellaneous General Merchandise",
+  "level": "industry",
+  "parent": "53"
+ },
+ {
+  "code": "5411",
+  "name": "Grocery Stores",
+  "level": "industry",
+  "parent": "54"
+ },
+ {
+  "code": "5421",
+  "name": "Meat and Fish Markets",
+  "level": "industry",
+  "parent": "54"
+ },
+ {
+  "code": "5431",
+  "name": "Fruit and Vegetable Markets",
+  "level": "industry",
+  "parent": "54"
+ },
+ {
+  "code": "5441",
+  "name": "Candy, Nut, and Confectionery Stores",
+  "level": "industry",
+  "parent": "54"
+ },
+ {
+  "code": "5451",
+  "name": "Dairy Products Stores",
+  "level": "industry",
+  "parent": "54"
+ },
+ {
+  "code": "5461",
+  "name": "Retail Bakeries",
+  "level": "industry",
+  "parent": "54"
+ },
+ {
+  "code": "5499",
+  "name": "Miscellaneous Food Stores",
+  "level": "industry",
+  "parent": "54"
+ },
+ {
+  "code": "5511",
+  "name": "New and Used Car Dealers",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5521",
+  "name": "Used Car Dealers",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5531",
+  "name": "Auto and Home Supply Stores",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5541",
+  "name": "Gasoline Service Stations",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5551",
+  "name": "Boat Dealers",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5561",
+  "name": "Recreational Vehicle Dealers",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5571",
+  "name": "Motorcycle Dealers",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5599",
+  "name": "Automotive Dealers, NEC",
+  "level": "industry",
+  "parent": "55"
+ },
+ {
+  "code": "5611",
+  "name": "Men's and Boys' Clothing Stores",
+  "level": "industry",
+  "parent": "56"
+ },
+ {
+  "code": "5621",
+  "name": "Women's Clothing Stores",
+  "level": "industry",
+  "parent": "56"
+ },
+ {
+  "code": "5632",
+  "name": "Women's Accessory and Specialty Stores",
+  "level": "industry",
+  "parent": "56"
+ },
+ {
+  "code": "5641",
+  "name": "Children's and Infants' Wear Stores",
+  "level": "industry",
+  "parent": "56"
+ },
+ {
+  "code": "5651",
+  "name": "Family Clothing Stores",
+  "level": "industry",
+  "parent": "56"
+ },
+ {
+  "code": "5661",
+  "name": "Shoe Stores",
+  "level": "industry",
+  "parent": "56"
+ },
+ {
+  "code": "5699",
+  "name": "Miscellaneous Apparel and Accessories",
+  "level": "industry",
+  "parent": "56"
+ },
+ {
+  "code": "5712",
+  "name": "Furniture Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5713",
+  "name": "Floor Covering Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5714",
+  "name": "Drapery and Upholstery Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5719",
+  "name": "Miscellaneous Homefurnishings",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5722",
+  "name": "Household Appliance Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5731",
+  "name": "Radio, Television, and Electronic Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5734",
+  "name": "Computer and Software Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5735",
+  "name": "Record and Prerecorded Tape Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5736",
+  "name": "Musical Instrument Stores",
+  "level": "industry",
+  "parent": "57"
+ },
+ {
+  "code": "5812",
+  "name": "Eating Places",
+  "level": "industry",
+  "parent": "58"
+ },
+ {
+  "code": "5813",
+  "name": "Drinking Places",
+  "level": "industry",
+  "parent": "58"
+ },
+ {
+  "code": "5912",
+  "name": "Drug Stores and Proprietary Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5921",
+  "name": "Liquor Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5932",
+  "name": "Used Merchandise Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5941",
+  "name": "Sporting Goods and Bicycle Shops",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5942",
+  "name": "Book Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5943",
+  "name": "Stationery Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5944",
+  "name": "Jewelry Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5945",
+  "name": "Hobby, Toy, and Game Shops",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5946",
+  "name": "Camera and Photographic Supply Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5947",
+  "name": "Gift, Novelty, and Souvenir Shop",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5948",
+  "name": "Luggage and Leather Goods Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5949",
+  "name": "Sewing, Needlework, and Piece Goods",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5961",
+  "name": "Catalog and Mail-order Houses",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5962",
+  "name": "Merchandising Machine Operators",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5963",
+  "name": "Direct Selling Establishments",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5983",
+  "name": "Fuel Oil Dealers",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5984",
+  "name": "Liquefied Petroleum Gas Dealers",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5989",
+  "name": "Fuel Dealers, NEC",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5992",
+  "name": "Florists",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5993",
+  "name": "Tobacco Stores and Stands",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5994",
+  "name": "News Dealers and Newsstands",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5995",
+  "name": "Optical Goods Stores",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "5999",
+  "name": "Miscellaneous Retail Stores, NEC",
+  "level": "industry",
+  "parent": "59"
+ },
+ {
+  "code": "6011",
+  "name": "Federal Reserve Banks",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6019",
+  "name": "Central Reserve Depository, NEC",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6021",
+  "name": "National Commercial Banks",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6022",
+  "name": "State Commercial Banks",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6029",
+  "name": "Commercial Banks, NEC",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6035",
+  "name": "Federal Savings Institutions",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6036",
+  "name": "Savings Institutions, Except Federal",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6061",
+  "name": "Federal Credit Unions",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6062",
+  "name": "State Credit Unions",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6081",
+  "name": "Foreign Bank and Branches and Agencies",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6082",
+  "name": "Foreign Trade and International Banks",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6091",
+  "name": "Nondeposit Trust Facilities",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6099",
+  "name": "Functions Related To Depository Banking",
+  "level": "industry",
+  "parent": "60"
+ },
+ {
+  "code": "6111",
+  "name": "Federal and Federally Sponsored Credit",
+  "level": "industry",
+  "parent": "61"
+ },
+ {
+  "code": "6141",
+  "name": "Personal Credit Institutions",
+  "level": "industry",
+  "parent": "61"
+ },
+ {
+  "code": "6153",
+  "name": "Short-term Business Credit",
+  "level": "industry",
+  "parent": "61"
+ },
+ {
+  "code": "6159",
+  "name": "Miscellaneous Business Credit",
+  "level": "industry",
+  "parent": "61"
+ },
+ {
+  "code": "6162",
+  "name": "Mortgage Bankers and Correspondents",
+  "level": "industry",
+  "parent": "61"
+ },
+ {
+  "code": "6163",
+  "name": "Loan Brokers",
+  "level": "industry",
+  "parent": "61"
+ },
+ {
+  "code": "6211",
+  "name": "Security Brokers and Dealers",
+  "level": "industry",
+  "parent": "62"
+ },
+ {
+  "code": "6221",
+  "name": "Commodity Contracts Brokers, Dealers",
+  "level": "industry",
+  "parent": "62"
+ },
+ {
+  "code": "6231",
+  "name": "Security and Commodity Exchanges",
+  "level": "industry",
+  "parent": "62"
+ },
+ {
+  "code": "6282",
+  "name": "Investment Advice",
+  "level": "industry",
+  "parent": "62"
+ },
+ {
+  "code": "6289",
+  "name": "Security and Commodity Service",
+  "level": "industry",
+  "parent": "62"
+ },
+ {
+  "code": "6311",
+  "name": "Life Insurance",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6321",
+  "name": "Accident and Health Insurance",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6324",
+  "name": "Hospital and Medical Service Plans",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6331",
+  "name": "Fire, Marine, and Casualty Insurance",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6351",
+  "name": "Surety Insurance",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6361",
+  "name": "Title Insurance",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6371",
+  "name": "Pension, Health, and Welfare Funds",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6399",
+  "name": "Insurance Carriers, NEC",
+  "level": "industry",
+  "parent": "63"
+ },
+ {
+  "code": "6411",
+  "name": "Insurance Agents, Brokers, and Service",
+  "level": "industry",
+  "parent": "64"
+ },
+ {
+  "code": "6512",
+  "name": "Nonresidential Building Operators",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6513",
+  "name": "Apartment Building Operators",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6514",
+  "name": "Dwelling Operators, Except Apartments",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6515",
+  "name": "Mobile Home Site Operators",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6517",
+  "name": "Railroad Property Lessors",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6519",
+  "name": "Real Property Lessors, NEC",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6531",
+  "name": "Real Estate Agents and Managers",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6541",
+  "name": "Title abstract Offices",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6552",
+  "name": "Subdividers and Developers, NEC",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6553",
+  "name": "Cemetery Subdividers and Developers",
+  "level": "industry",
+  "parent": "65"
+ },
+ {
+  "code": "6712",
+  "name": "Bank Holding Companies",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6719",
+  "name": "Holding Companies, NEC",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6722",
+  "name": "Management Investment, Open-ended",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6726",
+  "name": "Investment Offices, NEC",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6732",
+  "name": "Trusts: Educational, Religious, Etc.",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6733",
+  "name": "Trusts, NEC",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6792",
+  "name": "Oil Royalty Traders",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6794",
+  "name": "Patent Owners and Lessors",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6798",
+  "name": "Real Estate Investment Trusts",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "6799",
+  "name": "Investors, NEC",
+  "level": "industry",
+  "parent": "67"
+ },
+ {
+  "code": "7011",
+  "name": "Hotels and Motels",
+  "level": "industry",
+  "parent": "70"
+ },
+ {
+  "code": "7021",
+  "name": "Rooming and Boarding Houses",
+  "level": "industry",
+  "parent": "70"
+ },
+ {
+  "code": "7032",
+  "name": "Sporting and Recreational Camps",
+  "level": "industry",
+  "parent": "70"
+ },
+ {
+  "code": "7033",
+  "name": "Trailer Parks and Campsites",
+  "level": "industry",
+  "parent": "70"
+ },
+ {
+  "code": "7041",
+  "name": "Membership-basis Organization Hotels",
+  "level": "industry",
+  "parent": "70"
+ },
+ {
+  "code": "7211",
+  "name": "Power Laundries, Family and Commercial",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7212",
+  "name": "Garment Pressing and Cleaners' Agents",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7213",
+  "name": "Linen Supply",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7215",
+  "name": "Coin-operated Laundries and Cleaning",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7216",
+  "name": "Drycleaning Plants, Except Rugs",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7217",
+  "name": "Carpet and Upholstery Cleaning",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7218",
+  "name": "Industrial Launderers",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7219",
+  "name": "Laundry and Garment Services, NEC",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7221",
+  "name": "Photographic Studios, Portrait",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7231",
+  "name": "Beauty Shops",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7241",
+  "name": "Barber Shops",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7251",
+  "name": "Shoe Repair and Shoeshine Parlors",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7261",
+  "name": "Funeral Service and Crematories",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7291",
+  "name": "Tax Return Preparation Services",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7299",
+  "name": "Miscellaneous Personal Services",
+  "level": "industry",
+  "parent": "72"
+ },
+ {
+  "code": "7311",
+  "name": "Advertising Agencies",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7312",
+  "name": "Outdoor Advertising Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7313",
+  "name": "Radio, Television, Publisher Representatives",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7319",
+  "name": "Advertising, NEC",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7322",
+  "name": "Adjustment and Collection Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7323",
+  "name": "Credit Reporting Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7331",
+  "name": "Direct Mail Advertising Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7334",
+  "name": "Photocopying and Duplicating Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7335",
+  "name": "Commercial Photography",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7336",
+  "name": "Commercial Art and Graphic Design",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7338",
+  "name": "Secretarial and Court Reporting",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7342",
+  "name": "Disinfecting and Pest Control Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7349",
+  "name": "Building Maintenance Services, NEC",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7352",
+  "name": "Medical Equipment Rental",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7353",
+  "name": "Heavy Construction Equipment Rental",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7359",
+  "name": "Equipment Rental and Leasing, NEC",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7361",
+  "name": "Employment Agencies",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7363",
+  "name": "Help Supply Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7371",
+  "name": "Custom Computer Programming Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7372",
+  "name": "Prepackaged Software",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7373",
+  "name": "Computer Integrated Systems Design",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7374",
+  "name": "Data Processing and Preparation",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7375",
+  "name": "Information Retrieval Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7376",
+  "name": "Computer Facilities Management",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7377",
+  "name": "Computer Rental and Leasing",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7378",
+  "name": "Computer Maintenance and Repair",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7379",
+  "name": "Computer Related Services, NEC",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7381",
+  "name": "Detective and Armored Car Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7382",
+  "name": "Security Systems Services",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7383",
+  "name": "News Syndicates",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7384",
+  "name": "Photofinish Laboratories",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7389",
+  "name": "Business Services, NEC",
+  "level": "industry",
+  "parent": "73"
+ },
+ {
+  "code": "7513",
+  "name": "Truck Rental and Leasing, Without Drivers",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7514",
+  "name": "Passenger Car Rental",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7515",
+  "name": "Passenger Car Leasing",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7519",
+  "name": "Utility Trailer Rental",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7521",
+  "name": "Automobile Parking",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7532",
+  "name": "Top and Body Repair and Paint Shops",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7533",
+  "name": "Auto Exhaust System Repair Shops",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7534",
+  "name": "Tire Retreading and Repair Shops",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7536",
+  "name": "Automotive Glass Replacement Shops",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7537",
+  "name": "Automotive Transmission Repair Shops",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7538",
+  "name": "General Automotive Repair Shops",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7539",
+  "name": "Automotive Repair Shops, NEC",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7542",
+  "name": "Carwashes",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7549",
+  "name": "Automotive Services, NEC",
+  "level": "industry",
+  "parent": "75"
+ },
+ {
+  "code": "7622",
+  "name": "Radio and Television Repair",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7623",
+  "name": "Refrigeration Service and Repair",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7629",
+  "name": "Electrical Repair Shops",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7631",
+  "name": "Watch, Clock, and Jewelry Repair",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7641",
+  "name": "Reupholstery and Furniture Repair",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7692",
+  "name": "Welding Repair",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7694",
+  "name": "Armature Rewinding Shops",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7699",
+  "name": "Repair Services, NEC",
+  "level": "industry",
+  "parent": "76"
+ },
+ {
+  "code": "7812",
+  "name": "Motion Picture and Video Production",
+  "level": "industry",
+  "parent": "78"
+ },
+ {
+  "code": "7819",
+  "name": "Services Allied To Motion Pictures",
+  "level": "industry",
+  "parent": "78"
+ },
+ {
+  "code": "7822",
+  "name": "Motion Picture and Tape Distribution",
+  "level": "industry",
+  "parent": "78"
+ },
+ {
+  "code": "7829",
+  "name": "Motion Picture Distribution Services",
+  "level": "industry",
+  "parent": "78"
+ },
+ {
+  "code": "7832",
+  "name": "Motion Picture Theaters, Except Drive-in",
+  "level": "industry",
+  "parent": "78"
+ },
+ {
+  "code": "7833",
+  "name": "Drive-in Motion Picture Theaters",
+  "level": "industry",
+  "parent": "78"
+ },
+ {
+  "code": "7841",
+  "name": "Video Tape Rental",
+  "level": "industry",
+  "parent": "78"
+ },
+ {
+  "code": "7911",
+  "name": "Dance Studios, Schools, and Halls",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7922",
+  "name": "Theatrical Producers and Services",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7929",
+  "name": "Entertainers and Entertainment Groups",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7933",
+  "name": "Bowling Centers",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7941",
+  "name": "Sports Clubs, Managers, and Promoters",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7948",
+  "name": "Racing, Including Track Operation",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7991",
+  "name": "Physical Fitness Facilities",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7992",
+  "name": "Public Golf Courses",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7993",
+  "name": "Coin-operated Amusement Devices",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7996",
+  "name": "Amusement Parks",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7997",
+  "name": "Membership Sports and Recreation Clubs",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "7999",
+  "name": "Amusement and Recreation, NEC",
+  "level": "industry",
+  "parent": "79"
+ },
+ {
+  "code": "8011",
+  "name": "Offices and Clinics of Medical Doctors",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8021",
+  "name": "Offices and Clinics of Dentists",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8031",
+  "name": "Offices and Clinics of Osteopathic Physicians",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8041",
+  "name": "Offices and Clinics of Chiropractors",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8042",
+  "name": "Offices and Clinics of Optometrists",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8043",
+  "name": "Offices and Clinics of Podiatrists",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8049",
+  "name": "Offices of Health Practitioner",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8051",
+  "name": "Skilled Nursing Care Facilities",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8052",
+  "name": "Intermediate Care Facilities",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8059",
+  "name": "Nursing and Personal Care, NEC",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8062",
+  "name": "General Medical and Surgical Hospitals",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8063",
+  "name": "Psychiatric Hospitals",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8069",
+  "name": "Specialty Hospitals, Except Psychiatric",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8071",
+  "name": "Medical Laboratories",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8072",
+  "name": "Dental Laboratories",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8082",
+  "name": "Home Health Care Services",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8092",
+  "name": "Kidney Dialysis Centers",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8093",
+  "name": "Specialty Outpatient Clinics, NEC",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8099",
+  "name": "Health and Allied Services, NEC",
+  "level": "industry",
+  "parent": "80"
+ },
+ {
+  "code": "8111",
+  "name": "Legal Services",
+  "level": "industry",
+  "parent": "81"
+ },
+ {
+  "code": "8211",
+  "name": "Elementary and Secondary Schools",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8221",
+  "name": "Colleges and Universities",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8222",
+  "name": "Junior Colleges",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8231",
+  "name": "Libraries",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8243",
+  "name": "Data Processing Schools",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8244",
+  "name": "Business and Secretarial Schools",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8249",
+  "name": "Vocational Schools, NEC",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8299",
+  "name": "Schools and Educational Services",
+  "level": "industry",
+  "parent": "82"
+ },
+ {
+  "code": "8322",
+  "name": "Individual and Family Services",
+  "level": "industry",
+  "parent": "83"
+ },
+ {
+  "code": "8331",
+  "name": "Job Training and Related Services",
+  "level": "industry",
+  "parent": "83"
+ },
+ {
+  "code": "8351",
+  "name": "Child Day Care Services",
+  "level": "industry",
+  "parent": "83"
+ },
+ {
+  "code": "8361",
+  "name": "Residential Care",
+  "level": "industry",
+  "parent": "83"
+ },
+ {
+  "code": "8399",
+  "name": "Social Services, NEC",
+  "level": "industry",
+  "parent": "83"
+ },
+ {
+  "code": "8412",
+  "name": "Museums and Art Galleries",
+  "level": "industry",
+  "parent": "84"
+ },
+ {
+  "code": "8422",
+  "name": "Botanical and Zoological Gardens",
+  "level": "industry",
+  "parent": "84"
+ },
+ {
+  "code": "8611",
+  "name": "Business Associations",
+  "level": "industry",
+  "parent": "86"
+ },
+ {
+  "code": "8621",
+  "name": "Professional Organizations",
+  "level": "industry",
+  "parent": "86"
+ },
+ {
+  "code": "8631",
+  "name": "Labor Organizations",
+  "level": "industry",
+  "parent": "86"
+ },
+ {
+  "code": "8641",
+  "name": "Civic and Social Associations",
+  "level": "industry",
+  "parent": "86"
+ },
+ {
+  "code": "8651",
+  "name": "Political Organizations",
+  "level": "industry",
+  "parent": "86"
+ },
+ {
+  "code": "8661",
+  "name": "Religious Organizations",
+  "level": "industry",
+  "parent": "86"
+ },
+ {
+  "code": "8699",
+  "name": "Membership Organizations, NEC",
+  "level": "industry",
+  "parent": "86"
+ },
+ {
+  "code": "8711",
+  "name": "Engineering Services",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8712",
+  "name": "Architectural Services",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8713",
+  "name": "Surveying Services",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8721",
+  "name": "Accounting, Auditing, and Bookkeeping",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8731",
+  "name": "Commercial Physical Research",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8732",
+  "name": "Commercial Nonphysical Research",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8733",
+  "name": "Noncommercial Research Organizations",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8734",
+  "name": "Testing Laboratories",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8741",
+  "name": "Management Services",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8742",
+  "name": "Management Consulting Services",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8743",
+  "name": "Public Relations Services",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8744",
+  "name": "Facilities Support Services",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8748",
+  "name": "Business Consulting, NEC",
+  "level": "industry",
+  "parent": "87"
+ },
+ {
+  "code": "8999",
+  "name": "Services, NEC",
+  "level": "industry",
+  "parent": "89"
+ },
+ {
+  "code": "9111",
+  "name": "Executive Offices",
+  "level": "industry",
+  "parent": "91"
+ },
+ {
+  "code": "9121",
+  "name": "Legislative Bodies",
+  "level": "industry",
+  "parent": "91"
+ },
+ {
+  "code": "9131",
+  "name": "Executive and Legislative Combined",
+  "level": "industry",
+  "parent": "91"
+ },
+ {
+  "code": "9199",
+  "name": "General Government, NEC",
+  "level": "industry",
+  "parent": "91"
+ },
+ {
+  "code": "9211",
+  "name": "Courts",
+  "level": "industry",
+  "parent": "92"
+ },
+ {
+  "code": "9221",
+  "name": "Police Protection",
+  "level": "industry",
+  "parent": "92"
+ },
+ {
+  "code": "9222",
+  "name": "Legal Counsel and Prosecution",
+  "level": "industry",
+  "parent": "92"
+ },
+ {
+  "code": "9223",
+  "name": "Correctional Institutions",
+  "level": "industry",
+  "parent": "92"
+ },
+ {
+  "code": "9224",
+  "name": "Fire Protection",
+  "level": "industry",
+  "parent": "92"
+ },
+ {
+  "code": "9229",
+  "name": "Public Order and Safety, NEC",
+  "level": "industry",
+  "parent": "92"
+ },
+ {
+  "code": "9311",
+  "name": "Finance, Taxation, and Monetary Policy",
+  "level": "industry",
+  "parent": "93"
+ },
+ {
+  "code": "9411",
+  "name": "Administration of Educational Programs",
+  "level": "industry",
+  "parent": "94"
+ },
+ {
+  "code": "9431",
+  "name": "Administration of Public Health Programs",
+  "level": "industry",
+  "parent": "94"
+ },
+ {
+  "code": "9441",
+  "name": "Administration of Social and Manpower Programs",
+  "level": "industry",
+  "parent": "94"
+ },
+ {
+  "code": "9451",
+  "name": "Administration of Veterans' Affairs",
+  "level": "industry",
+  "parent": "94"
+ },
+ {
+  "code": "9511",
+  "name": "Air, Water, and Solid Waste Management",
+  "level": "industry",
+  "parent": "95"
+ },
+ {
+  "code": "9512",
+  "name": "Land, Mineral, and Wildlife Conservation",
+  "level": "industry",
+  "parent": "95"
+ },
+ {
+  "code": "9531",
+  "name": "Housing Programs",
+  "level": "industry",
+  "parent": "95"
+ },
+ {
+  "code": "9532",
+  "name": "Urban and Community Development",
+  "level": "industry",
+  "parent": "95"
+ },
+ {
+  "code": "9611",
+  "name": "Administration of General Economic Programs",
+  "level": "industry",
+  "parent": "96"
+ },
+ {
+  "code": "9621",
+  "name": "Regulation, Administration of Transportation",
+  "level": "industry",
+  "parent": "96"
+ },
+ {
+  "code": "9631",
+  "name": "Regulation, Administration of Utilities",
+  "level": "industry",
+  "parent": "96"
+ },
+ {
+  "code": "9641",
+  "name": "Regulation of Agricultural Marketing",
+  "level": "industry",
+  "parent": "96"
+ },
+ {
+  "code": "9651",
+  "name": "Regulation, Miscellaneous Commercial Sectors",
+  "level": "industry",
+  "parent": "96"
+ },
+ {
+  "code": "9661",
+  "name": "Space Research and Technology",
+  "level": "industry",
+  "parent": "96"
+ },
+ {
+  "code": "9711",
+  "name": "National Security",
+  "level": "industry",
+  "parent": "97"
+ },
+ {
+  "code": "9721",
+  "name": "International Affairs",
+  "level": "industry",
+  "parent": "97"
  }
 ]

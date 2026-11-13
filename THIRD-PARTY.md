@@ -32,5 +32,9 @@ via the `world-atlas` package.
 ## Codes and names
 ISO 3166-1 codes via `i18n-iso-countries` (MIT); UN M49 regions via `un-m49` (MIT); country names from Unicode CLDR.
 
+## Industry classifications
+NAICS 2022 and SIC 1987 are US government works (public domain); titles read from `naicsjs` (MIT) and `naics-sic-crosswalk` (MIT, Census concordance; SIC industry titles are the concordance's short forms).
+NACE Rev. 2.1 © European Union, reuse permitted with attribution (Eurostat); read from `nace-mcp` (MIT).
+
 ## Metaphor research
 The Noun Project is used as a reference for which images people recognise. No Noun Project artwork is copied or shipped.

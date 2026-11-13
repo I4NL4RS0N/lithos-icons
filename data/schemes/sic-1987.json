@@ -5,7 +5,8 @@
  "version": "1987",
  "levels": [
   "division",
-  "major group"
+  "major group",
+  "industry"
  ],
  "licence": "public",
  "publish": true,

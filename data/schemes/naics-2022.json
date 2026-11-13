@@ -5,7 +5,10 @@
  "version": "2022",
  "levels": [
   "sector",
-  "subsector"
+  "subsector",
+  "industry group",
+  "NAICS industry",
+  "national industry"
  ],
  "licence": "public",
  "publish": true,

@@ -652,5 +652,5633 @@
   "name": "Activities of extraterritorial organisations and bodies",
   "level": "division",
   "parent": "V"
+ },
+ {
+  "code": "01.1",
+  "name": "Growing of non-perennial crops",
+  "level": "group",
+  "parent": "01"
+ },
+ {
+  "code": "01.11",
+  "name": "Growing of cereals, other than rice, leguminous crops and oil seeds",
+  "level": "class",
+  "parent": "01.1"
+ },
+ {
+  "code": "01.12",
+  "name": "Growing of rice",
+  "level": "class",
+  "parent": "01.1"
+ },
+ {
+  "code": "01.13",
+  "name": "Growing of vegetables and melons, roots and tubers",
+  "level": "class",
+  "parent": "01.1"
+ },
+ {
+  "code": "01.14",
+  "name": "Growing of sugar cane",
+  "level": "class",
+  "parent": "01.1"
+ },
+ {
+  "code": "01.15",
+  "name": "Growing of tobacco",
+  "level": "class",
+  "parent": "01.1"
+ },
+ {
+  "code": "01.16",
+  "name": "Growing of fibre crops",
+  "level": "class",
+  "parent": "01.1"
+ },
+ {
+  "code": "01.19",
+  "name": "Growing of other non-perennial crops",
+  "level": "class",
+  "parent": "01.1"
+ },
+ {
+  "code": "01.2",
+  "name": "Growing of perennial crops",
+  "level": "group",
+  "parent": "01"
+ },
+ {
+  "code": "01.21",
+  "name": "Growing of grapes",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.22",
+  "name": "Growing of tropical and subtropical fruits",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.23",
+  "name": "Growing of citrus fruits",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.24",
+  "name": "Growing of pome fruits and stone fruits",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.25",
+  "name": "Growing of other tree and bush fruits and nuts",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.26",
+  "name": "Growing of oleaginous fruits",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.27",
+  "name": "Growing of beverage crops",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.28",
+  "name": "Growing of spices, aromatic, drug and pharmaceutical crops",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.29",
+  "name": "Growing of other perennial crops",
+  "level": "class",
+  "parent": "01.2"
+ },
+ {
+  "code": "01.3",
+  "name": "Plant propagation",
+  "level": "group",
+  "parent": "01"
+ },
+ {
+  "code": "01.30",
+  "name": "Plant propagation",
+  "level": "class",
+  "parent": "01.3"
+ },
+ {
+  "code": "01.4",
+  "name": "Animal production",
+  "level": "group",
+  "parent": "01"
+ },
+ {
+  "code": "01.41",
+  "name": "Raising of dairy cattle",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.42",
+  "name": "Raising of other cattle and buffaloes",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.43",
+  "name": "Raising of horses and other equines",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.44",
+  "name": "Raising of camels and camelids",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.45",
+  "name": "Raising of sheep and goats",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.46",
+  "name": "Raising of swine and pigs",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.47",
+  "name": "Raising of poultry",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.48",
+  "name": "Raising of other animals",
+  "level": "class",
+  "parent": "01.4"
+ },
+ {
+  "code": "01.5",
+  "name": "Mixed farming",
+  "level": "group",
+  "parent": "01"
+ },
+ {
+  "code": "01.50",
+  "name": "Mixed farming",
+  "level": "class",
+  "parent": "01.5"
+ },
+ {
+  "code": "01.6",
+  "name": "Support activities to agriculture and post-harvest crop activities",
+  "level": "group",
+  "parent": "01"
+ },
+ {
+  "code": "01.61",
+  "name": "Support activities for crop production",
+  "level": "class",
+  "parent": "01.6"
+ },
+ {
+  "code": "01.62",
+  "name": "Support activities for animal production",
+  "level": "class",
+  "parent": "01.6"
+ },
+ {
+  "code": "01.63",
+  "name": "Post-harvest crop activities and seed processing for propagation",
+  "level": "class",
+  "parent": "01.6"
+ },
+ {
+  "code": "01.7",
+  "name": "Hunting, trapping and related service activities",
+  "level": "group",
+  "parent": "01"
+ },
+ {
+  "code": "01.70",
+  "name": "Hunting, trapping and related service activities",
+  "level": "class",
+  "parent": "01.7"
+ },
+ {
+  "code": "02.1",
+  "name": "Silviculture and other forestry activities",
+  "level": "group",
+  "parent": "02"
+ },
+ {
+  "code": "02.10",
+  "name": "Silviculture and other forestry activities",
+  "level": "class",
+  "parent": "02.1"
+ },
+ {
+  "code": "02.2",
+  "name": "Logging",
+  "level": "group",
+  "parent": "02"
+ },
+ {
+  "code": "02.20",
+  "name": "Logging",
+  "level": "class",
+  "parent": "02.2"
+ },
+ {
+  "code": "02.3",
+  "name": "Gathering of wild growing non-wood products",
+  "level": "group",
+  "parent": "02"
+ },
+ {
+  "code": "02.30",
+  "name": "Gathering of wild growing non-wood products",
+  "level": "class",
+  "parent": "02.3"
+ },
+ {
+  "code": "02.4",
+  "name": "Support services to forestry",
+  "level": "group",
+  "parent": "02"
+ },
+ {
+  "code": "02.40",
+  "name": "Support services to forestry",
+  "level": "class",
+  "parent": "02.4"
+ },
+ {
+  "code": "03.1",
+  "name": "Fishing",
+  "level": "group",
+  "parent": "03"
+ },
+ {
+  "code": "03.11",
+  "name": "Marine fishing",
+  "level": "class",
+  "parent": "03.1"
+ },
+ {
+  "code": "03.12",
+  "name": "Freshwater fishing",
+  "level": "class",
+  "parent": "03.1"
+ },
+ {
+  "code": "03.2",
+  "name": "Aquaculture",
+  "level": "group",
+  "parent": "03"
+ },
+ {
+  "code": "03.21",
+  "name": "Marine aquaculture",
+  "level": "class",
+  "parent": "03.2"
+ },
+ {
+  "code": "03.22",
+  "name": "Freshwater aquaculture",
+  "level": "class",
+  "parent": "03.2"
+ },
+ {
+  "code": "03.3",
+  "name": "Support activities for fishing and aquaculture",
+  "level": "group",
+  "parent": "03"
+ },
+ {
+  "code": "03.30",
+  "name": "Support activities for fishing and aquaculture",
+  "level": "class",
+  "parent": "03.3"
+ },
+ {
+  "code": "05.1",
+  "name": "Mining of hard coal",
+  "level": "group",
+  "parent": "05"
+ },
+ {
+  "code": "05.10",
+  "name": "Mining of hard coal",
+  "level": "class",
+  "parent": "05.1"
+ },
+ {
+  "code": "05.2",
+  "name": "Mining of lignite",
+  "level": "group",
+  "parent": "05"
+ },
+ {
+  "code": "05.20",
+  "name": "Mining of lignite",
+  "level": "class",
+  "parent": "05.2"
+ },
+ {
+  "code": "06.1",
+  "name": "Extraction of crude petroleum",
+  "level": "group",
+  "parent": "06"
+ },
+ {
+  "code": "06.10",
+  "name": "Extraction of crude petroleum",
+  "level": "class",
+  "parent": "06.1"
+ },
+ {
+  "code": "06.2",
+  "name": "Extraction of natural gas",
+  "level": "group",
+  "parent": "06"
+ },
+ {
+  "code": "06.20",
+  "name": "Extraction of natural gas",
+  "level": "class",
+  "parent": "06.2"
+ },
+ {
+  "code": "07.1",
+  "name": "Mining of iron ores",
+  "level": "group",
+  "parent": "07"
+ },
+ {
+  "code": "07.10",
+  "name": "Mining of iron ores",
+  "level": "class",
+  "parent": "07.1"
+ },
+ {
+  "code": "07.2",
+  "name": "Mining of non-ferrous metal ores",
+  "level": "group",
+  "parent": "07"
+ },
+ {
+  "code": "07.21",
+  "name": "Mining of uranium and thorium ores",
+  "level": "class",
+  "parent": "07.2"
+ },
+ {
+  "code": "07.29",
+  "name": "Mining of other non-ferrous metal ores",
+  "level": "class",
+  "parent": "07.2"
+ },
+ {
+  "code": "08.1",
+  "name": "Quarrying of stone, sand and clay",
+  "level": "group",
+  "parent": "08"
+ },
+ {
+  "code": "08.11",
+  "name": "Quarrying of ornamental stone, limestone, gypsum, slate and other stone",
+  "level": "class",
+  "parent": "08.1"
+ },
+ {
+  "code": "08.12",
+  "name": "Operation of gravel and sand pits and mining of clay and kaolin",
+  "level": "class",
+  "parent": "08.1"
+ },
+ {
+  "code": "08.9",
+  "name": "Mining and quarrying n.e.c.",
+  "level": "group",
+  "parent": "08"
+ },
+ {
+  "code": "08.91",
+  "name": "Mining of chemical and fertiliser minerals",
+  "level": "class",
+  "parent": "08.9"
+ },
+ {
+  "code": "08.92",
+  "name": "Extraction of peat",
+  "level": "class",
+  "parent": "08.9"
+ },
+ {
+  "code": "08.93",
+  "name": "Extraction of salt",
+  "level": "class",
+  "parent": "08.9"
+ },
+ {
+  "code": "08.99",
+  "name": "Other mining and quarrying n.e.c.",
+  "level": "class",
+  "parent": "08.9"
+ },
+ {
+  "code": "09.1",
+  "name": "Support activities for petroleum and natural gas extraction",
+  "level": "group",
+  "parent": "09"
+ },
+ {
+  "code": "09.10",
+  "name": "Support activities for petroleum and natural gas extraction",
+  "level": "class",
+  "parent": "09.1"
+ },
+ {
+  "code": "09.9",
+  "name": "Support activities for other mining and quarrying",
+  "level": "group",
+  "parent": "09"
+ },
+ {
+  "code": "09.90",
+  "name": "Support activities for other mining and quarrying",
+  "level": "class",
+  "parent": "09.9"
+ },
+ {
+  "code": "10.1",
+  "name": "Processing and preserving of meat and production of meat products",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.11",
+  "name": "Processing and preserving of meat, except of poultry meat",
+  "level": "class",
+  "parent": "10.1"
+ },
+ {
+  "code": "10.12",
+  "name": "Processing and preserving of poultry meat",
+  "level": "class",
+  "parent": "10.1"
+ },
+ {
+  "code": "10.13",
+  "name": "Production of meat and poultry meat products",
+  "level": "class",
+  "parent": "10.1"
+ },
+ {
+  "code": "10.2",
+  "name": "Processing and preserving of fish, crustaceans and molluscs",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.20",
+  "name": "Processing and preserving of fish, crustaceans and molluscs",
+  "level": "class",
+  "parent": "10.2"
+ },
+ {
+  "code": "10.3",
+  "name": "Processing and preserving of fruit and vegetables",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.31",
+  "name": "Processing and preserving of potatoes",
+  "level": "class",
+  "parent": "10.3"
+ },
+ {
+  "code": "10.32",
+  "name": "Manufacture of fruit and vegetable juice",
+  "level": "class",
+  "parent": "10.3"
+ },
+ {
+  "code": "10.39",
+  "name": "Other processing and preserving of fruit and vegetables",
+  "level": "class",
+  "parent": "10.3"
+ },
+ {
+  "code": "10.4",
+  "name": "Manufacture of vegetable and animal oils and fats",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.41",
+  "name": "Manufacture of oils and fats",
+  "level": "class",
+  "parent": "10.4"
+ },
+ {
+  "code": "10.42",
+  "name": "Manufacture of margarine and similar edible fats",
+  "level": "class",
+  "parent": "10.4"
+ },
+ {
+  "code": "10.5",
+  "name": "Manufacture of dairy products and edible ice",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.51",
+  "name": "Manufacture of dairy products",
+  "level": "class",
+  "parent": "10.5"
+ },
+ {
+  "code": "10.52",
+  "name": "Manufacture of ice cream and other edible ice",
+  "level": "class",
+  "parent": "10.5"
+ },
+ {
+  "code": "10.6",
+  "name": "Manufacture of grain mill products, starches and starch products",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.61",
+  "name": "Manufacture of grain mill products",
+  "level": "class",
+  "parent": "10.6"
+ },
+ {
+  "code": "10.62",
+  "name": "Manufacture of starches and starch products",
+  "level": "class",
+  "parent": "10.6"
+ },
+ {
+  "code": "10.7",
+  "name": "Manufacture of bakery and farinaceous products",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.71",
+  "name": "Manufacture of bread; manufacture of fresh pastry goods and cakes",
+  "level": "class",
+  "parent": "10.7"
+ },
+ {
+  "code": "10.72",
+  "name": "Manufacture of rusks, biscuits, preserved pastries and cakes",
+  "level": "class",
+  "parent": "10.7"
+ },
+ {
+  "code": "10.73",
+  "name": "Manufacture of farinaceous products",
+  "level": "class",
+  "parent": "10.7"
+ },
+ {
+  "code": "10.8",
+  "name": "Manufacture of other food products",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.81",
+  "name": "Manufacture of sugar",
+  "level": "class",
+  "parent": "10.8"
+ },
+ {
+  "code": "10.82",
+  "name": "Manufacture of cocoa, chocolate and sugar confectionery",
+  "level": "class",
+  "parent": "10.8"
+ },
+ {
+  "code": "10.83",
+  "name": "Processing of tea and coffee",
+  "level": "class",
+  "parent": "10.8"
+ },
+ {
+  "code": "10.84",
+  "name": "Manufacture of condiments and seasonings",
+  "level": "class",
+  "parent": "10.8"
+ },
+ {
+  "code": "10.85",
+  "name": "Manufacture of prepared meals and dishes",
+  "level": "class",
+  "parent": "10.8"
+ },
+ {
+  "code": "10.86",
+  "name": "Manufacture of homogenised food preparations and dietetic food",
+  "level": "class",
+  "parent": "10.8"
+ },
+ {
+  "code": "10.89",
+  "name": "Manufacture of other food products n.e.c.",
+  "level": "class",
+  "parent": "10.8"
+ },
+ {
+  "code": "10.9",
+  "name": "Manufacture of prepared animal feeds",
+  "level": "group",
+  "parent": "10"
+ },
+ {
+  "code": "10.91",
+  "name": "Manufacture of prepared feeds for farm animals",
+  "level": "class",
+  "parent": "10.9"
+ },
+ {
+  "code": "10.92",
+  "name": "Manufacture of prepared pet foods",
+  "level": "class",
+  "parent": "10.9"
+ },
+ {
+  "code": "11.0",
+  "name": "Manufacture of beverages",
+  "level": "group",
+  "parent": "11"
+ },
+ {
+  "code": "11.01",
+  "name": "Distilling, rectifying and blending of spirits",
+  "level": "class",
+  "parent": "11.0"
+ },
+ {
+  "code": "11.02",
+  "name": "Manufacture of wine from grape",
+  "level": "class",
+  "parent": "11.0"
+ },
+ {
+  "code": "11.03",
+  "name": "Manufacture of cider and other fermented fruit beverages",
+  "level": "class",
+  "parent": "11.0"
+ },
+ {
+  "code": "11.04",
+  "name": "Manufacture of other non-distilled fermented beverages",
+  "level": "class",
+  "parent": "11.0"
+ },
+ {
+  "code": "11.05",
+  "name": "Manufacture of beer",
+  "level": "class",
+  "parent": "11.0"
+ },
+ {
+  "code": "11.06",
+  "name": "Manufacture of malt",
+  "level": "class",
+  "parent": "11.0"
+ },
+ {
+  "code": "11.07",
+  "name": "Manufacture of soft drinks and bottled waters",
+  "level": "class",
+  "parent": "11.0"
+ },
+ {
+  "code": "12.0",
+  "name": "Manufacture of tobacco products",
+  "level": "group",
+  "parent": "12"
+ },
+ {
+  "code": "12.00",
+  "name": "Manufacture of tobacco products",
+  "level": "class",
+  "parent": "12.0"
+ },
+ {
+  "code": "13.1",
+  "name": "Preparation and spinning of textile fibres",
+  "level": "group",
+  "parent": "13"
+ },
+ {
+  "code": "13.10",
+  "name": "Preparation and spinning of textile fibres",
+  "level": "class",
+  "parent": "13.1"
+ },
+ {
+  "code": "13.2",
+  "name": "Weaving of textiles",
+  "level": "group",
+  "parent": "13"
+ },
+ {
+  "code": "13.20",
+  "name": "Weaving of textiles",
+  "level": "class",
+  "parent": "13.2"
+ },
+ {
+  "code": "13.3",
+  "name": "Finishing of textiles",
+  "level": "group",
+  "parent": "13"
+ },
+ {
+  "code": "13.30",
+  "name": "Finishing of textiles",
+  "level": "class",
+  "parent": "13.3"
+ },
+ {
+  "code": "13.9",
+  "name": "Manufacture of other textiles",
+  "level": "group",
+  "parent": "13"
+ },
+ {
+  "code": "13.91",
+  "name": "Manufacture of knitted and crocheted fabrics",
+  "level": "class",
+  "parent": "13.9"
+ },
+ {
+  "code": "13.92",
+  "name": "Manufacture of household textiles and made-up furnishing articles",
+  "level": "class",
+  "parent": "13.9"
+ },
+ {
+  "code": "13.93",
+  "name": "Manufacture of carpets and rugs",
+  "level": "class",
+  "parent": "13.9"
+ },
+ {
+  "code": "13.94",
+  "name": "Manufacture of cordage, rope, twine and netting",
+  "level": "class",
+  "parent": "13.9"
+ },
+ {
+  "code": "13.95",
+  "name": "Manufacture of non-wovens and non-woven articles",
+  "level": "class",
+  "parent": "13.9"
+ },
+ {
+  "code": "13.96",
+  "name": "Manufacture of other technical and industrial textiles",
+  "level": "class",
+  "parent": "13.9"
+ },
+ {
+  "code": "13.99",
+  "name": "Manufacture of other textiles n.e.c.",
+  "level": "class",
+  "parent": "13.9"
+ },
+ {
+  "code": "14.1",
+  "name": "Manufacture of knitted and crocheted apparel",
+  "level": "group",
+  "parent": "14"
+ },
+ {
+  "code": "14.10",
+  "name": "Manufacture of knitted and crocheted apparel",
+  "level": "class",
+  "parent": "14.1"
+ },
+ {
+  "code": "14.2",
+  "name": "Manufacture of other wearing apparel and accessories",
+  "level": "group",
+  "parent": "14"
+ },
+ {
+  "code": "14.21",
+  "name": "Manufacture of outerwear",
+  "level": "class",
+  "parent": "14.2"
+ },
+ {
+  "code": "14.22",
+  "name": "Manufacture of underwear",
+  "level": "class",
+  "parent": "14.2"
+ },
+ {
+  "code": "14.23",
+  "name": "Manufacture of workwear",
+  "level": "class",
+  "parent": "14.2"
+ },
+ {
+  "code": "14.24",
+  "name": "Manufacture of leather clothes and fur apparel",
+  "level": "class",
+  "parent": "14.2"
+ },
+ {
+  "code": "14.29",
+  "name": "Manufacture of other wearing apparel and accessories n.e.c.",
+  "level": "class",
+  "parent": "14.2"
+ },
+ {
+  "code": "15.1",
+  "name": "Tanning, dyeing, dressing of leather and fur; manufacture of luggage, handbags, saddlery and harness",
+  "level": "group",
+  "parent": "15"
+ },
+ {
+  "code": "15.11",
+  "name": "Tanning, dressing, dyeing of leather and fur",
+  "level": "class",
+  "parent": "15.1"
+ },
+ {
+  "code": "15.12",
+  "name": "Manufacture of luggage, handbags, saddlery and harness of any material",
+  "level": "class",
+  "parent": "15.1"
+ },
+ {
+  "code": "15.2",
+  "name": "Manufacture of footwear",
+  "level": "group",
+  "parent": "15"
+ },
+ {
+  "code": "15.20",
+  "name": "Manufacture of footwear",
+  "level": "class",
+  "parent": "15.2"
+ },
+ {
+  "code": "16.1",
+  "name": "Sawmilling and planing of wood; processing and finishing of wood",
+  "level": "group",
+  "parent": "16"
+ },
+ {
+  "code": "16.11",
+  "name": "Sawmilling and planing of wood",
+  "level": "class",
+  "parent": "16.1"
+ },
+ {
+  "code": "16.12",
+  "name": "Processing and finishing of wood",
+  "level": "class",
+  "parent": "16.1"
+ },
+ {
+  "code": "16.2",
+  "name": "Manufacture of products of wood, cork, straw and plaiting materials",
+  "level": "group",
+  "parent": "16"
+ },
+ {
+  "code": "16.21",
+  "name": "Manufacture of veneer sheets and wood-based panels",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "16.22",
+  "name": "Manufacture of assembled parquet floors",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "16.23",
+  "name": "Manufacture of other builders’ carpentry and joinery",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "16.24",
+  "name": "Manufacture of wooden containers",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "16.25",
+  "name": "Manufacture of doors and windows of wood",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "16.26",
+  "name": "Manufacture of solid fuels from vegetable biomass",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "16.27",
+  "name": "Finishing of wooden products",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "16.28",
+  "name": "Manufacture of other products of wood and articles of cork, straw and plaiting materials",
+  "level": "class",
+  "parent": "16.2"
+ },
+ {
+  "code": "17.1",
+  "name": "Manufacture of pulp, paper and paperboard",
+  "level": "group",
+  "parent": "17"
+ },
+ {
+  "code": "17.11",
+  "name": "Manufacture of pulp",
+  "level": "class",
+  "parent": "17.1"
+ },
+ {
+  "code": "17.12",
+  "name": "Manufacture of paper and paperboard",
+  "level": "class",
+  "parent": "17.1"
+ },
+ {
+  "code": "17.2",
+  "name": "Manufacture of articles of paper and paperboard",
+  "level": "group",
+  "parent": "17"
+ },
+ {
+  "code": "17.21",
+  "name": "Manufacture of corrugated paper, paperboard and containers of paper and paperboard",
+  "level": "class",
+  "parent": "17.2"
+ },
+ {
+  "code": "17.22",
+  "name": "Manufacture of household and sanitary goods and of toilet requisites",
+  "level": "class",
+  "parent": "17.2"
+ },
+ {
+  "code": "17.23",
+  "name": "Manufacture of paper stationery",
+  "level": "class",
+  "parent": "17.2"
+ },
+ {
+  "code": "17.24",
+  "name": "Manufacture of wallpaper",
+  "level": "class",
+  "parent": "17.2"
+ },
+ {
+  "code": "17.25",
+  "name": "Manufacture of other articles of paper and paperboard",
+  "level": "class",
+  "parent": "17.2"
+ },
+ {
+  "code": "18.1",
+  "name": "Printing and service activities related to printing",
+  "level": "group",
+  "parent": "18"
+ },
+ {
+  "code": "18.11",
+  "name": "Printing of newspapers",
+  "level": "class",
+  "parent": "18.1"
+ },
+ {
+  "code": "18.12",
+  "name": "Other printing",
+  "level": "class",
+  "parent": "18.1"
+ },
+ {
+  "code": "18.13",
+  "name": "Pre-press and pre-media services",
+  "level": "class",
+  "parent": "18.1"
+ },
+ {
+  "code": "18.14",
+  "name": "Binding and related services",
+  "level": "class",
+  "parent": "18.1"
+ },
+ {
+  "code": "18.2",
+  "name": "Reproduction of recorded media",
+  "level": "group",
+  "parent": "18"
+ },
+ {
+  "code": "18.20",
+  "name": "Reproduction of recorded media",
+  "level": "class",
+  "parent": "18.2"
+ },
+ {
+  "code": "19.1",
+  "name": "Manufacture of coke oven products",
+  "level": "group",
+  "parent": "19"
+ },
+ {
+  "code": "19.10",
+  "name": "Manufacture of coke oven products",
+  "level": "class",
+  "parent": "19.1"
+ },
+ {
+  "code": "19.2",
+  "name": "Manufacture of refined petroleum products and fossil fuel products",
+  "level": "group",
+  "parent": "19"
+ },
+ {
+  "code": "19.20",
+  "name": "Manufacture of refined petroleum products and fossil fuel products",
+  "level": "class",
+  "parent": "19.2"
+ },
+ {
+  "code": "20.1",
+  "name": "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",
+  "level": "group",
+  "parent": "20"
+ },
+ {
+  "code": "20.11",
+  "name": "Manufacture of industrial gases",
+  "level": "class",
+  "parent": "20.1"
+ },
+ {
+  "code": "20.12",
+  "name": "Manufacture of dyes and pigments",
+  "level": "class",
+  "parent": "20.1"
+ },
+ {
+  "code": "20.13",
+  "name": "Manufacture of other inorganic basic chemicals",
+  "level": "class",
+  "parent": "20.1"
+ },
+ {
+  "code": "20.14",
+  "name": "Manufacture of other organic basic chemicals",
+  "level": "class",
+  "parent": "20.1"
+ },
+ {
+  "code": "20.15",
+  "name": "Manufacture of fertilisers and nitrogen compounds",
+  "level": "class",
+  "parent": "20.1"
+ },
+ {
+  "code": "20.16",
+  "name": "Manufacture of plastics in primary forms",
+  "level": "class",
+  "parent": "20.1"
+ },
+ {
+  "code": "20.17",
+  "name": "Manufacture of synthetic rubber in primary forms",
+  "level": "class",
+  "parent": "20.1"
+ },
+ {
+  "code": "20.2",
+  "name": "Manufacture of pesticides, disinfectants and other agrochemical products",
+  "level": "group",
+  "parent": "20"
+ },
+ {
+  "code": "20.20",
+  "name": "Manufacture of pesticides, disinfectants and other agrochemical products",
+  "level": "class",
+  "parent": "20.2"
+ },
+ {
+  "code": "20.3",
+  "name": "Manufacture of paints, varnishes and similar coatings, printing ink and mastics",
+  "level": "group",
+  "parent": "20"
+ },
+ {
+  "code": "20.30",
+  "name": "Manufacture of paints, varnishes and similar coatings, printing ink and mastics",
+  "level": "class",
+  "parent": "20.3"
+ },
+ {
+  "code": "20.4",
+  "name": "Manufacture of washing, cleaning and polishing preparations",
+  "level": "group",
+  "parent": "20"
+ },
+ {
+  "code": "20.41",
+  "name": "Manufacture of soap and detergents, cleaning and polishing preparations",
+  "level": "class",
+  "parent": "20.4"
+ },
+ {
+  "code": "20.42",
+  "name": "Manufacture of perfume and toilet preparations",
+  "level": "class",
+  "parent": "20.4"
+ },
+ {
+  "code": "20.5",
+  "name": "Manufacture of other chemical products",
+  "level": "group",
+  "parent": "20"
+ },
+ {
+  "code": "20.51",
+  "name": "Manufacture of liquid biofuels",
+  "level": "class",
+  "parent": "20.5"
+ },
+ {
+  "code": "20.59",
+  "name": "Manufacture of other chemical products n.e.c.",
+  "level": "class",
+  "parent": "20.5"
+ },
+ {
+  "code": "20.6",
+  "name": "Manufacture of man-made fibres",
+  "level": "group",
+  "parent": "20"
+ },
+ {
+  "code": "20.60",
+  "name": "Manufacture of man-made fibres",
+  "level": "class",
+  "parent": "20.6"
+ },
+ {
+  "code": "21.1",
+  "name": "Manufacture of basic pharmaceutical products",
+  "level": "group",
+  "parent": "21"
+ },
+ {
+  "code": "21.10",
+  "name": "Manufacture of basic pharmaceutical products",
+  "level": "class",
+  "parent": "21.1"
+ },
+ {
+  "code": "21.2",
+  "name": "Manufacture of pharmaceutical preparations",
+  "level": "group",
+  "parent": "21"
+ },
+ {
+  "code": "21.20",
+  "name": "Manufacture of pharmaceutical preparations",
+  "level": "class",
+  "parent": "21.2"
+ },
+ {
+  "code": "22.1",
+  "name": "Manufacture of rubber products",
+  "level": "group",
+  "parent": "22"
+ },
+ {
+  "code": "22.11",
+  "name": "Manufacture, retreading and rebuilding of rubber tyres and manufacture of tubes",
+  "level": "class",
+  "parent": "22.1"
+ },
+ {
+  "code": "22.12",
+  "name": "Manufacture of other rubber products",
+  "level": "class",
+  "parent": "22.1"
+ },
+ {
+  "code": "22.2",
+  "name": "Manufacture of plastic products",
+  "level": "group",
+  "parent": "22"
+ },
+ {
+  "code": "22.21",
+  "name": "Manufacture of plastic plates, sheets, tubes and profiles",
+  "level": "class",
+  "parent": "22.2"
+ },
+ {
+  "code": "22.22",
+  "name": "Manufacture of plastic packing goods",
+  "level": "class",
+  "parent": "22.2"
+ },
+ {
+  "code": "22.23",
+  "name": "Manufacture of doors and windows of plastic",
+  "level": "class",
+  "parent": "22.2"
+ },
+ {
+  "code": "22.24",
+  "name": "Manufacture of builders’ ware of plastic",
+  "level": "class",
+  "parent": "22.2"
+ },
+ {
+  "code": "22.25",
+  "name": "Processing and finishing of plastic products",
+  "level": "class",
+  "parent": "22.2"
+ },
+ {
+  "code": "22.26",
+  "name": "Manufacture of other plastic products",
+  "level": "class",
+  "parent": "22.2"
+ },
+ {
+  "code": "23.1",
+  "name": "Manufacture of glass and glass products",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.11",
+  "name": "Manufacture of flat glass",
+  "level": "class",
+  "parent": "23.1"
+ },
+ {
+  "code": "23.12",
+  "name": "Shaping and processing of flat glass",
+  "level": "class",
+  "parent": "23.1"
+ },
+ {
+  "code": "23.13",
+  "name": "Manufacture of hollow glass",
+  "level": "class",
+  "parent": "23.1"
+ },
+ {
+  "code": "23.14",
+  "name": "Manufacture of glass fibres",
+  "level": "class",
+  "parent": "23.1"
+ },
+ {
+  "code": "23.15",
+  "name": "Manufacture and processing of other glass, including technical glassware",
+  "level": "class",
+  "parent": "23.1"
+ },
+ {
+  "code": "23.2",
+  "name": "Manufacture of refractory products",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.20",
+  "name": "Manufacture of refractory products",
+  "level": "class",
+  "parent": "23.2"
+ },
+ {
+  "code": "23.3",
+  "name": "Manufacture of clay building materials",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.31",
+  "name": "Manufacture of ceramic tiles and flags",
+  "level": "class",
+  "parent": "23.3"
+ },
+ {
+  "code": "23.32",
+  "name": "Manufacture of bricks, tiles and construction products, in baked clay",
+  "level": "class",
+  "parent": "23.3"
+ },
+ {
+  "code": "23.4",
+  "name": "Manufacture of other porcelain and ceramic products",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.41",
+  "name": "Manufacture of ceramic household and ornamental articles",
+  "level": "class",
+  "parent": "23.4"
+ },
+ {
+  "code": "23.42",
+  "name": "Manufacture of ceramic sanitary fixtures",
+  "level": "class",
+  "parent": "23.4"
+ },
+ {
+  "code": "23.43",
+  "name": "Manufacture of ceramic insulators and insulating fittings",
+  "level": "class",
+  "parent": "23.4"
+ },
+ {
+  "code": "23.44",
+  "name": "Manufacture of other technical ceramic products",
+  "level": "class",
+  "parent": "23.4"
+ },
+ {
+  "code": "23.45",
+  "name": "Manufacture of other ceramic products",
+  "level": "class",
+  "parent": "23.4"
+ },
+ {
+  "code": "23.5",
+  "name": "Manufacture of cement, lime and plaster",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.51",
+  "name": "Manufacture of cement",
+  "level": "class",
+  "parent": "23.5"
+ },
+ {
+  "code": "23.52",
+  "name": "Manufacture of lime and plaster",
+  "level": "class",
+  "parent": "23.5"
+ },
+ {
+  "code": "23.6",
+  "name": "Manufacture of articles of concrete, cement and plaster",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.61",
+  "name": "Manufacture of concrete products for construction purposes",
+  "level": "class",
+  "parent": "23.6"
+ },
+ {
+  "code": "23.62",
+  "name": "Manufacture of plaster products for construction purposes",
+  "level": "class",
+  "parent": "23.6"
+ },
+ {
+  "code": "23.63",
+  "name": "Manufacture of ready-mixed concrete",
+  "level": "class",
+  "parent": "23.6"
+ },
+ {
+  "code": "23.64",
+  "name": "Manufacture of mortars",
+  "level": "class",
+  "parent": "23.6"
+ },
+ {
+  "code": "23.65",
+  "name": "Manufacture of fibre cement",
+  "level": "class",
+  "parent": "23.6"
+ },
+ {
+  "code": "23.66",
+  "name": "Manufacture of other articles of concrete, cement and plaster",
+  "level": "class",
+  "parent": "23.6"
+ },
+ {
+  "code": "23.7",
+  "name": "Cutting, shaping and finishing of stone",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.70",
+  "name": "Cutting, shaping and finishing of stone",
+  "level": "class",
+  "parent": "23.7"
+ },
+ {
+  "code": "23.9",
+  "name": "Manufacture of abrasive products and non-metallic mineral products n.e.c.",
+  "level": "group",
+  "parent": "23"
+ },
+ {
+  "code": "23.91",
+  "name": "Manufacture of abrasive products",
+  "level": "class",
+  "parent": "23.9"
+ },
+ {
+  "code": "23.99",
+  "name": "Manufacture of other non-metallic mineral products n.e.c.",
+  "level": "class",
+  "parent": "23.9"
+ },
+ {
+  "code": "24.1",
+  "name": "Manufacture of basic iron and steel and of ferro-alloys",
+  "level": "group",
+  "parent": "24"
+ },
+ {
+  "code": "24.10",
+  "name": "Manufacture of basic iron and steel and of ferro-alloys",
+  "level": "class",
+  "parent": "24.1"
+ },
+ {
+  "code": "24.2",
+  "name": "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",
+  "level": "group",
+  "parent": "24"
+ },
+ {
+  "code": "24.20",
+  "name": "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",
+  "level": "class",
+  "parent": "24.2"
+ },
+ {
+  "code": "24.3",
+  "name": "Manufacture of other products of first processing of steel",
+  "level": "group",
+  "parent": "24"
+ },
+ {
+  "code": "24.31",
+  "name": "Cold drawing of bars",
+  "level": "class",
+  "parent": "24.3"
+ },
+ {
+  "code": "24.32",
+  "name": "Cold rolling of narrow strip",
+  "level": "class",
+  "parent": "24.3"
+ },
+ {
+  "code": "24.33",
+  "name": "Cold forming or folding",
+  "level": "class",
+  "parent": "24.3"
+ },
+ {
+  "code": "24.34",
+  "name": "Cold drawing of wire",
+  "level": "class",
+  "parent": "24.3"
+ },
+ {
+  "code": "24.4",
+  "name": "Manufacture of basic precious and other non-ferrous metals",
+  "level": "group",
+  "parent": "24"
+ },
+ {
+  "code": "24.41",
+  "name": "Precious metals production",
+  "level": "class",
+  "parent": "24.4"
+ },
+ {
+  "code": "24.42",
+  "name": "Aluminium production",
+  "level": "class",
+  "parent": "24.4"
+ },
+ {
+  "code": "24.43",
+  "name": "Lead, zinc and tin production",
+  "level": "class",
+  "parent": "24.4"
+ },
+ {
+  "code": "24.44",
+  "name": "Copper production",
+  "level": "class",
+  "parent": "24.4"
+ },
+ {
+  "code": "24.45",
+  "name": "Other non-ferrous metal production",
+  "level": "class",
+  "parent": "24.4"
+ },
+ {
+  "code": "24.46",
+  "name": "Processing of nuclear fuel",
+  "level": "class",
+  "parent": "24.4"
+ },
+ {
+  "code": "24.5",
+  "name": "Casting of metals",
+  "level": "group",
+  "parent": "24"
+ },
+ {
+  "code": "24.51",
+  "name": "Casting of iron",
+  "level": "class",
+  "parent": "24.5"
+ },
+ {
+  "code": "24.52",
+  "name": "Casting of steel",
+  "level": "class",
+  "parent": "24.5"
+ },
+ {
+  "code": "24.53",
+  "name": "Casting of light metals",
+  "level": "class",
+  "parent": "24.5"
+ },
+ {
+  "code": "24.54",
+  "name": "Casting of other non-ferrous metals",
+  "level": "class",
+  "parent": "24.5"
+ },
+ {
+  "code": "25.1",
+  "name": "Manufacture of structural metal products",
+  "level": "group",
+  "parent": "25"
+ },
+ {
+  "code": "25.11",
+  "name": "Manufacture of metal structures and parts of structures",
+  "level": "class",
+  "parent": "25.1"
+ },
+ {
+  "code": "25.12",
+  "name": "Manufacture of doors and windows of metal",
+  "level": "class",
+  "parent": "25.1"
+ },
+ {
+  "code": "25.2",
+  "name": "Manufacture of tanks, reservoirs and containers of metal",
+  "level": "group",
+  "parent": "25"
+ },
+ {
+  "code": "25.21",
+  "name": "Manufacture of central heating radiators, steam generators and boilers",
+  "level": "class",
+  "parent": "25.2"
+ },
+ {
+  "code": "25.22",
+  "name": "Manufacture of other tanks, reservoirs and containers of metal",
+  "level": "class",
+  "parent": "25.2"
+ },
+ {
+  "code": "25.3",
+  "name": "Manufacture of weapons and ammunition",
+  "level": "group",
+  "parent": "25"
+ },
+ {
+  "code": "25.30",
+  "name": "Manufacture of weapons and ammunition",
+  "level": "class",
+  "parent": "25.3"
+ },
+ {
+  "code": "25.4",
+  "name": "Forging and shaping metal and powder metallurgy",
+  "level": "group",
+  "parent": "25"
+ },
+ {
+  "code": "25.40",
+  "name": "Forging and shaping metal and powder metallurgy",
+  "level": "class",
+  "parent": "25.4"
+ },
+ {
+  "code": "25.5",
+  "name": "Treatment and coating of metals; machining",
+  "level": "group",
+  "parent": "25"
+ },
+ {
+  "code": "25.51",
+  "name": "Coating of metals",
+  "level": "class",
+  "parent": "25.5"
+ },
+ {
+  "code": "25.52",
+  "name": "Heat treatment of metals",
+  "level": "class",
+  "parent": "25.5"
+ },
+ {
+  "code": "25.53",
+  "name": "Machining of metals",
+  "level": "class",
+  "parent": "25.5"
+ },
+ {
+  "code": "25.6",
+  "name": "Manufacture of cutlery, tools and general hardware",
+  "level": "group",
+  "parent": "25"
+ },
+ {
+  "code": "25.61",
+  "name": "Manufacture of cutlery",
+  "level": "class",
+  "parent": "25.6"
+ },
+ {
+  "code": "25.62",
+  "name": "Manufacture of locks and hinges",
+  "level": "class",
+  "parent": "25.6"
+ },
+ {
+  "code": "25.63",
+  "name": "Manufacture of tools",
+  "level": "class",
+  "parent": "25.6"
+ },
+ {
+  "code": "25.9",
+  "name": "Manufacture of other fabricated metal products",
+  "level": "group",
+  "parent": "25"
+ },
+ {
+  "code": "25.91",
+  "name": "Manufacture of steel drums and similar containers",
+  "level": "class",
+  "parent": "25.9"
+ },
+ {
+  "code": "25.92",
+  "name": "Manufacture of light metal packaging",
+  "level": "class",
+  "parent": "25.9"
+ },
+ {
+  "code": "25.93",
+  "name": "Manufacture of wire products, chain and springs",
+  "level": "class",
+  "parent": "25.9"
+ },
+ {
+  "code": "25.94",
+  "name": "Manufacture of fasteners and screw machine products",
+  "level": "class",
+  "parent": "25.9"
+ },
+ {
+  "code": "25.99",
+  "name": "Manufacture of other fabricated metal products n.e.c.",
+  "level": "class",
+  "parent": "25.9"
+ },
+ {
+  "code": "26.1",
+  "name": "Manufacture of electronic components and boards",
+  "level": "group",
+  "parent": "26"
+ },
+ {
+  "code": "26.11",
+  "name": "Manufacture of electronic components",
+  "level": "class",
+  "parent": "26.1"
+ },
+ {
+  "code": "26.12",
+  "name": "Manufacture of loaded electronic boards",
+  "level": "class",
+  "parent": "26.1"
+ },
+ {
+  "code": "26.2",
+  "name": "Manufacture of computers and peripheral equipment",
+  "level": "group",
+  "parent": "26"
+ },
+ {
+  "code": "26.20",
+  "name": "Manufacture of computers and peripheral equipment",
+  "level": "class",
+  "parent": "26.2"
+ },
+ {
+  "code": "26.3",
+  "name": "Manufacture of communication equipment",
+  "level": "group",
+  "parent": "26"
+ },
+ {
+  "code": "26.30",
+  "name": "Manufacture of communication equipment",
+  "level": "class",
+  "parent": "26.3"
+ },
+ {
+  "code": "26.4",
+  "name": "Manufacture of consumer electronics",
+  "level": "group",
+  "parent": "26"
+ },
+ {
+  "code": "26.40",
+  "name": "Manufacture of consumer electronics",
+  "level": "class",
+  "parent": "26.4"
+ },
+ {
+  "code": "26.5",
+  "name": "Manufacture of measuring testing instruments, clocks and watches",
+  "level": "group",
+  "parent": "26"
+ },
+ {
+  "code": "26.51",
+  "name": "Manufacture of instruments and appliances for measuring, testing and navigation",
+  "level": "class",
+  "parent": "26.5"
+ },
+ {
+  "code": "26.52",
+  "name": "Manufacture of watches and clocks",
+  "level": "class",
+  "parent": "26.5"
+ },
+ {
+  "code": "26.6",
+  "name": "Manufacture of irradiation, electromedical and electrotherapeutic equipment",
+  "level": "group",
+  "parent": "26"
+ },
+ {
+  "code": "26.60",
+  "name": "Manufacture of irradiation, electromedical and electrotherapeutic equipment",
+  "level": "class",
+  "parent": "26.6"
+ },
+ {
+  "code": "26.7",
+  "name": "Manufacture of optical instruments, magnetic and optical media and photographic equipment",
+  "level": "group",
+  "parent": "26"
+ },
+ {
+  "code": "26.70",
+  "name": "Manufacture of optical instruments, magnetic and optical media and photographic equipment",
+  "level": "class",
+  "parent": "26.7"
+ },
+ {
+  "code": "27.1",
+  "name": "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+  "level": "group",
+  "parent": "27"
+ },
+ {
+  "code": "27.11",
+  "name": "Manufacture of electric motors, generators and transformers",
+  "level": "class",
+  "parent": "27.1"
+ },
+ {
+  "code": "27.12",
+  "name": "Manufacture of electricity distribution and control apparatus",
+  "level": "class",
+  "parent": "27.1"
+ },
+ {
+  "code": "27.2",
+  "name": "Manufacture of batteries and accumulators",
+  "level": "group",
+  "parent": "27"
+ },
+ {
+  "code": "27.20",
+  "name": "Manufacture of batteries and accumulators",
+  "level": "class",
+  "parent": "27.2"
+ },
+ {
+  "code": "27.3",
+  "name": "Manufacture of wiring and wiring devices",
+  "level": "group",
+  "parent": "27"
+ },
+ {
+  "code": "27.31",
+  "name": "Manufacture of fibre optic cables",
+  "level": "class",
+  "parent": "27.3"
+ },
+ {
+  "code": "27.32",
+  "name": "Manufacture of other electronic and electric wires and cables",
+  "level": "class",
+  "parent": "27.3"
+ },
+ {
+  "code": "27.33",
+  "name": "Manufacture of wiring devices",
+  "level": "class",
+  "parent": "27.3"
+ },
+ {
+  "code": "27.4",
+  "name": "Manufacture of lighting equipment",
+  "level": "group",
+  "parent": "27"
+ },
+ {
+  "code": "27.40",
+  "name": "Manufacture of lighting equipment",
+  "level": "class",
+  "parent": "27.4"
+ },
+ {
+  "code": "27.5",
+  "name": "Manufacture of domestic appliances",
+  "level": "group",
+  "parent": "27"
+ },
+ {
+  "code": "27.51",
+  "name": "Manufacture of electric domestic appliances",
+  "level": "class",
+  "parent": "27.5"
+ },
+ {
+  "code": "27.52",
+  "name": "Manufacture of non-electric domestic appliances",
+  "level": "class",
+  "parent": "27.5"
+ },
+ {
+  "code": "27.9",
+  "name": "Manufacture of other electrical equipment",
+  "level": "group",
+  "parent": "27"
+ },
+ {
+  "code": "27.90",
+  "name": "Manufacture of other electrical equipment",
+  "level": "class",
+  "parent": "27.9"
+ },
+ {
+  "code": "28.1",
+  "name": "Manufacture of general-purpose machinery",
+  "level": "group",
+  "parent": "28"
+ },
+ {
+  "code": "28.11",
+  "name": "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",
+  "level": "class",
+  "parent": "28.1"
+ },
+ {
+  "code": "28.12",
+  "name": "Manufacture of fluid power equipment",
+  "level": "class",
+  "parent": "28.1"
+ },
+ {
+  "code": "28.13",
+  "name": "Manufacture of other pumps and compressors",
+  "level": "class",
+  "parent": "28.1"
+ },
+ {
+  "code": "28.14",
+  "name": "Manufacture of other taps and valves",
+  "level": "class",
+  "parent": "28.1"
+ },
+ {
+  "code": "28.15",
+  "name": "Manufacture of bearings, gears, gearing and driving elements",
+  "level": "class",
+  "parent": "28.1"
+ },
+ {
+  "code": "28.2",
+  "name": "Manufacture of other general-purpose machinery",
+  "level": "group",
+  "parent": "28"
+ },
+ {
+  "code": "28.21",
+  "name": "Manufacture of ovens, furnaces and permanent household heating equipment",
+  "level": "class",
+  "parent": "28.2"
+ },
+ {
+  "code": "28.22",
+  "name": "Manufacture of lifting and handling equipment",
+  "level": "class",
+  "parent": "28.2"
+ },
+ {
+  "code": "28.23",
+  "name": "Manufacture of office machinery and equipment, except computers and peripheral equipment",
+  "level": "class",
+  "parent": "28.2"
+ },
+ {
+  "code": "28.24",
+  "name": "Manufacture of power-driven hand tools",
+  "level": "class",
+  "parent": "28.2"
+ },
+ {
+  "code": "28.25",
+  "name": "Manufacture of non-domestic air conditioning equipment",
+  "level": "class",
+  "parent": "28.2"
+ },
+ {
+  "code": "28.29",
+  "name": "Manufacture of other general-purpose machinery n.e.c.",
+  "level": "class",
+  "parent": "28.2"
+ },
+ {
+  "code": "28.3",
+  "name": "Manufacture of agricultural and forestry machinery",
+  "level": "group",
+  "parent": "28"
+ },
+ {
+  "code": "28.30",
+  "name": "Manufacture of agricultural and forestry machinery",
+  "level": "class",
+  "parent": "28.3"
+ },
+ {
+  "code": "28.4",
+  "name": "Manufacture of metal forming machinery and machine tools",
+  "level": "group",
+  "parent": "28"
+ },
+ {
+  "code": "28.41",
+  "name": "Manufacture of metal forming machinery and machine tools for metal work",
+  "level": "class",
+  "parent": "28.4"
+ },
+ {
+  "code": "28.42",
+  "name": "Manufacture of other machine tools",
+  "level": "class",
+  "parent": "28.4"
+ },
+ {
+  "code": "28.9",
+  "name": "Manufacture of other special-purpose machinery",
+  "level": "group",
+  "parent": "28"
+ },
+ {
+  "code": "28.91",
+  "name": "Manufacture of machinery for metallurgy",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "28.92",
+  "name": "Manufacture of machinery for mining, quarrying and construction",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "28.93",
+  "name": "Manufacture of machinery for food, beverage and tobacco processing",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "28.94",
+  "name": "Manufacture of machinery for textile, apparel and leather production",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "28.95",
+  "name": "Manufacture of machinery for paper and paperboard production",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "28.96",
+  "name": "Manufacture of plastics and rubber machinery",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "28.97",
+  "name": "Manufacture of additive manufacturing machinery",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "28.99",
+  "name": "Manufacture of other special-purpose machinery n.e.c.",
+  "level": "class",
+  "parent": "28.9"
+ },
+ {
+  "code": "29.1",
+  "name": "Manufacture of motor vehicles",
+  "level": "group",
+  "parent": "29"
+ },
+ {
+  "code": "29.10",
+  "name": "Manufacture of motor vehicles",
+  "level": "class",
+  "parent": "29.1"
+ },
+ {
+  "code": "29.2",
+  "name": "Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers",
+  "level": "group",
+  "parent": "29"
+ },
+ {
+  "code": "29.20",
+  "name": "Manufacture of bodies and coachwork for motor vehicles; manufacture of trailers and semi-trailers",
+  "level": "class",
+  "parent": "29.2"
+ },
+ {
+  "code": "29.3",
+  "name": "Manufacture of motor vehicle parts and accessories",
+  "level": "group",
+  "parent": "29"
+ },
+ {
+  "code": "29.31",
+  "name": "Manufacture of electrical and electronic equipment for motor vehicles",
+  "level": "class",
+  "parent": "29.3"
+ },
+ {
+  "code": "29.32",
+  "name": "Manufacture of other parts and accessories for motor vehicles",
+  "level": "class",
+  "parent": "29.3"
+ },
+ {
+  "code": "30.1",
+  "name": "Building of ships and boats",
+  "level": "group",
+  "parent": "30"
+ },
+ {
+  "code": "30.11",
+  "name": "Building of civilian ships and floating structures",
+  "level": "class",
+  "parent": "30.1"
+ },
+ {
+  "code": "30.12",
+  "name": "Building of pleasure and sporting boats",
+  "level": "class",
+  "parent": "30.1"
+ },
+ {
+  "code": "30.13",
+  "name": "Building of military ships and vessels",
+  "level": "class",
+  "parent": "30.1"
+ },
+ {
+  "code": "30.2",
+  "name": "Manufacture of railway locomotives and rolling stock",
+  "level": "group",
+  "parent": "30"
+ },
+ {
+  "code": "30.20",
+  "name": "Manufacture of railway locomotives and rolling stock",
+  "level": "class",
+  "parent": "30.2"
+ },
+ {
+  "code": "30.3",
+  "name": "Manufacture of air and spacecraft and related machinery",
+  "level": "group",
+  "parent": "30"
+ },
+ {
+  "code": "30.31",
+  "name": "Manufacture of civilian air and spacecraft and related machinery",
+  "level": "class",
+  "parent": "30.3"
+ },
+ {
+  "code": "30.32",
+  "name": "Manufacture of military air and spacecraft and related machinery",
+  "level": "class",
+  "parent": "30.3"
+ },
+ {
+  "code": "30.4",
+  "name": "Manufacture of military fighting vehicles",
+  "level": "group",
+  "parent": "30"
+ },
+ {
+  "code": "30.40",
+  "name": "Manufacture of military fighting vehicles",
+  "level": "class",
+  "parent": "30.4"
+ },
+ {
+  "code": "30.9",
+  "name": "Manufacture of transport equipment n.e.c.",
+  "level": "group",
+  "parent": "30"
+ },
+ {
+  "code": "30.91",
+  "name": "Manufacture of motorcycles",
+  "level": "class",
+  "parent": "30.9"
+ },
+ {
+  "code": "30.92",
+  "name": "Manufacture of bicycles and invalid carriages",
+  "level": "class",
+  "parent": "30.9"
+ },
+ {
+  "code": "30.99",
+  "name": "Manufacture of other transport equipment n.e.c.",
+  "level": "class",
+  "parent": "30.9"
+ },
+ {
+  "code": "31.0",
+  "name": "Manufacture of furniture",
+  "level": "group",
+  "parent": "31"
+ },
+ {
+  "code": "31.00",
+  "name": "Manufacture of furniture",
+  "level": "class",
+  "parent": "31.0"
+ },
+ {
+  "code": "32.1",
+  "name": "Manufacture of jewellery, bijouterie and related articles",
+  "level": "group",
+  "parent": "32"
+ },
+ {
+  "code": "32.11",
+  "name": "Striking of coins",
+  "level": "class",
+  "parent": "32.1"
+ },
+ {
+  "code": "32.12",
+  "name": "Manufacture of jewellery and related articles",
+  "level": "class",
+  "parent": "32.1"
+ },
+ {
+  "code": "32.13",
+  "name": "Manufacture of imitation jewellery and related articles",
+  "level": "class",
+  "parent": "32.1"
+ },
+ {
+  "code": "32.2",
+  "name": "Manufacture of musical instruments",
+  "level": "group",
+  "parent": "32"
+ },
+ {
+  "code": "32.20",
+  "name": "Manufacture of musical instruments",
+  "level": "class",
+  "parent": "32.2"
+ },
+ {
+  "code": "32.3",
+  "name": "Manufacture of sports goods",
+  "level": "group",
+  "parent": "32"
+ },
+ {
+  "code": "32.30",
+  "name": "Manufacture of sports goods",
+  "level": "class",
+  "parent": "32.3"
+ },
+ {
+  "code": "32.4",
+  "name": "Manufacture of games and toys",
+  "level": "group",
+  "parent": "32"
+ },
+ {
+  "code": "32.40",
+  "name": "Manufacture of games and toys",
+  "level": "class",
+  "parent": "32.4"
+ },
+ {
+  "code": "32.5",
+  "name": "Manufacture of medical and dental instruments and supplies",
+  "level": "group",
+  "parent": "32"
+ },
+ {
+  "code": "32.50",
+  "name": "Manufacture of medical and dental instruments and supplies",
+  "level": "class",
+  "parent": "32.5"
+ },
+ {
+  "code": "32.9",
+  "name": "Manufacturing n.e.c.",
+  "level": "group",
+  "parent": "32"
+ },
+ {
+  "code": "32.91",
+  "name": "Manufacture of brooms and brushes",
+  "level": "class",
+  "parent": "32.9"
+ },
+ {
+  "code": "32.99",
+  "name": "Other manufacturing n.e.c.",
+  "level": "class",
+  "parent": "32.9"
+ },
+ {
+  "code": "33.1",
+  "name": "Repair and maintenance of fabricated metal products, machinery and equipment",
+  "level": "group",
+  "parent": "33"
+ },
+ {
+  "code": "33.11",
+  "name": "Repair and maintenance of fabricated metal products",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.12",
+  "name": "Repair and maintenance of machinery",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.13",
+  "name": "Repair and maintenance of electronic and optical equipment",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.14",
+  "name": "Repair and maintenance of electrical equipment",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.15",
+  "name": "Repair and maintenance of civilian ships and boats",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.16",
+  "name": "Repair and maintenance of civilian air and spacecraft",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.17",
+  "name": "Repair and maintenance of other civilian transport equipment",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.18",
+  "name": "Repair and maintenance of military fighting vehicles, ships, boats, air and spacecraft",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.19",
+  "name": "Repair and maintenance of other equipment",
+  "level": "class",
+  "parent": "33.1"
+ },
+ {
+  "code": "33.2",
+  "name": "Installation of industrial machinery and equipment",
+  "level": "group",
+  "parent": "33"
+ },
+ {
+  "code": "33.20",
+  "name": "Installation of industrial machinery and equipment",
+  "level": "class",
+  "parent": "33.2"
+ },
+ {
+  "code": "35.1",
+  "name": "Electric power generation, transmission and distribution",
+  "level": "group",
+  "parent": "35"
+ },
+ {
+  "code": "35.11",
+  "name": "Production of electricity from non-renewable sources",
+  "level": "class",
+  "parent": "35.1"
+ },
+ {
+  "code": "35.12",
+  "name": "Production of electricity from renewable sources",
+  "level": "class",
+  "parent": "35.1"
+ },
+ {
+  "code": "35.13",
+  "name": "Transmission of electricity",
+  "level": "class",
+  "parent": "35.1"
+ },
+ {
+  "code": "35.14",
+  "name": "Distribution of electricity",
+  "level": "class",
+  "parent": "35.1"
+ },
+ {
+  "code": "35.15",
+  "name": "Trade of electricity",
+  "level": "class",
+  "parent": "35.1"
+ },
+ {
+  "code": "35.16",
+  "name": "Storage of electricity",
+  "level": "class",
+  "parent": "35.1"
+ },
+ {
+  "code": "35.2",
+  "name": "Manufacture of gas, and distribution of gaseous fuels through mains",
+  "level": "group",
+  "parent": "35"
+ },
+ {
+  "code": "35.21",
+  "name": "Manufacture of gas",
+  "level": "class",
+  "parent": "35.2"
+ },
+ {
+  "code": "35.22",
+  "name": "Distribution of gaseous fuels through mains",
+  "level": "class",
+  "parent": "35.2"
+ },
+ {
+  "code": "35.23",
+  "name": "Trade of gas through mains",
+  "level": "class",
+  "parent": "35.2"
+ },
+ {
+  "code": "35.24",
+  "name": "Storage of gas as part of network supply services",
+  "level": "class",
+  "parent": "35.2"
+ },
+ {
+  "code": "35.3",
+  "name": "Steam and air conditioning supply",
+  "level": "group",
+  "parent": "35"
+ },
+ {
+  "code": "35.30",
+  "name": "Steam and air conditioning supply",
+  "level": "class",
+  "parent": "35.3"
+ },
+ {
+  "code": "35.4",
+  "name": "Activities of brokers and agents for electric power and natural gas",
+  "level": "group",
+  "parent": "35"
+ },
+ {
+  "code": "35.40",
+  "name": "Activities of brokers and agents for electric power and natural gas",
+  "level": "class",
+  "parent": "35.4"
+ },
+ {
+  "code": "36.0",
+  "name": "Water collection, treatment and supply",
+  "level": "group",
+  "parent": "36"
+ },
+ {
+  "code": "36.00",
+  "name": "Water collection, treatment and supply",
+  "level": "class",
+  "parent": "36.0"
+ },
+ {
+  "code": "37.0",
+  "name": "Sewerage",
+  "level": "group",
+  "parent": "37"
+ },
+ {
+  "code": "37.00",
+  "name": "Sewerage",
+  "level": "class",
+  "parent": "37.0"
+ },
+ {
+  "code": "38.1",
+  "name": "Waste collection",
+  "level": "group",
+  "parent": "38"
+ },
+ {
+  "code": "38.11",
+  "name": "Collection of non-hazardous waste",
+  "level": "class",
+  "parent": "38.1"
+ },
+ {
+  "code": "38.12",
+  "name": "Collection of hazardous waste",
+  "level": "class",
+  "parent": "38.1"
+ },
+ {
+  "code": "38.2",
+  "name": "Waste recovery",
+  "level": "group",
+  "parent": "38"
+ },
+ {
+  "code": "38.21",
+  "name": "Materials recovery",
+  "level": "class",
+  "parent": "38.2"
+ },
+ {
+  "code": "38.22",
+  "name": "Energy recovery",
+  "level": "class",
+  "parent": "38.2"
+ },
+ {
+  "code": "38.23",
+  "name": "Other waste recovery",
+  "level": "class",
+  "parent": "38.2"
+ },
+ {
+  "code": "38.3",
+  "name": "Waste disposal without recovery",
+  "level": "group",
+  "parent": "38"
+ },
+ {
+  "code": "38.31",
+  "name": "Incineration without energy recovery",
+  "level": "class",
+  "parent": "38.3"
+ },
+ {
+  "code": "38.32",
+  "name": "Landfilling or permanent storage",
+  "level": "class",
+  "parent": "38.3"
+ },
+ {
+  "code": "38.33",
+  "name": "Other waste disposal",
+  "level": "class",
+  "parent": "38.3"
+ },
+ {
+  "code": "39.0",
+  "name": "Remediation activities and other waste management service activities",
+  "level": "group",
+  "parent": "39"
+ },
+ {
+  "code": "39.00",
+  "name": "Remediation activities and other waste management service activities",
+  "level": "class",
+  "parent": "39.0"
+ },
+ {
+  "code": "41.0",
+  "name": "Construction of residential and non-residential buildings",
+  "level": "group",
+  "parent": "41"
+ },
+ {
+  "code": "41.00",
+  "name": "Construction of residential and non-residential buildings",
+  "level": "class",
+  "parent": "41.0"
+ },
+ {
+  "code": "42.1",
+  "name": "Construction of roads and railways",
+  "level": "group",
+  "parent": "42"
+ },
+ {
+  "code": "42.11",
+  "name": "Construction of roads and motorways",
+  "level": "class",
+  "parent": "42.1"
+ },
+ {
+  "code": "42.12",
+  "name": "Construction of railways and underground railways",
+  "level": "class",
+  "parent": "42.1"
+ },
+ {
+  "code": "42.13",
+  "name": "Construction of bridges and tunnels",
+  "level": "class",
+  "parent": "42.1"
+ },
+ {
+  "code": "42.2",
+  "name": "Construction of utility projects",
+  "level": "group",
+  "parent": "42"
+ },
+ {
+  "code": "42.21",
+  "name": "Construction of utility projects for fluids",
+  "level": "class",
+  "parent": "42.2"
+ },
+ {
+  "code": "42.22",
+  "name": "Construction of utility projects for electricity and telecommunications",
+  "level": "class",
+  "parent": "42.2"
+ },
+ {
+  "code": "42.9",
+  "name": "Construction of other civil engineering projects",
+  "level": "group",
+  "parent": "42"
+ },
+ {
+  "code": "42.91",
+  "name": "Construction of water projects",
+  "level": "class",
+  "parent": "42.9"
+ },
+ {
+  "code": "42.99",
+  "name": "Construction of other civil engineering projects n.e.c.",
+  "level": "class",
+  "parent": "42.9"
+ },
+ {
+  "code": "43.1",
+  "name": "Demolition and site preparation",
+  "level": "group",
+  "parent": "43"
+ },
+ {
+  "code": "43.11",
+  "name": "Demolition",
+  "level": "class",
+  "parent": "43.1"
+ },
+ {
+  "code": "43.12",
+  "name": "Site preparation",
+  "level": "class",
+  "parent": "43.1"
+ },
+ {
+  "code": "43.13",
+  "name": "Test drilling and boring",
+  "level": "class",
+  "parent": "43.1"
+ },
+ {
+  "code": "43.2",
+  "name": "Electrical, plumbing and other construction installation activities",
+  "level": "group",
+  "parent": "43"
+ },
+ {
+  "code": "43.21",
+  "name": "Electrical installation",
+  "level": "class",
+  "parent": "43.2"
+ },
+ {
+  "code": "43.22",
+  "name": "Plumbing, heat and air-conditioning installation",
+  "level": "class",
+  "parent": "43.2"
+ },
+ {
+  "code": "43.23",
+  "name": "Installation of insulation",
+  "level": "class",
+  "parent": "43.2"
+ },
+ {
+  "code": "43.24",
+  "name": "Other construction installation",
+  "level": "class",
+  "parent": "43.2"
+ },
+ {
+  "code": "43.3",
+  "name": "Building completion and finishing",
+  "level": "group",
+  "parent": "43"
+ },
+ {
+  "code": "43.31",
+  "name": "Plastering",
+  "level": "class",
+  "parent": "43.3"
+ },
+ {
+  "code": "43.32",
+  "name": "Joinery installation",
+  "level": "class",
+  "parent": "43.3"
+ },
+ {
+  "code": "43.33",
+  "name": "Floor and wall covering",
+  "level": "class",
+  "parent": "43.3"
+ },
+ {
+  "code": "43.34",
+  "name": "Painting and glazing",
+  "level": "class",
+  "parent": "43.3"
+ },
+ {
+  "code": "43.35",
+  "name": "Other building completion and finishing",
+  "level": "class",
+  "parent": "43.3"
+ },
+ {
+  "code": "43.4",
+  "name": "Specialised construction activities in construction of buildings",
+  "level": "group",
+  "parent": "43"
+ },
+ {
+  "code": "43.41",
+  "name": "Roofing activities",
+  "level": "class",
+  "parent": "43.4"
+ },
+ {
+  "code": "43.42",
+  "name": "Other specialised construction activities in construction of buildings",
+  "level": "class",
+  "parent": "43.4"
+ },
+ {
+  "code": "43.5",
+  "name": "Specialised construction activities in civil engineering",
+  "level": "group",
+  "parent": "43"
+ },
+ {
+  "code": "43.50",
+  "name": "Specialised construction activities in civil engineering",
+  "level": "class",
+  "parent": "43.5"
+ },
+ {
+  "code": "43.6",
+  "name": "Intermediation service activities for specialised construction services",
+  "level": "group",
+  "parent": "43"
+ },
+ {
+  "code": "43.60",
+  "name": "Intermediation service activities for specialised construction services",
+  "level": "class",
+  "parent": "43.6"
+ },
+ {
+  "code": "43.9",
+  "name": "Other specialised construction activities",
+  "level": "group",
+  "parent": "43"
+ },
+ {
+  "code": "43.91",
+  "name": "Masonry and bricklaying activities",
+  "level": "class",
+  "parent": "43.9"
+ },
+ {
+  "code": "43.99",
+  "name": "Other specialised construction activities n.e.c.",
+  "level": "class",
+  "parent": "43.9"
+ },
+ {
+  "code": "46.1",
+  "name": "Wholesale on a fee or contract basis",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.11",
+  "name": "Activities of agents involved in the wholesale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.12",
+  "name": "Activities of agents involved in the wholesale of fuels, ores, metals and industrial chemicals",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.13",
+  "name": "Activities of agents involved in the wholesale of timber and building materials",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.14",
+  "name": "Activities of agents involved in the wholesale of machinery, industrial equipment, ships and aircraft",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.15",
+  "name": "Activities of agents involved in the wholesale of furniture, household goods, hardware and ironmongery",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.16",
+  "name": "Activities of agents involved in the wholesale of textiles, clothing, fur, footwear and leather goods",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.17",
+  "name": "Activities of agents involved in the wholesale of food, beverages and tobacco",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.18",
+  "name": "Activities of agents involved in the wholesale of other particular products",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.19",
+  "name": "Activities of agents involved in non-specialised wholesale",
+  "level": "class",
+  "parent": "46.1"
+ },
+ {
+  "code": "46.2",
+  "name": "Wholesale of agricultural raw materials and live animals",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.21",
+  "name": "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds",
+  "level": "class",
+  "parent": "46.2"
+ },
+ {
+  "code": "46.22",
+  "name": "Wholesale of flowers and plants",
+  "level": "class",
+  "parent": "46.2"
+ },
+ {
+  "code": "46.23",
+  "name": "Wholesale of live animals",
+  "level": "class",
+  "parent": "46.2"
+ },
+ {
+  "code": "46.24",
+  "name": "Wholesale of hides, skins and leather",
+  "level": "class",
+  "parent": "46.2"
+ },
+ {
+  "code": "46.3",
+  "name": "Wholesale of food, beverages and tobacco",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.31",
+  "name": "Wholesale of fruit and vegetables",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.32",
+  "name": "Wholesale of meat, meat products, fish and fish products",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.33",
+  "name": "Wholesale of dairy products, eggs and edible oils and fats",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.34",
+  "name": "Wholesale of beverages",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.35",
+  "name": "Wholesale of tobacco products",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.36",
+  "name": "Wholesale of sugar, chocolate and sugar confectionery",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.37",
+  "name": "Wholesale of coffee, tea, cocoa and spices",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.38",
+  "name": "Wholesale of other food",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.39",
+  "name": "Non-specialised wholesale of food, beverages and tobacco",
+  "level": "class",
+  "parent": "46.3"
+ },
+ {
+  "code": "46.4",
+  "name": "Wholesale of household goods",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.41",
+  "name": "Wholesale of textiles",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.42",
+  "name": "Wholesale of clothing and footwear",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.43",
+  "name": "Wholesale of electrical household appliances",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.44",
+  "name": "Wholesale of china and glassware and cleaning materials",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.45",
+  "name": "Wholesale of perfume and cosmetics",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.46",
+  "name": "Wholesale of pharmaceutical and medical goods",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.47",
+  "name": "Wholesale of household, office and shop furniture, carpets and lighting equipment",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.48",
+  "name": "Wholesale of watches and jewellery",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.49",
+  "name": "Wholesale of other household goods",
+  "level": "class",
+  "parent": "46.4"
+ },
+ {
+  "code": "46.5",
+  "name": "Wholesale of information and communication equipment",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.50",
+  "name": "Wholesale of information and communication equipment",
+  "level": "class",
+  "parent": "46.5"
+ },
+ {
+  "code": "46.6",
+  "name": "Wholesale of other machinery, equipment and supplies",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.61",
+  "name": "Wholesale of agricultural machinery, equipment and supplies",
+  "level": "class",
+  "parent": "46.6"
+ },
+ {
+  "code": "46.62",
+  "name": "Wholesale of machine tools",
+  "level": "class",
+  "parent": "46.6"
+ },
+ {
+  "code": "46.63",
+  "name": "Wholesale of mining, construction and civil engineering machinery",
+  "level": "class",
+  "parent": "46.6"
+ },
+ {
+  "code": "46.64",
+  "name": "Wholesale of other machinery and equipment",
+  "level": "class",
+  "parent": "46.6"
+ },
+ {
+  "code": "46.7",
+  "name": "Wholesale of motor vehicles, motorcycles and related parts and accessories",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.71",
+  "name": "Wholesale of motor vehicles",
+  "level": "class",
+  "parent": "46.7"
+ },
+ {
+  "code": "46.72",
+  "name": "Wholesale of motor vehicle parts and accessories",
+  "level": "class",
+  "parent": "46.7"
+ },
+ {
+  "code": "46.73",
+  "name": "Wholesale of motorcycles, motorcycle parts and accessories",
+  "level": "class",
+  "parent": "46.7"
+ },
+ {
+  "code": "46.8",
+  "name": "Other specialised wholesale",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.81",
+  "name": "Wholesale of solid, liquid and gaseous fuels and related products",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.82",
+  "name": "Wholesale of metals and metal ores",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.83",
+  "name": "Wholesale of wood, construction materials and sanitary equipment",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.84",
+  "name": "Wholesale of hardware, plumbing and heating equipment and supplies",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.85",
+  "name": "Wholesale of chemical products",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.86",
+  "name": "Wholesale of other intermediate products",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.87",
+  "name": "Wholesale of waste and scrap",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.89",
+  "name": "Other specialised wholesale n.e.c.",
+  "level": "class",
+  "parent": "46.8"
+ },
+ {
+  "code": "46.9",
+  "name": "Non-specialised wholesale trade",
+  "level": "group",
+  "parent": "46"
+ },
+ {
+  "code": "46.90",
+  "name": "Non-specialised wholesale trade",
+  "level": "class",
+  "parent": "46.9"
+ },
+ {
+  "code": "47.1",
+  "name": "Non-specialised retail sale",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.11",
+  "name": "Non-specialised retail sale of predominately food, beverages or tobacco",
+  "level": "class",
+  "parent": "47.1"
+ },
+ {
+  "code": "47.12",
+  "name": "Other non-specialised retail sale",
+  "level": "class",
+  "parent": "47.1"
+ },
+ {
+  "code": "47.2",
+  "name": "Retail sale of food, beverages and tobacco",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.21",
+  "name": "Retail sale of fruit and vegetables",
+  "level": "class",
+  "parent": "47.2"
+ },
+ {
+  "code": "47.22",
+  "name": "Retail sale of meat and meat products",
+  "level": "class",
+  "parent": "47.2"
+ },
+ {
+  "code": "47.23",
+  "name": "Retail sale of fish, crustaceans and molluscs",
+  "level": "class",
+  "parent": "47.2"
+ },
+ {
+  "code": "47.24",
+  "name": "Retail sale of bread, cake and confectionery",
+  "level": "class",
+  "parent": "47.2"
+ },
+ {
+  "code": "47.25",
+  "name": "Retail sale of beverages",
+  "level": "class",
+  "parent": "47.2"
+ },
+ {
+  "code": "47.26",
+  "name": "Retail sale of tobacco products",
+  "level": "class",
+  "parent": "47.2"
+ },
+ {
+  "code": "47.27",
+  "name": "Retail sale of other food",
+  "level": "class",
+  "parent": "47.2"
+ },
+ {
+  "code": "47.3",
+  "name": "Retail sale of automotive fuel",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.30",
+  "name": "Retail sale of automotive fuel",
+  "level": "class",
+  "parent": "47.3"
+ },
+ {
+  "code": "47.4",
+  "name": "Retail sale of information and communication equipment",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.40",
+  "name": "Retail sale of information and communication equipment",
+  "level": "class",
+  "parent": "47.4"
+ },
+ {
+  "code": "47.5",
+  "name": "Retail sale of other household equipment",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.51",
+  "name": "Retail sale of textiles",
+  "level": "class",
+  "parent": "47.5"
+ },
+ {
+  "code": "47.52",
+  "name": "Retail sale of hardware, building materials, paints and glass",
+  "level": "class",
+  "parent": "47.5"
+ },
+ {
+  "code": "47.53",
+  "name": "Retail sale of carpets, rugs, wall and floor coverings",
+  "level": "class",
+  "parent": "47.5"
+ },
+ {
+  "code": "47.54",
+  "name": "Retail sale of electrical household appliances",
+  "level": "class",
+  "parent": "47.5"
+ },
+ {
+  "code": "47.55",
+  "name": "Retail sale of furniture, lighting equipment, tableware and other household goods",
+  "level": "class",
+  "parent": "47.5"
+ },
+ {
+  "code": "47.6",
+  "name": "Retail sale of cultural and recreation goods",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.61",
+  "name": "Retail sale of books",
+  "level": "class",
+  "parent": "47.6"
+ },
+ {
+  "code": "47.62",
+  "name": "Retail sale of newspapers, and other periodical publications and stationery",
+  "level": "class",
+  "parent": "47.6"
+ },
+ {
+  "code": "47.63",
+  "name": "Retail sale of sporting equipment",
+  "level": "class",
+  "parent": "47.6"
+ },
+ {
+  "code": "47.64",
+  "name": "Retail sale of games and toys",
+  "level": "class",
+  "parent": "47.6"
+ },
+ {
+  "code": "47.69",
+  "name": "Retail sale of cultural and recreational goods n.e.c.",
+  "level": "class",
+  "parent": "47.6"
+ },
+ {
+  "code": "47.7",
+  "name": "Retail sale of other goods, except motor vehicles and motorcycles",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.71",
+  "name": "Retail sale of clothing",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.72",
+  "name": "Retail sale of footwear and leather goods",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.73",
+  "name": "Retail sale of pharmaceutical products",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.74",
+  "name": "Retail sale of medical and orthopaedic goods",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.75",
+  "name": "Retail sale of cosmetic and toilet articles",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.76",
+  "name": "Retail sale of flowers, plants, fertilisers, pets and pet food",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.77",
+  "name": "Retail sale of watches and jewellery",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.78",
+  "name": "Retail sale of other new goods",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.79",
+  "name": "Retail sale of second-hand goods",
+  "level": "class",
+  "parent": "47.7"
+ },
+ {
+  "code": "47.8",
+  "name": "Retail sale of motor vehicles, motorcycles and related parts and accessories",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.81",
+  "name": "Retail sale of motor vehicles",
+  "level": "class",
+  "parent": "47.8"
+ },
+ {
+  "code": "47.82",
+  "name": "Retail sale of motor vehicle parts and accessories",
+  "level": "class",
+  "parent": "47.8"
+ },
+ {
+  "code": "47.83",
+  "name": "Retail sale of motorcycles, motorcycle parts and accessories",
+  "level": "class",
+  "parent": "47.8"
+ },
+ {
+  "code": "47.9",
+  "name": "Intermediation service activities for retail sale",
+  "level": "group",
+  "parent": "47"
+ },
+ {
+  "code": "47.91",
+  "name": "Intermediation service activities for non-specialised retail sale",
+  "level": "class",
+  "parent": "47.9"
+ },
+ {
+  "code": "47.92",
+  "name": "Intermediation service activities for specialised retail sale",
+  "level": "class",
+  "parent": "47.9"
+ },
+ {
+  "code": "49.1",
+  "name": "Passenger rail transport",
+  "level": "group",
+  "parent": "49"
+ },
+ {
+  "code": "49.11",
+  "name": "Passenger heavy rail transport",
+  "level": "class",
+  "parent": "49.1"
+ },
+ {
+  "code": "49.12",
+  "name": "Other passenger rail transport",
+  "level": "class",
+  "parent": "49.1"
+ },
+ {
+  "code": "49.2",
+  "name": "Freight rail transport",
+  "level": "group",
+  "parent": "49"
+ },
+ {
+  "code": "49.20",
+  "name": "Freight rail transport",
+  "level": "class",
+  "parent": "49.2"
+ },
+ {
+  "code": "49.3",
+  "name": "Other passenger land transport",
+  "level": "group",
+  "parent": "49"
+ },
+ {
+  "code": "49.31",
+  "name": "Scheduled passenger transport by road",
+  "level": "class",
+  "parent": "49.3"
+ },
+ {
+  "code": "49.32",
+  "name": "Non-scheduled passenger transport by road",
+  "level": "class",
+  "parent": "49.3"
+ },
+ {
+  "code": "49.33",
+  "name": "On-demand passenger transport service activities by vehicle with driver",
+  "level": "class",
+  "parent": "49.3"
+ },
+ {
+  "code": "49.34",
+  "name": "Passenger transport by cableways and ski lifts",
+  "level": "class",
+  "parent": "49.3"
+ },
+ {
+  "code": "49.39",
+  "name": "Other passenger land transport n.e.c.",
+  "level": "class",
+  "parent": "49.3"
+ },
+ {
+  "code": "49.4",
+  "name": "Freight transport by road and removal services",
+  "level": "group",
+  "parent": "49"
+ },
+ {
+  "code": "49.41",
+  "name": "Freight transport by road",
+  "level": "class",
+  "parent": "49.4"
+ },
+ {
+  "code": "49.42",
+  "name": "Removal services",
+  "level": "class",
+  "parent": "49.4"
+ },
+ {
+  "code": "49.5",
+  "name": "Transport via pipeline",
+  "level": "group",
+  "parent": "49"
+ },
+ {
+  "code": "49.50",
+  "name": "Transport via pipeline",
+  "level": "class",
+  "parent": "49.5"
+ },
+ {
+  "code": "50.1",
+  "name": "Sea and coastal passenger water transport",
+  "level": "group",
+  "parent": "50"
+ },
+ {
+  "code": "50.10",
+  "name": "Sea and coastal passenger water transport",
+  "level": "class",
+  "parent": "50.1"
+ },
+ {
+  "code": "50.2",
+  "name": "Sea and coastal freight water transport",
+  "level": "group",
+  "parent": "50"
+ },
+ {
+  "code": "50.20",
+  "name": "Sea and coastal freight water transport",
+  "level": "class",
+  "parent": "50.2"
+ },
+ {
+  "code": "50.3",
+  "name": "Inland passenger water transport",
+  "level": "group",
+  "parent": "50"
+ },
+ {
+  "code": "50.30",
+  "name": "Inland passenger water transport",
+  "level": "class",
+  "parent": "50.3"
+ },
+ {
+  "code": "50.4",
+  "name": "Inland freight water transport",
+  "level": "group",
+  "parent": "50"
+ },
+ {
+  "code": "50.40",
+  "name": "Inland freight water transport",
+  "level": "class",
+  "parent": "50.4"
+ },
+ {
+  "code": "51.1",
+  "name": "Passenger air transport",
+  "level": "group",
+  "parent": "51"
+ },
+ {
+  "code": "51.10",
+  "name": "Passenger air transport",
+  "level": "class",
+  "parent": "51.1"
+ },
+ {
+  "code": "51.2",
+  "name": "Freight air transport and space transport",
+  "level": "group",
+  "parent": "51"
+ },
+ {
+  "code": "51.21",
+  "name": "Freight air transport",
+  "level": "class",
+  "parent": "51.2"
+ },
+ {
+  "code": "51.22",
+  "name": "Space transport",
+  "level": "class",
+  "parent": "51.2"
+ },
+ {
+  "code": "52.1",
+  "name": "Warehousing and storage",
+  "level": "group",
+  "parent": "52"
+ },
+ {
+  "code": "52.10",
+  "name": "Warehousing and storage",
+  "level": "class",
+  "parent": "52.1"
+ },
+ {
+  "code": "52.2",
+  "name": "Support activities for transportation",
+  "level": "group",
+  "parent": "52"
+ },
+ {
+  "code": "52.21",
+  "name": "Service activities incidental to land transportation",
+  "level": "class",
+  "parent": "52.2"
+ },
+ {
+  "code": "52.22",
+  "name": "Service activities incidental to water transportation",
+  "level": "class",
+  "parent": "52.2"
+ },
+ {
+  "code": "52.23",
+  "name": "Service activities incidental to air transportation",
+  "level": "class",
+  "parent": "52.2"
+ },
+ {
+  "code": "52.24",
+  "name": "Cargo handling",
+  "level": "class",
+  "parent": "52.2"
+ },
+ {
+  "code": "52.25",
+  "name": "Logistics service activities",
+  "level": "class",
+  "parent": "52.2"
+ },
+ {
+  "code": "52.26",
+  "name": "Other support activities for transportation",
+  "level": "class",
+  "parent": "52.2"
+ },
+ {
+  "code": "52.3",
+  "name": "Intermediation service activities for transportation",
+  "level": "group",
+  "parent": "52"
+ },
+ {
+  "code": "52.31",
+  "name": "Intermediation service activities for freight transportation",
+  "level": "class",
+  "parent": "52.3"
+ },
+ {
+  "code": "52.32",
+  "name": "Intermediation service activities for passenger transportation",
+  "level": "class",
+  "parent": "52.3"
+ },
+ {
+  "code": "53.1",
+  "name": "Postal activities under universal service obligation",
+  "level": "group",
+  "parent": "53"
+ },
+ {
+  "code": "53.10",
+  "name": "Postal activities under universal service obligation",
+  "level": "class",
+  "parent": "53.1"
+ },
+ {
+  "code": "53.2",
+  "name": "Other postal and courier activities",
+  "level": "group",
+  "parent": "53"
+ },
+ {
+  "code": "53.20",
+  "name": "Other postal and courier activities",
+  "level": "class",
+  "parent": "53.2"
+ },
+ {
+  "code": "53.3",
+  "name": "Intermediation service activities for postal and courier activities",
+  "level": "group",
+  "parent": "53"
+ },
+ {
+  "code": "53.30",
+  "name": "Intermediation service activities for postal and courier activities",
+  "level": "class",
+  "parent": "53.3"
+ },
+ {
+  "code": "55.1",
+  "name": "Hotels and similar accommodation",
+  "level": "group",
+  "parent": "55"
+ },
+ {
+  "code": "55.10",
+  "name": "Hotels and similar accommodation",
+  "level": "class",
+  "parent": "55.1"
+ },
+ {
+  "code": "55.2",
+  "name": "Holiday and other short-stay accommodation",
+  "level": "group",
+  "parent": "55"
+ },
+ {
+  "code": "55.20",
+  "name": "Holiday and other short-stay accommodation",
+  "level": "class",
+  "parent": "55.2"
+ },
+ {
+  "code": "55.3",
+  "name": "Camping grounds and recreational vehicle parks",
+  "level": "group",
+  "parent": "55"
+ },
+ {
+  "code": "55.30",
+  "name": "Camping grounds and recreational vehicle parks",
+  "level": "class",
+  "parent": "55.3"
+ },
+ {
+  "code": "55.4",
+  "name": "Intermediation service activities for accommodation",
+  "level": "group",
+  "parent": "55"
+ },
+ {
+  "code": "55.40",
+  "name": "Intermediation service activities for accommodation",
+  "level": "class",
+  "parent": "55.4"
+ },
+ {
+  "code": "55.9",
+  "name": "Other accommodation",
+  "level": "group",
+  "parent": "55"
+ },
+ {
+  "code": "55.90",
+  "name": "Other accommodation",
+  "level": "class",
+  "parent": "55.9"
+ },
+ {
+  "code": "56.1",
+  "name": "Restaurants and mobile food service activities",
+  "level": "group",
+  "parent": "56"
+ },
+ {
+  "code": "56.11",
+  "name": "Restaurant activities",
+  "level": "class",
+  "parent": "56.1"
+ },
+ {
+  "code": "56.12",
+  "name": "Mobile food service activities",
+  "level": "class",
+  "parent": "56.1"
+ },
+ {
+  "code": "56.2",
+  "name": "Event catering, contract catering service activities and other food service activities",
+  "level": "group",
+  "parent": "56"
+ },
+ {
+  "code": "56.21",
+  "name": "Event catering activities",
+  "level": "class",
+  "parent": "56.2"
+ },
+ {
+  "code": "56.22",
+  "name": "Contract catering service activities and other food service activities",
+  "level": "class",
+  "parent": "56.2"
+ },
+ {
+  "code": "56.3",
+  "name": "Beverage serving activities",
+  "level": "group",
+  "parent": "56"
+ },
+ {
+  "code": "56.30",
+  "name": "Beverage serving activities",
+  "level": "class",
+  "parent": "56.3"
+ },
+ {
+  "code": "56.4",
+  "name": "Intermediation service activities for food and beverage services activities",
+  "level": "group",
+  "parent": "56"
+ },
+ {
+  "code": "56.40",
+  "name": "Intermediation service activities for food and beverage services activities",
+  "level": "class",
+  "parent": "56.4"
+ },
+ {
+  "code": "58.1",
+  "name": "Publishing of books, newspapers and other publishing activities, except software publishing",
+  "level": "group",
+  "parent": "58"
+ },
+ {
+  "code": "58.11",
+  "name": "Publishing of books",
+  "level": "class",
+  "parent": "58.1"
+ },
+ {
+  "code": "58.12",
+  "name": "Publishing of newspapers",
+  "level": "class",
+  "parent": "58.1"
+ },
+ {
+  "code": "58.13",
+  "name": "Publishing of journals and periodicals",
+  "level": "class",
+  "parent": "58.1"
+ },
+ {
+  "code": "58.19",
+  "name": "Other publishing activities, except software publishing",
+  "level": "class",
+  "parent": "58.1"
+ },
+ {
+  "code": "58.2",
+  "name": "Software publishing",
+  "level": "group",
+  "parent": "58"
+ },
+ {
+  "code": "58.21",
+  "name": "Publishing of video games",
+  "level": "class",
+  "parent": "58.2"
+ },
+ {
+  "code": "58.29",
+  "name": "Other software publishing",
+  "level": "class",
+  "parent": "58.2"
+ },
+ {
+  "code": "59.1",
+  "name": "Motion picture, video and television programme activities",
+  "level": "group",
+  "parent": "59"
+ },
+ {
+  "code": "59.11",
+  "name": "Motion picture, video and television programme production activities",
+  "level": "class",
+  "parent": "59.1"
+ },
+ {
+  "code": "59.12",
+  "name": "Motion picture, video and television programme post-production activities",
+  "level": "class",
+  "parent": "59.1"
+ },
+ {
+  "code": "59.13",
+  "name": "Motion picture and video distribution activities",
+  "level": "class",
+  "parent": "59.1"
+ },
+ {
+  "code": "59.14",
+  "name": "Motion picture projection activities",
+  "level": "class",
+  "parent": "59.1"
+ },
+ {
+  "code": "59.2",
+  "name": "Sound recording and music publishing activities",
+  "level": "group",
+  "parent": "59"
+ },
+ {
+  "code": "59.20",
+  "name": "Sound recording and music publishing activities",
+  "level": "class",
+  "parent": "59.2"
+ },
+ {
+  "code": "60.1",
+  "name": "Radio broadcasting and audio distribution activities",
+  "level": "group",
+  "parent": "60"
+ },
+ {
+  "code": "60.10",
+  "name": "Radio broadcasting and audio distribution activities",
+  "level": "class",
+  "parent": "60.1"
+ },
+ {
+  "code": "60.2",
+  "name": "Television programming, broadcasting and video distribution activities",
+  "level": "group",
+  "parent": "60"
+ },
+ {
+  "code": "60.20",
+  "name": "Television programming, broadcasting and video distribution activities",
+  "level": "class",
+  "parent": "60.2"
+ },
+ {
+  "code": "60.3",
+  "name": "News agency and other content distribution activities",
+  "level": "group",
+  "parent": "60"
+ },
+ {
+  "code": "60.31",
+  "name": "News agency activities",
+  "level": "class",
+  "parent": "60.3"
+ },
+ {
+  "code": "60.39",
+  "name": "Other content distribution activities",
+  "level": "class",
+  "parent": "60.3"
+ },
+ {
+  "code": "61.1",
+  "name": "Wired, wireless, and satellite telecommunication activities",
+  "level": "group",
+  "parent": "61"
+ },
+ {
+  "code": "61.10",
+  "name": "Wired, wireless, and satellite telecommunication activities",
+  "level": "class",
+  "parent": "61.1"
+ },
+ {
+  "code": "61.2",
+  "name": "Telecommunication reselling activities and intermediation service activities for telecommunication",
+  "level": "group",
+  "parent": "61"
+ },
+ {
+  "code": "61.20",
+  "name": "Telecommunication reselling activities and intermediation service activities for telecommunication",
+  "level": "class",
+  "parent": "61.2"
+ },
+ {
+  "code": "61.9",
+  "name": "Other telecommunication activities",
+  "level": "group",
+  "parent": "61"
+ },
+ {
+  "code": "61.90",
+  "name": "Other telecommunication activities",
+  "level": "class",
+  "parent": "61.9"
+ },
+ {
+  "code": "62.1",
+  "name": "Computer programming activities",
+  "level": "group",
+  "parent": "62"
+ },
+ {
+  "code": "62.10",
+  "name": "Computer programming activities",
+  "level": "class",
+  "parent": "62.1"
+ },
+ {
+  "code": "62.2",
+  "name": "Computer consultancy and computer facilities management activities",
+  "level": "group",
+  "parent": "62"
+ },
+ {
+  "code": "62.20",
+  "name": "Computer consultancy and computer facilities management activities",
+  "level": "class",
+  "parent": "62.2"
+ },
+ {
+  "code": "62.9",
+  "name": "Other information technology and computer service activities",
+  "level": "group",
+  "parent": "62"
+ },
+ {
+  "code": "62.90",
+  "name": "Other information technology and computer service activities",
+  "level": "class",
+  "parent": "62.9"
+ },
+ {
+  "code": "63.1",
+  "name": "Computing infrastructure, data processing, hosting and related activities",
+  "level": "group",
+  "parent": "63"
+ },
+ {
+  "code": "63.10",
+  "name": "Computing infrastructure, data processing, hosting and related activities",
+  "level": "class",
+  "parent": "63.1"
+ },
+ {
+  "code": "63.9",
+  "name": "Web search portal activities and other information service activities",
+  "level": "group",
+  "parent": "63"
+ },
+ {
+  "code": "63.91",
+  "name": "Web search portal activities",
+  "level": "class",
+  "parent": "63.9"
+ },
+ {
+  "code": "63.92",
+  "name": "Other information service activities",
+  "level": "class",
+  "parent": "63.9"
+ },
+ {
+  "code": "64.1",
+  "name": "Monetary intermediation",
+  "level": "group",
+  "parent": "64"
+ },
+ {
+  "code": "64.11",
+  "name": "Central banking",
+  "level": "class",
+  "parent": "64.1"
+ },
+ {
+  "code": "64.19",
+  "name": "Other monetary intermediation",
+  "level": "class",
+  "parent": "64.1"
+ },
+ {
+  "code": "64.2",
+  "name": "Activities of holding companies and financing conduits",
+  "level": "group",
+  "parent": "64"
+ },
+ {
+  "code": "64.21",
+  "name": "Activities of holding companies",
+  "level": "class",
+  "parent": "64.2"
+ },
+ {
+  "code": "64.22",
+  "name": "Activities of financing conduits",
+  "level": "class",
+  "parent": "64.2"
+ },
+ {
+  "code": "64.3",
+  "name": "Activities of trusts, funds and similar financial entities",
+  "level": "group",
+  "parent": "64"
+ },
+ {
+  "code": "64.31",
+  "name": "Activities of money market and non-money market investments funds",
+  "level": "class",
+  "parent": "64.3"
+ },
+ {
+  "code": "64.32",
+  "name": "Activities of trust, estate and agency accounts",
+  "level": "class",
+  "parent": "64.3"
+ },
+ {
+  "code": "64.9",
+  "name": "Other financial service activities, except insurance and pension funding",
+  "level": "group",
+  "parent": "64"
+ },
+ {
+  "code": "64.91",
+  "name": "Financial leasing",
+  "level": "class",
+  "parent": "64.9"
+ },
+ {
+  "code": "64.92",
+  "name": "Other credit granting",
+  "level": "class",
+  "parent": "64.9"
+ },
+ {
+  "code": "64.99",
+  "name": "Other financial service activities, except insurance and pension funding n.e.c.",
+  "level": "class",
+  "parent": "64.9"
+ },
+ {
+  "code": "65.1",
+  "name": "Insurance",
+  "level": "group",
+  "parent": "65"
+ },
+ {
+  "code": "65.11",
+  "name": "Life insurance",
+  "level": "class",
+  "parent": "65.1"
+ },
+ {
+  "code": "65.12",
+  "name": "Non-life insurance",
+  "level": "class",
+  "parent": "65.1"
+ },
+ {
+  "code": "65.2",
+  "name": "Reinsurance",
+  "level": "group",
+  "parent": "65"
+ },
+ {
+  "code": "65.20",
+  "name": "Reinsurance",
+  "level": "class",
+  "parent": "65.2"
+ },
+ {
+  "code": "65.3",
+  "name": "Pension funding",
+  "level": "group",
+  "parent": "65"
+ },
+ {
+  "code": "65.30",
+  "name": "Pension funding",
+  "level": "class",
+  "parent": "65.3"
+ },
+ {
+  "code": "66.1",
+  "name": "Activities auxiliary to financial services, except insurance and pension funding",
+  "level": "group",
+  "parent": "66"
+ },
+ {
+  "code": "66.11",
+  "name": "Administration of financial markets",
+  "level": "class",
+  "parent": "66.1"
+ },
+ {
+  "code": "66.12",
+  "name": "Security and commodity contracts brokerage",
+  "level": "class",
+  "parent": "66.1"
+ },
+ {
+  "code": "66.19",
+  "name": "Other activities auxiliary to financial services, except insurance and pension funding",
+  "level": "class",
+  "parent": "66.1"
+ },
+ {
+  "code": "66.2",
+  "name": "Activities auxiliary to insurance and pension funding",
+  "level": "group",
+  "parent": "66"
+ },
+ {
+  "code": "66.21",
+  "name": "Risk and damage evaluation",
+  "level": "class",
+  "parent": "66.2"
+ },
+ {
+  "code": "66.22",
+  "name": "Activities of insurance agents and brokers",
+  "level": "class",
+  "parent": "66.2"
+ },
+ {
+  "code": "66.29",
+  "name": "Activities auxiliary to insurance and pension funding n.e.c.",
+  "level": "class",
+  "parent": "66.2"
+ },
+ {
+  "code": "66.3",
+  "name": "Fund management activities",
+  "level": "group",
+  "parent": "66"
+ },
+ {
+  "code": "66.30",
+  "name": "Fund management activities",
+  "level": "class",
+  "parent": "66.3"
+ },
+ {
+  "code": "68.1",
+  "name": "Real estate activities with own property and development of building projects",
+  "level": "group",
+  "parent": "68"
+ },
+ {
+  "code": "68.11",
+  "name": "Buying and selling of own real estate",
+  "level": "class",
+  "parent": "68.1"
+ },
+ {
+  "code": "68.12",
+  "name": "Development of building projects",
+  "level": "class",
+  "parent": "68.1"
+ },
+ {
+  "code": "68.2",
+  "name": "Rental and operating of own or leased real estate",
+  "level": "group",
+  "parent": "68"
+ },
+ {
+  "code": "68.20",
+  "name": "Rental and operating of own or leased real estate",
+  "level": "class",
+  "parent": "68.2"
+ },
+ {
+  "code": "68.3",
+  "name": "Real estate activities on a fee or contract basis",
+  "level": "group",
+  "parent": "68"
+ },
+ {
+  "code": "68.31",
+  "name": "Intermediation service activities for real estate activities",
+  "level": "class",
+  "parent": "68.3"
+ },
+ {
+  "code": "68.32",
+  "name": "Other real estate activities on a fee or contract basis",
+  "level": "class",
+  "parent": "68.3"
+ },
+ {
+  "code": "69.1",
+  "name": "Legal activities",
+  "level": "group",
+  "parent": "69"
+ },
+ {
+  "code": "69.10",
+  "name": "Legal activities",
+  "level": "class",
+  "parent": "69.1"
+ },
+ {
+  "code": "69.2",
+  "name": "Accounting, bookkeeping and auditing activities; tax consultancy",
+  "level": "group",
+  "parent": "69"
+ },
+ {
+  "code": "69.20",
+  "name": "Accounting, bookkeeping and auditing activities; tax consultancy",
+  "level": "class",
+  "parent": "69.2"
+ },
+ {
+  "code": "70.1",
+  "name": "Activities of head offices",
+  "level": "group",
+  "parent": "70"
+ },
+ {
+  "code": "70.10",
+  "name": "Activities of head offices",
+  "level": "class",
+  "parent": "70.1"
+ },
+ {
+  "code": "70.2",
+  "name": "Business and other management consultancy activities",
+  "level": "group",
+  "parent": "70"
+ },
+ {
+  "code": "70.20",
+  "name": "Business and other management consultancy activities",
+  "level": "class",
+  "parent": "70.2"
+ },
+ {
+  "code": "71.1",
+  "name": "Architectural and engineering activities and related technical consultancy",
+  "level": "group",
+  "parent": "71"
+ },
+ {
+  "code": "71.11",
+  "name": "Architectural activities",
+  "level": "class",
+  "parent": "71.1"
+ },
+ {
+  "code": "71.12",
+  "name": "Engineering activities and related technical consultancy",
+  "level": "class",
+  "parent": "71.1"
+ },
+ {
+  "code": "71.2",
+  "name": "Technical testing and analysis",
+  "level": "group",
+  "parent": "71"
+ },
+ {
+  "code": "71.20",
+  "name": "Technical testing and analysis",
+  "level": "class",
+  "parent": "71.2"
+ },
+ {
+  "code": "72.1",
+  "name": "Research and experimental development on natural sciences and engineering",
+  "level": "group",
+  "parent": "72"
+ },
+ {
+  "code": "72.10",
+  "name": "Research and experimental development on natural sciences and engineering",
+  "level": "class",
+  "parent": "72.1"
+ },
+ {
+  "code": "72.2",
+  "name": "Research and experimental development on social sciences and humanities",
+  "level": "group",
+  "parent": "72"
+ },
+ {
+  "code": "72.20",
+  "name": "Research and experimental development on social sciences and humanities",
+  "level": "class",
+  "parent": "72.2"
+ },
+ {
+  "code": "73.1",
+  "name": "Advertising",
+  "level": "group",
+  "parent": "73"
+ },
+ {
+  "code": "73.11",
+  "name": "Activities of advertising agencies",
+  "level": "class",
+  "parent": "73.1"
+ },
+ {
+  "code": "73.12",
+  "name": "Media representation",
+  "level": "class",
+  "parent": "73.1"
+ },
+ {
+  "code": "73.2",
+  "name": "Market research and public opinion polling",
+  "level": "group",
+  "parent": "73"
+ },
+ {
+  "code": "73.20",
+  "name": "Market research and public opinion polling",
+  "level": "class",
+  "parent": "73.2"
+ },
+ {
+  "code": "73.3",
+  "name": "Public relations and communication activities",
+  "level": "group",
+  "parent": "73"
+ },
+ {
+  "code": "73.30",
+  "name": "Public relations and communication activities",
+  "level": "class",
+  "parent": "73.3"
+ },
+ {
+  "code": "74.1",
+  "name": "Specialised design activities",
+  "level": "group",
+  "parent": "74"
+ },
+ {
+  "code": "74.11",
+  "name": "Industrial product and fashion design activities",
+  "level": "class",
+  "parent": "74.1"
+ },
+ {
+  "code": "74.12",
+  "name": "Graphic design and visual communication activities",
+  "level": "class",
+  "parent": "74.1"
+ },
+ {
+  "code": "74.13",
+  "name": "Interior design activities",
+  "level": "class",
+  "parent": "74.1"
+ },
+ {
+  "code": "74.14",
+  "name": "Other specialised design activities",
+  "level": "class",
+  "parent": "74.1"
+ },
+ {
+  "code": "74.2",
+  "name": "Photographic activities",
+  "level": "group",
+  "parent": "74"
+ },
+ {
+  "code": "74.20",
+  "name": "Photographic activities",
+  "level": "class",
+  "parent": "74.2"
+ },
+ {
+  "code": "74.3",
+  "name": "Translation and interpretation activities",
+  "level": "group",
+  "parent": "74"
+ },
+ {
+  "code": "74.30",
+  "name": "Translation and interpretation activities",
+  "level": "class",
+  "parent": "74.3"
+ },
+ {
+  "code": "74.9",
+  "name": "Other professional, scientific and technical activities n.e.c.",
+  "level": "group",
+  "parent": "74"
+ },
+ {
+  "code": "74.91",
+  "name": "Patent brokering and marketing service activities",
+  "level": "class",
+  "parent": "74.9"
+ },
+ {
+  "code": "74.99",
+  "name": "All other professional, scientific and technical activities n.e.c.",
+  "level": "class",
+  "parent": "74.9"
+ },
+ {
+  "code": "75.0",
+  "name": "Veterinary activities",
+  "level": "group",
+  "parent": "75"
+ },
+ {
+  "code": "75.00",
+  "name": "Veterinary activities",
+  "level": "class",
+  "parent": "75.0"
+ },
+ {
+  "code": "77.1",
+  "name": "Rental and leasing of motor vehicles",
+  "level": "group",
+  "parent": "77"
+ },
+ {
+  "code": "77.11",
+  "name": "Rental and leasing of cars and light motor vehicles",
+  "level": "class",
+  "parent": "77.1"
+ },
+ {
+  "code": "77.12",
+  "name": "Rental and leasing of trucks",
+  "level": "class",
+  "parent": "77.1"
+ },
+ {
+  "code": "77.2",
+  "name": "Rental and leasing of personal and household goods",
+  "level": "group",
+  "parent": "77"
+ },
+ {
+  "code": "77.21",
+  "name": "Rental and leasing of recreational and sports goods",
+  "level": "class",
+  "parent": "77.2"
+ },
+ {
+  "code": "77.22",
+  "name": "Rental and leasing of other personal and household goods",
+  "level": "class",
+  "parent": "77.2"
+ },
+ {
+  "code": "77.3",
+  "name": "Rental and leasing of other machinery, equipment and tangible goods",
+  "level": "group",
+  "parent": "77"
+ },
+ {
+  "code": "77.31",
+  "name": "Rental and leasing of agricultural machinery and equipment",
+  "level": "class",
+  "parent": "77.3"
+ },
+ {
+  "code": "77.32",
+  "name": "Rental and leasing of construction and civil engineering machinery and equipment",
+  "level": "class",
+  "parent": "77.3"
+ },
+ {
+  "code": "77.33",
+  "name": "Rental and leasing of office machinery, equipment and computers",
+  "level": "class",
+  "parent": "77.3"
+ },
+ {
+  "code": "77.34",
+  "name": "Rental and leasing of water transport equipment",
+  "level": "class",
+  "parent": "77.3"
+ },
+ {
+  "code": "77.35",
+  "name": "Rental and leasing of air transport equipment",
+  "level": "class",
+  "parent": "77.3"
+ },
+ {
+  "code": "77.39",
+  "name": "Rental and leasing of other machinery, equipment and tangible goods n.e.c.",
+  "level": "class",
+  "parent": "77.3"
+ },
+ {
+  "code": "77.4",
+  "name": "Leasing of intellectual property and similar products, except copyrighted works",
+  "level": "group",
+  "parent": "77"
+ },
+ {
+  "code": "77.40",
+  "name": "Leasing of intellectual property and similar products, except copyrighted works",
+  "level": "class",
+  "parent": "77.4"
+ },
+ {
+  "code": "77.5",
+  "name": "Intermediation service activities for rental and leasing of tangible goods and non-financial intangible assets",
+  "level": "group",
+  "parent": "77"
+ },
+ {
+  "code": "77.51",
+  "name": "Intermediation service activities for rental and leasing of cars, motorhomes and trailers",
+  "level": "class",
+  "parent": "77.5"
+ },
+ {
+  "code": "77.52",
+  "name": "Intermediation service activities for rental and leasing of other tangible goods and non-financial intangible assets",
+  "level": "class",
+  "parent": "77.5"
+ },
+ {
+  "code": "78.1",
+  "name": "Activities of employment placement agencies",
+  "level": "group",
+  "parent": "78"
+ },
+ {
+  "code": "78.10",
+  "name": "Activities of employment placement agencies",
+  "level": "class",
+  "parent": "78.1"
+ },
+ {
+  "code": "78.2",
+  "name": "Temporary employment agency activities and other human resource provisions",
+  "level": "group",
+  "parent": "78"
+ },
+ {
+  "code": "78.20",
+  "name": "Temporary employment agency activities and other human resource provisions",
+  "level": "class",
+  "parent": "78.2"
+ },
+ {
+  "code": "79.1",
+  "name": "Travel agency and tour operator activities",
+  "level": "group",
+  "parent": "79"
+ },
+ {
+  "code": "79.11",
+  "name": "Travel agency activities",
+  "level": "class",
+  "parent": "79.1"
+ },
+ {
+  "code": "79.12",
+  "name": "Tour operator activities",
+  "level": "class",
+  "parent": "79.1"
+ },
+ {
+  "code": "79.9",
+  "name": "Other reservation service and related activities",
+  "level": "group",
+  "parent": "79"
+ },
+ {
+  "code": "79.90",
+  "name": "Other reservation service and related activities",
+  "level": "class",
+  "parent": "79.9"
+ },
+ {
+  "code": "80.0",
+  "name": "Investigation and security activities",
+  "level": "group",
+  "parent": "80"
+ },
+ {
+  "code": "80.01",
+  "name": "Investigation and private security activities",
+  "level": "class",
+  "parent": "80.0"
+ },
+ {
+  "code": "80.09",
+  "name": "Security activities n.e.c.",
+  "level": "class",
+  "parent": "80.0"
+ },
+ {
+  "code": "81.1",
+  "name": "Combined facilities support activities",
+  "level": "group",
+  "parent": "81"
+ },
+ {
+  "code": "81.10",
+  "name": "Combined facilities support activities",
+  "level": "class",
+  "parent": "81.1"
+ },
+ {
+  "code": "81.2",
+  "name": "Cleaning activities",
+  "level": "group",
+  "parent": "81"
+ },
+ {
+  "code": "81.21",
+  "name": "General cleaning of buildings",
+  "level": "class",
+  "parent": "81.2"
+ },
+ {
+  "code": "81.22",
+  "name": "Other building and industrial cleaning activities",
+  "level": "class",
+  "parent": "81.2"
+ },
+ {
+  "code": "81.23",
+  "name": "Other cleaning activities",
+  "level": "class",
+  "parent": "81.2"
+ },
+ {
+  "code": "81.3",
+  "name": "Landscape service activities",
+  "level": "group",
+  "parent": "81"
+ },
+ {
+  "code": "81.30",
+  "name": "Landscape service activities",
+  "level": "class",
+  "parent": "81.3"
+ },
+ {
+  "code": "82.1",
+  "name": "Office administrative and support activities",
+  "level": "group",
+  "parent": "82"
+ },
+ {
+  "code": "82.10",
+  "name": "Office administrative and support activities",
+  "level": "class",
+  "parent": "82.1"
+ },
+ {
+  "code": "82.2",
+  "name": "Activities of call centres",
+  "level": "group",
+  "parent": "82"
+ },
+ {
+  "code": "82.20",
+  "name": "Activities of call centres",
+  "level": "class",
+  "parent": "82.2"
+ },
+ {
+  "code": "82.3",
+  "name": "Organisation of conventions and trade shows",
+  "level": "group",
+  "parent": "82"
+ },
+ {
+  "code": "82.30",
+  "name": "Organisation of conventions and trade shows",
+  "level": "class",
+  "parent": "82.3"
+ },
+ {
+  "code": "82.4",
+  "name": "Intermediation service activities for business support service activities n.e.c.",
+  "level": "group",
+  "parent": "82"
+ },
+ {
+  "code": "82.40",
+  "name": "Intermediation service activities for business support service activities n.e.c.",
+  "level": "class",
+  "parent": "82.4"
+ },
+ {
+  "code": "82.9",
+  "name": "Business support service activities n.e.c.",
+  "level": "group",
+  "parent": "82"
+ },
+ {
+  "code": "82.91",
+  "name": "Activities of collection agencies and credit bureaus",
+  "level": "class",
+  "parent": "82.9"
+ },
+ {
+  "code": "82.92",
+  "name": "Packaging activities",
+  "level": "class",
+  "parent": "82.9"
+ },
+ {
+  "code": "82.99",
+  "name": "Other business support service activities n.e.c.",
+  "level": "class",
+  "parent": "82.9"
+ },
+ {
+  "code": "84.1",
+  "name": "Administration of the State and the economic, social and environmental policies of the community",
+  "level": "group",
+  "parent": "84"
+ },
+ {
+  "code": "84.11",
+  "name": "General public administration activities",
+  "level": "class",
+  "parent": "84.1"
+ },
+ {
+  "code": "84.12",
+  "name": "Regulation of health care, education, cultural services and other social services",
+  "level": "class",
+  "parent": "84.1"
+ },
+ {
+  "code": "84.13",
+  "name": "Regulation of and contribution to more efficient operation of businesses",
+  "level": "class",
+  "parent": "84.1"
+ },
+ {
+  "code": "84.2",
+  "name": "Provision of services to the community as a whole",
+  "level": "group",
+  "parent": "84"
+ },
+ {
+  "code": "84.21",
+  "name": "Foreign affairs",
+  "level": "class",
+  "parent": "84.2"
+ },
+ {
+  "code": "84.22",
+  "name": "Defence activities",
+  "level": "class",
+  "parent": "84.2"
+ },
+ {
+  "code": "84.23",
+  "name": "Justice and judicial activities",
+  "level": "class",
+  "parent": "84.2"
+ },
+ {
+  "code": "84.24",
+  "name": "Public order and safety activities",
+  "level": "class",
+  "parent": "84.2"
+ },
+ {
+  "code": "84.25",
+  "name": "Fire service activities",
+  "level": "class",
+  "parent": "84.2"
+ },
+ {
+  "code": "84.3",
+  "name": "Compulsory social security activities",
+  "level": "group",
+  "parent": "84"
+ },
+ {
+  "code": "84.30",
+  "name": "Compulsory social security activities",
+  "level": "class",
+  "parent": "84.3"
+ },
+ {
+  "code": "85.1",
+  "name": "Pre-primary education",
+  "level": "group",
+  "parent": "85"
+ },
+ {
+  "code": "85.10",
+  "name": "Pre-primary education",
+  "level": "class",
+  "parent": "85.1"
+ },
+ {
+  "code": "85.2",
+  "name": "Primary education",
+  "level": "group",
+  "parent": "85"
+ },
+ {
+  "code": "85.20",
+  "name": "Primary education",
+  "level": "class",
+  "parent": "85.2"
+ },
+ {
+  "code": "85.3",
+  "name": "Secondary and post-secondary non-tertiary education",
+  "level": "group",
+  "parent": "85"
+ },
+ {
+  "code": "85.31",
+  "name": "General secondary education",
+  "level": "class",
+  "parent": "85.3"
+ },
+ {
+  "code": "85.32",
+  "name": "Vocational secondary education",
+  "level": "class",
+  "parent": "85.3"
+ },
+ {
+  "code": "85.33",
+  "name": "Post-secondary non-tertiary education",
+  "level": "class",
+  "parent": "85.3"
+ },
+ {
+  "code": "85.4",
+  "name": "Tertiary education",
+  "level": "group",
+  "parent": "85"
+ },
+ {
+  "code": "85.40",
+  "name": "Tertiary education",
+  "level": "class",
+  "parent": "85.4"
+ },
+ {
+  "code": "85.5",
+  "name": "Other education",
+  "level": "group",
+  "parent": "85"
+ },
+ {
+  "code": "85.51",
+  "name": "Sports and recreation education",
+  "level": "class",
+  "parent": "85.5"
+ },
+ {
+  "code": "85.52",
+  "name": "Cultural education",
+  "level": "class",
+  "parent": "85.5"
+ },
+ {
+  "code": "85.53",
+  "name": "Driving school activities",
+  "level": "class",
+  "parent": "85.5"
+ },
+ {
+  "code": "85.59",
+  "name": "Other education n.e.c.",
+  "level": "class",
+  "parent": "85.5"
+ },
+ {
+  "code": "85.6",
+  "name": "Educational support activities",
+  "level": "group",
+  "parent": "85"
+ },
+ {
+  "code": "85.61",
+  "name": "Intermediation service activities for courses and tutors",
+  "level": "class",
+  "parent": "85.6"
+ },
+ {
+  "code": "85.69",
+  "name": "Educational support activities n.e.c.",
+  "level": "class",
+  "parent": "85.6"
+ },
+ {
+  "code": "86.1",
+  "name": "Hospital activities",
+  "level": "group",
+  "parent": "86"
+ },
+ {
+  "code": "86.10",
+  "name": "Hospital activities",
+  "level": "class",
+  "parent": "86.1"
+ },
+ {
+  "code": "86.2",
+  "name": "Medical and dental practice activities",
+  "level": "group",
+  "parent": "86"
+ },
+ {
+  "code": "86.21",
+  "name": "General medical practice activities",
+  "level": "class",
+  "parent": "86.2"
+ },
+ {
+  "code": "86.22",
+  "name": "Medical specialists activities",
+  "level": "class",
+  "parent": "86.2"
+ },
+ {
+  "code": "86.23",
+  "name": "Dental practice care activities",
+  "level": "class",
+  "parent": "86.2"
+ },
+ {
+  "code": "86.9",
+  "name": "Other human health activities",
+  "level": "group",
+  "parent": "86"
+ },
+ {
+  "code": "86.91",
+  "name": "Diagnostic imaging services and medical laboratory activities",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "86.92",
+  "name": "Patient transportation by ambulance",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "86.93",
+  "name": "Activities of psychologists and psychotherapists, except medical doctors",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "86.94",
+  "name": "Nursing and midwifery activities",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "86.95",
+  "name": "Physiotherapy activities",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "86.96",
+  "name": "Traditional, complementary and alternative medicine activities",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "86.97",
+  "name": "Intermediation service activities for medical, dental and other human health services",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "86.99",
+  "name": "Other human health activities n.e.c.",
+  "level": "class",
+  "parent": "86.9"
+ },
+ {
+  "code": "87.1",
+  "name": "Residential nursing care activities",
+  "level": "group",
+  "parent": "87"
+ },
+ {
+  "code": "87.10",
+  "name": "Residential nursing care activities",
+  "level": "class",
+  "parent": "87.1"
+ },
+ {
+  "code": "87.2",
+  "name": "Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse",
+  "level": "group",
+  "parent": "87"
+ },
+ {
+  "code": "87.20",
+  "name": "Residential care activities for persons living with or having a diagnosis of a mental illness or substance abuse",
+  "level": "class",
+  "parent": "87.2"
+ },
+ {
+  "code": "87.3",
+  "name": "Residential care activities for older persons or persons with physical disabilities",
+  "level": "group",
+  "parent": "87"
+ },
+ {
+  "code": "87.30",
+  "name": "Residential care activities for older persons or persons with physical disabilities",
+  "level": "class",
+  "parent": "87.3"
+ },
+ {
+  "code": "87.9",
+  "name": "Other residential care activities",
+  "level": "group",
+  "parent": "87"
+ },
+ {
+  "code": "87.91",
+  "name": "Intermediation service activities for residential care activities",
+  "level": "class",
+  "parent": "87.9"
+ },
+ {
+  "code": "87.99",
+  "name": "Other residential care activities n.e.c.",
+  "level": "class",
+  "parent": "87.9"
+ },
+ {
+  "code": "88.1",
+  "name": "Social work activities without accommodation for older persons or persons with disabilities",
+  "level": "group",
+  "parent": "88"
+ },
+ {
+  "code": "88.10",
+  "name": "Social work activities without accommodation for older persons or persons with disabilities",
+  "level": "class",
+  "parent": "88.1"
+ },
+ {
+  "code": "88.9",
+  "name": "Other social work activities without accommodation",
+  "level": "group",
+  "parent": "88"
+ },
+ {
+  "code": "88.91",
+  "name": "Child day-care activities",
+  "level": "class",
+  "parent": "88.9"
+ },
+ {
+  "code": "88.99",
+  "name": "Other social work activities without accommodation n.e.c.",
+  "level": "class",
+  "parent": "88.9"
+ },
+ {
+  "code": "90.1",
+  "name": "Arts creation activities",
+  "level": "group",
+  "parent": "90"
+ },
+ {
+  "code": "90.11",
+  "name": "Literary creation and musical composition activities",
+  "level": "class",
+  "parent": "90.1"
+ },
+ {
+  "code": "90.12",
+  "name": "Visual arts creation activities",
+  "level": "class",
+  "parent": "90.1"
+ },
+ {
+  "code": "90.13",
+  "name": "Other arts creation activities",
+  "level": "class",
+  "parent": "90.1"
+ },
+ {
+  "code": "90.2",
+  "name": "Activities of performing arts",
+  "level": "group",
+  "parent": "90"
+ },
+ {
+  "code": "90.20",
+  "name": "Activities of performing arts",
+  "level": "class",
+  "parent": "90.2"
+ },
+ {
+  "code": "90.3",
+  "name": "Support activities to arts creation and performing arts",
+  "level": "group",
+  "parent": "90"
+ },
+ {
+  "code": "90.31",
+  "name": "Operation of arts facilities and sites",
+  "level": "class",
+  "parent": "90.3"
+ },
+ {
+  "code": "90.39",
+  "name": "Other support activities to arts and performing arts",
+  "level": "class",
+  "parent": "90.3"
+ },
+ {
+  "code": "91.1",
+  "name": "Library and archive activities",
+  "level": "group",
+  "parent": "91"
+ },
+ {
+  "code": "91.11",
+  "name": "Library activities",
+  "level": "class",
+  "parent": "91.1"
+ },
+ {
+  "code": "91.12",
+  "name": "Archive activities",
+  "level": "class",
+  "parent": "91.1"
+ },
+ {
+  "code": "91.2",
+  "name": "Museum, collection, historical site and monument activities",
+  "level": "group",
+  "parent": "91"
+ },
+ {
+  "code": "91.21",
+  "name": "Museum and collection activities",
+  "level": "class",
+  "parent": "91.2"
+ },
+ {
+  "code": "91.22",
+  "name": "Historical site and monument activities",
+  "level": "class",
+  "parent": "91.2"
+ },
+ {
+  "code": "91.3",
+  "name": "Conservation, restoration and other support activities for cultural heritage",
+  "level": "group",
+  "parent": "91"
+ },
+ {
+  "code": "91.30",
+  "name": "Conservation, restoration and other support activities for cultural heritage",
+  "level": "class",
+  "parent": "91.3"
+ },
+ {
+  "code": "91.4",
+  "name": "Botanical and zoological garden and nature reserve activities",
+  "level": "group",
+  "parent": "91"
+ },
+ {
+  "code": "91.41",
+  "name": "Botanical and zoological garden activities",
+  "level": "class",
+  "parent": "91.4"
+ },
+ {
+  "code": "91.42",
+  "name": "Nature reserve activities",
+  "level": "class",
+  "parent": "91.4"
+ },
+ {
+  "code": "92.0",
+  "name": "Gambling and betting activities",
+  "level": "group",
+  "parent": "92"
+ },
+ {
+  "code": "92.00",
+  "name": "Gambling and betting activities",
+  "level": "class",
+  "parent": "92.0"
+ },
+ {
+  "code": "93.1",
+  "name": "Sports activities",
+  "level": "group",
+  "parent": "93"
+ },
+ {
+  "code": "93.11",
+  "name": "Operation of sports facilities",
+  "level": "class",
+  "parent": "93.1"
+ },
+ {
+  "code": "93.12",
+  "name": "Activities of sports clubs",
+  "level": "class",
+  "parent": "93.1"
+ },
+ {
+  "code": "93.13",
+  "name": "Activities of fitness centres",
+  "level": "class",
+  "parent": "93.1"
+ },
+ {
+  "code": "93.19",
+  "name": "Sports activities n.e.c.",
+  "level": "class",
+  "parent": "93.1"
+ },
+ {
+  "code": "93.2",
+  "name": "Amusement and recreation activities",
+  "level": "group",
+  "parent": "93"
+ },
+ {
+  "code": "93.21",
+  "name": "Activities of amusement parks and theme parks",
+  "level": "class",
+  "parent": "93.2"
+ },
+ {
+  "code": "93.29",
+  "name": "Amusement and recreation activities n.e.c.",
+  "level": "class",
+  "parent": "93.2"
+ },
+ {
+  "code": "94.1",
+  "name": "Activities of business, employers and professional membership organisations",
+  "level": "group",
+  "parent": "94"
+ },
+ {
+  "code": "94.11",
+  "name": "Activities of business and employers membership organisations",
+  "level": "class",
+  "parent": "94.1"
+ },
+ {
+  "code": "94.12",
+  "name": "Activities of professional membership organisations",
+  "level": "class",
+  "parent": "94.1"
+ },
+ {
+  "code": "94.2",
+  "name": "Activities of trade unions",
+  "level": "group",
+  "parent": "94"
+ },
+ {
+  "code": "94.20",
+  "name": "Activities of trade unions",
+  "level": "class",
+  "parent": "94.2"
+ },
+ {
+  "code": "94.9",
+  "name": "Activities of other membership organisations",
+  "level": "group",
+  "parent": "94"
+ },
+ {
+  "code": "94.91",
+  "name": "Activities of religious organisations",
+  "level": "class",
+  "parent": "94.9"
+ },
+ {
+  "code": "94.92",
+  "name": "Activities of political organisations",
+  "level": "class",
+  "parent": "94.9"
+ },
+ {
+  "code": "94.99",
+  "name": "Activities of other membership organisations n.e.c.",
+  "level": "class",
+  "parent": "94.9"
+ },
+ {
+  "code": "95.1",
+  "name": "Repair and maintenance of computers and communication equipment",
+  "level": "group",
+  "parent": "95"
+ },
+ {
+  "code": "95.10",
+  "name": "Repair and maintenance of computers and communication equipment",
+  "level": "class",
+  "parent": "95.1"
+ },
+ {
+  "code": "95.2",
+  "name": "Repair and maintenance of personal and household goods",
+  "level": "group",
+  "parent": "95"
+ },
+ {
+  "code": "95.21",
+  "name": "Repair and maintenance of consumer electronics",
+  "level": "class",
+  "parent": "95.2"
+ },
+ {
+  "code": "95.22",
+  "name": "Repair and maintenance of household appliances and home and garden equipment",
+  "level": "class",
+  "parent": "95.2"
+ },
+ {
+  "code": "95.23",
+  "name": "Repair and maintenance of footwear and leather goods",
+  "level": "class",
+  "parent": "95.2"
+ },
+ {
+  "code": "95.24",
+  "name": "Repair and maintenance of furniture and home furnishings",
+  "level": "class",
+  "parent": "95.2"
+ },
+ {
+  "code": "95.25",
+  "name": "Repair and maintenance of watches, clocks and jewellery",
+  "level": "class",
+  "parent": "95.2"
+ },
+ {
+  "code": "95.29",
+  "name": "Repair and maintenance of personal and household goods n.e.c.",
+  "level": "class",
+  "parent": "95.2"
+ },
+ {
+  "code": "95.3",
+  "name": "Repair and maintenance of motor vehicles and motorcycles",
+  "level": "group",
+  "parent": "95"
+ },
+ {
+  "code": "95.31",
+  "name": "Repair and maintenance of motor vehicles",
+  "level": "class",
+  "parent": "95.3"
+ },
+ {
+  "code": "95.32",
+  "name": "Repair and maintenance of motorcycles",
+  "level": "class",
+  "parent": "95.3"
+ },
+ {
+  "code": "95.4",
+  "name": "Intermediation service activities for repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles",
+  "level": "group",
+  "parent": "95"
+ },
+ {
+  "code": "95.40",
+  "name": "Intermediation service activities for repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles",
+  "level": "class",
+  "parent": "95.4"
+ },
+ {
+  "code": "96.1",
+  "name": "Washing and cleaning of textile and fur products",
+  "level": "group",
+  "parent": "96"
+ },
+ {
+  "code": "96.10",
+  "name": "Washing and cleaning of textile and fur products",
+  "level": "class",
+  "parent": "96.1"
+ },
+ {
+  "code": "96.2",
+  "name": "Hairdressing, beauty treatment, day spa and similar activities",
+  "level": "group",
+  "parent": "96"
+ },
+ {
+  "code": "96.21",
+  "name": "Hairdressing and barber activities",
+  "level": "class",
+  "parent": "96.2"
+ },
+ {
+  "code": "96.22",
+  "name": "Beauty care and other beauty treatment activities",
+  "level": "class",
+  "parent": "96.2"
+ },
+ {
+  "code": "96.23",
+  "name": "Day spa, sauna and steam bath activities",
+  "level": "class",
+  "parent": "96.2"
+ },
+ {
+  "code": "96.3",
+  "name": "Funeral and related activities",
+  "level": "group",
+  "parent": "96"
+ },
+ {
+  "code": "96.30",
+  "name": "Funeral and related activities",
+  "level": "class",
+  "parent": "96.3"
+ },
+ {
+  "code": "96.4",
+  "name": "Intermediation service activities for personal services",
+  "level": "group",
+  "parent": "96"
+ },
+ {
+  "code": "96.40",
+  "name": "Intermediation service activities for personal services",
+  "level": "class",
+  "parent": "96.4"
+ },
+ {
+  "code": "96.9",
+  "name": "Other personal service activities",
+  "level": "group",
+  "parent": "96"
+ },
+ {
+  "code": "96.91",
+  "name": "Provision of domestic personal service activities",
+  "level": "class",
+  "parent": "96.9"
+ },
+ {
+  "code": "96.99",
+  "name": "Other personal service activities n.e.c.",
+  "level": "class",
+  "parent": "96.9"
+ },
+ {
+  "code": "97.0",
+  "name": "Activities of households as employers of domestic personnel",
+  "level": "group",
+  "parent": "97"
+ },
+ {
+  "code": "97.00",
+  "name": "Activities of households as employers of domestic personnel",
+  "level": "class",
+  "parent": "97.0"
+ },
+ {
+  "code": "98.1",
+  "name": "Undifferentiated goods-producing activities of private households for own use",
+  "level": "group",
+  "parent": "98"
+ },
+ {
+  "code": "98.10",
+  "name": "Undifferentiated goods-producing activities of private households for own use",
+  "level": "class",
+  "parent": "98.1"
+ },
+ {
+  "code": "98.2",
+  "name": "Undifferentiated service-producing activities of private households for own use",
+  "level": "group",
+  "parent": "98"
+ },
+ {
+  "code": "98.20",
+  "name": "Undifferentiated service-producing activities of private households for own use",
+  "level": "class",
+  "parent": "98.2"
+ },
+ {
+  "code": "99.0",
+  "name": "Activities of extraterritorial organisations and bodies",
+  "level": "group",
+  "parent": "99"
+ },
+ {
+  "code": "99.00",
+  "name": "Activities of extraterritorial organisations and bodies",
+  "level": "class",
+  "parent": "99.0"
  }
 ]

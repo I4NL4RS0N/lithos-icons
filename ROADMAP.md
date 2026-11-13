@@ -25,6 +25,9 @@ Renewable energy, marine shipping, rail, capital markets, asset management, cons
 - **Funds:** money market funds, pension funds, closed-end funds
 - **Infrastructure & project finance:** power projects, social infrastructure, PPP
 
+## Depth rule
+Top two levels of each standard always get an icon; deeper only for visibly distinct children (SPEC §9). Next distinct children to draw: forestry, fishing, livestock.
+
 ## Fixes
 Done: wrench, pickaxe, wind turbine, municipal dome at 16–20px, government pennant, financials (staggered coin stack), software solid.
 Open: Europe and World maps; tiny territories; flatten baked strokes in the solid style.

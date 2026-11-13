@@ -5,7 +5,9 @@
  "version": "Rev. 2.1",
  "levels": [
   "section",
-  "division"
+  "division",
+  "group",
+  "class"
  ],
  "licence": "public",
  "publish": true,
