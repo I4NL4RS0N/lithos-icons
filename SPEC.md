@@ -147,7 +147,7 @@ flags/
 - **Squint test:** maps are exempt from the weight band because they follow real geography.
 - **Site loading:** map paths are not inlined; the site fetches one JSON per size (`/geo/<size>.json`).
 - **Small-country rule:** if a country's shape is under a minimum area at a given size, render a locator: simplified continent context + dot. Threshold tuned per size.
-- **Flags:** 4:3 frame, fixed corner radius, 1px inner hairline for white-edged flags. Emblems simplified at 20px, dropped or reduced to a silhouette at 16px. Colours from official specs.
+- **Flags:** 4:3 frame with a rounded clip and a neutral grey hairline (visible on light and dark). Five are our own drawings with detail reduced by size (US, JP, DE, FR, BR). The other 229 are adapted from flag-icons (MIT, credited in THIRD-PARTY.md) and placed unchanged in our frame; they are generated at build time and not committed. Replace them with our own drawings over time, emblem flags first, since those don't simplify at 16–20px. The site shows flags as images, so they don't respond to colour or stroke.
 - **Worldview param:** `worldview=default|<iso2>` across site, API, MCP.
 
 ## 6. Design system

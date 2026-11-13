@@ -108,7 +108,7 @@
   .detail .sub { color: var(--muted); font: 12px var(--mono); margin-top: 3px; }
   .hero { display: grid; place-items: center; height: 176px; background: var(--bg); border: 1px solid var(--line); border-radius: 16px; margin-top: 18px;
     background-image: radial-gradient(var(--line) 1px, transparent 1px); background-size: 12px 12px; }
-  .hero svg { width: 96px; height: 96px; }
+  .hero svg, .hero img { width: 96px; height: 96px; }
   .sizes { display: flex; align-items: end; gap: 20px; padding: 20px 2px 14px; border-bottom: 1px solid var(--line); }
   .sizes figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
   .sizes figcaption { font: 11px var(--mono); color: var(--faint); }
@@ -160,7 +160,7 @@
   </div>
   <main id="main"></main>
   <footer>
-    Icons and code are MIT. Country and region outlines are generated from Natural Earth (public domain); regions follow UN M49. Pilot build: shapes and content will change before 1.0.
+    Icons and code are MIT. Country and region outlines are generated from Natural Earth (public domain); regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). Pilot build: shapes and content will change before 1.0.
   </footer>
 </div>
 
@@ -203,11 +203,11 @@ const DATA = /*__DATA__*/null;
 const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['country', 'Countries'], ['region', 'Regions']];
 const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', country: 'Country', region: 'Region' };
 const COLORS = [['', 'Default'], ['#2f6feb', 'Blue'], ['#7c5cff', 'Violet'], ['#2da44e', 'Green'], ['#d1434b', 'Red'], ['#d4901f', 'Amber'], ['#74777d', 'Grey']];
-const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'map', labels: 'on', appearance: 'system' };
+const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
 const BASE_RADIUS_PX = 2.8, BASE_GAP_PX = 1.5;
 
-const load = () => { try { return JSON.parse(localStorage.getItem('li:settings2')) || {}; } catch { return {}; } };
-const save = () => { try { localStorage.setItem('li:settings2', JSON.stringify(Object.fromEntries(Object.keys(DEF).map((k) => [k, state[k]])))); } catch {} };
+const load = () => { try { return JSON.parse(localStorage.getItem('li:settings3')) || {}; } catch { return {}; } };
+const save = () => { try { localStorage.setItem('li:settings3', JSON.stringify(Object.fromEntries(Object.keys(DEF).map((k) => [k, state[k]])))); } catch {} };
 const state = { ...DEF, ...load(), q: '', kind: 'all', sel: null, pop: false };
 { const u = new URLSearchParams(location.search);
   if (u.get('q')) state.q = u.get('q'); if (u.get('icon')) state.sel = u.get('icon');
@@ -227,7 +227,8 @@ function strokeAt(size) {
   const s = state.scaling === 'scale' ? (base * g.stroke) / ref : base;
   return Math.round(Math.min(g.max, Math.max(g.min, s)) * 100) / 100;
 }
-const isFlag = (c) => c.kind === 'country' && state.ctry === 'flag' && !!c.flag[state.size];
+const isFlag = (c) => c.kind === 'country' && state.ctry === 'flag' && !!c.flag;
+const flagUrl = (c, size) => `flags/${c.iso2.toLowerCase()}/4x3-${size}.svg`;
 // Map outlines load on demand: one file per size for the grid, the icon's own files for the detail panel.
 const GEO = {}, GEO_LOADING = {}, ONE = {};
 function loadGeo(size) {
@@ -247,7 +248,7 @@ function mapSvg(size, style, d, stroke) {
     : `<svg ${common} fill="currentColor" stroke="currentColor" stroke-width="${DATA.grid[size].stroke}" stroke-linecap="round" stroke-linejoin="round" class="li li-solid"><path d="${d}" fill-rule="evenodd"/></svg>`;
 }
 function draw(c, size = state.size, style = state.style) {
-  if (c.kind === 'country' && state.ctry === 'flag' && c.flag[size]) return c.flag[size];
+  if (isFlag(c)) return `<img class="ic" src="${flagUrl(c, size)}" width="${size}" height="${size}" alt="" loading="lazy" decoding="async">`;
   let s;
   if (LI.has(c.id)) s = LI.render(c.id, size, style, { stroke: strokeAt(size), radius: state.radius, gap: state.gap });
   else {
@@ -257,12 +258,13 @@ function draw(c, size = state.size, style = state.style) {
   }
   return s.replace('class="li ', 'class="ic li ');
 }
-function exportSvg(c) {
+async function exportSvg(c) {
+  if (isFlag(c)) return (await fetch(flagUrl(c, state.size))).text();
   let s = draw(c).replace('class="ic li ', 'class="li ');
   if (state.color && !isFlag(c)) s = s.replace(/currentColor/g, state.color);
   return s;
 }
-const fileUrl = (c) => isFlag(c) ? `/flags/${c.iso2.toLowerCase()}/4x3-${state.size}.svg` : `/icons/${c.id}/${state.style}-${state.size}.svg`;
+const fileUrl = (c) => isFlag(c) ? '/' + flagUrl(c, state.size) : `/icons/${c.id}/${state.style}-${state.size}.svg`;
 function matches(c, q) {
   if (!q) return true;
   const hay = [c.name, c.id, c.metaphor, c.iso2, c.m49, c.parent, ...(c.keywords || [])].filter(Boolean).join(' ').toLowerCase();
@@ -323,17 +325,18 @@ function renderDetail() {
     <div class="code">${esc(location.host + fileUrl(c))}</div>
     <dl>
       <dt>Type</dt><dd>${esc(SINGULAR[c.kind] || c.kind)}${parent ? ` in <a href="?icon=${parent.id}" data-goto="${parent.id}">${esc(parent.name)}</a>` : ''}</dd>
-      ${c.metaphor ? `<dt>Image</dt><dd>${esc(c.metaphor.replace(/-/g, ' '))}</dd>` : ''}
-      ${c.reduction ? `<dt>By size</dt><dd>${esc(c.reduction)}</dd>` : ''}
+      ${c.metaphor && !isFlag(c) ? `<dt>Image</dt><dd>${esc(c.metaphor.replace(/-/g, ' '))}</dd>` : ''}
+      ${c.reduction && !isFlag(c) ? `<dt>By size</dt><dd>${esc(c.reduction)}</dd>` : ''}
       ${c.rationale ? `<dt>Why</dt><dd>${esc(c.rationale)}</dd>` : ''}
+      ${isFlag(c) && c.flag === 'flag-icons' ? `<dt>Flag art</dt><dd>Adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT)</dd>` : ''}
       ${c.keywords?.length ? `<dt>Keywords</dt><dd class="kw">${c.keywords.map((k) => `<span>${esc(k)}</span>`).join('')}</dd>` : ''}
     </dl>`;
   el.classList.add('open'); el.setAttribute('aria-hidden', 'false');
   $('#close').onclick = () => { state.sel = null; render(); };
-  $('#copy').onclick = () => copy(exportSvg(c), 'SVG copied');
+  $('#copy').onclick = async () => copy(await exportSvg(c), 'SVG copied');
   $('#url').onclick = () => copy(location.origin + fileUrl(c), 'URL copied');
   $('#cid').onclick = () => copy(c.id, 'ID copied');
-  $('#dl').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([exportSvg(c)], { type: 'image/svg+xml' }));
+  $('#dl').onclick = async () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([await exportSvg(c)], { type: 'image/svg+xml' }));
     a.download = `${c.id}-${isFlag(c) ? 'flag' : state.style}-${state.size}.svg`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); };
   el.querySelectorAll('[data-goto]').forEach((a) => (a.onclick = (e) => { e.preventDefault(); state.sel = a.dataset.goto; render(); }));
 }

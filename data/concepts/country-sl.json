@@ -15,5 +15,6 @@
   "source": "Natural Earth 1:50m via world-atlas; names CLDR",
   "status": "active",
   "replacedBy": null,
-  "since": "0.1.0"
+  "since": "0.1.0",
+  "flag": "flag-icons"
 }

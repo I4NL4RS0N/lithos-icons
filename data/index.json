@@ -601,7 +601,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ax",
@@ -621,7 +622,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-al",
@@ -640,7 +642,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-dz",
@@ -659,7 +662,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-as",
@@ -678,7 +682,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ad",
@@ -697,7 +702,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ao",
@@ -716,7 +722,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ai",
@@ -735,7 +742,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ag",
@@ -756,7 +764,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ar",
@@ -775,7 +784,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-am",
@@ -794,7 +804,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-aw",
@@ -813,7 +824,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-au",
@@ -832,7 +844,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-at",
@@ -851,7 +864,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-az",
@@ -870,7 +884,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bs",
@@ -889,7 +904,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bh",
@@ -908,7 +924,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bd",
@@ -927,7 +944,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bb",
@@ -946,7 +964,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-by",
@@ -965,7 +984,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-be",
@@ -984,7 +1004,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bz",
@@ -1003,7 +1024,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bj",
@@ -1022,7 +1044,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bm",
@@ -1041,7 +1064,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bt",
@@ -1060,7 +1084,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bo",
@@ -1080,7 +1105,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ba",
@@ -1101,7 +1127,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bw",
@@ -1120,7 +1147,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-br",
@@ -1139,7 +1167,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "own"
   },
   {
     "id": "country-io",
@@ -1159,7 +1188,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-vg",
@@ -1179,7 +1209,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bn",
@@ -1199,7 +1230,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bg",
@@ -1218,7 +1250,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bf",
@@ -1237,7 +1270,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bi",
@@ -1256,7 +1290,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-kh",
@@ -1275,7 +1310,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cm",
@@ -1294,7 +1330,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ca",
@@ -1313,7 +1350,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cv",
@@ -1333,7 +1371,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ky",
@@ -1353,7 +1392,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cf",
@@ -1373,7 +1413,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-td",
@@ -1392,7 +1433,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cl",
@@ -1411,7 +1453,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cn",
@@ -1430,7 +1473,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-co",
@@ -1449,7 +1493,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-km",
@@ -1468,7 +1513,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cg",
@@ -1488,7 +1534,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cd",
@@ -1509,7 +1556,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ck",
@@ -1529,7 +1577,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cr",
@@ -1548,7 +1597,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ci",
@@ -1568,7 +1618,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-hr",
@@ -1587,7 +1638,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cu",
@@ -1606,7 +1658,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cw",
@@ -1625,7 +1678,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cy",
@@ -1644,7 +1698,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-cz",
@@ -1663,7 +1718,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-dk",
@@ -1682,7 +1738,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-dj",
@@ -1701,7 +1758,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-dm",
@@ -1720,7 +1778,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-do",
@@ -1740,7 +1799,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ec",
@@ -1759,7 +1819,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-eg",
@@ -1778,7 +1839,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sv",
@@ -1797,7 +1859,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gq",
@@ -1817,7 +1880,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-er",
@@ -1836,7 +1900,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ee",
@@ -1855,7 +1920,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sz",
@@ -1875,7 +1941,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-et",
@@ -1894,7 +1961,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-fk",
@@ -1915,7 +1983,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-fo",
@@ -1935,7 +2004,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-fj",
@@ -1954,7 +2024,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-fi",
@@ -1973,7 +2044,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-fr",
@@ -1992,7 +2064,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "own"
   },
   {
     "id": "country-pf",
@@ -2012,7 +2085,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tf",
@@ -2032,7 +2106,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ga",
@@ -2051,7 +2126,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gm",
@@ -2070,7 +2146,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ge",
@@ -2089,7 +2166,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-de",
@@ -2108,7 +2186,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "own"
   },
   {
     "id": "country-gh",
@@ -2127,7 +2206,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gr",
@@ -2146,7 +2226,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gl",
@@ -2165,7 +2246,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gd",
@@ -2184,7 +2266,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gu",
@@ -2203,7 +2286,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gt",
@@ -2222,7 +2306,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gg",
@@ -2241,7 +2326,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gn",
@@ -2260,7 +2346,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gw",
@@ -2279,7 +2366,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gy",
@@ -2298,7 +2386,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ht",
@@ -2317,7 +2406,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-hm",
@@ -2338,7 +2428,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-hn",
@@ -2357,7 +2448,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-hk",
@@ -2377,7 +2469,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-hu",
@@ -2396,7 +2489,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-is",
@@ -2415,7 +2509,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-in",
@@ -2434,7 +2529,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-id",
@@ -2453,7 +2549,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ir",
@@ -2473,7 +2570,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-iq",
@@ -2492,7 +2590,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ie",
@@ -2511,7 +2610,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-im",
@@ -2530,7 +2630,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-il",
@@ -2549,7 +2650,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-it",
@@ -2568,7 +2670,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-jm",
@@ -2587,7 +2690,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-jp",
@@ -2606,7 +2710,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "own"
   },
   {
     "id": "country-je",
@@ -2625,7 +2730,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-jo",
@@ -2644,7 +2750,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-kz",
@@ -2663,7 +2770,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ke",
@@ -2682,7 +2790,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ki",
@@ -2701,7 +2810,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-kw",
@@ -2720,7 +2830,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-kg",
@@ -2739,7 +2850,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-la",
@@ -2759,7 +2871,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-lv",
@@ -2778,7 +2891,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-lb",
@@ -2797,7 +2911,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ls",
@@ -2816,7 +2931,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-lr",
@@ -2835,7 +2951,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ly",
@@ -2854,7 +2971,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-li",
@@ -2873,7 +2991,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-lt",
@@ -2892,7 +3011,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-lu",
@@ -2911,7 +3031,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mo",
@@ -2931,7 +3052,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mg",
@@ -2950,7 +3072,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mw",
@@ -2969,7 +3092,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-my",
@@ -2988,7 +3112,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mv",
@@ -3007,7 +3132,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ml",
@@ -3026,7 +3152,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mt",
@@ -3045,7 +3172,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mh",
@@ -3065,7 +3193,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mr",
@@ -3084,7 +3213,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mu",
@@ -3103,7 +3233,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mx",
@@ -3122,7 +3253,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-fm",
@@ -3142,7 +3274,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-md",
@@ -3162,7 +3295,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mc",
@@ -3181,7 +3315,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mn",
@@ -3200,7 +3335,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-me",
@@ -3219,7 +3355,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ms",
@@ -3238,7 +3375,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ma",
@@ -3257,7 +3395,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mz",
@@ -3276,7 +3415,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mm",
@@ -3296,7 +3436,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-na",
@@ -3315,7 +3456,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-nr",
@@ -3334,7 +3476,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-np",
@@ -3353,7 +3496,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-nl",
@@ -3373,7 +3517,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-nc",
@@ -3392,7 +3537,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-nz",
@@ -3411,7 +3557,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ni",
@@ -3430,7 +3577,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ne",
@@ -3449,7 +3597,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ng",
@@ -3468,7 +3617,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-nu",
@@ -3487,7 +3637,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-nf",
@@ -3506,7 +3657,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-kp",
@@ -3526,7 +3678,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mk",
@@ -3546,7 +3699,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mp",
@@ -3566,7 +3720,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-no",
@@ -3585,7 +3740,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-om",
@@ -3604,7 +3760,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pk",
@@ -3623,7 +3780,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pw",
@@ -3642,7 +3800,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ps",
@@ -3663,7 +3822,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pa",
@@ -3682,7 +3842,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pg",
@@ -3701,7 +3862,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-py",
@@ -3720,7 +3882,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pe",
@@ -3739,7 +3902,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ph",
@@ -3758,7 +3922,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pn",
@@ -3779,7 +3944,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pl",
@@ -3798,7 +3964,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pt",
@@ -3817,7 +3984,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pr",
@@ -3836,7 +4004,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-qa",
@@ -3855,7 +4024,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ro",
@@ -3874,7 +4044,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ru",
@@ -3894,7 +4065,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-rw",
@@ -3913,7 +4085,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ws",
@@ -3932,7 +4105,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sm",
@@ -3951,7 +4125,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-st",
@@ -3972,7 +4147,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sa",
@@ -3991,7 +4167,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sn",
@@ -4010,7 +4187,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-rs",
@@ -4029,7 +4207,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sc",
@@ -4048,7 +4227,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sl",
@@ -4067,7 +4247,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sg",
@@ -4086,7 +4267,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sx",
@@ -4106,7 +4288,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sk",
@@ -4125,7 +4308,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-si",
@@ -4144,7 +4328,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sb",
@@ -4164,7 +4349,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-so",
@@ -4183,7 +4369,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-za",
@@ -4202,7 +4389,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gs",
@@ -4223,7 +4411,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-kr",
@@ -4243,7 +4432,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ss",
@@ -4263,7 +4453,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-es",
@@ -4282,7 +4473,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-lk",
@@ -4301,7 +4493,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-bl",
@@ -4322,7 +4515,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sh",
@@ -4342,7 +4536,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-kn",
@@ -4363,7 +4558,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-lc",
@@ -4383,7 +4579,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-mf",
@@ -4404,7 +4601,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-pm",
@@ -4425,7 +4623,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-vc",
@@ -4446,7 +4645,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sd",
@@ -4465,7 +4665,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sr",
@@ -4484,7 +4685,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-se",
@@ -4503,7 +4705,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ch",
@@ -4522,7 +4725,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-sy",
@@ -4542,7 +4746,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tw",
@@ -4561,7 +4766,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tj",
@@ -4580,7 +4786,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tz",
@@ -4600,7 +4807,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-th",
@@ -4619,7 +4827,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tl",
@@ -4638,7 +4847,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tg",
@@ -4657,7 +4867,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-to",
@@ -4676,7 +4887,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tt",
@@ -4696,7 +4908,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tn",
@@ -4715,7 +4928,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tr",
@@ -4735,7 +4949,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tm",
@@ -4754,7 +4969,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-tc",
@@ -4775,7 +4991,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-vi",
@@ -4796,7 +5013,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ug",
@@ -4815,7 +5033,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ua",
@@ -4834,7 +5053,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ae",
@@ -4853,7 +5073,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-gb",
@@ -4873,7 +5094,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-us",
@@ -4893,7 +5115,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "own"
   },
   {
     "id": "country-uy",
@@ -4912,7 +5135,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-uz",
@@ -4931,7 +5155,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-vu",
@@ -4950,7 +5175,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-va",
@@ -4971,7 +5197,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ve",
@@ -4991,7 +5218,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-vn",
@@ -5011,7 +5239,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-wf",
@@ -5032,7 +5261,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-eh",
@@ -5052,7 +5282,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-ye",
@@ -5071,7 +5302,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-zm",
@@ -5090,7 +5322,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "country-zw",
@@ -5109,7 +5342,8 @@
     "source": "Natural Earth 1:50m via world-atlas; names CLDR",
     "status": "active",
     "replacedBy": null,
-    "since": "0.1.0"
+    "since": "0.1.0",
+    "flag": "flag-icons"
   },
   {
     "id": "region-world",

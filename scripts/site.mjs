@@ -15,11 +15,7 @@ cpSync('flags', join(out, 'flags'), { recursive: true });
 // Code-drawn concepts are redrawn live in the browser; only maps and flags ship as strings.
 const concepts = index.map((c) => {
   const geo = c.kind === 'country' || c.kind === 'region';
-  const flag = {};
-  if (c.kind === 'country') for (const s of SIZES) {
-    const f = join('flags', c.iso2.toLowerCase(), `4x3-${s}.svg`);
-    if (existsSync(f)) flag[s] = readFileSync(f, 'utf8').trim();
-  }
+  const flag = c.flag || null; // 'own' | 'flag-icons' | null; flag files are loaded as images, not inlined
   const rf = join('data/research', `${c.id}.json`);
   const decision = existsSync(rf) ? JSON.parse(readFileSync(rf, 'utf8')).decision : null;
   return { id: c.id, name: c.name, kind: c.kind, parent: c.parent || null, keywords: c.keywords || [], metaphor: c.metaphor,

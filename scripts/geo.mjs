@@ -2,8 +2,8 @@
 // Outlines are generated from Natural Earth 1:50m (via world-atlas, public domain) and simplified per size.
 // Names come from CLDR (Intl.DisplayNames); codes from ISO 3166-1 and UN M49.
 import { createRequire } from 'node:module';
-import { mkdirSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
+import { join, dirname } from 'node:path';
 import { geoAzimuthalEqualArea, geoConicEqualArea, geoEqualEarth, geoArea, geoCentroid, geoStream } from 'd3-geo';
 import { feature, merge } from 'topojson-client';
 import { unM49 } from 'un-m49';
@@ -14,6 +14,7 @@ const require = createRequire(import.meta.url);
 const topo = require('world-atlas/countries-50m.json');
 const iso = require('i18n-iso-countries');
 const geoms = topo.objects.countries.geometries;
+const FLAG_SRC = join(dirname(require.resolve('flag-icons/package.json')), 'flags', '4x3'); // MIT, see THIRD-PARTY.md
 const regionName = new Intl.DisplayNames(['en'], { type: 'region' });
 const byCode = new Map(unM49.map((x) => [x.code, x]));
 const r2 = (v) => +v.toFixed(2);
@@ -191,25 +192,37 @@ export function buildGeo(version) {
         + (o.clip ? ` Clipped to lon ${o.clip[0]}–${o.clip[2]}, lat ${o.clip[1]}–${o.clip[3]}.` : '') + (o.omitFromShape ? ` Omitted from the outline for legibility (still members): ${o.omitFromShape.join(', ')}.` : ''),
       source: 'Natural Earth 1:50m via world-atlas; membership UN M49', status: 'active', replacedBy: null, since: version });
   }
-  // Flags
-  for (const fl of FLAGS) {
-    const dir = join('flags', fl.iso2);
+  // Flags: our own drawings where we have them (detail reduced by size); otherwise adapted from flag-icons into our frame.
+  const own = new Map(FLAGS.map((fl) => [fl.iso2, fl]));
+  for (const rec of records.filter((r) => r.kind === 'country')) {
+    const iso2 = rec.iso2.toLowerCase(), dir = join('flags', iso2), src = join(FLAG_SRC, `${iso2}.svg`);
+    if (!own.has(iso2) && !existsSync(src)) continue;
     mkdirSync(dir, { recursive: true });
-    for (const size of SIZES) writeFileSync(join(dir, `4x3-${size}.svg`), flagSvg(fl, size));
+    const art = own.has(iso2) ? null : readFileSync(src, 'utf8');
+    for (const size of SIZES) writeFileSync(join(dir, `4x3-${size}.svg`), own.has(iso2) ? flagSvg(own.get(iso2), size) : adaptedFlagSvg(iso2, art, size));
+    rec.flag = own.has(iso2) ? 'own' : 'flag-icons';
   }
   if (skipped.length) console.log(`geo: skipped ${skipped.join(', ')}`);
   return records;
 }
 
 // ---------- flags ----------
-function flagSvg(fl, size) {
-  const { pad, tier } = GRID[size];
+// 4:3 frame shared by every flag: rounded clip plus a neutral hairline that shows on light and dark backgrounds.
+function flagFrame(iso2, size, body, extraNs = '') {
+  const { pad } = GRID[size];
   const W = size - 2 * pad, H = W * 0.75, x0 = pad, y0 = (size - H) / 2;
-  const r = Math.max(1, r2(W * 0.08));
-  const id = `f${fl.iso2}${size}`;
-  const body = fl.draw({ x0, y0, W, H, tier, size, r2 });
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" class="li li-flag">`
+  const r = Math.max(1, r2(W * 0.08)), id = `f${iso2}${size}`;
+  return `<svg xmlns="http://www.w3.org/2000/svg"${extraNs} width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" class="li li-flag">`
     + `<defs><clipPath id="${id}"><rect x="${r2(x0)}" y="${r2(y0)}" width="${r2(W)}" height="${r2(H)}" rx="${r}"/></clipPath></defs>`
-    + `<g clip-path="url(#${id})">${body}</g>`
-    + `<rect x="${r2(x0 + 0.5)}" y="${r2(y0 + 0.5)}" width="${r2(W - 1)}" height="${r2(H - 1)}" rx="${r2(r - 0.5)}" fill="none" stroke="currentColor" stroke-opacity="0.12"/></svg>\n`;
+    + `<g clip-path="url(#${id})">${body({ x0, y0, W, H })}</g>`
+    + `<rect x="${r2(x0 + 0.5)}" y="${r2(y0 + 0.5)}" width="${r2(W - 1)}" height="${r2(H - 1)}" rx="${r2(r - 0.5)}" fill="none" stroke="#808080" stroke-opacity="0.35"/></svg>\n`;
+}
+function flagSvg(fl, size) {
+  return flagFrame(fl.iso2, size, ({ x0, y0, W, H }) => fl.draw({ x0, y0, W, H, tier: GRID[size].tier, size, r2 }));
+}
+// Third-party art (640×480) placed inside our frame. The art itself is unchanged.
+function adaptedFlagSvg(iso2, src, size) {
+  const inner = src.replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '').replace(/>\s+</g, '><').trim();
+  const ns = /xlink:/.test(inner) ? ' xmlns:xlink="http://www.w3.org/1999/xlink"' : '';
+  return flagFrame(iso2, size, ({ x0, y0, W, H }) => `<svg x="${r2(x0)}" y="${r2(y0)}" width="${r2(W)}" height="${r2(H)}" viewBox="0 0 640 480" preserveAspectRatio="none">${inner}</svg>`, ns);
 }

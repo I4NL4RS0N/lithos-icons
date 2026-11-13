@@ -4,3 +4,10 @@ standards-private/*
 !standards-private/README.md
 .DS_Store
 dist/
+# Adapted flags are generated at build time from flag-icons; only our own drawings are committed.
+flags/*
+!flags/us/
+!flags/jp/
+!flags/de/
+!flags/fr/
+!flags/br/
