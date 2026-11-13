@@ -1,0 +1,19 @@
+{
+  "id": "packaging",
+  "name": "Packaging",
+  "kind": "industry",
+  "parent": "materials",
+  "metaphor": "box",
+  "keywords": [
+    "containers",
+    "paper packaging",
+    "cartons",
+    "boxes",
+    "glass",
+    "plastics"
+  ],
+  "reduction": "20+: tape.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,798 @@
+{
+  "concept": "hospitals",
+  "query": "hospital",
+  "fetched": "2026-11-13T19:15:20.124Z",
+  "topTerms": [
+    [
+      "hospital",
+      50
+    ],
+    [
+      "healthcare",
+      27
+    ],
+    [
+      "clinic",
+      26
+    ],
+    [
+      "building",
+      23
+    ],
+    [
+      "medical",
+      20
+    ],
+    [
+      "medical-center",
+      13
+    ],
+    [
+      "health",
+      12
+    ],
+    [
+      "emergency",
+      11
+    ],
+    [
+      "medicine",
+      7
+    ],
+    [
+      "care",
+      6
+    ],
+    [
+      "facility",
+      6
+    ],
+    [
+      "hospital-building",
+      5
+    ],
+    [
+      "treatment",
+      5
+    ],
+    [
+      "patient",
+      5
+    ],
+    [
+      "hospital-departments",
+      2
+    ],
+    [
+      "hospitalization",
+      2
+    ],
+    [
+      "hospitals",
+      2
+    ],
+    [
+      "doctor",
+      2
+    ],
+    [
+      "architecture",
+      2
+    ],
+    [
+      "city",
+      2
+    ],
+    [
+      "modern",
+      2
+    ],
+    [
+      "urban",
+      2
+    ],
+    [
+      "pharmacy",
+      2
+    ],
+    [
+      "map-pointer",
+      1
+    ],
+    [
+      "maps-and-location",
+      1
+    ],
+    [
+      "placeholder",
+      1
+    ],
+    [
+      "aid",
+      1
+    ],
+    [
+      "first-aid",
+      1
+    ],
+    [
+      "red-cross",
+      1
+    ],
+    [
+      "location",
+      1
+    ],
+    [
+      "map",
+      1
+    ],
+    [
+      "navigation",
+      1
+    ],
+    [
+      "recovery",
+      1
+    ],
+    [
+      "room",
+      1
+    ],
+    [
+      "call",
+      1
+    ],
+    [
+      "disability",
+      1
+    ],
+    [
+      "medicals",
+      1
+    ],
+    [
+      "wheelchair",
+      1
+    ],
+    [
+      "healthcare-and-medical",
+      1
+    ],
+    [
+      "healthy",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "care",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453165-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "emergency",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443223-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438555-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "healthcare",
+            "hospital",
+            "hospital-building",
+            "map-pointer",
+            "maps-and-location",
+            "placeholder"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8431507-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "aid",
+            "emergency",
+            "first-aid",
+            "hospital",
+            "red-cross"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428786-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "care",
+            "health",
+            "hospital",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8315594-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "hospital",
+            "hospital",
+            "location",
+            "map",
+            "medical",
+            "navigation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8253661-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "care",
+            "health",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8219947-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "hospital",
+            "hospital",
+            "hospital-building",
+            "hospital-departments",
+            "hospitalization",
+            "hospitals"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8095337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "hospital",
+            "hospital-building",
+            "hospital-departments",
+            "hospitalization",
+            "hospitals"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8095336-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "doctor",
+            "emergency",
+            "hospital",
+            "medicine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1658509-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "architecture",
+            "building",
+            "city",
+            "hospital",
+            "modern",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516963-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "architecture",
+            "building",
+            "city",
+            "hospital",
+            "modern",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516949-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "health",
+            "hospital",
+            "medical",
+            "medicine",
+            "pharmacy",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514575-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "health",
+            "hospital",
+            "medical",
+            "medicine",
+            "pharmacy",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514342-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "emergency",
+            "health",
+            "healthcare",
+            "hospital"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512408-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "facility",
+            "healthcare",
+            "hospital",
+            "patient",
+            "recovery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511640-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "hospital",
+            "medicine",
+            "patient",
+            "room"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507988-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "call",
+            "doctor",
+            "hospital",
+            "hospital"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "health",
+            "hospital",
+            "medicine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507975-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "facility",
+            "healthcare",
+            "hospital",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501092-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "facility",
+            "healthcare",
+            "hospital",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501081-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "emergency",
+            "health",
+            "hospital",
+            "hospital-building",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500250-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498142-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498053-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "disability",
+            "hospital",
+            "medicals",
+            "patient",
+            "wheelchair"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491236-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "emergency",
+            "health",
+            "hospital",
+            "hospital-building",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486429-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "care",
+            "clinic",
+            "emergency",
+            "hospital",
+            "medical-center",
+            "patient"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485096-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "health",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483001-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "care",
+            "health",
+            "hospital"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482807-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "hospital"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "emergency",
+            "healthcare",
+            "hospital",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical",
+            "medical-center",
+            "medicine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477281-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "healthcare",
+            "healthcare-and-medical",
+            "hospital",
+            "medical",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476127-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "healthy",
+            "hospital",
+            "hospital",
+            "house",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475082-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "emergency",
+            "health",
+            "hospital"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474538-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "buildings",
+            "clinic",
+            "emergency",
+            "healthcare",
+            "hospital",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474060-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "care",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466840-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "healthcare",
+            "hospital",
+            "medical",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466642-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical",
+            "medicine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "healthcare",
+            "healthcare-facility",
+            "hospital",
+            "medical-building"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464205-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "facility",
+            "healthcare",
+            "hospital",
+            "medical",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461542-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "clinic",
+            "facility",
+            "healthcare",
+            "hospital",
+            "medical",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461522-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "health",
+            "hospital",
+            "infirmary"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459942-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "healthcare",
+            "hospital",
+            "medical"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459692-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "emergency",
+            "healthcare",
+            "hospital",
+            "medical-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8458286-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "bed",
+            "healthcare",
+            "hospital",
+            "patient",
+            "ward"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8457244-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hospital",
+          "tags": [
+            "building",
+            "clinic",
+            "facility",
+            "healthcare",
+            "hospital",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455299-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "hospital-building",
+    "rationale": "Refs for \"hospital\" dominated by buildings with a cross.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

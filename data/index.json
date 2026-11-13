@@ -573,6 +573,232 @@
     "since": "0.1.0"
   },
   {
+    "id": "renewable-energy",
+    "name": "Renewable Energy",
+    "kind": "industry",
+    "parent": "utilities",
+    "metaphor": "wind-turbine",
+    "keywords": [
+      "renewables",
+      "wind",
+      "solar",
+      "clean energy",
+      "independent power producers",
+      "green energy"
+    ],
+    "reduction": "24+: ground line.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "marine-shipping",
+    "name": "Marine Shipping",
+    "kind": "industry",
+    "parent": "transportation",
+    "metaphor": "cargo-ship",
+    "keywords": [
+      "shipping",
+      "ports",
+      "containers",
+      "freight",
+      "maritime",
+      "tankers"
+    ],
+    "reduction": "20+: funnel. 32+: container dividers.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "rail",
+    "name": "Rail",
+    "kind": "industry",
+    "parent": "transportation",
+    "metaphor": "train-front",
+    "keywords": [
+      "railroads",
+      "trains",
+      "transit",
+      "freight rail",
+      "passenger rail"
+    ],
+    "reduction": "16: window as a line. 24+: headlights.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "capital-markets",
+    "name": "Capital Markets",
+    "kind": "industry",
+    "parent": "financials",
+    "metaphor": "candlesticks",
+    "keywords": [
+      "stock market",
+      "trading",
+      "exchanges",
+      "brokerage",
+      "investment banking",
+      "securities"
+    ],
+    "reduction": "None — three candles at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "asset-management",
+    "name": "Asset Management",
+    "kind": "industry",
+    "parent": "financials",
+    "metaphor": "pie-chart",
+    "keywords": [
+      "investment managers",
+      "funds",
+      "portfolio",
+      "wealth management",
+      "allocation",
+      "custody"
+    ],
+    "reduction": "None — pie and slice at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "consumer-finance",
+    "name": "Consumer Finance",
+    "kind": "industry",
+    "parent": "financials",
+    "metaphor": "credit-card",
+    "keywords": [
+      "credit cards",
+      "payments",
+      "personal loans",
+      "lending",
+      "card issuers"
+    ],
+    "reduction": "20+: detail line under the stripe.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "hospitals",
+    "name": "Hospitals",
+    "kind": "industry",
+    "parent": "health-care",
+    "metaphor": "hospital-building",
+    "keywords": [
+      "health care providers",
+      "health care facilities",
+      "clinics",
+      "acute care",
+      "health systems"
+    ],
+    "reduction": "24+: door.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "sovereigns",
+    "name": "Sovereigns",
+    "kind": "asset-class",
+    "metaphor": "globe",
+    "keywords": [
+      "sovereign debt",
+      "government bonds",
+      "countries",
+      "treasuries",
+      "supranationals",
+      "global"
+    ],
+    "reduction": "None — globe, equator and meridian at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "media",
+    "name": "Media",
+    "kind": "industry",
+    "parent": "communication-services",
+    "metaphor": "play-screen",
+    "keywords": [
+      "entertainment",
+      "streaming",
+      "broadcasting",
+      "publishing",
+      "advertising",
+      "film",
+      "video"
+    ],
+    "reduction": "None — screen and play mark at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "packaging",
+    "name": "Packaging",
+    "kind": "industry",
+    "parent": "materials",
+    "metaphor": "box",
+    "keywords": [
+      "containers",
+      "paper packaging",
+      "cartons",
+      "boxes",
+      "glass",
+      "plastics"
+    ],
+    "reduction": "20+: tape.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "paper-forest-products",
+    "name": "Paper & Forest Products",
+    "kind": "industry",
+    "parent": "materials",
+    "metaphor": "conifer",
+    "keywords": [
+      "forestry",
+      "timber",
+      "pulp",
+      "paper",
+      "wood products",
+      "lumber"
+    ],
+    "reduction": "16–20: single-tier tree. 24+: two tiers.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "it-services",
+    "name": "IT Services",
+    "kind": "industry",
+    "parent": "information-technology",
+    "metaphor": "cloud",
+    "keywords": [
+      "cloud",
+      "hosting",
+      "data centers",
+      "consulting",
+      "outsourcing",
+      "infrastructure",
+      "internet services"
+    ],
+    "reduction": "None — single shape.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "energy",
     "name": "Energy",
     "kind": "sector",

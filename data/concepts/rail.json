@@ -1,0 +1,18 @@
+{
+  "id": "rail",
+  "name": "Rail",
+  "kind": "industry",
+  "parent": "transportation",
+  "metaphor": "train-front",
+  "keywords": [
+    "railroads",
+    "trains",
+    "transit",
+    "freight rail",
+    "passenger rail"
+  ],
+  "reduction": "16: window as a line. 24+: headlights.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sovereigns",
+  "name": "Sovereigns",
+  "kind": "asset-class",
+  "metaphor": "globe",
+  "keywords": [
+    "sovereign debt",
+    "government bonds",
+    "countries",
+    "treasuries",
+    "supranationals",
+    "global"
+  ],
+  "reduction": "None — globe, equator and meridian at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

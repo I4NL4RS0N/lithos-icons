@@ -1,0 +1,19 @@
+{
+  "id": "marine-shipping",
+  "name": "Marine Shipping",
+  "kind": "industry",
+  "parent": "transportation",
+  "metaphor": "cargo-ship",
+  "keywords": [
+    "shipping",
+    "ports",
+    "containers",
+    "freight",
+    "maritime",
+    "tankers"
+  ],
+  "reduction": "20+: funnel. 32+: container dividers.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

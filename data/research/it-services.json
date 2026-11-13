@@ -1,0 +1,797 @@
+{
+  "concept": "it-services",
+  "query": "cloud computing",
+  "fetched": "2026-11-13T19:15:23.330Z",
+  "topTerms": [
+    [
+      "cloud computing",
+      50
+    ],
+    [
+      "cloud-computing",
+      50
+    ],
+    [
+      "technology",
+      23
+    ],
+    [
+      "storage",
+      20
+    ],
+    [
+      "server",
+      18
+    ],
+    [
+      "cloud",
+      14
+    ],
+    [
+      "data",
+      13
+    ],
+    [
+      "computing",
+      12
+    ],
+    [
+      "online",
+      10
+    ],
+    [
+      "digital",
+      9
+    ],
+    [
+      "network",
+      8
+    ],
+    [
+      "service",
+      7
+    ],
+    [
+      "database",
+      5
+    ],
+    [
+      "data-storage",
+      5
+    ],
+    [
+      "infrastructure",
+      3
+    ],
+    [
+      "development",
+      2
+    ],
+    [
+      "networking",
+      2
+    ],
+    [
+      "software",
+      2
+    ],
+    [
+      "futuristic",
+      2
+    ],
+    [
+      "space",
+      2
+    ],
+    [
+      "tech",
+      2
+    ],
+    [
+      "deploy",
+      2
+    ],
+    [
+      "scale",
+      2
+    ],
+    [
+      "secure",
+      2
+    ],
+    [
+      "store",
+      2
+    ],
+    [
+      "virtualization",
+      2
+    ],
+    [
+      "cloudy",
+      2
+    ],
+    [
+      "sky",
+      2
+    ],
+    [
+      "weather",
+      2
+    ],
+    [
+      "digital-network",
+      2
+    ],
+    [
+      "online-server",
+      2
+    ],
+    [
+      "security",
+      2
+    ],
+    [
+      "analysis",
+      1
+    ],
+    [
+      "analytics",
+      1
+    ],
+    [
+      "big-data",
+      1
+    ],
+    [
+      "cloud-storage",
+      1
+    ],
+    [
+      "data-backup",
+      1
+    ],
+    [
+      "file-sharing",
+      1
+    ],
+    [
+      "online-storage",
+      1
+    ],
+    [
+      "cloud-data",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "analysis",
+            "analytics",
+            "big-data",
+            "cloud-computing",
+            "data",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462373-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "network",
+            "server",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509659-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "network",
+            "server",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509657-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "computing",
+            "data",
+            "service",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508175-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "cloud-computing",
+            "cloud-storage",
+            "data-backup",
+            "file-sharing",
+            "online-storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505712-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "database",
+            "network",
+            "server",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8503006-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "cloud-data",
+            "cloud-network",
+            "hosting",
+            "web-development"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8502054-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "data-storage",
+            "server",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498844-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "data-storage",
+            "server",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "computing",
+            "infrastructure",
+            "online",
+            "services",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495557-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "infrastructure",
+            "online",
+            "server",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486793-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "infrastructure",
+            "online",
+            "server",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486772-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "data",
+            "internet",
+            "remote"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485684-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "cloud-computing",
+            "development",
+            "networking",
+            "server",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "cloud-computing",
+            "development",
+            "networking",
+            "server",
+            "software"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483795-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "ai",
+            "cloud-computing",
+            "computer",
+            "digital",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478669-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "computing",
+            "service",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478321-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "digital",
+            "futuristic",
+            "space",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474585-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "digital",
+            "futuristic",
+            "space",
+            "tech",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474566-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "database",
+            "network",
+            "server",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474373-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "server",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472149-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "digital",
+            "online",
+            "service",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467213-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "digital",
+            "online",
+            "service",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467211-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467207-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "online",
+            "service",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467187-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "digital",
+            "online",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467183-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "online",
+            "service",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467170-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467166-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "server",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460748-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "server",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460716-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "business-technology",
+            "cloud-computing",
+            "cloud-services",
+            "data-storage",
+            "digital-business"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "cloud-computing",
+            "integration",
+            "personal-computer",
+            "server"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8458820-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "cloud-computing",
+            "deploy",
+            "scale",
+            "secure",
+            "store"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8457673-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "database",
+            "network",
+            "server",
+            "storage",
+            "virtualization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456971-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "computing",
+            "digital",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456436-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "cloudy",
+            "sky",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8445480-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "cloudy",
+            "sky",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8445414-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data",
+            "digital",
+            "online",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8445073-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "database",
+            "network",
+            "server",
+            "storage",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8444847-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data-storage",
+            "digital-network",
+            "online-server",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8444829-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "cloud-computing",
+            "deploy",
+            "scale",
+            "secure",
+            "store"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8440056-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436539-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435193-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "business",
+            "cloud-computing",
+            "data",
+            "digital",
+            "online",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430525-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "data",
+            "network",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425186-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "data-storage",
+            "digital-network",
+            "online-server",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8423456-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "scalable",
+            "server",
+            "service",
+            "storage",
+            "virtual"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8421379-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud",
+            "cloud-computing",
+            "lock",
+            "protect",
+            "security",
+            "upload"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8420135-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cloud Computing",
+          "tags": [
+            "cloud-computing",
+            "database",
+            "network",
+            "server",
+            "storage",
+            "virtualization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417711-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "cloud",
+    "rationale": "Refs for \"cloud computing\" are clouds.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

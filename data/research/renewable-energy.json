@@ -1,0 +1,823 @@
+{
+  "concept": "renewable-energy",
+  "query": "renewable energy",
+  "fetched": "2026-11-13T19:15:16.541Z",
+  "topTerms": [
+    [
+      "renewable energy",
+      50
+    ],
+    [
+      "renewable-energy",
+      50
+    ],
+    [
+      "energy",
+      27
+    ],
+    [
+      "renewable",
+      19
+    ],
+    [
+      "power",
+      16
+    ],
+    [
+      "sustainability",
+      15
+    ],
+    [
+      "eco",
+      13
+    ],
+    [
+      "sustainable",
+      12
+    ],
+    [
+      "green-energy",
+      11
+    ],
+    [
+      "environment",
+      11
+    ],
+    [
+      "ecology",
+      10
+    ],
+    [
+      "electricity",
+      10
+    ],
+    [
+      "solar-panel",
+      7
+    ],
+    [
+      "sustainable-energy",
+      6
+    ],
+    [
+      "clean",
+      6
+    ],
+    [
+      "solar",
+      6
+    ],
+    [
+      "wind-turbine",
+      5
+    ],
+    [
+      "green",
+      4
+    ],
+    [
+      "eco-friendly",
+      3
+    ],
+    [
+      "clean-power",
+      3
+    ],
+    [
+      "wind",
+      3
+    ],
+    [
+      "innovation",
+      3
+    ],
+    [
+      "battery",
+      2
+    ],
+    [
+      "solar-energy",
+      2
+    ],
+    [
+      "wind-power",
+      2
+    ],
+    [
+      "wind-energy",
+      2
+    ],
+    [
+      "clean-energy",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "electric",
+      2
+    ],
+    [
+      "recycling",
+      2
+    ],
+    [
+      "panel",
+      2
+    ],
+    [
+      "photovoltaic",
+      2
+    ],
+    [
+      "sun",
+      2
+    ],
+    [
+      "leaf",
+      2
+    ],
+    [
+      "inexhaustible",
+      1
+    ],
+    [
+      "electrical-power",
+      1
+    ],
+    [
+      "solar-power",
+      1
+    ],
+    [
+      "ecological",
+      1
+    ],
+    [
+      "enviromental",
+      1
+    ],
+    [
+      "recycle",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "renewable energy",
+          "tags": [
+            "battery",
+            "renewable-energy",
+            "renewable-energy",
+            "solar-panel",
+            "sustainability",
+            "wind-turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8433879-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco-friendly",
+            "inexhaustible",
+            "renewable",
+            "renewable-energy",
+            "solar-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7107113-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "renewable-energy",
+            "solar-energy",
+            "solar-panel",
+            "sustainable-energy",
+            "wind-power",
+            "wind-turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5435116-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "electrical-power",
+            "renewable-energy",
+            "solar-panel",
+            "solar-power",
+            "wind-energy",
+            "wind-turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4051899-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "ecological",
+            "ecology",
+            "enviromental",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518752-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean-energy",
+            "power",
+            "recycle",
+            "renewable-energy",
+            "renewable-energy",
+            "sustainable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514906-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean",
+            "energy",
+            "green",
+            "renewable",
+            "renewable-energy",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508858-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "energy",
+            "renewable",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507881-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "power",
+            "renewable",
+            "renewable-energy",
+            "solar",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501618-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean-energy",
+            "renewable-energy",
+            "solar-panel",
+            "sustainable-energy",
+            "wind-power",
+            "wind-turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495297-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean-power",
+            "natural-resources",
+            "renewable-energy",
+            "sustainable-energy",
+            "wave-energy",
+            "wind-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495285-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "power",
+            "renewable",
+            "renewable-energy",
+            "solar",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490919-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "power",
+            "renewable",
+            "renewable-energy",
+            "sustainable",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488057-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "ecology",
+            "energy",
+            "oil",
+            "power",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487061-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "future",
+            "renewable-energy",
+            "sustainable",
+            "technology",
+            "turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "power",
+            "renewable-energy",
+            "renewable-energy",
+            "solar",
+            "sustainability",
+            "wind"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472946-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy-cycle",
+            "green-power",
+            "power-recycling",
+            "renewable-energy",
+            "sustainable-electricity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470455-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "electric",
+            "energy",
+            "green-energy",
+            "renewable",
+            "renewable-energy",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459915-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "green-energy",
+            "innovation",
+            "renewable",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8447413-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "circular",
+            "ecology",
+            "electricity",
+            "power",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432941-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "battery",
+            "renewable-energy",
+            "renewable-energy",
+            "solar-panel",
+            "sustainability",
+            "wind-turbine"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8429805-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "electricity",
+            "energy",
+            "renewable",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405663-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "electricity",
+            "energy",
+            "recycling",
+            "renewable",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405646-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean",
+            "eco",
+            "energy",
+            "renewable-energy",
+            "sustainable",
+            "wind"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403757-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean",
+            "eco",
+            "energy",
+            "renewable-energy",
+            "sustainable",
+            "wind"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403731-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "electricity",
+            "power",
+            "renewable",
+            "renewable-energy",
+            "solar-panel",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8397823-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "electricity",
+            "power",
+            "renewable",
+            "renewable-energy",
+            "solar-panel",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8397789-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "electricity",
+            "energy",
+            "environment",
+            "green-energy",
+            "power",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8397679-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "ecology",
+            "energy",
+            "environment",
+            "renewable",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389707-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean-power",
+            "environment",
+            "green-energy",
+            "renewable-energy",
+            "sustainable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8387472-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean-power",
+            "environment",
+            "green-energy",
+            "renewable-energy",
+            "sustainable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8387450-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "ecology",
+            "ecosystem",
+            "environment",
+            "nature",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8387266-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "ecology",
+            "electricity",
+            "environment",
+            "green-energy",
+            "power",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8385775-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "green",
+            "renewable",
+            "renewable-energy",
+            "solar",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8382568-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "electric",
+            "energy",
+            "green-energy",
+            "renewable",
+            "renewable-energy",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8361742-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean",
+            "cycle",
+            "electricity",
+            "energy",
+            "power",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8361168-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "arrows",
+            "energy",
+            "infinity",
+            "power",
+            "renewable",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347604-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "panel",
+            "photovoltaic",
+            "renewable-energy",
+            "solar",
+            "sun"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8345605-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "panel",
+            "photovoltaic",
+            "renewable-energy",
+            "solar",
+            "sun"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8345578-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "ecology",
+            "environment",
+            "green-energy",
+            "power",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8343232-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "ecology",
+            "energy",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8343060-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "energy",
+            "environment",
+            "green",
+            "renewable-energy",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339516-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean",
+            "eco-friendly",
+            "leaf",
+            "power",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339515-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "clean",
+            "eco-friendly",
+            "leaf",
+            "power",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339505-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "energy",
+            "environment",
+            "green",
+            "renewable-energy",
+            "sustainable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339503-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "energy",
+            "green-energy",
+            "renewable",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8338020-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "electricity",
+            "energy",
+            "recycling",
+            "renewable",
+            "renewable-energy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8335984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "eco",
+            "electricity",
+            "energy",
+            "renewable",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8335963-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "ecology",
+            "environment",
+            "green-energy",
+            "innovation",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334916-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "renewable energy",
+          "tags": [
+            "ecology",
+            "environment",
+            "green-energy",
+            "innovation",
+            "renewable-energy",
+            "sustainability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334877-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "wind-turbine",
+    "rationale": "Refs for \"renewable energy\" dominated by wind turbines, solar panels and bolt-in-cycle marks; a turbine is the simplest at 16px.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

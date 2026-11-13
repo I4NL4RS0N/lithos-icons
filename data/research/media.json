@@ -1,0 +1,817 @@
+{
+  "concept": "media",
+  "query": "media",
+  "fetched": "2026-11-13T19:15:21.430Z",
+  "topTerms": [
+    [
+      "media",
+      50
+    ],
+    [
+      "multimedia",
+      21
+    ],
+    [
+      "video",
+      19
+    ],
+    [
+      "content",
+      18
+    ],
+    [
+      "digital",
+      15
+    ],
+    [
+      "play",
+      10
+    ],
+    [
+      "broadcast",
+      9
+    ],
+    [
+      "movie",
+      8
+    ],
+    [
+      "communication",
+      8
+    ],
+    [
+      "marketing",
+      6
+    ],
+    [
+      "technology",
+      6
+    ],
+    [
+      "player",
+      6
+    ],
+    [
+      "press",
+      6
+    ],
+    [
+      "music",
+      5
+    ],
+    [
+      "news",
+      5
+    ],
+    [
+      "media-player",
+      4
+    ],
+    [
+      "online",
+      4
+    ],
+    [
+      "search",
+      4
+    ],
+    [
+      "seo",
+      4
+    ],
+    [
+      "social-media",
+      3
+    ],
+    [
+      "monitor",
+      3
+    ],
+    [
+      "laptop",
+      3
+    ],
+    [
+      "social",
+      3
+    ],
+    [
+      "camera",
+      2
+    ],
+    [
+      "cinema",
+      2
+    ],
+    [
+      "picture",
+      2
+    ],
+    [
+      "entertainment",
+      2
+    ],
+    [
+      "journalism",
+      2
+    ],
+    [
+      "network",
+      2
+    ],
+    [
+      "publication",
+      2
+    ],
+    [
+      "assets",
+      2
+    ],
+    [
+      "files",
+      2
+    ],
+    [
+      "formats",
+      2
+    ],
+    [
+      "device",
+      2
+    ],
+    [
+      "optimization",
+      2
+    ],
+    [
+      "gallery",
+      2
+    ],
+    [
+      "intranet",
+      2
+    ],
+    [
+      "outlet",
+      2
+    ],
+    [
+      "report",
+      2
+    ],
+    [
+      "viral",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Media",
+          "tags": [
+            "camera",
+            "cinema",
+            "film",
+            "media",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510757-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "marketing",
+            "media",
+            "multimedia",
+            "social-media",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7929110-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "configuration",
+            "media",
+            "multimedia",
+            "platform",
+            "settings",
+            "social-network"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7921410-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "image",
+            "landscape",
+            "library",
+            "media",
+            "picture"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3519076-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "media",
+            "multimedia",
+            "play",
+            "technology",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "media",
+            "media",
+            "multimedia",
+            "play",
+            "technology",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511985-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "cinema",
+            "lens",
+            "media",
+            "monitor",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511245-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "entertainment",
+            "media",
+            "media-player",
+            "music",
+            "streaming",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8504588-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "communication",
+            "content",
+            "digital",
+            "marketing",
+            "media"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8502723-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "digital",
+            "media",
+            "mobile",
+            "movie",
+            "multimedia"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501898-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "media",
+            "media-player",
+            "multimedia",
+            "music",
+            "player",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498680-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "laptop",
+            "media",
+            "media-player",
+            "multimedia",
+            "pc",
+            "portable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492100-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "media",
+            "multimedia",
+            "player",
+            "social",
+            "social-media"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466951-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "digital",
+            "marketing",
+            "media",
+            "multimedia",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8463673-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "digital",
+            "media",
+            "monitor",
+            "multimedia",
+            "play"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462733-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "journalism",
+            "media",
+            "network",
+            "press",
+            "publication"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437713-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "media",
+            "movie",
+            "multimedia",
+            "play",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "media",
+            "movie",
+            "multimedia",
+            "play",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "digital",
+            "media",
+            "multimedia",
+            "player",
+            "social"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428906-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "assets",
+            "content",
+            "files",
+            "formats",
+            "media",
+            "multimedia"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "assets",
+            "content",
+            "files",
+            "formats",
+            "media",
+            "multimedia"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408907-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "communication",
+            "connect",
+            "connection",
+            "internet",
+            "media"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8396887-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "digital",
+            "live",
+            "media",
+            "media-player",
+            "multimedia",
+            "player"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8396221-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "journalism",
+            "media",
+            "network",
+            "press",
+            "publication"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8394176-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "business",
+            "creator",
+            "development",
+            "management",
+            "media",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8378745-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "device",
+            "laptop",
+            "media",
+            "movie",
+            "play",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8375215-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "communication",
+            "content",
+            "media",
+            "news"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8370162-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "media",
+            "photo",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8367842-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "digital",
+            "media",
+            "online",
+            "optimization",
+            "search",
+            "seo"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8367283-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "digital",
+            "media",
+            "online",
+            "optimization",
+            "search",
+            "seo"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8367253-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "gallery",
+            "intranet",
+            "media",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8365496-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "gallery",
+            "intranet",
+            "media",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8365463-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "communication",
+            "digital",
+            "media",
+            "news",
+            "press"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364437-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "communication",
+            "digital",
+            "media",
+            "news",
+            "press"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364435-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "medias",
+          "tags": [
+            "digital",
+            "media",
+            "medias",
+            "music",
+            "picture",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8362034-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "computer",
+            "content",
+            "digital",
+            "marketing",
+            "media",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8358984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "browser",
+            "media",
+            "play",
+            "ui",
+            "user-interface",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8345677-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "entertainment",
+            "media",
+            "monitor",
+            "multimedia",
+            "play"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8312109-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "media",
+            "outlet",
+            "report",
+            "viral"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8302796-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "communication",
+            "digital",
+            "media",
+            "news",
+            "press"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296259-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "broadcast",
+            "communication",
+            "digital",
+            "media",
+            "news",
+            "press"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8289143-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "media",
+            "multimedia",
+            "play",
+            "player",
+            "social-media",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8288433-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "device",
+            "laptop",
+            "media",
+            "movie",
+            "play",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8273067-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "audio",
+            "media",
+            "multimedia",
+            "music",
+            "phone",
+            "player"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8244532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "communication",
+            "media",
+            "multimedia",
+            "social",
+            "technology",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8244510-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "media",
+            "outlet",
+            "report",
+            "viral"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8235470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "camera",
+            "media",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8234189-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "marketing",
+            "media",
+            "online",
+            "search",
+            "seo",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8223217-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "marketing",
+            "media",
+            "online",
+            "search",
+            "seo",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8223191-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Media",
+          "tags": [
+            "content",
+            "digital",
+            "media",
+            "movie",
+            "multimedia",
+            "music"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8219147-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "play-screen",
+    "rationale": "Refs for \"media\" dominated by a play mark on a screen.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

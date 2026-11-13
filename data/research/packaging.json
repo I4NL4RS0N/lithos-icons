@@ -1,0 +1,799 @@
+{
+  "concept": "packaging",
+  "query": "packaging",
+  "fetched": "2026-11-13T19:15:22.064Z",
+  "topTerms": [
+    [
+      "package",
+      42
+    ],
+    [
+      "box",
+      30
+    ],
+    [
+      "delivery",
+      19
+    ],
+    [
+      "parcel",
+      15
+    ],
+    [
+      "packaging",
+      14
+    ],
+    [
+      "shipping",
+      13
+    ],
+    [
+      "product",
+      9
+    ],
+    [
+      "cardboard",
+      7
+    ],
+    [
+      "logistics",
+      7
+    ],
+    [
+      "packages",
+      4
+    ],
+    [
+      "cargo",
+      4
+    ],
+    [
+      "business",
+      4
+    ],
+    [
+      "ecommerce",
+      4
+    ],
+    [
+      "online",
+      4
+    ],
+    [
+      "wrapping",
+      4
+    ],
+    [
+      "shipment",
+      4
+    ],
+    [
+      "fragile",
+      3
+    ],
+    [
+      "packing",
+      3
+    ],
+    [
+      "container",
+      3
+    ],
+    [
+      "postal-service",
+      2
+    ],
+    [
+      "sale",
+      2
+    ],
+    [
+      "store",
+      2
+    ],
+    [
+      "checklist",
+      2
+    ],
+    [
+      "delivery-success",
+      2
+    ],
+    [
+      "done",
+      2
+    ],
+    [
+      "checklst",
+      2
+    ],
+    [
+      "checkmark",
+      2
+    ],
+    [
+      "supplies",
+      2
+    ],
+    [
+      "order",
+      2
+    ],
+    [
+      "warehouse",
+      2
+    ],
+    [
+      "location",
+      2
+    ],
+    [
+      "tracking",
+      2
+    ],
+    [
+      "beverage",
+      2
+    ],
+    [
+      "food",
+      2
+    ],
+    [
+      "restaurant",
+      2
+    ],
+    [
+      "arrows",
+      2
+    ],
+    [
+      "delivery-logistics",
+      2
+    ],
+    [
+      "courier",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "shipping-and-delivery",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "packages",
+          "tags": [
+            "call",
+            "calling",
+            "chat-and-phone",
+            "contact-service",
+            "packages",
+            "phone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466769-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "box",
+            "goods",
+            "package",
+            "packaging",
+            "packaging",
+            "product"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8254950-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "bottle",
+            "packaging",
+            "plastic",
+            "pollution",
+            "waste"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7214458-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "cargo",
+            "delivery",
+            "logistic",
+            "package",
+            "postal-service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515872-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "business",
+            "ecommerce",
+            "online",
+            "package",
+            "sale",
+            "store"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "business",
+            "ecommerce",
+            "online",
+            "package",
+            "sale",
+            "store"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512137-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "hand",
+            "package",
+            "receive"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510441-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "packaging"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508273-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "packaging"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "packaging"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508248-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "fragile",
+            "package",
+            "packing",
+            "security",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8503334-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "checklist",
+            "delivery-success",
+            "done",
+            "package"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500949-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "checklist",
+            "delivery-success",
+            "done",
+            "package"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500940-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "checklst",
+            "checkmark",
+            "package"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498409-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "checklst",
+            "checkmark",
+            "package",
+            "package"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498399-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "cardboard",
+            "package",
+            "parcel",
+            "product",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495525-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "cargo",
+            "delivery",
+            "package",
+            "parcel",
+            "product"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "cardboard",
+            "carton",
+            "container",
+            "packaging",
+            "supplies",
+            "wrapping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494718-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "box",
+            "cardboard",
+            "delivery",
+            "order",
+            "packaging",
+            "shipment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494609-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "packages",
+          "tags": [
+            "delivery",
+            "logistics",
+            "package",
+            "packages",
+            "parcel",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492975-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "logistics",
+            "package",
+            "parcel",
+            "stock",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488425-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "parcel",
+            "shipping",
+            "wrapping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488395-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "box",
+            "materials",
+            "packaging",
+            "protection",
+            "supplies",
+            "wrapping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488345-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "delivery",
+            "location",
+            "logistics",
+            "package",
+            "shipping",
+            "tracking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486550-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "delivery",
+            "location",
+            "logistics",
+            "package",
+            "shipping",
+            "tracking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486549-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "beverage",
+            "food",
+            "package",
+            "restaurant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484327-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "beverage",
+            "food",
+            "noodle",
+            "package",
+            "restaurant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484321-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "delivery",
+            "package",
+            "packages",
+            "packaging",
+            "parcel",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482883-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "package",
+            "parcel",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481248-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "parcel",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481237-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "parcel",
+            "postal-service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478623-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "arrows",
+            "delivery-logistics",
+            "packaging",
+            "shipment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477175-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "arrows",
+            "delivery-logistics",
+            "package",
+            "shipment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477171-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "box",
+            "container",
+            "foldable",
+            "package",
+            "packaging",
+            "product"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475126-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "cargo",
+            "hub",
+            "package",
+            "product",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474515-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "box",
+            "container",
+            "packaging",
+            "parcel",
+            "product",
+            "wrapping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473731-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "add",
+            "box",
+            "cargo",
+            "logistics",
+            "package",
+            "purchase"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473712-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "order",
+            "package",
+            "parcel",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471073-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "packages",
+          "tags": [
+            "box",
+            "delivery-service",
+            "package",
+            "packages",
+            "product",
+            "warehouse-item"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8469698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "courier",
+            "delivery",
+            "package"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467664-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "business",
+            "ecommerce",
+            "online",
+            "package",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465616-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "business",
+            "ecommerce",
+            "online",
+            "package",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465596-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "box",
+            "cardboard",
+            "package",
+            "packaging",
+            "packing",
+            "product"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464002-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "cardboard",
+            "fragile",
+            "package",
+            "shipping-and-delivery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "cardboard",
+            "fragile",
+            "package",
+            "shipping-and-delivery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460992-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Packaging",
+          "tags": [
+            "logistics",
+            "package-labeling",
+            "packaging",
+            "packing",
+            "parcel",
+            "product"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460697-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "business-management",
+            "logistics",
+            "package",
+            "product-delivery",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "courier",
+            "freight",
+            "package",
+            "parcel",
+            "shipment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455588-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "cardboard",
+            "delivery",
+            "package",
+            "parcel",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455367-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Package",
+          "tags": [
+            "box",
+            "delivery",
+            "package",
+            "parcel",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454227-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "box",
+    "rationale": "Refs for \"packaging\" dominated by boxes.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "it-services",
+  "name": "IT Services",
+  "kind": "industry",
+  "parent": "information-technology",
+  "metaphor": "cloud",
+  "keywords": [
+    "cloud",
+    "hosting",
+    "data centers",
+    "consulting",
+    "outsourcing",
+    "infrastructure",
+    "internet services"
+  ],
+  "reduction": "None — single shape.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

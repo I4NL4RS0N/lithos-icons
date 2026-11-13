@@ -1,0 +1,828 @@
+{
+  "concept": "capital-markets",
+  "query": "stock market",
+  "fetched": "2026-11-13T19:15:18.385Z",
+  "topTerms": [
+    [
+      "stock market",
+      50
+    ],
+    [
+      "stock-market",
+      50
+    ],
+    [
+      "finance",
+      23
+    ],
+    [
+      "trading",
+      22
+    ],
+    [
+      "market",
+      15
+    ],
+    [
+      "exchange",
+      12
+    ],
+    [
+      "shares",
+      12
+    ],
+    [
+      "investment",
+      11
+    ],
+    [
+      "chart",
+      10
+    ],
+    [
+      "stock",
+      9
+    ],
+    [
+      "money",
+      9
+    ],
+    [
+      "business",
+      9
+    ],
+    [
+      "graph",
+      7
+    ],
+    [
+      "rise",
+      6
+    ],
+    [
+      "growth",
+      5
+    ],
+    [
+      "screen",
+      5
+    ],
+    [
+      "equity",
+      5
+    ],
+    [
+      "computer",
+      3
+    ],
+    [
+      "trader",
+      3
+    ],
+    [
+      "corporate",
+      3
+    ],
+    [
+      "office",
+      3
+    ],
+    [
+      "teamwork",
+      3
+    ],
+    [
+      "stocks",
+      3
+    ],
+    [
+      "trade",
+      2
+    ],
+    [
+      "securities",
+      2
+    ],
+    [
+      "market-trends",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "candlestick",
+      2
+    ],
+    [
+      "data",
+      2
+    ],
+    [
+      "index",
+      2
+    ],
+    [
+      "portfolio",
+      2
+    ],
+    [
+      "ticker",
+      2
+    ],
+    [
+      "equity-market",
+      2
+    ],
+    [
+      "brokerage",
+      2
+    ],
+    [
+      "business-and-finance",
+      2
+    ],
+    [
+      "buy-online",
+      2
+    ],
+    [
+      "online",
+      2
+    ],
+    [
+      "stock-exchange",
+      2
+    ],
+    [
+      "cash",
+      2
+    ],
+    [
+      "currency",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "stock market",
+          "tags": [
+            "exchange",
+            "growth",
+            "stock-market",
+            "stock-market",
+            "stock-price",
+            "trade"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511085-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "finance",
+            "investment",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6123146-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "market",
+            "stock",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498204-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "graph",
+            "money",
+            "rise",
+            "screen",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484397-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "finance",
+            "graph",
+            "rise",
+            "screen",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484396-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "computer",
+            "graph",
+            "rise",
+            "screen",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484389-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "graph",
+            "phone",
+            "rise",
+            "screen",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484379-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "computer",
+            "graph",
+            "money",
+            "rise",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484368-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "graph",
+            "money",
+            "rise",
+            "screen",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484356-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "chart",
+            "market",
+            "stock",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467783-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "investment",
+            "market",
+            "securities",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462776-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "equity",
+            "exchange",
+            "finance",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455586-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "finance",
+            "investment",
+            "market",
+            "stock",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443293-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "finance",
+            "investment",
+            "market",
+            "stock",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443187-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "financial",
+            "investment",
+            "market",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8442185-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "finance",
+            "investment",
+            "market",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8442179-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "computer",
+            "exchange",
+            "market-trends",
+            "stock-market",
+            "trader",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438423-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "corporate",
+            "office",
+            "stock-market",
+            "teamwork",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437906-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "corporate",
+            "office",
+            "stock-market",
+            "teamwork",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437903-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "exchange",
+            "finance",
+            "shares",
+            "stock",
+            "stock-market",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430625-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "exchange",
+            "finance",
+            "graph",
+            "growth",
+            "investment",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8429494-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "candlestick",
+            "chart",
+            "data",
+            "market",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417122-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "candlestick",
+            "chart",
+            "data",
+            "market",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417089-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "finance",
+            "investment",
+            "money",
+            "stock-market",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8415806-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "exchange",
+            "finance",
+            "shares",
+            "stock",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8413931-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "equities",
+            "index",
+            "portfolio",
+            "shares",
+            "stock-market",
+            "trading-floor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8401777-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "index",
+            "market",
+            "share",
+            "stock",
+            "stock-market",
+            "trade"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392416-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "equity",
+            "exchange",
+            "stock-market",
+            "stock-market",
+            "ticker",
+            "trader"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389910-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "finance",
+            "investment",
+            "money",
+            "stock-market",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8386688-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "finance",
+            "market",
+            "stock-market",
+            "stocks",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8365167-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "finance",
+            "market",
+            "stock-market",
+            "stock-market",
+            "stocks",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8365117-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "finance",
+            "market",
+            "stock-market",
+            "stocks",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8365045-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "equity",
+            "exchange",
+            "stock-market",
+            "stock-market",
+            "ticker",
+            "trader"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8347316-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "equity-market",
+            "exchange",
+            "finance",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8344544-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "equity-market",
+            "exchange",
+            "finance",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8344511-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "exchange",
+            "finance",
+            "shares",
+            "stock",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8336564-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "brokerage",
+            "market",
+            "stock",
+            "stock-market",
+            "stock-market",
+            "stockbroker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8325766-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "brokerage",
+            "economy",
+            "equity",
+            "portfolio",
+            "securities",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8316682-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "finance",
+            "investment",
+            "money",
+            "stock-market",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8315108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "finance",
+            "investment",
+            "money",
+            "stock-market",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8315079-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "corporate",
+            "meeting",
+            "office",
+            "stock-market",
+            "teamwork"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8294265-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business-and-finance",
+            "buy-online",
+            "finance",
+            "online",
+            "stock-exchange",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8280654-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business-and-finance",
+            "buy-online",
+            "finance",
+            "online",
+            "stock-exchange",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8280606-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "cash",
+            "currency",
+            "finance",
+            "money",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8278853-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "business",
+            "cash",
+            "currency",
+            "finance",
+            "money",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8278834-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "crash",
+            "crisis",
+            "financial-crisis",
+            "fluctuation",
+            "money-loss",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8228458-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "analysis",
+            "growth",
+            "laptop",
+            "marketing",
+            "statistics",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8200869-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "analysis",
+            "growth",
+            "laptop",
+            "marketing",
+            "statistics",
+            "stock-market"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8200853-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "equity",
+            "exchange",
+            "market-trends",
+            "shares",
+            "stock-market",
+            "trading"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8179581-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stock market",
+          "tags": [
+            "fluctuation",
+            "growth",
+            "market",
+            "stock-market",
+            "trading",
+            "value"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8175651-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "candlesticks",
+    "rationale": "Refs for \"stock market\" dominated by candlestick and bar charts.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

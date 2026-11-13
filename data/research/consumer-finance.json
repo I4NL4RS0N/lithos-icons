@@ -1,0 +1,786 @@
+{
+  "concept": "consumer-finance",
+  "query": "credit card",
+  "fetched": "2026-11-13T19:15:19.589Z",
+  "topTerms": [
+    [
+      "credit-card",
+      50
+    ],
+    [
+      "credit",
+      49
+    ],
+    [
+      "card",
+      48
+    ],
+    [
+      "card-credit",
+      46
+    ],
+    [
+      "credit card",
+      17
+    ],
+    [
+      "credit-card-payment",
+      8
+    ],
+    [
+      "credit cart",
+      7
+    ],
+    [
+      "credit-cart",
+      7
+    ],
+    [
+      "credit card payment",
+      3
+    ],
+    [
+      "payment",
+      3
+    ],
+    [
+      "payment-card",
+      3
+    ],
+    [
+      "no credit card",
+      3
+    ],
+    [
+      "no-credit-card",
+      3
+    ],
+    [
+      "no",
+      2
+    ],
+    [
+      "ui",
+      1
+    ],
+    [
+      "carding",
+      1
+    ],
+    [
+      "credit-credit",
+      1
+    ],
+    [
+      "remove card",
+      1
+    ],
+    [
+      "remove-card",
+      1
+    ],
+    [
+      "pull card",
+      1
+    ],
+    [
+      "pull",
+      1
+    ],
+    [
+      "pull-card",
+      1
+    ],
+    [
+      "swap credit card",
+      1
+    ],
+    [
+      "swap",
+      1
+    ],
+    [
+      "swap-credit-card",
+      1
+    ],
+    [
+      "show credit card",
+      1
+    ],
+    [
+      "show",
+      1
+    ],
+    [
+      "show-credit-card",
+      1
+    ],
+    [
+      "reload card",
+      1
+    ],
+    [
+      "reload",
+      1
+    ],
+    [
+      "reload-card",
+      1
+    ],
+    [
+      "locked credit card",
+      1
+    ],
+    [
+      "locked-credit-card",
+      1
+    ],
+    [
+      "rejected card",
+      1
+    ],
+    [
+      "rejected-card",
+      1
+    ],
+    [
+      "unprotected card",
+      1
+    ],
+    [
+      "unprotected",
+      1
+    ],
+    [
+      "unprotected-card",
+      1
+    ],
+    [
+      "protection card",
+      1
+    ],
+    [
+      "protection",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8013675-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "credit cart",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-cart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3267009-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card Payment",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment",
+            "ui"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8163386-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "carding",
+            "credit-card",
+            "credit-credit"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7980450-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card",
+            "payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696854-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "remove card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "remove-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696844-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pull card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "pull",
+            "pull-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "swap credit card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "swap",
+            "swap-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696836-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "show credit card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "show",
+            "show-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696830-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "reload card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "reload",
+            "reload-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696828-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "locked credit card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "locked-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696821-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Rejected card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "rejected-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696807-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "unprotected card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "unprotected",
+            "unprotected-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696803-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "protection card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "protection",
+            "protection-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "push card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "push",
+            "push-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696794-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "unlocked credit card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "unlocked-credit-card",
+            "unlocked-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696791-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "reminder card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "reminder",
+            "reminder-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696790-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hide credit card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "hide",
+            "hide-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696788-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "warning card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "warning",
+            "warning-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696783-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Blocked Card",
+          "tags": [
+            "blocked",
+            "blocked-card",
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7696781-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7558733-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7386109-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7363831-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7302470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "payment-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7215818-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6885703-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6802872-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6691819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6369141-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "money",
+            "payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6258096-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "no credit card",
+          "tags": [
+            "card",
+            "credit",
+            "credit-card",
+            "no-credit",
+            "no-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6232383-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "debit card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "debit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6031068-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5934901-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "credit cart",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-cart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5934606-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "no credit card",
+          "tags": [
+            "card",
+            "credit",
+            "credit-card",
+            "no",
+            "no-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5809140-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "no credit card",
+          "tags": [
+            "card",
+            "credit",
+            "credit-card",
+            "no",
+            "no-credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5809125-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card Payment",
+          "tags": [
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment",
+            "payment-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5215735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5215715-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5215704-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card Payment",
+          "tags": [
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-card-payment",
+            "payment-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5215703-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4829440-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "credit cart",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-cart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4781138-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "payment",
+          "tags": [
+            "card",
+            "credit",
+            "credit-card",
+            "payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4584154-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "credit cart",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-cart",
+            "pay"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4282568-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4148267-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Credit Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4140577-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "credit cart",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-cart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3866769-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Card",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3781651-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "credit cart",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-cart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3734797-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "credit cart",
+          "tags": [
+            "card",
+            "card-credit",
+            "credit",
+            "credit-card",
+            "credit-cart"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3734792-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "credit-card",
+    "rationale": "Refs for \"credit card\" are cards with a stripe.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

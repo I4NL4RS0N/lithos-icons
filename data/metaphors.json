@@ -144,5 +144,41 @@
   ],
   "capitol-flag": [
     "government"
+  ],
+  "wind-turbine": [
+    "renewable-energy"
+  ],
+  "cargo-ship": [
+    "marine-shipping"
+  ],
+  "train-front": [
+    "rail"
+  ],
+  "candlesticks": [
+    "capital-markets"
+  ],
+  "pie-chart": [
+    "asset-management"
+  ],
+  "credit-card": [
+    "consumer-finance"
+  ],
+  "hospital-building": [
+    "hospitals"
+  ],
+  "globe": [
+    "sovereigns"
+  ],
+  "play-screen": [
+    "media"
+  ],
+  "box": [
+    "packaging"
+  ],
+  "conifer": [
+    "paper-forest-products"
+  ],
+  "cloud": [
+    "it-services"
   ]
 }

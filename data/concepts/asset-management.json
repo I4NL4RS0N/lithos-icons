@@ -1,0 +1,19 @@
+{
+  "id": "asset-management",
+  "name": "Asset Management",
+  "kind": "industry",
+  "parent": "financials",
+  "metaphor": "pie-chart",
+  "keywords": [
+    "investment managers",
+    "funds",
+    "portfolio",
+    "wealth management",
+    "allocation",
+    "custody"
+  ],
+  "reduction": "None — pie and slice at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

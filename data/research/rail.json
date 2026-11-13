@@ -1,0 +1,784 @@
+{
+  "concept": "rail",
+  "query": "train",
+  "fetched": "2026-11-13T19:15:17.749Z",
+  "topTerms": [
+    [
+      "train",
+      49
+    ],
+    [
+      "travel",
+      20
+    ],
+    [
+      "transportation",
+      18
+    ],
+    [
+      "railway",
+      16
+    ],
+    [
+      "railroad",
+      15
+    ],
+    [
+      "transport",
+      14
+    ],
+    [
+      "locomotive",
+      12
+    ],
+    [
+      "subway",
+      11
+    ],
+    [
+      "vehicle",
+      7
+    ],
+    [
+      "station",
+      7
+    ],
+    [
+      "metro",
+      6
+    ],
+    [
+      "mrt",
+      4
+    ],
+    [
+      "street",
+      4
+    ],
+    [
+      "steam",
+      3
+    ],
+    [
+      "rail",
+      2
+    ],
+    [
+      "bullet-train",
+      2
+    ],
+    [
+      "passenger-train",
+      2
+    ],
+    [
+      "public-transportation",
+      2
+    ],
+    [
+      "commuter",
+      2
+    ],
+    [
+      "retro",
+      2
+    ],
+    [
+      "vintage",
+      2
+    ],
+    [
+      "sign",
+      2
+    ],
+    [
+      "cargo",
+      2
+    ],
+    [
+      "truck",
+      2
+    ],
+    [
+      "steam-engine",
+      1
+    ],
+    [
+      "train-engine",
+      1
+    ],
+    [
+      "toy-train",
+      1
+    ],
+    [
+      "train-station",
+      1
+    ],
+    [
+      "express",
+      1
+    ],
+    [
+      "logistics",
+      1
+    ],
+    [
+      "monorail",
+      1
+    ],
+    [
+      "locomotice",
+      1
+    ],
+    [
+      "rail-vehicle",
+      1
+    ],
+    [
+      "railway-transport",
+      1
+    ],
+    [
+      "rail-transport",
+      1
+    ],
+    [
+      "toy",
+      1
+    ],
+    [
+      "wheel",
+      1
+    ],
+    [
+      "commercial",
+      1
+    ],
+    [
+      "technology",
+      1
+    ],
+    [
+      "trainer",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Train",
+          "tags": [
+            "steam",
+            "steam-engine",
+            "train",
+            "train-engine",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "rail",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477540-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "toy-train",
+            "train",
+            "train-station"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8235190-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railroad",
+            "railway",
+            "train",
+            "transportation",
+            "travel",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8225721-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "bullet-train",
+            "express",
+            "locomotive",
+            "logistics",
+            "railway",
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4962247-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "monorail",
+            "subway",
+            "train",
+            "transport",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/776201-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "metro",
+            "railroad",
+            "station",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8517994-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "metro",
+            "railroad",
+            "station",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8517992-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotice",
+            "passenger-train",
+            "public-transportation",
+            "rail-vehicle",
+            "railway-transport",
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516627-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "commuter",
+            "locomotive",
+            "train",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515896-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "retro",
+            "train",
+            "transportation",
+            "vintage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515891-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railroad",
+            "railway",
+            "train",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514876-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railroad",
+            "railway",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railroad",
+            "railway",
+            "train",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514866-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railroad",
+            "railway",
+            "train",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514865-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railroad",
+            "railway",
+            "train",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514858-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "passenger-train",
+            "public-transportation",
+            "rail-transport",
+            "railway",
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514518-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "railway",
+            "steam",
+            "toy",
+            "train",
+            "wheel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511787-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "commercial",
+            "technology",
+            "train",
+            "transport",
+            "travel",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511485-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508982-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508977-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508976-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "mrt",
+            "street",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506460-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "mrt",
+            "street",
+            "train",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506455-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "mrt",
+            "street",
+            "train",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506454-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "mrt",
+            "street",
+            "train",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506446-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "trainer",
+          "tags": [
+            "health",
+            "massage",
+            "therapist",
+            "therapy",
+            "trainer",
+            "wellness"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8504377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "arrive",
+            "depart",
+            "ride",
+            "track",
+            "train",
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501533-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "arrow",
+            "direction",
+            "information",
+            "sign",
+            "signage",
+            "train"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501021-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "automotive",
+            "locomotive",
+            "train",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498011-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "engine",
+            "locomotive",
+            "railway",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494896-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "railway",
+            "train",
+            "transport",
+            "transportation",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493760-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "metro",
+            "railway",
+            "subway",
+            "train",
+            "train",
+            "tunnel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railroad",
+            "railway",
+            "railway-station",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "railroad",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483367-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "railroad",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483362-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "railroad",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483358-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "metro",
+            "railroad",
+            "station",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482160-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "metro",
+            "railroad",
+            "station",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482149-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "metro",
+            "railroad",
+            "station",
+            "subway",
+            "train",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482131-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "locomotive",
+            "retro",
+            "steam",
+            "train",
+            "vintage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478578-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "commuter",
+            "train",
+            "train",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478570-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "rails",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477543-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "rail",
+            "train",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477541-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "journey",
+            "railway",
+            "station",
+            "train",
+            "transportation",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473620-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "cargo",
+            "train",
+            "transport",
+            "transportation",
+            "truck",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471855-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "cargo",
+            "train",
+            "transport",
+            "transportation",
+            "truck",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471827-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "bullet-train",
+            "railway",
+            "speed",
+            "subway",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Train",
+          "tags": [
+            "railway",
+            "sign",
+            "station",
+            "train",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464561-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "train-front",
+    "rationale": "Refs for \"train\" dominated by front-on trains.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

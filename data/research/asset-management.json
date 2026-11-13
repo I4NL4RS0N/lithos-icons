@@ -1,0 +1,825 @@
+{
+  "concept": "asset-management",
+  "query": "investment portfolio",
+  "fetched": "2026-11-13T19:15:18.941Z",
+  "topTerms": [
+    [
+      "investment portfolio",
+      50
+    ],
+    [
+      "investment-portfolio",
+      50
+    ],
+    [
+      "investment",
+      27
+    ],
+    [
+      "portfolio",
+      25
+    ],
+    [
+      "finance",
+      19
+    ],
+    [
+      "assets",
+      14
+    ],
+    [
+      "diversification",
+      13
+    ],
+    [
+      "asset",
+      12
+    ],
+    [
+      "growth",
+      12
+    ],
+    [
+      "management",
+      10
+    ],
+    [
+      "stocks",
+      8
+    ],
+    [
+      "business",
+      7
+    ],
+    [
+      "analysis",
+      6
+    ],
+    [
+      "wealth",
+      5
+    ],
+    [
+      "bonds",
+      5
+    ],
+    [
+      "data",
+      4
+    ],
+    [
+      "report",
+      4
+    ],
+    [
+      "funding",
+      3
+    ],
+    [
+      "investor",
+      3
+    ],
+    [
+      "stock",
+      3
+    ],
+    [
+      "capital",
+      3
+    ],
+    [
+      "strategy",
+      3
+    ],
+    [
+      "allocation",
+      2
+    ],
+    [
+      "tracker",
+      2
+    ],
+    [
+      "profile",
+      2
+    ],
+    [
+      "website",
+      2
+    ],
+    [
+      "asset-diversification",
+      2
+    ],
+    [
+      "financial-growth",
+      2
+    ],
+    [
+      "investment-strategy",
+      2
+    ],
+    [
+      "portfolio-management",
+      2
+    ],
+    [
+      "wealth-planning",
+      2
+    ],
+    [
+      "optimization",
+      2
+    ],
+    [
+      "money",
+      2
+    ],
+    [
+      "planning",
+      2
+    ],
+    [
+      "user",
+      2
+    ],
+    [
+      "financial-planning",
+      2
+    ],
+    [
+      "banking",
+      2
+    ],
+    [
+      "returns",
+      2
+    ],
+    [
+      "equity",
+      1
+    ],
+    [
+      "fund",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "stocks",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484936-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453777-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453762-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "analysis",
+            "assets",
+            "diversification",
+            "funding",
+            "investment-portfolio",
+            "investor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8371561-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "business",
+            "finance",
+            "investment-portfolio",
+            "management",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8274224-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "business",
+            "finance",
+            "investment-portfolio",
+            "management",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8274206-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "management",
+            "portfolio",
+            "stock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8271985-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "capital",
+            "equity",
+            "finance",
+            "investment-portfolio",
+            "investment-portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8258185-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "bonds",
+            "diversification",
+            "investment-portfolio",
+            "investment-portfolio",
+            "stocks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8246965-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8226239-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "allocation",
+            "asset",
+            "diversification",
+            "investment",
+            "investment-portfolio",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8220262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "allocation",
+            "asset",
+            "diversification",
+            "investment",
+            "investment-portfolio",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8220197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "finance",
+            "growth",
+            "investment",
+            "investment-portfolio",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8167944-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "fund",
+            "growth",
+            "investment-portfolio",
+            "plan",
+            "profit",
+            "saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8164097-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "business",
+            "investment-portfolio",
+            "management",
+            "market",
+            "stock",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8072650-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "analysis",
+            "assets",
+            "diversification",
+            "funding",
+            "investment-portfolio",
+            "investor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7975682-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "analysis",
+            "assets",
+            "diversification",
+            "funding",
+            "investment-portfolio",
+            "investor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7975653-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "document",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7959488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "bonds",
+            "diversification",
+            "finance",
+            "investment-portfolio",
+            "stocks",
+            "tracker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7918109-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "bonds",
+            "diversification",
+            "finance",
+            "investment-portfolio",
+            "stocks",
+            "tracker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7918107-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "growth",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "stocks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7882182-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "growth",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "stocks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7882175-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "analysis",
+            "asset",
+            "data",
+            "investment-portfolio",
+            "profile",
+            "website"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7872161-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "analysis",
+            "asset",
+            "data",
+            "investment-portfolio",
+            "profile",
+            "website"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7872118-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "business",
+            "growth",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7855044-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "business",
+            "growth",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7854998-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset-diversification",
+            "financial-growth",
+            "investment-portfolio",
+            "investment-strategy",
+            "portfolio-management",
+            "wealth-planning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7841148-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset-diversification",
+            "financial-growth",
+            "investment-portfolio",
+            "investment-strategy",
+            "portfolio-management",
+            "wealth-planning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7841137-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "investment-portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7829386-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "diversification",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "risk"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7829354-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "finance",
+            "investment-portfolio",
+            "management",
+            "optimization",
+            "strategy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7786801-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "finance",
+            "investment-portfolio",
+            "investment-portfolio",
+            "management",
+            "optimization",
+            "strategy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7786781-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "investment",
+            "investment-portfolio",
+            "money",
+            "planning",
+            "portfolio",
+            "user"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7777014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "investment",
+            "investment-portfolio",
+            "money",
+            "planning",
+            "portfolio",
+            "user"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7777005-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "business",
+            "growth",
+            "investment",
+            "investment-portfolio",
+            "management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7736278-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "business",
+            "growth",
+            "investment",
+            "investment-portfolio",
+            "management"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7736263-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "candle-stick",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7711457-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "bond",
+            "file",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "stock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7711365-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "briefcase",
+            "finance",
+            "financial",
+            "invest",
+            "investment-portfolio",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7666108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "data",
+            "financial-planning",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7610444-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "data",
+            "financial-planning",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7610409-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "banking",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "investment-portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7574623-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "banking",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "investment-portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7574555-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "analysis",
+            "graph",
+            "income",
+            "investment",
+            "investment-portfolio",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7518892-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "budget",
+            "businessman",
+            "finance",
+            "investment",
+            "investment-portfolio",
+            "suitcase"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7518875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "capital",
+            "diversification",
+            "growth",
+            "investment-portfolio",
+            "returns"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7469614-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "assets",
+            "capital",
+            "diversification",
+            "growth",
+            "investment-portfolio",
+            "returns"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7469595-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "bonds",
+            "diversification",
+            "growth",
+            "investment-portfolio",
+            "management",
+            "stocks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7441084-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "bonds",
+            "diversification",
+            "growth",
+            "investment-portfolio",
+            "management",
+            "stocks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7441059-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "investment portfolio",
+          "tags": [
+            "asset",
+            "chart",
+            "investment",
+            "investment-portfolio",
+            "portfolio",
+            "strategy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7416276-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "pie-chart",
+    "rationale": "Refs for \"investment portfolio\" were noisy (briefcases, documents, pie charts); a pie chart stands for allocation.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

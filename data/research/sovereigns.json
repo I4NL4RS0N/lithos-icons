@@ -1,0 +1,714 @@
+{
+  "concept": "sovereigns",
+  "query": "global government",
+  "fetched": "2026-11-13T19:15:20.743Z",
+  "topTerms": [
+    [
+      "government",
+      32
+    ],
+    [
+      "global",
+      22
+    ],
+    [
+      "economy",
+      10
+    ],
+    [
+      "political",
+      9
+    ],
+    [
+      "politics",
+      9
+    ],
+    [
+      "economic",
+      8
+    ],
+    [
+      "globe",
+      7
+    ],
+    [
+      "corporate",
+      6
+    ],
+    [
+      "security",
+      5
+    ],
+    [
+      "international",
+      5
+    ],
+    [
+      "business",
+      5
+    ],
+    [
+      "world",
+      4
+    ],
+    [
+      "big-brother",
+      4
+    ],
+    [
+      "crime-prevention",
+      4
+    ],
+    [
+      "eye",
+      4
+    ],
+    [
+      "global-surveillance",
+      4
+    ],
+    [
+      "interception",
+      4
+    ],
+    [
+      "monitoring",
+      4
+    ],
+    [
+      "nsa",
+      4
+    ],
+    [
+      "spy",
+      4
+    ],
+    [
+      "spying",
+      4
+    ],
+    [
+      "surveillance",
+      4
+    ],
+    [
+      "watching",
+      4
+    ],
+    [
+      "national",
+      3
+    ],
+    [
+      "global company",
+      3
+    ],
+    [
+      "global-company",
+      3
+    ],
+    [
+      "global surveillance",
+      3
+    ],
+    [
+      "hidden",
+      3
+    ],
+    [
+      "snooping",
+      3
+    ],
+    [
+      "view",
+      3
+    ],
+    [
+      "summit",
+      2
+    ],
+    [
+      "conference",
+      2
+    ],
+    [
+      "tax residence",
+      2
+    ],
+    [
+      "payment",
+      2
+    ],
+    [
+      "tax",
+      2
+    ],
+    [
+      "tax-residence",
+      2
+    ],
+    [
+      "bank",
+      2
+    ],
+    [
+      "building",
+      2
+    ],
+    [
+      "finance",
+      2
+    ],
+    [
+      "representative",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "summit",
+          "tags": [
+            "conference",
+            "corporate",
+            "global",
+            "government",
+            "summit"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7254663-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "summit",
+          "tags": [
+            "conference",
+            "corporate",
+            "global",
+            "government",
+            "summit"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7254660-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tax residence",
+          "tags": [
+            "global",
+            "government",
+            "payment",
+            "tax",
+            "tax-residence"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5567829-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tax residence",
+          "tags": [
+            "global",
+            "government",
+            "payment",
+            "tax",
+            "tax-residence"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5567817-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "building",
+            "finance",
+            "global",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5169483-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bank",
+          "tags": [
+            "bank",
+            "building",
+            "finance",
+            "global",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4743792-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "representative",
+          "tags": [
+            "global",
+            "government",
+            "political",
+            "politics",
+            "representative",
+            "representative"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7964557-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "representative",
+          "tags": [
+            "global",
+            "government",
+            "political",
+            "politics",
+            "representative",
+            "representative"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7964540-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "environmental regulations",
+          "tags": [
+            "environmental",
+            "environmental-regulations",
+            "global",
+            "government",
+            "law",
+            "regulation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7812280-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "environmental regulations",
+          "tags": [
+            "environmental",
+            "environmental-regulations",
+            "global",
+            "government",
+            "law",
+            "regulation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7812214-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "national security",
+          "tags": [
+            "global",
+            "government",
+            "national",
+            "national-security",
+            "security",
+            "world"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7312930-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "national security",
+          "tags": [
+            "global",
+            "government",
+            "national",
+            "national-security",
+            "security",
+            "world"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7312870-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "City",
+          "tags": [
+            "city",
+            "downtown",
+            "earth",
+            "estate",
+            "global",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5377565-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global economy",
+          "tags": [
+            "currency",
+            "economy",
+            "global-economy",
+            "global-finance",
+            "globe",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7499240-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global",
+          "tags": [
+            "economic",
+            "economy",
+            "global",
+            "globe",
+            "government",
+            "international"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5492603-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Global Security",
+          "tags": [
+            "economics",
+            "economy",
+            "global-security",
+            "government",
+            "political",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5215553-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global economy",
+          "tags": [
+            "economic",
+            "economy",
+            "global-economy",
+            "government",
+            "political",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5160696-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global",
+          "tags": [
+            "economic",
+            "economy",
+            "global",
+            "government",
+            "political",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5160691-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global",
+          "tags": [
+            "business",
+            "economics",
+            "economy",
+            "global",
+            "government",
+            "trade"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4265072-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global company",
+          "tags": [
+            "business",
+            "corporate",
+            "economic",
+            "economy",
+            "global-company",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2721971-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global business",
+          "tags": [
+            "business",
+            "corporate",
+            "economic",
+            "economy",
+            "global-business",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2721968-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global company",
+          "tags": [
+            "business",
+            "corporate",
+            "economic",
+            "economy",
+            "global-company",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2721967-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global company",
+          "tags": [
+            "business",
+            "corporate",
+            "economic",
+            "economy",
+            "global-company",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2721966-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global",
+          "tags": [
+            "economic",
+            "global",
+            "government",
+            "parliament",
+            "political",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2039166-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global parliament",
+          "tags": [
+            "election",
+            "global-parliament",
+            "governance",
+            "government",
+            "office",
+            "parliament"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1991290-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Diplomat",
+          "tags": [
+            "country",
+            "diplomacy",
+            "diplomat",
+            "embassy",
+            "foreign-policy",
+            "global",
+            "globe",
+            "government",
+            "international",
+            "international-organization",
+            "policy",
+            "political",
+            "political-state",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/139295-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Non-cooperative governments",
+          "tags": [
+            "global",
+            "international",
+            "non-cooperative-governments",
+            "political",
+            "problem",
+            "relations"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7965390-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global leader",
+          "tags": [
+            "election",
+            "election-candidate",
+            "global-leader",
+            "government",
+            "political-leader",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5215613-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global leader",
+          "tags": [
+            "election-candidate",
+            "global-leader",
+            "government",
+            "political",
+            "political-leader",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5215612-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global surveillance",
+          "tags": [
+            "big-brother",
+            "crime-prevention",
+            "eye",
+            "global",
+            "global-surveillance",
+            "globe",
+            "government",
+            "hidden",
+            "interception",
+            "international",
+            "internet",
+            "monitoring",
+            "network",
+            "nsa",
+            "security",
+            "see",
+            "snooping",
+            "spy",
+            "spying",
+            "surveillance",
+            "view",
+            "watch",
+            "watching",
+            "world"
+          ],
+          "thumb": "https://static.thenounproject.com/png/198399-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global surveillance",
+          "tags": [
+            "big-brother",
+            "comprehensive",
+            "crime-prevention",
+            "eye",
+            "global",
+            "global-surveillance",
+            "globe",
+            "government",
+            "hidden",
+            "interception",
+            "look-at-you",
+            "mass",
+            "monitoring",
+            "national",
+            "nsa",
+            "population",
+            "security",
+            "snooping",
+            "spy",
+            "spying",
+            "surveillance",
+            "view",
+            "watch",
+            "watching"
+          ],
+          "thumb": "https://static.thenounproject.com/png/198395-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "global surveillance",
+          "tags": [
+            "all-see",
+            "big-brother",
+            "crime-prevention",
+            "eye",
+            "geovision",
+            "global",
+            "global-surveillance",
+            "globe",
+            "government",
+            "hidden",
+            "interception",
+            "internet-globe",
+            "look-at-you",
+            "mass",
+            "monitoring",
+            "nsa",
+            "population",
+            "prevention",
+            "security",
+            "snooping",
+            "spy",
+            "spying",
+            "surveillance",
+            "suspicions",
+            "view",
+            "watching"
+          ],
+          "thumb": "https://static.thenounproject.com/png/198394-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Surveillance",
+          "tags": [
+            "aerial-surveillance",
+            "behavior",
+            "big-brother",
+            "biometrics",
+            "camera",
+            "cia",
+            "citizen",
+            "classified",
+            "computer",
+            "control",
+            "crime-prevention",
+            "data",
+            "earth",
+            "electronic",
+            "espionage",
+            "eye",
+            "fisa",
+            "freedom",
+            "global-surveillance",
+            "globe",
+            "government",
+            "home-security",
+            "information",
+            "intelligence",
+            "interception",
+            "international",
+            "internet",
+            "law-enforcement",
+            "logistics",
+            "military",
+            "monitoring",
+            "national-security-administration",
+            "nations",
+            "nsa",
+            "observing",
+            "research",
+            "scout",
+            "society",
+            "spy",
+            "spying",
+            "surveillance",
+            "technology",
+            "terrorism",
+            "total-information-awareness",
+            "tracking",
+            "unmanned",
+            "video",
+            "vigilance",
+            "watch-dog",
+            "watching",
+            "world"
+          ],
+          "thumb": "https://static.thenounproject.com/png/49819-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "globe",
+    "rationale": "Refs for \"global government\" dominated by globes.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

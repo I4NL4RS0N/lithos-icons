@@ -1,0 +1,18 @@
+{
+  "id": "consumer-finance",
+  "name": "Consumer Finance",
+  "kind": "industry",
+  "parent": "financials",
+  "metaphor": "credit-card",
+  "keywords": [
+    "credit cards",
+    "payments",
+    "personal loans",
+    "lending",
+    "card issuers"
+  ],
+  "reduction": "20+: detail line under the stripe.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

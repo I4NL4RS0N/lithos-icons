@@ -1,0 +1,18 @@
+{
+  "id": "hospitals",
+  "name": "Hospitals",
+  "kind": "industry",
+  "parent": "health-care",
+  "metaphor": "hospital-building",
+  "keywords": [
+    "health care providers",
+    "health care facilities",
+    "clinics",
+    "acute care",
+    "health systems"
+  ],
+  "reduction": "24+: door.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

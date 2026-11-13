@@ -1,0 +1,19 @@
+{
+  "id": "capital-markets",
+  "name": "Capital Markets",
+  "kind": "industry",
+  "parent": "financials",
+  "metaphor": "candlesticks",
+  "keywords": [
+    "stock market",
+    "trading",
+    "exchanges",
+    "brokerage",
+    "investment banking",
+    "securities"
+  ],
+  "reduction": "None — three candles at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

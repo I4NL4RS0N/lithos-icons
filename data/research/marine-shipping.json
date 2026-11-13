@@ -1,0 +1,828 @@
+{
+  "concept": "marine-shipping",
+  "query": "cargo ship",
+  "fetched": "2026-11-13T19:15:17.088Z",
+  "topTerms": [
+    [
+      "cargo ship",
+      49
+    ],
+    [
+      "cargo-ship",
+      49
+    ],
+    [
+      "shipping",
+      27
+    ],
+    [
+      "transport",
+      26
+    ],
+    [
+      "freight",
+      25
+    ],
+    [
+      "cargo",
+      22
+    ],
+    [
+      "logistics",
+      18
+    ],
+    [
+      "ship",
+      18
+    ],
+    [
+      "vessel",
+      15
+    ],
+    [
+      "container",
+      12
+    ],
+    [
+      "ocean",
+      12
+    ],
+    [
+      "transportation",
+      7
+    ],
+    [
+      "maritime",
+      7
+    ],
+    [
+      "sea",
+      6
+    ],
+    [
+      "crane",
+      3
+    ],
+    [
+      "trade",
+      3
+    ],
+    [
+      "logistic",
+      2
+    ],
+    [
+      "oil-tanker",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "international",
+      2
+    ],
+    [
+      "passenger",
+      2
+    ],
+    [
+      "trip",
+      2
+    ],
+    [
+      "shipment",
+      2
+    ],
+    [
+      "ocean-transport",
+      2
+    ],
+    [
+      "loading",
+      2
+    ],
+    [
+      "global-trade",
+      2
+    ],
+    [
+      "container-ship",
+      2
+    ],
+    [
+      "commercial",
+      1
+    ],
+    [
+      "travel",
+      1
+    ],
+    [
+      "vehicle",
+      1
+    ],
+    [
+      "artificial-intelligence",
+      1
+    ],
+    [
+      "automation",
+      1
+    ],
+    [
+      "problem-solving",
+      1
+    ],
+    [
+      "smart-logic",
+      1
+    ],
+    [
+      "export",
+      1
+    ],
+    [
+      "marine",
+      1
+    ],
+    [
+      "tanker",
+      1
+    ],
+    [
+      "delivery",
+      1
+    ],
+    [
+      "package",
+      1
+    ],
+    [
+      "worldwide",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "logistic",
+            "oil-tanker",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "commercial",
+            "technology",
+            "transport",
+            "travel",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511462-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "artificial-intelligence",
+            "automation",
+            "cargo-ship",
+            "problem-solving",
+            "smart-logic",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505750-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "ocean",
+            "ship",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8503582-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "logistic",
+            "oil-tanker",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493674-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "shipping",
+            "transportation",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488348-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "ocean",
+            "ship",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484184-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "maritime",
+            "shipping",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474516-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "container",
+            "export",
+            "maritime",
+            "shipping",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "freight",
+            "ocean",
+            "ship",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464369-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "freight",
+            "ship",
+            "shipping",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "freight",
+            "ship",
+            "shipping",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430038-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "shipping",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424796-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "shipping",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424758-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "marine",
+            "shipping",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424468-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "ship",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8413700-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "container",
+            "freight",
+            "ocean",
+            "transport",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405329-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "container",
+            "freight",
+            "ocean",
+            "transport",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405301-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "shipping",
+            "tanker",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8391386-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "cargo-ship",
+            "international",
+            "logistics",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8387492-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "cargo-ship",
+            "logistics",
+            "sea",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8369996-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "logistics",
+            "maritime",
+            "ship",
+            "transport",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8361935-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "logistics",
+            "maritime",
+            "ship",
+            "transport",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8361912-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "cargo-ship",
+            "container",
+            "delivery",
+            "package",
+            "sea"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8353311-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "sea",
+            "shipping",
+            "transport",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352980-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "sea",
+            "shipping",
+            "transport",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352959-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "ocean",
+            "shipping",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351768-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "passenger",
+            "ship",
+            "transport",
+            "trip"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8346337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "freight",
+            "ship",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8346334-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "international",
+            "ship",
+            "shipping",
+            "worldwide"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8342733-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "sea",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8341545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "ship",
+            "shipment",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8320377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "cruise",
+            "ship",
+            "shipment",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8320344-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "cargo-ship",
+            "freight",
+            "ocean-transport",
+            "shipping",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8306047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "cargo-ship",
+            "freight",
+            "ocean-transport",
+            "shipping",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8304345-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "ocean",
+            "shipping",
+            "transportation",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298587-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "ocean",
+            "shipping",
+            "transportation",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298567-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "container-vessel",
+            "freight",
+            "maritime",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8295318-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "passenger",
+            "ship",
+            "transport",
+            "trip"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8287682-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "maritime",
+            "ocean",
+            "shipping",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284884-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "maritime",
+            "ocean",
+            "shipping",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284867-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "crane",
+            "freighter",
+            "loading",
+            "logistics",
+            "trade"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284177-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "crane",
+            "global-trade",
+            "logistics",
+            "trade",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284154-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "container-ship",
+            "crane",
+            "loading",
+            "logistics",
+            "trade"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284150-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "container-ship",
+            "global-trade",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8284148-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ship cargo",
+          "tags": [
+            "freight",
+            "port",
+            "sea",
+            "ship-cargo",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8271789-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "ship",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8232876-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "ocean",
+            "ship",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8228038-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "ocean",
+            "ship",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8228026-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo",
+            "cargo-ship",
+            "container",
+            "freight",
+            "ship",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8224963-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "cargo-ship",
+    "rationale": "Refs for \"cargo ship\" are side-on container ships.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

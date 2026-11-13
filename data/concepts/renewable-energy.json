@@ -1,0 +1,19 @@
+{
+  "id": "renewable-energy",
+  "name": "Renewable Energy",
+  "kind": "industry",
+  "parent": "utilities",
+  "metaphor": "wind-turbine",
+  "keywords": [
+    "renewables",
+    "wind",
+    "solar",
+    "clean energy",
+    "independent power producers",
+    "green energy"
+  ],
+  "reduction": "24+: ground line.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

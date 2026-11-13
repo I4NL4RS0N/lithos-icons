@@ -1,0 +1,19 @@
+{
+  "id": "paper-forest-products",
+  "name": "Paper & Forest Products",
+  "kind": "industry",
+  "parent": "materials",
+  "metaphor": "conifer",
+  "keywords": [
+    "forestry",
+    "timber",
+    "pulp",
+    "paper",
+    "wood products",
+    "lumber"
+  ],
+  "reduction": "16–20: single-tier tree. 24+: two tiers.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
