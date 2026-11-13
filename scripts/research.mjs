@@ -52,4 +52,13 @@ const out = { concept: id, query, fetched: new Date().toISOString(), topTerms, s
   decision: { metaphor: concept.metaphor || null, rationale: null } };
 mkdirSync('data/research', { recursive: true });
 writeFileSync(`data/research/${id}.json`, JSON.stringify(out, null, 2) + '\n');
+// PR body: reference thumbnails hotlinked from their source (not stored in the repo).
+const thumbs = Object.values(sources).flatMap((s) => (s.results || []).map((r) => r.thumb).filter(Boolean)).slice(0, 60);
+const md = [`## Metaphor research: ${concept.name}`, `Query: \`${query}\``, '',
+  `**Top terms:** ${topTerms.slice(0, 15).map(([t, n]) => `${t} (${n})`).join(', ')}`, '',
+  '### Reference thumbnails', 'Hotlinked for review only. Nothing here is copied into the set.', '',
+  thumbs.map((u) => `<img src="${u}" width="56" height="56">`).join(' '), '',
+  '### Decision', 'Group the thumbnails by metaphor, then fill `decision.metaphor` and `decision.rationale` in the JSON.'].join('\n');
+mkdirSync('.tmp', { recursive: true });
+writeFileSync('.tmp/research-pr.md', md + '\n');
 console.log(`data/research/${id}.json`, Object.fromEntries(Object.entries(sources).map(([k, v]) => [k, v.results ? v.results.length : v.skipped || v.error])));

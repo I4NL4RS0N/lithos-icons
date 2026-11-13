@@ -40,4 +40,4 @@ jobs:
           git add data/research
           git commit -m "Metaphor research: $CONCEPT" || exit 0
           git push -u origin "$b"
-          gh pr create --title "Metaphor research: $CONCEPT" --body "Term tallies and reference thumbnails for $CONCEPT. References only — no third-party SVGs stored."
+          gh pr create --title "Metaphor research: $CONCEPT" --body-file .tmp/research-pr.md
