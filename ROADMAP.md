@@ -26,4 +26,6 @@ Renewable energy, marine shipping, rail, capital markets, asset management, cons
 - **Infrastructure & project finance:** power projects, social infrastructure, PPP
 
 ## Fixes
-Europe and World maps; tiny territories; municipal bonds dome at 16–20px; pickaxe and wrench weight in outline; flatten baked strokes in the solid style.
+Done: wrench, pickaxe, wind turbine, municipal dome at 16–20px, government pennant, financials (staggered coin stack), software solid.
+Open: Europe and World maps; tiny territories; flatten baked strokes in the solid style.
+Review the whole set with `node scripts/sheet.mjs <size> <zoom>`.

@@ -165,21 +165,19 @@ export default [
     kind: 'sector',
     metaphor: 'coins',
     keywords: ['banks', 'insurance', 'capital markets', 'finance', 'lending', 'asset management', 'payments', 'money'],
-    reduction: 'None — two coins at all sizes.',
+    reduction: 'None — a staggered stack of three coins at all sizes.',
     draw(k) {
-      // Two coins, front-on: back coin shows as an arc that stops short of the front coin.
-      const b = [0.36, 0.36, 0.34], f = [0.63, 0.63, 0.36];
-      const gap = k.gapN(), R2 = f[2] + gap;
-      const dx = f[0] - b[0], dy = f[1] - b[1], d = Math.hypot(dx, dy);
-      const x = (d * d + b[2] * b[2] - R2 * R2) / (2 * d), base = (Math.atan2(dy, dx) * 180) / Math.PI;
-      const half = (Math.acos(Math.max(-1, Math.min(1, x / b[2]))) * 180) / Math.PI;
-      const back = k.path(arc(b[0], b[1], b[2], base + half, base + 360 - half), { snap: false });
-      const front = k.circle(f[0], f[1], f[2]);
-      const ring = [];
-      const ringHole = '';
+      // Staggered so it reads as loose coins, not a database cylinder.
+      const rx = 0.36, ry = pick(k, [0.13, 0.125, 0.12, 0.12, 0.12]), top = 0.02 + ry, bot = 0.995 - ry, t = (bot - top) / 3;
+      const cxs = [0.54, 0.46, 0.54];
+      const half = (cx, cy, dir, n = 20) => Array.from({ length: n + 1 }, (_, i) => { const a = Math.PI * (1 - i / n); return [cx + rx * Math.cos(a), cy + dir * ry * Math.sin(a)]; }); // left → right
+      const coins = cxs.map((cx, i) => k.ring([...half(cx, top + i * t, -1), ...half(cx, top + (i + 1) * t, 1).reverse()]));
+      const rims = [[cxs[0], top], [cxs[0], top + t], [cxs[1], top + 2 * t]]; // top face edge, then the bottom edge of each upper coin
+      const rim = ([cx, cy]) => k.path([['M', cx - rx, cy], ['A', rx, ry, 0, 0, 0, cx + rx, cy]], { snap: false });
+      const cut = k.holeW(pick(k, [1, 1, 1.25, 1.5, 2])) / 2;
       return {
-        outline: [back, front, ...ring],
-        solid: [{ d: front + ringHole, fill: true }, { d: back, fill: false }],
+        outline: [k.bool(coins), ...rims.map(rim)],
+        solid: [{ d: k.bool(coins, rims.map(([cx, cy]) => k.fat(half(cx, cy, 1, 12), cut))), fill: true }],
       };
     },
   },

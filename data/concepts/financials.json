@@ -13,7 +13,7 @@
     "payments",
     "money"
   ],
-  "reduction": "None — two coins at all sizes.",
+  "reduction": "None — a staggered stack of three coins at all sizes.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

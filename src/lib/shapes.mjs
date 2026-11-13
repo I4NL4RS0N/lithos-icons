@@ -39,3 +39,7 @@ export function gearPts(cx, cy, Ro, Ri, N, tipFrac, rootFrac) {
 export function plusPts(cx, cy, a) {
   return [[cx, cy - a], [cx, cy], [cx + a, cy], [cx, cy], [cx, cy + a], [cx, cy], [cx - a, cy], [cx, cy]];
 }
+
+// Samplers (normalized point lists) for boolean shapes.
+export const circlePts = (cx, cy, r, n = 40) => Array.from({ length: n }, (_, i) => { const a = (i / n) * 2 * Math.PI; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; });
+export const quadPts = (p0, c, p1, n = 16) => Array.from({ length: n + 1 }, (_, i) => { const t = i / n, u = 1 - t; return [u * u * p0[0] + 2 * u * t * c[0] + t * t * p1[0], u * u * p0[1] + 2 * u * t * c[1] + t * t * p1[1]]; });

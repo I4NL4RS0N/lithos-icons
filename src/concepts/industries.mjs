@@ -1,6 +1,6 @@
 // Pilot industries. Metaphors from data/research/<id>.json. Same rules as sectors (SPEC §6).
 import { KEY } from '../../scripts/lib/kit.mjs';
-import { pick, dropPts, arc, flame, gearPts } from '../lib/shapes.mjs';
+import { pick, dropPts, arc, flame, gearPts, quadPts } from '../lib/shapes.mjs';
 
 const R = KEY.radius;
 
@@ -66,16 +66,13 @@ export default [
   {
     id: 'metals-mining', name: 'Metals & Mining', kind: 'industry', parent: 'materials', metaphor: 'pickaxe',
     keywords: ['mining', 'metals', 'gold', 'copper', 'steel', 'aluminum', 'iron ore', 'pickaxe'],
-    reduction: '16–20: head as a single curve. 24+: crescent head.',
+    reduction: 'None — crescent head and handle merged into one silhouette at all sizes.',
     draw(k) {
-      const handle = k.path([['M', 0.08, 0.92], ['L', 0.62, 0.38]], { snap: false });
-      const outer = [['M', 0.34, 0.04], ['Q', 0.92, 0.08, 0.96, 0.66]];
-      const crescent = [...outer, ['Q', k.solid ? 0.7 : 0.78, k.solid ? 0.34 : 0.26, 0.34, 0.04], ['Z']];
-      const head = k.tier >= 2 ? k.path(crescent, { snap: false }) : k.path(outer, { snap: false });
-      return {
-        outline: [handle, head],
-        solid: [{ d: k.path(crescent, { snap: false }), fill: true }, { d: k.offsetLine([[0.08, 0.92], [0.62, 0.38]], k.sw * 0.85), fill: true }],
-      };
+      const A = [0.34, 0.05], B = [0.95, 0.66];
+      const head = [...quadPts(A, [0.91, 0.09], B), ...quadPts(B, k.solid ? [0.8, 0.22] : [0.64, 0.4], A).slice(1, -1)]; // solid: slimmer blade, the baked stroke adds the weight
+      const hw = (pick(k, [1.3, 1.5, 1.8, 2.4, 3.6]) + k.sw) / 2;
+      const shape = k.bool([k.ring(head), k.fat([[0.17, 0.83], [0.66, 0.34]], hw)]);
+      return { outline: [shape], solid: [{ d: shape, fill: true }] };
     },
   },
   {
@@ -223,7 +220,7 @@ export default [
   {
     id: 'software', name: 'Software', kind: 'industry', parent: 'information-technology', metaphor: 'code-window',
     keywords: ['software', 'SaaS', 'applications', 'cloud', 'code', 'developers'],
-    reduction: '20+: title bar. 32+: slash between brackets.',
+    reduction: '20+: title bar. 32+: slash between brackets (outline only).',
     draw(k) {
       const win = k.rrect(0, 0.08, 1, 0.92, R);
       const bar = k.tier >= 1 ? [k.path([['M', 0, 0.32], ['H', 1]])] : [];
@@ -232,7 +229,9 @@ export default [
       const sl = k.tier >= 3 ? [[0.55, cy - h - 0.02], [0.45, cy + h + 0.02]] : null;
       const o = [win, ...bar, k.poly(lt, { closed: false, snap: false }), k.poly(gt, { closed: false, snap: false })];
       if (sl) o.push(k.poly(sl, { closed: false, snap: false }));
-      const holes = [lt, gt, ...(sl ? [sl] : [])].map((p) => k.offsetLine(p, k.sw * 1.25)).join('');
+      // Solid: chevrons only, set wider apart — three knockouts this close merge into a blob.
+      const sx = k.tier >= 1 ? [0.35, 0.21] : [0.37, 0.23];
+      const holes = [[[sx[0], cy - h], [sx[1], cy], [sx[0], cy + h]], [[1 - sx[0], cy - h], [1 - sx[1], cy], [1 - sx[0], cy + h]]].map((p) => k.offsetLine(p, k.sw * 0.95)).join('');
       const winS = k.tier >= 1 ? k.rrect(0, 0.08, 1, 0.92, R) + k.capsule(0.16, 0.32, 0.84, 0.32, k.holeW(k.sw)) : k.rrect(0, 0.08, 1, 0.92, R);
       return { outline: o, solid: [{ d: winS + holes, fill: true }] };
     },

@@ -14,7 +14,7 @@
     "iron ore",
     "pickaxe"
   ],
-  "reduction": "16–20: head as a single curve. 24+: crescent head.",
+  "reduction": "None — crescent head and handle merged into one silhouette at all sizes.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

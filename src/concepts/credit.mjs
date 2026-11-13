@@ -84,11 +84,11 @@ export default [
   {
     id: 'municipal-bonds', name: 'Municipal Bonds', kind: 'asset-class', metaphor: 'civic-dome',
     keywords: ['munis', 'municipal', 'public finance', 'state and local government', 'tax-exempt', 'general obligation'],
-    reduction: '20+: spire. 24+: columns.',
+    reduction: '16–20: dome, spire and body only. 24+: columns.',
     draw(k) {
-      const g = k.gapN(1.2), domeR = pick(k, [0.3, 0.27, 0.2, 0.2, 0.2]), domeY = pick(k, [0.44, 0.42, 0.36, 0.36, 0.36]);
+      const g = k.gapN(1.2), domeR = pick(k, [0.25, 0.22, 0.2, 0.2, 0.2]), domeY = pick(k, [0.5, 0.42, 0.36, 0.36, 0.36]);
       const dome = k.path([['M', 0.5 - domeR, domeY], ['A', domeR, domeR, 0, 0, 1, 0.5 + domeR, domeY]], { snap: false });
-      const spire = k.tier >= 1 ? [k.path([['M', 0.5, domeY - domeR], ['V', 0.02]])] : [];
+      const spire = [k.path([['M', 0.5, domeY - domeR], ['V', 0.02]])];
       const body = k.path([['M', 0.06, 0.86], ['V', domeY], ['H', 0.94], ['V', 0.86]]);
       const base = k.path([['M', 0.02, 1], ['H', 0.98]]);
       const n = pick(k, [0, 0, 3, 4, 4]);

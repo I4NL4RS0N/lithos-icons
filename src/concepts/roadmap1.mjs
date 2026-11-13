@@ -12,16 +12,19 @@ export default [
     keywords: ['renewables', 'wind', 'solar', 'clean energy', 'independent power producers', 'green energy'],
     reduction: '24+: ground line.',
     draw(k) {
-      const hx = 0.5, hy = k.solid ? 0.42 : 0.38, L = k.solid ? 0.36 - (k.sw * 0.6) / k.L : 0.36, hub = 0.06;
-      const tip = (deg) => [hx + L * Math.cos((deg * Math.PI) / 180), hy + L * Math.sin((deg * Math.PI) / 180)];
-      const start = (deg) => [hx + hub * 1.6 * Math.cos((deg * Math.PI) / 180), hy + hub * 1.6 * Math.sin((deg * Math.PI) / 180)];
-      const blades = [-90, 30, 150].map((d) => [k.tier >= 1 ? start(d) : [hx, hy], tip(d)]);
+      const hx = 0.5, hy = 0.4, L = 0.38, hub = 0.06, rad = Math.PI / 180;
+      const at = (deg, r, off = 0) => [hx + r * Math.cos(deg * rad) - off * Math.sin(deg * rad), hy + r * Math.sin(deg * rad) + off * Math.cos(deg * rad)];
+      const angles = [-72, 48, 168]; // rotated off the vertical so it reads as spinning blades, not a plane
+      const blades = angles.map((d) => [k.tier >= 1 ? at(d, hub * 1.6) : [hx, hy], at(d, L)]);
       const mast = [[hx, k.tier >= 1 ? hy + hub * 1.6 : hy], [hx, 1]];
       const hubC = k.tier >= 1 ? [k.circle(hx, hy, hub)] : [];
       const ground = k.tier >= 2 ? [k.path([['M', 0.28, 1], ['H', 0.72]])] : [];
+      // Solid: slim tapered blades, full hub, mast as a plain stroke (heavier parts read as a plane).
+      const w = 0.028, sBlades = angles.map((d) => k.poly([at(d, 0, -w), at(d, L), at(d, 0, w)], { snap: false }));
+      const sHub = k.tier >= 1 ? [{ d: k.circle(hx, hy, 0.075), fill: true }] : [];
       return {
         outline: [...blades.map((b) => seg(k, b)), seg(k, mast), ...hubC, ...ground],
-        solid: [...blades.map((b) => ({ d: k.offsetLine(b, k.sw * 0.55), fill: true })), { d: seg(k, mast), fill: false }, ...hubC.map((d) => ({ d, fill: true })), ...ground.map((d) => ({ d, fill: false }))],
+        solid: [...sBlades.map((d) => ({ d, fill: true })), { d: seg(k, [[hx, hy], [hx, 1]]), fill: false }, ...sHub, ...ground.map((d) => ({ d, fill: false }))],
       };
     },
   },

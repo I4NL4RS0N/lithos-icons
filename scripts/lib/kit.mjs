@@ -119,9 +119,27 @@ export function kit(size, style, opts = {}) {
     co.Execute(out, deltaPx * S);
     return out.map((ring) => 'M' + ring.map((p) => `${r2(p.X / S)} ${r2(p.Y / S)}`).join('L') + 'Z').join('');
   }
+  // Boolean shapes. fat()/ring() return clipper paths; bool() unions `add`, subtracts `sub`, returns one path.
+  // Lets an icon be one clean silhouette (same path for outline and solid) instead of overlapping strokes.
+  const SC = 1000, toC = (pts) => pts.map(([x, y]) => ({ X: Math.round((pad + x * L) * SC), Y: Math.round((pad + y * L) * SC) }));
+  const ring = (pts) => [toC(pts)];
+  function fat(pts, halfPx) {
+    const co = new ClipperLib.ClipperOffset(2, 0.05 * SC);
+    co.AddPath(toC(pts), ClipperLib.JoinType.jtRound, ClipperLib.EndType.etOpenRound);
+    const out = new ClipperLib.Paths();
+    co.Execute(out, halfPx * SC);
+    return out;
+  }
+  function bool(add, sub = []) {
+    const run = (type, a, b) => { const c = new ClipperLib.Clipper(), out = new ClipperLib.Paths(); c.AddPaths(a, ClipperLib.PolyType.ptSubject, true); if (b.length) c.AddPaths(b, ClipperLib.PolyType.ptClip, true); c.Execute(type, out, ClipperLib.PolyFillType.pftNonZero, ClipperLib.PolyFillType.pftNonZero); return out; };
+    let res = run(ClipperLib.ClipType.ctUnion, add.flat(), []);
+    if (sub.length) res = run(ClipperLib.ClipType.ctDifference, res, sub.flat());
+    res = ClipperLib.Clipper.CleanPolygons(res, 0.02 * SC);
+    return res.filter((r) => r.length > 2).map((r) => 'M' + r.map((p) => `${r2(p.X / SC)} ${r2(p.Y / SC)}`).join('L') + 'Z').join('');
+  }
   const gapN = (k = 1.5) => (sw + k * gapK) / L; // normalized clear gap between strokes
 
-  return { size, style, solid, pad, L, sw, tier, X, len, path, rrect, circle, poly, capsule, offsetPoly, offsetLine, offsetLines, gapN, holeW, holeN, grow };
+  return { size, style, solid, pad, L, sw, tier, X, len, path, rrect, circle, poly, capsule, offsetPoly, offsetLine, offsetLines, gapN, holeW, holeN, grow, ring, fat, bool };
 }
 
 export function svg(size, style, elements, stroke = GRID[size].stroke) {

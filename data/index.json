@@ -82,7 +82,7 @@
       "tax-exempt",
       "general obligation"
     ],
-    "reduction": "20+: spire. 24+: columns.",
+    "reduction": "16–20: dome, spire and body only. 24+: columns.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -265,7 +265,7 @@
       "membership organisations",
       "miscellaneous"
     ],
-    "reduction": "None — handle and jaw at all sizes.",
+    "reduction": "None — one silhouette (round head, open jaw, handle) at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -284,7 +284,7 @@
       "agencies",
       "regulation"
     ],
-    "reduction": "20+: pennant on the pole. 32+: columns.",
+    "reduction": "Pennant at every size (tells it apart from municipal bonds). 32+: columns.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -380,7 +380,7 @@
       "iron ore",
       "pickaxe"
     ],
-    "reduction": "16–20: head as a single curve. 24+: crescent head.",
+    "reduction": "None — crescent head and handle merged into one silhouette at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -567,7 +567,7 @@
       "code",
       "developers"
     ],
-    "reduction": "20+: title bar. 32+: slash between brackets.",
+    "reduction": "20+: title bar. 32+: slash between brackets (outline only).",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -930,7 +930,7 @@
       "payments",
       "money"
     ],
-    "reduction": "None — two coins at all sizes.",
+    "reduction": "None — a staggered stack of three coins at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"

@@ -12,7 +12,7 @@
     "code",
     "developers"
   ],
-  "reduction": "20+: title bar. 32+: slash between brackets.",
+  "reduction": "20+: title bar. 32+: slash between brackets (outline only).",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

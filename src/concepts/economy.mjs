@@ -1,7 +1,7 @@
 // Top-level categories used by government industry standards (NAICS, NACE, SIC) that the market sectors don't cover.
 // Metaphors from data/research/<id>.json. Same rules as sectors (SPEC §6).
 import { KEY } from '../../scripts/lib/kit.mjs';
-import { pick, arc } from '../lib/shapes.mjs';
+import { pick, arc, circlePts } from '../lib/shapes.mjs';
 
 const R = KEY.radius;
 const line = (k, x0, y0, x1, y1) => k.path([['M', x0, y0], ['L', x1, y1]], { snap: false });
@@ -142,27 +142,26 @@ export default [
   {
     id: 'other-services', name: 'Other Services', kind: 'sector', metaphor: 'wrench',
     keywords: ['repair', 'maintenance', 'personal services', 'households', 'membership organisations', 'miscellaneous'],
-    reduction: 'None — handle and jaw at all sizes.',
+    reduction: 'None — one silhouette (round head, open jaw, handle) at all sizes.',
     draw(k) {
-      const cx = 0.66, cy = 0.34, r = 0.24, a0 = 20, a1 = 250; // jaw opens to the upper right
-      const j = ((135 * Math.PI) / 180), hx = cx + r * Math.cos(j), hy = cy + r * Math.sin(j); // handle leaves the jaw at lower left
-      const handle = [[hx, hy], [0.12, 0.88]];
-      return {
-        outline: [k.path(arc(cx, cy, r, a0, a1), { snap: false }), k.poly(handle, { closed: false, snap: false })],
-        solid: [{ d: k.offsetLine(arcPts(cx, cy, r, a0, a1), k.sw * 0.8), fill: true }, { d: k.offsetLine(handle, k.sw * 0.8), fill: true }],
-      };
+      const cx = 0.67, cy = 0.33, r = 0.26, d = Math.SQRT1_2;
+      const jaw = (pick(k, [1.6, 2, 2.4, 3.2, 4.8]) + k.sw) / 2, hw = (pick(k, [1.5, 1.8, 2.2, 3, 4.5]) + k.sw) / 2; // half widths, px
+      const shape = k.bool(
+        [k.ring(circlePts(cx, cy, r)), k.fat([[cx, cy], [0.18, 0.82]], hw)],
+        [k.fat([[cx + 0.05 * d, cy - 0.05 * d], [cx + 0.6 * d, cy - 0.6 * d]], jaw)]);
+      return { outline: [shape], solid: [{ d: shape, fill: true }] };
     },
   },
   {
     id: 'government', name: 'Government', kind: 'sector', metaphor: 'capitol-flag',
     keywords: ['public administration', 'public sector', 'defence', 'state', 'federal', 'agencies', 'regulation'],
-    reduction: '20+: pennant on the pole. 32+: columns.',
+    reduction: 'Pennant at every size (tells it apart from municipal bonds). 32+: columns.',
     draw(k) {
       const by = 0.58, bb = 0.86, dr = 0.24;
       const base = k.path([['M', 0.02, 1], ['H', 0.98]]), body = k.path([['M', 0.1, bb], ['V', by], ['H', 0.9], ['V', bb]]);
       const dome = k.path([['M', 0.5 - dr, by], ['A', dr, dr, 0, 0, 1, 0.5 + dr, by]], { snap: false });
       const pole = k.path([['M', 0.5, by - dr], ['V', 0.04]]);
-      const flag = k.tier >= 1 ? [k.poly([[0.5, 0.04], [0.74, 0.11], [0.5, 0.18]], { snap: false })] : [];
+      const flag = [k.poly(k.tier ? [[0.5, 0.04], [0.74, 0.11], [0.5, 0.18]] : [[0.5, 0.05], [0.76, 0.14], [0.5, 0.23]], { snap: false })];
       const xs = k.tier >= 3 ? [0.3, 0.5, 0.7] : [], cT = by + k.gapN(1.2), cB = bb - k.gapN(1.2) * 0.4;
       const cols = xs.map((x) => k.path([['M', x, cT], ['V', cB]]));
       return {
