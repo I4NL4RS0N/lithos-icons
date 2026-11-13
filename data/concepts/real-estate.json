@@ -1,0 +1,18 @@
+{
+  "id": "real-estate",
+  "name": "Real Estate",
+  "kind": "sector",
+  "metaphor": "house",
+  "keywords": [
+    "property",
+    "REITs",
+    "housing",
+    "real estate development",
+    "commercial property",
+    "homes"
+  ],
+  "reduction": "20+: door. 32+: chimney.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

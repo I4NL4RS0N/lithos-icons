@@ -1,0 +1,19 @@
+{
+  "id": "communication-services",
+  "name": "Communication Services",
+  "kind": "sector",
+  "metaphor": "speech-bubble",
+  "keywords": [
+    "telecom",
+    "media",
+    "entertainment",
+    "advertising",
+    "social media",
+    "publishing",
+    "broadcasting"
+  ],
+  "reduction": "20+: text lines in bubble.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

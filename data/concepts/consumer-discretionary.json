@@ -1,0 +1,20 @@
+{
+  "id": "consumer-discretionary",
+  "name": "Consumer Discretionary",
+  "kind": "sector",
+  "metaphor": "shopping-bag",
+  "keywords": [
+    "retail",
+    "autos",
+    "apparel",
+    "leisure",
+    "hotels",
+    "restaurants",
+    "luxury",
+    "e-commerce"
+  ],
+  "reduction": "20+: handle dips into bag. 16: handle stops at rim.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

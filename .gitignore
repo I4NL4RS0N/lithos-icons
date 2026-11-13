@@ -1,0 +1,5 @@
+node_modules/
+.tmp/
+standards-private/*
+!standards-private/README.md
+.DS_Store

@@ -1,0 +1,286 @@
+# Lithos Icons — Spec
+
+Open icon set for finance: sectors, themes, countries and regions across the major classification standards. Outline + solid, optical sizes, adjustable stroke, MCP server. Modeled on iconmcp.com.
+
+- **Site:** icons.lithos.design (Netlify)
+- **Repo:** public, separate from the private Lithos repo
+- **Licence:** icons MIT; data licences per standard (see §3)
+- **Owner:** Ian Larson (personal project)
+
+---
+
+## 1. Decisions
+
+| Area | Decision |
+|---|---|
+| Ownership | Personal side project |
+| Icon licence | MIT |
+| Styles | Outline + solid |
+| Optical sizes | 16, 20, 24, 32, 48 — drawn separately, less detail as size drops |
+| Stroke | User-adjustable within a per-size range |
+| Visual style | Neutral / geometric (round caps & joins, consistent strokes) |
+| Countries | 4:3 colour flag is default; map outline (outline/solid) is the alternative |
+| Regions | Always maps with member countries filled |
+| Disputed territories | User-selectable point of view |
+| Agent review | Fully automated, with guardrails (§9) |
+| Trending themes | Daily scan, auto-add |
+| Launch formats | Website + SVG download, MCP + API, Figma library |
+| Hosting | Netlify (site, API, MCP via Functions); agents in GitHub Actions |
+
+## 2. Core principle
+
+**Icons are concepts. Standards are lookup layers pointing at them.** GICS "Pharmaceuticals", ICB "Pharmaceuticals", and Moody's "Healthcare & Pharmaceuticals" are three nodes mapped to one concept, `pharma`. Only concepts get designed. Adding a standard is mostly mapping work.
+
+## 3. Standards & licensing
+
+Codes and names of proprietary standards are owned by their publishers. The icons are ours; the lists are not.
+
+| Standard | Type | Owner | Ship publicly? |
+|---|---|---|---|
+| ISO 3166-1 / 3166-2 | Countries / subdivisions | ISO | Yes (codes widely used) |
+| UN M49 | Regions | UNSD | Yes |
+| NAICS | Industry | US/CA/MX gov | Yes (levels 2–4) |
+| NACE | Industry | EU | Yes (sections, divisions, groups) |
+| ISIC | Industry | UN | Yes (sections, divisions, groups) |
+| SIC | Industry | US gov | Yes |
+| GICS | Equity | MSCI / S&P DJI | **Held** until permission |
+| ICB | Equity | FTSE Russell | **Held** |
+| BICS | Terminal | Bloomberg | **Held** |
+| TRBC | Terminal | LSEG | **Held** |
+| Fitch sectors | Credit | Fitch | **Held** + employer policy check |
+| Moody's sectors / CLO industries | Credit | Moody's | **Held** |
+| S&P Ratings sectors | Credit | S&P | **Held** |
+
+**Held** means: mapping files live in a private `standards-private/` location (or are generated locally from a user's licensed data) and are not published until permission is granted. Icons for those concepts still ship — they're mapped to free standards and to search keywords.
+
+**Bring-your-own mapping:** publish a mapping *template* format so licensed users can attach their own GICS/ICB/etc. codes to concept IDs locally.
+
+**Before launch:** Ian checks Fitch's outside-activities / IP policy.
+
+## 4. Data model
+
+```
+data/
+  concepts/            one JSON per concept (the icon)
+  schemes/             one JSON per standard version
+  nodes/<scheme>/      code → concept mappings, one file per scheme
+  geo/
+    countries.json     ISO 3166-1 + metadata
+    subdivisions/      ISO 3166-2 (US states first)
+    m49.json           M49 hierarchy
+    groupings/         membership-based groupings
+    worldviews/        point-of-view variants
+  themes/              trending themes
+icons/
+  <concept-id>/
+    outline-16.svg … outline-48.svg
+    solid-16.svg  … solid-48.svg
+flags/
+  <iso2>/4x3-16.svg … 4x3-48.svg
+```
+
+**Concept**
+```json
+{
+  "id": "pharma",
+  "name": "Pharmaceuticals",
+  "kind": "sector",            // sector | asset-class | theme | country | region | grouping
+  "keywords": ["drugs", "medicine", "biopharma", "pills"],
+  "metaphor": "capsule",
+  "status": "active",          // active | deprecated
+  "replacedBy": null,
+  "since": "0.1.0"
+}
+```
+
+**Scheme**
+```json
+{
+  "id": "naics",
+  "name": "North American Industry Classification System",
+  "version": "2022",
+  "levels": ["sector", "subsector", "industry-group"],
+  "licence": "public",
+  "publish": true,
+  "source": "https://www.census.gov/naics/"
+}
+```
+
+**Node**
+```json
+{ "scheme": "naics@2022", "code": "3254", "name": "Pharmaceutical and Medicine Manufacturing",
+  "level": "industry-group", "parent": "325", "concept": "pharma", "status": "active" }
+```
+
+**Grouping**
+```json
+{ "id": "fitch-developing-americas", "name": "Developing Americas", "source": "fitch",
+  "version": "2026-11", "m49Private": 901, "members": ["AR", "BR", "CL", "..."], "publish": false }
+```
+
+**Theme**
+```json
+{ "id": "chip-shortage", "name": "Chip shortage", "concept": "theme-chip-shortage",
+  "relatedConcepts": ["semiconductors", "autos"], "relatedGeo": ["TW", "KR"],
+  "lifecycle": "emerging", "firstSeen": "2026-11-12", "signals": { "mentions7d": 0 } }
+```
+
+**Rules**
+- Concept IDs are permanent. Never renamed, never deleted — deprecate with `replacedBy`.
+- Retired codes in any scheme stay, `status: retired`, pointing to their successor.
+- Cross-standard relations are derived from shared concepts and labelled **related**, not equivalent. Official concordances (e.g. NAICS↔ISIC) are stored separately and labelled **official**.
+
+## 5. Geography
+
+- **Countries:** ISO 3166-1 alpha-2 as primary key; alpha-3 and M49 numeric stored.
+- **Subdivisions:** ISO 3166-2, starting with 50 US states + DC + territories (US public finance).
+- **Regions:** UN M49 hierarchy (world → region → sub-region → intermediate). Note: Northern America is 021; North America (003) includes Central America and Caribbean. M49's developed/developing split was removed in Dec 2021.
+- **Groupings:** membership lists with a source tag (EU, Eurozone, G7, G20, OECD, ASEAN, GCC, BRICS+, IMF, World Bank, MSCI, Fitch, …). Custom codes from the M49/ISO private-use range 900–999.
+- **Classification tags (not icons):** MSCI Developed/Emerging/Frontier, World Bank income groups — used as filters.
+- **Map source:** Natural Earth (public domain), including its point-of-view variants for disputed areas.
+- **Generated, not drawn:** country outlines, region maps and grouping maps are generated from geodata, then simplified per size.
+- **Small-country rule:** if a country's shape is under a minimum area at a given size, render a locator: simplified continent context + dot. Threshold tuned per size.
+- **Flags:** 4:3 frame, fixed corner radius, 1px inner hairline for white-edged flags. Emblems simplified at 20px, dropped or reduced to a silhouette at 16px. Colours from official specs.
+- **Worldview param:** `worldview=default|<iso2>` across site, API, MCP.
+
+## 6. Design system
+
+### Grid per size
+| Size | Live area | Default stroke | Allowed stroke | Corner radius | Detail budget |
+|---|---|---|---|---|---|
+| 16 | 14×14 (1px padding) | 1.25 | 1–1.5 | 1 | 1–2 shapes, no interior detail |
+| 20 | 18×18 | 1.5 | 1–1.75 | 1.5 | 2–3 shapes |
+| 24 | 20×20 (2px padding) | 1.5 | 1–2 | 2 | base master |
+| 32 | 28×28 | 2 | 1.25–2.5 | 2.5 | secondary detail allowed |
+| 48 | 42×42 | 2.5 | 1.5–3.5 | 3.5 | full detail |
+
+24px is the master. Other sizes are redrawn from it, not scaled.
+
+### Construction
+- Round caps, round joins. Strokes centred. No hairlines below allowed min.
+- Keyline shapes: circle, square, portrait and landscape rectangles (Material-style keylines, adapted).
+- Coordinates snap to the pixel grid at each size (0.5 offsets for odd stroke widths).
+- Solid: filled primary shape with knocked-out detail, not a stroked outline filled in. Knockouts ≥ 1.5px at 24.
+- Colour: `currentColor` only. Flags are the only coloured assets.
+
+### Detail reduction
+Each concept has a written reduction note: what drops at 20, what drops at 16. Example — `banks`: 48 has pediment, 4 columns, steps; 24 has pediment, 3 columns, base; 16 has pediment, 2 columns.
+
+### Metaphor dictionary
+`data/metaphors.json` — one canonical metaphor per idea (bank = columned building, insurance = umbrella, energy = bolt, oil & gas = drop, real estate = house, debt = document with percent). Agents reuse metaphors before inventing new ones; modifiers (badge, overlay) distinguish sub-concepts.
+
+### Adjustable stroke
+- Outline SVGs keep live strokes: `fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"`.
+- Consumers override via CSS: `.li-icon { stroke-width: var(--li-stroke); }`.
+- Components/MCP clamp to the size's allowed range.
+- Solid icons ignore stroke.
+
+## 7. Build pipeline
+
+- SVGO with a locked config (keep `stroke-*`, strip IDs/metadata).
+- **Validator** (blocking): viewBox matches size; only allowed attributes; stroke width = size default; all points inside live area; pixel-snapped; path count / node count within budget; no fills on outline (except knockouts by convention); no transforms; file < size limit.
+- **Visual regression:** render every icon at every size to PNG; diff against last release; per-icon tolerance.
+- **Consistency checks:** optical weight (ink coverage) within a band per size; stroke-to-gap ratio.
+- **Outputs:** per-icon SVGs, sprites per style/size, `index.json` (concepts, nodes, keywords), embeddings for semantic search, zip downloads per scheme (folders named by scheme codes).
+
+## 8. Releases
+
+- SemVer. Patch = visual fixes; minor = new concepts/schemes; major = breaking (never planned).
+- Channels: `next` (every merged change) and `stable`.
+- Auto-promote `next` → `stable` weekly if no regressions flagged and checks green.
+- CHANGELOG generated from PRs. Every icon change shows before/after in the changelog page.
+- CDN URLs are versioned: `/v/1.4.0/icons/pharma/outline-24.svg`; `/latest/` follows stable.
+
+## 9. Agents
+
+All run in GitHub Actions (scheduled), using Claude via `ANTHROPIC_API_KEY` secret. Each opens a PR; PRs auto-merge to `next` when all checks pass.
+
+| Agent | Cadence | Job |
+|---|---|---|
+| **Trend scout** | Daily | Scan finance news/sources for emerging themes; create theme + concept if over threshold |
+| **Designer** | On queue | Draft icons for new concepts at all sizes, both styles, following §6 |
+| **Aligner** | Weekly | Find outliers (weight, metaphor drift, inconsistent details) and fix |
+| **Curator** | Monthly | Check standards for new versions (GICS, NAICS, NACE, ISIC, M49, ISO changes); update nodes; deprecate cleanly |
+| **Gap filler** | Weekly | Read zero-result searches from site/MCP logs; queue concepts |
+| **Geo sync** | Monthly | Rebuild generated maps/flags from Natural Earth + ISO updates |
+
+**Guardrails (hard rules in agent prompts and enforced by checks)**
+- Never rename or delete a concept ID or file path. Deprecate only.
+- Never edit `standards-private/` or set `publish: true` on held schemes.
+- Redesigns of an existing icon: max N per week; must pass visual-regression review threshold.
+- Theme exclusion list: disasters, deaths, wars, violence, named private individuals, politically partisan topics, company-specific scandals. Themes must be sector-level, not single-company.
+- Theme threshold: sustained mentions across ≥ 3 independent sources over ≥ 3 days.
+- Themes lifecycle: emerging → established (sustained 30d) → dormant (90d quiet). Dormant themes remain available, drop off the homepage.
+- Each PR includes rendered previews (all sizes, both styles) in the description.
+
+## 10. Website (icons.lithos.design)
+
+Static site + Netlify Functions. Framework: Astro (static output, small JS islands).
+
+**Global toggles (persisted in localStorage, reflected in URL):**
+- Sector standard: NAICS | NACE | ISIC | SIC | (held schemes appear when published)
+- Region standard: M49 | groupings source
+- Country style: Flag | Map
+- Worldview
+- Style: Outline | Solid
+- Size: 16 / 20 / 24 / 32 / 48
+- Stroke: slider within allowed range
+
+**Pages:** home (search + featured themes), browse by standard (tree), icon detail (all sizes/styles, codes in every scheme, related concepts, copy SVG/JSX/URL, download), themes, geography (map browser), changelog, licence & data sources, API/MCP docs.
+
+**Search:** keyword + synonyms + semantic (embeddings), CLDR names in multiple languages, search by code in any published scheme. Log zero-result queries (anonymous) for the Gap filler.
+
+## 11. API & MCP
+
+**HTTP API** (Netlify Functions)
+- `GET /api/search?q=&scheme=&kind=&limit=`
+- `GET /api/icon/:concept?style=&size=&stroke=`
+- `GET /api/code/:scheme/:code?style=&size=` → resolves to concept
+- `GET /api/related/:scheme/:code?to=`
+- `GET /api/schemes`
+- `GET /api/geo/:iso2?style=flag|map&worldview=`
+
+**MCP server** (Streamable HTTP at `/mcp`)
+- `search_icons(query, scheme?, kind?, limit?)`
+- `get_icon(id | {scheme, code}, style?, size?, stroke?, format: svg|jsx|url)`
+- `get_country(iso, style: flag|map, size?, worldview?)`
+- `list_schemes()`
+- `related(scheme, code, to_scheme)`
+- Server config: `default_scheme`, `default_size`, `country_style`, `worldview`.
+
+Rate limiting per IP; no auth for read.
+
+## 12. Figma library
+
+- Generated from repo SVGs via a small Figma plugin (import script) — the Figma REST API can't create components.
+- Component sets with variants: `style` (outline/solid) × `size` (16–48). Flags as a separate set.
+- Published as a Figma Community library; version matches repo release.
+
+## 13. Milestones
+
+| # | Milestone | Done when |
+|---|---|---|
+| M0 | Repo + spec | This file, CLAUDE.md, CI skeleton |
+| M1 | **Pilot** | ~40 concepts at all sizes/styles: 11 sector-level concepts, ~15 industry-level, 5 credit asset classes, 5 flags + maps, 3 region maps. Ian approves style |
+| M2 | Data | Free schemes loaded (NAICS, NACE, ISIC, SIC, M49, ISO); concept list mapped |
+| M3 | Geography | All flags, country maps, US states, M49 regions, groupings; worldviews |
+| M4 | Full sector set | All concepts for free schemes + held schemes' concepts (icons only) |
+| M5 | Site | icons.lithos.design live with toggles, search, downloads |
+| M6 | API + MCP | Endpoints and MCP live |
+| M7 | Agents | All agents running with guardrails |
+| M8 | Figma | Community library published |
+| M9 | Held standards | Each added as permission is granted |
+
+## 14. Setup Ian does once
+
+1. Create public GitHub repo (`lithos-icons`).
+2. Connect repo to Netlify; set custom domain `icons.lithos.design`.
+3. Add `ANTHROPIC_API_KEY` as a GitHub Actions secret.
+4. Check Fitch outside-activities / IP policy.
+
+## 15. Open questions
+
+- Which Moody's list: rating sectors, CLO industries, or both?
+- Fitch "Developing Americas" and other Fitch regions — source list (held until permission).
+- Themes: show on homepage at launch, or only after the scout has run for a few weeks?
+- Analytics: Netlify Analytics vs Plausible for search logs.

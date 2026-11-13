@@ -1,0 +1,19 @@
+{
+  "id": "consumer-staples",
+  "name": "Consumer Staples",
+  "kind": "sector",
+  "metaphor": "basket",
+  "keywords": [
+    "food",
+    "beverages",
+    "groceries",
+    "household products",
+    "tobacco",
+    "personal care",
+    "supermarkets"
+  ],
+  "reduction": "Slats: 0 at 16, 2 at 20, 3 at 24+.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

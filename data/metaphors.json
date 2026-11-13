@@ -1,0 +1,19 @@
+{
+  "flame": ["energy"],
+  "drop": ["oil-gas"],
+  "ingots": ["materials", "metals"],
+  "flask": ["chemicals"],
+  "gear": ["industrials", "machinery"],
+  "shopping-bag": ["consumer-discretionary", "retail"],
+  "basket": ["consumer-staples", "groceries"],
+  "first-aid-kit": ["health-care"],
+  "capsule": ["pharma"],
+  "bank-building": ["financials", "banks"],
+  "umbrella": ["insurance"],
+  "document-percent": ["debt"],
+  "monitor": ["information-technology"],
+  "chip": ["semiconductors"],
+  "speech-bubble": ["communication-services"],
+  "bolt": ["utilities", "electric-utilities"],
+  "house": ["real-estate", "residential"]
+}

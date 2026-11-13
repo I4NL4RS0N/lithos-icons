@@ -1,0 +1,19 @@
+{
+  "id": "energy",
+  "name": "Energy",
+  "kind": "sector",
+  "metaphor": "flame",
+  "keywords": [
+    "oil",
+    "gas",
+    "coal",
+    "fuel",
+    "fossil fuels",
+    "petroleum",
+    "power"
+  ],
+  "reduction": "20+: inner flame. 16: outer flame only.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

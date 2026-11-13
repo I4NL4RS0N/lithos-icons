@@ -1,0 +1,19 @@
+{
+  "id": "health-care",
+  "name": "Health Care",
+  "kind": "sector",
+  "metaphor": "first-aid-kit",
+  "keywords": [
+    "healthcare",
+    "pharma",
+    "biotech",
+    "hospitals",
+    "medical devices",
+    "medicine",
+    "health"
+  ],
+  "reduction": "Cross arms lengthen at 32+.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

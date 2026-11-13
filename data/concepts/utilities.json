@@ -1,0 +1,19 @@
+{
+  "id": "utilities",
+  "name": "Utilities",
+  "kind": "sector",
+  "metaphor": "bolt",
+  "keywords": [
+    "electric",
+    "power",
+    "water",
+    "gas utilities",
+    "renewables",
+    "grid",
+    "electricity"
+  ],
+  "reduction": "None — single shape at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

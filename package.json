@@ -1,0 +1,17 @@
+{
+  "name": "lithos-icons",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sector, theme, country and region icons for finance",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "preview": "node scripts/preview.mjs",
+    "all": "npm run build && npm run validate && npm run preview"
+  },
+  "devDependencies": {
+    "pngjs": "^7.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "information-technology",
+  "name": "Information Technology",
+  "kind": "sector",
+  "metaphor": "monitor",
+  "keywords": [
+    "tech",
+    "software",
+    "hardware",
+    "semiconductors",
+    "IT services",
+    "computers",
+    "electronics"
+  ],
+  "reduction": "32+: content lines on screen.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "materials",
+  "name": "Materials",
+  "kind": "sector",
+  "metaphor": "ingots",
+  "keywords": [
+    "metals",
+    "mining",
+    "chemicals",
+    "commodities",
+    "steel",
+    "gold",
+    "raw materials"
+  ],
+  "reduction": "32+: bevel line on each ingot.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

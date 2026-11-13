@@ -1,0 +1,19 @@
+{
+  "id": "industrials",
+  "name": "Industrials",
+  "kind": "sector",
+  "metaphor": "gear",
+  "keywords": [
+    "machinery",
+    "manufacturing",
+    "aerospace",
+    "defense",
+    "construction",
+    "engineering",
+    "transport"
+  ],
+  "reduction": "Teeth: 6 at 16–20, 8 at 24–32, 10 at 48.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
