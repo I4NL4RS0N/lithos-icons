@@ -1,0 +1,803 @@
+{
+  "concept": "utilities",
+  "query": "Utilities",
+  "fetched": "2026-11-13T03:13:26.365Z",
+  "topTerms": [
+    [
+      "utilities",
+      29
+    ],
+    [
+      "utility",
+      21
+    ],
+    [
+      "electricity",
+      13
+    ],
+    [
+      "energy",
+      12
+    ],
+    [
+      "water",
+      12
+    ],
+    [
+      "service",
+      11
+    ],
+    [
+      "household",
+      7
+    ],
+    [
+      "maintenance",
+      7
+    ],
+    [
+      "gas",
+      6
+    ],
+    [
+      "power",
+      6
+    ],
+    [
+      "support",
+      6
+    ],
+    [
+      "gear",
+      5
+    ],
+    [
+      "system",
+      5
+    ],
+    [
+      "creativity",
+      4
+    ],
+    [
+      "innovation",
+      4
+    ],
+    [
+      "infrastructure",
+      4
+    ],
+    [
+      "advantage",
+      4
+    ],
+    [
+      "preferences",
+      4
+    ],
+    [
+      "home",
+      4
+    ],
+    [
+      "house",
+      3
+    ],
+    [
+      "energy-bill",
+      3
+    ],
+    [
+      "gears",
+      3
+    ],
+    [
+      "bills",
+      3
+    ],
+    [
+      "homeowner",
+      3
+    ],
+    [
+      "supply",
+      3
+    ],
+    [
+      "lightning",
+      2
+    ],
+    [
+      "networking",
+      2
+    ],
+    [
+      "award",
+      2
+    ],
+    [
+      "intellectual-property",
+      2
+    ],
+    [
+      "industry",
+      2
+    ],
+    [
+      "tool",
+      2
+    ],
+    [
+      "bill",
+      2
+    ],
+    [
+      "city",
+      2
+    ],
+    [
+      "benefit",
+      2
+    ],
+    [
+      "payoff",
+      2
+    ],
+    [
+      "usefulness",
+      2
+    ],
+    [
+      "value",
+      2
+    ],
+    [
+      "important",
+      2
+    ],
+    [
+      "sector",
+      2
+    ],
+    [
+      "soe",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "energy",
+            "gas",
+            "house",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334486-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "energy",
+            "energy-bill",
+            "lightning",
+            "networking",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7410046-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "fire",
+            "miscellaneous",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6953873-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "award",
+            "creativity",
+            "gear",
+            "innovation",
+            "intellectual-property",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508326-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "helmet",
+            "industry",
+            "service",
+            "system",
+            "tool",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8489692-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "gas",
+            "internet",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422122-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "energy",
+            "infrastructure",
+            "service",
+            "system",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8378229-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "energy",
+            "infrastructure",
+            "service",
+            "system",
+            "utility",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8378208-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "bill",
+            "energy",
+            "gas",
+            "invoice",
+            "service",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8355886-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "city",
+            "electricity",
+            "infrastructure",
+            "service",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8353742-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "city",
+            "electricity",
+            "infrastructure",
+            "service",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8353724-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "energy",
+            "gas",
+            "house",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334482-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "advantage",
+            "benefit",
+            "payoff",
+            "usefulness",
+            "utility",
+            "value"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8249558-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "advantage",
+            "benefit",
+            "payoff",
+            "usefulness",
+            "utility",
+            "value"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8155489-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "engineer",
+            "industry",
+            "service",
+            "system",
+            "tool",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8067192-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "household",
+            "important",
+            "sector",
+            "soe",
+            "state-owned-enterprise",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8020635-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "household",
+            "important",
+            "sector",
+            "soe",
+            "state-owned-enterprise",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7969308-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "bill",
+            "electricity",
+            "gas",
+            "utilities",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7953266-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "gas",
+            "power",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7953091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "gear",
+            "maintenance",
+            "preferences",
+            "support",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7945233-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "gear",
+            "maintenance",
+            "preferences",
+            "support",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7945201-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "access",
+            "basic",
+            "billing",
+            "household",
+            "service",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7944154-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "access",
+            "basic",
+            "billing",
+            "household",
+            "service",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7944116-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "gear",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7576179-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "allocation",
+            "asset",
+            "operation",
+            "resource",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7527015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "energy",
+            "energy-bill",
+            "lightning",
+            "networking",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7410086-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "gears",
+            "maintenance",
+            "package",
+            "preferences",
+            "support",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7409454-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "development",
+            "fix",
+            "hammer",
+            "tools",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7389258-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "bills",
+            "electricity",
+            "home",
+            "homeowner",
+            "household",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7177555-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "bills",
+            "home",
+            "homeowner",
+            "household",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7177546-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "bills",
+            "electricity",
+            "home",
+            "homeowner",
+            "household",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7177545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "app",
+            "setting",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6730724-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "creativity",
+            "implementation",
+            "innovation",
+            "invention",
+            "quality",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6307447-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "creativity",
+            "implementation",
+            "innovation",
+            "invention",
+            "quality",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6307445-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "gears",
+            "maintenance",
+            "settings",
+            "system",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6234617-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "energy",
+            "pole",
+            "power",
+            "pylon",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6185898-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "energy",
+            "pole",
+            "power",
+            "pylon",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6185891-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "energy",
+            "power",
+            "supply",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6118865-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "energy",
+            "power",
+            "supply",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6118841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "energy",
+            "power",
+            "supply",
+            "utilities",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6118806-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "award",
+            "creativity",
+            "gear",
+            "innovation",
+            "intellectual-property",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6104336-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "gears",
+            "maintenance",
+            "package",
+            "preferences",
+            "support",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5895680-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "handling",
+            "maintenance",
+            "management",
+            "service",
+            "support",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5779777-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "handling",
+            "maintenance",
+            "management",
+            "service",
+            "support",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5779726-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "availability",
+            "compulsory",
+            "efficiency",
+            "home",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5499888-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "advantage",
+            "electric-car",
+            "function",
+            "performance",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4632293-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "advantage",
+            "electric-car",
+            "function",
+            "performance",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4603407-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "electricity",
+            "energy-bill",
+            "house",
+            "housing",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4516400-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utilities",
+          "tags": [
+            "interaction",
+            "interface",
+            "link",
+            "paste",
+            "utilities"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4498855-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "utility",
+          "tags": [
+            "screwdriver",
+            "setting",
+            "tools",
+            "tune-up",
+            "utility"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4476569-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "pylon",
+    "rationale": null
+  }
+}
