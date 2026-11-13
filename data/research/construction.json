@@ -1,0 +1,781 @@
+{
+  "concept": "construction",
+  "query": "construction",
+  "fetched": "2026-11-13T19:03:56.773Z",
+  "topTerms": [
+    [
+      "construction",
+      50
+    ],
+    [
+      "building",
+      30
+    ],
+    [
+      "architecture",
+      24
+    ],
+    [
+      "engineering",
+      21
+    ],
+    [
+      "industry",
+      17
+    ],
+    [
+      "crane",
+      11
+    ],
+    [
+      "worker",
+      10
+    ],
+    [
+      "development",
+      8
+    ],
+    [
+      "manufacturing",
+      6
+    ],
+    [
+      "build",
+      5
+    ],
+    [
+      "engineer",
+      5
+    ],
+    [
+      "infrastructure",
+      4
+    ],
+    [
+      "lorry",
+      3
+    ],
+    [
+      "contractor",
+      3
+    ],
+    [
+      "labor",
+      3
+    ],
+    [
+      "project",
+      3
+    ],
+    [
+      "house",
+      3
+    ],
+    [
+      "concrete",
+      2
+    ],
+    [
+      "property",
+      2
+    ],
+    [
+      "electrician",
+      2
+    ],
+    [
+      "planning",
+      2
+    ],
+    [
+      "blueprint",
+      2
+    ],
+    [
+      "sign",
+      2
+    ],
+    [
+      "safety-vest",
+      2
+    ],
+    [
+      "uniform",
+      2
+    ],
+    [
+      "helmet",
+      2
+    ],
+    [
+      "real-estate",
+      1
+    ],
+    [
+      "renovation",
+      1
+    ],
+    [
+      "docks",
+      1
+    ],
+    [
+      "equipment",
+      1
+    ],
+    [
+      "loading-dock",
+      1
+    ],
+    [
+      "shipping",
+      1
+    ],
+    [
+      "site",
+      1
+    ],
+    [
+      "residential",
+      1
+    ],
+    [
+      "factory",
+      1
+    ],
+    [
+      "target",
+      1
+    ],
+    [
+      "constructions",
+      1
+    ],
+    [
+      "barrier",
+      1
+    ],
+    [
+      "danger",
+      1
+    ],
+    [
+      "tool",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "concrete",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7519122-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "construction",
+            "crane",
+            "property",
+            "real-estate",
+            "renovation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5789342-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "build",
+            "construction",
+            "crane",
+            "industry",
+            "lorry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518423-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514823-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514822-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514821-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514820-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514818-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514817-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514816-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514815-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "industry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514814-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "construction",
+            "docks",
+            "equipment",
+            "loading-dock",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "contractor",
+            "engineering",
+            "infrastructure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505596-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "labor",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505573-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "build",
+            "construction",
+            "crane",
+            "industry",
+            "lorry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8504629-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "construction",
+            "crane",
+            "development",
+            "site"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8503145-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "engineer",
+            "industry",
+            "labor",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485078-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "build",
+            "construction",
+            "crane",
+            "industry",
+            "lorry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476797-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "crane",
+            "residential"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428685-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "infrastructure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "infrastructure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405175-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "contractor",
+            "development",
+            "electrician",
+            "engineer",
+            "planning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8395013-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "manufacturing",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8393000-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "manufacturing",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392997-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "factory",
+            "manufacturing",
+            "target",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392994-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "blueprint",
+            "construction",
+            "manufacturing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392979-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "manufacturing",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392976-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "manufacturing",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "construction",
+            "constructions",
+            "crane",
+            "development",
+            "project"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392189-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "construction",
+            "development",
+            "engineering",
+            "house"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8381037-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "construction",
+            "development",
+            "engineering",
+            "house"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8381030-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "barrier",
+            "construction",
+            "sign"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8381006-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "danger",
+            "industry",
+            "sign"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8381002-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "build",
+            "construction",
+            "tool",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8376728-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "contractor",
+            "development",
+            "electrician",
+            "engineer",
+            "planning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8365774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "housing",
+            "property"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "buildings",
+            "construction",
+            "construction-and-tools",
+            "crane",
+            "maintenance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8346151-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "construction",
+            "development",
+            "engineering",
+            "house"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8343374-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "development",
+            "engineering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8343369-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "engineer",
+            "laborer",
+            "safety-vest",
+            "uniform",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8326809-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "construction",
+            "engineer",
+            "job",
+            "labor",
+            "safety-vest",
+            "uniform"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8326790-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "build",
+            "construction",
+            "helmet",
+            "industry",
+            "warning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8314414-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "building",
+            "civil-engineering",
+            "construction",
+            "construction-site",
+            "crane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8302769-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "brick",
+            "building",
+            "construction",
+            "helmet",
+            "safety",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8290396-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "project"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8290353-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "engineering",
+            "project"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8290327-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "blueprint",
+            "building",
+            "concrete",
+            "construction",
+            "crane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281053-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Construction",
+          "tags": [
+            "architecture",
+            "building",
+            "construction",
+            "crane",
+            "infrastructure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8273538-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "tower-crane",
+    "rationale": "Refs for \"construction\" dominated by tower cranes; hard hats second.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

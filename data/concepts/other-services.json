@@ -1,0 +1,18 @@
+{
+  "id": "other-services",
+  "name": "Other Services",
+  "kind": "sector",
+  "metaphor": "wrench",
+  "keywords": [
+    "repair",
+    "maintenance",
+    "personal services",
+    "households",
+    "membership organisations",
+    "miscellaneous"
+  ],
+  "reduction": "None — handle and jaw at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

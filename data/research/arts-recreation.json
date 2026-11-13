@@ -1,0 +1,819 @@
+{
+  "concept": "arts-recreation",
+  "query": "entertainment",
+  "fetched": "2026-11-13T19:04:00.593Z",
+  "topTerms": [
+    [
+      "entertainment",
+      50
+    ],
+    [
+      "music",
+      16
+    ],
+    [
+      "media",
+      12
+    ],
+    [
+      "movie",
+      12
+    ],
+    [
+      "film",
+      10
+    ],
+    [
+      "performance",
+      9
+    ],
+    [
+      "cinema",
+      9
+    ],
+    [
+      "mask",
+      8
+    ],
+    [
+      "show",
+      8
+    ],
+    [
+      "video",
+      8
+    ],
+    [
+      "leisure",
+      7
+    ],
+    [
+      "event",
+      6
+    ],
+    [
+      "fun",
+      5
+    ],
+    [
+      "television",
+      4
+    ],
+    [
+      "popcorn",
+      4
+    ],
+    [
+      "festival",
+      3
+    ],
+    [
+      "profession",
+      3
+    ],
+    [
+      "sing",
+      3
+    ],
+    [
+      "theater",
+      3
+    ],
+    [
+      "platform",
+      3
+    ],
+    [
+      "record",
+      3
+    ],
+    [
+      "streaming",
+      3
+    ],
+    [
+      "video-camera",
+      3
+    ],
+    [
+      "video-on-demand",
+      3
+    ],
+    [
+      "amusement",
+      3
+    ],
+    [
+      "movies",
+      3
+    ],
+    [
+      "audio",
+      3
+    ],
+    [
+      "home-theater",
+      3
+    ],
+    [
+      "enjoyment",
+      3
+    ],
+    [
+      "video-game",
+      2
+    ],
+    [
+      "projector",
+      2
+    ],
+    [
+      "speaker",
+      2
+    ],
+    [
+      "tv",
+      2
+    ],
+    [
+      "game",
+      2
+    ],
+    [
+      "laptop",
+      2
+    ],
+    [
+      "concert",
+      2
+    ],
+    [
+      "joy",
+      2
+    ],
+    [
+      "party",
+      2
+    ],
+    [
+      "smile",
+      2
+    ],
+    [
+      "shows",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "entertainment",
+            "fun",
+            "music",
+            "subscription",
+            "video-game"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513151-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "activity",
+            "entertainment",
+            "fun",
+            "leisure",
+            "performance",
+            "recreation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "event",
+            "mask",
+            "media",
+            "performance",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364422-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "event",
+            "mask",
+            "media",
+            "performance",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364420-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "event",
+            "media",
+            "music",
+            "performance",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296280-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "event",
+            "mask",
+            "media",
+            "performance",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8289156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "mask",
+            "projector",
+            "speaker",
+            "tv"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8186625-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "controller",
+            "entertainment",
+            "game",
+            "leisure",
+            "video-game"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8149062-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "console",
+            "entertainment",
+            "projector",
+            "remote",
+            "speaker",
+            "tv"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8139073-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "film",
+            "laptop",
+            "movie",
+            "smart-tv",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8127301-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "concert",
+            "entertainment",
+            "festival",
+            "performance",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8061512-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "concert",
+            "entertainment",
+            "festival",
+            "performance",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8061480-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "carnival",
+            "entertainment",
+            "festival",
+            "music",
+            "parade",
+            "profession"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8049674-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "joy",
+            "mask",
+            "music",
+            "party",
+            "smile"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8029848-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "joy",
+            "mask",
+            "music",
+            "party",
+            "smile"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8029824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "film",
+            "media",
+            "movie",
+            "music",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7953080-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "acts",
+            "entertainment",
+            "entertainment-options",
+            "live-music",
+            "performers",
+            "shows"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7823450-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "entertainment",
+            "film",
+            "media",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7719940-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertain",
+            "entertainment",
+            "media",
+            "music",
+            "sing",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7710608-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "channel",
+            "entertainment",
+            "program",
+            "star",
+            "television",
+            "tv-show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7683377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "drama",
+            "entertainment",
+            "film",
+            "laptop",
+            "movie",
+            "theater"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7595878-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "platform",
+            "record",
+            "streaming",
+            "video-camera",
+            "video-on-demand"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7552088-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "platform",
+            "record",
+            "streaming",
+            "video-camera",
+            "video-on-demand"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7552029-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "platform",
+            "record",
+            "streaming",
+            "video-camera",
+            "video-on-demand"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7551992-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7548210-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "event",
+            "music",
+            "performance",
+            "planning",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7548199-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "event",
+            "music",
+            "performance",
+            "planning",
+            "show"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7548186-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "content-creator",
+            "entertainment",
+            "photography",
+            "profession",
+            "social-media",
+            "youtuber"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7536232-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "content-creator",
+            "entertainment",
+            "photography",
+            "podcast",
+            "profession",
+            "social-media"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7536227-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "film",
+            "media",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7527014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "microphone",
+            "music",
+            "sing",
+            "song",
+            "tone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7524284-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "film",
+            "media",
+            "movie",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7524279-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "amusement",
+            "entertainment",
+            "film",
+            "media",
+            "movies",
+            "music"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7524273-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "microphone",
+            "music",
+            "sing",
+            "song",
+            "tone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7524272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "film",
+            "media",
+            "movie",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7524269-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "amusement",
+            "entertainment",
+            "film",
+            "media",
+            "movies",
+            "music"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7524265-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "audio",
+            "entertainment",
+            "home-theater",
+            "leisure",
+            "popcorn",
+            "television"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7517875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "audio",
+            "entertainment",
+            "home-theater",
+            "leisure",
+            "popcorn",
+            "television"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7517849-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "audio",
+            "entertainment",
+            "home-theater",
+            "leisure",
+            "popcorn",
+            "television"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7517815-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "multimedia",
+            "music",
+            "smartphone",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7446213-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "fun",
+            "games",
+            "leisure",
+            "movies",
+            "shows"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7437139-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "enjoyment",
+            "entertainment",
+            "game",
+            "gaming",
+            "leisure",
+            "relaxation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7436371-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "film",
+            "music",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7417582-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "blog",
+            "enjoyment",
+            "entertainment",
+            "fun",
+            "music",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7297017-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "entertainment",
+            "movie",
+            "musical",
+            "soundtrack",
+            "video-clip"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7259614-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "family",
+            "movie",
+            "play-button",
+            "tv-watching"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7233466-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "family",
+            "movie",
+            "play-button",
+            "tv-watching"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7233453-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "amusement",
+            "enjoyment",
+            "entertainment",
+            "fun",
+            "pleasure",
+            "popcorn"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7199803-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "marketing",
+            "mask",
+            "movie",
+            "theater"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7156662-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "entertainment",
+          "tags": [
+            "cinema",
+            "entertainment",
+            "marketing",
+            "mask",
+            "movie",
+            "theater"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7156613-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "theatre-mask",
+    "rationale": "Refs for \"entertainment\" dominated by theatre masks, clapperboards and microphones; one mask reads at 16px.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

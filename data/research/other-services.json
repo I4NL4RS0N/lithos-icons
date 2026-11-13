@@ -1,0 +1,799 @@
+{
+  "concept": "other-services",
+  "query": "repair service",
+  "fetched": "2026-11-13T19:04:01.835Z",
+  "topTerms": [
+    [
+      "repair service",
+      34
+    ],
+    [
+      "repair-service",
+      34
+    ],
+    [
+      "repair",
+      23
+    ],
+    [
+      "service",
+      19
+    ],
+    [
+      "wrench",
+      19
+    ],
+    [
+      "maintenance",
+      16
+    ],
+    [
+      "tools",
+      11
+    ],
+    [
+      "repair services",
+      11
+    ],
+    [
+      "repair-services",
+      11
+    ],
+    [
+      "support",
+      8
+    ],
+    [
+      "tool",
+      7
+    ],
+    [
+      "mechanic",
+      5
+    ],
+    [
+      "laptop",
+      5
+    ],
+    [
+      "electronics",
+      4
+    ],
+    [
+      "smartphone",
+      4
+    ],
+    [
+      "technology",
+      4
+    ],
+    [
+      "technical-support",
+      3
+    ],
+    [
+      "fixing",
+      3
+    ],
+    [
+      "repairing service",
+      3
+    ],
+    [
+      "construction",
+      3
+    ],
+    [
+      "repairing-service",
+      3
+    ],
+    [
+      "gear",
+      3
+    ],
+    [
+      "setting",
+      3
+    ],
+    [
+      "configuration",
+      3
+    ],
+    [
+      "retail-service",
+      2
+    ],
+    [
+      "service-center",
+      2
+    ],
+    [
+      "construction-and-tools",
+      2
+    ],
+    [
+      "transport",
+      2
+    ],
+    [
+      "transportation",
+      2
+    ],
+    [
+      "van",
+      2
+    ],
+    [
+      "vehicle",
+      2
+    ],
+    [
+      "garage-tool",
+      2
+    ],
+    [
+      "screw-fixer",
+      2
+    ],
+    [
+      "toolkit",
+      2
+    ],
+    [
+      "screwdriver",
+      2
+    ],
+    [
+      "chat",
+      2
+    ],
+    [
+      "conversation",
+      2
+    ],
+    [
+      "speech-bubble",
+      2
+    ],
+    [
+      "robot",
+      2
+    ],
+    [
+      "settings",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Repair Service",
+          "tags": [
+            "maintenance",
+            "repair",
+            "repair-service",
+            "service",
+            "tool",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8363363-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair-service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281613-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "labor",
+            "maintenance",
+            "repair-service",
+            "service",
+            "skill",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281580-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair-service",
+            "retail-service",
+            "road",
+            "service-center",
+            "support",
+            "technical-support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8202356-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "maintenance",
+            "repair-service",
+            "retail-service",
+            "support",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8198757-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "fixing",
+            "helmet",
+            "management",
+            "repair-service",
+            "service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7954282-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "hardware-repair",
+            "it-support",
+            "repair-services",
+            "repair-services",
+            "service-fix",
+            "tech-maintenance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7901666-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "maintenance",
+            "repair",
+            "repair-service",
+            "service",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7878798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "maintenance",
+            "repair",
+            "repair-service",
+            "repair-service",
+            "service",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7878778-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "car",
+            "car-repair",
+            "maintenance",
+            "repair",
+            "repair-service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7602497-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "fix-service",
+            "maintenance",
+            "repair-service",
+            "repair-shop",
+            "technical-support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7057069-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "construction-and-tools",
+            "repair-services",
+            "transport",
+            "transportation",
+            "van",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7029763-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "construction-and-tools",
+            "repair-services",
+            "transport",
+            "transportation",
+            "van",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7029743-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "garage-tool",
+            "repair-service",
+            "screw-fixer",
+            "toolkit",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6582975-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "auto-repair",
+            "fixing",
+            "maintenance",
+            "repair-service",
+            "service-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6350473-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair",
+            "repair-service",
+            "service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6147255-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair",
+            "repair-service",
+            "screwdriver",
+            "service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6147251-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair",
+            "repair-service",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6147246-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "fixing",
+            "maintenance",
+            "repair",
+            "repair-service",
+            "tools",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5849481-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "electronics",
+            "repair-services",
+            "smartphone",
+            "technology",
+            "tool",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5844659-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "electronics",
+            "repair-services",
+            "smartphone",
+            "technology",
+            "tool",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5844636-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "electronics",
+            "repair-services",
+            "smartphone",
+            "technology",
+            "tool",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5757803-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "electronics",
+            "repair-services",
+            "smartphone",
+            "technology",
+            "tool",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5757722-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "equipment",
+            "repair-service",
+            "technician",
+            "tool",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5557921-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repairing Service",
+          "tags": [
+            "construction",
+            "construction-tool",
+            "drill",
+            "drilling-machine",
+            "repairing-service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5310465-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "gear",
+            "hand",
+            "repair",
+            "repair-service",
+            "service",
+            "setting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5280922-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "construction",
+            "maintenance",
+            "repair",
+            "repair-services",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5051990-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "garage-tool",
+            "repair-service",
+            "screw-fixer",
+            "toolkit",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4878942-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "chat",
+            "conversation",
+            "maintenance",
+            "repair-services",
+            "speech-bubble"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4859126-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "chat",
+            "conversation",
+            "maintenance",
+            "repair-services",
+            "speech-bubble"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4859011-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair",
+            "repair-service",
+            "service",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4824144-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair",
+            "repair-service",
+            "robot",
+            "service",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4548279-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "repair",
+            "repair-service",
+            "robot",
+            "service",
+            "support",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4548272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "calendar",
+            "date",
+            "repair-service",
+            "schedule",
+            "service",
+            "setting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3956398-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "repair services",
+          "tags": [
+            "hardware",
+            "manual",
+            "repair",
+            "repair-services",
+            "servicing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3566729-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "gear",
+            "repair",
+            "repair-service",
+            "service",
+            "settings",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3338724-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "automobile",
+            "gear",
+            "repair",
+            "repair-service",
+            "settings",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2591767-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repairing Service",
+          "tags": [
+            "cogwheel",
+            "configuration",
+            "maintenance",
+            "repairing-service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2100503-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repairing Service",
+          "tags": [
+            "handyman",
+            "repairing-service",
+            "spanner",
+            "tools",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1929133-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "maintenance-service",
+            "mechanic",
+            "repair-service",
+            "tech-support",
+            "technical-support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1837690-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "laptop",
+            "mechanic",
+            "repair-service",
+            "service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1646248-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "laptop",
+            "mechanic",
+            "repair",
+            "repair-service",
+            "service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1645271-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "construction",
+            "fix",
+            "maintenance",
+            "repair",
+            "repair-service",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1515979-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "laptop",
+            "mechanic",
+            "repair",
+            "repair-service",
+            "service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1112355-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "laptop",
+            "repair",
+            "repair-service",
+            "service",
+            "setting",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1104003-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "laptop",
+            "mechanic",
+            "repair",
+            "repair-service",
+            "service",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1087529-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "configuration",
+            "options",
+            "repair-service",
+            "support",
+            "tools",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/945366-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Repair Service",
+          "tags": [
+            "configuration",
+            "options",
+            "repair-service",
+            "support",
+            "tools",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/945364-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Service Repair",
+          "tags": [
+            "hammer",
+            "maintenance",
+            "repair",
+            "service-repair",
+            "wrench"
+          ],
+          "thumb": "https://static.thenounproject.com/png/890958-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Service Repair",
+          "tags": [
+            "hammer",
+            "maintenance",
+            "repair",
+            "screwdriver",
+            "service-repair"
+          ],
+          "thumb": "https://static.thenounproject.com/png/890953-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "wrench",
+    "rationale": "Refs for \"repair service\" dominated by wrenches.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

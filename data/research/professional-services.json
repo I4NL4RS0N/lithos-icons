@@ -1,0 +1,788 @@
+{
+  "concept": "professional-services",
+  "query": "professional services",
+  "fetched": "2026-11-13T19:03:58.635Z",
+  "topTerms": [
+    [
+      "service",
+      37
+    ],
+    [
+      "professional",
+      34
+    ],
+    [
+      "professional services",
+      11
+    ],
+    [
+      "professional-services",
+      11
+    ],
+    [
+      "professional service",
+      7
+    ],
+    [
+      "professional-service",
+      7
+    ],
+    [
+      "business",
+      6
+    ],
+    [
+      "technology",
+      6
+    ],
+    [
+      "technical-support",
+      5
+    ],
+    [
+      "hairstylist",
+      5
+    ],
+    [
+      "maintenance",
+      4
+    ],
+    [
+      "client",
+      4
+    ],
+    [
+      "support",
+      4
+    ],
+    [
+      "worker",
+      4
+    ],
+    [
+      "customer",
+      4
+    ],
+    [
+      "teamwork",
+      4
+    ],
+    [
+      "hotel",
+      4
+    ],
+    [
+      "avatar",
+      3
+    ],
+    [
+      "person",
+      3
+    ],
+    [
+      "barbershop",
+      3
+    ],
+    [
+      "barber",
+      3
+    ],
+    [
+      "manicurist",
+      3
+    ],
+    [
+      "beautician",
+      3
+    ],
+    [
+      "salon",
+      3
+    ],
+    [
+      "services",
+      2
+    ],
+    [
+      "technical",
+      2
+    ],
+    [
+      "information",
+      2
+    ],
+    [
+      "network",
+      2
+    ],
+    [
+      "advice",
+      2
+    ],
+    [
+      "solution",
+      2
+    ],
+    [
+      "teamwork-collaboration",
+      2
+    ],
+    [
+      "experience",
+      2
+    ],
+    [
+      "expert",
+      2
+    ],
+    [
+      "leadership",
+      2
+    ],
+    [
+      "specialist",
+      2
+    ],
+    [
+      "finance",
+      2
+    ],
+    [
+      "meeting",
+      2
+    ],
+    [
+      "strategy",
+      2
+    ],
+    [
+      "professions-and-jobs",
+      2
+    ],
+    [
+      "repair-services",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "professional services",
+          "tags": [
+            "maintenance",
+            "professional",
+            "professional-services",
+            "services",
+            "technical",
+            "technical-support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6436268-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional service",
+          "tags": [
+            "business",
+            "information",
+            "network",
+            "professional-service",
+            "service",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8317037-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional service",
+          "tags": [
+            "business",
+            "information",
+            "network",
+            "professional-service",
+            "service",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8317006-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "avatar",
+            "professional-services",
+            "repair-service",
+            "technical-support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7297457-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "advice",
+            "client",
+            "professional-services",
+            "solution",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7248849-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "advice",
+            "client",
+            "professional-services",
+            "solution",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7248790-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "person",
+            "professional",
+            "professional-services",
+            "service",
+            "teamwork-collaboration",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6965361-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "person",
+            "professional",
+            "professional-services",
+            "service",
+            "teamwork-collaboration",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6965334-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "business",
+            "customer",
+            "professional-services",
+            "service",
+            "support",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6933637-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "business",
+            "customer",
+            "professional-services",
+            "service",
+            "support",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6933636-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional service",
+          "tags": [
+            "experience",
+            "expert",
+            "leadership",
+            "professional-service",
+            "specialist",
+            "teamwork"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6821257-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional service",
+          "tags": [
+            "experience",
+            "expert",
+            "leadership",
+            "professional-service",
+            "specialist",
+            "teamwork"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6821242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional service",
+          "tags": [
+            "business",
+            "finance",
+            "meeting",
+            "professional-service",
+            "strategy",
+            "teamwork"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6717218-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional service",
+          "tags": [
+            "business",
+            "finance",
+            "meeting",
+            "professional-service",
+            "strategy",
+            "teamwork"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6717168-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "avatar",
+            "professional-services",
+            "professions-and-jobs",
+            "repair-services",
+            "technical-support",
+            "user"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6663315-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "avatar",
+            "professional-services",
+            "professions-and-jobs",
+            "repair-services",
+            "technical-support",
+            "user"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6663223-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional services",
+          "tags": [
+            "maintenance",
+            "professional",
+            "professional-services",
+            "services",
+            "technical",
+            "technical-support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6436236-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "professional service",
+          "tags": [
+            "agent",
+            "customer-service",
+            "professional-service",
+            "service-center",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4235572-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Professional Customer Service",
+          "tags": [
+            "professional-customer-service",
+            "service-center"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1851313-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "admin",
+          "tags": [
+            "admin",
+            "assistant",
+            "manager",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8000665-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Procurement",
+          "tags": [
+            "planning",
+            "procurement",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4954593-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Procurement",
+          "tags": [
+            "planning",
+            "procurement",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4954427-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bell boy",
+          "tags": [
+            "bell-boy",
+            "hotel",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3166568-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bell boy",
+          "tags": [
+            "bell-boy",
+            "hotel",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3166014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hairdresser",
+          "tags": [
+            "barbershop",
+            "hairdresser",
+            "hairstylist",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7729348-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ribbon",
+          "tags": [
+            "advocacy",
+            "advocate",
+            "professional",
+            "ribbon",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7608608-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ribbon",
+          "tags": [
+            "advocacy",
+            "advocate",
+            "professional",
+            "ribbon",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7608558-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Apron",
+          "tags": [
+            "apron",
+            "barber",
+            "professional",
+            "service",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7467920-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "maintenance",
+          "tags": [
+            "maintenance",
+            "professional",
+            "repair",
+            "service",
+            "technician"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7050376-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "maintenance",
+          "tags": [
+            "maintenance",
+            "professional",
+            "repair",
+            "service",
+            "technician"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7028842-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "client",
+          "tags": [
+            "client",
+            "communication",
+            "customer",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6697856-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "client",
+          "tags": [
+            "client",
+            "communication",
+            "customer",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6697832-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "receptionist",
+          "tags": [
+            "facilities",
+            "hotel",
+            "professional",
+            "receptionist",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6628967-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "receptionist",
+          "tags": [
+            "facilities",
+            "hotel",
+            "professional",
+            "receptionist",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6628930-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "plumber",
+          "tags": [
+            "plumber",
+            "professional",
+            "repairman",
+            "service",
+            "working"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6208641-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "manicurist",
+          "tags": [
+            "beautician",
+            "manicurist",
+            "professional",
+            "salon",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5937520-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "manicurist",
+          "tags": [
+            "beautician",
+            "manicurist",
+            "professional",
+            "salon",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5937486-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "manicurist",
+          "tags": [
+            "beautician",
+            "manicurist",
+            "professional",
+            "salon",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5937460-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hair dresser",
+          "tags": [
+            "barbershop",
+            "hair-dresser",
+            "hairstylist",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5354013-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "service gun",
+          "tags": [
+            "professional",
+            "service",
+            "service-gun",
+            "sport",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5237464-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "service gun",
+          "tags": [
+            "professional",
+            "service",
+            "service-gun",
+            "sport",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5237369-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Barber",
+          "tags": [
+            "barber",
+            "hairstylist",
+            "occupation",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4687299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Barber",
+          "tags": [
+            "barber",
+            "hairstylist",
+            "occupation",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4687288-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "photographer",
+          "tags": [
+            "photo",
+            "photographer",
+            "picture",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4674194-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vetted professional",
+          "tags": [
+            "approved",
+            "professionals",
+            "service",
+            "vetted",
+            "vetted-professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4650770-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "photographer",
+          "tags": [
+            "photo",
+            "photographer",
+            "picture",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4647987-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Housekeeping",
+          "tags": [
+            "cleaning",
+            "home",
+            "housekeeping",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4351221-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Housekeeping",
+          "tags": [
+            "cleaning",
+            "home",
+            "housekeeping",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4351203-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hairdresser",
+          "tags": [
+            "barbershop",
+            "hairdresser",
+            "hairstylist",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4275958-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Contacts",
+          "tags": [
+            "contacts",
+            "couple",
+            "person",
+            "professional",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4216591-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "briefcase",
+    "rationale": "Refs for \"professional services\" were noisy (people, tools); briefcase is the familiar business symbol.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

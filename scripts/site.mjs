@@ -29,7 +29,17 @@ for (const s of SIZES) {
   writeFileSync(join(out, 'geo', `${s}.json`), JSON.stringify(paths));
 }
 const bundle = (await build({ entryPoints: ['src/browser.mjs'], bundle: true, minify: true, format: 'iife', globalName: 'LI', write: false, platform: 'browser', target: 'es2020' })).outputFiles[0].text;
-const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts };
+// Standards: each node shows its mapped concept's icon, or inherits its parent's.
+const standards = readdirSync('data/schemes').filter((f) => f.endsWith('.json')).map((f) => {
+  const scheme = JSON.parse(readFileSync(join('data/schemes', f), 'utf8'));
+  if (!scheme.publish) return null;
+  const map = JSON.parse(readFileSync(join('data/mappings', f), 'utf8'));
+  const raw = JSON.parse(readFileSync(join('data/nodes', f), 'utf8'));
+  const nodes = raw.map((n) => ({ code: n.code, name: n.name, parent: n.parent, concept: map[n.code] || map[n.parent] || null, direct: !!map[n.code] }));
+  for (const n of nodes) if (n.direct) { const c = concepts.find((x) => x.id === n.concept); (c.codes ||= []).push({ scheme: scheme.name, code: n.code, name: n.name }); }
+  return { id: scheme.id, name: scheme.name, version: scheme.version, fullName: scheme.fullName, levels: scheme.levels, nodes };
+}).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name));
+const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts, standards };
 const tpl = readFileSync('site/index.html', 'utf8');
 const html = tpl.replace('/*__BUNDLE__*/', () => bundle.replace(/<\/script/gi, '<\\/script')).replace('/*__DATA__*/null', () => JSON.stringify(data).replace(/</g, '\\u003c')).replace(/__VERSION__/g, pkg.version);
 if (existsSync('site/og.png')) cpSync('site/og.png', join(out, 'og.png'));

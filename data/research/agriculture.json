@@ -1,0 +1,811 @@
+{
+  "concept": "agriculture",
+  "query": "agriculture",
+  "fetched": "2026-11-13T19:03:56.101Z",
+  "topTerms": [
+    [
+      "agriculture",
+      50
+    ],
+    [
+      "farming",
+      31
+    ],
+    [
+      "farm",
+      24
+    ],
+    [
+      "plant",
+      17
+    ],
+    [
+      "cultivation",
+      14
+    ],
+    [
+      "nature",
+      13
+    ],
+    [
+      "crops",
+      12
+    ],
+    [
+      "agricultural",
+      9
+    ],
+    [
+      "crop",
+      8
+    ],
+    [
+      "soil",
+      7
+    ],
+    [
+      "food",
+      6
+    ],
+    [
+      "harvest",
+      6
+    ],
+    [
+      "gardening",
+      6
+    ],
+    [
+      "grow",
+      5
+    ],
+    [
+      "wheat",
+      4
+    ],
+    [
+      "rural",
+      4
+    ],
+    [
+      "tractor",
+      4
+    ],
+    [
+      "growth",
+      4
+    ],
+    [
+      "agribusiness",
+      4
+    ],
+    [
+      "grain",
+      3
+    ],
+    [
+      "plantation",
+      3
+    ],
+    [
+      "ai-agriculture",
+      3
+    ],
+    [
+      "shovel",
+      3
+    ],
+    [
+      "carrot",
+      2
+    ],
+    [
+      "farming-and-gardening",
+      2
+    ],
+    [
+      "planting",
+      2
+    ],
+    [
+      "garden",
+      2
+    ],
+    [
+      "eco",
+      2
+    ],
+    [
+      "energy",
+      2
+    ],
+    [
+      "plowing",
+      1
+    ],
+    [
+      "resources",
+      1
+    ],
+    [
+      "soi",
+      1
+    ],
+    [
+      "bag",
+      1
+    ],
+    [
+      "flour",
+      1
+    ],
+    [
+      "education",
+      1
+    ],
+    [
+      "cactus",
+      1
+    ],
+    [
+      "desert",
+      1
+    ],
+    [
+      "flower",
+      1
+    ],
+    [
+      "succulent",
+      1
+    ],
+    [
+      "land",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farming",
+            "food",
+            "grain",
+            "wheat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497611-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "cultivation",
+            "farming",
+            "grow",
+            "plant",
+            "soil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7989902-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farming",
+            "harvest",
+            "plowing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6229026-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "farming",
+            "resources",
+            "soi",
+            "wheat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506825-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farming",
+            "food",
+            "grain",
+            "wheat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493087-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farming",
+            "plant",
+            "rural"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491654-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "bag",
+            "farming",
+            "flour",
+            "grain",
+            "wheat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "cultivation",
+            "education",
+            "farming",
+            "nature",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466214-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "cactus",
+            "desert",
+            "flower",
+            "plant",
+            "succulent"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437934-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "cultivation",
+            "farm",
+            "harvest",
+            "nature",
+            "plantation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8414909-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farm",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374111-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farm",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374110-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "carrot",
+            "crops",
+            "farm",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374105-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farm",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374086-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farm",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374083-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farm",
+            "tractor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374082-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "carrot",
+            "crops",
+            "farm",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374079-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crops",
+            "farming",
+            "food",
+            "land",
+            "rural"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8372628-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crops",
+            "cultivation",
+            "farming",
+            "harvest",
+            "soil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8361472-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "environment-protection",
+            "farming-and-gardening",
+            "planting",
+            "sprout"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8345618-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "farming",
+            "harvest",
+            "nature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8341819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "ai-agriculture",
+            "farming",
+            "food",
+            "nature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8341180-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "ai-agriculture",
+            "farming",
+            "food",
+            "nature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8341128-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "ai-agriculture",
+            "farming",
+            "food",
+            "nature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8341086-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "air",
+            "contamination",
+            "environment",
+            "farming",
+            "pollution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8334602-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crop",
+            "farm",
+            "gardening",
+            "nature",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8331726-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crop",
+            "farm",
+            "gardening",
+            "nature",
+            "tractor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8331722-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "agriculture",
+            "farm",
+            "growth",
+            "plant",
+            "soil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296773-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "growth",
+            "plant",
+            "soil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296761-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agribusiness",
+            "agriculture",
+            "crop",
+            "farming",
+            "harvest",
+            "rural"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8296236-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agribusiness",
+            "agriculture",
+            "farming",
+            "harvest",
+            "plant",
+            "rural"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8289115-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "grow",
+            "plant",
+            "shovel",
+            "soil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8285592-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crop",
+            "farm",
+            "gardening",
+            "nature",
+            "tractor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8283680-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crop",
+            "farm",
+            "gardening",
+            "nature",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8283677-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crop",
+            "farm",
+            "gardening",
+            "nature",
+            "tractor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8283654-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crop",
+            "farm",
+            "gardening",
+            "nature",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8283644-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "agriculture-automation",
+            "plant",
+            "smart-farming",
+            "smart-irrigation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8274317-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "garden",
+            "grow",
+            "planting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8271055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "agriculture",
+            "farm",
+            "garden",
+            "grow",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8271052-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agribusiness",
+            "agriculture",
+            "cultivation",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8252178-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agribusiness",
+            "agriculture",
+            "cultivation",
+            "farming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8252152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "agronomy",
+            "growth",
+            "hand",
+            "leaf",
+            "nature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233584-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "crops",
+            "farming",
+            "growth",
+            "plant",
+            "soil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8198110-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "grow",
+            "plant",
+            "shovel",
+            "soil"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8192313-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "eco",
+            "energy",
+            "farming",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8171081-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agricultural",
+            "agriculture",
+            "eco",
+            "energy",
+            "farming",
+            "plant"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8171058-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "agriculture",
+            "crop",
+            "cultivation",
+            "farming",
+            "plantation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8162609-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "farming",
+            "farming-and-gardening",
+            "plantation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8153950-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Agriculture",
+          "tags": [
+            "agriculture",
+            "farm",
+            "farmer",
+            "farming",
+            "shovel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8153946-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "sprout",
+    "rationale": "Refs for \"agriculture\" dominated by sprouts and plants; tractors and fields are too detailed for 16px.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

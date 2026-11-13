@@ -1,0 +1,18 @@
+{
+  "id": "administrative-services",
+  "name": "Administrative Services",
+  "kind": "sector",
+  "metaphor": "clipboard-check",
+  "keywords": [
+    "support services",
+    "staffing",
+    "outsourcing",
+    "facilities",
+    "office administration",
+    "waste management"
+  ],
+  "reduction": "None — board, clip and check at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,566 @@
+[
+ {
+  "code": "A",
+  "name": "Agriculture, Forestry, And Fishing",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "B",
+  "name": "Mining",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "C",
+  "name": "Construction",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "D",
+  "name": "Manufacturing",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "E",
+  "name": "Transportation, Communications, Electric, Gas, And Sanitary Services",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "F",
+  "name": "Wholesale Trade",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "G",
+  "name": "Retail Trade",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "H",
+  "name": "Finance, Insurance, And Real Estate",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "I",
+  "name": "Services",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "J",
+  "name": "Public Administration",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "K",
+  "name": "Nonclassifiable Establishments",
+  "level": "division",
+  "parent": null
+ },
+ {
+  "code": "01",
+  "name": "Agricultural Production Crops",
+  "level": "major group",
+  "parent": "A"
+ },
+ {
+  "code": "02",
+  "name": "Agriculture Production Livestock And Animal Specialties",
+  "level": "major group",
+  "parent": "A"
+ },
+ {
+  "code": "07",
+  "name": "Agricultural Services",
+  "level": "major group",
+  "parent": "A"
+ },
+ {
+  "code": "08",
+  "name": "Forestry",
+  "level": "major group",
+  "parent": "A"
+ },
+ {
+  "code": "09",
+  "name": "Fishing, Hunting, And Trapping",
+  "level": "major group",
+  "parent": "A"
+ },
+ {
+  "code": "10",
+  "name": "Metal Mining",
+  "level": "major group",
+  "parent": "B"
+ },
+ {
+  "code": "12",
+  "name": "Coal Mining",
+  "level": "major group",
+  "parent": "B"
+ },
+ {
+  "code": "13",
+  "name": "Oil And Gas Extraction",
+  "level": "major group",
+  "parent": "B"
+ },
+ {
+  "code": "14",
+  "name": "Mining And Quarrying Of Nonmetallic Minerals, Except Fuels",
+  "level": "major group",
+  "parent": "B"
+ },
+ {
+  "code": "15",
+  "name": "Building Construction General Contractors And Operative Builders",
+  "level": "major group",
+  "parent": "C"
+ },
+ {
+  "code": "16",
+  "name": "Heavy Construction Other Than Building Construction Contractors",
+  "level": "major group",
+  "parent": "C"
+ },
+ {
+  "code": "17",
+  "name": "Construction Special Trade Contractors",
+  "level": "major group",
+  "parent": "C"
+ },
+ {
+  "code": "20",
+  "name": "Food And Kindred Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "21",
+  "name": "Tobacco Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "22",
+  "name": "Textile Mill Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "23",
+  "name": "Apparel And Other Finished Products Made From Fabrics And Similar Materials",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "24",
+  "name": "Lumber And Wood Products, Except Furniture",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "25",
+  "name": "Furniture And Fixtures",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "26",
+  "name": "Paper And Allied Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "27",
+  "name": "Printing, Publishing, And Allied Industries",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "28",
+  "name": "Chemicals And Allied Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "29",
+  "name": "Petroleum Refining And Related Industries",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "30",
+  "name": "Rubber And Miscellaneous Plastics Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "31",
+  "name": "Leather And Leather Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "32",
+  "name": "Stone, Clay, Glass, And Concrete Products",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "33",
+  "name": "Primary Metal Industries",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "34",
+  "name": "Fabricated Metal Products, Except Machinery And Transportation Equipment",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "35",
+  "name": "Industrial And Commercial Machinery And Computer Equipment",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "36",
+  "name": "Electronic And Other Electrical Equipment And Components, Except Computer Equipment",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "37",
+  "name": "Transportation Equipment",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "38",
+  "name": "Measuring, Analyzing, And Controlling Instruments; Photographic, Medical And Optical Goods; Watches And Clocks",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "39",
+  "name": "Miscellaneous Manufacturing Industries",
+  "level": "major group",
+  "parent": "D"
+ },
+ {
+  "code": "40",
+  "name": "Railroad Transportation",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "41",
+  "name": "Local And Suburban Transit And Interurban Highway Passenger Transportation",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "42",
+  "name": "Motor Freight Transportation And Warehousing",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "43",
+  "name": "United States Postal Service",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "44",
+  "name": "Water Transportation",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "45",
+  "name": "Transportation By Air",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "46",
+  "name": "Pipelines, Except Natural Gas",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "47",
+  "name": "Transportation Services",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "48",
+  "name": "Communications",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "49",
+  "name": "Electric, Gas, And Sanitary Services",
+  "level": "major group",
+  "parent": "E"
+ },
+ {
+  "code": "50",
+  "name": "Wholesale Trade-durable Goods",
+  "level": "major group",
+  "parent": "F"
+ },
+ {
+  "code": "51",
+  "name": "Wholesale Trade-non-durable Goods",
+  "level": "major group",
+  "parent": "F"
+ },
+ {
+  "code": "52",
+  "name": "Building Materials, Hardware, Garden Supply, And Mobile Home Dealers",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "53",
+  "name": "General Merchandise Stores",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "54",
+  "name": "Food Stores",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "55",
+  "name": "Automotive Dealers And Gasoline Service Stations",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "56",
+  "name": "Apparel And Accessory Stores",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "57",
+  "name": "Home Furniture, Furnishings, And Equipment Stores",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "58",
+  "name": "Eating And Drinking Places",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "59",
+  "name": "Miscellaneous Retail",
+  "level": "major group",
+  "parent": "G"
+ },
+ {
+  "code": "60",
+  "name": "Depository Institutions",
+  "level": "major group",
+  "parent": "H"
+ },
+ {
+  "code": "61",
+  "name": "Non-depository Credit Institutions",
+  "level": "major group",
+  "parent": "H"
+ },
+ {
+  "code": "62",
+  "name": "Security And Commodity Brokers, Dealers, Exchanges, And Services",
+  "level": "major group",
+  "parent": "H"
+ },
+ {
+  "code": "63",
+  "name": "Insurance Carriers",
+  "level": "major group",
+  "parent": "H"
+ },
+ {
+  "code": "64",
+  "name": "Insurance Agents, Brokers, And Service",
+  "level": "major group",
+  "parent": "H"
+ },
+ {
+  "code": "65",
+  "name": "Real Estate",
+  "level": "major group",
+  "parent": "H"
+ },
+ {
+  "code": "67",
+  "name": "Holding And Other Investment Offices",
+  "level": "major group",
+  "parent": "H"
+ },
+ {
+  "code": "70",
+  "name": "Hotels, Rooming Houses, Camps, And Other Lodging Places",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "72",
+  "name": "Personal Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "73",
+  "name": "Business Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "75",
+  "name": "Automotive Repair, Services, And Parking",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "76",
+  "name": "Miscellaneous Repair Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "78",
+  "name": "Motion Pictures",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "79",
+  "name": "Amusement And Recreation Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "80",
+  "name": "Health Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "81",
+  "name": "Legal Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "82",
+  "name": "Educational Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "83",
+  "name": "Social Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "84",
+  "name": "Museums, Art Galleries, And Botanical And Zoological Gardens",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "86",
+  "name": "Membership Organizations",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "87",
+  "name": "Engineering, Accounting, Research, Management, And Related Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "88",
+  "name": "Private Households",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "89",
+  "name": "Miscellaneous Services",
+  "level": "major group",
+  "parent": "I"
+ },
+ {
+  "code": "91",
+  "name": "Executive, Legislative, And General Government, Except Finance",
+  "level": "major group",
+  "parent": "J"
+ },
+ {
+  "code": "92",
+  "name": "Justice, Public Order, And Safety",
+  "level": "major group",
+  "parent": "J"
+ },
+ {
+  "code": "93",
+  "name": "Public Finance, Taxation, And Monetary Policy",
+  "level": "major group",
+  "parent": "J"
+ },
+ {
+  "code": "94",
+  "name": "Administration Of Human Resource Programs",
+  "level": "major group",
+  "parent": "J"
+ },
+ {
+  "code": "95",
+  "name": "Administration Of Environmental Quality And Housing Programs",
+  "level": "major group",
+  "parent": "J"
+ },
+ {
+  "code": "96",
+  "name": "Administration Of Economic Programs",
+  "level": "major group",
+  "parent": "J"
+ },
+ {
+  "code": "97",
+  "name": "National Security And International Affairs",
+  "level": "major group",
+  "parent": "J"
+ },
+ {
+  "code": "99",
+  "name": "Nonclassifiable Establishments",
+  "level": "major group",
+  "parent": "K"
+ }
+]

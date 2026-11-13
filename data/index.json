@@ -88,6 +88,208 @@
     "since": "0.1.0"
   },
   {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "kind": "sector",
+    "metaphor": "sprout",
+    "keywords": [
+      "farming",
+      "crops",
+      "forestry",
+      "fishing",
+      "livestock",
+      "agribusiness",
+      "food production"
+    ],
+    "reduction": "24+: ground line.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "construction",
+    "name": "Construction",
+    "kind": "sector",
+    "metaphor": "tower-crane",
+    "keywords": [
+      "building",
+      "contractors",
+      "engineering",
+      "infrastructure",
+      "homebuilding",
+      "crane"
+    ],
+    "reduction": "20+: load on the hook. 32+: counterweight.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "wholesale-trade",
+    "name": "Wholesale Trade",
+    "kind": "sector",
+    "metaphor": "warehouse",
+    "keywords": [
+      "wholesale",
+      "distribution",
+      "warehouse",
+      "distributors",
+      "trading"
+    ],
+    "reduction": "Door slats: 0 at 16, 1 at 20–24, 2 at 32+.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "transportation",
+    "name": "Transportation",
+    "kind": "sector",
+    "metaphor": "truck",
+    "keywords": [
+      "logistics",
+      "freight",
+      "shipping",
+      "trucking",
+      "airlines",
+      "railroads",
+      "warehousing",
+      "delivery"
+    ],
+    "reduction": "24+: cab window.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "professional-services",
+    "name": "Professional Services",
+    "kind": "sector",
+    "metaphor": "briefcase",
+    "keywords": [
+      "consulting",
+      "legal",
+      "accounting",
+      "advisory",
+      "scientific",
+      "technical services",
+      "business services"
+    ],
+    "reduction": "20+: strap line.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "administrative-services",
+    "name": "Administrative Services",
+    "kind": "sector",
+    "metaphor": "clipboard-check",
+    "keywords": [
+      "support services",
+      "staffing",
+      "outsourcing",
+      "facilities",
+      "office administration",
+      "waste management"
+    ],
+    "reduction": "None — board, clip and check at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "kind": "sector",
+    "metaphor": "graduation-cap",
+    "keywords": [
+      "schools",
+      "universities",
+      "training",
+      "edtech",
+      "learning"
+    ],
+    "reduction": "20+: tassel.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "arts-recreation",
+    "name": "Arts & Recreation",
+    "kind": "sector",
+    "metaphor": "theatre-mask",
+    "keywords": [
+      "entertainment",
+      "leisure",
+      "sports",
+      "gaming",
+      "theatre",
+      "museums",
+      "media"
+    ],
+    "reduction": "None — mask, eyes and smile at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "accommodation-food",
+    "name": "Accommodation & Food",
+    "kind": "sector",
+    "metaphor": "cloche",
+    "keywords": [
+      "hotels",
+      "restaurants",
+      "hospitality",
+      "lodging",
+      "food service",
+      "catering"
+    ],
+    "reduction": "None — dome, knob and tray at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "other-services",
+    "name": "Other Services",
+    "kind": "sector",
+    "metaphor": "wrench",
+    "keywords": [
+      "repair",
+      "maintenance",
+      "personal services",
+      "households",
+      "membership organisations",
+      "miscellaneous"
+    ],
+    "reduction": "None — handle and jaw at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "government",
+    "name": "Government",
+    "kind": "sector",
+    "metaphor": "capitol-flag",
+    "keywords": [
+      "public administration",
+      "public sector",
+      "defence",
+      "state",
+      "federal",
+      "agencies",
+      "regulation"
+    ],
+    "reduction": "20+: pennant on the pole. 32+: columns.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "electric-utilities",
     "name": "Electric Utilities",
     "kind": "industry",

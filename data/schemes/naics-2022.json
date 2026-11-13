@@ -1,0 +1,13 @@
+{
+ "id": "naics-2022",
+ "name": "NAICS",
+ "fullName": "North American Industry Classification System",
+ "version": "2022",
+ "levels": [
+  "sector",
+  "subsector"
+ ],
+ "licence": "public",
+ "publish": true,
+ "source": "U.S. Census Bureau (https://www.census.gov/naics/), via the naicsjs package"
+}

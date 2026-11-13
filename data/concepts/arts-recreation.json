@@ -1,0 +1,19 @@
+{
+  "id": "arts-recreation",
+  "name": "Arts & Recreation",
+  "kind": "sector",
+  "metaphor": "theatre-mask",
+  "keywords": [
+    "entertainment",
+    "leisure",
+    "sports",
+    "gaming",
+    "theatre",
+    "museums",
+    "media"
+  ],
+  "reduction": "None — mask, eyes and smile at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

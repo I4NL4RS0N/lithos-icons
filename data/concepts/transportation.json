@@ -1,0 +1,20 @@
+{
+  "id": "transportation",
+  "name": "Transportation",
+  "kind": "sector",
+  "metaphor": "truck",
+  "keywords": [
+    "logistics",
+    "freight",
+    "shipping",
+    "trucking",
+    "airlines",
+    "railroads",
+    "warehousing",
+    "delivery"
+  ],
+  "reduction": "24+: cab window.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

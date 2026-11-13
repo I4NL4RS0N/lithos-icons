@@ -1,0 +1,815 @@
+{
+  "concept": "wholesale-trade",
+  "query": "wholesale",
+  "fetched": "2026-11-13T19:03:57.442Z",
+  "topTerms": [
+    [
+      "wholesale",
+      49
+    ],
+    [
+      "logistics",
+      20
+    ],
+    [
+      "delivery",
+      18
+    ],
+    [
+      "warehouse",
+      15
+    ],
+    [
+      "stock",
+      13
+    ],
+    [
+      "inventory",
+      12
+    ],
+    [
+      "bulk",
+      11
+    ],
+    [
+      "storage",
+      9
+    ],
+    [
+      "shipping",
+      7
+    ],
+    [
+      "supplier",
+      6
+    ],
+    [
+      "pallet",
+      6
+    ],
+    [
+      "distribution",
+      5
+    ],
+    [
+      "wholesaler",
+      5
+    ],
+    [
+      "discount",
+      5
+    ],
+    [
+      "factory",
+      5
+    ],
+    [
+      "retail",
+      5
+    ],
+    [
+      "box",
+      4
+    ],
+    [
+      "sale",
+      4
+    ],
+    [
+      "reseller",
+      3
+    ],
+    [
+      "supply",
+      3
+    ],
+    [
+      "vendor",
+      3
+    ],
+    [
+      "boxes",
+      3
+    ],
+    [
+      "product",
+      3
+    ],
+    [
+      "package",
+      2
+    ],
+    [
+      "building",
+      2
+    ],
+    [
+      "door",
+      2
+    ],
+    [
+      "distributor",
+      2
+    ],
+    [
+      "large-order",
+      2
+    ],
+    [
+      "buyers",
+      2
+    ],
+    [
+      "pricing",
+      2
+    ],
+    [
+      "products",
+      2
+    ],
+    [
+      "suppliers",
+      2
+    ],
+    [
+      "sales",
+      2
+    ],
+    [
+      "shipping-and-delivery",
+      2
+    ],
+    [
+      "b2b",
+      2
+    ],
+    [
+      "management",
+      2
+    ],
+    [
+      "ecommerce-stock",
+      2
+    ],
+    [
+      "large-quantity",
+      2
+    ],
+    [
+      "logistics-distribution",
+      2
+    ],
+    [
+      "trade-supply",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "distribution",
+            "logistics",
+            "reseller",
+            "supply-chain",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400650-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "box",
+            "cargo",
+            "delivery",
+            "logistics",
+            "package",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8149370-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "logistics",
+            "shipping-truck",
+            "storage",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8137794-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "building",
+            "door",
+            "stock",
+            "storage",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8110014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "building",
+            "door",
+            "stock",
+            "storage",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8109960-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "distributor",
+            "stock",
+            "supply",
+            "vendor",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8108762-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "distributor",
+            "stock",
+            "supply",
+            "vendor",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8059923-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "inventory",
+            "logistics",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7996793-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "inventory",
+            "logistics",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7996770-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "inventory",
+            "logistics",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7996765-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "logistics",
+            "shipper",
+            "supplier",
+            "warehouse",
+            "wholesale",
+            "wholesaler"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7996519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "discount",
+            "inventory",
+            "sale",
+            "stock",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7957051-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "discount",
+            "inventory",
+            "sale",
+            "stock",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7957043-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "distribution",
+            "large-order",
+            "reseller",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7917281-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "distribution",
+            "large-order",
+            "reseller",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7917249-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "distribution",
+            "factory",
+            "logistic",
+            "stock",
+            "supply",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7862334-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "buyers",
+            "pricing",
+            "products",
+            "suppliers",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7832037-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "buyers",
+            "pricing",
+            "products",
+            "suppliers",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7832032-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "factory",
+            "logistics",
+            "pallet",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7831528-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "factory",
+            "logistics",
+            "pallet",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7831503-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "inventory",
+            "logistics",
+            "stock",
+            "storage",
+            "supplier",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7820562-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "discount",
+            "sales",
+            "shipping-and-delivery",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7751083-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7700342-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "b2b",
+            "bulk",
+            "inventory",
+            "management",
+            "storage",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7662035-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "b2b",
+            "bulk",
+            "inventory",
+            "management",
+            "storage",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7662019-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "logistics",
+            "supplier",
+            "warehouse",
+            "wholesale",
+            "wholesaler"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7602710-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "logistics",
+            "supplier",
+            "warehouse",
+            "wholesale",
+            "wholesaler"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7602669-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "ecommerce-stock",
+            "large-quantity",
+            "logistics-distribution",
+            "trade-supply",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7583631-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "ecommerce-stock",
+            "large-quantity",
+            "logistics-distribution",
+            "trade-supply",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7583592-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "inventory",
+            "stock",
+            "supplier",
+            "trade",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7569425-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "bulk",
+            "inventory",
+            "stock",
+            "supplier",
+            "trade",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7569398-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "box",
+            "delivery",
+            "logistics",
+            "package",
+            "pallet",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7465974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "business",
+            "market",
+            "retail",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7310114-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "boxes",
+            "delivery",
+            "logistics",
+            "pallet",
+            "shipping",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7301498-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "inventory",
+            "logistics",
+            "retailer",
+            "shipping-and-delivery",
+            "warehouses",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7275807-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "currency",
+            "hand",
+            "investment",
+            "money",
+            "payment",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7204968-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "currency",
+            "hand",
+            "investment",
+            "money",
+            "payment",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7204961-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "boxes",
+            "delivery",
+            "logistics",
+            "pallet",
+            "shipping",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7185683-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "boxes",
+            "delivery",
+            "logistics",
+            "pallet",
+            "shipping",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7185635-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "goods",
+            "product",
+            "retail",
+            "wholesale",
+            "wholesaler",
+            "wholesaling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7083931-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "goods",
+            "product",
+            "retail",
+            "wholesale",
+            "wholesaler",
+            "wholesaling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7083913-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesales",
+          "tags": [
+            "business",
+            "commerce",
+            "sales",
+            "trading",
+            "vendor",
+            "wholesales"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7060669-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "discount",
+            "retail",
+            "sale",
+            "storage",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6862842-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "discount",
+            "retail",
+            "sale",
+            "storage",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6862819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "distribution",
+            "inventory",
+            "shipping",
+            "warehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6702675-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "box",
+            "delivery",
+            "logistics",
+            "shipping",
+            "stock",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6596396-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "box",
+            "delivery",
+            "logistics",
+            "shipping",
+            "stock",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6596350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "factory",
+            "industry",
+            "stockroom",
+            "storehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6585659-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "delivery",
+            "factory",
+            "industry",
+            "stockroom",
+            "storehouse",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6585599-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wholesale",
+          "tags": [
+            "logistics",
+            "product",
+            "shipping",
+            "stock",
+            "storage",
+            "wholesale"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6418917-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "warehouse",
+    "rationale": "Refs for \"wholesale\" dominated by warehouses with boxes.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

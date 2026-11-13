@@ -3,8 +3,9 @@ import { kit, svg, GRID, SIZES } from '../scripts/lib/kit.mjs';
 import sectors from './concepts/sectors.mjs';
 import industries from './concepts/industries.mjs';
 import credit from './concepts/credit.mjs';
+import economy from './concepts/economy.mjs';
 
-const draw = Object.fromEntries([...sectors, ...industries, ...credit].map((c) => [c.id, c.draw]));
+const draw = Object.fromEntries([...sectors, ...industries, ...credit, ...economy].map((c) => [c.id, c.draw]));
 export const has = (id) => id in draw;
 export function render(id, size, style, opts) {
   const k = kit(size, style, opts);

@@ -1,0 +1,842 @@
+{
+  "concept": "government",
+  "query": "government",
+  "fetched": "2026-11-13T19:04:02.469Z",
+  "topTerms": [
+    [
+      "government",
+      50
+    ],
+    [
+      "building",
+      24
+    ],
+    [
+      "administration",
+      17
+    ],
+    [
+      "authority",
+      12
+    ],
+    [
+      "public",
+      12
+    ],
+    [
+      "institution",
+      12
+    ],
+    [
+      "embassy",
+      12
+    ],
+    [
+      "ministry",
+      11
+    ],
+    [
+      "office",
+      10
+    ],
+    [
+      "politics",
+      9
+    ],
+    [
+      "state",
+      7
+    ],
+    [
+      "government-building",
+      7
+    ],
+    [
+      "law",
+      6
+    ],
+    [
+      "museum",
+      5
+    ],
+    [
+      "business",
+      5
+    ],
+    [
+      "architecture",
+      5
+    ],
+    [
+      "governance",
+      5
+    ],
+    [
+      "city",
+      5
+    ],
+    [
+      "governments",
+      4
+    ],
+    [
+      "policy",
+      3
+    ],
+    [
+      "government-buildings",
+      3
+    ],
+    [
+      "government-office",
+      3
+    ],
+    [
+      "organization",
+      3
+    ],
+    [
+      "city-hall",
+      3
+    ],
+    [
+      "civic",
+      3
+    ],
+    [
+      "govern",
+      2
+    ],
+    [
+      "parliament",
+      2
+    ],
+    [
+      "human-rights",
+      2
+    ],
+    [
+      "unity",
+      2
+    ],
+    [
+      "urban",
+      2
+    ],
+    [
+      "capitol",
+      2
+    ],
+    [
+      "digital",
+      2
+    ],
+    [
+      "economy",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "construction",
+      2
+    ],
+    [
+      "bank",
+      2
+    ],
+    [
+      "crowd",
+      2
+    ],
+    [
+      "demonstration",
+      2
+    ],
+    [
+      "protest",
+      2
+    ],
+    [
+      "strike",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "government",
+            "policy",
+            "public",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364452-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "building",
+            "congress",
+            "government",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7502956-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "government-building",
+            "government-buildings",
+            "government-office",
+            "governments"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5208927-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "government-building",
+            "government-buildings",
+            "government-office",
+            "governments"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5208925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "government-building",
+            "government-buildings",
+            "government-office",
+            "governments"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5208911-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "govern",
+            "government",
+            "museum",
+            "organization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1746055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "government-building",
+            "government-house"
+          ],
+          "thumb": "https://static.thenounproject.com/png/999719-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "accomodation",
+            "actraction",
+            "administration",
+            "animals",
+            "business",
+            "department",
+            "function",
+            "govern",
+            "government",
+            "governments",
+            "housekeeping",
+            "institution",
+            "loc",
+            "location",
+            "locations",
+            "management",
+            "map",
+            "maps",
+            "ministry",
+            "office",
+            "point",
+            "pointer",
+            "rule",
+            "running",
+            "service",
+            "services",
+            "steerage",
+            "stewardship",
+            "sway",
+            "tag",
+            "tags",
+            "trust"
+          ],
+          "thumb": "https://static.thenounproject.com/png/79176-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "announcement",
+            "government",
+            "parliament",
+            "politics",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518533-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "embassy",
+            "government",
+            "government-building",
+            "museum",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497796-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "embassy",
+            "government",
+            "institution",
+            "office",
+            "public-administration",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495307-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "embassy",
+            "government",
+            "government-building",
+            "museum",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465730-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "embassy",
+            "government",
+            "government-building",
+            "museum",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465695-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "architecture",
+            "authority",
+            "building",
+            "country",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8457299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "embassy",
+            "government",
+            "ministry",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450982-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "human-rights",
+            "institution",
+            "organization",
+            "politics",
+            "unity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449746-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "human-rights",
+            "institution",
+            "organization",
+            "politics",
+            "unity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449719-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "city-hall",
+            "embassy",
+            "government",
+            "institution",
+            "ministry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "authority",
+            "embassy",
+            "government",
+            "justice",
+            "law",
+            "ministry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436762-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "governance",
+            "government",
+            "institution",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "institution",
+            "law",
+            "ministry",
+            "politics",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8427534-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "government",
+            "institution",
+            "law",
+            "ministry",
+            "politics",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8427530-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "city-hall",
+            "embassy",
+            "government",
+            "institution",
+            "ministry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8423946-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "architecture",
+            "building",
+            "business",
+            "city",
+            "government",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8416537-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "architecture",
+            "building",
+            "business",
+            "city",
+            "government",
+            "urban"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8416536-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "building",
+            "capitol",
+            "civic",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8412767-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "building",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405166-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "building",
+            "government",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405129-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "city-hall",
+            "embassy",
+            "government",
+            "institution",
+            "ministry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400770-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "civic",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390298-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "civic",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390270-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "business",
+            "data",
+            "digital",
+            "economy",
+            "government",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8385092-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "business",
+            "digital",
+            "economy",
+            "finance",
+            "government",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8385070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "architecture-and-city",
+            "capital",
+            "government",
+            "ministry",
+            "monument",
+            "president"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8382646-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "building",
+            "embassy",
+            "governance",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8378665-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "building",
+            "government",
+            "law",
+            "public",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8370943-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "building",
+            "government",
+            "law",
+            "public",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8370916-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "government",
+            "policy",
+            "public",
+            "state"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364451-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "city",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352893-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "city",
+            "construction",
+            "government",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352364-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "building",
+            "city",
+            "construction",
+            "government",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352336-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "architecture",
+            "building",
+            "embassy",
+            "government",
+            "ministry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352109-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "architecture",
+            "building",
+            "embassy",
+            "government",
+            "ministry"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8351925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "capitol",
+            "courthouse",
+            "government",
+            "legislation",
+            "parliament"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339591-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "governance",
+            "government",
+            "policy",
+            "regulation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8336764-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "authority",
+            "building",
+            "governance",
+            "government",
+            "institution",
+            "law"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8331892-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "agency",
+            "bank",
+            "building",
+            "foundation",
+            "governance",
+            "government"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8327705-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "community",
+            "crowd",
+            "demonstration",
+            "government",
+            "protest",
+            "strike"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8326450-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "crowd",
+            "demonstration",
+            "government",
+            "people",
+            "protest",
+            "strike"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8325605-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "bank",
+            "government",
+            "institution",
+            "museum",
+            "politics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8313272-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "capitol-flag",
+    "rationale": "Refs for \"government\" dominated by domed and columned civic buildings. A flag distinguishes it from Banks (columns) and Municipal Bonds (dome).",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

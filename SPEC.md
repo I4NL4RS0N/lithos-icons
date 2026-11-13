@@ -274,6 +274,8 @@ Static site + Netlify Functions. Framework: Astro (static output, small JS islan
 
 **Layout:** icon-first grid (no cards), floating command bar (category, search with ⌘K, outline/solid, Customize), detail panel with a shareable `?icon=` URL.
 
+**Browse by standard:** the category menu lists each published standard (NAICS 2022, NACE Rev. 2.1, SIC 1987; top two levels). The view follows the standard's own tree. Each node shows the icon of its mapped concept (`data/mappings/<scheme>.json`); a node without its own mapping shows its parent's icon, faded. Codes are searchable everywhere, and each icon's panel lists its codes in every standard, labelled as related. ISIC is not loaded yet (no reliable source reached). Held standards (GICS, ICB, BICS, TRBC, Fitch, Moody's, S&P) stay in `standards-private/`, which is git-ignored.
+
 **Pages:** home (search + featured themes), browse by standard (tree), icon detail (all sizes/styles, codes in every scheme, related concepts, copy SVG/JSX/URL, download), themes, geography (map browser), changelog, licence & data sources, API/MCP docs.
 
 **Search:** keyword + synonyms + semantic (embeddings), CLDR names in multiple languages, search by code in any published scheme. Log zero-result queries (anonymous) for the Gap filler.

@@ -1,0 +1,19 @@
+{
+  "id": "government",
+  "name": "Government",
+  "kind": "sector",
+  "metaphor": "capitol-flag",
+  "keywords": [
+    "public administration",
+    "public sector",
+    "defence",
+    "state",
+    "federal",
+    "agencies",
+    "regulation"
+  ],
+  "reduction": "20+: pennant on the pole. 32+: columns.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

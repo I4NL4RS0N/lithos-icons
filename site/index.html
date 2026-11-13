@@ -59,12 +59,24 @@
     white-space: nowrap; opacity: 0; pointer-events: none; z-index: 3; }
   .nolabels .cell:hover .nm, .nolabels .cell:focus-visible .nm { opacity: 1; color: var(--accent-fg); }
   .ic { color: var(--icon, var(--fg)); display: block; }
+  .std-intro { color: var(--muted); margin: 36px 0 0; font-size: 14px; }
+  .std-intro b { color: var(--fg); font-weight: 600; }
+  section.std { padding-top: 30px; }
+  .std-head { display: flex; align-items: center; gap: 12px; border: 0; background: transparent; padding: 8px 10px; margin: 0 -10px 6px; border-radius: 12px; text-align: left; max-width: 100%; }
+  .std-head:hover { background: var(--hover); }
+  .std-head .t { font-size: 18px; font-weight: 650; letter-spacing: -0.02em; }
+  .std-head .codechip, .cell .codechip { font: 11.5px var(--mono); color: var(--fg); background: var(--pill); border-radius: 6px; padding: 1px 6px; }
+  .cell .nm .codechip { display: inline-block; margin-bottom: 4px; }
+  .cell.inherited .art { opacity: .38; }
+  .codes { display: grid; gap: 4px; }
+  .codes div { display: flex; gap: 8px; align-items: baseline; }
+  .codes .codechip { font: 11.5px var(--mono); background: var(--pill); border-radius: 6px; padding: 1px 6px; white-space: nowrap; }
   .empty { color: var(--muted); padding: 60px 0; font-size: 15px; }
 
   /* Command bar */
   .bar { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 20; width: min(680px, calc(100% - 24px));
     background: var(--panel); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 6px; padding: 6px; }
-  .bar select { appearance: none; border: 0; background: var(--pill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%2374777d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m1 1 4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center;
+  .bar select { appearance: none; -webkit-appearance: none; border: 0; background: var(--pill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%2374777d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m1 1 4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center;
     border-radius: 999px; height: 38px; padding: 0 30px 0 14px; font-size: 13px; font-weight: 500; max-width: 46%; }
   .bar .search { flex: 1; min-width: 0; position: relative; display: flex; align-items: center; }
   .bar .search svg { position: absolute; left: 12px; color: var(--faint); pointer-events: none; }
@@ -211,7 +223,7 @@ const save = () => { try { localStorage.setItem('li:settings3', JSON.stringify(O
 const state = { ...DEF, ...load(), q: '', kind: 'all', sel: null, pop: false };
 { const u = new URLSearchParams(location.search);
   if (u.get('q')) state.q = u.get('q'); if (u.get('icon')) state.sel = u.get('icon');
-  if (KINDS.some(([k]) => k === u.get('kind'))) state.kind = u.get('kind');
+  if (KINDS.some(([k]) => k === u.get('kind')) || DATA.standards.some((x) => 'std:' + x.id === u.get('kind'))) state.kind = u.get('kind');
   if (['light', 'dark', 'system'].includes(u.get('theme'))) state.appearance = u.get('theme');
   if (['outline', 'solid'].includes(u.get('style'))) state.style = u.get('style');
   if (DATA.sizes.includes(+u.get('size'))) state.size = +u.get('size');
@@ -267,7 +279,7 @@ async function exportSvg(c) {
 const fileUrl = (c) => isFlag(c) ? '/' + flagUrl(c, state.size) : `/icons/${c.id}/${state.style}-${state.size}.svg`;
 function matches(c, q) {
   if (!q) return true;
-  const hay = [c.name, c.id, c.metaphor, c.iso2, c.m49, c.parent, ...(c.keywords || [])].filter(Boolean).join(' ').toLowerCase();
+  const hay = [c.name, c.id, c.metaphor, c.iso2, c.m49, c.parent, ...(c.keywords || []), ...(c.codes || []).flatMap((x) => [x.scheme + ' ' + x.code, x.name])].filter(Boolean).join(' ').toLowerCase();
   return q.toLowerCase().split(/\s+/).every((t) => hay.includes(t));
 }
 
@@ -295,8 +307,30 @@ function syncControls() {
   $('#kind').value = state.kind;
 }
 
+// Browse by standard: the standard's own tree, each node with its mapped icon (faded when inherited from its parent).
+function renderStandard(std) {
+  const q = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const hit = (n) => !q.length || q.every((t) => (n.code + ' ' + n.name).toLowerCase().includes(t));
+  const byId = Object.fromEntries(DATA.concepts.map((c) => [c.id, c]));
+  const tops = std.nodes.filter((n) => !n.parent);
+  const cellIcon = (n) => (byId[n.concept] ? draw(byId[n.concept]) : '');
+  const sections = tops.map((t) => {
+    const kids = std.nodes.filter((n) => n.parent === t.code), shown = hit(t) ? kids : kids.filter(hit);
+    if (!hit(t) && !shown.length) return '';
+    return `<section class="std"><button class="std-head" type="button" data-id="${t.concept || ''}" title="${esc(t.name)}"><span class="art">${cellIcon(t)}</span><span class="codechip">${esc(t.code)}</span><span class="t">${esc(t.name)}</span></button>
+      <div class="grid">${shown.map((n) => `<button class="cell${n.direct ? '' : ' inherited'}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" aria-label="${esc(n.code + ' ' + n.name)}">
+        <span class="art">${cellIcon(n)}</span><span class="nm"><span class="codechip">${esc(n.code)}</span><br>${esc(n.name)}</span></button>`).join('')}</div></section>`;
+  }).join('');
+  const own = std.nodes.filter((n) => n.direct).length;
+  $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · ${tops.length} ${esc(std.levels[0])}s, ${std.nodes.length - tops.length} ${esc(std.levels[1])}s. ${own} have their own icon; faded ones use their parent's until theirs is drawn.</p>`
+    + (sections || `<p class="empty">No ${esc(std.name)} code or title matches “${esc(state.q)}”.</p>`);
+  renderDetail();
+}
+
 function render() {
   syncControls(); syncUrl();
+  const std = state.kind.startsWith('std:') && DATA.standards.find((x) => 'std:' + x.id === state.kind);
+  if (std) return renderStandard(std);
   const list = DATA.concepts.filter((c) => matches(c, state.q));
   const shown = list.filter((c) => state.kind === 'all' || c.kind === state.kind);
   if (!shown.length) { $('#main').innerHTML = `<p class="empty">Nothing matches “${esc(state.q)}”. Try a sector, an industry, a country or a code.</p>`; }
@@ -329,6 +363,7 @@ function renderDetail() {
       ${c.reduction && !isFlag(c) ? `<dt>By size</dt><dd>${esc(c.reduction)}</dd>` : ''}
       ${c.rationale ? `<dt>Why</dt><dd>${esc(c.rationale)}</dd>` : ''}
       ${isFlag(c) && c.flag === 'flag-icons' ? `<dt>Flag art</dt><dd>Adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT)</dd>` : ''}
+      ${c.codes?.length ? `<dt>Codes</dt><dd class="codes">${c.codes.map((x) => `<div><span class="codechip">${esc(x.scheme)} ${esc(x.code)}</span><span>${esc(x.name)}</span></div>`).join('')}</dd>` : ''}
       ${c.keywords?.length ? `<dt>Keywords</dt><dd class="kw">${c.keywords.map((k) => `<span>${esc(k)}</span>`).join('')}</dd>` : ''}
     </dl>`;
   el.classList.add('open'); el.setAttribute('aria-hidden', 'false');
@@ -344,7 +379,8 @@ function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('s
 async function copy(text, msg) { try { await navigator.clipboard.writeText(text); toast(msg); } catch { toast('Copy was blocked by the browser'); } }
 
 // Static control setup
-$('#kind').innerHTML = `<option value="all">All icons</option>` + KINDS.map(([k, l]) => `<option value="${k}">${l}</option>`).join('');
+$('#kind').innerHTML = `<option value="all">All icons</option>` + KINDS.map(([k, l]) => `<option value="${k}">${l}</option>`).join('')
+  + `<optgroup label="Browse by standard">${DATA.standards.map((x) => `<option value="std:${x.id}">${esc(x.name)} ${esc(x.version)}</option>`).join('')}</optgroup>`;
 $('#swatches').innerHTML = COLORS.map(([c, n]) => `<button class="sw" type="button" data-v="${c}" style="--c:${c || 'var(--fg)'}" aria-label="${n}" title="${n}"></button>`).join('')
   + `<span class="sw custom" title="Custom colour"><input type="color" id="pick" aria-label="Custom colour" value="#2f6feb"></span>`;
 $('#q').placeholder = `Search ${DATA.concepts.length} icons`;
@@ -364,7 +400,7 @@ $('#styleBtn').onclick = () => set('style', state.style === 'solid' ? 'outline' 
 $('#custom').onclick = () => { state.pop = !state.pop; syncControls(); };
 $('#kind').onchange = (e) => { state.kind = e.target.value; render(); };
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); render(); };
-$('#main').onclick = (e) => { const t = e.target.closest('.cell'); if (!t) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
+$('#main').onclick = (e) => { const t = e.target.closest('.cell, .std-head'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
 dark.addEventListener('change', () => syncControls());
 document.addEventListener('pointerdown', (e) => { if (state.pop && !e.target.closest('#pop, #custom')) { state.pop = false; syncControls(); } });
 document.addEventListener('keydown', (e) => {

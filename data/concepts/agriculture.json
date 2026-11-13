@@ -1,0 +1,19 @@
+{
+  "id": "agriculture",
+  "name": "Agriculture",
+  "kind": "sector",
+  "metaphor": "sprout",
+  "keywords": [
+    "farming",
+    "crops",
+    "forestry",
+    "fishing",
+    "livestock",
+    "agribusiness",
+    "food production"
+  ],
+  "reduction": "24+: ground line.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

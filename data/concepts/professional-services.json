@@ -1,0 +1,19 @@
+{
+  "id": "professional-services",
+  "name": "Professional Services",
+  "kind": "sector",
+  "metaphor": "briefcase",
+  "keywords": [
+    "consulting",
+    "legal",
+    "accounting",
+    "advisory",
+    "scientific",
+    "technical services",
+    "business services"
+  ],
+  "reduction": "20+: strap line.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

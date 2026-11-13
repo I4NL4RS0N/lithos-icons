@@ -1,0 +1,783 @@
+{
+  "concept": "transportation",
+  "query": "freight transportation",
+  "fetched": "2026-11-13T19:03:57.989Z",
+  "topTerms": [
+    [
+      "transportation",
+      46
+    ],
+    [
+      "freight",
+      45
+    ],
+    [
+      "shipping",
+      18
+    ],
+    [
+      "logistic",
+      13
+    ],
+    [
+      "truck",
+      13
+    ],
+    [
+      "cargo",
+      12
+    ],
+    [
+      "delivery",
+      11
+    ],
+    [
+      "logistics",
+      10
+    ],
+    [
+      "freight-transportation",
+      5
+    ],
+    [
+      "cargo ship",
+      5
+    ],
+    [
+      "cargo-ship",
+      5
+    ],
+    [
+      "freight transportation",
+      4
+    ],
+    [
+      "vehicle",
+      4
+    ],
+    [
+      "tanker ship",
+      4
+    ],
+    [
+      "tanker-ship",
+      4
+    ],
+    [
+      "forklift",
+      3
+    ],
+    [
+      "cargo truck",
+      3
+    ],
+    [
+      "cargo-truck",
+      3
+    ],
+    [
+      "container",
+      3
+    ],
+    [
+      "train",
+      3
+    ],
+    [
+      "cargo train",
+      3
+    ],
+    [
+      "cargo-train",
+      3
+    ],
+    [
+      "van",
+      2
+    ],
+    [
+      "water truck",
+      2
+    ],
+    [
+      "tanker",
+      2
+    ],
+    [
+      "water-truck",
+      2
+    ],
+    [
+      "freight-forwarder",
+      2
+    ],
+    [
+      "freight-forwarding",
+      2
+    ],
+    [
+      "tank wagon",
+      2
+    ],
+    [
+      "tank-wagon",
+      2
+    ],
+    [
+      "railway",
+      2
+    ],
+    [
+      "lorry",
+      2
+    ],
+    [
+      "transporter",
+      2
+    ],
+    [
+      "oil",
+      2
+    ],
+    [
+      "transport",
+      2
+    ],
+    [
+      "international",
+      1
+    ],
+    [
+      "express",
+      1
+    ],
+    [
+      "trucking",
+      1
+    ],
+    [
+      "development",
+      1
+    ],
+    [
+      "industry",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "freight transportation",
+          "tags": [
+            "delivery",
+            "freight-transportation",
+            "international",
+            "logistic",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8165032-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "freight transportation",
+          "tags": [
+            "delivery",
+            "express",
+            "freight-transportation",
+            "shipping",
+            "trucking",
+            "van"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6612794-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "freight transportation",
+          "tags": [
+            "development",
+            "freight-transportation",
+            "industry",
+            "manufacturing",
+            "production",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6525514-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "freight transportation",
+          "tags": [
+            "business",
+            "commerce",
+            "corporate",
+            "financial",
+            "freight-transportation",
+            "import"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6326280-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Water Truck",
+          "tags": [
+            "freight",
+            "tanker",
+            "transportation",
+            "water-truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6730024-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Water Truck",
+          "tags": [
+            "freight",
+            "tanker",
+            "transportation",
+            "water-truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6730063-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Global Logistics",
+          "tags": [
+            "delivery",
+            "freight",
+            "global-logistics",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5457208-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "freight",
+          "tags": [
+            "freight",
+            "freight-forwarder",
+            "freight-forwarding",
+            "logistics",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4867031-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "freight",
+          "tags": [
+            "freight",
+            "freight-forwarder",
+            "freight-forwarding",
+            "logistics",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4866940-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "logistics care",
+          "tags": [
+            "delivery-insurance",
+            "dockside-freight",
+            "freight-container",
+            "freight-transportation",
+            "logistics-care"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2023851-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "freight",
+            "road",
+            "transportation",
+            "truck",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8773-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "containers",
+          "tags": [
+            "cargo",
+            "containers",
+            "freight",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492980-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "cargo",
+            "delivery",
+            "freight",
+            "transportation",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8382905-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "cargo",
+            "delivery",
+            "freight",
+            "transportation",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8382904-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "freight",
+            "logistics",
+            "transportation",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8369998-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "cargo",
+            "freight",
+            "transportation",
+            "truck",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8317816-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cargo",
+          "tags": [
+            "cargo",
+            "freight",
+            "goods",
+            "shipment",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8231445-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "delivery",
+            "freight",
+            "transportation",
+            "truck",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8011414-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ship",
+          "tags": [
+            "cargo",
+            "freight",
+            "ship",
+            "transportation",
+            "vessel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8011358-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "cargo",
+            "freight",
+            "transportation",
+            "truck",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8011352-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7454287-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "freight",
+            "logistic",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7440348-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "loading",
+          "tags": [
+            "freight",
+            "loading",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7434502-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "container truck",
+          "tags": [
+            "container-truck",
+            "freight",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7434497-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Shipping",
+          "tags": [
+            "delivery",
+            "freight",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7434495-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Truck",
+          "tags": [
+            "cargo-truck",
+            "freight",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7434493-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "container",
+          "tags": [
+            "container",
+            "freight",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7434491-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistics",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7434479-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Tank wagon",
+          "tags": [
+            "cargo",
+            "freight",
+            "tank-wagon",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7267760-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Train",
+          "tags": [
+            "cargo-train",
+            "freight",
+            "railway",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7267742-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Tank wagon",
+          "tags": [
+            "cargo",
+            "freight",
+            "tank-wagon",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7267736-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Train",
+          "tags": [
+            "cargo-train",
+            "freight",
+            "railway",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7267730-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "maritime",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6976747-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "freight",
+            "logistic",
+            "lorry",
+            "transportation",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6776447-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tanker ship",
+          "tags": [
+            "freight",
+            "logistic",
+            "shipping",
+            "tanker-ship",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6776444-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistic",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6776421-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tanker ship",
+          "tags": [
+            "freight",
+            "logistic",
+            "shipping",
+            "tanker-ship",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6776412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Truck",
+          "tags": [
+            "freight",
+            "logistic",
+            "lorry",
+            "transportation",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6776402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "transporter",
+          "tags": [
+            "delivery",
+            "freight",
+            "transportation",
+            "transporter",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6730051-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "transporter",
+          "tags": [
+            "delivery",
+            "freight",
+            "transportation",
+            "transporter",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6730041-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Truck",
+          "tags": [
+            "cargo-truck",
+            "delivery",
+            "freight",
+            "transportation",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6730032-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Truck",
+          "tags": [
+            "cargo-truck",
+            "delivery",
+            "freight",
+            "transportation",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6730006-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Ship",
+          "tags": [
+            "cargo-ship",
+            "freight",
+            "logistic",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6690291-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tanker ship",
+          "tags": [
+            "freight",
+            "logistic",
+            "oil",
+            "tanker-ship",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6690167-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tanker ship",
+          "tags": [
+            "freight",
+            "logistic",
+            "oil",
+            "tanker-ship",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6690123-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Van",
+          "tags": [
+            "camper",
+            "freight",
+            "transportation",
+            "truck",
+            "van"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6665831-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "freight",
+            "logistic",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6611466-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "container",
+          "tags": [
+            "container",
+            "freight",
+            "logistic",
+            "transport",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6576606-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "container",
+          "tags": [
+            "container",
+            "freight",
+            "logistic",
+            "transport",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6576589-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cargo Train",
+          "tags": [
+            "cargo",
+            "cargo-train",
+            "freight",
+            "train",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6228412-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "truck",
+    "rationale": "Refs for \"freight transportation\" dominated by trucks; ships and containers second.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

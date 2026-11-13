@@ -1,0 +1,18 @@
+{
+  "id": "accommodation-food",
+  "name": "Accommodation & Food",
+  "kind": "sector",
+  "metaphor": "cloche",
+  "keywords": [
+    "hotels",
+    "restaurants",
+    "hospitality",
+    "lodging",
+    "food service",
+    "catering"
+  ],
+  "reduction": "None — dome, knob and tray at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

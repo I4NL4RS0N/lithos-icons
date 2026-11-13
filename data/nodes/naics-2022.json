@@ -1,0 +1,698 @@
+[
+ {
+  "code": "11",
+  "name": "Agriculture, Forestry, Fishing and Hunting",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "21",
+  "name": "Mining, Quarrying, and Oil and Gas Extraction",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "22",
+  "name": "Utilities",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "23",
+  "name": "Construction",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "31-33",
+  "name": "Manufacturing",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "42",
+  "name": "Wholesale Trade",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "44-45",
+  "name": "Retail Trade",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "48-49",
+  "name": "Transportation and Warehousing",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "51",
+  "name": "Information",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "52",
+  "name": "Finance and Insurance",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "53",
+  "name": "Real Estate and Rental and Leasing",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "54",
+  "name": "Professional, Scientific, and Technical Services",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "55",
+  "name": "Management of Companies and Enterprises",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "56",
+  "name": "Administrative and Support and Waste Management and Remediation Services",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "61",
+  "name": "Educational Services",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "62",
+  "name": "Health Care and Social Assistance",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "71",
+  "name": "Arts, Entertainment, and Recreation",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "72",
+  "name": "Accommodation and Food Services",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "81",
+  "name": "Other Services (except Public Administration)",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "92",
+  "name": "Public Administration",
+  "level": "sector",
+  "parent": null
+ },
+ {
+  "code": "111",
+  "name": "Crop Production",
+  "level": "subsector",
+  "parent": "11"
+ },
+ {
+  "code": "112",
+  "name": "Animal Production and Aquaculture",
+  "level": "subsector",
+  "parent": "11"
+ },
+ {
+  "code": "113",
+  "name": "Forestry and Logging",
+  "level": "subsector",
+  "parent": "11"
+ },
+ {
+  "code": "114",
+  "name": "Fishing, Hunting and Trapping",
+  "level": "subsector",
+  "parent": "11"
+ },
+ {
+  "code": "115",
+  "name": "Support Activities for Agriculture and Forestry",
+  "level": "subsector",
+  "parent": "11"
+ },
+ {
+  "code": "211",
+  "name": "Oil and Gas Extraction",
+  "level": "subsector",
+  "parent": "21"
+ },
+ {
+  "code": "212",
+  "name": "Mining (except Oil and Gas)",
+  "level": "subsector",
+  "parent": "21"
+ },
+ {
+  "code": "213",
+  "name": "Support Activities for Mining",
+  "level": "subsector",
+  "parent": "21"
+ },
+ {
+  "code": "221",
+  "name": "Utilities",
+  "level": "subsector",
+  "parent": "22"
+ },
+ {
+  "code": "236",
+  "name": "Construction of Buildings",
+  "level": "subsector",
+  "parent": "23"
+ },
+ {
+  "code": "237",
+  "name": "Heavy and Civil Engineering Construction",
+  "level": "subsector",
+  "parent": "23"
+ },
+ {
+  "code": "238",
+  "name": "Specialty Trade Contractors",
+  "level": "subsector",
+  "parent": "23"
+ },
+ {
+  "code": "311",
+  "name": "Food Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "312",
+  "name": "Beverage and Tobacco Product Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "313",
+  "name": "Textile Mills",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "314",
+  "name": "Textile Product Mills",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "315",
+  "name": "Apparel Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "316",
+  "name": "Leather and Allied Product Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "321",
+  "name": "Wood Product Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "322",
+  "name": "Paper Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "323",
+  "name": "Printing and Related Support Activities",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "324",
+  "name": "Petroleum and Coal Products Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "325",
+  "name": "Chemical Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "326",
+  "name": "Plastics and Rubber Products Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "327",
+  "name": "Nonmetallic Mineral Product Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "331",
+  "name": "Primary Metal Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "332",
+  "name": "Fabricated Metal Product Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "333",
+  "name": "Machinery Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "334",
+  "name": "Computer and Electronic Product Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "335",
+  "name": "Electrical Equipment, Appliance, and Component Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "336",
+  "name": "Transportation Equipment Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "337",
+  "name": "Furniture and Related Product Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "339",
+  "name": "Miscellaneous Manufacturing",
+  "level": "subsector",
+  "parent": "31-33"
+ },
+ {
+  "code": "423",
+  "name": "Merchant Wholesalers, Durable Goods",
+  "level": "subsector",
+  "parent": "42"
+ },
+ {
+  "code": "424",
+  "name": "Merchant Wholesalers, Nondurable Goods",
+  "level": "subsector",
+  "parent": "42"
+ },
+ {
+  "code": "425",
+  "name": "Wholesale Trade Agents and Brokers",
+  "level": "subsector",
+  "parent": "42"
+ },
+ {
+  "code": "441",
+  "name": "Motor Vehicle and Parts Dealers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "444",
+  "name": "Building Material and Garden Equipment and Supplies Dealers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "445",
+  "name": "Food and Beverage Retailers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "449",
+  "name": "Furniture, Home Furnishings, Electronics, and Appliance Retailers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "455",
+  "name": "General Merchandise Retailers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "456",
+  "name": "Health and Personal Care Retailers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "457",
+  "name": "Gasoline Stations and Fuel Dealers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "458",
+  "name": "Clothing, Clothing Accessories, Shoe, and Jewelry Retailers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "459",
+  "name": "Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers",
+  "level": "subsector",
+  "parent": "44-45"
+ },
+ {
+  "code": "481",
+  "name": "Air Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "482",
+  "name": "Rail Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "483",
+  "name": "Water Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "484",
+  "name": "Truck Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "485",
+  "name": "Transit and Ground Passenger Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "486",
+  "name": "Pipeline Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "487",
+  "name": "Scenic and Sightseeing Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "488",
+  "name": "Support Activities for Transportation",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "491",
+  "name": "Postal Service",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "492",
+  "name": "Couriers and Messengers",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "493",
+  "name": "Warehousing and Storage",
+  "level": "subsector",
+  "parent": "48-49"
+ },
+ {
+  "code": "512",
+  "name": "Motion Picture and Sound Recording Industries",
+  "level": "subsector",
+  "parent": "51"
+ },
+ {
+  "code": "513",
+  "name": "Publishing Industries",
+  "level": "subsector",
+  "parent": "51"
+ },
+ {
+  "code": "516",
+  "name": "Broadcasting and Content Providers",
+  "level": "subsector",
+  "parent": "51"
+ },
+ {
+  "code": "517",
+  "name": "Telecommunications",
+  "level": "subsector",
+  "parent": "51"
+ },
+ {
+  "code": "518",
+  "name": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+  "level": "subsector",
+  "parent": "51"
+ },
+ {
+  "code": "519",
+  "name": "Web Search Portals, Libraries, Archives, and Other Information Services",
+  "level": "subsector",
+  "parent": "51"
+ },
+ {
+  "code": "521",
+  "name": "Monetary Authorities-Central Bank",
+  "level": "subsector",
+  "parent": "52"
+ },
+ {
+  "code": "522",
+  "name": "Credit Intermediation and Related Activities",
+  "level": "subsector",
+  "parent": "52"
+ },
+ {
+  "code": "523",
+  "name": "Securities, Commodity Contracts, and Other Financial Investments and Related Activities",
+  "level": "subsector",
+  "parent": "52"
+ },
+ {
+  "code": "524",
+  "name": "Insurance Carriers and Related Activities",
+  "level": "subsector",
+  "parent": "52"
+ },
+ {
+  "code": "525",
+  "name": "Funds, Trusts, and Other Financial Vehicles",
+  "level": "subsector",
+  "parent": "52"
+ },
+ {
+  "code": "531",
+  "name": "Real Estate",
+  "level": "subsector",
+  "parent": "53"
+ },
+ {
+  "code": "532",
+  "name": "Rental and Leasing Services",
+  "level": "subsector",
+  "parent": "53"
+ },
+ {
+  "code": "533",
+  "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+  "level": "subsector",
+  "parent": "53"
+ },
+ {
+  "code": "541",
+  "name": "Professional, Scientific, and Technical Services",
+  "level": "subsector",
+  "parent": "54"
+ },
+ {
+  "code": "551",
+  "name": "Management of Companies and Enterprises",
+  "level": "subsector",
+  "parent": "55"
+ },
+ {
+  "code": "561",
+  "name": "Administrative and Support Services",
+  "level": "subsector",
+  "parent": "56"
+ },
+ {
+  "code": "562",
+  "name": "Waste Management and Remediation Services",
+  "level": "subsector",
+  "parent": "56"
+ },
+ {
+  "code": "611",
+  "name": "Educational Services",
+  "level": "subsector",
+  "parent": "61"
+ },
+ {
+  "code": "621",
+  "name": "Ambulatory Health Care Services",
+  "level": "subsector",
+  "parent": "62"
+ },
+ {
+  "code": "622",
+  "name": "Hospitals",
+  "level": "subsector",
+  "parent": "62"
+ },
+ {
+  "code": "623",
+  "name": "Nursing and Residential Care Facilities",
+  "level": "subsector",
+  "parent": "62"
+ },
+ {
+  "code": "624",
+  "name": "Social Assistance",
+  "level": "subsector",
+  "parent": "62"
+ },
+ {
+  "code": "711",
+  "name": "Performing Arts, Spectator Sports, and Related Industries",
+  "level": "subsector",
+  "parent": "71"
+ },
+ {
+  "code": "712",
+  "name": "Museums, Historical Sites, and Similar Institutions",
+  "level": "subsector",
+  "parent": "71"
+ },
+ {
+  "code": "713",
+  "name": "Amusement, Gambling, and Recreation Industries",
+  "level": "subsector",
+  "parent": "71"
+ },
+ {
+  "code": "721",
+  "name": "Accommodation",
+  "level": "subsector",
+  "parent": "72"
+ },
+ {
+  "code": "722",
+  "name": "Food Services and Drinking Places",
+  "level": "subsector",
+  "parent": "72"
+ },
+ {
+  "code": "811",
+  "name": "Repair and Maintenance",
+  "level": "subsector",
+  "parent": "81"
+ },
+ {
+  "code": "812",
+  "name": "Personal and Laundry Services",
+  "level": "subsector",
+  "parent": "81"
+ },
+ {
+  "code": "813",
+  "name": "Religious, Grantmaking, Civic, Professional, and Similar Organizations",
+  "level": "subsector",
+  "parent": "81"
+ },
+ {
+  "code": "814",
+  "name": "Private Households",
+  "level": "subsector",
+  "parent": "81"
+ },
+ {
+  "code": "921",
+  "name": "Executive, Legislative, and Other General Government Support",
+  "level": "subsector",
+  "parent": "92"
+ },
+ {
+  "code": "922",
+  "name": "Justice, Public Order, and Safety Activities",
+  "level": "subsector",
+  "parent": "92"
+ },
+ {
+  "code": "923",
+  "name": "Administration of Human Resource Programs",
+  "level": "subsector",
+  "parent": "92"
+ },
+ {
+  "code": "924",
+  "name": "Administration of Environmental Quality Programs",
+  "level": "subsector",
+  "parent": "92"
+ },
+ {
+  "code": "925",
+  "name": "Administration of Housing Programs, Urban Planning, and Community Development",
+  "level": "subsector",
+  "parent": "92"
+ },
+ {
+  "code": "926",
+  "name": "Administration of Economic Programs",
+  "level": "subsector",
+  "parent": "92"
+ },
+ {
+  "code": "927",
+  "name": "Space Research and Technology",
+  "level": "subsector",
+  "parent": "92"
+ },
+ {
+  "code": "928",
+  "name": "National Security and International Affairs",
+  "level": "subsector",
+  "parent": "92"
+ }
+]

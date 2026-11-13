@@ -1,0 +1,817 @@
+{
+  "concept": "administrative-services",
+  "query": "office administration",
+  "fetched": "2026-11-13T19:03:59.279Z",
+  "topTerms": [
+    [
+      "administration",
+      50
+    ],
+    [
+      "office",
+      47
+    ],
+    [
+      "management",
+      17
+    ],
+    [
+      "business",
+      15
+    ],
+    [
+      "professional",
+      14
+    ],
+    [
+      "government",
+      10
+    ],
+    [
+      "building",
+      7
+    ],
+    [
+      "public",
+      7
+    ],
+    [
+      "secretary",
+      5
+    ],
+    [
+      "paperwork",
+      5
+    ],
+    [
+      "agency",
+      4
+    ],
+    [
+      "authority",
+      4
+    ],
+    [
+      "office-administration",
+      3
+    ],
+    [
+      "workplace",
+      3
+    ],
+    [
+      "embassy",
+      3
+    ],
+    [
+      "ministry",
+      3
+    ],
+    [
+      "clerk",
+      3
+    ],
+    [
+      "manager",
+      3
+    ],
+    [
+      "files",
+      3
+    ],
+    [
+      "government office",
+      3
+    ],
+    [
+      "government-office",
+      3
+    ],
+    [
+      "administrative",
+      3
+    ],
+    [
+      "administrator",
+      2
+    ],
+    [
+      "business-administration",
+      2
+    ],
+    [
+      "system-administration",
+      2
+    ],
+    [
+      "briefcase",
+      2
+    ],
+    [
+      "home-office",
+      2
+    ],
+    [
+      "working",
+      2
+    ],
+    [
+      "calculator",
+      2
+    ],
+    [
+      "currency",
+      2
+    ],
+    [
+      "money",
+      2
+    ],
+    [
+      "district",
+      2
+    ],
+    [
+      "local",
+      2
+    ],
+    [
+      "western",
+      2
+    ],
+    [
+      "institution",
+      2
+    ],
+    [
+      "civic",
+      2
+    ],
+    [
+      "city",
+      2
+    ],
+    [
+      "work",
+      2
+    ],
+    [
+      "document",
+      2
+    ],
+    [
+      "task",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "office administration",
+          "tags": [
+            "admin",
+            "administration",
+            "employee",
+            "management",
+            "office-administration",
+            "study-program"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6280979-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Administration",
+          "tags": [
+            "administration",
+            "administrator",
+            "business-administration",
+            "office-administration",
+            "system-administration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6150456-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Administration",
+          "tags": [
+            "administration",
+            "administrator",
+            "business-administration",
+            "office-administration",
+            "system-administration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6150453-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "building",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405166-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "portfolio",
+          "tags": [
+            "administration",
+            "bag",
+            "briefcase",
+            "office",
+            "portfolio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6843432-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Workplace",
+          "tags": [
+            "administration",
+            "home-office",
+            "office",
+            "secretary",
+            "working",
+            "workplace"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6092242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Workplace",
+          "tags": [
+            "administration",
+            "home-office",
+            "office",
+            "secretary",
+            "working",
+            "workplace"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6092220-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Embassy",
+          "tags": [
+            "administration",
+            "agency",
+            "embassy",
+            "ministry",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4285228-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Embassy",
+          "tags": [
+            "administration",
+            "agency",
+            "embassy",
+            "ministry",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4283177-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Embassy",
+          "tags": [
+            "administration",
+            "agency",
+            "embassy",
+            "ministry",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4283171-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clerk",
+          "tags": [
+            "administration",
+            "clerk",
+            "manager",
+            "office",
+            "secretary"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4135579-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clerk",
+          "tags": [
+            "administration",
+            "clerk",
+            "manager",
+            "office",
+            "secretary"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4135555-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clerk",
+          "tags": [
+            "administration",
+            "clerk",
+            "manager",
+            "office",
+            "secretary"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4134921-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "administration",
+            "calculator",
+            "currency",
+            "money",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3676937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "administration",
+            "calculator",
+            "currency",
+            "money",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3676936-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "district",
+          "tags": [
+            "administration",
+            "district",
+            "local",
+            "office",
+            "western"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3047507-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "district",
+          "tags": [
+            "administration",
+            "district",
+            "local",
+            "office",
+            "western"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3047477-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "School",
+          "tags": [
+            "administration",
+            "building",
+            "education",
+            "office",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1145896-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "documents",
+          "tags": [
+            "administration",
+            "briefcase",
+            "documents",
+            "files",
+            "office",
+            "paperwork"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501676-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government Office",
+          "tags": [
+            "administration",
+            "government",
+            "government-office",
+            "institution",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8479729-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Public Policy",
+          "tags": [
+            "administration",
+            "file",
+            "office",
+            "policy",
+            "public-policy",
+            "regulation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453075-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "governance",
+            "government",
+            "institution",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "department",
+          "tags": [
+            "administration",
+            "agency",
+            "department",
+            "division",
+            "office",
+            "organization"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422035-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "building",
+            "government",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405129-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "civic",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390298-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "civic",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390270-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government Office",
+          "tags": [
+            "administration",
+            "building",
+            "government",
+            "government-office",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8380462-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government",
+          "tags": [
+            "administration",
+            "authority",
+            "city",
+            "government",
+            "office",
+            "public"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8352893-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "administrative",
+          "tags": [
+            "administration",
+            "administrative",
+            "management",
+            "office",
+            "paperwork",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8286488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "administrative",
+          "tags": [
+            "administration",
+            "administrative",
+            "management",
+            "office",
+            "paperwork",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8286358-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Archive Binders",
+          "tags": [
+            "administration",
+            "archive-binders",
+            "documentation",
+            "history",
+            "office",
+            "records"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8229709-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paperwork",
+          "tags": [
+            "administration",
+            "document",
+            "files",
+            "office",
+            "paperwork",
+            "task"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8172938-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paperwork",
+          "tags": [
+            "administration",
+            "document",
+            "files",
+            "office",
+            "paperwork",
+            "task"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8132571-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "city hall",
+          "tags": [
+            "administration",
+            "building",
+            "city-hall",
+            "cityhall",
+            "government",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8127941-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Government Office",
+          "tags": [
+            "administration",
+            "building",
+            "city",
+            "government",
+            "government-office",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7882832-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "business building",
+          "tags": [
+            "administration",
+            "building",
+            "business",
+            "business-building",
+            "office",
+            "workplace"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7749829-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "turnover",
+          "tags": [
+            "administration",
+            "business",
+            "management",
+            "office",
+            "professional",
+            "turnover"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695554-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Target",
+          "tags": [
+            "administration",
+            "business",
+            "management",
+            "office",
+            "professional",
+            "target"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695553-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "inventory",
+          "tags": [
+            "administration",
+            "business",
+            "inventory",
+            "management",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695552-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "globalization",
+          "tags": [
+            "administration",
+            "business",
+            "globalization",
+            "management",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695551-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Idea",
+          "tags": [
+            "administration",
+            "business",
+            "idea",
+            "management",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695550-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "budget",
+          "tags": [
+            "administration",
+            "budget",
+            "business",
+            "management",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695549-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "supervised",
+          "tags": [
+            "administration",
+            "business",
+            "management",
+            "office",
+            "professional",
+            "supervised"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695548-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "administrative",
+          "tags": [
+            "administration",
+            "administrative",
+            "business",
+            "management",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695547-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "authorize",
+          "tags": [
+            "administration",
+            "authorize",
+            "business",
+            "management",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695546-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "prioritize",
+          "tags": [
+            "administration",
+            "business",
+            "management",
+            "office",
+            "prioritize",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "boss",
+          "tags": [
+            "administration",
+            "boss",
+            "business",
+            "management",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695544-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "motivation",
+          "tags": [
+            "administration",
+            "business",
+            "management",
+            "motivation",
+            "office",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695543-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Problem Solving",
+          "tags": [
+            "administration",
+            "business",
+            "management",
+            "office",
+            "problem-solving",
+            "professional"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695542-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "profitable",
+          "tags": [
+            "administration",
+            "business",
+            "management",
+            "office",
+            "professional",
+            "profitable"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7695541-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "clipboard-check",
+    "rationale": "Refs for \"office administration\" were noisy (buildings, desks); clipboard with a check stands for support work.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

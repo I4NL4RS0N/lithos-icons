@@ -1,0 +1,13 @@
+{
+ "id": "nace-2.1",
+ "name": "NACE",
+ "fullName": "Statistical Classification of Economic Activities in the European Community",
+ "version": "Rev. 2.1",
+ "levels": [
+  "section",
+  "division"
+ ],
+ "licence": "public",
+ "publish": true,
+ "source": "Eurostat (https://ec.europa.eu/eurostat/web/nace), via the nace-mcp package"
+}

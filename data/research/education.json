@@ -1,0 +1,808 @@
+{
+  "concept": "education",
+  "query": "education",
+  "fetched": "2026-11-13T19:03:59.846Z",
+  "topTerms": [
+    [
+      "education",
+      50
+    ],
+    [
+      "learning",
+      26
+    ],
+    [
+      "school",
+      20
+    ],
+    [
+      "study",
+      17
+    ],
+    [
+      "knowledge",
+      16
+    ],
+    [
+      "book",
+      13
+    ],
+    [
+      "academic",
+      10
+    ],
+    [
+      "graduation",
+      9
+    ],
+    [
+      "training",
+      8
+    ],
+    [
+      "schooling",
+      4
+    ],
+    [
+      "hat",
+      4
+    ],
+    [
+      "open-book",
+      3
+    ],
+    [
+      "academia",
+      3
+    ],
+    [
+      "reading",
+      3
+    ],
+    [
+      "development",
+      3
+    ],
+    [
+      "university",
+      3
+    ],
+    [
+      "tools",
+      3
+    ],
+    [
+      "student",
+      3
+    ],
+    [
+      "learn",
+      2
+    ],
+    [
+      "college",
+      2
+    ],
+    [
+      "mortarboard",
+      2
+    ],
+    [
+      "e-learning",
+      2
+    ],
+    [
+      "online-education",
+      2
+    ],
+    [
+      "smart-learning",
+      2
+    ],
+    [
+      "certificate",
+      2
+    ],
+    [
+      "literacy",
+      2
+    ],
+    [
+      "computer-functions",
+      2
+    ],
+    [
+      "feature",
+      2
+    ],
+    [
+      "journal",
+      2
+    ],
+    [
+      "apple",
+      2
+    ],
+    [
+      "business",
+      1
+    ],
+    [
+      "management",
+      1
+    ],
+    [
+      "technology",
+      1
+    ],
+    [
+      "academics",
+      1
+    ],
+    [
+      "instruction",
+      1
+    ],
+    [
+      "circle",
+      1
+    ],
+    [
+      "light-bulb",
+      1
+    ],
+    [
+      "system",
+      1
+    ],
+    [
+      "office-material",
+      1
+    ],
+    [
+      "pencil",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "education",
+            "learning",
+            "open-book",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493077-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academia",
+            "education",
+            "knowledge",
+            "reading",
+            "schooling",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400763-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "knowledge",
+            "learning",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8386792-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "business",
+            "development",
+            "education",
+            "education",
+            "management",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8378725-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "education",
+            "learn",
+            "learning",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8110488-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academics",
+            "education",
+            "graduation",
+            "instruction",
+            "learning",
+            "schooling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7771772-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "book",
+            "circle",
+            "education",
+            "learning",
+            "light-bulb",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7445107-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "book",
+            "education",
+            "office-material",
+            "pencil",
+            "rule",
+            "school-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6310155-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "book",
+            "education",
+            "learning",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6291924-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "learning",
+            "school",
+            "study",
+            "teaching"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5464893-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "collage",
+            "degree",
+            "education",
+            "hat",
+            "university"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2504151-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "college",
+            "education",
+            "graduate",
+            "learn",
+            "mortarboard",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1528274-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "fee",
+            "learning",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512301-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academy",
+            "cap",
+            "education",
+            "profile",
+            "school",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510977-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "equality",
+            "policy",
+            "social",
+            "welfare"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506143-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "no Education",
+          "tags": [
+            "education",
+            "exclusion",
+            "inequality",
+            "no-education",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505985-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "brain",
+            "development",
+            "education",
+            "knowledge",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8499625-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "education",
+            "learning",
+            "open-book",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497626-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "graduate-from-school",
+            "school-graduation",
+            "school-supplies",
+            "success",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496929-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academia",
+            "book",
+            "education",
+            "graduation",
+            "knowledge",
+            "schooling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496927-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "college",
+            "education",
+            "hat",
+            "mortarboard",
+            "science",
+            "university"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493831-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "education",
+            "graduation",
+            "learning",
+            "school",
+            "student"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491656-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "e-learning",
+            "education",
+            "knowledge",
+            "online-education",
+            "smart-learning",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486873-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "e-learning",
+            "education",
+            "knowledge",
+            "online-education",
+            "smart-learning",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "diversity",
+            "education",
+            "equity",
+            "inclusion",
+            "lifestyle",
+            "woke"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484597-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "knowledge",
+            "learning",
+            "school",
+            "study",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482193-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "development",
+            "education",
+            "education",
+            "knowledge",
+            "learning",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481711-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480095-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "book",
+            "education",
+            "learning",
+            "pen",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478190-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "certificate",
+            "education",
+            "graduation",
+            "hat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475890-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "certificate",
+            "education",
+            "graduation",
+            "hat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "book",
+            "curriculum",
+            "education",
+            "knowledge",
+            "literacy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473872-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "graduation",
+            "knowledge",
+            "learning",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473822-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "book",
+            "education",
+            "knowledge",
+            "learning",
+            "reading",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472110-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "education",
+            "education",
+            "graduation",
+            "student",
+            "university"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464710-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "computer-functions",
+            "education",
+            "feature",
+            "learning",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455411-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "computer-functions",
+            "education",
+            "feature",
+            "learning",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455391-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academia",
+            "education",
+            "knowledge",
+            "reading",
+            "schooling",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443850-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "knowledge",
+            "learning",
+            "literacy",
+            "skills"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8442302-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "bachelor",
+            "book",
+            "education",
+            "learning",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441924-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "education",
+            "knowledge",
+            "learning",
+            "school",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441205-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "education",
+            "knowledge",
+            "learning",
+            "school",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441177-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "book",
+            "education",
+            "graduation",
+            "school",
+            "student"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436044-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "book",
+            "education",
+            "journal",
+            "learning",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435859-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "academic",
+            "book",
+            "education",
+            "journal",
+            "learning",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435840-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "computer",
+            "education",
+            "hardware",
+            "keyboard",
+            "keypad",
+            "keys"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8433177-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "knowledge",
+            "learning",
+            "school",
+            "study",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430030-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "apple",
+            "book",
+            "education",
+            "open-book",
+            "read",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428558-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "apple",
+            "book",
+            "education",
+            "learning",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428549-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "education",
+          "tags": [
+            "education",
+            "graduation",
+            "laptop",
+            "learning",
+            "training"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425338-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "graduation-cap",
+    "rationale": "Refs for \"education\" dominated by graduation caps and books.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

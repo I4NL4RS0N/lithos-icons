@@ -1,0 +1,656 @@
+[
+ {
+  "code": "A",
+  "name": "Agriculture, forestry and fishing",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "01",
+  "name": "Crop and animal production, hunting and related service activities",
+  "level": "division",
+  "parent": "A"
+ },
+ {
+  "code": "02",
+  "name": "Forestry and logging",
+  "level": "division",
+  "parent": "A"
+ },
+ {
+  "code": "03",
+  "name": "Fishing and aquaculture",
+  "level": "division",
+  "parent": "A"
+ },
+ {
+  "code": "B",
+  "name": "Mining and quarrying",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "05",
+  "name": "Mining of coal and lignite",
+  "level": "division",
+  "parent": "B"
+ },
+ {
+  "code": "06",
+  "name": "Extraction of crude petroleum and natural gas",
+  "level": "division",
+  "parent": "B"
+ },
+ {
+  "code": "07",
+  "name": "Mining of metal ores",
+  "level": "division",
+  "parent": "B"
+ },
+ {
+  "code": "08",
+  "name": "Other mining and quarrying",
+  "level": "division",
+  "parent": "B"
+ },
+ {
+  "code": "09",
+  "name": "Mining support service activities",
+  "level": "division",
+  "parent": "B"
+ },
+ {
+  "code": "C",
+  "name": "Manufacturing",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "10",
+  "name": "Manufacture of food products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "11",
+  "name": "Manufacture of beverages",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "12",
+  "name": "Manufacture of tobacco products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "13",
+  "name": "Manufacture of textiles",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "14",
+  "name": "Manufacture of wearing apparel",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "15",
+  "name": "Manufacture of leather and related products of other materials",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "16",
+  "name": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "17",
+  "name": "Manufacture of paper and paper products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "18",
+  "name": "Printing and reproduction of recorded media",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "19",
+  "name": "Manufacture of coke and refined petroleum products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "20",
+  "name": "Manufacture of chemicals and chemical products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "21",
+  "name": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "22",
+  "name": "Manufacture of rubber and plastic products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "23",
+  "name": "Manufacture of other non-metallic mineral products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "24",
+  "name": "Manufacture of basic metals",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "25",
+  "name": "Manufacture of fabricated metal products, except machinery and equipment",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "26",
+  "name": "Manufacture of computer, electronic and optical products",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "27",
+  "name": "Manufacture of electrical equipment",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "28",
+  "name": "Manufacture of machinery and equipment n.e.c.",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "29",
+  "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "30",
+  "name": "Manufacture of other transport equipment",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "31",
+  "name": "Manufacture of furniture",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "32",
+  "name": "Other manufacturing",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "33",
+  "name": "Repair, maintenance and installation of machinery and equipment",
+  "level": "division",
+  "parent": "C"
+ },
+ {
+  "code": "D",
+  "name": "Electricity, gas, steam and air conditioning supply",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "35",
+  "name": "Electricity, gas, steam and air conditioning supply",
+  "level": "division",
+  "parent": "D"
+ },
+ {
+  "code": "E",
+  "name": "Water supply; sewerage, waste management and remediation activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "36",
+  "name": "Water collection, treatment and supply",
+  "level": "division",
+  "parent": "E"
+ },
+ {
+  "code": "37",
+  "name": "Sewerage",
+  "level": "division",
+  "parent": "E"
+ },
+ {
+  "code": "38",
+  "name": "Waste collection, recovery and disposal activities",
+  "level": "division",
+  "parent": "E"
+ },
+ {
+  "code": "39",
+  "name": "Remediation activities and other waste management service activities",
+  "level": "division",
+  "parent": "E"
+ },
+ {
+  "code": "F",
+  "name": "Construction",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "41",
+  "name": "Construction of residential and non-residential buildings",
+  "level": "division",
+  "parent": "F"
+ },
+ {
+  "code": "42",
+  "name": "Civil engineering",
+  "level": "division",
+  "parent": "F"
+ },
+ {
+  "code": "43",
+  "name": "Specialised construction activities",
+  "level": "division",
+  "parent": "F"
+ },
+ {
+  "code": "G",
+  "name": "Wholesale and retail trade",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "46",
+  "name": "Wholesale trade",
+  "level": "division",
+  "parent": "G"
+ },
+ {
+  "code": "47",
+  "name": "Retail trade",
+  "level": "division",
+  "parent": "G"
+ },
+ {
+  "code": "H",
+  "name": "Transportation and storage",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "49",
+  "name": "Land transport and transport via pipelines",
+  "level": "division",
+  "parent": "H"
+ },
+ {
+  "code": "50",
+  "name": "Water transport",
+  "level": "division",
+  "parent": "H"
+ },
+ {
+  "code": "51",
+  "name": "Air transport",
+  "level": "division",
+  "parent": "H"
+ },
+ {
+  "code": "52",
+  "name": "Warehousing, storage and support activities for transportation",
+  "level": "division",
+  "parent": "H"
+ },
+ {
+  "code": "53",
+  "name": "Postal and courier activities",
+  "level": "division",
+  "parent": "H"
+ },
+ {
+  "code": "I",
+  "name": "Accommodation and food service activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "55",
+  "name": "Accommodation",
+  "level": "division",
+  "parent": "I"
+ },
+ {
+  "code": "56",
+  "name": "Food and beverage service activities",
+  "level": "division",
+  "parent": "I"
+ },
+ {
+  "code": "J",
+  "name": "Publishing, broadcasting, and content production and distribution activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "58",
+  "name": "Publishing activities",
+  "level": "division",
+  "parent": "J"
+ },
+ {
+  "code": "59",
+  "name": "Motion picture, video and television programme production, sound recording and music publishing activities",
+  "level": "division",
+  "parent": "J"
+ },
+ {
+  "code": "60",
+  "name": "Programming, broadcasting, news agency and other content distribution activities",
+  "level": "division",
+  "parent": "J"
+ },
+ {
+  "code": "K",
+  "name": "Telecommunication, computer programming, consulting, computing infrastructure and other information service activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "61",
+  "name": "Telecommunication",
+  "level": "division",
+  "parent": "K"
+ },
+ {
+  "code": "62",
+  "name": "Computer programming, consultancy and related activities",
+  "level": "division",
+  "parent": "K"
+ },
+ {
+  "code": "63",
+  "name": "Computing infrastructure, data processing, hosting and other information service activities",
+  "level": "division",
+  "parent": "K"
+ },
+ {
+  "code": "L",
+  "name": "Financial and insurance activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "64",
+  "name": "Financial service activities, except insurance and pension funding",
+  "level": "division",
+  "parent": "L"
+ },
+ {
+  "code": "65",
+  "name": "Insurance, reinsurance and pension funding, except compulsory social security",
+  "level": "division",
+  "parent": "L"
+ },
+ {
+  "code": "66",
+  "name": "Activities auxiliary to financial services and insurance activities",
+  "level": "division",
+  "parent": "L"
+ },
+ {
+  "code": "M",
+  "name": "Real estate activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "68",
+  "name": "Real estate activities",
+  "level": "division",
+  "parent": "M"
+ },
+ {
+  "code": "N",
+  "name": "Professional, scientific and technical activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "69",
+  "name": "Legal and accounting activities",
+  "level": "division",
+  "parent": "N"
+ },
+ {
+  "code": "70",
+  "name": "Activities of head offices and management consultancy",
+  "level": "division",
+  "parent": "N"
+ },
+ {
+  "code": "71",
+  "name": "Architectural and engineering activities; technical testing and analysis",
+  "level": "division",
+  "parent": "N"
+ },
+ {
+  "code": "72",
+  "name": "Scientific research and development",
+  "level": "division",
+  "parent": "N"
+ },
+ {
+  "code": "73",
+  "name": "Activities of advertising, market research and public relations",
+  "level": "division",
+  "parent": "N"
+ },
+ {
+  "code": "74",
+  "name": "Other professional, scientific and technical activities",
+  "level": "division",
+  "parent": "N"
+ },
+ {
+  "code": "75",
+  "name": "Veterinary activities",
+  "level": "division",
+  "parent": "N"
+ },
+ {
+  "code": "O",
+  "name": "Administrative and support service activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "77",
+  "name": "Rental and leasing activities",
+  "level": "division",
+  "parent": "O"
+ },
+ {
+  "code": "78",
+  "name": "Employment activities",
+  "level": "division",
+  "parent": "O"
+ },
+ {
+  "code": "79",
+  "name": "Travel agency, tour operator and other reservation service and related activities",
+  "level": "division",
+  "parent": "O"
+ },
+ {
+  "code": "80",
+  "name": "Investigation and security activities",
+  "level": "division",
+  "parent": "O"
+ },
+ {
+  "code": "81",
+  "name": "Services to buildings and landscape activities",
+  "level": "division",
+  "parent": "O"
+ },
+ {
+  "code": "82",
+  "name": "Office administrative, office support and other business support activities",
+  "level": "division",
+  "parent": "O"
+ },
+ {
+  "code": "P",
+  "name": "Public administration and defence; compulsory social security",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "84",
+  "name": "Public administration and defence; compulsory social security",
+  "level": "division",
+  "parent": "P"
+ },
+ {
+  "code": "Q",
+  "name": "Education",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "85",
+  "name": "Education",
+  "level": "division",
+  "parent": "Q"
+ },
+ {
+  "code": "R",
+  "name": "Human health and social work activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "86",
+  "name": "Human health activities",
+  "level": "division",
+  "parent": "R"
+ },
+ {
+  "code": "87",
+  "name": "Residential care activities",
+  "level": "division",
+  "parent": "R"
+ },
+ {
+  "code": "88",
+  "name": "Social work activities without accommodation",
+  "level": "division",
+  "parent": "R"
+ },
+ {
+  "code": "S",
+  "name": "Arts, sports and recreation",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "90",
+  "name": "Arts creation and performing arts activities",
+  "level": "division",
+  "parent": "S"
+ },
+ {
+  "code": "91",
+  "name": "Libraries, archives, museums and other cultural activities",
+  "level": "division",
+  "parent": "S"
+ },
+ {
+  "code": "92",
+  "name": "Gambling and betting activities",
+  "level": "division",
+  "parent": "S"
+ },
+ {
+  "code": "93",
+  "name": "Sports activities and amusement and recreation activities",
+  "level": "division",
+  "parent": "S"
+ },
+ {
+  "code": "T",
+  "name": "Other service activities",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "94",
+  "name": "Activities of membership organisations",
+  "level": "division",
+  "parent": "T"
+ },
+ {
+  "code": "95",
+  "name": "Repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles",
+  "level": "division",
+  "parent": "T"
+ },
+ {
+  "code": "96",
+  "name": "Personal service activities",
+  "level": "division",
+  "parent": "T"
+ },
+ {
+  "code": "U",
+  "name": "Activities of households as employers and undifferentiated goods – and service-producing activities of households for own use",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "97",
+  "name": "Activities of households as employers of domestic personnel",
+  "level": "division",
+  "parent": "U"
+ },
+ {
+  "code": "98",
+  "name": "Undifferentiated goods- and service-producing activities of private households for own use",
+  "level": "division",
+  "parent": "U"
+ },
+ {
+  "code": "V",
+  "name": "Activities of extraterritorial organisations and bodies",
+  "level": "section",
+  "parent": null
+ },
+ {
+  "code": "99",
+  "name": "Activities of extraterritorial organisations and bodies",
+  "level": "division",
+  "parent": "V"
+ }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "wholesale-trade",
+  "name": "Wholesale Trade",
+  "kind": "sector",
+  "metaphor": "warehouse",
+  "keywords": [
+    "wholesale",
+    "distribution",
+    "warehouse",
+    "distributors",
+    "trading"
+  ],
+  "reduction": "Door slats: 0 at 16, 1 at 20–24, 2 at 32+.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

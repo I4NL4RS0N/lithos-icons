@@ -1,0 +1,810 @@
+{
+  "concept": "accommodation-food",
+  "query": "hospitality",
+  "fetched": "2026-11-13T19:04:01.246Z",
+  "topTerms": [
+    [
+      "hospitality",
+      50
+    ],
+    [
+      "hotel",
+      34
+    ],
+    [
+      "accommodation",
+      21
+    ],
+    [
+      "service",
+      18
+    ],
+    [
+      "motel",
+      18
+    ],
+    [
+      "reception",
+      10
+    ],
+    [
+      "travel",
+      8
+    ],
+    [
+      "resort",
+      6
+    ],
+    [
+      "customer-service",
+      5
+    ],
+    [
+      "tourism",
+      4
+    ],
+    [
+      "bell",
+      4
+    ],
+    [
+      "concierge",
+      4
+    ],
+    [
+      "room-service",
+      4
+    ],
+    [
+      "healthcare",
+      3
+    ],
+    [
+      "hospital",
+      3
+    ],
+    [
+      "medic",
+      3
+    ],
+    [
+      "medical",
+      3
+    ],
+    [
+      "medical-care",
+      3
+    ],
+    [
+      "food",
+      3
+    ],
+    [
+      "staff",
+      3
+    ],
+    [
+      "guest",
+      2
+    ],
+    [
+      "ethical",
+      2
+    ],
+    [
+      "friendly",
+      2
+    ],
+    [
+      "polite",
+      2
+    ],
+    [
+      "thanksgiving",
+      2
+    ],
+    [
+      "bellhop",
+      2
+    ],
+    [
+      "guestship",
+      2
+    ],
+    [
+      "delivery",
+      2
+    ],
+    [
+      "courtesy",
+      2
+    ],
+    [
+      "guest-services",
+      2
+    ],
+    [
+      "welcoming",
+      2
+    ],
+    [
+      "reservation",
+      2
+    ],
+    [
+      "amenities",
+      2
+    ],
+    [
+      "receptionist",
+      2
+    ],
+    [
+      "service-bell",
+      2
+    ],
+    [
+      "character",
+      2
+    ],
+    [
+      "bed-and-breakfast",
+      2
+    ],
+    [
+      "manager",
+      2
+    ],
+    [
+      "professional",
+      2
+    ],
+    [
+      "guests",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "hospitality",
+          "tags": [
+            "guest",
+            "hospitality",
+            "hotel",
+            "service",
+            "tourism"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443361-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "guest",
+            "hospitality",
+            "hospitality",
+            "hotel",
+            "service",
+            "tourism"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8443350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "bell",
+            "concierge",
+            "hospitality",
+            "hospitality",
+            "hotel",
+            "reception"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8359146-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "customer-service",
+            "guests",
+            "hospitality",
+            "hotel",
+            "reception",
+            "services"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8210398-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "ethical",
+            "friendly",
+            "hospitality",
+            "polite",
+            "service",
+            "thanksgiving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8076374-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "ethical",
+            "friendly",
+            "hospitality",
+            "polite",
+            "service",
+            "thanksgiving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8076350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "care",
+            "hospitality",
+            "hotels",
+            "laundry",
+            "service",
+            "tourism"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7479519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "healthcare",
+            "hospital",
+            "hospitality",
+            "medic",
+            "medical",
+            "medical-care"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7370685-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "bellhop",
+            "hospitality",
+            "hotel",
+            "tourism",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7278196-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "hospitality",
+            "hotel",
+            "motel",
+            "reception",
+            "resort"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7278181-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "healthcare",
+            "hospital",
+            "hospitality",
+            "medic",
+            "medical",
+            "medical-care"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7250418-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "bell",
+            "concierge",
+            "hospitality",
+            "hotel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7241588-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "bellhop",
+            "hospitality",
+            "hotel",
+            "motel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7203611-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "service",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7203477-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "service",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7203467-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7047650-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "guestship",
+            "hospitality",
+            "housekeeping",
+            "industry",
+            "service",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6871313-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "bell",
+            "concierge",
+            "hospitality",
+            "hotel",
+            "reception"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6828149-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "bell",
+            "concierge",
+            "hospitality",
+            "hotel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6642172-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "delivery",
+            "food",
+            "hospitality",
+            "hotel",
+            "room-service",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6587901-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "delivery",
+            "food",
+            "hospitality",
+            "hotel",
+            "room-service",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6587861-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "courtesy",
+            "customer-service",
+            "guest-services",
+            "hospitality",
+            "welcoming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6546151-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "courtesy",
+            "customer-service",
+            "guest-services",
+            "hospitality",
+            "welcoming"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6546093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "apartment",
+            "hospitality",
+            "hotel",
+            "hotel-building"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6512629-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "air-hostess",
+            "guestship",
+            "hospitality",
+            "staff",
+            "waitress"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5882018-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "air-bnb",
+            "hospitality",
+            "hotel",
+            "reservation",
+            "telecom",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5652614-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "amenities",
+            "hospitality",
+            "motel",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5646033-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "receptionist",
+            "reservation",
+            "resort"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5615874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "receptionist",
+            "room-service",
+            "service-bell"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5615852-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "holiday-stay",
+            "hospitality",
+            "hotel",
+            "motel",
+            "reception"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5615836-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "porter"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5615814-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "healthcare",
+            "hospital",
+            "hospitality",
+            "medic",
+            "medical",
+            "medical-care"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5301456-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "character",
+            "hospitality",
+            "hotel",
+            "service",
+            "staff"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5007116-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "character",
+            "hospitality",
+            "hotel",
+            "service",
+            "staff"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5007093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "resort",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4964628-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "resort",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4964626-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "bed-and-breakfast",
+            "hospitality",
+            "hotel",
+            "motel",
+            "service",
+            "service-bell"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4913699-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "customer-service",
+            "hospitality",
+            "hotel",
+            "motel",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4863958-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "customer-service",
+            "hospitality",
+            "hotel",
+            "motel",
+            "reception"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4863956-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "bed-and-breakfast",
+            "flowers",
+            "hospitality",
+            "hotel",
+            "motel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4815718-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "cafe",
+            "coffee",
+            "coffee-shop",
+            "food",
+            "hospitality",
+            "menu"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4440096-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "hospitality",
+            "luggage",
+            "stay",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4129753-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "bed",
+            "hospitality",
+            "hotel",
+            "leisure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3643553-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "hospitality",
+            "manager",
+            "professional",
+            "reception",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3218303-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "hospitality",
+            "manager",
+            "professional",
+            "reception",
+            "service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3218278-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "friendliness",
+            "generosity",
+            "hospitality",
+            "hospitality-sign",
+            "hospitality-symbol",
+            "warmth-welcome"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3150654-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "reception",
+            "resort"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2704336-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "motel",
+            "reception",
+            "room-service"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2704335-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "hospitality",
+            "hotel",
+            "keyring",
+            "motel",
+            "resort"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2704332-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hospitality",
+          "tags": [
+            "accommodation",
+            "amenities",
+            "hospitality",
+            "hotel",
+            "motel",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2684499-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": "cloche",
+    "rationale": "Refs for \"hospitality\" dominated by the serving cloche, which covers hotels and food service.",
+    "reviewedBy": null,
+    "date": "2026-11-13"
+  }
+}

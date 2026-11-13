@@ -111,5 +111,38 @@
   "civic-dome": [
     "municipal-bonds"
   ],
-  "tranche-base": "modifier: two stacked lines under an asset = securitized product (RMBS, CMBS, ABS, CLO)"
+  "tranche-base": "modifier: two stacked lines under an asset = securitized product (RMBS, CMBS, ABS, CLO)",
+  "sprout": [
+    "agriculture"
+  ],
+  "tower-crane": [
+    "construction"
+  ],
+  "warehouse": [
+    "wholesale-trade"
+  ],
+  "truck": [
+    "transportation"
+  ],
+  "briefcase": [
+    "professional-services"
+  ],
+  "clipboard-check": [
+    "administrative-services"
+  ],
+  "graduation-cap": [
+    "education"
+  ],
+  "theatre-mask": [
+    "arts-recreation"
+  ],
+  "cloche": [
+    "accommodation-food"
+  ],
+  "wrench": [
+    "other-services"
+  ],
+  "capitol-flag": [
+    "government"
+  ]
 }

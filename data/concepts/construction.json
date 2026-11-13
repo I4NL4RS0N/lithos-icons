@@ -1,0 +1,18 @@
+{
+  "id": "construction",
+  "name": "Construction",
+  "kind": "sector",
+  "metaphor": "tower-crane",
+  "keywords": [
+    "building",
+    "contractors",
+    "engineering",
+    "infrastructure",
+    "homebuilding",
+    "crane"
+  ],
+  "reduction": "20+: load on the hook. 32+: counterweight.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

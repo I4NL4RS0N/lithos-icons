@@ -1,0 +1,17 @@
+{
+  "id": "education",
+  "name": "Education",
+  "kind": "sector",
+  "metaphor": "graduation-cap",
+  "keywords": [
+    "schools",
+    "universities",
+    "training",
+    "edtech",
+    "learning"
+  ],
+  "reduction": "20+: tassel.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

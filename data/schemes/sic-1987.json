@@ -1,0 +1,13 @@
+{
+ "id": "sic-1987",
+ "name": "SIC",
+ "fullName": "Standard Industrial Classification (US)",
+ "version": "1987",
+ "levels": [
+  "division",
+  "major group"
+ ],
+ "licence": "public",
+ "publish": true,
+ "source": "OSHA SIC Manual (https://www.osha.gov/data/sic-manual). Major groups 50 and 51 and some division titles are not labelled on that page and use the standard 1987 titles."
+}
