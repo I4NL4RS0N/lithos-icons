@@ -15,7 +15,8 @@
   "chip": ["semiconductors"],
   "speech-bubble": ["communication-services"],
   "bolt": ["electric-utilities"],
-  "pylon": ["utilities"],
+  "drop-bolt": ["utilities", "multi-utilities"],
+  "pylon": [],
   "laptop": ["information-technology"],
   "house": ["real-estate", "residential"]
 }

@@ -13,5 +13,8 @@
   },
   "devDependencies": {
     "pngjs": "^7.0.0"
+  },
+  "dependencies": {
+    "clipper-lib": "^6.4.2"
   }
 }

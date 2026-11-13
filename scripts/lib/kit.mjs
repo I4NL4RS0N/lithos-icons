@@ -1,3 +1,6 @@
+import { createRequire } from 'node:module';
+const ClipperLib = createRequire(import.meta.url)('clipper-lib');
+
 // Drawing kit: per-size grid, stroke and detail tier.
 // Concepts draw in normalized live-area coordinates (0..1). The kit maps them to
 // pixels for one size and snaps to a 0.25px grid. Each size gets its own geometry
@@ -81,7 +84,18 @@ export function kit(size, style) {
   const holeN = (visualPx) => holeW(visualPx) / L; // same, normalized
   const grow = sw / 2 / L; // normalized half-stroke
 
-  return { size, style, solid, pad, L, sw, tier, X, len, path, rrect, circle, poly, capsule, holeW, holeN, grow };
+  // Offset a normalized polygon outward by deltaPx (round joins). Used for exact knockouts:
+  // a hole that should read as shape S is S grown by half a stroke.
+  function offsetPoly(pts, deltaPx) {
+    const S = 1000;
+    const co = new ClipperLib.ClipperOffset(2, 0.25 * S);
+    co.AddPath(pts.map(([x, y]) => ({ X: Math.round((pad + x * L) * S), Y: Math.round((pad + y * L) * S) })), ClipperLib.JoinType.jtRound, ClipperLib.EndType.etClosedPolygon);
+    const out = new ClipperLib.Paths();
+    co.Execute(out, deltaPx * S);
+    return out.map((ring) => 'M' + ring.map((p) => `${r2(p.X / S)} ${r2(p.Y / S)}`).join('L') + 'Z').join('');
+  }
+
+  return { size, style, solid, pad, L, sw, tier, X, len, path, rrect, circle, poly, capsule, offsetPoly, holeW, holeN, grow };
 }
 
 export function svg(size, style, elements) {

@@ -2,7 +2,7 @@
   "id": "utilities",
   "name": "Utilities",
   "kind": "sector",
-  "metaphor": "pylon",
+  "metaphor": "drop-bolt",
   "keywords": [
     "electric",
     "power",
@@ -11,9 +11,9 @@
     "renewables",
     "grid",
     "electricity",
-    "transmission"
+    "multi-utilities"
   ],
-  "reduction": "16–24: legs + two arms. 32+: cross-brace and insulators.",
+  "reduction": "16–20: bolt as a single zigzag stroke. 24+: closed bolt.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

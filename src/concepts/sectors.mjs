@@ -181,27 +181,20 @@ export default [
     id: 'utilities',
     name: 'Utilities',
     kind: 'sector',
-    metaphor: 'pylon',
-    keywords: ['electric', 'power', 'water', 'gas utilities', 'renewables', 'grid', 'electricity', 'transmission'],
-    reduction: '16–24: legs + two arms. 32+: cross-brace and insulators.',
+    metaphor: 'drop-bolt',
+    keywords: ['electric', 'power', 'water', 'gas utilities', 'renewables', 'grid', 'electricity', 'multi-utilities'],
+    reduction: '16–20: bolt as a single zigzag stroke. 24+: closed bolt.',
     draw(k) {
-      // Sector = infrastructure (pylon). Industries below use the product: bolt, drop, flame.
-      const xl = (y) => 0.44 - 0.2 * (y - 0.04) / 0.96;
-      const xr = (y) => 1 - xl(y);
-      const legs = k.poly([[0.24, 1], [0.44, 0.04], [0.56, 0.04], [0.76, 1]], { closed: false, snap: false });
-      const arms = [[0.04, 0.26, 0.96], [0.16, 0.5, 0.84]];
-      const armPaths = arms.map(([a, y, b]) => k.path([['M', a, y], ['H', b]]));
-      const brace = k.tier >= 3
-        ? [k.path([['M', xl(0.52), 0.52], ['L', xr(0.98), 0.98]], { snap: false }), k.path([['M', xr(0.52), 0.52], ['L', xl(0.98), 0.98]], { snap: false })]
-        : [];
-      const ins = k.tier >= 3 ? arms.flatMap(([a, y, b]) => [k.path([['M', a + 0.02, y], ['V', y + 0.08]]), k.path([['M', b - 0.02, y], ['V', y + 0.08]])]) : [];
-      // Solid: filled A-frame with a triangular opening, arms as strokes.
-      const body = k.poly([[0.24, 1], [0.44, 0.04], [0.56, 0.04], [0.76, 1]], { snap: false });
-      const g = k.grow * 1.6, top = 0.5 + (k.sw + 1.5) / k.L + g, bot = 1 - (k.sw + 1.5) / k.L;
-      const hole = k.tier >= 1 ? k.poly([[0.5, top], [xr(bot) - g * 1.6, bot], [xl(bot) + g * 1.6, bot]], { snap: false }) : '';
+      // Sector combines its industries' symbols: water (drop) + electricity (bolt). See data/research/utilities.json.
+      const drop = [['M', 0.5, 0], ['C', 0.62, 0.16, 0.88, 0.44, 0.88, 0.64], ['C', 0.88, 0.86, 0.71, 1, 0.5, 1],
+        ['C', 0.29, 1, 0.12, 0.86, 0.12, 0.64], ['C', 0.12, 0.44, 0.38, 0.16, 0.5, 0], ['Z']];
+      const bolt = [[0.55, 0.4], [0.37, 0.69], [0.5, 0.69], [0.45, 0.88], [0.63, 0.6], [0.5, 0.6]];
+      const zig = k.path([['M', 0.56, 0.42], ['L', 0.4, 0.67], ['H', 0.6], ['L', 0.44, 0.88]], { snap: false });
+      // Solid knockout: a bolt that reads at stroke weight, grown by half a stroke so the baked stroke leaves it intact.
+      const hole = k.offsetPoly(bolt, k.sw / 2 + k.sw * 0.45);
       return {
-        outline: [legs, ...armPaths, ...brace, ...ins],
-        solid: [{ d: body + hole, fill: true }, ...armPaths.map((d) => ({ d, fill: false })), ...ins.map((d) => ({ d, fill: false }))],
+        outline: [k.path(drop, { snap: false }), k.tier >= 2 ? k.poly(bolt, { snap: false }) : zig],
+        solid: [{ d: k.path(drop, { snap: false }) + hole, fill: true }],
       };
     },
   },

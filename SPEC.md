@@ -159,7 +159,8 @@ We follow Helena Zhang's *7 Principles of Icon Design* (uxdesign.cc). Each princ
 | **Ease of use** | Clear IDs and names, documented rules, previews at real sizes in light and dark. | `npm run all` |
 
 ### Metaphor rules
-- **Sector = infrastructure, industry = product.** Example: Utilities is a pylon; Electric Utilities a bolt, Water Utilities a drop, Gas Utilities a flame on a burner, Multi-Utilities drop + bolt.
+- **A sector uses the most recognised metaphor from research; where that is its industries' symbols, it combines them.** Example: Utilities is a drop with a bolt inside; Electric Utilities a bolt, Water Utilities a drop, Gas Utilities a flame on a burner.
+- **No two concepts at the same level may share a silhouette at 16px.** Checked in the preview before merge.
 - A child concept may reuse its parent's metaphor with a modifier, but never another branch's metaphor (Energy's flame ≠ Gas Utilities' burner flame).
 
 ### Metaphor research
