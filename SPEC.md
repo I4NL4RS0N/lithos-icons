@@ -145,35 +145,55 @@ flags/
 
 ## 6. Design system
 
-### Grid per size
-| Size | Live area | Default stroke | Allowed stroke | Corner radius | Detail budget |
-|---|---|---|---|---|---|
-| 16 | 14×14 (1px padding) | 1.25 | 1–1.5 | 1 | 1–2 shapes, no interior detail |
-| 20 | 18×18 | 1.5 | 1–1.75 | 1.5 | 2–3 shapes |
-| 24 | 20×20 (2px padding) | 1.5 | 1–2 | 2 | base master |
-| 32 | 28×28 | 2 | 1.25–2.5 | 2.5 | secondary detail allowed |
-| 48 | 42×42 | 2.5 | 1.5–3.5 | 3.5 | full detail |
+### Principles
+We follow Helena Zhang's *7 Principles of Icon Design* (uxdesign.cc). Each principle has a rule we can check.
 
-24px is the master. Other sizes are redrawn from it, not scaled.
+| Principle | Rule here | How it's checked |
+|---|---|---|
+| **Clarity** | Use familiar metaphors first (`data/metaphors.json`). Invent a new one only when no standard exists. | Metaphor review on new concepts |
+| **Readability** | Gaps between shapes ≥ stroke + 1.5px. No interior detail at 16. | Validator (gap rules in kit), 16px preview |
+| **Alignment** | Draw on keylines (circle, square, portrait, landscape) so shapes balance optically. Nudge by eye where needed. | Preview review |
+| **Brevity** | Only detail that helps recognition. No decorative lines, text or texture. | Reduction note per concept |
+| **Consistency** | One flat front-on perspective. Same stroke, radius, caps and joins across the set. | Validator + squint test (ink weight within band of median) |
+| **Personality** | Soft geometric: generous radius (0.14 of live area), round caps and joins, full forms. | Preview review |
+| **Ease of use** | Clear IDs and names, documented rules, previews at real sizes in light and dark. | `npm run all` |
+
+### Grid per size
+| Size | Padding | Default stroke | Allowed stroke | Tier |
+|---|---|---|---|---|
+| 16 | 1 | 1.25 | 1–1.75 | 0 — silhouette only |
+| 20 | 1 | 1.5 | 1–2 | 1 — one key detail |
+| 24 | 2 | 1.75 | 1.25–2.5 | 2 — master |
+| 32 | 2 | 2.25 | 1.5–3 | 3 |
+| 48 | 3 | 3 | 2–4 | 4 |
+
+Each size has its own geometry from the drawing kit (`scripts/lib/kit.mjs`); nothing is scaled. Coordinates snap to a 0.25px grid.
+
+### Keylines (fractions of live area)
+- Circle: full live area. Square: 0.08 inset. Portrait: 0.12 inset left/right. Landscape: 0.12 inset top/bottom.
+- Corner radius: 0.14.
 
 ### Construction
-- Round caps, round joins. Strokes centred. No hairlines below allowed min.
-- Keyline shapes: circle, square, portrait and landscape rectangles (Material-style keylines, adapted).
-- Coordinates snap to the pixel grid at each size (0.5 offsets for odd stroke widths).
-- Solid: filled primary shape with knocked-out detail, not a stroked outline filled in. Knockouts ≥ 1.5px at 24.
+- Round caps, round joins, centred strokes.
+- Outline: live strokes, `currentColor`, no fills.
+- Solid: filled shapes with deliberate knockouts; a baked stroke of the same colour keeps the footprint identical to outline. Knockouts are drawn one stroke wider so they read at the right size. (Pre-1.0: flatten baked strokes into fills.)
 - Colour: `currentColor` only. Flags are the only coloured assets.
 
 ### Detail reduction
-Each concept has a written reduction note: what drops at 20, what drops at 16. Example — `banks`: 48 has pediment, 4 columns, steps; 24 has pediment, 3 columns, base; 16 has pediment, 2 columns.
+Every concept records what drops at smaller sizes (`reduction` field). Example: `financials` has 2 columns at 16, 3 at 20+.
 
-### Metaphor dictionary
-`data/metaphors.json` — one canonical metaphor per idea (bank = columned building, insurance = umbrella, energy = bolt, oil & gas = drop, real estate = house, debt = document with percent). Agents reuse metaphors before inventing new ones; modifiers (badge, overlay) distinguish sub-concepts.
+### Light and dark mode
+- Icons inherit colour from text via `currentColor`, so they follow the theme automatically. No separate dark files.
+- Previews always render both themes (`previews/pilot.png`: light on top, dark below). Review both before merging.
+- Recommended tokens: light `#111111` on `#FFFFFF`; dark `#F2F2F2` on `#111214`. Muted icons must keep ≥ 3:1 contrast against their background (WCAG non-text contrast).
+- Solid icons in dark mode read heavier; the squint test runs per style so both stay balanced.
+- Flags: a 1px inner hairline at 12% opacity of `currentColor` keeps white-edged flags (Japan, Poland) visible in light mode and dark-edged ones visible in dark mode.
+- Map outlines and region maps use `currentColor` for land; region highlights use `currentColor` at full strength and non-members at 25% opacity, so they work in both themes.
 
 ### Adjustable stroke
-- Outline SVGs keep live strokes: `fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"`.
-- Consumers override via CSS: `.li-icon { stroke-width: var(--li-stroke); }`.
-- Components/MCP clamp to the size's allowed range.
-- Solid icons ignore stroke.
+- Outline SVGs keep live strokes; consumers override with `.li-outline { stroke-width: var(--li-stroke); }`.
+- Components and the MCP clamp to the size's allowed range.
+- Solid icons ignore stroke changes.
 
 ## 7. Build pipeline
 

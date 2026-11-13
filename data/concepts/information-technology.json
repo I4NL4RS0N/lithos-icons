@@ -2,7 +2,7 @@
   "id": "information-technology",
   "name": "Information Technology",
   "kind": "sector",
-  "metaphor": "monitor",
+  "metaphor": "laptop",
   "keywords": [
     "tech",
     "software",
@@ -12,7 +12,7 @@
     "computers",
     "electronics"
   ],
-  "reduction": "32+: content lines on screen.",
+  "reduction": "None — screen and base at all sizes.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

@@ -12,7 +12,7 @@
     "gold",
     "raw materials"
   ],
-  "reduction": "32+: bevel line on each ingot.",
+  "reduction": "Same three bars at all sizes; gaps scale with stroke.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

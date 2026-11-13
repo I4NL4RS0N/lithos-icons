@@ -6,15 +6,24 @@
 export const SIZES = [16, 20, 24, 32, 48];
 
 export const GRID = {
-  16: { pad: 1, stroke: 1.25, min: 1, max: 1.5, tier: 0 },
-  20: { pad: 1, stroke: 1.5, min: 1, max: 1.75, tier: 1 },
-  24: { pad: 2, stroke: 1.5, min: 1, max: 2, tier: 2 },
-  32: { pad: 2, stroke: 2, min: 1.25, max: 2.5, tier: 3 },
-  48: { pad: 3, stroke: 2.5, min: 1.5, max: 3.5, tier: 4 },
+  16: { pad: 1, stroke: 1.25, min: 1, max: 1.75, tier: 0 },
+  20: { pad: 1, stroke: 1.5, min: 1, max: 2, tier: 1 },
+  24: { pad: 2, stroke: 1.75, min: 1.25, max: 2.5, tier: 2 },
+  32: { pad: 2, stroke: 2.25, min: 1.5, max: 3, tier: 3 },
+  48: { pad: 3, stroke: 3, min: 2, max: 4, tier: 4 },
 };
 
 const r2 = (v) => +v.toFixed(2);
 const snap = (v) => Math.round(v * 4) / 4;
+
+// Keylines (normalized live area) so round, square and rectangular shapes carry equal optical weight.
+export const KEY = {
+  circle: [0, 0, 1, 1],
+  square: [0.08, 0.08, 0.92, 0.92],
+  portrait: [0.12, 0, 0.88, 1],
+  landscape: [0, 0.12, 1, 0.88],
+  radius: 0.14, // standard corner radius
+};
 
 export function kit(size, style) {
   const { pad, stroke: sw, tier } = GRID[size];

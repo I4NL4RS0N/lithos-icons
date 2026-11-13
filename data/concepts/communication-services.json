@@ -12,7 +12,7 @@
     "publishing",
     "broadcasting"
   ],
-  "reduction": "20+: text lines in bubble.",
+  "reduction": "None — single bubble at all sizes.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

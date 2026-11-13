@@ -13,7 +13,7 @@
       "petroleum",
       "power"
     ],
-    "reduction": "20+: inner flame. 16: outer flame only.",
+    "reduction": "24+: inner flame. 16–20: outer flame only.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -32,7 +32,7 @@
       "gold",
       "raw materials"
     ],
-    "reduction": "32+: bevel line on each ingot.",
+    "reduction": "Same three bars at all sizes; gaps scale with stroke.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -51,7 +51,7 @@
       "engineering",
       "transport"
     ],
-    "reduction": "Teeth: 6 at 16–20, 8 at 24–32, 10 at 48.",
+    "reduction": "6 broad teeth at 16–20, 8 at 24+.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -71,7 +71,7 @@
       "luxury",
       "e-commerce"
     ],
-    "reduction": "20+: handle dips into bag. 16: handle stops at rim.",
+    "reduction": "None — body and handle at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -90,7 +90,7 @@
       "personal care",
       "supermarkets"
     ],
-    "reduction": "Slats: 0 at 16, 2 at 20, 3 at 24+.",
+    "reduction": "24+: two slats. 48: three. 16–20: plain basket.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -109,7 +109,7 @@
       "medicine",
       "health"
     ],
-    "reduction": "Cross arms lengthen at 32+.",
+    "reduction": "None — kit, handle and cross at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -128,7 +128,7 @@
       "asset management",
       "payments"
     ],
-    "reduction": "Columns: 2 at 16, 3 at 20–24, 4 at 32+. 32+: step under columns.",
+    "reduction": "Columns: 2 at 16, 3 at 20+.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -137,7 +137,7 @@
     "id": "information-technology",
     "name": "Information Technology",
     "kind": "sector",
-    "metaphor": "monitor",
+    "metaphor": "laptop",
     "keywords": [
       "tech",
       "software",
@@ -147,7 +147,7 @@
       "computers",
       "electronics"
     ],
-    "reduction": "32+: content lines on screen.",
+    "reduction": "None — screen and base at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -166,7 +166,7 @@
       "publishing",
       "broadcasting"
     ],
-    "reduction": "20+: text lines in bubble.",
+    "reduction": "None — single bubble at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -203,7 +203,7 @@
       "commercial property",
       "homes"
     ],
-    "reduction": "20+: door. 32+: chimney.",
+    "reduction": "20+: door.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"

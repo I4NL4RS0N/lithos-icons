@@ -11,9 +11,10 @@
   "bank-building": ["financials", "banks"],
   "umbrella": ["insurance"],
   "document-percent": ["debt"],
-  "monitor": ["information-technology"],
+  "monitor": [],
   "chip": ["semiconductors"],
   "speech-bubble": ["communication-services"],
   "bolt": ["utilities", "electric-utilities"],
+  "laptop": ["information-technology"],
   "house": ["real-estate", "residential"]
 }

@@ -12,7 +12,7 @@
     "medicine",
     "health"
   ],
-  "reduction": "Cross arms lengthen at 32+.",
+  "reduction": "None — kit, handle and cross at all sizes.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

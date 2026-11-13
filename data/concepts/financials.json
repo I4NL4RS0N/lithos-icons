@@ -12,7 +12,7 @@
     "asset management",
     "payments"
   ],
-  "reduction": "Columns: 2 at 16, 3 at 20–24, 4 at 32+. 32+: step under columns.",
+  "reduction": "Columns: 2 at 16, 3 at 20+.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

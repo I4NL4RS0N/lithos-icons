@@ -12,7 +12,7 @@
     "petroleum",
     "power"
   ],
-  "reduction": "20+: inner flame. 16: outer flame only.",
+  "reduction": "24+: inner flame. 16–20: outer flame only.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

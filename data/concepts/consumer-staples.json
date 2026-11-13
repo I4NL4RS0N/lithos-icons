@@ -12,7 +12,7 @@
     "personal care",
     "supermarkets"
   ],
-  "reduction": "Slats: 0 at 16, 2 at 20, 3 at 24+.",
+  "reduction": "24+: two slats. 48: three. 16–20: plain basket.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

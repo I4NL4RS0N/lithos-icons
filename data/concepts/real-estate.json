@@ -11,7 +11,7 @@
     "commercial property",
     "homes"
   ],
-  "reduction": "20+: door. 32+: chimney.",
+  "reduction": "20+: door.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"
