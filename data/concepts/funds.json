@@ -1,0 +1,20 @@
+{
+  "id": "funds",
+  "name": "Funds",
+  "kind": "industry",
+  "parent": "financials",
+  "metaphor": "money-bag",
+  "keywords": [
+    "mutual funds",
+    "investment funds",
+    "ETFs",
+    "money market funds",
+    "trusts",
+    "closed-end funds",
+    "portfolio"
+  ],
+  "reduction": "16: no coin mark.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "food-beverage",
+  "name": "Food & Beverage",
+  "kind": "industry",
+  "parent": "consumer-staples",
+  "metaphor": "cup-straw",
+  "keywords": [
+    "food products",
+    "beverages",
+    "soft drinks",
+    "packaged foods",
+    "brewers",
+    "restaurants"
+  ],
+  "reduction": "24+: band on the cup.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

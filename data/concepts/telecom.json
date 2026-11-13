@@ -1,0 +1,20 @@
+{
+  "id": "telecom",
+  "name": "Telecom",
+  "kind": "industry",
+  "parent": "communication-services",
+  "metaphor": "handset",
+  "keywords": [
+    "telecommunications",
+    "wireless",
+    "carriers",
+    "telephone",
+    "mobile",
+    "broadband",
+    "networks"
+  ],
+  "reduction": "None — one handset silhouette at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

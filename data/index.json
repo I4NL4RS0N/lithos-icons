@@ -1029,6 +1029,161 @@
     "since": "0.1.0"
   },
   {
+    "id": "airlines",
+    "name": "Airlines",
+    "kind": "industry",
+    "parent": "transportation",
+    "metaphor": "plane-takeoff",
+    "keywords": [
+      "passenger airlines",
+      "air transport",
+      "aviation",
+      "carriers",
+      "flights",
+      "airports"
+    ],
+    "reduction": "16: no runway line.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "retail",
+    "name": "Retail",
+    "kind": "industry",
+    "parent": "consumer-discretionary",
+    "metaphor": "shopping-cart",
+    "keywords": [
+      "retailers",
+      "stores",
+      "shops",
+      "e-commerce",
+      "specialty retail",
+      "broadline retail",
+      "distribution"
+    ],
+    "reduction": "None — cart and two wheels at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "telecom",
+    "name": "Telecom",
+    "kind": "industry",
+    "parent": "communication-services",
+    "metaphor": "handset",
+    "keywords": [
+      "telecommunications",
+      "wireless",
+      "carriers",
+      "telephone",
+      "mobile",
+      "broadband",
+      "networks"
+    ],
+    "reduction": "None — one handset silhouette at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "food-beverage",
+    "name": "Food & Beverage",
+    "kind": "industry",
+    "parent": "consumer-staples",
+    "metaphor": "cup-straw",
+    "keywords": [
+      "food products",
+      "beverages",
+      "soft drinks",
+      "packaged foods",
+      "brewers",
+      "restaurants"
+    ],
+    "reduction": "24+: band on the cup.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "construction-materials",
+    "name": "Construction Materials",
+    "kind": "industry",
+    "parent": "materials",
+    "metaphor": "brick-wall",
+    "keywords": [
+      "building materials",
+      "cement",
+      "bricks",
+      "concrete",
+      "aggregates",
+      "building products"
+    ],
+    "reduction": "16–20: two courses. 24+: three courses.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "pipelines",
+    "name": "Pipelines",
+    "kind": "industry",
+    "parent": "energy",
+    "metaphor": "pipe-valve",
+    "keywords": [
+      "midstream",
+      "oil and gas storage",
+      "transportation",
+      "gas transmission",
+      "valves",
+      "infrastructure"
+    ],
+    "reduction": "None — pipe run, two flange collars and a valve at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "advertising",
+    "name": "Advertising",
+    "kind": "industry",
+    "parent": "communication-services",
+    "metaphor": "megaphone",
+    "keywords": [
+      "marketing",
+      "promotion",
+      "agencies",
+      "public relations",
+      "campaigns",
+      "market research"
+    ],
+    "reduction": "24+: sound mark.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "funds",
+    "name": "Funds",
+    "kind": "industry",
+    "parent": "financials",
+    "metaphor": "money-bag",
+    "keywords": [
+      "mutual funds",
+      "investment funds",
+      "ETFs",
+      "money market funds",
+      "trusts",
+      "closed-end funds",
+      "portfolio"
+    ],
+    "reduction": "16: no coin mark.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "energy",
     "name": "Energy",
     "kind": "sector",

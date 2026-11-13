@@ -1,0 +1,19 @@
+{
+  "id": "advertising",
+  "name": "Advertising",
+  "kind": "industry",
+  "parent": "communication-services",
+  "metaphor": "megaphone",
+  "keywords": [
+    "marketing",
+    "promotion",
+    "agencies",
+    "public relations",
+    "campaigns",
+    "market research"
+  ],
+  "reduction": "24+: sound mark.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

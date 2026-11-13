@@ -1,0 +1,811 @@
+{
+ "concept": "telecom",
+ "query": "telecommunications",
+ "fetched": "2026-11-13T21:21:44.284Z",
+ "topTerms": [
+  [
+   "telecommunications",
+   44
+  ],
+  [
+   "communication",
+   15
+  ],
+  [
+   "signal",
+   14
+  ],
+  [
+   "technology",
+   11
+  ],
+  [
+   "communications",
+   10
+  ],
+  [
+   "telephone",
+   9
+  ],
+  [
+   "network",
+   9
+  ],
+  [
+   "satellite",
+   9
+  ],
+  [
+   "internet",
+   8
+  ],
+  [
+   "wireless",
+   8
+  ],
+  [
+   "telecom",
+   7
+  ],
+  [
+   "signal-tower",
+   6
+  ],
+  [
+   "transmission",
+   6
+  ],
+  [
+   "antenna",
+   6
+  ],
+  [
+   "phone",
+   6
+  ],
+  [
+   "tower",
+   4
+  ],
+  [
+   "satelite",
+   4
+  ],
+  [
+   "engineering",
+   4
+  ],
+  [
+   "cable",
+   3
+  ],
+  [
+   "business",
+   2
+  ],
+  [
+   "data",
+   2
+  ],
+  [
+   "digital",
+   2
+  ],
+  [
+   "economy",
+   2
+  ],
+  [
+   "radio-tower",
+   2
+  ],
+  [
+   "wireless-internet",
+   2
+  ],
+  [
+   "frequency",
+   2
+  ],
+  [
+   "network-signal",
+   2
+  ],
+  [
+   "networking",
+   2
+  ],
+  [
+   "cosmic",
+   2
+  ],
+  [
+   "dish",
+   2
+  ],
+  [
+   "cellular",
+   2
+  ],
+  [
+   "radio",
+   2
+  ],
+  [
+   "connection",
+   2
+  ],
+  [
+   "architecture-and-city",
+   2
+  ],
+  [
+   "satellite-connect",
+   2
+  ],
+  [
+   "telecommunication",
+   2
+  ],
+  [
+   "broadcasting",
+   2
+  ],
+  [
+   "communication-tower",
+   2
+  ],
+  [
+   "transmission-tower",
+   2
+  ],
+  [
+   "telecommunication-engineering",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "telecommunications",
+     "tags": [
+      "business",
+      "data",
+      "digital",
+      "economy",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8385079-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "business",
+      "digital",
+      "economy",
+      "finance",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8385050-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communications",
+      "signal",
+      "signal-tower",
+      "telecommunications",
+      "telephone",
+      "transmission"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7300971-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communications",
+      "signal",
+      "signal-tower",
+      "telecommunications",
+      "telephone",
+      "transmission"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7300948-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communications",
+      "signal",
+      "signal-tower",
+      "technology",
+      "telecommunications",
+      "telephone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7213725-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communications",
+      "signal",
+      "signal-tower",
+      "technology",
+      "telecommunications",
+      "telephone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7213672-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "data",
+      "it",
+      "management",
+      "storage",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7133326-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "antenna",
+      "communications",
+      "radio-tower",
+      "signal-tower",
+      "telecommunications",
+      "wireless-internet"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7130764-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "antenna",
+      "communications",
+      "radio-tower",
+      "signal-tower",
+      "telecommunications",
+      "wireless-internet"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7130696-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "echnology",
+      "network",
+      "satellite",
+      "signal",
+      "telecommunications",
+      "tower"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6980147-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "network",
+      "satellite",
+      "signal",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6748376-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "cable",
+      "internet",
+      "phone",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6737735-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "cable",
+      "internet",
+      "phone",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6737725-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "cable",
+      "internet",
+      "phone",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6737715-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communications",
+      "frequency",
+      "network-signal",
+      "networking",
+      "signal",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6736407-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communications",
+      "frequency",
+      "network-signal",
+      "networking",
+      "signal",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6736345-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "cosmic",
+      "dish",
+      "satellite",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6633005-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "cellular",
+      "communication",
+      "cosmic",
+      "network",
+      "satellite",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6632936-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "antenna",
+      "communications",
+      "radio",
+      "satelite",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6526138-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "antenna",
+      "communications",
+      "radio",
+      "satelite",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6526099-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "internet",
+      "network",
+      "signal",
+      "telecommunications",
+      "tower",
+      "transmission"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6294044-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "internet",
+      "network",
+      "signal",
+      "telecommunications",
+      "tower",
+      "transmission"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6294023-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "connection",
+      "internet",
+      "satellite",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6281921-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "internet",
+      "satellite",
+      "signal",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6281769-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "architecture-and-city",
+      "satelite",
+      "satellite",
+      "satellite-connect",
+      "telecommunication",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6070524-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "architecture-and-city",
+      "satelite",
+      "satellite",
+      "satellite-connect",
+      "space-station",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5986263-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "broadcasting",
+      "communication",
+      "communication-tower",
+      "telecommunications",
+      "transmission",
+      "transmission-tower"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5920686-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "broadcasting",
+      "communication",
+      "communication-tower",
+      "telecommunications",
+      "transmission",
+      "transmission-tower"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5920570-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "internet",
+      "network",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5746540-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "engineering",
+      "telecommunication-engineering",
+      "telecommunications",
+      "telephone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5268774-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "engineering",
+      "telecommunication-engineering",
+      "telecommunications",
+      "telephone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5268693-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "connection",
+      "network",
+      "technology",
+      "telecommunications",
+      "tower"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5241260-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "communication",
+      "device",
+      "dish",
+      "technology",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5231538-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "cellular",
+      "internet-server",
+      "satellite",
+      "telecom",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4906429-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "5g",
+      "antenna",
+      "signal",
+      "telecommunications",
+      "wifi"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4407544-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "broadcast",
+      "communication",
+      "telecom",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3191260-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "broadcast",
+      "communication",
+      "telecom",
+      "telecommunications",
+      "wireless"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3189232-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "headset",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1645501-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications",
+     "tags": [
+      "call",
+      "incoming-call",
+      "outgoing-call",
+      "receiver",
+      "sea",
+      "telecommunication",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/527481-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Telecommunications Contractor",
+     "tags": [
+      "cabling",
+      "installation",
+      "network",
+      "signal",
+      "telecom",
+      "telecommunications-contractor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8323163-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Telecommunications Contractor",
+     "tags": [
+      "cabling",
+      "installation",
+      "network",
+      "signal",
+      "telecom",
+      "telecommunications-contractor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8281371-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications engineering",
+     "tags": [
+      "data-transmission",
+      "engineering",
+      "satellite-communication",
+      "signal-processing",
+      "telecommunications-engineering",
+      "wireless-communication"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7440565-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "telecommunications engineering",
+     "tags": [
+      "data-transmission",
+      "engineering",
+      "satellite-communication",
+      "signal-processing",
+      "telecommunications-engineering",
+      "wireless-communication"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7440545-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Emergency Telecommunications",
+     "tags": [
+      "antenna",
+      "emergency-telecommunications",
+      "wifi"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2017759-84.png",
+     "licence": "public-domain"
+    },
+    {
+     "title": "Telecommunications Student",
+     "tags": [
+      "communication",
+      "science",
+      "space",
+      "telecommunications-student",
+      "undergraduate"
+     ],
+     "thumb": "https://static.thenounproject.com/png/1248186-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Emergency Telecommunications",
+     "tags": [
+      "cell-phone",
+      "cluster",
+      "emergency",
+      "emergency-telecommunications",
+      "humanitarian",
+      "mobile-phone",
+      "talking",
+      "telecommunications",
+      "telephone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4213-84.png",
+     "licence": "public-domain"
+    },
+    {
+     "title": "Telephone",
+     "tags": [
+      "phone",
+      "rotary",
+      "telecommunications",
+      "telephone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4393663-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Telephone",
+     "tags": [
+      "phone",
+      "rotary",
+      "telecommunications",
+      "telephone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4393662-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Call Transfer",
+     "tags": [
+      "call-transfer",
+      "phone",
+      "redirect",
+      "telecom",
+      "telecommunications"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8210438-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "gains",
+     "tags": [
+      "audio",
+      "gains",
+      "telecom",
+      "telecommunications",
+      "volume"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8210436-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "handset",
+  "rationale": "Signal towers and antennas lead but the antenna is communication services; the telephone handset is the next most common.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

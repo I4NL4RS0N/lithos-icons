@@ -1,0 +1,813 @@
+{
+ "concept": "pipelines",
+ "query": "pipeline",
+ "fetched": "2026-11-13T21:21:46.093Z",
+ "topTerms": [
+  [
+   "pipeline",
+   50
+  ],
+  [
+   "gas",
+   21
+  ],
+  [
+   "pipe",
+   16
+  ],
+  [
+   "plumbing",
+   14
+  ],
+  [
+   "oil",
+   12
+  ],
+  [
+   "transport",
+   12
+  ],
+  [
+   "water",
+   10
+  ],
+  [
+   "workflow",
+   8
+  ],
+  [
+   "valve",
+   8
+  ],
+  [
+   "industrial",
+   7
+  ],
+  [
+   "automation",
+   6
+  ],
+  [
+   "flow",
+   6
+  ],
+  [
+   "energy",
+   5
+  ],
+  [
+   "infrastructure",
+   5
+  ],
+  [
+   "connection",
+   5
+  ],
+  [
+   "deployment",
+   4
+  ],
+  [
+   "process",
+   4
+  ],
+  [
+   "distribution",
+   4
+  ],
+  [
+   "ecology",
+   4
+  ],
+  [
+   "industry",
+   3
+  ],
+  [
+   "construction",
+   3
+  ],
+  [
+   "liquid",
+   2
+  ],
+  [
+   "transportation",
+   2
+  ],
+  [
+   "delivery",
+   2
+  ],
+  [
+   "software",
+   2
+  ],
+  [
+   "ai",
+   2
+  ],
+  [
+   "data",
+   2
+  ],
+  [
+   "conversion",
+   2
+  ],
+  [
+   "deal",
+   2
+  ],
+  [
+   "stage",
+   2
+  ],
+  [
+   "data-flow",
+   2
+  ],
+  [
+   "data-transfer",
+   2
+  ],
+  [
+   "pipe-installation",
+   2
+  ],
+  [
+   "integration",
+   2
+  ],
+  [
+   "environment",
+   2
+  ],
+  [
+   "faucet",
+   2
+  ],
+  [
+   "fossil-fuel",
+   2
+  ],
+  [
+   "gasoline",
+   2
+  ],
+  [
+   "oil-industry",
+   2
+  ],
+  [
+   "underground",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "pipeline",
+     "tags": [
+      "energy",
+      "gas",
+      "infrastructure",
+      "oil",
+      "pipeline"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6912649-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "line",
+      "liquid",
+      "pipe",
+      "pipeline",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8510483-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "automation",
+      "delivery",
+      "deployment",
+      "pipeline",
+      "software",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8495709-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "automation",
+      "delivery",
+      "deployment",
+      "pipeline",
+      "software",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8495684-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "conduit",
+      "duct",
+      "fitting",
+      "pipeline",
+      "pipeline",
+      "valve"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8495364-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "crisis",
+      "disruption",
+      "energy",
+      "pipeline",
+      "pipeline",
+      "warning"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8490035-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "ai",
+      "automation",
+      "data",
+      "pipeline",
+      "process",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8486077-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "ai",
+      "automation",
+      "data",
+      "pipeline",
+      "process",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8486052-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "build-pipeline",
+      "ci-pipeline",
+      "data-pipeline",
+      "delivery-pipeline",
+      "deployment-pipeline",
+      "pipeline"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8465430-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "industrial",
+      "oil",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8443299-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "industrial",
+      "oil",
+      "pipeline",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8443193-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "conversion",
+      "deal",
+      "flow",
+      "pipeline",
+      "process",
+      "stage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8384781-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "conversion",
+      "deal",
+      "flow",
+      "pipeline",
+      "process",
+      "stage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8384760-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "data-flow",
+      "data-transfer",
+      "pipe",
+      "pipeline",
+      "stages",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8380052-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "data-flow",
+      "data-transfer",
+      "infrastructure",
+      "pipe",
+      "pipeline",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8379983-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "distribution",
+      "gas",
+      "infrastructure",
+      "oil",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8339512-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "distribution",
+      "gas",
+      "infrastructure",
+      "oil",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8339504-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "pipe",
+      "pipe-installation",
+      "pipeline",
+      "plumbing",
+      "valve"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8256703-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "automation",
+      "deployment",
+      "integration",
+      "pipeline",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8239854-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "ecology",
+      "environment",
+      "industry",
+      "pipeline",
+      "pollution"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8234619-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "automation",
+      "deployment",
+      "integration",
+      "pipeline",
+      "workflow"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8203835-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "construction",
+      "oil",
+      "pipe",
+      "pipeline",
+      "plumbing",
+      "valve"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8199675-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "construction",
+      "oil",
+      "pipe",
+      "pipeline",
+      "plumbing",
+      "valve"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8199662-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "faucet",
+      "industry-valve",
+      "pipeline",
+      "pipeline",
+      "plumbing",
+      "spigot"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8151746-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "connection",
+      "flow",
+      "gas",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8146475-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "connection",
+      "flow",
+      "gas",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8137124-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "ecology",
+      "energy",
+      "fossil-fuel",
+      "gasoline",
+      "oil-industry",
+      "pipeline"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8136532-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "ecology",
+      "energy",
+      "fossil-fuel",
+      "gasoline",
+      "oil-industry",
+      "pipeline"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8136521-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "connection",
+      "gas",
+      "industrial",
+      "oil",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8136020-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "distribution",
+      "gas",
+      "oil",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8105248-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "distribution",
+      "gas",
+      "oil",
+      "pipeline",
+      "transport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8105227-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "faucet",
+      "pipeline",
+      "purification",
+      "reservoir",
+      "water-supply"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8091226-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "ecology",
+      "energy",
+      "environment",
+      "pipeline",
+      "power"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8007932-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "oil-pipeline",
+      "pipe",
+      "pipeline",
+      "plumbing",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7973970-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "oil",
+      "pipeline",
+      "transport",
+      "tube",
+      "underground"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7958184-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "gauge",
+      "industrial",
+      "industry",
+      "pipe",
+      "pipeline"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7878780-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "gauge",
+      "industrial",
+      "industry",
+      "pipe",
+      "pipeline"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7878765-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "engineering",
+      "industrial",
+      "infrastructure",
+      "pipeline",
+      "system",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7877218-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "connection",
+      "gas",
+      "industrial",
+      "pipeline",
+      "transport",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7844968-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "flow",
+      "gas",
+      "oil",
+      "pipeline",
+      "transport",
+      "underground"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7827110-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "pipe",
+      "pipe-installation",
+      "pipeline",
+      "plumbing",
+      "water-meter"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7815154-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "connection",
+      "flow",
+      "liquid",
+      "pipe",
+      "pipeline",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7805135-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "home",
+      "pipeline",
+      "plumbing",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7783795-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "home",
+      "pipeline",
+      "plumbing",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7783781-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "bathroom",
+      "pipe",
+      "pipeline",
+      "plumbing",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7753128-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "bathroom",
+      "pipe",
+      "pipeline",
+      "plumbing",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7753115-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "pipe",
+      "pipeline",
+      "plumber",
+      "plumbing",
+      "valve"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7744113-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "pipe",
+      "pipeline",
+      "plumbing",
+      "valve",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7736178-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "gas",
+      "pipe",
+      "pipeline",
+      "plumbing",
+      "valve",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7736165-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "pipeline",
+     "tags": [
+      "construction",
+      "gas",
+      "pipeline",
+      "plumbing",
+      "valve",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7702715-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "pipe-valve",
+  "rationale": "Pipe and valve lead.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

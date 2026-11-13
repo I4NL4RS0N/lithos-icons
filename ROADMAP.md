@@ -26,7 +26,7 @@ Renewable energy, marine shipping, rail, capital markets, asset management, cons
 - **Infrastructure & project finance:** power projects, social infrastructure, PPP
 
 ## Depth rule
-Top two levels of each standard always get an icon; deeper only for visibly distinct children (SPEC §9). Batch 2 (done): forestry, fishing, livestock, crops, apparel, furniture, publishing, waste management, postal & courier, legal services, electrical equipment, lodging. Next: airlines, retail, telecom, food & beverage, construction materials, pipelines, advertising, funds.
+Top two levels of each standard always get an icon; deeper only for visibly distinct children (SPEC §9). Batch 2 (done): forestry, fishing, livestock, crops, apparel, furniture, publishing, waste management, postal & courier, legal services, electrical equipment, lodging. Batch 3 (done): airlines, retail, telecom, food & beverage, construction materials, pipelines, advertising, funds. Next: textiles vs apparel split, metals fabrication, plastics & rubber, printing, warehousing, scientific R&D, security & defence, social services.
 
 ## Fixes
 Done: wrench, pickaxe, wind turbine, municipal dome at 16–20px, government pennant, financials (staggered coin stack), software solid.

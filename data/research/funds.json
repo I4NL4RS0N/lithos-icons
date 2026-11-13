@@ -1,0 +1,823 @@
+{
+ "concept": "funds",
+ "query": "mutual fund",
+ "fetched": "2026-11-13T21:21:47.198Z",
+ "topTerms": [
+  [
+   "mutual fund",
+   50
+  ],
+  [
+   "mutual-fund",
+   50
+  ],
+  [
+   "investment",
+   40
+  ],
+  [
+   "fund",
+   20
+  ],
+  [
+   "finance",
+   18
+  ],
+  [
+   "money",
+   13
+  ],
+  [
+   "portfolio",
+   10
+  ],
+  [
+   "growth",
+   10
+  ],
+  [
+   "investor",
+   9
+  ],
+  [
+   "money-bag",
+   8
+  ],
+  [
+   "diversification",
+   5
+  ],
+  [
+   "returns",
+   5
+  ],
+  [
+   "teamwork",
+   5
+  ],
+  [
+   "team",
+   5
+  ],
+  [
+   "market",
+   4
+  ],
+  [
+   "mutual",
+   4
+  ],
+  [
+   "business",
+   4
+  ],
+  [
+   "crowdfunding",
+   4
+  ],
+  [
+   "investors",
+   4
+  ],
+  [
+   "income",
+   3
+  ],
+  [
+   "management",
+   3
+  ],
+  [
+   "profit",
+   3
+  ],
+  [
+   "affordable",
+   3
+  ],
+  [
+   "capital",
+   3
+  ],
+  [
+   "investing",
+   3
+  ],
+  [
+   "funding",
+   3
+  ],
+  [
+   "financial",
+   3
+  ],
+  [
+   "salary",
+   3
+  ],
+  [
+   "assets",
+   2
+  ],
+  [
+   "risk",
+   2
+  ],
+  [
+   "pooling",
+   2
+  ],
+  [
+   "user",
+   2
+  ],
+  [
+   "connected",
+   2
+  ],
+  [
+   "plant",
+   2
+  ],
+  [
+   "collective",
+   2
+  ],
+  [
+   "cash",
+   2
+  ],
+  [
+   "business-capital",
+   2
+  ],
+  [
+   "loan",
+   2
+  ],
+  [
+   "venture",
+   2
+  ],
+  [
+   "coin",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "income",
+      "management",
+      "mutual-fund",
+      "portfolio",
+      "profit"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8513624-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "growth",
+      "money",
+      "money-bag",
+      "mutual-fund",
+      "nature",
+      "profit"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8511023-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "assets",
+      "diversification",
+      "finance",
+      "investment",
+      "mutual-fund",
+      "portfolio"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8445204-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "assets",
+      "diversification",
+      "finance",
+      "investment",
+      "mutual-fund",
+      "portfolio"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8445178-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "fund",
+      "investment",
+      "market",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8432590-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "fund",
+      "investment",
+      "market",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8432589-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "growth",
+      "management",
+      "market",
+      "mutual-fund",
+      "risk"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8426711-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "growth",
+      "management",
+      "market",
+      "mutual-fund",
+      "risk"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8316720-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "basket",
+      "fund",
+      "group",
+      "investment",
+      "mutual-fund",
+      "share"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8314270-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "investment",
+      "mutual",
+      "mutual-fund",
+      "portfolio",
+      "returns"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8190774-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "investment",
+      "mutual",
+      "mutual-fund",
+      "portfolio",
+      "returns"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8190769-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8039013-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "affordable",
+      "capital",
+      "investment",
+      "investor",
+      "mutual-fund",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7946771-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "diversification",
+      "investment",
+      "mutual-fund",
+      "pooling",
+      "returns",
+      "user"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7940457-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "diversification",
+      "investment",
+      "mutual-fund",
+      "pooling",
+      "returns",
+      "user"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7940407-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "diversification",
+      "equity",
+      "investment",
+      "mutual-fund",
+      "portfolio",
+      "securities"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7929747-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "affordable",
+      "capital",
+      "investment",
+      "investor",
+      "mutual-fund",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7927566-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "affordable",
+      "capital",
+      "investment",
+      "investor",
+      "mutual-fund",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7927526-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "asset-management",
+      "finance",
+      "investing",
+      "investment",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7887829-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "connected",
+      "investing",
+      "investor",
+      "money",
+      "mutual-fund",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7872154-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "connected",
+      "investing",
+      "investor",
+      "money",
+      "mutual-fund",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7872063-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "business",
+      "finance",
+      "growth",
+      "investment",
+      "mutual-fund",
+      "plant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7855060-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "business",
+      "finance",
+      "growth",
+      "investment",
+      "mutual-fund",
+      "plant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7855010-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "diversity",
+      "finance",
+      "investment",
+      "mutual-fund",
+      "portfolio",
+      "returns"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7816917-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "collective",
+      "crowdfunding",
+      "funding",
+      "investment",
+      "investors",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7784332-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "collective",
+      "crowdfunding",
+      "funding",
+      "investment",
+      "investors",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7784315-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "cash",
+      "finance",
+      "fund",
+      "investment",
+      "money",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7748702-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "cash",
+      "finance",
+      "fund",
+      "investment",
+      "mutual",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7748674-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "growth",
+      "money-profit",
+      "money-up",
+      "mutual-fund",
+      "profit"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7737187-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "business",
+      "business-capital",
+      "fund",
+      "investment",
+      "loan",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7718875-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "business",
+      "business-capital",
+      "fund",
+      "investment",
+      "loan",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7718846-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "investment",
+      "money",
+      "mutual-fund",
+      "portfolio"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7711476-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "financial",
+      "fund",
+      "investment",
+      "money-bag",
+      "mutual-fund",
+      "salary"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7707685-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "growth",
+      "money",
+      "money-bag",
+      "mutual-fund",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7676997-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "growth",
+      "money",
+      "money-bag",
+      "mutual-fund",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7676963-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "crowdfunding",
+      "fund",
+      "investment",
+      "investor",
+      "mutual-fund",
+      "team"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7616473-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "crowdfunding",
+      "fund",
+      "investment",
+      "investor",
+      "mutual-fund",
+      "team"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7616443-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "investment",
+      "investor",
+      "mutual-fund",
+      "team",
+      "venture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7610366-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "investment",
+      "investor",
+      "mutual-fund",
+      "team",
+      "venture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7610309-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "coin",
+      "finance",
+      "investment",
+      "money",
+      "money-bag",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7448023-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "coin",
+      "finance",
+      "investment",
+      "money",
+      "money-bag",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7448000-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "fund",
+      "investment",
+      "mutual",
+      "mutual-fund",
+      "portfolio"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7370458-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "dollar",
+      "investment",
+      "investors",
+      "money",
+      "mutual-fund",
+      "team"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7368575-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "business-and-finance",
+      "data-analytics",
+      "growth",
+      "investment",
+      "line-bars",
+      "mutual-fund"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7351593-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "finance",
+      "growth",
+      "investment",
+      "money",
+      "mutual-fund",
+      "portfolio"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7324741-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "dollar",
+      "funding",
+      "investment",
+      "investors",
+      "mutual-fund",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7277967-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "investment",
+      "money",
+      "mutual-fund",
+      "selling",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7275791-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "fund",
+      "investment",
+      "money",
+      "mutual-fund",
+      "selling",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7275762-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "financial",
+      "income",
+      "investment",
+      "money-bag",
+      "mutual-fund",
+      "salary"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7248446-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Mutual Fund",
+     "tags": [
+      "financial",
+      "income",
+      "investment",
+      "money-bag",
+      "mutual-fund",
+      "salary"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7248363-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "money-bag",
+  "rationale": "Money bag is the most common concrete object; pie chart (portfolio) is already asset management.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

@@ -1,0 +1,805 @@
+{
+ "concept": "advertising",
+ "query": "advertising",
+ "fetched": "2026-11-13T21:21:46.655Z",
+ "topTerms": [
+  [
+   "advertising",
+   49
+  ],
+  [
+   "marketing",
+   27
+  ],
+  [
+   "promotion",
+   26
+  ],
+  [
+   "advertisement",
+   17
+  ],
+  [
+   "campaign",
+   14
+  ],
+  [
+   "ads",
+   10
+  ],
+  [
+   "announcement",
+   9
+  ],
+  [
+   "megaphone",
+   8
+  ],
+  [
+   "digital",
+   8
+  ],
+  [
+   "online",
+   7
+  ],
+  [
+   "media",
+   5
+  ],
+  [
+   "seo",
+   4
+  ],
+  [
+   "broadcast",
+   4
+  ],
+  [
+   "exposure",
+   4
+  ],
+  [
+   "social-media",
+   3
+  ],
+  [
+   "speaker",
+   3
+  ],
+  [
+   "website",
+   3
+  ],
+  [
+   "promote",
+   3
+  ],
+  [
+   "video",
+   3
+  ],
+  [
+   "outreach",
+   3
+  ],
+  [
+   "digital-marketing",
+   2
+  ],
+  [
+   "bullhorn",
+   2
+  ],
+  [
+   "loud-speaker",
+   2
+  ],
+  [
+   "image",
+   2
+  ],
+  [
+   "multimedia",
+   2
+  ],
+  [
+   "commercial",
+   2
+  ],
+  [
+   "optimization",
+   2
+  ],
+  [
+   "search",
+   2
+  ],
+  [
+   "publicity",
+   2
+  ],
+  [
+   "messaging",
+   2
+  ],
+  [
+   "monitor",
+   1
+  ],
+  [
+   "job-vacancy",
+   1
+  ],
+  [
+   "recruitment",
+   1
+  ],
+  [
+   "audio",
+   1
+  ],
+  [
+   "web",
+   1
+  ],
+  [
+   "no advertising",
+   1
+  ],
+  [
+   "no-advertising",
+   1
+  ],
+  [
+   "analysis",
+   1
+  ],
+  [
+   "avatar",
+   1
+  ],
+  [
+   "branding",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "advertising",
+      "digital-marketing",
+      "marketing",
+      "monitor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8500878-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "announcement",
+      "campaign",
+      "promotion",
+      "social-media"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8498706-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "campaign",
+      "marketing",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8497096-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "campaign",
+      "job-vacancy",
+      "marketing",
+      "recruitment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8486974-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "advertising",
+      "audio",
+      "bullhorn",
+      "loud-speaker",
+      "speaker"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8484521-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertising",
+      "advertising",
+      "seo",
+      "web"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8482685-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertisement",
+      "advertising",
+      "announcement",
+      "marketing",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8466963-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "announcement",
+      "campaign",
+      "marketing",
+      "megaphone",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8462038-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "No Advertising",
+     "tags": [
+      "no-advertising"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8456886-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "advertising",
+      "campaign",
+      "marketing",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8455127-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "analysis",
+      "marketing",
+      "seo",
+      "website"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8447317-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "avatar",
+      "marketing",
+      "megaphone",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8447283-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "branding",
+      "building",
+      "campaign",
+      "marketing",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8442186-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "campaign",
+      "digital",
+      "marketing",
+      "online"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8424843-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "campaign",
+      "digital",
+      "marketing",
+      "online"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8424823-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "marketing",
+      "online",
+      "promotion",
+      "website"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8410535-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "announcement",
+      "marketing",
+      "megaphone",
+      "press",
+      "promote"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405975-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "digital",
+      "image",
+      "multimedia",
+      "promotion",
+      "video"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8402149-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "digital",
+      "image",
+      "multimedia",
+      "promotion",
+      "video"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8402126-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "commercial",
+      "copy",
+      "flyer",
+      "promotion",
+      "sponsor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8391084-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "digital",
+      "online",
+      "optimization",
+      "search",
+      "seo"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8367287-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "digital",
+      "online",
+      "optimization",
+      "search",
+      "seo"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8367269-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "campaign",
+      "marketing",
+      "media",
+      "promotion",
+      "target"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8366754-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "marketing",
+      "megaphone",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8357673-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "digital-marketing",
+      "laptop",
+      "online-marketing",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8350644-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "broadcast",
+      "exposure",
+      "marketing",
+      "outreach",
+      "publicity"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8338304-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "announcement",
+      "marketing",
+      "megaphone",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8325370-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertising",
+      "commercial",
+      "megaphone",
+      "promotion",
+      "speaker"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8322011-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertising",
+      "marketing",
+      "online",
+      "promotion",
+      "social-media"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8319115-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertising",
+      "marketing",
+      "online",
+      "promotion",
+      "social-media"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8319084-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "digital",
+      "marketing",
+      "promotion",
+      "video"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8318593-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "broadcast",
+      "exposure",
+      "marketing",
+      "outreach",
+      "publicity"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8290441-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "conversion",
+      "engagement",
+      "outreach",
+      "sponsorship",
+      "targeting"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8289888-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "bullhorn",
+      "customer",
+      "promotion",
+      "sales"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8282510-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "professions",
+      "promote",
+      "public-relations",
+      "social-media-marketing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8282492-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertisement",
+      "advertising",
+      "megaphone",
+      "promo",
+      "promotion",
+      "speaker"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8281963-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "brand",
+      "campaign",
+      "market",
+      "media"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8280050-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "audit",
+      "business",
+      "corporate",
+      "finance",
+      "review"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8276224-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "broadcast",
+      "exposure",
+      "media",
+      "messaging",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8263758-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "announcement",
+      "campaign",
+      "marketing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8250402-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "announcement",
+      "campaign",
+      "marketing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8250392-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "announcement",
+      "loud-speaker",
+      "marketing",
+      "megaphone",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8249799-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertising",
+      "app",
+      "campaign",
+      "marketing",
+      "mobile"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8245101-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "campaign",
+      "digital",
+      "media",
+      "promotion",
+      "strategy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8229605-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertising",
+      "broadcast",
+      "exposure",
+      "media",
+      "messaging",
+      "promotion"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8224768-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertisement",
+      "advertising",
+      "advertising"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8215918-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertisement",
+      "advertising"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8215841-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertisement",
+      "advertising"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8215840-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "ads",
+      "advertisement",
+      "advertising",
+      "marketing",
+      "promotion",
+      "website"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8212930-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "advertising",
+     "tags": [
+      "advertise",
+      "advertisement",
+      "advertising",
+      "announcement",
+      "marketing",
+      "promote"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8210379-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "megaphone",
+  "rationale": "Megaphone is the most common concrete object in the refs.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

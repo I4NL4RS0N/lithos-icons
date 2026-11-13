@@ -1,0 +1,788 @@
+{
+ "concept": "airlines",
+ "query": "airline",
+ "fetched": "2026-11-13T21:21:42.998Z",
+ "topTerms": [
+  [
+   "airline",
+   43
+  ],
+  [
+   "airplane",
+   24
+  ],
+  [
+   "flight",
+   24
+  ],
+  [
+   "travel",
+   19
+  ],
+  [
+   "plane",
+   18
+  ],
+  [
+   "aircraft",
+   10
+  ],
+  [
+   "aviation",
+   8
+  ],
+  [
+   "airlines",
+   7
+  ],
+  [
+   "booking",
+   6
+  ],
+  [
+   "transportation",
+   6
+  ],
+  [
+   "airport",
+   6
+  ],
+  [
+   "international",
+   5
+  ],
+  [
+   "journey",
+   5
+  ],
+  [
+   "airway",
+   4
+  ],
+  [
+   "carrier",
+   3
+  ],
+  [
+   "jet",
+   3
+  ],
+  [
+   "world",
+   3
+  ],
+  [
+   "fly",
+   3
+  ],
+  [
+   "skyway",
+   3
+  ],
+  [
+   "service",
+   2
+  ],
+  [
+   "ticketing",
+   2
+  ],
+  [
+   "aeroplane",
+   2
+  ],
+  [
+   "summer",
+   2
+  ],
+  [
+   "tourism",
+   2
+  ],
+  [
+   "vacation",
+   2
+  ],
+  [
+   "basic",
+   2
+  ],
+  [
+   "essential",
+   2
+  ],
+  [
+   "air-plane",
+   2
+  ],
+  [
+   "global",
+   2
+  ],
+  [
+   "trip",
+   2
+  ],
+  [
+   "airliner",
+   2
+  ],
+  [
+   "business",
+   2
+  ],
+  [
+   "customer",
+   2
+  ],
+  [
+   "tickets",
+   2
+  ],
+  [
+   "commercial",
+   2
+  ],
+  [
+   "ticket",
+   2
+  ],
+  [
+   "airbus",
+   2
+  ],
+  [
+   "boeing",
+   2
+  ],
+  [
+   "board",
+   1
+  ],
+  [
+   "book",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "booking",
+      "carrier",
+      "service",
+      "ticketing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8397597-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "booking",
+      "carrier",
+      "service",
+      "ticketing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8397586-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "board",
+      "book",
+      "checkin",
+      "track"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8271726-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aeroplane",
+      "airline",
+      "airplane",
+      "flight",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8116184-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "aviation",
+      "carrier",
+      "company",
+      "flight",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8039882-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "summer",
+      "tourism",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7020343-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "holiday",
+      "summer",
+      "tourism",
+      "travel",
+      "vacation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7020337-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "flight",
+      "jet",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6732331-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "flight",
+      "jet",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6732293-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airlines",
+     "tags": [
+      "airlines",
+      "basic",
+      "essential",
+      "flight",
+      "plane",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6712490-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airlines",
+     "tags": [
+      "airlines",
+      "basic",
+      "essential",
+      "flight",
+      "plane",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6712441-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aero-plane",
+      "airline",
+      "tour",
+      "transportation",
+      "travel",
+      "world"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6663821-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6341925-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airlines",
+     "tags": [
+      "air-plane",
+      "airlines",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5855213-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airlines",
+     "tags": [
+      "air-plane",
+      "airlines",
+      "long-flight"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5855197-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airlines",
+     "tags": [
+      "airlines",
+      "destination",
+      "route",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5855187-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "flight",
+      "fly",
+      "plane",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5711627-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "flight",
+      "global",
+      "international",
+      "world"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5662130-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "flight",
+      "global",
+      "international",
+      "world"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5662113-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "airport",
+      "aviation",
+      "plane",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5542775-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "airport",
+      "aviation",
+      "plane",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5542672-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airlines",
+     "tags": [
+      "aeroplane",
+      "aircraft",
+      "airlines",
+      "airplane",
+      "airport"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5428326-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "delivery",
+      "shipping",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5341624-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "airport",
+      "aviation",
+      "plane",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5299233-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "airport",
+      "aviation",
+      "plane",
+      "transportation"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5298759-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "aviation",
+      "flight"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5047708-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "aviation",
+      "flight"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5043042-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "aviation",
+      "flight"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5041774-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5009982-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "air",
+      "airline",
+      "flying",
+      "online",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5009947-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airlines",
+     "tags": [
+      "airlines",
+      "airway",
+      "cargo",
+      "skyway",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4573228-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "booking",
+      "flight",
+      "travel",
+      "trip"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4369058-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "booking",
+      "flight",
+      "travel",
+      "trip"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4368254-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "flight",
+      "international",
+      "journey",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4284222-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "flight",
+      "international",
+      "journey",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4282955-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "flight",
+      "international",
+      "journey",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4282916-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airliner",
+      "airplane",
+      "airway",
+      "jet",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3885686-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "business",
+      "customer",
+      "fly",
+      "tickets",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3864137-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "business",
+      "customer",
+      "fly",
+      "tickets",
+      "travel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3863879-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "air-highway",
+      "airline",
+      "airway",
+      "journey",
+      "skyway"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3858526-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airliner",
+      "airway",
+      "journey",
+      "skyway"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3858511-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "booking",
+      "commercial",
+      "flight",
+      "ticket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3640753-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "booking",
+      "commercial",
+      "flight",
+      "ticket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3633522-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3439522-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airline",
+      "airplane",
+      "airport",
+      "flight",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3406551-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "flight",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3406546-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "flight",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3406448-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airbus",
+      "airline",
+      "airplane",
+      "flight",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3406440-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "aircraft",
+      "airline",
+      "airplane",
+      "boeing",
+      "flight"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3406431-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "airline",
+     "tags": [
+      "airbus",
+      "aircraft",
+      "airline",
+      "boeing",
+      "plane"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3406428-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "plane-takeoff",
+  "rationale": "Refs are planes; a side-on take-off over a runway keeps it apart from the top-view plane used for aerospace & defense.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

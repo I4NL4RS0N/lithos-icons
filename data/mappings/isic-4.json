@@ -1,6 +1,6 @@
 {
- "10": "consumer-staples",
- "11": "consumer-staples",
+ "10": "food-beverage",
+ "11": "food-beverage",
  "12": "consumer-staples",
  "13": "apparel",
  "14": "apparel",
@@ -50,5 +50,12 @@
  "013": "crops",
  "014": "livestock",
  "02": "forestry",
- "03": "fishing"
+ "03": "fishing",
+ "51": "airlines",
+ "47": "retail",
+ "61": "telecom",
+ "23": "construction-materials",
+ "493": "pipelines",
+ "731": "advertising",
+ "643": "funds"
 }

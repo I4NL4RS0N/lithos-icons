@@ -1,0 +1,20 @@
+{
+  "id": "retail",
+  "name": "Retail",
+  "kind": "industry",
+  "parent": "consumer-discretionary",
+  "metaphor": "shopping-cart",
+  "keywords": [
+    "retailers",
+    "stores",
+    "shops",
+    "e-commerce",
+    "specialty retail",
+    "broadline retail",
+    "distribution"
+  ],
+  "reduction": "None — cart and two wheels at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

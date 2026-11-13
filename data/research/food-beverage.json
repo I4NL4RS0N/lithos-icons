@@ -1,0 +1,819 @@
+{
+ "concept": "food-beverage",
+ "query": "food and beverage",
+ "fetched": "2026-11-13T21:21:44.963Z",
+ "topTerms": [
+  [
+   "food-and-beverage",
+   37
+  ],
+  [
+   "food and beverage",
+   36
+  ],
+  [
+   "food",
+   33
+  ],
+  [
+   "drink",
+   30
+  ],
+  [
+   "beverage",
+   28
+  ],
+  [
+   "fast-food",
+   19
+  ],
+  [
+   "soft-drink",
+   11
+  ],
+  [
+   "food and beverages",
+   9
+  ],
+  [
+   "food-and-beverages",
+   9
+  ],
+  [
+   "restaurant",
+   7
+  ],
+  [
+   "burger",
+   7
+  ],
+  [
+   "coffee",
+   6
+  ],
+  [
+   "beverages",
+   6
+  ],
+  [
+   "food-beverage",
+   5
+  ],
+  [
+   "cup",
+   4
+  ],
+  [
+   "meal",
+   4
+  ],
+  [
+   "ecommerce",
+   4
+  ],
+  [
+   "food beverage",
+   3
+  ],
+  [
+   "eat",
+   3
+  ],
+  [
+   "food-delivery",
+   3
+  ],
+  [
+   "menu",
+   3
+  ],
+  [
+   "food-and-restaurant",
+   3
+  ],
+  [
+   "donuts",
+   2
+  ],
+  [
+   "dish",
+   2
+  ],
+  [
+   "beer",
+   2
+  ],
+  [
+   "service",
+   2
+  ],
+  [
+   "shipping",
+   2
+  ],
+  [
+   "hotel",
+   2
+  ],
+  [
+   "business",
+   2
+  ],
+  [
+   "consumption",
+   2
+  ],
+  [
+   "cost",
+   2
+  ],
+  [
+   "demand",
+   2
+  ],
+  [
+   "supply",
+   2
+  ],
+  [
+   "cuisine",
+   2
+  ],
+  [
+   "dining",
+   2
+  ],
+  [
+   "cafe",
+   2
+  ],
+  [
+   "paper-cup",
+   2
+  ],
+  [
+   "refreshment",
+   2
+  ],
+  [
+   "unhealthy-food",
+   2
+  ],
+  [
+   "food & beverage",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "food and beverage",
+     "tags": [
+      "coffee",
+      "cup",
+      "donuts",
+      "drink",
+      "food",
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8475374-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "coffee",
+      "cup",
+      "donuts",
+      "drink",
+      "food",
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8475373-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8170331-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8170330-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8170325-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8170321-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "coffee",
+      "food-and-beverage",
+      "restaurant",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8013206-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food beverage",
+     "tags": [
+      "beverage",
+      "beverages",
+      "drink",
+      "fast-food",
+      "food",
+      "food-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7946389-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food beverage",
+     "tags": [
+      "burger",
+      "coffee",
+      "cup",
+      "drink",
+      "eat",
+      "food-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7902627-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763895-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763848-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763845-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763840-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763833-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763830-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763824-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "soft-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7763822-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "beverages",
+      "burger",
+      "food",
+      "food-and-beverages",
+      "softdrinks"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7735480-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "dish",
+      "drink",
+      "food",
+      "food-and-beverage",
+      "trendy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7472293-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "beer",
+      "beverages",
+      "eat",
+      "food",
+      "food-and-beverages",
+      "restaurant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7234602-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "beer",
+      "beverages",
+      "eat",
+      "food",
+      "food-and-beverages",
+      "restaurant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7234588-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "fast-food",
+      "food-and-beverages",
+      "food-delivery",
+      "restaurant",
+      "service",
+      "shipping"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7096148-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "fast-food",
+      "food-and-beverages",
+      "food-delivery",
+      "restaurant",
+      "service",
+      "shipping"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7096143-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food beverage",
+     "tags": [
+      "accommodation",
+      "fast-food",
+      "food-beverage",
+      "hotel",
+      "meal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6871847-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "business",
+      "consumption",
+      "cost",
+      "demand",
+      "food-and-beverage",
+      "supply"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6821258-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "business",
+      "consumption",
+      "cost",
+      "demand",
+      "food-and-beverage",
+      "supply"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6821243-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "burger",
+      "drink",
+      "ecommerce",
+      "food",
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6526767-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "burger",
+      "drink",
+      "ecommerce",
+      "food",
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6526752-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "dish",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6099606-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "delivery",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "meal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6016454-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "cuisine",
+      "dining",
+      "drink",
+      "food-and-beverages",
+      "menu",
+      "restaurant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5976948-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "cafe",
+      "drink",
+      "food",
+      "food-and-beverage",
+      "food-and-drink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5922074-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "burger",
+      "cuisine",
+      "dining",
+      "food-and-beverage",
+      "menu",
+      "softdrink"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5869308-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "food-and-beverage",
+      "food-and-restaurant",
+      "paper-cup",
+      "refreshment",
+      "unhealthy-food"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5821032-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "food-and-beverage",
+      "food-and-restaurant",
+      "paper-cup",
+      "refreshment",
+      "unhealthy-food"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5820981-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "fnb",
+      "food",
+      "food-and-beverage",
+      "hotel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5785143-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "burger",
+      "cup",
+      "drink",
+      "food-and-beverage",
+      "ice"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5668576-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "restaurant"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5594847-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "eating",
+      "food",
+      "food-and-beverage",
+      "meal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5509225-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "drink",
+      "fast-food",
+      "food",
+      "food-and-beverage",
+      "food-delivery"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5502450-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Food & Beverage",
+     "tags": [
+      "cake",
+      "cocktail",
+      "drink",
+      "food-and-beverage",
+      "food-beverage",
+      "junk-food"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5458797-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "drink",
+      "food-and-beverage",
+      "food-and-restaurant",
+      "lunch",
+      "meal"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5458784-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "beverage",
+      "bread",
+      "drink",
+      "food",
+      "food-and-beverages",
+      "french"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5071365-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "burger",
+      "coffee",
+      "drink",
+      "ecommerce",
+      "food",
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4816276-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "ecommerce",
+      "food",
+      "food-and-beverage",
+      "online-shop",
+      "ui"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4770294-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "beverage",
+      "beverages",
+      "food-and-beverages",
+      "french-fries",
+      "popcorn",
+      "snack"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4611967-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "bag",
+      "breakfast",
+      "food-and-beverage",
+      "lunch",
+      "packet",
+      "parcel"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4366959-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverages",
+     "tags": [
+      "apple",
+      "beverages",
+      "drink",
+      "food",
+      "food-and-beverages",
+      "menu"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3998840-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "food and beverage",
+     "tags": [
+      "beverage",
+      "cafe",
+      "coffee",
+      "food",
+      "food-and-beverage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3893383-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Food & Beverage",
+     "tags": [
+      "beverage",
+      "food",
+      "food-beverage",
+      "snack",
+      "sparkling",
+      "water"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3822747-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "cup-straw",
+  "rationale": "Drink, soft drink and cup lead alongside fast food; a cup with a straw covers both and stays simple.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

@@ -1,0 +1,805 @@
+{
+ "concept": "construction-materials",
+ "query": "building materials",
+ "fetched": "2026-11-13T21:21:45.501Z",
+ "topTerms": [
+  [
+   "building-material",
+   33
+  ],
+  [
+   "construction",
+   28
+  ],
+  [
+   "material",
+   22
+  ],
+  [
+   "materials",
+   20
+  ],
+  [
+   "cement",
+   14
+  ],
+  [
+   "brick",
+   12
+  ],
+  [
+   "wood",
+   12
+  ],
+  [
+   "building",
+   10
+  ],
+  [
+   "building-materials",
+   9
+  ],
+  [
+   "concrete",
+   8
+  ],
+  [
+   "building materials",
+   7
+  ],
+  [
+   "construction-material",
+   5
+  ],
+  [
+   "bricks",
+   4
+  ],
+  [
+   "building material",
+   4
+  ],
+  [
+   "wooden",
+   4
+  ],
+  [
+   "composite",
+   3
+  ],
+  [
+   "glass",
+   3
+  ],
+  [
+   "steel",
+   3
+  ],
+  [
+   "stone",
+   3
+  ],
+  [
+   "timber",
+   3
+  ],
+  [
+   "lumber",
+   3
+  ],
+  [
+   "architecture",
+   2
+  ],
+  [
+   "masonry-work",
+   2
+  ],
+  [
+   "construction-site",
+   2
+  ],
+  [
+   "slab",
+   2
+  ],
+  [
+   "glass sheets",
+   2
+  ],
+  [
+   "glass-material",
+   2
+  ],
+  [
+   "glass-sheets",
+   2
+  ],
+  [
+   "concrete block",
+   2
+  ],
+  [
+   "concrete-block",
+   2
+  ],
+  [
+   "wood-texture",
+   2
+  ],
+  [
+   "plywood",
+   2
+  ],
+  [
+   "hardwood",
+   2
+  ],
+  [
+   "limestone",
+   2
+  ],
+  [
+   "lime",
+   2
+  ],
+  [
+   "blocks",
+   2
+  ],
+  [
+   "building-blocks",
+   2
+  ],
+  [
+   "clay",
+   2
+  ],
+  [
+   "loam",
+   2
+  ],
+  [
+   "terracotta",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "building materials",
+     "tags": [
+      "architecture",
+      "bricks",
+      "building-materials",
+      "construction",
+      "masonry-work"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8095614-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building materials",
+     "tags": [
+      "building-materials",
+      "ceramic",
+      "composite",
+      "fabric",
+      "metal",
+      "plastic"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273429-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building materials",
+     "tags": [
+      "brick",
+      "building-materials",
+      "glass",
+      "steel",
+      "stone",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8192664-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building materials",
+     "tags": [
+      "architecture",
+      "bricks",
+      "building-materials",
+      "construction",
+      "masonry-work"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8095644-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building material",
+     "tags": [
+      "brick",
+      "building-material",
+      "cement",
+      "steel",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7764452-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building material",
+     "tags": [
+      "brick",
+      "building-material",
+      "building-material",
+      "cement",
+      "steel",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7764428-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building material",
+     "tags": [
+      "brick",
+      "building-material",
+      "cement",
+      "concrete",
+      "construction",
+      "construction-site"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7477632-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building material",
+     "tags": [
+      "brick",
+      "building-material",
+      "cement",
+      "concrete",
+      "construction",
+      "construction-site"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7308744-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building materials",
+     "tags": [
+      "building-materials",
+      "business",
+      "eco-friendly",
+      "office",
+      "sustainable",
+      "zero-waste"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7061264-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building materials",
+     "tags": [
+      "brick",
+      "building-material",
+      "building-materials",
+      "cement",
+      "construction",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958030-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building materials",
+     "tags": [
+      "asbestos",
+      "brick",
+      "building-materials",
+      "cement",
+      "construction",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908144-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "concrete",
+     "tags": [
+      "building-material",
+      "cement",
+      "concrete",
+      "material",
+      "materials",
+      "slab"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7051429-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "timber",
+     "tags": [
+      "building-materials",
+      "construction",
+      "lumber",
+      "material",
+      "timber",
+      "woods"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7418713-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "concrete",
+     "tags": [
+      "building-material",
+      "cement",
+      "concrete",
+      "material",
+      "materials",
+      "slab"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7051437-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "glass sheets",
+     "tags": [
+      "building-material",
+      "glass",
+      "glass-material",
+      "glass-sheets",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908127-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "brick",
+     "tags": [
+      "brick",
+      "building-material",
+      "construction",
+      "material"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4114348-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "brick",
+     "tags": [
+      "brick",
+      "building-material",
+      "construction",
+      "material",
+      "material-builder"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4114330-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "engineering brick",
+     "tags": [
+      "brick",
+      "building-material",
+      "construction-material",
+      "engineering-brick"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7903799-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "cement",
+     "tags": [
+      "building-material",
+      "cement",
+      "cement-sack",
+      "construction-material"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7903792-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "concrete block",
+     "tags": [
+      "brick",
+      "building-material",
+      "concrete-block",
+      "construction-material"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7903790-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Wood",
+     "tags": [
+      "building",
+      "construction",
+      "material",
+      "materials",
+      "timber",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6936983-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Wood",
+     "tags": [
+      "building",
+      "construction",
+      "material",
+      "materials",
+      "timber",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6936967-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Construction",
+     "tags": [
+      "brick",
+      "building-material",
+      "construction",
+      "construction-and-tools",
+      "material",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/6047438-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Wood",
+     "tags": [
+      "building-material",
+      "lumber",
+      "material",
+      "wood",
+      "wood-texture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/5528949-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "plywood",
+     "tags": [
+      "building-material",
+      "construction",
+      "material",
+      "plywood",
+      "wood",
+      "wooden"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958056-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "concrete",
+     "tags": [
+      "building-material",
+      "cement",
+      "composite",
+      "concrete",
+      "construction",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958054-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "hardwood",
+     "tags": [
+      "block",
+      "building-material",
+      "hardwood",
+      "material",
+      "wood",
+      "wooden"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958047-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "limestone",
+     "tags": [
+      "building-material",
+      "construction",
+      "lime",
+      "limestone",
+      "material",
+      "stone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958044-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "concrete block",
+     "tags": [
+      "blocks",
+      "building-blocks",
+      "building-material",
+      "concrete-block",
+      "construction",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958037-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "clay",
+     "tags": [
+      "building-material",
+      "clay",
+      "construction",
+      "loam",
+      "material",
+      "terracotta"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958036-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Stones",
+     "tags": [
+      "boulder",
+      "building-material",
+      "construction",
+      "materials",
+      "rocks",
+      "stones"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958035-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "glass sheets",
+     "tags": [
+      "building-material",
+      "glass",
+      "glass-material",
+      "glass-sheets",
+      "materials",
+      "plain-glass"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958026-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "cement",
+     "tags": [
+      "building-material",
+      "cement",
+      "concrete",
+      "construction",
+      "construction-material",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4958024-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "limestone",
+     "tags": [
+      "building-material",
+      "construction",
+      "lime",
+      "limestone",
+      "material",
+      "stone"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908161-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "plywood",
+     "tags": [
+      "building-material",
+      "construction",
+      "material",
+      "plywood",
+      "wood",
+      "wooden"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908158-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "hardwood",
+     "tags": [
+      "building-material",
+      "construction",
+      "hardwood",
+      "material",
+      "wood",
+      "wooden"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908157-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "concrete",
+     "tags": [
+      "building-material",
+      "cement",
+      "composite",
+      "concrete",
+      "construction",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908155-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "concrete blocks",
+     "tags": [
+      "blocks",
+      "building-blocks",
+      "building-material",
+      "concrete-blocks",
+      "construction",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908143-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "clay",
+     "tags": [
+      "building-material",
+      "clay",
+      "construction",
+      "loam",
+      "material",
+      "terracotta"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908142-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "cement",
+     "tags": [
+      "building-material",
+      "cement",
+      "concrete",
+      "construction",
+      "construction-material",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908141-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Stones",
+     "tags": [
+      "boulder",
+      "building-material",
+      "construction",
+      "materials",
+      "rocks",
+      "stones"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4908125-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building information",
+     "tags": [
+      "building",
+      "building-information",
+      "document",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4474900-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "building information",
+     "tags": [
+      "building",
+      "building-information",
+      "document",
+      "materials"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4474870-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Wood",
+     "tags": [
+      "building-material",
+      "lumber",
+      "material",
+      "wood",
+      "wood-texture"
+     ],
+     "thumb": "https://static.thenounproject.com/png/4302183-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "sand",
+     "tags": [
+      "building",
+      "construction",
+      "material",
+      "sand"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3441809-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Bricks",
+     "tags": [
+      "bricks",
+      "building",
+      "building-materials",
+      "cement",
+      "wall"
+     ],
+     "thumb": "https://static.thenounproject.com/png/3360462-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "3d printing building material",
+     "tags": [
+      "3d",
+      "3d-printing-building-material",
+      "building",
+      "material",
+      "print",
+      "printing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2756952-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Bricks",
+     "tags": [
+      "bricks",
+      "building",
+      "construction-materials",
+      "materials",
+      "wood"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2158344-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fastener",
+     "tags": [
+      "building",
+      "fastener",
+      "material",
+      "screw"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2158343-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "fastener",
+     "tags": [
+      "building",
+      "fastener",
+      "material",
+      "screw"
+     ],
+     "thumb": "https://static.thenounproject.com/png/2158283-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "brick-wall",
+  "rationale": "Cement and brick lead; a brick wall is the clearest at small sizes.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

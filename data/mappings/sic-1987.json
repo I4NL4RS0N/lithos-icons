@@ -1,7 +1,7 @@
 {
  "12": "energy",
  "13": "oil-gas",
- "20": "consumer-staples",
+ "20": "food-beverage",
  "21": "consumer-staples",
  "22": "apparel",
  "23": "apparel",
@@ -14,7 +14,7 @@
  "36": "electrical-equipment",
  "37": "automobiles",
  "43": "postal-courier",
- "48": "communication-services",
+ "48": "telecom",
  "49": "utilities",
  "54": "consumer-staples",
  "55": "automobiles",
@@ -40,7 +40,7 @@
  "D": "industrials",
  "E": "transportation",
  "F": "wholesale-trade",
- "G": "consumer-discretionary",
+ "G": "retail",
  "H": "financials",
  "I": "other-services",
  "J": "government",
@@ -48,5 +48,10 @@
  "01": "crops",
  "02": "livestock",
  "08": "forestry",
- "09": "fishing"
+ "09": "fishing",
+ "45": "airlines",
+ "32": "construction-materials",
+ "46": "pipelines",
+ "7311": "advertising",
+ "67": "funds"
 }

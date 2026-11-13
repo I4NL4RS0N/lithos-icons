@@ -1,6 +1,6 @@
 {
- "10": "consumer-staples",
- "11": "consumer-staples",
+ "10": "food-beverage",
+ "11": "food-beverage",
  "12": "consumer-staples",
  "13": "apparel",
  "14": "apparel",
@@ -19,7 +19,7 @@
  "53": "postal-courier",
  "55": "lodging",
  "58": "publishing",
- "61": "communication-services",
+ "61": "telecom",
  "62": "software",
  "64": "banks",
  "65": "insurance",
@@ -53,5 +53,11 @@
  "01.4": "livestock",
  "02": "forestry",
  "03": "fishing",
- "69.1": "legal-services"
+ "69.1": "legal-services",
+ "51": "airlines",
+ "47": "retail",
+ "23": "construction-materials",
+ "49.5": "pipelines",
+ "73.1": "advertising",
+ "64.3": "funds"
 }

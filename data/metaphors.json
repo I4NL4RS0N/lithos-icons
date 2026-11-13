@@ -216,5 +216,29 @@
  ],
  "bed": [
   "lodging"
+ ],
+ "plane-takeoff": [
+  "airlines"
+ ],
+ "shopping-cart": [
+  "retail"
+ ],
+ "handset": [
+  "telecom"
+ ],
+ "cup-straw": [
+  "food-beverage"
+ ],
+ "brick-wall": [
+  "construction-materials"
+ ],
+ "pipe-valve": [
+  "pipelines"
+ ],
+ "megaphone": [
+  "advertising"
+ ],
+ "money-bag": [
+  "funds"
  ]
 }

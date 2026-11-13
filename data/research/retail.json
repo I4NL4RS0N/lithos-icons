@@ -1,0 +1,824 @@
+{
+ "concept": "retail",
+ "query": "retail",
+ "fetched": "2026-11-13T21:21:43.627Z",
+ "topTerms": [
+  [
+   "retail",
+   50
+  ],
+  [
+   "store",
+   37
+  ],
+  [
+   "shop",
+   34
+  ],
+  [
+   "market",
+   24
+  ],
+  [
+   "commerce",
+   18
+  ],
+  [
+   "shopping",
+   15
+  ],
+  [
+   "outlet",
+   13
+  ],
+  [
+   "sales",
+   11
+  ],
+  [
+   "business",
+   8
+  ],
+  [
+   "building",
+   8
+  ],
+  [
+   "storefront",
+   7
+  ],
+  [
+   "sale",
+   5
+  ],
+  [
+   "marketplace",
+   4
+  ],
+  [
+   "commercial",
+   4
+  ],
+  [
+   "merchant",
+   4
+  ],
+  [
+   "vendor",
+   4
+  ],
+  [
+   "supermarket",
+   3
+  ],
+  [
+   "cafe",
+   3
+  ],
+  [
+   "retailer",
+   3
+  ],
+  [
+   "retail-shop",
+   2
+  ],
+  [
+   "shopping-center",
+   2
+  ],
+  [
+   "shop-front",
+   2
+  ],
+  [
+   "discount",
+   2
+  ],
+  [
+   "cart",
+   2
+  ],
+  [
+   "checkout",
+   2
+  ],
+  [
+   "purchase",
+   2
+  ],
+  [
+   "marketing",
+   2
+  ],
+  [
+   "distribution",
+   2
+  ],
+  [
+   "customer",
+   2
+  ],
+  [
+   "carton",
+   2
+  ],
+  [
+   "merchandise",
+   2
+  ],
+  [
+   "trolley",
+   2
+  ],
+  [
+   "transaction",
+   1
+  ],
+  [
+   "job",
+   1
+  ],
+  [
+   "management",
+   1
+  ],
+  [
+   "work",
+   1
+  ],
+  [
+   "product",
+   1
+  ],
+  [
+   "retailshop",
+   1
+  ],
+  [
+   "boutique",
+   1
+  ],
+  [
+   "customer-service",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "Retail",
+     "tags": [
+      "marketplace",
+      "outlet",
+      "retail",
+      "retail-shop",
+      "shopping-center",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8029463-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "commercial",
+      "market",
+      "retail",
+      "shop-front",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8504561-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "commercial",
+      "market",
+      "retail",
+      "shop-front",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8504560-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "discount",
+      "retail",
+      "sale",
+      "shop",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8503957-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "discount",
+      "retail",
+      "sale",
+      "shop",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8503955-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "retail",
+      "sale",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8469903-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "market",
+      "marketplace",
+      "outlet",
+      "retail",
+      "sales"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8466976-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "commerce",
+      "retail",
+      "sales",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8464944-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "commerce",
+      "retail",
+      "sales",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8464919-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "market",
+      "retail",
+      "retail",
+      "shop",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8464027-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "cart",
+      "checkout",
+      "purchase",
+      "retail",
+      "shopping",
+      "storefront"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8452621-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "cart",
+      "checkout",
+      "purchase",
+      "retail",
+      "shopping",
+      "storefront"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8452597-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "commerce",
+      "retail",
+      "shop",
+      "store",
+      "transaction"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8400660-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "market",
+      "retail",
+      "retail",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8379225-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "job",
+      "management",
+      "marketing",
+      "retail",
+      "work"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8368737-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "market",
+      "retail",
+      "sale",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8352863-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "market",
+      "product",
+      "retail",
+      "retailshop",
+      "store",
+      "storefront"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8352220-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "business",
+      "market",
+      "retail",
+      "sales",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8341521-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "distribution",
+      "merchant",
+      "outlet",
+      "retail",
+      "sales",
+      "storefront"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8338259-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8328515-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "market",
+      "marketplace",
+      "retail",
+      "shop",
+      "store",
+      "supermarket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8310923-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "distribution",
+      "merchant",
+      "outlet",
+      "retail",
+      "sales",
+      "storefront"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8290485-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "store",
+      "supermarket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8233619-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "customer",
+      "outlet",
+      "retail",
+      "sales",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8127740-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "building",
+      "cafe",
+      "market",
+      "outlet",
+      "retail",
+      "shop"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8109656-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "marketing",
+      "retail",
+      "sale",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8109160-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "outlet",
+      "retail",
+      "shop",
+      "store",
+      "vendor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8108773-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "marketplace",
+      "outlet",
+      "retail",
+      "retail-shop",
+      "shopping-center",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8090105-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "customer",
+      "outlet",
+      "retail",
+      "sales",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8084540-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "outlet",
+      "retail",
+      "shop",
+      "store",
+      "vendor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8059922-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "building",
+      "cafe",
+      "market",
+      "outlet",
+      "retail",
+      "shop"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8051994-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "building",
+      "cafe",
+      "market",
+      "outlet",
+      "retail",
+      "shop"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8051948-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "store",
+      "supermarket"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7996516-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "building",
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "shopping"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7957071-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "building",
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "shopping"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7957035-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commercial",
+      "retail",
+      "sales",
+      "shop",
+      "store",
+      "vendor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7947654-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commercial",
+      "retail",
+      "sales",
+      "shop",
+      "store",
+      "vendor"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7947634-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "market",
+      "retail",
+      "retailer",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7943941-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "boutique",
+      "building",
+      "outlet",
+      "retail",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7918054-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "customer-service",
+      "market",
+      "retail",
+      "shop",
+      "store",
+      "store-employee"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7862187-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "carton",
+      "merchandise",
+      "retail",
+      "shop",
+      "storefront",
+      "trolley"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7838127-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "carton",
+      "merchandise",
+      "retail",
+      "shop",
+      "shopping",
+      "trolley"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7838074-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "store",
+      "storefront"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7825517-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "building",
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7813037-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "building",
+      "commerce",
+      "market",
+      "retail",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7812993-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "commerce",
+      "retail",
+      "sales",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7782792-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "market",
+      "retail",
+      "shop",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7779181-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "market",
+      "retail",
+      "shop",
+      "shopping",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7779167-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "merchant",
+      "retail",
+      "retailer",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7714927-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "Retail",
+     "tags": [
+      "merchant",
+      "retail",
+      "retailer",
+      "shop",
+      "store"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7714888-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "shopping-cart",
+  "rationale": "Store and shop lead but the storefront is consumer discretionary; shopping (cart) is the next strongest.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

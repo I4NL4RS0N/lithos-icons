@@ -1,0 +1,19 @@
+{
+  "id": "airlines",
+  "name": "Airlines",
+  "kind": "industry",
+  "parent": "transportation",
+  "metaphor": "plane-takeoff",
+  "keywords": [
+    "passenger airlines",
+    "air transport",
+    "aviation",
+    "carriers",
+    "flights",
+    "airports"
+  ],
+  "reduction": "16: no runway line.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

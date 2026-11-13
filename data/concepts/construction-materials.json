@@ -1,0 +1,19 @@
+{
+  "id": "construction-materials",
+  "name": "Construction Materials",
+  "kind": "industry",
+  "parent": "materials",
+  "metaphor": "brick-wall",
+  "keywords": [
+    "building materials",
+    "cement",
+    "bricks",
+    "concrete",
+    "aggregates",
+    "building products"
+  ],
+  "reduction": "16–20: two courses. 24+: three courses.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pipelines",
+  "name": "Pipelines",
+  "kind": "industry",
+  "parent": "energy",
+  "metaphor": "pipe-valve",
+  "keywords": [
+    "midstream",
+    "oil and gas storage",
+    "transportation",
+    "gas transmission",
+    "valves",
+    "infrastructure"
+  ],
+  "reduction": "None — pipe run, two flange collars and a valve at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

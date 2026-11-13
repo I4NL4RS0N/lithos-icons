@@ -21,8 +21,8 @@
  "113": "forestry",
  "114": "fishing",
  "211": "oil-gas",
- "311": "consumer-staples",
- "312": "consumer-staples",
+ "311": "food-beverage",
+ "312": "food-beverage",
  "313": "apparel",
  "314": "apparel",
  "315": "apparel",
@@ -47,6 +47,12 @@
  "721": "lodging",
  "5411": "legal-services",
  "31-33": "industrials",
- "44-45": "consumer-discretionary",
- "48-49": "transportation"
+ "44-45": "retail",
+ "48-49": "transportation",
+ "481": "airlines",
+ "517": "telecom",
+ "327": "construction-materials",
+ "486": "pipelines",
+ "5418": "advertising",
+ "525": "funds"
 }
