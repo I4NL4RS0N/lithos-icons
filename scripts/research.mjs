@@ -42,7 +42,8 @@ async function iconfinder() {
   return { results: (j.icons || []).map((i) => ({ tags: i.tags || [], thumb: i.raster_sizes?.find((r) => r.size >= 64)?.formats?.[0]?.preview_url })) };
 }
 
-const sources = { nounProject: await nounProject(), iconfinder: await iconfinder() };
+const safe = (fn) => fn().catch((e) => ({ error: e.cause?.message || e.message }));
+const sources = { nounProject: await safe(nounProject), iconfinder: await safe(iconfinder) };
 const tally = {};
 for (const s of Object.values(sources)) for (const r of s.results || []) for (const t of new Set([r.title, ...(r.tags || [])].filter(Boolean).map((x) => String(x).toLowerCase())))
   tally[t] = (tally[t] || 0) + 1;
