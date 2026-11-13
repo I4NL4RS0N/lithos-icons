@@ -1,0 +1,814 @@
+{
+ "concept": "loans",
+ "query": "loan",
+ "fetched": "2026-11-13T21:32:08.850Z",
+ "topTerms": [
+  [
+   "loan",
+   50
+  ],
+  [
+   "finance",
+   27
+  ],
+  [
+   "credit",
+   22
+  ],
+  [
+   "money",
+   17
+  ],
+  [
+   "debt",
+   16
+  ],
+  [
+   "borrowing",
+   14
+  ],
+  [
+   "borrow",
+   10
+  ],
+  [
+   "lending",
+   10
+  ],
+  [
+   "interest",
+   9
+  ],
+  [
+   "banking",
+   8
+  ],
+  [
+   "bank",
+   6
+  ],
+  [
+   "repayment",
+   6
+  ],
+  [
+   "business",
+   6
+  ],
+  [
+   "investment",
+   4
+  ],
+  [
+   "money-bag",
+   3
+  ],
+  [
+   "payment",
+   3
+  ],
+  [
+   "business-and-finance",
+   3
+  ],
+  [
+   "document",
+   3
+  ],
+  [
+   "funds",
+   3
+  ],
+  [
+   "amount",
+   3
+  ],
+  [
+   "mortgage",
+   3
+  ],
+  [
+   "dollar",
+   2
+  ],
+  [
+   "estate",
+   2
+  ],
+  [
+   "land",
+   2
+  ],
+  [
+   "premises",
+   2
+  ],
+  [
+   "real-estate",
+   2
+  ],
+  [
+   "realty",
+   2
+  ],
+  [
+   "financing",
+   2
+  ],
+  [
+   "insurance",
+   2
+  ],
+  [
+   "economy",
+   2
+  ],
+  [
+   "inflation",
+   2
+  ],
+  [
+   "contract",
+   2
+  ],
+  [
+   "approval",
+   2
+  ],
+  [
+   "cash",
+   2
+  ],
+  [
+   "corporate",
+   2
+  ],
+  [
+   "discount",
+   1
+  ],
+  [
+   "financial",
+   1
+  ],
+  [
+   "bank-loan",
+   1
+  ],
+  [
+   "business-loan",
+   1
+  ],
+  [
+   "finance-loan",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "loan",
+     "tags": [
+      "discount",
+      "loan",
+      "loan",
+      "money",
+      "money-bag",
+      "payment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8515205-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "business-and-finance",
+      "document",
+      "dollar",
+      "loan",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8513136-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "bank",
+      "borrow",
+      "credit",
+      "debt",
+      "financial",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8507640-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "bank-loan",
+      "business-loan",
+      "finance-loan",
+      "loan",
+      "money-loan",
+      "personal-loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8507211-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "credit",
+      "debt",
+      "interest",
+      "lending",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8506821-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "debt",
+      "duration",
+      "loan",
+      "percentage",
+      "repayment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8500838-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "credit",
+      "interest",
+      "lending",
+      "loan",
+      "repayment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8492435-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "estate",
+      "land",
+      "loan",
+      "premises",
+      "real-estate",
+      "realty"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8465561-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "estate",
+      "land",
+      "loan",
+      "premises",
+      "real-estate",
+      "realty"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8465551-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "capitalism",
+      "funds",
+      "hand",
+      "loan",
+      "money-bag",
+      "salary"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8464725-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "credit",
+      "debt",
+      "financing",
+      "lending",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8455654-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "credit",
+      "debt",
+      "financing",
+      "lending",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8446192-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "amount",
+      "borrow",
+      "credit",
+      "debt",
+      "finance",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8445162-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "amount",
+      "borrow",
+      "credit",
+      "debt",
+      "finance",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8445117-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "business-and-finance",
+      "document",
+      "dollar",
+      "loan",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8429621-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "banking",
+      "borrowing",
+      "credit",
+      "finance",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8425392-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "banking",
+      "borrowing",
+      "credit",
+      "finance",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8425381-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "banking",
+      "finance",
+      "insurance",
+      "loan",
+      "mortgage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405220-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "banking",
+      "finance",
+      "insurance",
+      "loan",
+      "mortgage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405185-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "banking",
+      "borrowing",
+      "credit",
+      "finance",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405031-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "banking",
+      "borrowing",
+      "credit",
+      "finance",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8405006-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrow",
+      "credit",
+      "debt",
+      "loan",
+      "loan",
+      "mortgage"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8392403-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "business",
+      "economy",
+      "finance",
+      "inflation",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8370906-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "business",
+      "economy",
+      "finance",
+      "inflation",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8370901-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "business",
+      "credit",
+      "debt",
+      "investment",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8360287-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "credit",
+      "debt",
+      "finance",
+      "lending",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8344537-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "credit",
+      "debt",
+      "finance",
+      "lending",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8344509-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "contract",
+      "loan",
+      "money",
+      "sign",
+      "signature",
+      "writing"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8320955-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "approval",
+      "banking",
+      "funds",
+      "interest",
+      "loan",
+      "repayment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8316666-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "bank",
+      "borrowing",
+      "credit",
+      "finance",
+      "interest",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8311673-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "bank",
+      "borrowing",
+      "credit",
+      "finance",
+      "interest",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8311660-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "finance",
+      "investment",
+      "loan",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8265142-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "credit",
+      "debt",
+      "finance",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8264451-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "cash",
+      "lending",
+      "loan",
+      "money",
+      "payment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8262066-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrowing",
+      "cash",
+      "coins",
+      "loan",
+      "money",
+      "payment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8260656-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "credit",
+      "debt",
+      "finance",
+      "loan",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8259828-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "banking",
+      "credit",
+      "finance",
+      "investment",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8254530-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrow",
+      "contract",
+      "document",
+      "lend",
+      "lending",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8228225-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrow",
+      "finance",
+      "funds",
+      "lending",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8228161-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "bank",
+      "credit",
+      "finance",
+      "loan",
+      "loan",
+      "money"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8219806-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrow",
+      "debt",
+      "finance",
+      "lending",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8217927-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "approval",
+      "bank",
+      "credit",
+      "loan",
+      "repayment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8214525-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "business",
+      "finance",
+      "investment",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8211889-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "amount",
+      "borrow",
+      "charge",
+      "interest-rate",
+      "loan",
+      "rates"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8210244-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "bank",
+      "business-and-finance",
+      "debit",
+      "finance",
+      "loan",
+      "money-bag"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8209815-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrow",
+      "business",
+      "debt",
+      "finance",
+      "interest",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8177503-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "borrow",
+      "business",
+      "debt",
+      "finance",
+      "interest",
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8177468-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "loan"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8165636-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "corporate",
+      "finance",
+      "interest",
+      "loan",
+      "repayment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8165558-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "loan",
+     "tags": [
+      "corporate",
+      "finance",
+      "interest",
+      "loan",
+      "repayment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8165540-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "document-percent",
+  "rationale": "Refs for \"loan\" are money, contracts and interest; a document with a percent sign was already reserved for debt.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

@@ -1,0 +1,822 @@
+{
+ "concept": "corporate-finance",
+ "query": "corporate",
+ "fetched": "2026-11-13T21:32:08.345Z",
+ "topTerms": [
+  [
+   "corporate",
+   50
+  ],
+  [
+   "business",
+   26
+  ],
+  [
+   "company",
+   23
+  ],
+  [
+   "office",
+   16
+  ],
+  [
+   "building",
+   14
+  ],
+  [
+   "corporation",
+   13
+  ],
+  [
+   "enterprise",
+   7
+  ],
+  [
+   "management",
+   6
+  ],
+  [
+   "growth",
+   5
+  ],
+  [
+   "technology",
+   5
+  ],
+  [
+   "meeting",
+   4
+  ],
+  [
+   "finance",
+   4
+  ],
+  [
+   "organization",
+   4
+  ],
+  [
+   "professional",
+   4
+  ],
+  [
+   "strategy",
+   4
+  ],
+  [
+   "teamwork",
+   3
+  ],
+  [
+   "law",
+   3
+  ],
+  [
+   "planning",
+   3
+  ],
+  [
+   "city",
+   3
+  ],
+  [
+   "employee",
+   3
+  ],
+  [
+   "access",
+   3
+  ],
+  [
+   "entry",
+   3
+  ],
+  [
+   "gateway",
+   3
+  ],
+  [
+   "platform",
+   3
+  ],
+  [
+   "human-resources",
+   2
+  ],
+  [
+   "engineer",
+   2
+  ],
+  [
+   "maintenance",
+   2
+  ],
+  [
+   "man",
+   2
+  ],
+  [
+   "service",
+   2
+  ],
+  [
+   "technician",
+   2
+  ],
+  [
+   "profit",
+   2
+  ],
+  [
+   "and",
+   2
+  ],
+  [
+   "hierarchy",
+   2
+  ],
+  [
+   "leadership",
+   2
+  ],
+  [
+   "workforce",
+   2
+  ],
+  [
+   "document",
+   2
+  ],
+  [
+   "center",
+   2
+  ],
+  [
+   "conference",
+   2
+  ],
+  [
+   "boardroom",
+   2
+  ],
+  [
+   "marketing",
+   2
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "corporate",
+     "tags": [
+      "company",
+      "corporate",
+      "corporation",
+      "human-resources",
+      "office",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8427468-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "corporate",
+      "engineer",
+      "maintenance",
+      "man",
+      "service",
+      "technician"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8309356-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporate",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8512761-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporate",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8512722-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "coach",
+      "corporate",
+      "meeting",
+      "profit",
+      "sales",
+      "seminar"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8496147-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "and",
+      "business",
+      "corporate",
+      "corporate",
+      "corporation",
+      "finance"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8488316-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "and",
+      "business",
+      "corporate",
+      "corporate",
+      "corporation",
+      "finance"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8488301-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporation",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8471874-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporation",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8471873-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "corporate",
+      "hierarchy",
+      "leadership",
+      "management",
+      "organization",
+      "workforce"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8452626-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "corporate",
+      "hierarchy",
+      "leadership",
+      "management",
+      "organization",
+      "workforce"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8452607-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporation",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8451733-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporation",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8451732-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporation",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8451703-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "company",
+      "corporate",
+      "corporation",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8451693-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "company",
+      "corporate",
+      "corporation",
+      "human-resources",
+      "office",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8427437-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "company",
+      "corporate",
+      "enterprise",
+      "office",
+      "professional"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8427045-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "company",
+      "corporate",
+      "document",
+      "enterprise",
+      "law",
+      "planning"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8328472-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "company",
+      "corporate",
+      "document",
+      "enterprise",
+      "law",
+      "planning"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8326362-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "city",
+      "company",
+      "corporate",
+      "employee",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8313257-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "corporate",
+      "engineer",
+      "maintenance",
+      "man",
+      "service",
+      "technician"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8309372-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "commerce",
+      "commercial",
+      "corporate",
+      "executive",
+      "institution",
+      "professional"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8289921-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "company",
+      "corporate",
+      "enterprise",
+      "management",
+      "professional"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8281800-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "company",
+      "corporate",
+      "enterprise",
+      "management",
+      "professional"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8281748-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "company",
+      "corporate",
+      "corporate",
+      "corporation",
+      "employee",
+      "goverment"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273049-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "center",
+      "conference",
+      "corporate",
+      "group",
+      "meeting"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273046-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "benefit",
+      "business",
+      "corporate",
+      "growth",
+      "profit"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273045-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "corporate",
+      "layout",
+      "webpage",
+      "website"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273043-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "boardroom",
+      "corporate",
+      "meeting",
+      "team",
+      "training"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273037-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "communication",
+      "corporate",
+      "corporate",
+      "members",
+      "relations",
+      "teamwork"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273031-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "company",
+      "corporate",
+      "corporation",
+      "employee",
+      "law"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273020-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "computer",
+      "corporate",
+      "freelance",
+      "people",
+      "worker"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273019-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "center",
+      "conference",
+      "corporate",
+      "corporate",
+      "meeting",
+      "project"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8273017-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "corporate",
+      "growth",
+      "marketing",
+      "strategy",
+      "trend"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8255650-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "corporate",
+      "growth",
+      "marketing",
+      "strategy",
+      "trend"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8255616-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "briefcase",
+      "building",
+      "corporate",
+      "growth",
+      "management",
+      "strategy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8230301-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "corporate",
+      "growth",
+      "management",
+      "planning",
+      "strategy"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8230270-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "company",
+      "corporate",
+      "firm",
+      "industry",
+      "organization"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8229562-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "boardroom",
+      "business",
+      "company",
+      "corporate",
+      "organization"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8214547-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "city",
+      "company",
+      "corporate",
+      "corporation",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8197589-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "corporate",
+      "finance",
+      "graph",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8156689-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "corporate",
+      "finance",
+      "graph",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8156640-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "corporate",
+      "office",
+      "tall",
+      "windows"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8090685-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "corporate",
+      "office",
+      "tall",
+      "windows"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8087533-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "access",
+      "corporate",
+      "entry",
+      "gateway",
+      "platform",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8078123-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "access",
+      "corporate",
+      "entry",
+      "gateway",
+      "platform",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8032854-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "access",
+      "corporate",
+      "entry",
+      "gateway",
+      "platform",
+      "technology"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8032827-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "company",
+      "corporate",
+      "enterprise",
+      "entity",
+      "structure"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8010848-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "business",
+      "company",
+      "corporate",
+      "enterprise",
+      "entity",
+      "structure"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8010811-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "corporate",
+     "tags": [
+      "building",
+      "business",
+      "city",
+      "corporate",
+      "hotel",
+      "office"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7988739-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "office-towers",
+  "rationale": "Refs for \"corporate\" are office buildings; two towers keep it apart from the hospital and the bank.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

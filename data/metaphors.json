@@ -56,7 +56,7 @@
   "semiconductors"
  ],
  "document-percent": [
-  "debt"
+  "loans"
  ],
  "_retired": {
   "flame": "energy (\u2192 oil-barrel)",
@@ -240,5 +240,11 @@
  ],
  "money-bag": [
   "funds"
+ ],
+ "office-towers": [
+  "corporate-finance"
+ ],
+ "swap-arrows": [
+  "credit-derivatives"
  ]
 }

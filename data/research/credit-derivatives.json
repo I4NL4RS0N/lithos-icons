@@ -1,0 +1,813 @@
+{
+ "concept": "credit-derivatives",
+ "query": "swap",
+ "fetched": "2026-11-13T21:32:09.403Z",
+ "topTerms": [
+  [
+   "swap",
+   50
+  ],
+  [
+   "exchange",
+   25
+  ],
+  [
+   "switch",
+   25
+  ],
+  [
+   "change",
+   18
+  ],
+  [
+   "transfer",
+   18
+  ],
+  [
+   "arrows",
+   16
+  ],
+  [
+   "trade",
+   10
+  ],
+  [
+   "direction",
+   7
+  ],
+  [
+   "apps",
+   6
+  ],
+  [
+   "gesture",
+   6
+  ],
+  [
+   "hand",
+   6
+  ],
+  [
+   "tutorial",
+   6
+  ],
+  [
+   "convert",
+   5
+  ],
+  [
+   "flow",
+   4
+  ],
+  [
+   "transaction",
+   4
+  ],
+  [
+   "arrow",
+   4
+  ],
+  [
+   "compare",
+   3
+  ],
+  [
+   "people",
+   3
+  ],
+  [
+   "recycle",
+   2
+  ],
+  [
+   "replace",
+   2
+  ],
+  [
+   "move",
+   2
+  ],
+  [
+   "swipe-left",
+   2
+  ],
+  [
+   "swipe",
+   2
+  ],
+  [
+   "swipe-right",
+   2
+  ],
+  [
+   "down-arrow",
+   2
+  ],
+  [
+   "up-and-down",
+   2
+  ],
+  [
+   "vertical",
+   2
+  ],
+  [
+   "orientation",
+   2
+  ],
+  [
+   "reverse",
+   2
+  ],
+  [
+   "sort",
+   2
+  ],
+  [
+   "flip",
+   2
+  ],
+  [
+   "economy",
+   2
+  ],
+  [
+   "growth",
+   2
+  ],
+  [
+   "illustration",
+   2
+  ],
+  [
+   "income",
+   2
+  ],
+  [
+   "phone",
+   1
+  ],
+  [
+   "ui",
+   1
+  ],
+  [
+   "up-down",
+   1
+  ],
+  [
+   "alternate",
+   1
+  ],
+  [
+   "loop",
+   1
+  ]
+ ],
+ "sources": {
+  "nounProject": {
+   "results": [
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7783985-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "compare",
+      "phone",
+      "swap",
+      "ui",
+      "up-down"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7549385-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "alternate",
+      "convert",
+      "direction",
+      "loop",
+      "recycle",
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8510497-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "replace",
+      "swap",
+      "switch",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8510489-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "convert",
+      "direction",
+      "flow",
+      "swap",
+      "transaction"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8410074-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "convert",
+      "direction",
+      "flow",
+      "swap",
+      "transaction"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8410066-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "convert",
+      "direction",
+      "flow",
+      "swap",
+      "transaction"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8394687-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "convert",
+      "direction",
+      "flow",
+      "swap",
+      "transaction"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8394685-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "exchange",
+      "move",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8384240-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "exchange",
+      "move",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8381049-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "swap-out",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8304798-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8289084-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "people",
+      "swap",
+      "switch",
+      "trade"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8289083-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8289082-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "internet",
+      "network",
+      "online",
+      "swap",
+      "website"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8181764-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "exchange",
+      "in",
+      "out",
+      "people",
+      "swap",
+      "team"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8127310-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "change",
+      "swap",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8116451-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrow",
+      "exchange",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8113080-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "apps",
+      "gesture",
+      "hand",
+      "swap",
+      "swipe-left",
+      "tutorial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8062777-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "apps",
+      "gesture",
+      "hand",
+      "swap",
+      "swipe",
+      "tutorial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8062775-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "apps",
+      "gesture",
+      "hand",
+      "swap",
+      "swipe-right",
+      "tutorial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8062773-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "apps",
+      "gesture",
+      "hand",
+      "swap",
+      "swipe",
+      "tutorial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8062772-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "apps",
+      "gesture",
+      "hand",
+      "swap",
+      "swipe-right",
+      "tutorial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8062764-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "apps",
+      "gesture",
+      "hand",
+      "swap",
+      "swipe-left",
+      "tutorial"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8062762-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "change",
+      "direction",
+      "exchange",
+      "swap",
+      "tranfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8059729-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "compare",
+      "down-arrow",
+      "swap",
+      "up-and-down",
+      "vertical"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8057098-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "exchange",
+      "orientation",
+      "reverse",
+      "sort",
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8057095-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "exchange",
+      "orientation",
+      "reverse",
+      "sort",
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8057093-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "compare",
+      "down-arrow",
+      "swap",
+      "up-and-down",
+      "vertical"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8057085-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "swap",
+      "switch",
+      "sync",
+      "synchronize",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8055124-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "currency",
+      "exchange",
+      "foreign-exchange",
+      "money-conversion",
+      "swap",
+      "token"
+     ],
+     "thumb": "https://static.thenounproject.com/png/8026012-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7973032-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7973031-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "change",
+      "exchange",
+      "swap",
+      "switch"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7932884-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "change",
+      "exchange",
+      "swap",
+      "switch"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7932868-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "box",
+      "delivery",
+      "logistic",
+      "package",
+      "swap",
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7922276-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7833200-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrow",
+      "flip",
+      "replace",
+      "swap",
+      "switch"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7786950-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7783987-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7783986-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "account",
+      "exchange",
+      "people",
+      "swap",
+      "switch",
+      "user"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7778496-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "economy",
+      "growth",
+      "illustration",
+      "income",
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7709775-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "economy",
+      "growth",
+      "illustration",
+      "income",
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7709774-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrow",
+      "exchange",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7697489-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrow",
+      "exchange",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7697427-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "trade"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7623965-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "circle",
+      "correlation",
+      "recycle",
+      "relation",
+      "swap"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7584087-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "trade",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7510292-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "change",
+      "direction",
+      "flip",
+      "swap",
+      "switch"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7442895-84.png",
+     "licence": "creative-commons-attribution"
+    },
+    {
+     "title": "swap",
+     "tags": [
+      "arrows",
+      "change",
+      "exchange",
+      "swap",
+      "switch",
+      "transfer"
+     ],
+     "thumb": "https://static.thenounproject.com/png/7411536-84.png",
+     "licence": "creative-commons-attribution"
+    }
+   ]
+  },
+  "iconfinder": {
+   "skipped": "ICONFINDER_KEY not set"
+  }
+ },
+ "decision": {
+  "metaphor": "swap-arrows",
+  "rationale": "Refs for \"swap\" are two opposed arrows.",
+  "reviewedBy": null,
+  "date": "2026-11-13"
+ }
+}

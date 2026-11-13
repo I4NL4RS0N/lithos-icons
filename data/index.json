@@ -88,6 +88,63 @@
     "since": "0.1.0"
   },
   {
+    "id": "corporate-finance",
+    "name": "Corporate Finance",
+    "kind": "asset-class",
+    "metaphor": "office-towers",
+    "keywords": [
+      "corporates",
+      "corporate credit",
+      "corporate bonds",
+      "companies",
+      "issuers",
+      "investment grade",
+      "high yield"
+    ],
+    "reduction": "16: two blocks only. 20+: windows in the tall block. 32+: windows in both.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "loans",
+    "name": "Loans & Debt",
+    "kind": "asset-class",
+    "metaphor": "document-percent",
+    "keywords": [
+      "bank loans",
+      "leveraged finance",
+      "commercial paper",
+      "hybrids",
+      "debt",
+      "lending",
+      "credit facilities",
+      "borrowing"
+    ],
+    "reduction": "16: slash only. 20+: full percent sign.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
+    "id": "credit-derivatives",
+    "name": "Credit Derivatives",
+    "kind": "asset-class",
+    "metaphor": "swap-arrows",
+    "keywords": [
+      "CDS",
+      "credit default swaps",
+      "swaps",
+      "derivatives",
+      "synthetic",
+      "hedging"
+    ],
+    "reduction": "None — two opposed arrows at all sizes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "agriculture",
     "name": "Agriculture",
     "kind": "sector",

@@ -1,0 +1,20 @@
+{
+  "id": "loans",
+  "name": "Loans & Debt",
+  "kind": "asset-class",
+  "metaphor": "document-percent",
+  "keywords": [
+    "bank loans",
+    "leveraged finance",
+    "commercial paper",
+    "hybrids",
+    "debt",
+    "lending",
+    "credit facilities",
+    "borrowing"
+  ],
+  "reduction": "16: slash only. 20+: full percent sign.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

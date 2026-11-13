@@ -1,0 +1,19 @@
+{
+  "id": "corporate-finance",
+  "name": "Corporate Finance",
+  "kind": "asset-class",
+  "metaphor": "office-towers",
+  "keywords": [
+    "corporates",
+    "corporate credit",
+    "corporate bonds",
+    "companies",
+    "issuers",
+    "investment grade",
+    "high yield"
+  ],
+  "reduction": "16: two blocks only. 20+: windows in the tall block. 32+: windows in both.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

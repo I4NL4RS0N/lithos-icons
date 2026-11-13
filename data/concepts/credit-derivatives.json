@@ -1,0 +1,18 @@
+{
+  "id": "credit-derivatives",
+  "name": "Credit Derivatives",
+  "kind": "asset-class",
+  "metaphor": "swap-arrows",
+  "keywords": [
+    "CDS",
+    "credit default swaps",
+    "swaps",
+    "derivatives",
+    "synthetic",
+    "hedging"
+  ],
+  "reduction": "None — two opposed arrows at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

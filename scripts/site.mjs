@@ -45,6 +45,9 @@ const standards = readdirSync('data/schemes').filter((f) => f.endsWith('.json'))
   writeFileSync(join(out, 'std', `${scheme.id}.json`), JSON.stringify({ ids, nodes: nodes.map((n) => [n.code, n.name, n.parent, n.concept ? ids.indexOf(n.concept) : -1, n.direct ? 1 : 0]) }));
   return { id: scheme.id, name: scheme.name, version: scheme.version, fullName: scheme.fullName, levels: scheme.levels, codes: scheme.codes !== false, credit: scheme.credit || '', source: scheme.credit ? scheme.source : '' };
 }).filter(Boolean).sort((a, b) => a.name.localeCompare(b.name));
+const LEAD = ['energy', 'materials', 'industrials', 'consumer-discretionary', 'consumer-staples', 'health-care', 'financials', 'information-technology', 'communication-services', 'utilities', 'real-estate'];
+const rank = (c) => (LEAD.includes(c.id) ? LEAD.indexOf(c.id) : LEAD.length);
+concepts.sort((a, b) => rank(a) - rank(b)); // stable: everything else keeps its order
 const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts, standards };
 const tpl = readFileSync('site/index.html', 'utf8');
 const html = tpl.replace('/*__BUNDLE__*/', () => bundle.replace(/<\/script/gi, '<\\/script')).replace('/*__DATA__*/null', () => JSON.stringify(data).replace(/</g, '\\u003c')).replace(/__VERSION__/g, pkg.version);
