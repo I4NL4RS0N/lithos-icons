@@ -12,7 +12,7 @@
     "silviculture",
     "forest"
   ],
-  "reduction": "24+: growth ring in each log.",
+  "reduction": "Outline 24+: growth ring. Solid 20+: ring as a dot.",
   "status": "active",
   "replacedBy": null,
   "since": "0.1.0"

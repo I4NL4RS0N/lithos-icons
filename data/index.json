@@ -812,7 +812,7 @@
       "silviculture",
       "forest"
     ],
-    "reduction": "24+: growth ring in each log.",
+    "reduction": "Outline 24+: growth ring. Solid 20+: ring as a dot.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -870,7 +870,7 @@
       "cereals",
       "oilseeds"
     ],
-    "reduction": "16–20: two pairs of grains. 24+: three pairs.",
+    "reduction": "Outline: two pairs of kernels at 16–20, three from 24. Solid: two pairs until 48.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"
@@ -985,7 +985,7 @@
       "litigation",
       "regulation"
     ],
-    "reduction": "16–20: bowls hang straight off the beam. 24+: pans on strings.",
+    "reduction": "16–20: wider, shallower pans. 24+: full pans.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"

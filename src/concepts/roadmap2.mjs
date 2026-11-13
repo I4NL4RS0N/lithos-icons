@@ -12,13 +12,15 @@ export default [
   {
     id: 'forestry', name: 'Forestry', kind: 'industry', parent: 'agriculture', metaphor: 'log-pile',
     keywords: ['logging', 'timber', 'lumber', 'wood', 'silviculture', 'forest'],
-    reduction: '24+: growth ring in each log.',
+    reduction: 'Outline 24+: growth ring. Solid 20+: ring as a dot.',
     draw(k) {
-      const r = 0.24, c = [[0.5, 0.74 - 0.48 * 0.866], [0.26, 0.74], [0.74, 0.74]];
-      const rs = r - k.gapN(0.5) / 2 + k.grow, ring = k.tier >= 2;
+      const r = 0.24, c = [[0.5, 0.74 - 0.48 * 0.866], [0.26, 0.74], [0.74, 0.74]], ring = k.tier >= 2;
+      // Solid: same footprint as the outline, logs pushed apart just enough to leave a hairline between them.
+      const g = pick(k, [0.6, 0.7, 0.8, 1, 1.5]) / k.L, ro = (0.96 + 2 * k.grow - g) / 4, d = 2 * ro + g, by = 0.74 + r + k.grow - ro;
+      const cs = [[0.5, by - d * 0.866], [0.5 - d / 2, by], [0.5 + d / 2, by]], hp = pick(k, [0, 1.1, 1.4, 2, 3]);
       return {
         outline: [...c.map(([x, y]) => k.circle(x, y, r)), ...(ring ? c.map(([x, y]) => k.circle(x, y, 0.07)) : [])],
-        solid: c.map(([x, y]) => ({ d: k.circle(x, y, rs - k.grow) + (ring ? hole(k, x, y, pick(k, [0, 0, 1.4, 2, 3])) : ''), fill: true })),
+        solid: cs.map(([x, y]) => ({ d: k.circle(x, y, ro - k.grow) + (hp ? hole(k, x, y, hp) : ''), fill: true })),
       };
     },
   },
@@ -55,14 +57,19 @@ export default [
   {
     id: 'crops', name: 'Crops', kind: 'industry', parent: 'agriculture', metaphor: 'wheat-ear',
     keywords: ['crop production', 'grain', 'wheat', 'farming', 'harvest', 'cereals', 'oilseeds'],
-    reduction: '16–20: two pairs of grains. 24+: three pairs.',
+    reduction: 'Outline: two pairs of kernels at 16–20, three from 24. Solid: two pairs until 48.',
     draw(k) {
-      const ys = pick(k, [[0.36, 0.64], [0.36, 0.64], [0.3, 0.52, 0.74], [0.3, 0.52, 0.74], [0.3, 0.52, 0.74]]), dx = pick(k, [0.3, 0.3, 0.28, 0.28, 0.28]), dy = 0.2;
-      const grains = ys.flatMap((y) => [[[0.5, y + dy * 0.45], [0.5 - dx, y - dy * 0.55]], [[0.5, y + dy * 0.45], [0.5 + dx, y - dy * 0.55]]]);
-      const stem = k.path([['M', 0.5, 1], ['V', 0.04]]);
+      // Kernels lean up and out in a gentle arc from the top two thirds of the stem; the stem is bare below.
+      // Solid kernels are plump almonds, which is what separates an ear of wheat from a feather.
+      const ys = pick(k, [[0.36, 0.62], [0.36, 0.62], [0.3, 0.48, 0.66], [0.3, 0.48, 0.66], [0.3, 0.48, 0.66]]), dx = pick(k, [0.3, 0.3, 0.27, 0.27, 0.27]), dy = pick(k, [0.27, 0.27, 0.24, 0.24, 0.24]);
+      const base = (y) => [0.5, y], tip = (y, s) => [0.5 + s * dx, y - dy];
+      const sy = k.tier >= 4 ? ys : [0.36, 0.66]; // solid: two pairs until 48px, so the almonds keep clear gaps
+      const arc = (y, s) => quadPts(base(y), [0.5 + s * dx * 0.85, y - dy * 0.1], tip(y, s), 8);
+      const almond = (y, s) => [...arc(y, s), ...quadPts(tip(y, s), [0.5 + s * dx * 0.52, y - dy * 0.4], base(y), 8).slice(1, -1)];
+      const pairs = (list) => list.flatMap((y) => [[y, -1], [y, 1]]), sides = pairs(ys), stem = k.path([['M', 0.5, 1], ['V', 0.03]]);
       return {
-        outline: [stem, ...grains.map((g) => seg(k, g))],
-        solid: [{ d: stem, fill: false }, ...grains.map((g) => ({ d: k.offsetLine(g, k.sw * 0.45), fill: true }))],
+        outline: [stem, ...sides.map(([y, s]) => seg(k, arc(y, s)))],
+        solid: [{ d: stem, fill: false }, ...pairs(sy).map(([y, s]) => ({ d: k.poly(almond(y, s), { snap: false }), fill: true }))],
       };
     },
   },
@@ -127,16 +134,16 @@ export default [
   {
     id: 'legal-services', name: 'Legal Services', kind: 'industry', parent: 'professional-services', metaphor: 'scales',
     keywords: ['law', 'lawyers', 'justice', 'courts', 'compliance', 'litigation', 'regulation'],
-    reduction: '16–20: bowls hang straight off the beam. 24+: pans on strings.',
+    reduction: '16–20: wider, shallower pans. 24+: full pans.',
     draw(k) {
-      const post = k.path([['M', 0.5, 0.06], ['V', 0.96]]), base = k.path([['M', 0.28, 0.96], ['H', 0.72]]), by = 0.2, beam = k.path([['M', 0.1, by], ['H', 0.9]]);
-      const w = k.tier >= 2 ? 0.17 : 0.22, py = k.tier >= 2 ? 0.58 : by; // small sizes: bowls hang straight off the beam
-      const pan = (cx) => [['M', cx - w, py], ['A', w, w, 0, 0, 0, cx + w, py], ['Z']];
-      const strings = (cx) => (k.tier >= 2 ? [seg(k, [[cx - w, py], [cx, by], [cx + w, py]])] : []);
-      const cxs = k.tier >= 2 ? [0.2, 0.8] : [0.25, 0.75];
+      // Pans hang on strings at every size; small sizes get wider, shallower pans so the triangles stay open.
+      const big = k.tier >= 2, by = big ? 0.2 : 0.16, w = big ? 0.17 : 0.2, py = big ? 0.58 : 0.56, depth = big ? w : w * 0.7, cxs = big ? [0.2, 0.8] : [0.22, 0.78];
+      const post = k.path([['M', 0.5, 0.04], ['V', 0.96]]), base = k.path([['M', 0.28, 0.96], ['H', 0.72]]), beam = k.path([['M', cxs[0], by], ['H', cxs[1]]]);
+      const pan = (cx) => k.path([['M', cx - w, py], ['A', w, depth, 0, 0, 0, cx + w, py], ['Z']], { snap: false });
+      const strings = (cx) => seg(k, [[cx - w, py], [cx, by], [cx + w, py]]);
       return {
-        outline: [post, base, beam, ...cxs.map((cx) => k.path(pan(cx), { snap: false })), ...cxs.flatMap(strings)],
-        solid: [{ d: post, fill: false }, { d: base, fill: false }, { d: beam, fill: false }, ...cxs.map((cx) => ({ d: k.path(pan(cx), { snap: false }), fill: true })), ...cxs.flatMap(strings).map((d) => ({ d, fill: false }))],
+        outline: [post, base, beam, ...cxs.map(pan), ...cxs.map(strings)],
+        solid: [{ d: post, fill: false }, { d: base, fill: false }, { d: beam, fill: false }, ...cxs.map((cx) => ({ d: pan(cx), fill: true })), ...cxs.map((cx) => ({ d: strings(cx), fill: false }))],
       };
     },
   },
