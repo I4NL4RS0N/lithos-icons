@@ -17,22 +17,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 22 }
+        with:
+          node-version: 22
       - run: npm ci || npm install
       - name: Research
         env:
           NOUN_PROJECT_KEY: ${{ secrets.NOUN_PROJECT_KEY }}
           NOUN_PROJECT_SECRET: ${{ secrets.NOUN_PROJECT_SECRET }}
           ICONFINDER_KEY: ${{ secrets.ICONFINDER_KEY }}
-        run: node scripts/research.mjs "${{ inputs.concept }}" ${{ inputs.query }}
+          CONCEPT: ${{ inputs.concept }}
+          QUERY: ${{ inputs.query }}
+        run: node scripts/research.mjs "$CONCEPT" $QUERY
       - name: Open PR with findings
-        env: { GH_TOKEN: ${{ github.token }} }
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CONCEPT: ${{ inputs.concept }}
         run: |
           git config user.name "lithos-icons-bot"
           git config user.email "lithos-icons-bot@users.noreply.github.com"
-          b="research/${{ inputs.concept }}-${{ github.run_id }}"
+          b="research/$CONCEPT-${{ github.run_id }}"
           git checkout -b "$b"
           git add data/research
-          git commit -m "Metaphor research: ${{ inputs.concept }}" || exit 0
+          git commit -m "Metaphor research: $CONCEPT" || exit 0
           git push -u origin "$b"
-          gh pr create --title "Metaphor research: ${{ inputs.concept }}" --body "Term tallies and reference thumbnails for \`${{ inputs.concept }}\`. References only — no third-party SVGs stored."
+          gh pr create --title "Metaphor research: $CONCEPT" --body "Term tallies and reference thumbnails for $CONCEPT. References only — no third-party SVGs stored."
