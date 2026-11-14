@@ -6,7 +6,7 @@
 <title>Lithos Icons — icons for finance</title>
 <meta name="description" content="Open icons for finance: sectors, industries, credit asset classes, countries and regions. Outline and solid, five drawn sizes, live customisation. MIT.">
 <meta property="og:title" content="Lithos Icons — icons for finance">
-<meta property="og:description" content="Sectors, industries, credit asset classes, countries and regions. Outline and solid, five drawn sizes. MIT.">
+<meta property="og:description" content="Sectors, industries, credit asset classes, six industry standards, regions and countries. Outline and solid, five drawn sizes. MIT.">
 <meta property="og:image" content="https://icons.lithos.design/og.png">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
@@ -70,6 +70,7 @@
   .cell .nm .codechip { display: inline-block; margin-bottom: 4px; }
   .cell.inherited .art { opacity: .38; }
   #tabs { position: sticky; top: 0; z-index: 20; margin-top: 28px; padding: 12px 0 8px; background: var(--bg); display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+  .tabrow .count { color: var(--muted); font-size: 13.5px; }
   .tabrow .right { margin-left: auto; display: flex; gap: 18px; flex-wrap: wrap; }
   .tabrow .viewby { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--faint); }
   .viewby select { appearance: none; border: 1px solid var(--line); background: var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%239a9da3' stroke-width='1.5'%3E%3Cpath d='m1 1 4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center; color: var(--fg); border-radius: 999px; padding: 6px 30px 6px 14px; font-size: 13.5px; font-weight: 500; }
@@ -91,7 +92,6 @@
   .jump a { font-size: 12.5px; color: var(--muted); text-decoration: none; padding: 3px 8px 3px 4px; border-radius: 8px; display: flex; gap: 6px; align-items: center; }
   .jump a:hover { background: var(--hover); color: var(--fg); }
   .jump .codechip, .ghead .codechip { font: 11.5px var(--mono); color: var(--fg); background: var(--pill); border-radius: 6px; padding: 1px 6px; }
-  section.std { content-visibility: auto; contain-intrinsic-size: auto 900px; scroll-margin-top: 16px; }
   .cell.inherited .art, .ghead.inherited .art { opacity: .38; }
   .clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .tcell { position: relative; display: grid; min-width: 0; }
@@ -229,7 +229,7 @@
   </header>
   <div class="intro">
     <h1>Icons for finance.</h1>
-    <p>Sectors, industries, credit asset classes, countries and regions. Every icon is drawn at five sizes, in outline and solid, and chosen from research into what people already recognise.</p>
+    <p>Sectors, industries, credit asset classes, six industry standards, regions and countries. Every icon is drawn at five sizes, in outline and solid, and chosen from research into what people already recognise.</p>
   </div>
   <nav id="tabs" aria-label="Browse"></nav>
   <main id="main"></main>
@@ -279,10 +279,8 @@ const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors & industries'], ['a
 const inKind = (c, kind) => kind === 'all' || (kind === 'sectors' ? c.kind === 'sector' || c.kind === 'industry' : c.kind === kind);
 let JUMPS = []; // [{id, label, code}] for the current view; drives the sticky jump row
 function renderTabs() {
-  const isStd = state.kind.startsWith('std:'), subject = isStd ? 'sectors' : state.kind;
-  const viewby = subject === 'sectors' ? `<label class="viewby">View by<select id="viewby" aria-label="Organise by standard"><option value="sectors">Plain names</option>${DATA.standards.map((x) => `<option value="std:${x.id}"${state.kind === 'std:' + x.id ? ' selected' : ''}>${esc(x.name)} ${esc(x.version)}</option>`).join('')}</select></label>` : '';
-  const jump = JUMPS.length > 1 ? `<label class="viewby">Jump to<select id="jumpto" aria-label="Jump to section"><option value=""${state.sec ? '' : ' selected'}>Top</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc((j.code ? j.code + ' · ' : '') + j.label)}</option>`).join('')}</select></label>` : '';
-  $('#tabs').innerHTML = `<div class="tabrow">${SUBJECTS.map(([v, l]) => `<button type="button" data-kind="${v}" aria-pressed="${v === subject}">${l}</button>`).join('')}<span class="right">${viewby}${jump}</span></div>`;
+  const jump = `<label class="viewby">Jump to<select id="jumpto" aria-label="Jump to section"><option value=""${state.sec ? '' : ' selected'}>Top</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc(j.label)}</option>`).join('')}</select></label>`;
+  $('#tabs').innerHTML = `<div class="tabrow"><span class="count">${state.kind === 'all' ? `${DATA.concepts.length} icons · ${DATA.standards.length} standards` : '<button type="button" data-kind="all" class="back">← All icons</button>'}</span><span class="right">${jump}</span></div>`;
 }
 const SEC = { sector: 'sectors', industry: 'industries', 'asset-class': 'credit', theme: 'themes', country: 'countries', region: 'regions' };
 const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', theme: 'Theme', country: 'Country', region: 'Region' };
@@ -392,53 +390,57 @@ function loadStd(std) {
     const by = Object.fromEntries(nodes.map((n) => [n.code, n]));
     for (const n of nodes) { n.depth = n.parent ? by[n.parent].depth + 1 : 0; if (n.parent) by[n.parent].kids.push(n); }
     for (const n of [...nodes].reverse()) n.total = n.kids.reduce((a, k) => a + 1 + k.total, 0);
-    STD[std.id] = { nodes, tops: nodes.filter((n) => !n.parent) }; render();
+    STD[std.id] = { nodes, tops: nodes.filter((n) => !n.parent) }; later();
   }).catch(() => { STD_LOADING[std.id] = null; $('#main').innerHTML = '<p class="empty">Couldn’t load this standard. Check your connection and try again.</p>'; });
 }
-function renderStandard(std) {
+// One page, many sections: plain-name icons, then each standard (every code a tile, in code order), then regions,
+// countries and themes. The sticky "Jump to" menu lists the sections; old ?kind= links show just one.
+const byId = Object.fromEntries(DATA.concepts.map((c) => [c.id, c]));
+let rq = 0; const later = () => { if (!rq) rq = setTimeout(() => { rq = 0; render(); }, 60); };
+function stdSection(std, q) {
   const tree = STD[std.id];
-  if (!tree) { loadStd(std); $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · loading…</p>`; return renderDetail(); }
-  const q = state.q.toLowerCase().split(/\s+/).filter(Boolean);
-  const self = (n) => q.every((t) => (n.code + ' ' + n.name).toLowerCase().includes(t));
-  const byId = Object.fromEntries(DATA.concepts.map((c) => [c.id, c])), memo = {};
-  const icon = (n, size) => (byId[n.concept] ? (memo[n.concept + size] ||= draw(byId[n.concept], size)) : '');
-  // One flat grid, like the main page: every code is an equal tile, in code order (a parent sits just before its
-  // children: 11, 111, 1111 …). No headers or nesting; the code chip carries the hierarchy.
+  const head = (extra, n) => `<h2>${esc(std.name)} ${esc(std.version)}<span class="n">${n}</span></h2>${extra}`;
+  if (!tree) { loadStd(std); return { id: std.id, label: `${std.name} ${std.version}`, html: `<section class="kind" id="${esc(std.id)}" data-sec>${head(`<p class="std-intro">Loading…</p>`, '')}</section>` }; }
+  const self = (n) => q.every((t) => (n.code + ' ' + n.name).toLowerCase().includes(t)), memo = {};
+  const icon = (n) => (byId[n.concept] ? (memo[n.concept] ||= draw(byId[n.concept], state.size)) : '');
   const chip = (n) => (std.codes ? `<span class="codechip">${esc(n.code)}</span>` : ''); // some schemes have names only
-  const order = []; const walk = (n) => { order.push(n); n.kids.forEach(walk); }; tree.tops.forEach(walk);
+  const order = []; const walk = (n) => { order.push(n); n.kids.forEach(walk); }; tree.tops.forEach(walk); // parent just before its children
   const list = q.length ? order.filter(self) : order;
-  const tile = (n) => `<button class="cell${n.direct ? '' : ' inherited'}" type="button"${n.parent || q.length ? '' : ` id="s-${esc(n.code)}" data-sec`} data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc((std.codes ? n.code + ' ' : '') + n.name)}">
-      <span class="art">${icon(n, state.size)}</span><span class="nm">${chip(n)}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`;
-  const sections = list.length ? `<div class="grid flat">${list.map(tile).join('')}</div>` : '';
-  JUMPS = q.length ? [] : tree.tops.map((t) => ({ id: 's-' + t.code, code: std.codes ? t.code : '', label: std.codes ? t.name.split(/,| and | And /)[0] : t.name, title: t.name }));
+  if (!list.length) return null;
+  const tile = (n) => `<button class="cell${n.direct ? '' : ' inherited'}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc((std.codes ? n.code + ' ' : '') + n.name)}">
+      <span class="art">${icon(n)}</span><span class="nm">${chip(n)}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`;
   const counts = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`).join(', ');
-  const own = tree.nodes.filter((n) => n.direct).length;
-  $('#main').innerHTML = `<p class="std-intro"><b>${esc(std.fullName)} ${esc(std.version)}</b> · ${counts}. ${own} of ${tree.nodes.length.toLocaleString()} have their own icon (${new Set(tree.nodes.filter((n) => n.direct).map((n) => n.concept)).size} distinct); faded tiles borrow their parent’s until theirs is drawn.${std.credit ? `<br><span class="credit">${esc(std.source)} ${esc(std.credit)}</span>` : ''}</p>` 
-    + (sections || `<p class="empty">No ${esc(std.name)} code or title matches “${esc(state.q)}”.</p>`);
-  renderTabs(); renderDetail(); afterRender();
+  const own = tree.nodes.filter((n) => n.direct).length, distinct = new Set(tree.nodes.filter((n) => n.direct).map((n) => n.concept)).size;
+  const intro = `<p class="std-intro">${counts}. ${own} of ${tree.nodes.length.toLocaleString()} have their own icon (${distinct} distinct); faded tiles borrow their parent’s until theirs is drawn.${std.credit ? `<br><span class="credit">${esc(std.source)} ${esc(std.credit)}</span>` : ''}</p>`;
+  return { id: std.id, label: `${std.name} ${std.version}`, html: `<section class="kind" id="${esc(std.id)}" data-sec>${head(intro, list.length.toLocaleString())}<div class="grid flat">${list.map(tile).join('')}</div></section>` };
 }
+function conceptSection(k, label, items) {
+  return { id: SEC[k], label, html: `<section class="kind" id="${SEC[k]}" data-sec><h2>${label}<span class="n">${items.length}</span></h2><div class="grid${state.labels === 'off' ? ' nolabels' : ''}">${items.map((c) => `
+      <button class="cell" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>` };
+}
+const PLAN = ['sector', 'industry', 'asset-class', 'std', 'region', 'country', 'theme']; // page order
+const LABEL = { sector: 'Sectors', industry: 'Industries', 'asset-class': 'Credit asset classes', region: 'Regions', country: 'Countries', theme: 'Themes' };
 
 function render() {
   syncControls(); syncUrl();
-  JUMPS = [];
-  const std = state.kind.startsWith('std:') && DATA.standards.find((x) => 'std:' + x.id === state.kind);
-  if (std) return renderStandard(std);
-  const list = DATA.concepts.filter((c) => matches(c, state.q));
-  const shown = list.filter((c) => inKind(c, state.kind));
-  if (!shown.length) { $('#main').innerHTML = `<p class="empty">Nothing matches “${esc(state.q)}”. Try a sector, an industry, a country or a code.</p>`; }
-  else $('#main').innerHTML = KINDS.filter(([k]) => shown.some((c) => c.kind === k)).map(([k, l]) => {
-    const items = shown.filter((c) => c.kind === k);
-    return `<section class="kind" id="${SEC[k]}" data-sec><h2>${l}<span class="n">${items.length}</span></h2><div class="grid${state.labels === 'off' ? ' nolabels' : ''}">${items.map((c) => `
-      <button class="cell" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>`;
-  }).join('');
-  JUMPS = [...document.querySelectorAll('#main section[data-sec]')].map((el) => ({ id: el.id, label: el.querySelector('h2').firstChild.textContent }));
+  const q = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const only = state.kind.startsWith('std:') ? state.kind.slice(4) : null;
+  const wantConcept = (c) => (only ? false : inKind(c, state.kind));
+  const shown = DATA.concepts.filter((c) => wantConcept(c) && matches(c, state.q));
+  const secs = [];
+  for (const k of PLAN) {
+    if (k === 'std') { for (const std of DATA.standards) if (state.kind === 'all' || state.kind === 'sectors' || only === std.id) { const sec = stdSection(std, q); if (sec) secs.push(sec); } continue; }
+    const items = shown.filter((c) => c.kind === k); if (items.length) secs.push(conceptSection(k, LABEL[k], items));
+  }
+  JUMPS = secs.map((x) => ({ id: x.id, label: x.label }));
+  $('#main').innerHTML = secs.length ? secs.map((x) => x.html).join('') : `<p class="empty">Nothing matches “${esc(state.q)}”. Try a sector, an industry, a country or a code.</p>`;
   renderTabs(); renderDetail(); afterRender();
 }
 
 // Jump links: the URL hash follows the section in view (like iconmcp), and a hash link scrolls to its section.
 let lock = 0;
 function afterRender() {
-  if (PENDING && state.sec) { const el = document.getElementById(state.sec); if (el) { PENDING = false; lock = Date.now() + 400; el.scrollIntoView({ block: 'start' }); } }
+  if (PENDING && state.sec) { const el = document.getElementById(state.sec); if (el) { if (DATA.standards.every((x) => STD[x.id])) PENDING = false; lock = Date.now() + 400; el.scrollIntoView({ block: 'start' }); } }
   else if (state.sec && !document.getElementById(state.sec) && !PENDING) { state.sec = null; syncUrl(); }
 }
 function spy() {
@@ -451,7 +453,7 @@ function spy() {
   const sel = $('#jumpto'); if (sel) sel.value = cur || '';
 }
 let tick = 0; addEventListener('scroll', () => { if (!tick) tick = requestAnimationFrame(() => { tick = 0; spy(); }); }, { passive: true });
-function goSection(id, smooth = true) {
+function goSection(id, smooth = false) {
   const el = document.getElementById(id); if (!el) return;
   state.sec = id; lock = Date.now() + 1100; el.scrollIntoView({ block: 'start', behavior: smooth ? 'smooth' : 'auto' }); syncUrl();
   const sel = $('#jumpto'); if (sel) sel.value = id;
