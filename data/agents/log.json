@@ -31,5 +31,37 @@
   "mapped": 0,
   "why": "ISIC 72 and NACE 72 currently borrow the briefcase from professional services. Microscope is visibly distinct from the flask, DNA and briefcase icons.",
   "cost": 0.67
+ },
+ {
+  "date": "2026-11-14",
+  "mode": "add",
+  "id": "gambling-betting",
+  "name": "Gambling and betting activities",
+  "kind": "industry",
+  "picture": "tilted-die",
+  "result": "added",
+  "attempts": 2,
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A tilted die (five face at 24–48px, three face at 16–20px), which anyone would read as gambling or betting.",
+   "problems": [
+    "The face changes across sizes: 16 and 20px show three pips, 24/32/48px show five. This is a sensible simplification, but users will see it when the sizes sit side by side.",
+    "At 24px the five pips are small and tight against the rotated outline, especially in the solid version, where the knockout dots are close to the minimum readable size.",
+    "The die is rotated about 15°, so the outline edges do not sit on the pixel grid and look slightly soft at 16px compared with the axis-aligned icons nearby (minor).",
+    "The die has a slightly larger optical footprint than the parent mask at 48px. This is within tolerance."
+   ],
+   "fixes": [
+    "Optional: at 24px, enlarge the pips slightly (about 0.25px radius) or pull them in a little from the corners so the solid knockouts have more room.",
+    "Optional: consider using the three-pip face at 24px too, so the pip pattern is the same across more sizes. Keep five pips for 32/48px."
+   ]
+  },
+  "mapped": 4,
+  "why": "ISIC 92 and NACE 92 currently borrow the theatre mask from arts-recreation. A die is a clear, simple drawable object and is distinct from every existing icon.",
+  "cost": 0.86
  }
 ]

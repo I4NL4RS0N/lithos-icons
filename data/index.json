@@ -1,5 +1,23 @@
 [
   {
+    "id": "gambling-betting",
+    "name": "Gambling and betting activities",
+    "kind": "industry",
+    "parent": "arts-recreation",
+    "metaphor": "tilted-die",
+    "keywords": [
+      "gambling",
+      "betting",
+      "casino",
+      "lottery",
+      "gaming"
+    ],
+    "reduction": "16 and 20: the three face (three pips on one diagonal, about 2.25px and 2.7px dots with wide gaps), a lighter 10-11 degree tilt and a slightly larger body so edges stay crisp and the footprint matches siblings. 24 up: the five face at a 14 degree tilt, pips growing to 4px at 48. Solid: pips are knockouts sized per size.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "scientific-research",
     "name": "Scientific research and development",
     "kind": "industry",

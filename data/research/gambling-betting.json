@@ -1,0 +1,799 @@
+{
+  "concept": "gambling-betting",
+  "query": "dice",
+  "fetched": "2026-11-14T14:23:02.348Z",
+  "topTerms": [
+    [
+      "dice",
+      50
+    ],
+    [
+      "game",
+      25
+    ],
+    [
+      "dice-game",
+      24
+    ],
+    [
+      "dices",
+      24
+    ],
+    [
+      "dice-roll",
+      19
+    ],
+    [
+      "dice roll",
+      14
+    ],
+    [
+      "roll-the-dice",
+      13
+    ],
+    [
+      "cube",
+      10
+    ],
+    [
+      "random",
+      9
+    ],
+    [
+      "gambling",
+      9
+    ],
+    [
+      "luck",
+      8
+    ],
+    [
+      "casino",
+      7
+    ],
+    [
+      "dice number",
+      6
+    ],
+    [
+      "dice-number",
+      6
+    ],
+    [
+      "throw-the-dice",
+      6
+    ],
+    [
+      "play",
+      6
+    ],
+    [
+      "board-game",
+      6
+    ],
+    [
+      "roll",
+      6
+    ],
+    [
+      "chance",
+      4
+    ],
+    [
+      "gaming",
+      3
+    ],
+    [
+      "games",
+      3
+    ],
+    [
+      "interface",
+      2
+    ],
+    [
+      "bones",
+      2
+    ],
+    [
+      "gamble",
+      2
+    ],
+    [
+      "change",
+      2
+    ],
+    [
+      "clover",
+      2
+    ],
+    [
+      "numbers",
+      2
+    ],
+    [
+      "dice-dots",
+      1
+    ],
+    [
+      "celebration",
+      1
+    ],
+    [
+      "new-year",
+      1
+    ],
+    [
+      "party",
+      1
+    ],
+    [
+      "doodle",
+      1
+    ],
+    [
+      "math",
+      1
+    ],
+    [
+      "mathematic",
+      1
+    ],
+    [
+      "probability",
+      1
+    ],
+    [
+      "board",
+      1
+    ],
+    [
+      "number",
+      1
+    ],
+    [
+      "cubes",
+      1
+    ],
+    [
+      "lucky",
+      1
+    ],
+    [
+      "square",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "dice number",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-number",
+            "dices",
+            "throw-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5396158-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice number",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-number",
+            "dices",
+            "throw-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5396157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2317787-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "dice",
+            "game",
+            "interface",
+            "luck",
+            "play",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8337865-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "casino",
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "gambling",
+            "game"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8328720-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "casino",
+            "dice",
+            "dice-game",
+            "gambling",
+            "game",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8210049-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice number",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-number",
+            "dices",
+            "throw-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5396163-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice number",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-number",
+            "dices",
+            "throw-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5396159-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice number",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-number",
+            "dices",
+            "throw-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5396156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice number",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-number",
+            "dices",
+            "throw-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5396154-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5207875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5151381-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5087790-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4978271-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4874250-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4874239-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4777568-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4777567-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4777566-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4737877-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4737875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "dices",
+            "roll-the-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4737873-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dice roll",
+          "tags": [
+            "dice",
+            "dice-dots",
+            "dice-game",
+            "dice-roll",
+            "dices"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2317785-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "celebration",
+            "cube",
+            "dice",
+            "game",
+            "new-year",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514358-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "board-game",
+            "dice",
+            "dice-roll",
+            "doodle",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "board-game",
+            "dice",
+            "game",
+            "math",
+            "mathematic",
+            "probability"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481017-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "board",
+            "dice",
+            "game",
+            "random",
+            "roll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467429-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "casino",
+            "dice",
+            "gambling",
+            "game",
+            "luck",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460178-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "chance",
+            "dice",
+            "game",
+            "number",
+            "play"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8434563-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "casino",
+            "cubes",
+            "dice",
+            "dice-game",
+            "gambling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8427376-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "dice",
+            "game",
+            "gaming",
+            "lucky",
+            "square"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417692-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "cube",
+            "dice",
+            "gambling",
+            "game",
+            "luck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8413066-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "bones",
+            "dice",
+            "dices",
+            "gamble",
+            "game",
+            "luck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8401412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "board-game",
+            "casino",
+            "dice",
+            "game",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392340-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "board-game",
+            "casino",
+            "dice",
+            "game",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392330-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "change",
+            "clover",
+            "cube",
+            "dice",
+            "dice-roll",
+            "dices"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389417-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "change",
+            "clover",
+            "cube",
+            "dice",
+            "dice-roll",
+            "dices"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389399-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "board-game",
+            "dice",
+            "gambling",
+            "game",
+            "gaming",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "board-game",
+            "dice",
+            "gambling",
+            "game",
+            "gaming",
+            "luck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389237-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "cube",
+            "dice",
+            "dice",
+            "gambling",
+            "game",
+            "luck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8386527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "cube",
+            "dice",
+            "game",
+            "luck",
+            "play"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383792-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "dice",
+            "game",
+            "interface",
+            "luck",
+            "play",
+            "random"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8377289-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "chance",
+            "cube",
+            "dice",
+            "game",
+            "games",
+            "roll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8375933-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "chance",
+            "cube",
+            "dice",
+            "game",
+            "games",
+            "roll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8375931-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "bones",
+            "dice",
+            "dices",
+            "game",
+            "numbers",
+            "roll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8367800-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "cube",
+            "dice",
+            "game",
+            "numbers",
+            "play",
+            "roll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364804-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "bowl",
+            "dice",
+            "gamble",
+            "game",
+            "play"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8355564-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "mystery dice",
+          "tags": [
+            "dice",
+            "dice-pair",
+            "mystery-dice",
+            "rolling-dice",
+            "secret-dice"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8335431-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "casino",
+            "dice",
+            "dice-game",
+            "dice-roll",
+            "gambling",
+            "game"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8328723-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Dice",
+          "tags": [
+            "chance",
+            "cube",
+            "dice",
+            "game",
+            "games",
+            "roll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8323971-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
