@@ -1,0 +1,35 @@
+[
+ {
+  "date": "2026-11-14",
+  "mode": "add",
+  "id": "scientific-research",
+  "name": "Scientific research and development",
+  "kind": "industry",
+  "picture": "microscope",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A laboratory microscope: tilted body tube, curved arm, short stage and a wide base. A finance user would read it as science or lab work, and therefore R&D.",
+   "problems": [
+    "At 16px the tilted tube shrinks to a small rounded blob. The eyepiece and objective can't be told apart, so the tube only reads as a microscope because of the arm and base around it.",
+    "The two stacked horizontal lines at the bottom (stage and base) look like an equals sign at 16px. They also resemble the double underline used on the securitisation icons (rmbs, cmbs, abs, clo), but the uneven lengths keep them apart well enough.",
+    "The solid style changes only the tube, which becomes a filled block. The arm and base stay as strokes, so the solid icon looks lighter than solid icons with large fills, such as professional-services. This is acceptable and in line with crops and agriculture.",
+    "The joint between tube and arm is a tiny notch. At 20 and 24px it nearly disappears, so the tube can look like it is floating on the arm rather than attached to it."
+   ],
+   "fixes": [
+    "Optional: at 16px, add a 1px gap or step between the eyepiece and the main tube so the tube looks less like a blob.",
+    "Optional: make the stage line clearly shorter at 16 and 20px, or move it up 1px, so the bottom doesn't look like an equals sign or the securitisation underline.",
+    "Optional: at 20 and 24px, make the tube clearly touch or overlap the arm's arc so the joint reads as solid."
+   ]
+  },
+  "mapped": 0,
+  "why": "ISIC 72 and NACE 72 currently borrow the briefcase from professional services. Microscope is visibly distinct from the flask, DNA and briefcase icons.",
+  "cost": 0.67
+ }
+]

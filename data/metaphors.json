@@ -59,15 +59,15 @@
   "loans"
  ],
  "_retired": {
-  "flame": "energy (\u2192 oil-barrel)",
-  "ingots": "materials (\u2192 mine-cart)",
-  "gear": "industrials (\u2192 factory)",
-  "shopping-bag": "consumer-discretionary (\u2192 storefront)",
-  "first-aid-kit": "health-care (\u2192 heart-cross)",
-  "bank-building": "financials (\u2192 coins)",
-  "speech-bubble": "communication-services (\u2192 antenna)",
-  "pylon": "utilities (\u2192 drop-bolt)",
-  "monitor": "information-technology (\u2192 laptop)"
+  "flame": "energy (→ oil-barrel)",
+  "ingots": "materials (→ mine-cart)",
+  "gear": "industrials (→ factory)",
+  "shopping-bag": "consumer-discretionary (→ storefront)",
+  "first-aid-kit": "health-care (→ heart-cross)",
+  "bank-building": "financials (→ coins)",
+  "speech-bubble": "communication-services (→ antenna)",
+  "pylon": "utilities (→ drop-bolt)",
+  "monitor": "information-technology (→ laptop)"
  },
  "tap": [
   "water-utilities"
@@ -246,5 +246,8 @@
  ],
  "swap-arrows": [
   "credit-derivatives"
+ ],
+ "microscope": [
+  "scientific-research"
  ]
 }

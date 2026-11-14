@@ -1,0 +1,18 @@
+{
+  "id": "scientific-research",
+  "name": "Scientific research and development",
+  "kind": "industry",
+  "parent": "professional-services",
+  "metaphor": "microscope",
+  "keywords": [
+    "research",
+    "R&D",
+    "laboratory",
+    "science",
+    "technical testing"
+  ],
+  "reduction": "16–20: straight tube, arm, stage and base. 24+: wider eyepiece collar on top of the tube. 32+: narrow objective below the tube.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

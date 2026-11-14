@@ -1,0 +1,791 @@
+{
+  "concept": "scientific-research",
+  "query": "microscope",
+  "fetched": "2026-11-14T14:15:19.273Z",
+  "topTerms": [
+    [
+      "microscope",
+      50
+    ],
+    [
+      "laboratory",
+      21
+    ],
+    [
+      "science",
+      18
+    ],
+    [
+      "laboratory-microscope",
+      15
+    ],
+    [
+      "research",
+      15
+    ],
+    [
+      "biology-microscope",
+      13
+    ],
+    [
+      "monocular-microscope",
+      13
+    ],
+    [
+      "home-microscope",
+      11
+    ],
+    [
+      "biology",
+      11
+    ],
+    [
+      "education",
+      7
+    ],
+    [
+      "medical",
+      5
+    ],
+    [
+      "analysis",
+      4
+    ],
+    [
+      "lab",
+      4
+    ],
+    [
+      "microscope-arrow",
+      3
+    ],
+    [
+      "microscope-direction",
+      3
+    ],
+    [
+      "lens",
+      3
+    ],
+    [
+      "scientific",
+      3
+    ],
+    [
+      "school",
+      3
+    ],
+    [
+      "scientific-microscope",
+      2
+    ],
+    [
+      "microscopy",
+      2
+    ],
+    [
+      "health",
+      2
+    ],
+    [
+      "medicine",
+      2
+    ],
+    [
+      "pharmacy",
+      2
+    ],
+    [
+      "treatment",
+      2
+    ],
+    [
+      "biology-lab",
+      2
+    ],
+    [
+      "science-research",
+      2
+    ],
+    [
+      "scientific-study",
+      2
+    ],
+    [
+      "knowledge",
+      2
+    ],
+    [
+      "learning",
+      2
+    ],
+    [
+      "university",
+      2
+    ],
+    [
+      "old",
+      2
+    ],
+    [
+      "vintage",
+      2
+    ],
+    [
+      "magnify",
+      2
+    ],
+    [
+      "diagnostic",
+      2
+    ],
+    [
+      "microscope right",
+      1
+    ],
+    [
+      "microscope-right",
+      1
+    ],
+    [
+      "microscope upload",
+      1
+    ],
+    [
+      "microscope-download",
+      1
+    ],
+    [
+      "microscope-install",
+      1
+    ],
+    [
+      "microscope-upload",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Microscope",
+          "tags": [
+            "analysis",
+            "biology-microscope",
+            "laboratory",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486431-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468701-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461947-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8245717-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8221122-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756872-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7486142-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7486141-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7486140-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7115124-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7115105-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-microscope",
+            "home-microscope",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2062327-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Science",
+          "tags": [
+            "microscope",
+            "science",
+            "scientific-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1686400-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Science",
+          "tags": [
+            "microscope",
+            "science",
+            "scientific-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1604766-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "microscope right",
+          "tags": [
+            "microscope",
+            "microscope-arrow",
+            "microscope-direction",
+            "microscope-right"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1380212-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "microscope upload",
+          "tags": [
+            "microscope",
+            "microscope-download",
+            "microscope-install",
+            "microscope-upload"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1380211-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "microscope up",
+          "tags": [
+            "microscope",
+            "microscope-arrow",
+            "microscope-direction",
+            "microscope-up"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1380210-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "microscope left",
+          "tags": [
+            "microscope",
+            "microscope-arrow",
+            "microscope-direction",
+            "microscope-left"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1380208-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "microscope",
+            "microscopes",
+            "optical-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1072168-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "microscopy",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "health",
+            "medical",
+            "medicine",
+            "microscope",
+            "pharmacy",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514583-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "health",
+            "medical",
+            "medicine",
+            "microscope",
+            "pharmacy",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514571-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "lab",
+            "lens",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-lab",
+            "laboratory-microscope",
+            "microscope",
+            "science-research",
+            "scientific-study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511222-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology-lab",
+            "laboratory-microscope",
+            "microscope",
+            "microscope",
+            "science-research",
+            "scientific-study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511189-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "education",
+            "electronics",
+            "healthcare-and-medical",
+            "microscope",
+            "pathology",
+            "scientific"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508048-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "microscopy",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507672-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "education",
+            "knowledge",
+            "learning",
+            "microscope",
+            "school",
+            "university"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506075-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "education",
+            "knowledge",
+            "learning",
+            "microscope",
+            "school",
+            "university"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506062-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "lab",
+            "laboratory",
+            "microscope",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505344-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "education",
+            "laboratory",
+            "microscope",
+            "old",
+            "vintage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500861-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "analysis",
+            "biology-microscope",
+            "laboratory",
+            "laboratory-microscope",
+            "microscope",
+            "monocular-microscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500271-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "education",
+            "laboratory",
+            "microscope",
+            "old",
+            "vintage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496863-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494143-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "cell",
+            "focus",
+            "lens",
+            "magnify",
+            "microscope",
+            "observation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491454-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "school",
+            "student"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487261-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "analysis",
+            "lab",
+            "laboratory",
+            "microscope",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485124-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "analyze",
+            "magnify",
+            "microscope",
+            "observe",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482453-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "diagnostic",
+            "laboratory",
+            "medical",
+            "microscope",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478961-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "diagnostic",
+            "laboratory",
+            "medical",
+            "microscope",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478958-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "lab",
+            "laboratory",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477136-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "research",
+            "science",
+            "scientific"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475323-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "eyepiece",
+            "lab-instrument",
+            "lens",
+            "microscope",
+            "research"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474603-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "medical",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474314-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "education",
+            "laboratory",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466217-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459689-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "education",
+            "laboratory",
+            "microscope",
+            "microscope",
+            "science",
+            "scientific"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455886-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "analysis",
+            "laboratory",
+            "microscope",
+            "research",
+            "science",
+            "zoom"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455001-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Microscope",
+          "tags": [
+            "biology",
+            "laboratory",
+            "microscope",
+            "microscope",
+            "research",
+            "science"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454993-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
