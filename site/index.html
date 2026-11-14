@@ -154,13 +154,32 @@
   .detail header { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
   .detail h3 { margin: 0; font-size: 20px; letter-spacing: -0.02em; }
   .detail .sub { color: var(--muted); font: 12px var(--mono); margin-top: 3px; }
-  .hero { display: grid; place-items: center; height: 176px; background: var(--bg); border: 1px solid var(--line); border-radius: 16px; margin-top: 18px;
-    background-image: radial-gradient(var(--line) 1px, transparent 1px); background-size: 12px 12px; }
-  .hero svg, .hero img { width: 96px; height: 96px; }
-  .sizes { display: flex; align-items: end; gap: 20px; padding: 20px 2px 14px; border-bottom: 1px solid var(--line); }
-  .sizes figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
-  .sizes figcaption { font: 11px var(--mono); color: var(--faint); }
-  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 16px 0; }
+  .detail .crumb { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  .hero { display: grid; place-items: center; height: 248px; background: var(--bg); border: 1px solid var(--line); border-radius: 16px; margin-top: 16px; }
+  .stage { position: relative; width: 192px; height: 192px; }
+  .stage > svg, .stage > img { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .stage .ov { overflow: visible; }
+  .ovs, .codetabs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chip { border: 0; background: var(--pill); color: var(--muted); border-radius: 999px; padding: 4px 11px; font-size: 12.5px; }
+  .chip:hover { color: var(--fg); } .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+  .ctl { display: grid; gap: 12px; margin-top: 16px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+  .ctl .seg button { flex: 1; border: 0; background: transparent; border-radius: 999px; height: 30px; font-size: 13px; }
+  .sizer { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--muted); }
+  .sizer input { flex: 1; accent-color: var(--accent); } .sizer b { font: 12px var(--mono); color: var(--fg); font-weight: 400; min-width: 34px; text-align: right; }
+  .sizes { display: flex; align-items: end; gap: 6px; }
+  .sizes button { border: 0; background: transparent; border-radius: 10px; padding: 8px 9px 5px; display: flex; flex-direction: column; align-items: center; gap: 6px; color: inherit; }
+  .sizes button:hover, .sizes button[aria-pressed="true"] { background: var(--hover); }
+  .sizes span { font: 11px var(--mono); color: var(--faint); }
+  .detail h4 { font-size: 12px; font-weight: 500; color: var(--muted); margin: 18px 0 8px; }
+  .rel { display: flex; flex-wrap: wrap; gap: 2px; margin: 0 -6px 8px; }
+  .rel button { border: 0; background: transparent; border-radius: 10px; width: 44px; height: 44px; display: grid; place-items: center; color: inherit; }
+  .rel button:hover { background: var(--hover); }
+  .detail .code { white-space: pre; max-height: 190px; overflow: auto; margin: 10px 0 0; }
+  .kw button { border: 0; background: var(--pill); color: inherit; border-radius: 6px; padding: 1px 7px; font-size: 12px; }
+  .kw button:hover { background: var(--hover); }
+  .report { display: inline-block; margin-top: 18px; font-size: 12.5px; color: var(--muted); }
+  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 16px 0 0; }
+  @media (min-width: 1000px) { body.has-detail .wrap { margin-right: 420px; margin-left: auto; max-width: none; } }
   .btn { border: 1px solid var(--line); background: transparent; border-radius: 10px; padding: 9px 12px; font-size: 13px; font-weight: 500; }
   .btn:hover { background: var(--hover); }
   .btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
@@ -406,38 +425,90 @@ function render() {
   renderDetail();
 }
 
+// Detail panel: large preview with construction overlays, size and style controls, exports, related icons.
+const OV = { grid: false, key: true, pad: false }; let CODE = null; // overlays on the preview; which code view is open
+const toJsx = (svg, name) => {
+  const body = svg.trim().replace(/\sclass="[^"]*"/, '').replace(/ ([a-z]+(?:[-:][a-z]+)+)=/g, (m, a) => (/^(aria|data)-/.test(a) ? m : ' ' + a.replace(/[-:]([a-z])/g, (_, ch) => ch.toUpperCase()) + '='))
+    .replace(/^<svg /, '<svg {...props} ').replace(/></g, '>\n      <').replace(/^/, '    ').replace(/\n      <\/svg>$/, '\n    </svg>');
+  return `export function ${name}(props) {\n  return (\n${body}\n  );\n}\n`;
+};
+const compName = (c) => c.id.replace(/(^|-)([a-z0-9])/g, (_, __, ch) => ch.toUpperCase()).replace(/^(\d)/, 'Icon$1') + 'Icon';
+function overlaySvg(size) {
+  const g = DATA.grid[size], L = size - 2 * g.pad, P = g.pad, r = (x0, y0, x1, y1, extra = '') => `<rect x="${P + x0 * L}" y="${P + y0 * L}" width="${(x1 - x0) * L}" height="${(y1 - y0) * L}" ${extra}/>`;
+  let o = '';
+  if (OV.pad) o += `<path fill="var(--focus)" fill-opacity=".12" fill-rule="evenodd" d="M0 0H${size}V${size}H0ZM${P} ${P}V${size - P}H${size - P}V${P}Z"/>`;
+  if (OV.grid) { let d = ''; for (let i = 0; i <= size; i++) d += `M${i} 0V${size}M0 ${i}H${size}`; o += `<path d="${d}" fill="none" stroke="var(--focus)" stroke-opacity=".22" stroke-width="${size / 400}"/>`; }
+  if (OV.key) o += `<g fill="none" stroke="var(--focus)" stroke-opacity=".7" stroke-width="${size / 260}">${r(0, 0, 1, 1)}<circle cx="${size / 2}" cy="${size / 2}" r="${L / 2}"/>${r(0.08, 0.08, 0.92, 0.92, 'rx="' + L * 0.06 + '"')}${r(0.12, 0, 0.88, 1)}${r(0, 0.12, 1, 0.88)}</g>`;
+  return `<svg class="ov" viewBox="0 0 ${size} ${size}" aria-hidden="true">${o}</svg>`;
+}
+function related(c) {
+  const all = DATA.concepts, out = [];
+  const push = (list) => list.forEach((x) => { if (x.id !== c.id && !out.includes(x)) out.push(x); });
+  if (c.parent) push(all.filter((x) => x.id === c.parent));
+  push(all.filter((x) => x.parent === c.id));
+  if (c.parent) push(all.filter((x) => x.parent === c.parent));
+  if (!out.length && !['country', 'region'].includes(c.kind)) push(all.filter((x) => x.kind === c.kind));
+  return out.slice(0, 10);
+}
+async function exportPng(c, px = 512) {
+  const svg = (await exportSvg(c)).replace(/currentColor/g, state.color || '#111111').replace(/width="\d+" height="\d+"/, `width="${px}" height="${px}"`);
+  const url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' })), img = new Image();
+  await new Promise((ok, no) => { img.onload = ok; img.onerror = no; img.src = url; });
+  const cv = Object.assign(document.createElement('canvas'), { width: px, height: px }); cv.getContext('2d').drawImage(img, 0, 0, px, px); URL.revokeObjectURL(url);
+  return new Promise((ok) => cv.toBlob(ok, 'image/png'));
+}
+function saveFile(blob, name) { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); }
 function renderDetail() {
   const el = $('#detail'), c = DATA.concepts.find((x) => x.id === state.sel);
   document.body.classList.toggle('has-detail', !!c);
   if (!c) { el.classList.remove('open'); el.setAttribute('aria-hidden', 'true'); return; }
-  const parent = c.parent && DATA.concepts.find((x) => x.id === c.parent);
+  const keepScroll = el.dataset.for === c.id ? el.scrollTop : 0; el.dataset.for = c.id;
+  const parent = c.parent && DATA.concepts.find((x) => x.id === c.parent), flag = isFlag(c), rel = related(c);
+  const seg = (key, opts, cur) => `<div class="seg" data-dkey="${key}">${opts.map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${String(cur) === String(v)}">${l}</button>`).join('')}</div>`;
   el.innerHTML = `
-    <header><div><h3>${esc(c.name)}</h3><div class="sub">${esc(c.id)}${c.iso2 ? ' · ' + c.iso2 : ''}${c.m49 ? ' · M49 ' + c.m49 : ''}</div></div>
+    <header><div><div class="crumb">${esc(SINGULAR[c.kind] || c.kind)}${parent ? ` · <a href="?icon=${parent.id}" data-goto="${parent.id}">${esc(parent.name)}</a>` : ''}</div><h3>${esc(c.name)}</h3><div class="sub">${esc(c.id)}${c.iso2 ? ' · ' + c.iso2 : ''}${c.m49 ? ' · M49 ' + c.m49 : ''}</div></div>
       <button class="round" id="close" type="button" aria-label="Close details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 3l8 8M11 3l-8 8"/></svg></button></header>
-    <div class="hero">${draw(c, 48)}</div>
-    <div class="sizes">${DATA.sizes.map((s) => `<figure>${draw(c, s)}<figcaption>${s}</figcaption></figure>`).join('')}</div>
+    <div class="hero"><div class="stage">${flag ? '' : overlaySvg(state.size)}${draw(c, state.size)}</div></div>
+    ${flag ? '' : `<div class="ovs">${[['grid', 'Grid'], ['key', 'Keylines'], ['pad', 'Padding']].map(([k, l]) => `<button type="button" class="chip" data-ov="${k}" aria-pressed="${OV[k]}">${l}</button>`).join('')}</div>`}
+    <div class="ctl">${flag ? '' : seg('style', [['outline', 'Outline'], ['solid', 'Solid']], state.style)}
+      <label class="sizer"><span>Size</span><input type="range" id="dsize" min="0" max="${DATA.sizes.length - 1}" step="1" value="${DATA.sizes.indexOf(state.size)}" aria-label="Size"><b>${state.size}px</b></label>
+      <div class="sizes">${DATA.sizes.map((s) => `<button type="button" data-size="${s}" aria-pressed="${s === state.size}" title="${s}px">${draw(c, s)}<span>${s}</span></button>`).join('')}</div></div>
     <div class="actions">
-      <button class="btn primary" id="copy" type="button">Copy SVG</button><button class="btn" id="dl" type="button">Download</button>
-      <button class="btn" id="url" type="button">Copy file URL</button><button class="btn" id="cid" type="button">Copy ID</button>
+      <button class="btn primary" id="copy" type="button">Copy SVG</button>${flag ? '<button class="btn" id="url" type="button">Copy file URL</button>' : '<button class="btn" id="jsx" type="button">Copy JSX</button>'}
+      <button class="btn" id="dl" type="button">Download SVG</button><button class="btn" id="png" type="button">Download PNG</button>
     </div>
-    <div class="code">${esc(location.host + fileUrl(c))}</div>
+    <div class="codetabs">${flag ? '' : `<button type="button" class="chip" data-code="svg" aria-pressed="${CODE === 'svg'}">SVG code</button><button type="button" class="chip" data-code="jsx" aria-pressed="${CODE === 'jsx'}">JSX code</button>`}
+      ${flag ? '' : '<button type="button" class="chip" id="url">File URL</button>'}<button type="button" class="chip" id="cid">Copy ID</button></div>
+    ${CODE && !flag ? `<pre class="code" id="codeview"></pre>` : ''}
+    ${rel.length ? `<h4>Related</h4><div class="rel">${rel.map((x) => `<button type="button" data-goto="${x.id}" title="${esc(x.name)}" aria-label="${esc(x.name)}">${draw(x, 24)}</button>`).join('')}</div>` : ''}
     <dl>
-      <dt>Type</dt><dd>${esc(SINGULAR[c.kind] || c.kind)}${parent ? ` in <a href="?icon=${parent.id}" data-goto="${parent.id}">${esc(parent.name)}</a>` : ''}</dd>
-      ${c.metaphor && !isFlag(c) ? `<dt>Image</dt><dd>${esc(c.metaphor.replace(/-/g, ' '))}</dd>` : ''}
-      ${c.reduction && !isFlag(c) ? `<dt>By size</dt><dd>${esc(c.reduction)}</dd>` : ''}
+      ${c.metaphor && !flag ? `<dt>Picture</dt><dd>${esc(c.metaphor.replace(/-/g, ' ').replace(/^./, (ch) => ch.toUpperCase()))}</dd>` : ''}
+      ${c.reduction && !flag ? `<dt>By size</dt><dd>${esc(c.reduction)}</dd>` : ''}
       ${c.rationale ? `<dt>Why</dt><dd>${esc(c.rationale)}</dd>` : ''}
-      ${isFlag(c) && c.flag === 'flag-icons' ? `<dt>Flag art</dt><dd>Adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT)</dd>` : ''}
+      ${flag && c.flag === 'flag-icons' ? `<dt>Flag art</dt><dd>Adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT)</dd>` : ''}
       ${c.codes?.length ? `<dt>Codes</dt><dd class="codes">${c.codes.map((x) => `<div><span class="codechip">${esc((x.scheme + ' ' + x.code).trim())}</span><span>${esc(x.name)}</span></div>`).join('')}</dd>` : ''}
-      ${c.keywords?.length ? `<dt>Keywords</dt><dd class="kw">${c.keywords.map((k) => `<span>${esc(k)}</span>`).join('')}</dd>` : ''}
-    </dl>`;
-  el.classList.add('open'); el.setAttribute('aria-hidden', 'false');
+      ${c.keywords?.length ? `<dt>Keywords</dt><dd class="kw">${c.keywords.map((k) => `<button type="button" data-q="${esc(k)}">${esc(k)}</button>`).join('')}</dd>` : ''}
+    </dl>
+    <a class="report" href="https://github.com/I4NL4RS0N/lithos-icons/issues/new?title=${encodeURIComponent('Icon: ' + c.id)}" target="_blank" rel="noopener">Report a problem with this icon</a>`;
+  el.classList.add('open'); el.setAttribute('aria-hidden', 'false'); el.scrollTop = keepScroll;
+  const file = `${c.id}-${flag ? 'flag' : state.style}-${state.size}`;
   $('#close').onclick = () => { state.sel = null; render(); };
   $('#copy').onclick = async () => copy(await exportSvg(c), 'SVG copied');
   $('#url').onclick = () => copy(location.origin + fileUrl(c), 'URL copied');
   $('#cid').onclick = () => copy(c.id, 'ID copied');
-  $('#dl').onclick = async () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([await exportSvg(c)], { type: 'image/svg+xml' }));
-    a.download = `${c.id}-${isFlag(c) ? 'flag' : state.style}-${state.size}.svg`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); };
+  $('#dl').onclick = async () => saveFile(new Blob([await exportSvg(c)], { type: 'image/svg+xml' }), file + '.svg');
+  $('#png').onclick = async () => { try { saveFile(await exportPng(c), file + '@512.png'); } catch { toast('PNG export failed'); } };
+  if (!flag) {
+    $('#jsx').onclick = async () => copy(toJsx(await exportSvg(c), compName(c)), 'JSX copied');
+    if (CODE) exportSvg(c).then((svg) => { const v = $('#codeview'); if (v) v.textContent = CODE === 'jsx' ? toJsx(svg, compName(c)) : svg.trim().replace(/></g, '>\n  <').replace(/\n  <\/svg>$/, '\n</svg>'); });
+    el.querySelectorAll('[data-ov]').forEach((b) => (b.onclick = () => { OV[b.dataset.ov] = !OV[b.dataset.ov]; renderDetail(); }));
+    el.querySelectorAll('[data-code]').forEach((b) => (b.onclick = () => { CODE = CODE === b.dataset.code ? null : b.dataset.code; renderDetail(); }));
+    el.querySelector('[data-dkey="style"]').onclick = (e) => { const b = e.target.closest('button'); if (b) set('style', b.dataset.v); };
+  }
+  $('#dsize').oninput = (e) => set('size', DATA.sizes[+e.target.value]);
+  el.querySelectorAll('[data-size]').forEach((b) => (b.onclick = () => set('size', +b.dataset.size)));
   el.querySelectorAll('[data-goto]').forEach((a) => (a.onclick = (e) => { e.preventDefault(); state.sel = a.dataset.goto; render(); }));
+  el.querySelectorAll('[data-q]').forEach((b) => (b.onclick = () => { state.q = b.dataset.q; state.kind = 'all'; $('#q').value = state.q; render(); }));
 }
 function toast(m) { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 1400); }
 async function copy(text, msg) { try { await navigator.clipboard.writeText(text); toast(msg); } catch { toast('Copy was blocked by the browser'); } }

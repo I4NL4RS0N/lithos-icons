@@ -32,3 +32,7 @@ Top two levels of each standard always get an icon; deeper only for visibly dist
 Done: wrench, pickaxe, wind turbine, municipal dome at 16–20px, government pennant, financials (staggered coin stack), software solid.
 Open: Europe and World maps; tiny territories; flatten baked strokes in the solid style.
 Review the whole set with `node scripts/sheet.mjs <size> <zoom>`.
+
+## Site: gap with iconmcp.com (reviewed 2026-11-13)
+Done: detail view (keyline, grid and padding overlays; size slider; outline/solid switch; Copy JSX; PNG; code view; related icons; report link; grid makes room for the panel).
+Next, in order: MCP server + "Use in your agent" panel + request an icon; feed with before/after, new-icon dots, latest-change ticker; search results page, About page, standards pages on phones (icons below the fold); Outline/Solid switch in the detail panel is hard to read in dark mode.
