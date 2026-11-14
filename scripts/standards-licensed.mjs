@@ -4,7 +4,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 const concepts = new Set(JSON.parse(readFileSync('data/index.json', 'utf8')).map((c) => c.id));
 const slug = (s) => s.toLowerCase().replace(/&/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const PERMISSION = 'Published with permission for non-commercial use (confirmed by the project owner, 2026-11-13). Not covered by the MIT licence; do not reuse commercially.';
+const PERMISSION = 'Used with permission, for non-commercial use only. Not covered by the MIT licence.';
 // Name → concept, beyond exact name matches. Only where the picture clearly fits.
 const ALIAS = {
   'oil-gas-consumable-fuels': 'oil-gas', 'containers-packaging': 'packaging', 'semiconductors-semiconductor-equipment': 'semiconductors',
@@ -42,7 +42,7 @@ const outline = (file, skip) => readFileSync(file, 'utf8').split('\n').slice(ski
 if (existsSync('standards-private/gics-2025.txt')) {
   const LV = ['sector', 'industry group', 'industry', 'sub-industry'];
   const nodes = outline('standards-private/gics-2025.txt', 4).map(({ text }) => { const [, code, name] = text.match(/^(\d{2,8})\s+(.*)$/); return { code, name, level: LV[code.length / 2 - 1], parent: code.length > 2 ? code.slice(0, -2) : null }; });
-  write('gics-2025', { name: 'GICS', fullName: 'Global Industry Classification Standard', version: '2025', levels: LV, source: 'GICS is a standard of MSCI Inc. and S&P Dow Jones Indices. Structure effective per the February 2025 methodology.' }, nodes);
+  write('gics-2025', { name: 'GICS', fullName: 'Global Industry Classification Standard', version: '2025', levels: LV, source: 'GICS is a standard of MSCI and S&P Dow Jones Indices. Structure as of the February 2025 methodology.' }, nodes);
 }
 if (existsSync('standards-private/fitch-market-sectors-2020.txt')) {
   // The taxonomy has no public codes, so nodes get internal position ids (never shown; `codes: false`).
@@ -54,5 +54,5 @@ if (existsSync('standards-private/fitch-market-sectors-2020.txt')) {
   }
   const depth = Math.max(...nodes.map((n) => n.code.split('.').length));
   write('fitch-2020', { name: 'Fitch Ratings', fullName: 'Fitch Ratings market sectors', version: '2020', codes: false, levels: ['group', 'sector', 'sub-sector', 'segment', 'sub-segment'].slice(0, depth),
-    source: 'Fitch Ratings market sector taxonomy (2020). Historical and partially reconstructed; not verified as complete or current.' }, nodes);
+    source: 'Fitch Ratings sector list, 2020. Rebuilt from public material, so it may be incomplete or out of date.' }, nodes);
 }

@@ -9,8 +9,8 @@
   "industry",
   "sub-industry"
  ],
- "source": "GICS is a standard of MSCI Inc. and S&P Dow Jones Indices. Structure effective per the February 2025 methodology.",
+ "source": "GICS is a standard of MSCI and S&P Dow Jones Indices. Structure as of the February 2025 methodology.",
  "licence": "permission-noncommercial",
  "publish": true,
- "credit": "Published with permission for non-commercial use (confirmed by the project owner, 2026-11-13). Not covered by the MIT licence; do not reuse commercially."
+ "credit": "Used with permission, for non-commercial use only. Not covered by the MIT licence."
 }

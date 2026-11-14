@@ -229,12 +229,12 @@
   </header>
   <div class="intro">
     <h1>Icons for finance.</h1>
-    <p>Sectors, industries, credit asset classes, six industry standards, regions and countries. Every icon is drawn at five sizes, in outline and solid, and chosen from research into what people already recognise.</p>
+    <p>Icons for sectors, industries, credit, regions and countries, matched to GICS, NAICS and the other classification codes you already use. Outline or solid, in five sizes that are each drawn on their own rather than scaled.</p>
   </div>
   <nav id="tabs" aria-label="Browse"></nav>
   <main id="main"></main>
   <footer>
-    Icons and code are MIT. Country and region outlines are generated from Natural Earth (public domain); regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). Pilot build: shapes and content will change before 1.0.
+    Icons and code are MIT. Map outlines come from Natural Earth (public domain) and regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). It's an early build, so expect shapes to change before 1.0.
   </footer>
 </div>
 
@@ -391,7 +391,7 @@ function loadStd(std) {
     for (const n of nodes) { n.depth = n.parent ? by[n.parent].depth + 1 : 0; if (n.parent) by[n.parent].kids.push(n); }
     for (const n of [...nodes].reverse()) n.total = n.kids.reduce((a, k) => a + 1 + k.total, 0);
     STD[std.id] = { nodes, tops: nodes.filter((n) => !n.parent) }; later();
-  }).catch(() => { STD_LOADING[std.id] = null; $('#main').innerHTML = '<p class="empty">Couldn’t load this standard. Check your connection and try again.</p>'; });
+  }).catch(() => { STD_LOADING[std.id] = null; $('#main').innerHTML = '<p class="empty">Couldn’t load this one. Try refreshing.</p>'; });
 }
 // One page, many sections: plain-name icons, then each standard (every code a tile, in code order), then regions,
 // countries and themes. The sticky "Jump to" menu lists the sections; old ?kind= links show just one.
@@ -409,9 +409,9 @@ function stdSection(std, q) {
   if (!list.length) return null;
   const tile = (n) => `<button class="cell${n.direct ? '' : ' inherited'}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc((std.codes ? n.code + ' ' : '') + n.name)}">
       <span class="art">${icon(n)}</span><span class="nm">${chip(n)}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`;
-  const counts = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`).join(', ');
-  const own = tree.nodes.filter((n) => n.direct).length, distinct = new Set(tree.nodes.filter((n) => n.direct).map((n) => n.concept)).size;
-  const intro = `<p class="std-intro">${counts}. ${own} of ${tree.nodes.length.toLocaleString()} have their own icon (${distinct} distinct); faded tiles borrow their parent’s until theirs is drawn.${std.credit ? `<br><span class="credit">${esc(std.source)} ${esc(std.credit)}</span>` : ''}</p>`;
+  const lv = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`);
+  const own = tree.nodes.filter((n) => n.direct).length;
+  const intro = `<p class="std-intro">${tree.nodes.length.toLocaleString()} codes: ${lv.slice(0, -1).join(', ')} and ${lv.at(-1)}. ${own} have an icon of their own; the faded ones show their parent’s for now.${std.credit ? `<br><span class="credit">${esc(std.source)} ${esc(std.credit)}</span>` : ''}</p>`;
   return { id: std.id, label: `${std.name} ${std.version}`, html: `<section class="kind" id="${esc(std.id)}" data-sec>${head(intro, list.length.toLocaleString())}<div class="grid flat">${list.map(tile).join('')}</div></section>` };
 }
 function conceptSection(k, label, items) {
@@ -431,10 +431,10 @@ function render() {
   for (const k of PLAN) {
     if (k === 'std') { for (const std of DATA.standards) if (state.kind === 'all' || state.kind === 'sectors' || only === std.id) { const sec = stdSection(std, q); if (sec) secs.push(sec); } continue; }
     const items = shown.filter((c) => c.kind === k); if (items.length) secs.push(conceptSection(k, LABEL[k], items));
-    else if (k === 'theme' && state.kind === 'all' && !q.length) secs.push({ id: 'topics', label: LABEL[k], html: `<section class="kind" id="topics" data-sec><h2>Topics<span class="n">0</span></h2><p class="std-intro">Trending finance topics, such as energy transition, AI infrastructure and digital assets. The icon agents add the first ones in their next run.</p></section>` });
+    else if (k === 'theme' && state.kind === 'all' && !q.length) secs.push({ id: 'topics', label: LABEL[k], html: `<section class="kind" id="topics" data-sec><h2>Topics<span class="n">0</span></h2><p class="std-intro">Nothing here yet. Topics like energy transition and AI infrastructure are on the way.</p></section>` });
   }
   JUMPS = secs.map((x) => ({ id: x.id, label: x.label }));
-  $('#main').innerHTML = secs.length ? secs.map((x) => x.html).join('') : `<p class="empty">Nothing matches “${esc(state.q)}”. Try a sector, an industry, a country or a code.</p>`;
+  $('#main').innerHTML = secs.length ? secs.map((x) => x.html).join('') : `<p class="empty">Nothing matches “${esc(state.q)}”.</p>`;
   renderTabs(); renderDetail(); afterRender();
 }
 

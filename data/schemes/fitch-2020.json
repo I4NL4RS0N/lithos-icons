@@ -10,8 +10,8 @@
   "sub-sector",
   "segment"
  ],
- "source": "Fitch Ratings market sector taxonomy (2020). Historical and partially reconstructed; not verified as complete or current.",
+ "source": "Fitch Ratings sector list, 2020. Rebuilt from public material, so it may be incomplete or out of date.",
  "licence": "permission-noncommercial",
  "publish": true,
- "credit": "Published with permission for non-commercial use (confirmed by the project owner, 2026-11-13). Not covered by the MIT licence; do not reuse commercially."
+ "credit": "Used with permission, for non-commercial use only. Not covered by the MIT licence."
 }
