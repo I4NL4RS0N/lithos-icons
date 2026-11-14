@@ -70,13 +70,14 @@
   .cell .nm .codechip { display: inline-block; margin-bottom: 4px; }
   .cell.inherited .art { opacity: .38; }
   #tabs { position: sticky; top: 0; z-index: 20; margin-top: 28px; padding: 12px 0 8px; background: var(--bg); display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
-  .tabrow .viewby { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--faint); }
+  .tabrow .right { margin-left: auto; display: flex; gap: 18px; flex-wrap: wrap; }
+  .tabrow .viewby { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--faint); }
   .viewby select { appearance: none; border: 1px solid var(--line); background: var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%239a9da3' stroke-width='1.5'%3E%3Cpath d='m1 1 4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center; color: var(--fg); border-radius: 999px; padding: 6px 30px 6px 14px; font-size: 13.5px; font-weight: 500; }
   #tabs .jump { flex-wrap: nowrap; overflow-x: auto; margin: 0; scrollbar-width: none; gap: 2px; }
   #tabs .jump::-webkit-scrollbar { display: none; }
   #tabs .jump a { white-space: nowrap; flex: none; padding: 4px 10px 4px 6px; }
   #tabs .jump a.on { background: var(--hover); color: var(--fg); font-weight: 500; }
-  [data-sec] { scroll-margin-top: 112px; }
+  [data-sec] { scroll-margin-top: 72px; }
   a.mark { color: inherit; text-decoration: none; }
   .tabrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .tabrow button { border: 0; background: var(--pill); color: var(--muted); border-radius: 999px; padding: 7px 14px; font-size: 14px; font-weight: 500; display: flex; gap: 7px; align-items: baseline; }
@@ -280,8 +281,8 @@ let JUMPS = []; // [{id, label, code}] for the current view; drives the sticky j
 function renderTabs() {
   const isStd = state.kind.startsWith('std:'), subject = isStd ? 'sectors' : state.kind;
   const viewby = subject === 'sectors' ? `<label class="viewby">View by<select id="viewby" aria-label="Organise by standard"><option value="sectors">Plain names</option>${DATA.standards.map((x) => `<option value="std:${x.id}"${state.kind === 'std:' + x.id ? ' selected' : ''}>${esc(x.name)} ${esc(x.version)}</option>`).join('')}</select></label>` : '';
-  const jump = JUMPS.length > 1 ? `<div class="jump" aria-label="Jump to section">${JUMPS.map((j) => `<a href="#${esc(j.id)}" data-sec-link="${esc(j.id)}" class="${state.sec === j.id ? 'on' : ''}" title="${esc(j.title || j.label)}">${j.code ? `<span class="codechip">${esc(j.code)}</span>` : ''}${esc(j.label)}</a>`).join('')}</div>` : '';
-  $('#tabs').innerHTML = `<div class="tabrow">${SUBJECTS.map(([v, l]) => `<button type="button" data-kind="${v}" aria-pressed="${v === subject}">${l}</button>`).join('')}${viewby}</div>${jump}`;
+  const jump = JUMPS.length > 1 ? `<label class="viewby">Jump to<select id="jumpto" aria-label="Jump to section"><option value=""${state.sec ? '' : ' selected'}>Top</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc((j.code ? j.code + ' · ' : '') + j.label)}</option>`).join('')}</select></label>` : '';
+  $('#tabs').innerHTML = `<div class="tabrow">${SUBJECTS.map(([v, l]) => `<button type="button" data-kind="${v}" aria-pressed="${v === subject}">${l}</button>`).join('')}<span class="right">${viewby}${jump}</span></div>`;
 }
 const SEC = { sector: 'sectors', industry: 'industries', 'asset-class': 'credit', theme: 'themes', country: 'countries', region: 'regions' };
 const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', theme: 'Theme', country: 'Country', region: 'Region' };
@@ -442,19 +443,18 @@ function afterRender() {
 }
 function spy() {
   if (Date.now() < lock || PENDING) return;
-  const off = $('#tabs').offsetHeight + 28; let cur = null;
+  const off = $('#tabs').offsetHeight + 24; let cur = null;
   for (const el of document.querySelectorAll('#main [data-sec]')) { if (el.getBoundingClientRect().top <= off) cur = el.id; else break; }
   if (cur && innerHeight + scrollY >= document.documentElement.scrollHeight - 4) cur = [...document.querySelectorAll('#main [data-sec]')].pop().id; // end of page: the last section can't reach the top
   if (cur === state.sec) return;
   state.sec = cur; syncUrl();
-  document.querySelectorAll('#tabs [data-sec-link]').forEach((a) => { const on = a.dataset.secLink === cur; a.classList.toggle('on', on);
-    if (on) { const row = a.parentElement; row.scrollTo({ left: a.offsetLeft - row.clientWidth / 2 + a.clientWidth / 2, behavior: 'smooth' }); } });
+  const sel = $('#jumpto'); if (sel) sel.value = cur || '';
 }
 let tick = 0; addEventListener('scroll', () => { if (!tick) tick = requestAnimationFrame(() => { tick = 0; spy(); }); }, { passive: true });
 function goSection(id, smooth = true) {
   const el = document.getElementById(id); if (!el) return;
   state.sec = id; lock = Date.now() + 1100; el.scrollIntoView({ block: 'start', behavior: smooth ? 'smooth' : 'auto' }); syncUrl();
-  document.querySelectorAll('#tabs [data-sec-link]').forEach((a) => a.classList.toggle('on', a.dataset.secLink === id));
+  const sel = $('#jumpto'); if (sel) sel.value = id;
 }
 function toTop() { const t = $('.intro').getBoundingClientRect().bottom + scrollY; if (scrollY > t) scrollTo(0, t); }
 
@@ -565,9 +565,9 @@ $('#reset').onclick = () => { Object.assign(state, DEF); save(); render(); };
 $('#styleBtn').onclick = () => set('style', state.style === 'solid' ? 'outline' : 'solid');
 $('#custom').onclick = () => { state.pop = !state.pop; syncControls(); };
 $('#tabs').onclick = (e) => {
-  const a = e.target.closest('a[data-sec-link]'); if (a) { e.preventDefault(); return goSection(a.dataset.secLink); }
   const b = e.target.closest('button[data-kind]'); if (!b) return; state.kind = b.dataset.kind; state.sel = null; state.sec = null; toTop(); render(); };
-$('#tabs').onchange = (e) => { if (e.target.id === 'viewby') { state.kind = e.target.value; state.sel = null; state.sec = null; toTop(); render(); } };
+$('#tabs').onchange = (e) => { if (e.target.id === 'jumpto') { if (e.target.value) goSection(e.target.value); else { state.sec = null; lock = Date.now() + 1100; scrollTo({ top: 0, behavior: 'smooth' }); syncUrl(); } return; }
+   if (e.target.id === 'viewby') { state.kind = e.target.value; state.sel = null; state.sec = null; toTop(); render(); } };
 $('#home').onclick = (e) => { e.preventDefault(); Object.assign(state, { q: '', kind: 'all', sel: null, sec: null }); $('#q').value = ''; scrollTo(0, 0); render(); };
 addEventListener('hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id && id !== state.sec) goSection(id, false); });
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); state.sec = null; render(); };
