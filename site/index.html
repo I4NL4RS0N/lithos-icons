@@ -273,17 +273,17 @@
 <script>/*__BUNDLE__*/</script>
 <script>
 const DATA = /*__DATA__*/null;
-const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['theme', 'Themes'], ['country', 'Countries'], ['region', 'Regions']];
+const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['theme', 'Topics'], ['country', 'Countries'], ['region', 'Regions']];
 // Two questions, in order: what are you looking for (subject), then which scheme files it (only sectors have schemes).
-const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors & industries'], ['asset-class', 'Credit'], ['theme', 'Themes'], ['country', 'Countries'], ['region', 'Regions']].filter(([v]) => v !== 'theme' || DATA.concepts.some((c) => c.kind === 'theme'));
+const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors & industries'], ['asset-class', 'Credit'], ['theme', 'Topics'], ['country', 'Countries'], ['region', 'Regions']].filter(([v]) => v !== 'theme' || DATA.concepts.some((c) => c.kind === 'theme'));
 const inKind = (c, kind) => kind === 'all' || (kind === 'sectors' ? c.kind === 'sector' || c.kind === 'industry' : c.kind === kind);
 let JUMPS = []; // [{id, label, code}] for the current view; drives the sticky jump row
 function renderTabs() {
   const jump = `<label class="viewby">Jump to<select id="jumpto" aria-label="Jump to section"><option value=""${state.sec ? '' : ' selected'}>Top</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc(j.label)}</option>`).join('')}</select></label>`;
   $('#tabs').innerHTML = `<div class="tabrow"><span class="count">${state.kind === 'all' ? `${DATA.concepts.length} icons · ${DATA.standards.length} standards` : '<button type="button" data-kind="all" class="back">← All icons</button>'}</span><span class="right">${jump}</span></div>`;
 }
-const SEC = { sector: 'sectors', industry: 'industries', 'asset-class': 'credit', theme: 'themes', country: 'countries', region: 'regions' };
-const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', theme: 'Theme', country: 'Country', region: 'Region' };
+const SEC = { sector: 'sectors', industry: 'industries', 'asset-class': 'credit', theme: 'topics', country: 'countries', region: 'regions' };
+const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', theme: 'Topic', country: 'Country', region: 'Region' };
 const COLORS = [['', 'Default'], ['#2f6feb', 'Blue'], ['#7c5cff', 'Violet'], ['#2da44e', 'Green'], ['#d1434b', 'Red'], ['#d4901f', 'Amber'], ['#74777d', 'Grey']];
 const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
 const BASE_RADIUS_PX = 2.8, BASE_GAP_PX = 1.5;
@@ -419,7 +419,7 @@ function conceptSection(k, label, items) {
       <button class="cell" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>` };
 }
 const PLAN = ['sector', 'industry', 'asset-class', 'std', 'region', 'country', 'theme']; // page order
-const LABEL = { sector: 'Sectors', industry: 'Industries', 'asset-class': 'Credit asset classes', region: 'Regions', country: 'Countries', theme: 'Themes' };
+const LABEL = { sector: 'Sectors', industry: 'Industries', 'asset-class': 'Credit asset classes', region: 'Regions', country: 'Countries', theme: 'Topics' };
 
 function render() {
   syncControls(); syncUrl();
@@ -431,6 +431,7 @@ function render() {
   for (const k of PLAN) {
     if (k === 'std') { for (const std of DATA.standards) if (state.kind === 'all' || state.kind === 'sectors' || only === std.id) { const sec = stdSection(std, q); if (sec) secs.push(sec); } continue; }
     const items = shown.filter((c) => c.kind === k); if (items.length) secs.push(conceptSection(k, LABEL[k], items));
+    else if (k === 'theme' && state.kind === 'all' && !q.length) secs.push({ id: 'topics', label: LABEL[k], html: `<section class="kind" id="topics" data-sec><h2>Topics<span class="n">0</span></h2><p class="std-intro">Trending finance topics, such as energy transition, AI infrastructure and digital assets. The icon agents add the first ones in their next run.</p></section>` });
   }
   JUMPS = secs.map((x) => ({ id: x.id, label: x.label }));
   $('#main').innerHTML = secs.length ? secs.map((x) => x.html).join('') : `<p class="empty">Nothing matches “${esc(state.q)}”. Try a sector, an industry, a country or a code.</p>`;

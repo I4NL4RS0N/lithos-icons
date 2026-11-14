@@ -86,7 +86,7 @@ flags/
 {
   "id": "pharma",
   "name": "Pharmaceuticals",
-  "kind": "sector",            // sector | asset-class | theme | country | region | grouping
+  "kind": "sector",            // UI calls "theme" Topics; id stays theme. sector | asset-class | theme | country | region | grouping
   "keywords": ["drugs", "medicine", "biopharma", "pills"],
   "metaphor": "capsule",
   "status": "active",          // active | deprecated
