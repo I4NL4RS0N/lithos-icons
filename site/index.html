@@ -96,6 +96,32 @@
   #tabs .jump a.on { background: var(--hover); color: var(--fg); font-weight: 500; }
   [data-sec] { scroll-margin-top: 72px; }
   a.mark { color: inherit; text-decoration: none; }
+  .ticker { display: flex; align-items: center; gap: 8px; padding: 12px 0 0; font-size: 12.5px; color: var(--muted); text-decoration: none; }
+  .ticker[hidden] { display: none; }
+  .ticker b { color: var(--fg); font-weight: 500; }
+  .ticker .go { margin-left: auto; }
+  .ticker .tk-art { display: inline-flex; color: var(--fg); }
+  .cell.fresh::after { content: ""; position: absolute; top: 14px; left: calc(50% + 16px); width: 7px; height: 7px; border-radius: 50%; background: #3b6df0; }
+  body.feed .intro, body.feed .sticky, body.feed #main { display: none; }
+  #feed { max-width: 640px; margin: 40px auto 120px; }
+  #feed h1 { font-size: 26px; letter-spacing: -0.02em; margin: 0 0 6px; }
+  #feed .lede { margin: 0 0 18px; color: var(--muted); font-size: 14px; }
+  #feed .fchips { display: flex; gap: 6px; margin-bottom: 8px; }
+  #feed .day { margin: 30px 0 4px; font-size: 13px; color: var(--muted); display: flex; gap: 8px; align-items: baseline; }
+  #feed .day b { color: var(--fg); font-size: 14px; }
+  .fi { padding: 22px 0; border-top: 1px solid var(--line); display: grid; gap: 12px; }
+  .fi header { display: flex; align-items: baseline; gap: 8px; font-size: 14px; }
+  .fi header time { margin-left: auto; color: var(--faint); font-size: 12.5px; }
+  .fi .tags { display: flex; gap: 8px; font-size: 12px; color: var(--muted); }
+  .fi .tags .tag { background: var(--pill); border-radius: 999px; padding: 1px 9px; color: var(--fg); }
+  .fi .fstage { display: flex; align-items: center; gap: 28px; padding: 26px 28px; background: var(--pill); border-radius: 14px; }
+  .fi .fstage .big svg { width: 72px; height: 72px; }
+  .fi .fstage .small { display: flex; align-items: center; gap: 14px; margin-left: auto; color: var(--muted); }
+  .fi p { margin: 0; font-size: 14px; line-height: 1.55; color: var(--muted); }
+  .fi .meta { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); }
+  .fi .acts { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .fi code { font: 12px var(--mono); color: var(--muted); }
+
   .tabrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .tabrow button { border: 0; background: var(--pill); color: var(--muted); border-radius: 999px; padding: 7px 14px; font-size: 14px; font-weight: 500; display: flex; gap: 7px; align-items: baseline; }
   .tabrow button:hover { color: var(--fg); }
@@ -230,18 +256,24 @@
     .pop { bottom: 70px; }
     aside.detail { top: auto; bottom: 0; height: 86%; width: 100%; border-left: 0; border-top: 1px solid var(--line); border-radius: 22px 22px 0 0; transform: translateY(105%); }
     nav.links { gap: 14px; }
+    .mark { white-space: nowrap; } .mark .ver { display: none; }
+    #feed, .fi, .fi > * { min-width: 0; }
+    .fi .fstage { padding: 20px 16px; gap: 14px; } .fi .fstage .big svg { width: 56px; height: 56px; } .fi .fstage .small { gap: 8px; }
+    .fi code { overflow-wrap: anywhere; }
   }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
 <div class="wrap">
+  <a class="ticker" id="ticker" href="?view=feed" hidden></a>
   <header class="top">
     <a class="mark" id="home" href="/" aria-label="Lithos Icons, home">
       <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M16 5c2.4 3.6 7.6 8.6 7.6 13.4a7.6 7.6 0 0 1-15.2 0C8.4 13.6 13.6 8.6 16 5Z" fill="var(--bg)"/><path d="m17.2 13-3.8 6h2.8l-1 4.4 3.8-6h-2.8Z" fill="currentColor"/></svg>
       Lithos Icons <span class="ver">v__VERSION__ pilot</span>
     </a>
     <nav class="links" aria-label="Site">
+      <a href="?view=feed" id="feed-link">Feed</a>
       <button type="button" id="agents-open" class="linkbtn" aria-label="Use Lithos in your agent (MCP)" title="Use Lithos in your agent"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 1.5v3M10.5 1.5v3M3.5 4.5h9v2.5a4.5 4.5 0 0 1-9 0V4.5ZM8 11.5v3"/></svg>MCP</button>
       <a href="https://github.com/I4NL4RS0N/lithos-icons">GitHub</a>
       <a href="https://github.com/I4NL4RS0N/lithos-icons/blob/main/LICENSE">MIT</a>
@@ -259,6 +291,7 @@
     <nav id="tabs" aria-label="Browse"></nav>
   </div>
   <main id="main"></main>
+  <section id="feed" hidden></section>
   <dialog id="agents" aria-labelledby="ag-title"></dialog>
   <footer>
     Icons and code are MIT. Map outlines come from Natural Earth (public domain) and regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). It's an early build, so expect shapes to change before 1.0.
@@ -313,7 +346,7 @@ const BASE_RADIUS_PX = 2.8, BASE_GAP_PX = 1.5;
 
 const load = () => { try { return JSON.parse(localStorage.getItem('li:settings3')) || {}; } catch { return {}; } };
 const save = () => { try { localStorage.setItem('li:settings3', JSON.stringify(Object.fromEntries(Object.keys(DEF).map((k) => [k, state[k]])))); } catch {} };
-const state = { ...DEF, ...load(), q: '', kind: 'all', sel: null, pop: false, sec: decodeURIComponent(location.hash.slice(1)) || null };
+const state = { ...DEF, ...load(), q: '', kind: 'all', sel: null, pop: false, sec: decodeURIComponent(location.hash.slice(1)) || null, view: new URLSearchParams(location.search).get('view') === 'feed' ? 'feed' : null };
 let PENDING = !!state.sec; // scroll to the linked section once it exists
 { const u = new URLSearchParams(location.search);
   if (u.get('q')) state.q = u.get('q'); if (u.get('icon')) state.sel = u.get('icon');
@@ -381,7 +414,7 @@ function matches(c, q) {
 
 function syncUrl() {
   const u = new URLSearchParams();
-  if (state.q) u.set('q', state.q); if (state.kind !== 'all') u.set('kind', state.kind); if (state.sel) u.set('icon', state.sel);
+  if (state.view) u.set('view', state.view); if (state.q) u.set('q', state.q); if (state.kind !== 'all') u.set('kind', state.kind); if (state.sel) u.set('icon', state.sel);
   try { history.replaceState(null, '', (u.toString() ? '?' + u : location.pathname) + (state.sec ? '#' + encodeURIComponent(state.sec) : '')); } catch {}
 }
 
@@ -430,7 +463,7 @@ function stdSection(std, q) {
   const order = []; const walk = (n) => { order.push(n); n.kids.forEach(walk); }; tree.tops.forEach(walk); // parent just before its children
   const list = q.length ? order.filter(self) : order;
   if (!list.length) return null;
-  const tile = (n) => `<button class="cell${n.direct ? '' : ' inherited'}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc((std.codes ? n.code + ' ' : '') + n.name)}">
+  const tile = (n) => `<button class="cell${n.direct ? '' : ' inherited'}${n.direct && FRESH.has(n.concept) ? ' fresh' : ''}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc((std.codes ? n.code + ' ' : '') + n.name)}">
       <span class="art">${icon(n)}</span><span class="nm">${chip(n)}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`;
   const lv = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`);
   const own = tree.nodes.filter((n) => n.direct).length;
@@ -439,13 +472,15 @@ function stdSection(std, q) {
 }
 function conceptSection(k, label, items) {
   return { id: SEC[k], label, html: `<section class="kind" id="${SEC[k]}" data-sec><h2>${label}<span class="n">${items.length}</span></h2><div class="grid${state.labels === 'off' ? ' nolabels' : ''}">${items.map((c) => `
-      <button class="cell" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>` };
+      <button class="cell${FRESH.has(c.id) ? ' fresh' : ''}" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>` };
 }
 const PLAN = ['sector', 'industry', 'asset-class', 'std', 'region', 'country', 'theme']; // page order
 const LABEL = { sector: 'Sectors', industry: 'Industries', 'asset-class': 'Credit asset classes', region: 'Regions', country: 'Countries', theme: 'Topics' };
 
 function render() {
   syncControls(); syncUrl();
+  document.body.classList.toggle('feed', state.view === 'feed'); $('#feed').hidden = state.view !== 'feed';
+  if (state.view === 'feed') { renderFeed(); renderDetail(); return; }
   const q = state.q.toLowerCase().split(/\s+/).filter(Boolean);
   const only = state.kind.startsWith('std:') ? state.kind.slice(4) : null;
   const wantConcept = (c) => (only ? false : inKind(c, state.kind));
@@ -594,13 +629,60 @@ $('#tabs').onclick = (e) => {
   const b = e.target.closest('button[data-kind]'); if (!b) return; state.kind = b.dataset.kind; state.sel = null; state.sec = null; toTop(); render(); };
 $('#tabs').onchange = (e) => { if (e.target.id === 'jumpto') { if (e.target.value) goSection(e.target.value); else { state.sec = null; lock = Date.now() + 1100; scrollTo({ top: 0, behavior: 'smooth' }); syncUrl(); } return; }
    if (e.target.id === 'viewby') { state.kind = e.target.value; state.sel = null; state.sec = null; toTop(); render(); } };
-$('#home').onclick = (e) => { e.preventDefault(); Object.assign(state, { q: '', kind: 'all', sel: null, sec: null }); $('#q').value = ''; scrollTo(0, 0); render(); };
+$('#home').onclick = (e) => { e.preventDefault(); Object.assign(state, { q: '', kind: 'all', sel: null, sec: null, view: null }); $('#q').value = ''; scrollTo(0, 0); render(); };
 addEventListener('hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id === 'agents') return openAgents(); if (id && id !== state.sec) goSection(id, false); });
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); state.sec = null; render(); };
 $('#main').onclick = (e) => {
   const t = e.target.closest('.cell, .std-head, .ghead'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
 dark.addEventListener('change', () => syncControls());
 document.addEventListener('pointerdown', (e) => { if (state.pop && !e.target.closest('#pop, #custom')) { state.pop = false; syncControls(); } });
+
+
+// ---- Agent feed, ticker and new-icon dots (all from the agents' log, built into the page) ----
+const FEED = DATA.feed || [];
+const stamp = (e) => (e.at ? new Date(e.at) : new Date(e.date + 'T12:00:00'));
+const ago = (e) => {
+  const m = Math.round((Date.now() - stamp(e)) / 60000);
+  if (e.at) { if (m < 2) return 'just now'; if (m < 60) return m + ' min ago'; if (m < 1440) return Math.round(m / 60) + ' h ago'; }
+  const d = Math.round((new Date().setHours(0, 0, 0, 0) - new Date(e.date + 'T00:00:00')) / 864e5);
+  return d <= 0 ? 'today' : d === 1 ? 'yesterday' : d + ' days ago';
+};
+const dayLabel = (date) => { const d = Math.round((new Date().setHours(0, 0, 0, 0) - new Date(date + 'T00:00:00')) / 864e5); return d <= 0 ? 'Today' : d === 1 ? 'Yesterday' : new Date(date + 'T12:00').toLocaleDateString(undefined, { month: 'long', day: 'numeric' }); };
+const FRESH = new Set(FEED.filter((e) => e.result !== 'rejected' && Date.now() - stamp(e) < 7 * 864e5).map((e) => e.id));
+let FF = 'all';
+const VERB = { add: 'drew', refine: 'refined' }, WHO = { add: 'Drawer', refine: 'Refiner' };
+function renderTicker() {
+  const e = FEED.find((x) => x.result !== 'rejected'), c = e && byId[e.id], t = $('#ticker');
+  if (!c) return;
+  t.hidden = false; t.innerHTML = `<span class="tk-art">${draw(c, 16, 'outline')}</span><span>Lithos agents ${VERB[e.mode]} <b>${esc(c.name)}</b> · ${ago(e)}</span><span class="go">Feed ›</span>`;
+}
+function renderFeed() {
+  const items = FEED.filter((e) => e.result !== 'rejected' && (FF === 'all' || e.mode === FF));
+  const days = [...new Set(items.map((e) => e.date))];
+  const chip = (v, l) => `<button type="button" class="chip" data-ff="${v}" aria-pressed="${FF === v}">${l}</button>`;
+  const first = (t) => String(t || '').split(/(?<=[.!?])\s/)[0];
+  const card = (e) => {
+    const c = byId[e.id], pass = e.s?.every((x) => x >= 4);
+    const body = e.mode === 'refine' ? (e.problems?.length ? `Fixed: ${esc(first(e.problems[0]))}` : '') : (e.reads ? `The judge read it as: ${esc(first(e.reads).replace(/^An? /, 'a '))}` : '');
+    return `<article class="fi"><header><b>${WHO[e.mode]}</b><span>${VERB[e.mode]} <b>${esc(c.name)}</b></span><time>${ago(e)}</time></header>
+      <div class="tags"><span class="tag">${e.mode === 'add' ? 'New icon' : 'Refined'}</span><span>${esc(SINGULAR[c.kind] || c.kind)}</span></div>
+      <div class="fstage"><span class="big">${draw(c, 48, 'outline')}</span><span class="big">${draw(c, 48, 'solid')}</span><span class="small">${DATA.sizes.slice(0, 4).map((z) => draw(c, z, 'outline')).join('')}</span></div>
+      ${body ? `<p>${body}</p>` : ''}${e.mode === 'add' && e.why ? `<p>Why: ${esc(first(e.why))}</p>` : ''}
+      <div class="meta">${e.attempts ? `<span>Drawn in ${e.attempts} ${e.attempts === 1 ? 'try' : 'tries'}</span>` : ''}${pass ? '<span>Passed the judge</span>' : ''}${e.picture ? `<span>Picture: ${esc(String(e.picture).replace(/-/g, ' '))}</span>` : ''}</div>
+      <div class="acts"><button class="btn" type="button" data-open="${esc(c.id)}">Open in library</button><code>get_icon({ id: "${esc(c.id)}" })</code></div></article>`;
+  };
+  $('#feed').innerHTML = `<h1>What the agents are making</h1><p class="lede">Every icon the agents add or refine, newest first.</p>
+    <div class="fchips">${chip('all', 'All')}${chip('add', 'New icons')}${chip('refine', 'Refined')}</div>
+    ${days.length ? days.map((d) => { const day = FEED.filter((e) => e.date === d), n = day.filter((e) => e.mode === 'add' && e.result === 'added').length, rf = day.filter((e) => e.result === 'refined').length, no = day.filter((e) => e.result === 'rejected').length;
+      return `<div class="day"><b>${dayLabel(d)}</b><span>${[n && `${n} new`, rf && `${rf} refined`, no && `${no} not kept`].filter(Boolean).join(' · ')}</span></div>${items.filter((e) => e.date === d).map(card).join('')}`; }).join('') : `<p class="lede" style="margin-top:28px">Nothing yet. The agents add their next batch overnight.</p>`}`;
+}
+$('#feed').addEventListener('click', (e) => {
+  const f = e.target.closest('[data-ff]'); if (f) { FF = f.dataset.ff; return renderFeed(); }
+  const o = e.target.closest('[data-open]'); if (o) { state.view = null; state.kind = 'all'; state.sel = o.dataset.open; render(); }
+});
+const toFeed = (e) => { e.preventDefault(); state.view = 'feed'; state.sel = null; scrollTo(0, 0); render(); };
+$('#ticker').onclick = toFeed; $('#feed-link').onclick = toFeed;
+renderTicker();
 
 // ---- For agents: MCP server setup ----
 const AG = { client: 'claude-code' };

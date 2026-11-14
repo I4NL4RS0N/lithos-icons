@@ -48,7 +48,15 @@ const standards = readdirSync('data/schemes').filter((f) => f.endsWith('.json'))
 const LEAD = ['energy', 'materials', 'industrials', 'consumer-discretionary', 'consumer-staples', 'health-care', 'financials', 'information-technology', 'communication-services', 'utilities', 'real-estate'];
 const rank = (c) => (LEAD.includes(c.id) ? LEAD.indexOf(c.id) : LEAD.length);
 concepts.sort((a, b) => rank(a) - rank(b)); // stable: everything else keeps its order
-const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts, standards };
+// Agent activity for the feed, ticker and new-icon dots. Only what is safe and useful to show (no cost, no raw reasons).
+const names = Object.fromEntries(concepts.map((c) => [c.id, c.name]));
+const feed = (existsSync('data/agents/log.json') ? JSON.parse(readFileSync('data/agents/log.json', 'utf8')) : []).slice(-300).reverse().map((e) => {
+  if (e.result === 'rejected') return { date: e.date, at: e.at, mode: e.mode, result: 'rejected' };
+  const sc = e.scores || {};
+  return { date: e.date, at: e.at, mode: e.mode, result: e.result, id: e.id, name: names[e.id] || e.name, kind: e.kind, attempts: e.attempts, why: e.why, reads: sc.reads_as, problems: (e.problems || []).slice(0, 2),
+    picture: e.picture, s: [sc.recognisable, sc.small_sizes, sc.solid, sc.consistency, sc.distinct] };
+}).filter((e) => e.result === 'rejected' || names[e.id]);
+const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts, standards, feed };
 const tpl = readFileSync('site/index.html', 'utf8');
 const html = tpl.replace('/*__BUNDLE__*/', () => bundle.replace(/<\/script/gi, '<\\/script')).replace('/*__DATA__*/null', () => JSON.stringify(data).replace(/</g, '\\u003c')).replace(/__VERSION__/g, pkg.version);
 if (existsSync('site/og.png')) cpSync('site/og.png', join(out, 'og.png'));

@@ -20,7 +20,7 @@ const sh = (cmd, opts = {}) => execSync(cmd, { encoding: 'utf8', stdio: ['ignore
 const ok = (cmd) => { try { sh(cmd); return true; } catch (e) { return false; } };
 const json = (p) => JSON.parse(readFileSync(p, 'utf8'));
 const index = () => json('data/index.json').filter((c) => !['country', 'region'].includes(c.kind));
-const log = (entry) => { mkdirSync('data/agents', { recursive: true }); const p = 'data/agents/log.json', all = existsSync(p) ? json(p) : []; all.push({ date: today, ...entry }); writeFileSync(p, JSON.stringify(all, null, 1) + '\n'); };
+const log = (entry) => { mkdirSync('data/agents', { recursive: true }); const p = 'data/agents/log.json', all = existsSync(p) ? json(p) : []; all.push({ date: today, at: new Date().toISOString(), ...entry }); writeFileSync(p, JSON.stringify(all, null, 1) + '\n'); };
 
 // One Claude run. Returns { text, data (when a schema is given), cost, error }.
 function claude(role, prompt, { tools, allow = tools, turns = 30, budget = 3, schema, edits = false }) {
