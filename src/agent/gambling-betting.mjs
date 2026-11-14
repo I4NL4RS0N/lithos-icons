@@ -2,7 +2,7 @@ import { pick } from '../lib/shapes.mjs';
 
 export default {
   id: 'gambling-betting',
-  name: 'Gambling and betting activities',
+  name: 'Gambling & Betting',
   kind: 'industry',
   parent: 'arts-recreation',
   metaphor: 'tilted-die',

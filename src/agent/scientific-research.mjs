@@ -2,7 +2,7 @@ import { pick } from '../lib/shapes.mjs';
 
 export default {
   id: 'scientific-research',
-  name: 'Scientific research and development',
+  name: 'Scientific Research & Development',
   kind: 'industry',
   parent: 'professional-services',
   metaphor: 'microscope',

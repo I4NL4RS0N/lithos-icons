@@ -1,7 +1,7 @@
 [
   {
     "id": "gambling-betting",
-    "name": "Gambling and betting activities",
+    "name": "Gambling & Betting",
     "kind": "industry",
     "parent": "arts-recreation",
     "metaphor": "tilted-die",
@@ -19,7 +19,7 @@
   },
   {
     "id": "scientific-research",
-    "name": "Scientific research and development",
+    "name": "Scientific Research & Development",
     "kind": "industry",
     "parent": "professional-services",
     "metaphor": "microscope",

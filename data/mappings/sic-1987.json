@@ -53,5 +53,7 @@
  "01": "crops",
  "02": "livestock",
  "08": "forestry",
- "09": "fishing"
+ "09": "fishing",
+ "8731": "scientific-research",
+ "8733": "scientific-research"
 }
