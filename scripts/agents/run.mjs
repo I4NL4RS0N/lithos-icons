@@ -20,7 +20,7 @@ const sh = (cmd, opts = {}) => execSync(cmd, { encoding: 'utf8', stdio: ['ignore
 const ok = (cmd) => { try { sh(cmd); return true; } catch (e) { return false; } };
 const json = (p) => JSON.parse(readFileSync(p, 'utf8'));
 const index = () => json('data/index.json').filter((c) => !['country', 'region'].includes(c.kind));
-const log = (entry) => { const p = 'data/agents/log.json', all = existsSync(p) ? json(p) : []; all.push({ date: today, ...entry }); writeFileSync(p, JSON.stringify(all, null, 1) + '\n'); };
+const log = (entry) => { mkdirSync('data/agents', { recursive: true }); const p = 'data/agents/log.json', all = existsSync(p) ? json(p) : []; all.push({ date: today, ...entry }); writeFileSync(p, JSON.stringify(all, null, 1) + '\n'); };
 
 // One Claude run. Returns { text, data (when a schema is given), cost, error }.
 function claude(role, prompt, { tools, allow = tools, turns = 30, budget = 3, schema, edits = false }) {
@@ -42,7 +42,7 @@ const ALLOWED = {
   refine: [/^src\/(agent|concepts)\/[a-z0-9-]+\.mjs$/],
   built: [/^icons\//, /^data\/(concepts|research|mappings|agents)\//, /^data\/(index|metaphors)\.json$/, /^previews\//],
 };
-const changed = () => sh('git status --porcelain').split('\n').filter(Boolean).map((l) => l.slice(3).replace(/^"|"$/g, ''));
+const changed = () => sh('git status --porcelain -uall').split('\n').filter(Boolean).map((l) => l.slice(3).replace(/^"|"$/g, ''));
 const strays = (mode) => changed().filter((f) => ![...ALLOWED[mode], ...ALLOWED.built].some((re) => re.test(f)));
 const discard = () => { sh('git reset -q --hard HEAD && git clean -qfd src icons data previews'); };
 
@@ -171,12 +171,13 @@ function add() {
       const d = drawNew(c, attempts === 1 ? null : feedback);
       if (attempts === 1 && !d.error && !existsSync(`src/agent/${c.id}.mjs`)) { reason = 'drawer wrote no file'; break; }
       reason = d.error ? 'drawer run failed' : gate(c.id, 'add');
-      if (reason) { feedback = `The automatic checks failed:\n${reason}`; continue; }
+      if (reason) { console.log(`  [gate] ${reason.slice(0, 600)}`); feedback = `The automatic checks failed:\n${reason}`; continue; }
       const built = index().find((x) => x.id === c.id), taken = (json('data/metaphors.json')[built.metaphor] || []).filter((x) => x !== c.id);
       if (taken.length) { reason = `picture "${built.metaphor}" is already used by ${taken.join(', ')}`; feedback = `Rejected: ${reason}. Choose a different picture.`; continue; }
       verdict = judge(built, previews(c.id)).data;
       if (passes(verdict)) { reason = null; break; }
       reason = 'judge: ' + (verdict?.problems || ['no verdict']).join('; ');
+      console.log(`  [judge] ${JSON.stringify(verdict).slice(0, 700)}`);
       feedback = `The independent judge rejected it (it read as: ${verdict?.reads_as || '?'}).\nProblems:\n- ${(verdict?.problems || []).join('\n- ')}\nFixes:\n- ${(verdict?.fixes || []).join('\n- ')}`;
     }
     const cost = +(spent - t0).toFixed(2);
@@ -215,6 +216,7 @@ The curator found these problems:\n- ${t.problems.join('\n- ')}
 Then: npm run build, npm run validate (0 errors), node scripts/preview.mjs ${c.id} agent-${c.id}, and LOOK at previews/agent-${c.id}.png, 16px first. A strict judge will compare before and after, and the change is kept only if it is clearly better.`,
     { tools: DRAW_TOOLS, allow: DRAW_ALLOW, turns: 60, budget: 5, edits: true });
     let reason = d.error ? 'drawer run failed' : gate(c.id, 'refine'), verdict = null;
+    if (reason) console.log(`  [gate] ${reason.slice(0, 600)}`);
     if (!reason) {
       const now = index().find((x) => x.id === c.id);
       if (!now || now.name !== c.name || now.kind !== c.kind || now.parent !== c.parent || index().length !== have.length) reason = 'changed identity fields or other concepts';
