@@ -8,8 +8,9 @@ import roadmap1 from './concepts/roadmap1.mjs';
 import roadmap2 from './concepts/roadmap2.mjs';
 import roadmap3 from './concepts/roadmap3.mjs';
 import credit2 from './concepts/credit2.mjs';
+import agent from './concepts/agent.mjs';
 
-const draw = Object.fromEntries([...sectors, ...industries, ...credit, ...economy, ...roadmap1, ...roadmap2, ...roadmap3, ...credit2].map((c) => [c.id, c.draw]));
+const draw = Object.fromEntries([...sectors, ...industries, ...credit, ...economy, ...roadmap1, ...roadmap2, ...roadmap3, ...credit2, ...agent].map((c) => [c.id, c.draw]));
 export const has = (id) => id in draw;
 export function render(id, size, style, opts) {
   const k = kit(size, style, opts);

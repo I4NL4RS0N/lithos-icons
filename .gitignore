@@ -11,3 +11,4 @@ flags/*
 !flags/de/
 !flags/fr/
 !flags/br/
+previews/agent-*

@@ -267,9 +267,9 @@
 <script>/*__BUNDLE__*/</script>
 <script>
 const DATA = /*__DATA__*/null;
-const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['country', 'Countries'], ['region', 'Regions']];
+const KINDS = [['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Credit asset classes'], ['theme', 'Themes'], ['country', 'Countries'], ['region', 'Regions']];
 // Two questions, in order: what are you looking for (subject), then which scheme files it (only sectors have schemes).
-const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors and industries'], ['asset-class', 'Credit'], ['country', 'Countries'], ['region', 'Regions']];
+const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors and industries'], ['asset-class', 'Credit'], ['theme', 'Themes'], ['country', 'Countries'], ['region', 'Regions']].filter(([v]) => v !== 'theme' || DATA.concepts.some((c) => c.kind === 'theme'));
 const inKind = (c, kind) => kind === 'all' || (kind === 'sectors' ? c.kind === 'sector' || c.kind === 'industry' : c.kind === kind);
 function renderTabs() {
   const isStd = state.kind.startsWith('std:'), subject = isStd ? 'sectors' : state.kind;
@@ -277,7 +277,7 @@ function renderTabs() {
   $('#tabs').innerHTML = `<div class="tabrow">${SUBJECTS.map(([v, l]) => tab(v, l, v === subject, DATA.concepts.filter((c) => inKind(c, v)).length)).join('')}</div>`
     + (subject === 'sectors' ? `<div class="tabrow by"><span class="lab">Organised by</span>${tab('sectors', 'Plain names', !isStd)}${DATA.standards.map((x) => tab('std:' + x.id, `${esc(x.name)} ${esc(x.version)}`, state.kind === 'std:' + x.id)).join('')}</div>` : '');
 }
-const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', country: 'Country', region: 'Region' };
+const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', theme: 'Theme', country: 'Country', region: 'Region' };
 const COLORS = [['', 'Default'], ['#2f6feb', 'Blue'], ['#7c5cff', 'Violet'], ['#2da44e', 'Green'], ['#d1434b', 'Red'], ['#d4901f', 'Amber'], ['#74777d', 'Grey']];
 const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
 const BASE_RADIUS_PX = 2.8, BASE_GAP_PX = 1.5;

@@ -29,7 +29,8 @@ const ALIAS = {
 };
 const conceptFor = (name) => { const s = slug(name); return concepts.has(s) ? s : ALIAS[s] && concepts.has(ALIAS[s]) ? ALIAS[s] : null; };
 const write = (id, scheme, nodes) => {
-  const map = {}; for (const n of nodes) { const c = conceptFor(n.name); if (c) map[n.code] = c; }
+  const prev = existsSync(`data/mappings/${id}.json`) ? JSON.parse(readFileSync(`data/mappings/${id}.json`, 'utf8')) : {}; // keep mappings agents added
+  const map = { ...prev }; for (const n of nodes) { const c = conceptFor(n.name); if (c) map[n.code] = c; }
   writeFileSync(`data/schemes/${id}.json`, JSON.stringify({ id, ...scheme, licence: 'permission-noncommercial', publish: true, credit: PERMISSION }, null, 1) + '\n');
   writeFileSync(`data/nodes/${id}.json`, JSON.stringify(nodes, null, 1) + '\n');
   writeFileSync(`data/mappings/${id}.json`, JSON.stringify(map, null, 1) + '\n');

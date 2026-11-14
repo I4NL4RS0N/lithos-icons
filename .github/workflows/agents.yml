@@ -1,0 +1,61 @@
+name: Icon agents
+# Adds and refines icons with no human in the loop. See SPEC.md §9 and scripts/agents/run.mjs.
+on:
+  schedule:
+    - cron: '17 9 * * *'   # daily: add new icons
+    - cron: '43 13 * * 0'  # Sundays: refine the weakest icons
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: add or refine
+        default: add
+        type: choice
+        options: [add, refine]
+      count:
+        description: How many icons to attempt
+        default: '10'
+      dry_run:
+        description: Judge and report only; commit nothing
+        default: false
+        type: boolean
+permissions:
+  contents: write
+concurrency:
+  group: icon-agents
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      NOUN_PROJECT_KEY: ${{ secrets.NOUN_PROJECT_KEY }}
+      NOUN_PROJECT_SECRET: ${{ secrets.NOUN_PROJECT_SECRET }}
+      ICONFINDER_KEY: ${{ secrets.ICONFINDER_KEY }}
+      MAX_USD_PER_RUN: ${{ vars.MAX_USD_PER_RUN || '30' }}
+      MODE: ${{ inputs.mode || (github.event.schedule == '43 13 * * 0' && 'refine' || 'add') }}
+      COUNT: ${{ inputs.count || (github.event.schedule == '43 13 * * 0' && '3' || '10') }}
+      DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+      - run: npm ci
+      - run: npm install -g @anthropic-ai/claude-code
+      - name: Identify as the agents
+        run: |
+          git config user.name "lithos-icon-agents"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Run agents
+        run: node scripts/agents/run.mjs "$MODE" "$COUNT"
+      - name: Publish
+        if: env.DRY_RUN != '1'
+        run: |
+          git reset -q --hard HEAD
+          if [ "$(git rev-list --count origin/main..HEAD)" = "0" ]; then echo "nothing to publish"; exit 0; fi
+          npm run build && npm run validate
+          git diff --exit-code -- icons data/concepts data/index.json
+          git pull -q --rebase origin main
+          git push origin HEAD:main

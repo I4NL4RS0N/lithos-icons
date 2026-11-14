@@ -13,5 +13,8 @@ Read `SPEC.md` before any work. It is the source of truth for decisions, data mo
 - Every icon change must pass the validator and visual regression before merge.
 - Every PR includes rendered previews (all sizes, both styles).
 
+## Agents
+- Agent-made icons live in `src/agent/<id>.mjs`, one concept per file; read `docs/DRAWING.md` first. Runner and guardrails: SPEC §9.
+
 ## Current milestone
 M0 → M1 (pilot). See SPEC.md §13.

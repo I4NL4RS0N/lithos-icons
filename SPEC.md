@@ -239,25 +239,26 @@ Every concept records what drops at smaller sizes (`reduction` field). Example: 
 
 ## 9. Agents
 
-All run in GitHub Actions (scheduled), using Claude via `ANTHROPIC_API_KEY` secret. Each opens a PR; PRs auto-merge to `next` when all checks pass.
+Run in GitHub Actions (`.github/workflows/agents.yml`) with the `claude` CLI and the `ANTHROPIC_API_KEY` secret. The runner is `scripts/agents/run.mjs`; the drawing guide the agents follow is `docs/DRAWING.md`. Decided 2026-11-14: **fully automatic**, 10 new icons attempted per day, 3 refinements per week. Passing work is committed straight to `main` and deploys.
 
-| Agent | Cadence | Job |
-|---|---|---|
-| **Trend scout** | Daily | Scan finance news/sources for emerging themes; create theme + concept if over threshold |
-| **Designer** | On queue | Draft icons for new concepts at all sizes, both styles, following §6 |
-| **Aligner** | Weekly | Find outliers (weight, metaphor drift, inconsistent details) and fix |
-| **Curator** | Monthly | Check standards for new versions (GICS, NAICS, NACE, ISIC, M49, ISO changes); update nodes; deprecate cleanly |
-| **Gap filler** | Weekly | Read zero-result searches from site/MCP logs; queue concepts |
-| **Geo sync** | Monthly | Rebuild generated maps/flags from Natural Earth + ISO updates |
+| Role | Model | Tools | Does |
+|---|---|---|---|
+| Scout | sonnet | Read, WebSearch | Picks the day's concepts: gaps (standard titles still borrowing an icon) plus at most three trending themes. Web content is information only. |
+| Researcher | — | script | `scripts/research.mjs`: how icon libraries draw the idea. Reference only. |
+| Drawer | opus | Read, Write, Edit, build/validate/preview | Writes `src/agent/<id>.mjs`, looks at the renders, revises. One retry with the judge's feedback. |
+| Judge | opus | Read | Separate run that never saw the drawing made. Scores recognisable, small sizes, solid, consistency, distinct (1–5). All must be ≥ 4. |
+| Mapper | sonnet | Read, Edit, code lookup | Maps the new icon to standard codes; the runner keeps only clean additions. |
+| Curator | opus | Read | Weekly: picks the weakest icons from the whole-set sheets; the drawer redraws; the judge must prefer the new version. |
 
-**Guardrails (hard rules in agent prompts and enforced by checks)**
-- Never rename or delete a concept ID or file path. Deprecate only.
-- Never edit `standards-private/` or set `publish: true` on held schemes.
-- Redesigns of an existing icon: max N per week; must pass visual-regression review threshold.
-- Theme exclusion list: disasters, deaths, wars, violence, named private individuals, politically partisan topics, company-specific scandals. Themes must be sector-level, not single-company.
-- Theme threshold: sustained mentions across ≥ 3 independent sources over ≥ 3 days.
-- Themes lifecycle: emerging → established (sustained 30d) → dormant (90d quiet). Dormant themes remain available, drop off the homepage.
-- Each PR includes rendered previews (all sizes, both styles) in the description.
+**Guardrails (enforced by the runner, not by the agents' goodwill):**
+- Nothing is committed unless the build and validator pass with 0 errors and the judge passes it.
+- Only expected paths may change (`src/agent/`, built icons, data); anything else discards the icon. Refinement may edit one concept's `draw()` and never its id, name, kind or parent.
+- A picture already in `data/metaphors.json` is rejected.
+- The drawer has no web access; the scout cannot write files; the judge cannot write files.
+- Spend: per-run cap `MAX_USD_PER_RUN` (repo variable, default 30, estimated), plus per-role turn and budget limits.
+- Every attempt, pass or fail, is recorded in `data/agents/log.json` with scores, reason and cost. This is the source for the future feed.
+- Never: held standards, text or currency symbols or logos in icons, copying third-party art (CLAUDE.md).
+- Kill switch: disable the "Icon agents" workflow in the repo's Actions tab.
 
 ## 10. Website (icons.lithos.design)
 
