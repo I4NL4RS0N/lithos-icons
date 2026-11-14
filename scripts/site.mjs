@@ -50,10 +50,13 @@ const rank = (c) => (LEAD.includes(c.id) ? LEAD.indexOf(c.id) : LEAD.length);
 concepts.sort((a, b) => rank(a) - rank(b)); // stable: everything else keeps its order
 // Agent activity for the feed, ticker and new-icon dots. Only what is safe and useful to show (no cost, no raw reasons).
 const names = Object.fromEntries(concepts.map((c) => [c.id, c.name]));
+// Before/after SVGs come from the log, so allow only plain shapes before they are put in the page.
+const SAFE = /^<svg[^>]*>(?:<(?:path|circle|rect|g|ellipse|line|polyline|polygon)\b[^>]*\/?>|<\/g>)*<\/svg>$/;
+const safeSet = (o) => { try { for (const z of [16, 24]) for (const st of ['outline', 'solid']) if (!SAFE.test(o[z][st]) || /on\w+=|href|script/i.test(o[z][st])) return null; return o; } catch { return null; } };
 const feed = (existsSync('data/agents/log.json') ? JSON.parse(readFileSync('data/agents/log.json', 'utf8')) : []).slice(-300).reverse().map((e) => {
   if (e.result === 'rejected') return { date: e.date, at: e.at, mode: e.mode, result: 'rejected' };
   const sc = e.scores || {};
-  return { date: e.date, at: e.at, mode: e.mode, result: e.result, id: e.id, name: names[e.id] || e.name, kind: e.kind, attempts: e.attempts, why: e.why, reads: sc.reads_as, problems: (e.problems || []).slice(0, 2),
+  return { date: e.date, at: e.at, mode: e.mode, result: e.result, id: e.id, name: names[e.id] || e.name, kind: e.kind, attempts: e.attempts, why: e.why, reads: sc.reads_as, problems: (e.problems || []).slice(0, 2), before: e.before && e.after ? safeSet(e.before) : null, after: e.before && e.after ? safeSet(e.after) : null,
     picture: e.picture, s: [sc.recognisable, sc.small_sizes, sc.solid, sc.consistency, sc.distinct] };
 }).filter((e) => e.result === 'rejected' || names[e.id]);
 const data = { version: pkg.version, grid: GRID, sizes: SIZES, concepts, standards, feed };

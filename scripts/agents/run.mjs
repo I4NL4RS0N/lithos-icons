@@ -200,6 +200,9 @@ function add() {
 }
 
 // ---------- refine ----------
+// The icon's own SVG files at the sizes the feed compares (16 and 24, outline and solid).
+const snap = (id) => Object.fromEntries([16, 24].map((z) => [z, Object.fromEntries(['outline', 'solid'].map((st) => [st, readFileSync(`icons/${id}/${st}-${z}.svg`, 'utf8').trim()]))]));
+
 function refine() {
   sh('node scripts/sheet.mjs 24 2 && node scripts/sheet.mjs 16 3');
   const have = index(), recent = existsSync('data/agents/log.json') ? json('data/agents/log.json').filter((e) => e.mode === 'refine').slice(-30).map((e) => e.id) : [];
@@ -215,6 +218,7 @@ For each give the id exactly as labelled and the concrete problems to fix. Valid
     const file = existsSync(`src/agent/${c.id}.mjs`) ? `src/agent/${c.id}.mjs` : sh(`grep -l "id: '${c.id}'" src/concepts/*.mjs`).trim().split('\n')[0];
     mkdirSync('previews', { recursive: true }); sh(`node scripts/preview.mjs ${c.id} agent-${c.id}-before`);
     copyFileSync(`previews/agent-${c.id}-before.png`, `/tmp/before-${c.id}.png`);
+    const before = snap(c.id);
     const d = claude('draw', `You are the drawer for the Lithos Icons set. ${drawRules}
 
 Improve the existing icon "${c.name}" (id ${c.id}) in ${file}. Change only this concept's draw() function and, if needed, its "reduction" note and "metaphor". Never change its id, name, kind or parent, and do not touch any other concept in the file.
@@ -230,7 +234,7 @@ Then: npm run build, npm run validate (0 errors), node scripts/preview.mjs ${c.i
     }
     const cost = +(spent - t0).toFixed(2);
     if (reason) { discard(); log({ mode: 'refine', id: c.id, result: 'rejected', reason: reason.slice(0, 500), scores: verdict, cost }); results.push(`✗ ${c.id}: ${reason.slice(0, 120)}`); if (!DRY) { sh('git add data/agents/log.json'); sh(`git commit -q -m "Agents: log rejected refinement of ${c.id}"`); } continue; }
-    log({ mode: 'refine', id: c.id, name: c.name, result: 'refined', problems: t.problems, scores: verdict, cost });
+    log({ mode: 'refine', id: c.id, name: c.name, result: 'refined', problems: t.problems, scores: verdict, before, after: snap(c.id), cost });
     commit(`Agents: refine ${c.name} icon`, `Fixed: ${t.problems.join('; ')}\nJudge preferred the new version; reads as "${verdict.reads_as || ''}".`);
     results.push(`✓ ${c.id}`);
   }

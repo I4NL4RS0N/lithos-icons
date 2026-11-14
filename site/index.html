@@ -116,6 +116,24 @@
   .fi .meta { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); }
   .fi .acts { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
   .fi code { font: 12px var(--mono); color: var(--muted); }
+  .fi .ba { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .fi .ba > div { background: var(--pill); border-radius: 14px; padding: 16px 18px 18px; display: grid; gap: 14px; }
+  .fi .ba h4 { margin: 0; font-size: 12px; font-weight: 500; color: var(--muted); }
+  .fi .ba .row { display: flex; align-items: center; gap: 22px; }
+  .fi .ba .small { display: flex; gap: 10px; margin-left: auto; color: var(--muted); }
+  .fi .ba .big svg { width: 64px; height: 64px; }
+  .amap { display: grid; gap: 10px; margin-top: 22px; }
+  .amap .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; position: relative; }
+  .amap .node { border: 1px solid var(--line); border-radius: 14px; padding: 14px 14px 16px; display: grid; gap: 6px; align-content: start; background: var(--bg); position: relative; }
+  .amap .node b { font-size: 14px; }
+  .amap .node .model { font: 11.5px var(--mono); color: var(--faint); }
+  .amap .node p { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+  .amap .node .n { font-size: 11.5px; color: var(--faint); }
+  .amap .flow .node:not(:last-child)::after { content: "→"; position: absolute; right: -13px; top: 18px; color: var(--faint); font-size: 13px; z-index: 1; }
+  .amap h3 { margin: 18px 0 0; font-size: 13px; color: var(--muted); font-weight: 500; }
+  .amap .flow.weekly { grid-template-columns: repeat(3, 1fr); }
+  .amap .stats { display: flex; gap: 22px; flex-wrap: wrap; padding: 14px 0 4px; font-size: 13px; color: var(--muted); }
+  .amap .stats b { display: block; font-size: 20px; color: var(--fg); letter-spacing: -0.02em; }
 
   .tabrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .tabrow button { border: 0; background: var(--pill); color: var(--muted); border-radius: 999px; padding: 7px 14px; font-size: 14px; font-weight: 500; display: flex; gap: 7px; align-items: baseline; }
@@ -258,6 +276,9 @@
     #feed, .fi, .fi > * { min-width: 0; }
     .fi .fstage { padding: 20px 16px; gap: 14px; } .fi .fstage .big svg { width: 56px; height: 56px; } .fi .fstage .small { gap: 8px; }
     .fi code { overflow-wrap: anywhere; }
+    .amap .flow, .amap .flow.weekly { grid-template-columns: 1fr; }
+    .amap .flow .node:not(:last-child)::after { content: "↓"; right: auto; left: 16px; top: auto; bottom: -14px; }
+    .fi .ba { grid-template-columns: 1fr; }
   }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -645,24 +666,37 @@ const dayLabel = (date) => { const d = Math.round((new Date().setHours(0, 0, 0, 
 const FRESH = new Set(FEED.filter((e) => e.result !== 'rejected' && Date.now() - stamp(e) < 7 * 864e5).map((e) => e.id));
 let FF = 'all';
 const VERB = { add: 'drew', refine: 'refined' }, WHO = { add: 'Drawer', refine: 'Refiner' };
+function agentMap() {
+  const add = FEED.filter((e) => e.mode === 'add'), kept = add.filter((e) => e.result === 'added').length, tried = add.length;
+  const refined = FEED.filter((e) => e.result === 'refined').length, last = FEED[0];
+  const node = (n, name, model, job) => `<div class="node"><span class="n">${n}</span><b>${name}</b><span class="model">${model}</span><p>${job}</p></div>`;
+  return `<div class="amap">
+    <div class="stats"><span><b>${kept}</b>icons added</span><span><b>${tried ? kept + ' of ' + tried : '—'}</b>kept by the judge</span><span><b>${refined}</b>refined</span><span><b>${last ? ago(last) : '—'}</b>last activity</span></div>
+    <h3>Every night: ten new icons</h3>
+    <div class="flow">${node(1, 'Scout', 'Sonnet', 'Picks what to draw: gaps in the standards, plus topics from the news.')}${node(2, 'Researcher', 'Noun Project', 'Checks what pictures people already recognise. Reference only; nothing is copied.')}${node(3, 'Drawer', 'Opus', 'Draws it in code, at every size, outline and solid.')}${node(4, 'Judge', 'Opus', 'Scores it on five counts. All must reach 4 out of 5, or it goes back once, then is dropped.')}${node(5, 'Mapper', 'Sonnet', 'Matches it to the standard codes it clearly stands for.')}</div>
+    <h3>Every Sunday: three refinements</h3>
+    <div class="flow weekly">${node(1, 'Curator', 'Opus', 'Looks at the whole set and picks the three weakest icons.')}${node(2, 'Drawer', 'Opus', 'Redraws each one to fix the problems the curator found.')}${node(3, 'Judge', 'Opus', 'Compares before and after. It ships only if the new one is clearly better.')}</div>
+    <p style="margin-top:14px;font-size:13px;color:var(--muted)">Nothing is published unless it passes the validator and the judge. The log behind this page is <a href="https://github.com/I4NL4RS0N/lithos-icons/blob/main/data/agents/log.json">public</a>.</p></div>`;
+}
 function renderFeed() {
   const items = FEED.filter((e) => e.result !== 'rejected' && (FF === 'all' || e.mode === FF));
   const days = [...new Set(items.map((e) => e.date))];
   const chip = (v, l) => `<button type="button" class="chip" data-ff="${v}" aria-pressed="${FF === v}">${l}</button>`;
   const first = (t) => String(t || '').split(/(?<=[.!?])\s/)[0];
+  const ba = (e) => `<div class="ba">${[['Before', e.before], ['After', e.after]].map(([l, o]) => `<div><h4>${l}</h4><div class="row"><span class="big">${o[24].outline}</span><span class="big">${o[24].solid}</span><span class="small">${o[16].outline}${o[16].solid}</span></div></div>`).join('')}</div>`;
   const card = (e) => {
     const c = byId[e.id], pass = e.s?.every((x) => x >= 4);
     const body = e.mode === 'refine' ? (e.problems?.length ? `Fixed: ${esc(first(e.problems[0]))}` : '') : (e.reads ? `The judge read it as: ${esc(first(e.reads).replace(/^An? /, 'a '))}` : '');
     return `<article class="fi"><header><b>${WHO[e.mode]}</b><span>${VERB[e.mode]} <b>${esc(c.name)}</b></span><time>${ago(e)}</time></header>
       <div class="tags"><span class="tag">${e.mode === 'add' ? 'New icon' : 'Refined'}</span><span>${esc(SINGULAR[c.kind] || c.kind)}</span></div>
-      <div class="fstage"><span class="big">${draw(c, 48, 'outline')}</span><span class="big">${draw(c, 48, 'solid')}</span><span class="small">${DATA.sizes.slice(0, 4).map((z) => draw(c, z, 'outline')).join('')}</span></div>
+      ${e.mode === 'refine' && e.before && e.after ? ba(e) : `<div class="fstage"><span class="big">${draw(c, 48, 'outline')}</span><span class="big">${draw(c, 48, 'solid')}</span><span class="small">${DATA.sizes.slice(0, 4).map((z) => draw(c, z, 'outline')).join('')}</span></div>`}
       ${body ? `<p>${body}</p>` : ''}${e.mode === 'add' && e.why ? `<p>Why: ${esc(first(e.why))}</p>` : ''}
       <div class="meta">${e.attempts ? `<span>Drawn in ${e.attempts} ${e.attempts === 1 ? 'try' : 'tries'}</span>` : ''}${pass ? '<span>Passed the judge</span>' : ''}${e.picture ? `<span>Picture: ${esc(String(e.picture).replace(/-/g, ' '))}</span>` : ''}</div>
       <div class="acts"><button class="btn" type="button" data-open="${esc(c.id)}">Open in library</button><code>get_icon({ id: "${esc(c.id)}" })</code></div></article>`;
   };
   $('#feed').innerHTML = `<h1>What the agents are making</h1><p class="lede">Every icon the agents add or refine, newest first.</p>
-    <div class="fchips">${chip('all', 'All')}${chip('add', 'New icons')}${chip('refine', 'Refined')}</div>
-    ${days.length ? days.map((d) => { const day = FEED.filter((e) => e.date === d), n = day.filter((e) => e.mode === 'add' && e.result === 'added').length, rf = day.filter((e) => e.result === 'refined').length, no = day.filter((e) => e.result === 'rejected').length;
+    <div class="fchips">${chip('all', 'All')}${chip('add', 'New icons')}${chip('refine', 'Refined')}${chip('agents', 'The agents')}</div>
+    ${FF === 'agents' ? agentMap() : days.length ? days.map((d) => { const day = FEED.filter((e) => e.date === d), n = day.filter((e) => e.mode === 'add' && e.result === 'added').length, rf = day.filter((e) => e.result === 'refined').length, no = day.filter((e) => e.result === 'rejected').length;
       return `<div class="day"><b>${dayLabel(d)}</b><span>${[n && `${n} new`, rf && `${rf} refined`, no && `${no} not kept`].filter(Boolean).join(' · ')}</span></div>${items.filter((e) => e.date === d).map(card).join('')}`; }).join('') : `<p class="lede" style="margin-top:28px">Nothing yet. The agents add their next batch overnight.</p>`}`;
 }
 $('#feed').addEventListener('click', (e) => {
