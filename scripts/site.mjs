@@ -54,4 +54,5 @@ const html = tpl.replace('/*__BUNDLE__*/', () => bundle.replace(/<\/script/gi, '
 if (existsSync('site/og.png')) cpSync('site/og.png', join(out, 'og.png'));
 writeFileSync(join(out, 'index.html'), html);
 writeFileSync(join(out, 'index.json'), JSON.stringify(index, null, 2));
+writeFileSync(join(out, 'standards.json'), JSON.stringify(standards.map((x) => ({ id: x.id, name: x.name, fullName: x.fullName, version: x.version, levels: x.levels, codes: x.codes, credit: x.credit || undefined })), null, 2));
 console.log(`dist/index.html ${(html.length / 1024).toFixed(0)} KB, ${concepts.length} concepts`);

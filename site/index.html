@@ -38,7 +38,22 @@
   .mark .ver { font: 12px var(--mono); color: var(--faint); font-weight: 400; }
   nav.links { display: flex; gap: 20px; color: var(--muted); font-size: 13px; }
   nav.links a { text-decoration: none; }
-  nav.links a:hover { color: var(--fg); }
+  nav.links a:hover, nav.links .linkbtn:hover { color: var(--fg); }
+  .linkbtn { border: 0; background: none; padding: 0; font: inherit; color: inherit; cursor: pointer; }
+  dialog#agents { border: 1px solid var(--line); border-radius: 16px; background: var(--bg); color: var(--fg); padding: 0; width: min(640px, calc(100% - 24px)); max-height: calc(100vh - 48px); box-shadow: 0 24px 60px rgba(0,0,0,.25); }
+  dialog#agents::backdrop { background: rgba(0,0,0,.4); }
+  .ag { padding: 26px 28px 28px; display: grid; gap: 18px; }
+  .ag header { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  .ag h2 { margin: 0 0 4px; font-size: 22px; letter-spacing: -0.02em; }
+  .ag p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+  .ag h3 { margin: 0 0 8px; font-size: 13px; }
+  .ag .urlrow, .ag pre { display: flex; align-items: center; justify-content: space-between; gap: 10px; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: 12.5px/1.5 var(--mono); background: var(--pill); }
+  .ag pre { display: block; margin: 0; white-space: pre-wrap; word-break: break-all; position: relative; }
+  .ag .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+  .ag ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 13.5px; color: var(--muted); }
+  .ag li b { color: var(--fg); font: 500 12.5px var(--mono); }
+  .ag .try li { padding: 8px 12px; border-radius: 10px; background: var(--pill); color: var(--fg); }
+
   .intro { padding: 56px 0 8px; max-width: 640px; }
   .intro h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.02; letter-spacing: -0.035em; margin: 0 0 14px; font-weight: 650; }
   .intro p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.5; }
@@ -223,6 +238,7 @@
       Lithos Icons <span class="ver">v__VERSION__ pilot</span>
     </a>
     <nav class="links" aria-label="Site">
+      <button type="button" id="agents-open" class="linkbtn">For agents</button>
       <a href="https://github.com/I4NL4RS0N/lithos-icons">GitHub</a>
       <a href="https://github.com/I4NL4RS0N/lithos-icons/blob/main/LICENSE">MIT</a>
     </nav>
@@ -233,6 +249,7 @@
   </div>
   <nav id="tabs" aria-label="Browse"></nav>
   <main id="main"></main>
+  <dialog id="agents" aria-labelledby="ag-title"></dialog>
   <footer>
     Icons and code are MIT. Map outlines come from Natural Earth (public domain) and regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). It's an early build, so expect shapes to change before 1.0.
   </footer>
@@ -442,7 +459,7 @@ function render() {
 let lock = 0;
 function afterRender() {
   if (PENDING && state.sec) { const el = document.getElementById(state.sec); if (el) { if (DATA.standards.every((x) => STD[x.id])) PENDING = false; lock = Date.now() + 400; el.scrollIntoView({ block: 'start' }); } }
-  else if (state.sec && !document.getElementById(state.sec) && !PENDING) { state.sec = null; syncUrl(); }
+  else if (state.sec && state.sec !== 'agents' && !document.getElementById(state.sec) && !PENDING) { state.sec = null; syncUrl(); }
 }
 function spy() {
   if (Date.now() < lock || PENDING) return;
@@ -572,12 +589,44 @@ $('#tabs').onclick = (e) => {
 $('#tabs').onchange = (e) => { if (e.target.id === 'jumpto') { if (e.target.value) goSection(e.target.value); else { state.sec = null; lock = Date.now() + 1100; scrollTo({ top: 0, behavior: 'smooth' }); syncUrl(); } return; }
    if (e.target.id === 'viewby') { state.kind = e.target.value; state.sel = null; state.sec = null; toTop(); render(); } };
 $('#home').onclick = (e) => { e.preventDefault(); Object.assign(state, { q: '', kind: 'all', sel: null, sec: null }); $('#q').value = ''; scrollTo(0, 0); render(); };
-addEventListener('hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id && id !== state.sec) goSection(id, false); });
+addEventListener('hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id === 'agents') return openAgents(); if (id && id !== state.sec) goSection(id, false); });
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); state.sec = null; render(); };
 $('#main').onclick = (e) => {
   const t = e.target.closest('.cell, .std-head, .ghead'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
 dark.addEventListener('change', () => syncControls());
 document.addEventListener('pointerdown', (e) => { if (state.pop && !e.target.closest('#pop, #custom')) { state.pop = false; syncControls(); } });
+
+// ---- For agents: MCP server setup ----
+const AG = { client: 'claude-code' };
+function agentsHtml() {
+  const url = location.origin + '/mcp';
+  const CL = {
+    'claude-code': ['Claude Code', `claude mcp add --transport http lithos ${url}`, 'Run this once in your terminal.'],
+    cursor: ['Cursor', JSON.stringify({ mcpServers: { lithos: { url } } }, null, 2), 'Add to .cursor/mcp.json, or the global one.'],
+    vscode: ['VS Code', JSON.stringify({ servers: { lithos: { type: 'http', url } } }, null, 2), 'Add to .vscode/mcp.json.'],
+    claude: ['Claude app', url, 'Settings → Connectors → Add custom connector, then paste the URL.'],
+    other: ['Other', `npx mcp-remote ${url}`, 'For clients that only run local servers, this bridges to the hosted one.'],
+  };
+  const [, code, note] = CL[AG.client];
+  return `<div class="ag"><header><div><h2 id="ag-title">Use Lithos in your agent</h2><p>Ask your coding agent for an icon by name, or by its GICS, NAICS or other code. It’s free, with no key.</p></div>
+    <button class="round" id="ag-close" type="button" aria-label="Close"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 3l8 8M11 3l-8 8"/></svg></button></header>
+    <div><h3>Server</h3><div class="urlrow"><span>${esc(url)}</span><button class="btn" type="button" data-copy="${esc(url)}">Copy</button></div></div>
+    <div><h3>Add it</h3><div class="tabs">${Object.entries(CL).map(([k, v]) => `<button type="button" class="chip" data-client="${k}" aria-pressed="${k === AG.client}">${v[0]}</button>`).join('')}</div>
+      <pre>${esc(code)}</pre><p style="margin-top:8px">${esc(note)} <button class="linkbtn" type="button" data-copy="${esc(code)}" style="text-decoration:underline">Copy</button></p></div>
+    <div><h3>Try asking</h3><ul class="try"><li>Use the Lithos icon for NAICS 5221 in the bank card.</li><li>Add a 20px solid icon for each GICS sector to this sidebar.</li><li>What icons does Lithos have for Germany and the euro area?</li></ul></div>
+    <div><h3>What it can do</h3><ul><li><b>search_icons</b> Find icons by name or keyword.</li><li><b>get_icon</b> Get SVG in outline or solid, any size, with your stroke width and colour.</li><li><b>lookup_code</b> Find the icon for a code or title in any standard.</li><li><b>list_collections</b> See what’s available.</li></ul></div>
+    <div><h3>No agent?</h3><p>Every file is a plain URL: <code>/icons/&lt;id&gt;/outline-24.svg</code>. The full list is at <a href="/index.json">/index.json</a>, and each standard’s codes are at <code>/std/gics-2025.json</code>.</p></div></div>`;
+}
+function openAgents() { const d = $('#agents'); d.innerHTML = agentsHtml(); if (!d.open) d.showModal(); if (location.hash !== '#agents') { state.sec = 'agents'; syncUrl(); } }
+function closeAgents() { const d = $('#agents'); if (d.open) d.close(); }
+$('#agents-open').onclick = openAgents;
+$('#agents').addEventListener('close', () => { if (state.sec === 'agents') { state.sec = null; syncUrl(); } });
+$('#agents').addEventListener('click', (e) => {
+  if (e.target === e.currentTarget || e.target.closest('#ag-close')) return closeAgents();
+  const c = e.target.closest('[data-client]'); if (c) { AG.client = c.dataset.client; $('#agents').innerHTML = agentsHtml(); return; }
+  const cp = e.target.closest('[data-copy]'); if (cp) { navigator.clipboard?.writeText(cp.dataset.copy).then(() => { const t = cp.textContent; cp.textContent = 'Copied'; setTimeout(() => (cp.textContent = t), 1200); }, () => toast('Copy was blocked by the browser')); }
+});
+if (state.sec === 'agents') { state.sec = null; PENDING = false; openAgents(); }
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') { if (state.pop) { state.pop = false; syncControls(); } else if (state.sel) { state.sel = null; render(); } else if (document.activeElement === $('#q')) $('#q').blur(); }
   if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName))) { e.preventDefault(); $('#q').focus(); $('#q').select(); }
