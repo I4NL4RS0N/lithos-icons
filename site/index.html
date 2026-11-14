@@ -10,7 +10,7 @@
 <meta property="og:image" content="https://icons.lithos.design/og.png">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111'/%3E%3Cpath d='M16 5c2.4 3.6 7.6 8.6 7.6 13.4a7.6 7.6 0 0 1-15.2 0C8.4 13.6 13.6 8.6 16 5Z' fill='%23fff'/%3E%3Cpath d='m17.2 13-3.8 6h2.8l-1 4.4 3.8-6h-2.8Z' fill='%23111'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2096%2096%27%3E%3Cdefs%3E%3CclipPath%20id=%27t%27%3E%3Crect%20width=%2796%27%20height=%2796%27%20rx=%2722%27/%3E%3C/clipPath%3E%3C/defs%3E%3Crect%20width=%2796%27%20height=%2796%27%20rx=%2722%27%20fill=%27%2316191b%27/%3E%3Cg%20clip-path=%27url%28%23t%29%27%3E%3Cg%20stroke=%27%23f4f1ec%27%20stroke-width=%277.5%27%20stroke-linecap=%27round%27%20fill=%27none%27%3E%3Cpath%20d=%27M-6%2024Q20%2032%2042%2050%27/%3E%3Cpath%20d=%27M32-6Q35%2022%2042%2050%27/%3E%3Cpath%20d=%27M42%2050Q58%2058%2068%2078%27/%3E%3Cpath%20d=%27M42%2050Q72%2044%20102%2036%27/%3E%3Cpath%20d=%27M68%2078Q88%2080%20102%2074%27/%3E%3Cpath%20d=%27M68%2078Q66%2092%2072%20102%27/%3E%3C/g%3E%3Ccircle%20cx=%2742%27%20cy=%2750%27%20r=%278%27%20fill=%27%23f4f1ec%27/%3E%3Ccircle%20cx=%2768%27%20cy=%2778%27%20r=%276.5%27%20fill=%27%23f4f1ec%27/%3E%3C/g%3E%3C/svg%3E">
 <style>
   :root {
     --bg: #fbfbfa; --fg: #111111; --muted: #74777d; --faint: #a4a7ad; --line: #e8e8e6; --hover: #efefed; --panel: #ffffff;
@@ -95,6 +95,8 @@
   #tabs .jump a.on { background: var(--hover); color: var(--fg); font-weight: 500; }
   [data-sec] { scroll-margin-top: 84px; }
   a.mark { color: inherit; text-decoration: none; }
+  .mark .tile { width: 28px; height: 28px; border-radius: 9px; overflow: hidden; background: linear-gradient(158deg, #24282b 0%, #16191b 52%, #0e1112 100%); display: block; flex: none; }
+  .mark .tile svg { display: block; width: 100%; height: 100%; }
   .cell.fresh::after { content: ""; position: absolute; top: 14px; left: calc(50% + 16px); width: 7px; height: 7px; border-radius: 50%; background: #3b6df0; }
   body.feed .intro, body.feed #main { display: none; }
   body.feed header.top .search, body.feed header.top #tabs { visibility: hidden; }
@@ -287,7 +289,7 @@
 <div class="wrap">
   <header class="top">
     <a class="mark" id="home" href="/" aria-label="Lithos Icons, home">
-      <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M16 5c2.4 3.6 7.6 8.6 7.6 13.4a7.6 7.6 0 0 1-15.2 0C8.4 13.6 13.6 8.6 16 5Z" fill="var(--bg)"/><path d="m17.2 13-3.8 6h2.8l-1 4.4 3.8-6h-2.8Z" fill="currentColor"/></svg>
+      <span class="tile" aria-hidden="true"><svg viewBox="0 0 96 96"><g class="seams" fill="none" stroke="#f4f1ec" stroke-width="5.5" stroke-linecap="round"><path d="M-6 24Q20 32 42 50"/><path d="M32-6Q35 22 42 50"/><path d="M42 50Q58 58 68 78"/><path d="M42 50Q72 44 102 36"/><path d="M68 78Q88 80 102 74"/><path d="M68 78Q66 92 72 102"/></g><circle cx="42" cy="50" r="6.5" fill="#f4f1ec"/><circle cx="68" cy="78" r="5" fill="#f4f1ec"/></svg></span>
       <span class="mk">Lithos Icons</span>
     </a>
     <label class="search">
