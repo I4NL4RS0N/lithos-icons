@@ -731,5 +731,39 @@
   "mapped": 5,
   "why": "Pension Funds are a major institutional investor type that analysts expect to see. They are distinct from the money bag used for generic funds.",
   "cost": 0.52
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:28:22.495Z",
+  "mode": "add",
+  "id": "money-market-funds",
+  "name": "Money Market Funds",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: At 24, 32 and 48px the back bills are drawn as narrow rounded arches set in from the edges of the front bill. They look like a handle or camera hump, not bills stacked behind, so the 'banknote stack' idea is lost.; The design changes between sizes. 16/20px use two flat lines above the bill and have no side dots. 24px and up use rounded arches and add the side dots. It looks like two different icons.; Solid 24/32/48: the arches merge into one dark hump on top of the body, which makes the c",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 16/20px: a single banknote with lines above it, which is weak but works. At 24/32/48px: the bills behind stick up as narrow rounded arches, so the shape reads as a camera, cash box, toolbox or radio rather than a stack of banknotes. The solid 24px looks most like a camera.",
+   "problems": [
+    "At 24, 32 and 48px the back bills are drawn as narrow rounded arches set in from the edges of the front bill. They look like a handle or camera hump, not bills stacked behind, so the 'banknote stack' idea is lost.",
+    "The design changes between sizes. 16/20px use two flat lines above the bill and have no side dots. 24px and up use rounded arches and add the side dots. It looks like two different icons.",
+    "Solid 24/32/48: the arches merge into one dark hump on top of the body, which makes the camera reading stronger. The side-dot knockouts at 24px are tiny and nearly disappear.",
+    "The front bill is a plain rounded rectangle with a circle, so it sits close to consumer-finance (card) and media/software (rounded rect plus a central mark) in the sheet. The stack is the only thing that sets it apart, and that stack is the weak part.",
+    "agent-money-market-funds-near.png shows only this icon again, with no parent or siblings, so I could not check how distinct it is from its parent (e.g. funds)."
+   ],
+   "fixes": [
+    "Draw the stack as full-width bills offset behind the front bill: two parallel horizontal strokes, each the full width of the bill (or offset up and to one side by 2px). Don't use narrow inset arches. Use the same construction at every size.",
+    "Keep one design across 16 to 48px. At 16/20 use one back-bill line; at 24 and up use two. Draw the side dots (or drop them) the same way at every size from 20px up.",
+    "Solid: fill the front bill with clear knockouts (central circle, side dots at least 2px at 24). Keep the back bills as separate strokes with a 1.5–2px gap from the front bill so they don't merge into a hump.",
+    "Make the front bill wider than it is tall (about 20×12 at 24px) and centre the whole stack vertically, so it fills the frame like its neighbours and doesn't read as a box.",
+    "Re-render the near preview with the parent (funds) and siblings so distinctness can be checked."
+   ]
+  },
+  "cost": 1.4
  }
 ]
