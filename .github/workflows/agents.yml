@@ -3,14 +3,15 @@ name: Icon agents
 on:
   schedule:
     - cron: '17 9 * * *'   # daily: add new icons
-    - cron: '43 13 * * 0'  # Sundays: refine the weakest icons
+    - cron: '43 13 * * 0'  # Sundays: refine the weakest icons (flagged ones first)
+    - cron: '7 11 * * *'   # daily: review icons nobody has judged yet (anyone's), oldest review next
   workflow_dispatch:
     inputs:
       mode:
-        description: add or refine
+        description: add, refine or review
         default: add
         type: choice
-        options: [add, refine]
+        options: [add, refine, review]
       count:
         description: How many icons to attempt
         default: '10'
@@ -40,8 +41,8 @@ jobs:
       ICONFINDER_KEY: ${{ secrets.ICONFINDER_KEY }}
       MAX_USD_PER_RUN: ${{ inputs.max_usd || vars.MAX_USD_PER_RUN || '30' }}
       FOCUS: ${{ inputs.focus || '' }}
-      MODE: ${{ inputs.mode || (github.event.schedule == '43 13 * * 0' && 'refine' || 'add') }}
-      COUNT: ${{ inputs.count || (github.event.schedule == '43 13 * * 0' && '3' || '10') }}
+      MODE: ${{ inputs.mode || (github.event.schedule == '43 13 * * 0' && 'refine' || github.event.schedule == '7 11 * * *' && 'review' || 'add') }}
+      COUNT: ${{ inputs.count || (github.event.schedule == '43 13 * * 0' && '3' || github.event.schedule == '7 11 * * *' && '10' || '10') }}
       DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
       PARALLEL: ${{ vars.PARALLEL || '4' }}
     steps:

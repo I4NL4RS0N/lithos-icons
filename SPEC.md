@@ -248,6 +248,7 @@ Run in GitHub Actions (`.github/workflows/agents.yml`) with the `claude` CLI and
 | Artist | opus | Read, Write, Edit, build/validate/preview | Writes `src/agent/<id>.mjs`, looks at the renders, revises. One retry with the judge's feedback. |
 | Judge | opus | Read | Separate run that never saw the drawing made. Scores recognisable, small sizes, solid, consistency, distinct (1–5). All must be ≥ 4. |
 | Mapper | sonnet | Read, Edit, code lookup | Maps the new icon to standard codes; the runner keeps only clean additions. |
+| Reviewer | opus | Read | Daily: the same strict judge scores icons nobody has reviewed yet, whoever drew them (agents or by hand), then the oldest verdicts. Fails are flagged in the log and the weekly Curator takes flagged icons first. Never edits anything. Default 10 icons a day (`count`), about $3-4. |
 | Curator | opus | Read | Weekly: picks the weakest icons from the whole-set sheets; the drawer redraws; the judge must prefer the new version. |
 
 **Guardrails (enforced by the runner, not by the agents' goodwill):**
@@ -255,6 +256,7 @@ Run in GitHub Actions (`.github/workflows/agents.yml`) with the `claude` CLI and
 - Only expected paths may change (`src/agent/`, built icons, data); anything else discards the icon. Refinement may edit one concept's `draw()` and never its id, name, kind or parent.
 - A picture already in `data/metaphors.json` is rejected.
 - The drawer has no web access; the scout cannot write files; the judge cannot write files.
+- Anyone can add icons (agents, or by hand in `src/concepts/`). Every icon, whoever drew it, is held to the same judge: new ones are reviewed within days, and flagged ones are redrawn by the weekly refine run. Agents are limited by file allow-lists; people are not.
 - Parallel: add mode draws `PARALLEL` icons at once (repo variable, default 4). Each icon runs in its own child process in a throwaway git worktree (draw, checks, judge, map); the parent merges and commits finished icons one at a time and re-runs the checks on the merged tree. Icons drawn in the same batch don't see each other's pictures, so the merge step re-checks that the picture is unused. Refine mode stays sequential (concepts share source files).
 - Spend: per-run cap `MAX_USD_PER_RUN` (repo variable, default 30, estimated), plus per-role turn and budget limits.
 - Every attempt, pass or fail, is recorded in `data/agents/log.json` with scores, reason and cost. This is the source for the future feed.

@@ -1,7 +1,8 @@
 // Icon agents. Runs in GitHub Actions (see .github/workflows/agents.yml); needs ANTHROPIC_API_KEY and the `claude` CLI.
 //
 //   node scripts/agents/run.mjs add [count]      scout → research → draw → judge → map → commit, per icon
-//   node scripts/agents/run.mjs refine [count]   curator picks the weakest icons → redraw → judge must prefer the new one
+//   node scripts/agents/run.mjs refine [count]   curator picks the weakest icons (flagged ones first) → redraw → judge must prefer the new one
+//   node scripts/agents/run.mjs review [count]   judge scores icons nobody has reviewed yet (anyone's: agents' or hand-drawn), oldest review next; fails are flagged
 //
 // Add mode draws up to PARALLEL icons at once. Each icon runs in its own child process inside a throwaway git worktree
 // (draw → checks → judge → map), then the parent merges the finished ones one at a time and commits each.
@@ -43,6 +44,22 @@ function claude(role, prompt, { tools, allow = tools, turns = 30, budget = 3, sc
   return { text: out.result || '', data: out.structured_output, cost, error };
 }
 
+// Same as claude(), without blocking: for read-only runs (the judge) that can go side by side.
+function claudeAsync(role, prompt, { tools, allow = tools, turns = 30, budget = 3, schema }) {
+  const args = ['-p', prompt, '--model', MODEL[role], '--output-format', 'json', '--max-turns', String(turns), '--max-budget-usd', String(budget),
+    '--tools', tools, '--allowedTools', allow, '--permission-mode', 'dontAsk', '--permission-prompts', 'none'];
+  if (schema) args.push('--json-schema', JSON.stringify(schema));
+  return new Promise((done) => {
+    const child = spawn('claude', args, { timeout: 45 * 60 * 1000 }); let so = '', se = '';
+    child.stdout.on('data', (d) => (so += d)); child.stderr.on('data', (d) => (se += d));
+    child.on('close', (code) => {
+      let out = {}; try { out = JSON.parse(so.trim().split('\n').pop()); } catch { /* error below */ }
+      const cost = out.total_cost_usd || 0; spent += cost;
+      done({ data: out.structured_output, cost, error: code !== 0 || out.is_error ? (out.result || se || 'run failed').slice(0, 400) : null });
+    });
+  });
+}
+
 // Only these paths may change in a run; anything else aborts the icon.
 const ALLOWED = {
   add: [/^src\/agent\/[a-z0-9-]+\.mjs$/, /^src\/concepts\/agent\.mjs$/],
@@ -76,8 +93,8 @@ const VERDICT = { type: 'object', required: ['recognisable', 'small_sizes', 'sol
   verdict: { enum: ['pass', 'fail'] }, problems: { type: 'array', items: { type: 'string' } }, fixes: { type: 'array', items: { type: 'string' } } } };
 const passes = (v) => v && v.verdict === 'pass' && Math.min(v.recognisable, v.small_sizes, v.solid, v.consistency, v.distinct) >= 4;
 
-function judge(c, p, before) {
-  return claude('judge', `You are the independent judge for the Lithos Icons set (icons for finance). You did not draw this icon and you cannot change anything. Be strict: a weak icon that ships is worse than a rejected one.
+function judgePrompt(c, p, before) {
+  return `You are the independent judge for the Lithos Icons set (icons for finance). You did not draw this icon and you cannot change anything. Be strict: a weak icon that ships is worse than a rejected one.
 
 Concept: "${c.name}" (id ${c.id}, kind ${c.kind}${c.parent ? ', parent ' + c.parent : ''}). Intended picture: ${c.metaphor}.
 
@@ -92,9 +109,10 @@ Score 1–5 (4 = good enough to ship, 5 = excellent):
 - solid: is the solid version readable, with clear knockouts and the same footprint as the outline?
 - consistency: same weight, corner style and level of detail as the rest of the set, and does it fill the frame as fully as its neighbours at every size (an icon that sits small in its box scores 3 or less)?
 - distinct: not a near-duplicate of any other icon in the set, including its parent?
-Fail if any score is below 4, or if it contains text, letters, currency symbols, a logo or brand mark, or looks copied from a known icon. List concrete problems and, for a fail, concrete fixes a drawer could apply.`,
-  { tools: 'Read', turns: 12, budget: 1.5, schema: VERDICT });
+Fail if any score is below 4, or if it contains text, letters, currency symbols, a logo or brand mark, or looks copied from a known icon. List concrete problems and, for a fail, concrete fixes a drawer could apply.`;
 }
+const JUDGE_OPTS = { tools: 'Read', turns: 12, budget: 1.5, schema: VERDICT };
+const judge = (c, p, before) => claude('judge', judgePrompt(c, p, before), JUDGE_OPTS);
 
 const DRAW_TOOLS = 'Read,Write,Edit,Bash', DRAW_ALLOW = 'Read,Write,Edit,Bash(npm run build),Bash(npm run validate),Bash(node scripts/agent-index.mjs),Bash(node scripts/preview.mjs *),Bash(node scripts/sheet.mjs *)';
 const drawRules = `Follow CLAUDE.md, SPEC.md §6 and docs/DRAWING.md exactly. Use only the tools you have. Do not edit any file other than the one named. Do not run git. Third-party icons are reference only: never copy one.`;
@@ -270,6 +288,43 @@ async function add() {
   return results;
 }
 
+// ---------- review ----------
+// The latest verdict per icon: an agent's own pass (added or refined) counts as a review at that time; a review entry replaces it.
+function lastVerdicts() {
+  const out = new Map();
+  for (const e of existsSync('data/agents/log.json') ? json('data/agents/log.json') : []) {
+    if (!e.id || !['review', 'added', 'refined'].includes(e.result === 'pass' || e.result === 'flag' ? 'review' : e.result)) continue;
+    out.set(e.id, { at: e.at || e.date || '', flag: e.result === 'flag', problems: e.problems || e.scores?.problems || [], mode: e.mode });
+  }
+  return out;
+}
+const flaggedIcons = () => [...lastVerdicts()].filter(([, v]) => v.flag).map(([id, v]) => ({ id, problems: v.problems }));
+
+async function review() {
+  const seen = lastVerdicts(), have = index();
+  // Never reviewed first (anyone's icon, including hand-drawn), then the oldest verdicts. Agent-made icons already passed the judge when added.
+  const batch = [...have].sort((a, b) => (seen.get(a.id)?.at || '').localeCompare(seen.get(b.id)?.at || '')).slice(0, COUNT);
+  console.log(`reviewing ${batch.length}: ${batch.map((c) => c.id).join(', ')}`);
+  sh('npm run build >/dev/null'); mkdirSync('previews', { recursive: true });
+  sh('node scripts/sheet.mjs 24 2 && node scripts/sheet.mjs 16 3');
+  const prev = new Map(batch.map((c) => [c.id, previews(c.id, '-review')])); // after the shared sheets exist, previews() only draws this icon and its neighbours
+  const results = []; let next = 0;
+  const lane = async () => {
+    while (next < batch.length) {
+      if (spent >= RUN_CAP) { console.log(`run cap $${RUN_CAP} reached; stopping`); return; }
+      const c = batch[next++], r = await claudeAsync('judge', judgePrompt(c, prev.get(c.id)), JUDGE_OPTS), v = r.data, bad = r.error || !v;
+      if (bad) { console.log(`  [${c.id}] review failed: ${r.error || 'no verdict'}`); results.push(`? ${c.id}: review failed`); continue; }
+      const pass = passes(v);
+      log({ mode: 'review', id: c.id, name: c.name, result: pass ? 'pass' : 'flag', scores: v, problems: pass ? [] : (v.problems || []).slice(0, 4), cost: +r.cost.toFixed(2) });
+      console.log(`  [${c.id}] ${pass ? 'pass' : 'FLAG'} ${JSON.stringify([v.recognisable, v.small_sizes, v.solid, v.consistency, v.distinct])} · run total $${spent.toFixed(2)}`);
+      results.push(`${pass ? '✓' : '⚑'} ${c.id}${pass ? '' : ': ' + (v.problems || []).join('; ').slice(0, 110)}`);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(PARALLEL, batch.length) }, lane));
+  if (!DRY) { sh('git add data/agents/log.json'); try { sh(`git commit -q -m "Agents: review ${results.length} icons"`); } catch { /* nothing logged */ } }
+  return results;
+}
+
 // ---------- refine ----------
 // The icon's own SVG files at the sizes the feed compares (16 and 24, outline and solid).
 const snap = (id) => Object.fromEntries([16, 24].map((z) => [z, Object.fromEntries(['outline', 'solid'].map((st) => [st, readFileSync(`icons/${id}/${st}-${z}.svg`, 'utf8').trim()]))]));
@@ -277,8 +332,9 @@ const snap = (id) => Object.fromEntries([16, 24].map((z) => [z, Object.fromEntri
 function refine() {
   sh('node scripts/sheet.mjs 24 2 && node scripts/sheet.mjs 16 3');
   const have = index(), recent = existsSync('data/agents/log.json') ? json('data/agents/log.json').filter((e) => e.mode === 'refine').slice(-30).map((e) => e.id) : [];
+  const flagged = flaggedIcons();
   const pick = claude('judge', `You are the curator for the Lithos Icons set. Read previews/sheet-24.png and previews/sheet-16.png (the whole set, outline above solid, labelled by id).
-Pick the ${COUNT} weakest icons: ones that are hard to recognise, clogged at 16px, off-weight, inconsistent with the rest, or too like another icon. Skip these, refined recently: ${recent.join(', ') || 'none'}.
+${flagged.length ? `The review judge has flagged these icons (take them first, using its problems, unless the sheets show they are fine): ${flagged.map((f) => `${f.id}: ${f.problems.slice(0, 3).join('; ')}`).join(' | ')}\n` : ''}Pick the ${COUNT} weakest icons: ones that are hard to recognise, clogged at 16px, off-weight, inconsistent with the rest, or too like another icon. Skip these, refined recently: ${recent.join(', ') || 'none'}.
 For each give the id exactly as labelled and the concrete problems to fix. Valid ids: ${have.map((c) => c.id).join(', ')}`,
   { tools: 'Read', turns: 12, budget: 2, schema: { type: 'object', required: ['icons'], properties: { icons: { type: 'array', items: { type: 'object', required: ['id', 'problems'], properties: { id: { type: 'string' }, problems: { type: 'array', items: { type: 'string' } } } } } } } });
   const results = [];
@@ -316,7 +372,7 @@ if (!ok('claude --version')) { console.error('claude CLI not found'); process.ex
 if (MODE === 'worker') { writeFileSync(process.argv[4], JSON.stringify(work(json(process.argv[3])))); process.exit(0); } // child of add(): one icon, in a worktree
 if (changed().length) { console.error('working tree is not clean'); process.exit(1); }
 mkdirSync('data/agents', { recursive: true });
-const results = MODE === 'refine' ? refine() : await add();
+const results = MODE === 'refine' ? refine() : MODE === 'review' ? await review() : await add();
 const summary = `### Icon agents · ${MODE} · ${today}\n\n${results.map((r) => `- ${r}`).join('\n') || '- nothing attempted'}\n\nEstimated spend: $${spent.toFixed(2)}${DRY ? ' (dry run: nothing committed)' : ''}\n`;
 console.log('\n' + summary);
 if (process.env.GITHUB_STEP_SUMMARY) writeFileSync(process.env.GITHUB_STEP_SUMMARY, summary, { flag: 'a' });
