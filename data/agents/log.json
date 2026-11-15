@@ -244,5 +244,37 @@
   "mapped": 0,
   "why": "A Microsoft global outage and an FAA system failure show systemic digital fragility.",
   "cost": 0.59
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T17:43:44.715Z",
+  "mode": "add",
+  "id": "veterinary-activities",
+  "name": "Veterinary",
+  "kind": "industry",
+  "picture": "paw-cross",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "An animal paw print with a medical cross in the main pad. It reads straight away as veterinary or animal health care.",
+   "problems": [
+    "16px outline: the toe rings are about 3px ovals, and the gap between the cross and the pad outline is tight. It reads, but it is the busiest icon at that size among its health-care siblings.",
+    "16px solid: the knocked-out cross in the pad is very small and close to filling in. It still shows in the actual-size preview, but only just.",
+    "The four separate toes plus the pad add more detail than simple neighbours like the pill or the heart. This is acceptable for the metaphor but at the upper limit."
+   ],
+   "fixes": [
+    "Optional polish: at 16px, make the cross arms slightly shorter, or widen the pad by about 0.5px, to open up the counter around the cross.",
+    "Optional polish: at 16px solid, make the cross knockout about 0.25–0.5px thicker so it survives antialiasing on low-DPI screens."
+   ]
+  },
+  "mapped": 5,
+  "why": "ISIC/NACE 75 borrows a parent icon.",
+  "cost": 0.75
  }
 ]

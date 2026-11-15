@@ -1,0 +1,16 @@
+{
+  "id": "veterinary-activities",
+  "name": "Veterinary",
+  "kind": "industry",
+  "parent": "health-care",
+  "metaphor": "paw-cross",
+  "keywords": [
+    "veterinary",
+    "animal health",
+    "pet care"
+  ],
+  "reduction": "Paw print (four oval toes on an arc over a bell-shaped pad) with a medical cross in the pad at every size. 16 and 20: the pad is taller and its base dip almost flat, so the small cross keeps 1.5px clear of the pad edge; inner toes sit slightly wider apart. 32 and 48: the base dip grows and the toes get a little larger. Solid: toes filled separately; the cross is a knockout in the pad, drawn bigger at 16/20 (1.75px bars) so it does not close up.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

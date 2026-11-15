@@ -26,6 +26,8 @@
  "62": "software",
  "64": "banks",
  "65": "insurance",
+ "72": "scientific-research",
+ "75": "veterinary-activities",
  "92": "gambling-betting",
  "A": "agriculture",
  "B": "metals-mining",
@@ -60,6 +62,5 @@
  "69.1": "legal-services",
  "49.5": "pipelines",
  "73.1": "advertising",
- "64.3": "funds",
- "72": "scientific-research"
+ "64.3": "funds"
 }

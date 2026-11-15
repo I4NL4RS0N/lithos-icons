@@ -39,6 +39,8 @@
  "87": "professional-services",
  "4953": "waste-management",
  "7311": "advertising",
+ "8731": "scientific-research",
+ "8733": "scientific-research",
  "A": "agriculture",
  "B": "metals-mining",
  "C": "construction",
@@ -54,6 +56,6 @@
  "02": "livestock",
  "08": "forestry",
  "09": "fishing",
- "8731": "scientific-research",
- "8733": "scientific-research"
+ "0741": "veterinary-activities",
+ "0742": "veterinary-activities"
 }

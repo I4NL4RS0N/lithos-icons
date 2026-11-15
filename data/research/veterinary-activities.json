@@ -1,0 +1,814 @@
+{
+  "concept": "veterinary-activities",
+  "query": "paw print",
+  "fetched": "2026-11-15T17:34:36.503Z",
+  "topTerms": [
+    [
+      "paw-print",
+      45
+    ],
+    [
+      "paw print",
+      44
+    ],
+    [
+      "animal",
+      33
+    ],
+    [
+      "pet",
+      31
+    ],
+    [
+      "paw",
+      24
+    ],
+    [
+      "dog",
+      22
+    ],
+    [
+      "cat",
+      19
+    ],
+    [
+      "footprint",
+      18
+    ],
+    [
+      "print",
+      8
+    ],
+    [
+      "track",
+      8
+    ],
+    [
+      "foot",
+      7
+    ],
+    [
+      "paw prints",
+      6
+    ],
+    [
+      "paw-prints",
+      6
+    ],
+    [
+      "pet-paw",
+      4
+    ],
+    [
+      "pet-care",
+      4
+    ],
+    [
+      "animal-track",
+      3
+    ],
+    [
+      "pawprint",
+      2
+    ],
+    [
+      "step",
+      2
+    ],
+    [
+      "paw-icon",
+      2
+    ],
+    [
+      "pet-foot",
+      2
+    ],
+    [
+      "pet-step",
+      2
+    ],
+    [
+      "animal-love",
+      2
+    ],
+    [
+      "heart",
+      2
+    ],
+    [
+      "nature",
+      2
+    ],
+    [
+      "pet-icon",
+      2
+    ],
+    [
+      "tracks",
+      2
+    ],
+    [
+      "furry",
+      2
+    ],
+    [
+      "paws",
+      2
+    ],
+    [
+      "magnifier-glass",
+      1
+    ],
+    [
+      "search",
+      1
+    ],
+    [
+      "trail",
+      1
+    ],
+    [
+      "dog-paw",
+      1
+    ],
+    [
+      "puppy",
+      1
+    ],
+    [
+      "ui",
+      1
+    ],
+    [
+      "black",
+      1
+    ],
+    [
+      "icon",
+      1
+    ],
+    [
+      "simple",
+      1
+    ],
+    [
+      "rescue-dog",
+      1
+    ],
+    [
+      "forest",
+      1
+    ],
+    [
+      "wild",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "foot",
+            "footprint",
+            "paw-print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468151-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "magnifier-glass",
+            "paw-print",
+            "search"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8397879-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet",
+            "print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8374831-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paw prints",
+          "tags": [
+            "animal",
+            "footprint",
+            "paw-prints",
+            "pet",
+            "track",
+            "trail"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8339248-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal-track",
+            "dog-paw",
+            "footprint",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8305059-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "foot",
+            "paw",
+            "paw-print",
+            "track"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8235752-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "dog",
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8221864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet",
+            "track"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8203382-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "paw-print",
+            "pet",
+            "print",
+            "puppy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8099685-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "foot",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8097693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8066818-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8066815-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "foot",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8052648-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "cat",
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8033933-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "paw",
+            "paw-print",
+            "paw-print",
+            "pet",
+            "ui"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8018188-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet",
+            "track"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7954350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "black",
+            "icon",
+            "paw-print",
+            "pawprint",
+            "simple"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7938721-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "paw",
+            "paw-print",
+            "pet",
+            "step"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7922762-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "paw-icon",
+            "paw-print",
+            "pet-foot",
+            "pet-paw",
+            "pet-step"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7799895-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "paw-icon",
+            "paw-print",
+            "pet-foot",
+            "pet-paw",
+            "pet-step"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7799847-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet",
+            "print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7737776-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "paw-print",
+            "pet",
+            "print",
+            "track"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7737774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "dog",
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7714157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paw prints",
+          "tags": [
+            "animal-love",
+            "dog",
+            "heart",
+            "paw-prints",
+            "pet-care",
+            "rescue-dog"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7683000-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paw prints",
+          "tags": [
+            "animal",
+            "footprint",
+            "forest",
+            "nature",
+            "paw-prints",
+            "wild"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7679435-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "paw-print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7663425-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animals",
+            "cat",
+            "dog",
+            "footprint",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7663400-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal-track",
+            "paw-print",
+            "pet-care",
+            "pet-icon",
+            "pet-paw"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7657984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal-track",
+            "paw-print",
+            "pet-care",
+            "pet-icon",
+            "pet-paw"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7657956-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "adventure",
+            "animal",
+            "camping",
+            "outdoor",
+            "paw-print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7622557-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paw prints",
+          "tags": [
+            "animal",
+            "paw-prints",
+            "tracks",
+            "walking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7601817-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "nature",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7589731-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7449004-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7448970-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7448939-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "claw",
+            "dog-print",
+            "foot",
+            "paw",
+            "paw-print",
+            "pawprint"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7447480-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet",
+            "track"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7431513-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "footprint",
+            "paw",
+            "paw-print",
+            "pet",
+            "print",
+            "track"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7429055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "dog",
+            "foot",
+            "paw-print",
+            "pet",
+            "step"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7427765-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7417935-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7417832-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal-paw",
+            "cat",
+            "dog",
+            "foot",
+            "paw-print",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7409707-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7379771-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "furry",
+            "paw-print",
+            "pet",
+            "wildlife"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7354407-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paw prints",
+          "tags": [
+            "cat",
+            "dog",
+            "paw-print",
+            "paw-prints",
+            "paws",
+            "pet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7331346-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "cat",
+            "dog",
+            "paw",
+            "paw-print",
+            "print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7287500-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal-love",
+            "cat-paw-print",
+            "dog-paw-print",
+            "heart",
+            "paw-print",
+            "pet-care"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7272569-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "cat",
+            "dog",
+            "mark",
+            "paw",
+            "paw-print",
+            "print"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7192431-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Paw Print",
+          "tags": [
+            "animal",
+            "footprint",
+            "furry",
+            "paw-print",
+            "pet",
+            "track"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7171494-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "paw prints",
+          "tags": [
+            "clues",
+            "marks",
+            "paw-prints",
+            "paws",
+            "prints",
+            "tracks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7122723-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

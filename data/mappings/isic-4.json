@@ -25,6 +25,8 @@
  "62": "software",
  "64": "banks",
  "65": "insurance",
+ "72": "scientific-research",
+ "75": "veterinary-activities",
  "92": "gambling-betting",
  "493": "pipelines",
  "643": "funds",
@@ -58,6 +60,5 @@
  "013": "crops",
  "014": "livestock",
  "02": "forestry",
- "03": "fishing",
- "72": "scientific-research"
+ "03": "fishing"
 }
