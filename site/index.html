@@ -230,6 +230,9 @@
   .search svg { position: absolute; left: 12px; color: var(--faint); pointer-events: none; }
   .search input { width: 100%; height: 40px; border: 0; background: var(--pill); border-radius: 999px; padding: 0 44px 0 36px; outline-offset: 0; }
   .search input::placeholder { color: var(--faint); }
+  .search input:not(:placeholder-shown) ~ kbd { display: none; }
+  body.searching .intro { display: none; }
+  .qinfo { margin: 26px 0 6px; font-size: 14px; color: var(--muted); } .qinfo b { color: var(--fg); font-variant-numeric: tabular-nums; }
   .search kbd { position: absolute; right: 10px; font: 11px var(--mono); color: var(--faint); border: 1px solid var(--line); border-radius: 5px; padding: 1px 5px; pointer-events: none; }
   .round { border: 0; background: var(--pill); width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; flex: none; }
   .round:hover { background: var(--hover); }
@@ -528,10 +531,10 @@ function stdSection(std, q) {
   const lv = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`);
   const own = tree.nodes.filter((n) => n.direct).length;
   const intro = `<p class="std-intro">${tree.nodes.length.toLocaleString()} codes: ${lv.slice(0, -1).join(', ')} and ${lv.at(-1)}. ${own} have an icon of their own; the faded ones show their parent’s for now.${std.credit ? `<br><span class="credit">${esc(std.source)} ${esc(std.credit)}</span>` : ''}</p>`;
-  return { id: std.id, label: `${std.name} ${std.version}`, html: `<section class="kind" id="${esc(std.id)}" data-sec>${head(intro, list.length.toLocaleString())}<div class="grid flat">${list.map(tile).join('')}</div></section>` };
+  return { n: list.length, id: std.id, label: `${std.name} ${std.version}`, html: `<section class="kind" id="${esc(std.id)}" data-sec>${head(intro, list.length.toLocaleString())}<div class="grid flat">${list.map(tile).join('')}</div></section>` };
 }
 function conceptSection(k, label, items) {
-  return { id: SEC[k], label, html: `<section class="kind" id="${SEC[k]}" data-sec><h2>${label}<span class="n">${items.length}</span></h2><div class="grid${state.labels === 'off' ? ' nolabels' : ''}">${items.map((c) => `
+  return { n: items.length, id: SEC[k], label, html: `<section class="kind" id="${SEC[k]}" data-sec><h2>${label}<span class="n">${items.length}</span></h2><div class="grid${state.labels === 'off' ? ' nolabels' : ''}">${items.map((c) => `
       <button class="cell${FRESH.has(c.id) ? ' fresh' : ''}" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"${FRESH.has(c.id) ? ` title="${esc(freshNote(c.id))}"` : ''}><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>` };
 }
 const PLAN = ['sector', 'industry', 'asset-class', 'std', 'region', 'country', 'theme']; // page order
@@ -553,7 +556,9 @@ function render() {
     else if (k === 'theme' && state.kind === 'all' && !q.length) secs.push({ id: 'topics', label: LABEL[k], html: `<section class="kind" id="topics" data-sec><h2>Topics<span class="n">0</span></h2><p class="std-intro">Nothing here yet. Topics like energy transition and AI infrastructure are on the way.</p></section>` });
   }
   JUMPS = secs.map((x) => ({ id: x.id, label: x.label }));
-  $('#main').innerHTML = secs.length ? secs.map((x) => x.html).join('') : `<p class="empty">Nothing matches “${esc(state.q)}”.</p>`;
+  const hits = secs.reduce((a, x) => a + (x.n || 0), 0);
+  document.body.classList.toggle('searching', q.length > 0);
+  $('#main').innerHTML = (q.length && secs.length ? `<p class="qinfo" role="status"><b>${hits.toLocaleString()}</b> ${hits === 1 ? 'match' : 'matches'} for “${esc(state.q)}”</p>` : '') + (secs.length ? secs.map((x) => x.html).join('') : `<p class="empty">Nothing matches “${esc(state.q)}”.</p>`);
   renderTabs(); renderDetail(); afterRender();
 }
 
@@ -672,7 +677,7 @@ async function copy(text, msg) { try { await navigator.clipboard.writeText(text)
 // Static control setup
 $('#swatches').innerHTML = COLORS.map(([c, n]) => `<button class="sw" type="button" data-v="${c}" style="--c:${c || 'var(--fg)'}" aria-label="${n}" title="${n}"></button>`).join('')
   + `<span class="sw custom" title="Custom colour"><input type="color" id="pick" aria-label="Custom colour" value="#2f6feb"></span>`;
-$('#q').placeholder = innerWidth < 640 ? 'Search' : `Search ${DATA.concepts.length} icons`;
+$('#q').placeholder = innerWidth < 640 ? 'Search' : 'Search by name or code';
 if (!isMac) document.querySelector('.search kbd').textContent = 'Ctrl K';
 $('#q').value = state.q;
 
