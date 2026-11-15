@@ -550,9 +550,7 @@ function stdSection(std, q) {
   if (!list.length) return null;
   const tile = (n) => `<button class="cell${n.direct ? '' : ' inherited'}${n.direct && FRESH.has(n.concept) ? ' fresh' : ''}" type="button" data-id="${n.concept || ''}" aria-current="${state.sel === n.concept && n.direct}" title="${esc((std.codes ? n.code + ' ' : '') + n.name)}">
       <span class="art">${icon(n)}</span><span class="nm">${chip(n)}${std.codes ? '<br>' : ''}<span class="clamp">${esc(n.name)}</span></span></button>`;
-  const lv = std.levels.map((l, i) => `${tree.nodes.filter((n) => n.depth === i).length.toLocaleString()} ${l.endsWith('y') ? l.slice(0, -1) + 'ies' : l + (l.endsWith('s') ? 'es' : 's')}`);
-  const own = tree.nodes.filter((n) => n.direct).length;
-  const intro = `<p class="std-intro">${tree.nodes.length.toLocaleString()} codes: ${lv.slice(0, -1).join(', ')} and ${lv.at(-1)}. ${own} have an icon of their own; the faded ones show their parent’s for now.${std.credit ? `<br><span class="credit">${esc(std.source)} ${esc(std.credit)}</span>` : ''}</p>`;
+  const intro = std.credit ? `<p class="std-intro"><span class="credit">${esc(std.source)} ${esc(std.credit)}</span></p>` : '';
   return { n: list.length, id: std.id, label: `${std.name} ${std.version}`, html: `<section class="kind" id="${esc(std.id)}" data-sec>${head(intro, list.length.toLocaleString())}<div class="grid flat">${list.map(tile).join('')}</div></section>` };
 }
 function conceptSection(k, label, items) {
