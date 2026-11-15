@@ -134,5 +134,41 @@
    ]
   },
   "cost": 2.29
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T17:13:58.216Z",
+  "mode": "add",
+  "id": "central-bank-rates",
+  "name": "Central Bank Rates",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The bank, the part that says 'central bank', is squeezed into the bottom-right corner at about half the frame width. At 16px it is about 6px wide: the columns merge into one door-like notch and the pediment reads as a house roof. It gets mistaken for real-estate/house prices.; Two metaphors fight for the frame. The stepped line takes the top-left and the bank takes the bottom-right, so neither gets enough room. The top-left quadrant is mostly empty, and the visual weight sits lower-right ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48px: a small bank building with columns under a stepped line that ends in a right-pointing arrow, so 'bank + rising rate', which is roughly right. At 16/20px the bank shrinks to a small house with a door, so it reads as 'house + up arrow' (house prices or mortgage rates).",
+   "problems": [
+    "The bank, the part that says 'central bank', is squeezed into the bottom-right corner at about half the frame width. At 16px it is about 6px wide: the columns merge into one door-like notch and the pediment reads as a house roof. It gets mistaken for real-estate/house prices.",
+    "Two metaphors fight for the frame. The stepped line takes the top-left and the bank takes the bottom-right, so neither gets enough room. The top-left quadrant is mostly empty, and the visual weight sits lower-right compared with balanced neighbours like banks and municipal-bonds.",
+    "The solid only fills the small roof triangle. The stepped line, columns and base stay as plain strokes, so solid and outline look almost the same at 16/20/24. Other solids in the set (banks, municipal-bonds, corporate-finance) fill the main body.",
+    "The bank's detail level is lower than the existing banks icon. It has three stubby columns at 24px and two at 16px, versus clear columns and base in banks. It looks like a scaled-down copy of banks, not a shape drawn for this grid size.",
+    "The stepped line has only two risers and the arrowhead is small. At 16px the arrowhead becomes a smudge, so the stepped-rate idea is weak.",
+    "The previews/agent-central-bank-rates-near.png image does not show the parent or siblings (it duplicates the size strip), so I could not fully check how distinct it is from its parent."
+   ],
+   "fixes": [
+    "Make the bank the main shape: about 14–16 units wide at 24px, centred low in the frame, with a clear pediment, 3 columns and a base line, like the banks icon. Make the step graphic secondary: a 2–3-step staircase rising above the roof or out from its right side, ending in a clear arrowhead of at least 4 units.",
+    "Or put the steps inside the pediment or between the columns as the knockout, so the whole frame is one silhouette, not two shapes side by side.",
+    "Redraw 16px and 20px by hand: at 16px use 2 columns at least 2px apart, a solid base bar and a roof at least 7px wide. Drop the arrowhead if needed and let the steps carry the meaning. Check that it no longer reads as a house.",
+    "Solid: fill the bank body (roof plus a column block with column-gap knockouts, as in the banks solid) so the solid weight matches the set. Keep the step line as a thick stroke, or turn it into filled step bars.",
+    "Use the full 24px live area so the top-left is not empty, matching how far municipal-bonds, banks and capital-markets reach to the edges.",
+    "Regenerate the near-preview so it actually shows the parent and siblings, and re-check that the icon is distinct from banks."
+   ]
+  },
+  "cost": 1.06
  }
 ]
