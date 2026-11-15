@@ -63,5 +63,42 @@
   "mapped": 4,
   "why": "ISIC 92 and NACE 92 currently borrow the theatre mask from arts-recreation. A die is a clear, simple drawable object and is distinct from every existing icon.",
   "cost": 0.86
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T16:37:43.661Z",
+  "mode": "add",
+  "id": "ai-infrastructure-spending",
+  "name": "AI Infrastructure Spending",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The plain 45° up-right arrow is the standard 'external link / open in new' glyph, not a trend. With nothing to show it is a rise in spending, it reads as a navigation action.; The server metaphor is broken. The top rack unit is full width, but the bottom one is shrunk to a small square to make room for the arrow. Two units of different widths don't read as a rack, and the bottom one looks like a checkbox or toggle.; At 16px the bottom unit's slot line is gone and only a dot is left. In so",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A small, uneven server stack with an 'open in new / external link' arrow. It reads as 'export server' or 'send to server', not as rising spending on infrastructure.",
+   "problems": [
+    "The plain 45° up-right arrow is the standard 'external link / open in new' glyph, not a trend. With nothing to show it is a rise in spending, it reads as a navigation action.",
+    "The server metaphor is broken. The top rack unit is full width, but the bottom one is shrunk to a small square to make room for the arrow. Two units of different widths don't read as a rack, and the bottom one looks like a checkbox or toggle.",
+    "At 16px the bottom unit's slot line is gone and only a dot is left. In solid at 16 and 20 it becomes a small blob with a dot. The detail changes from size to size, and the lower half looks like a radio button.",
+    "The bottom-right corner is crowded. At 16 and 20 the arrow sits nearly against the small unit, and the gap between them clogs, especially in solid.",
+    "The footprint is wide and short. Both units together fill only the middle band of the frame, while neighbours such as gambling-betting, cmbs and loans use the full height. In the per-size preview it looks lighter and smaller than the set at 16 and 20.",
+    "There's no link to money or spend. 'Spending' rests entirely on an ambiguous arrow.",
+    "The near/sibling preview only showed this icon again, so the check against its parent and siblings couldn't be done visually. Distinctness was judged from the sheets only."
+   ],
+   "fixes": [
+    "Keep a proper server stack: two or three rack units of the same width, each with a slot line and an LED dot, filling about 70% of the frame height on the left or bottom.",
+    "Replace the bare diagonal arrow with an uptrend polyline: a zig-zag line with an arrowhead, taken from the existing uptrend metaphor in data/metaphors.json. Run it up and across the top-right corner, or rising out of the top of the stack, so it reads as growth and not as an external link.",
+    "Alternatively, put the stack inside the frame and add a small rising bar trio or trend line beside it. Don't shrink a rack unit to make room.",
+    "At 16 and 20px, draw a separate simplified version: two full-width units, a dot in each, no slot lines, and at least 1.5px clear space between the stack and the trend arrow.",
+    "For solid, knock the LED dots and slot lines out of filled units and keep the trend line as a stroke, so the footprint matches the outline and the lower unit doesn't collapse into a blob.",
+    "Scale the composition up to use the full 2px-inset live area at every size, so the visual weight matches neighbours like loans and cmbs."
+   ]
+  },
+  "cost": 1.35
  }
 ]
