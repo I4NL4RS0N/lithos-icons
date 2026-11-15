@@ -170,5 +170,42 @@
    ]
   },
   "cost": 1.06
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T17:29:17.302Z",
+  "mode": "add",
+  "id": "digital-assets",
+  "name": "Digital Assets",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The coin isn't clear. Only the left half is drawn, as a plain D-shape, so it reads as a half moon or contrast icon instead of a coin turning into pixels.; At 16px the pixel column turns into a row of 1px dots that look like braille or a dotted line. The squares are too small and the gaps too tight to read as pixels.; At 20px the pixel squares crowd together, and the 2-wide column next to the straight edge of the D merges into a grey patch.; The pixel cluster is narrower and shorter than t",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A half-circle (D-shape turned around) with a column of small squares on its right. Read as a dimmer or contrast toggle, a half moon beside a grid, or a pie chart turning into blocks. Someone may guess 'digitising coin', but nothing says coin: there is no rim detail and no full round shape.",
+   "problems": [
+    "The coin isn't clear. Only the left half is drawn, as a plain D-shape, so it reads as a half moon or contrast icon instead of a coin turning into pixels.",
+    "At 16px the pixel column turns into a row of 1px dots that look like braille or a dotted line. The squares are too small and the gaps too tight to read as pixels.",
+    "At 20px the pixel squares crowd together, and the 2-wide column next to the straight edge of the D merges into a grey patch.",
+    "The pixel cluster is narrower and shorter than the arc (only 3 columns, ragged edge), so the icon is lopsided. The visual weight sits left and the right side leaves empty space at the corners compared with neighbours like gambling-betting or loans.",
+    "The solid style changes between sizes. At 16/20/24 the half-disc is filled, but at 32/48 it keeps a thin inner arc and an open gap, so it looks like the outline with a thicker rim. Footprint and look jump between sizes.",
+    "The outline at 32/48 adds a second inner arc that isn't there at 24. That's more detail than in other set icons, and it makes the large sizes look like a different drawing.",
+    "The straight cut down the middle of the coin sits right against the pixel column at small sizes, so the two halves don't read as one object breaking up."
+   ],
+   "fixes": [
+    "Draw a clearly recognisable full coin outline: a circle with an inner rim ring at 24 and larger. Pixelate only the right edge (a quarter to a third), so the round silhouette still reads as a coin, rather than splitting it exactly in half.",
+    "Make the pixels bigger and fewer. At 24px use about 3–4 squares of 3–4px with 1.5–2px gaps, laid out in a stepped staircase that follows the missing curve of the circle. That way the pixels sit on the coin's outline instead of forming a separate rectangular column.",
+    "At 16px use only 2–3 pixel squares of at least 2px with 1px+ gaps and drop the inner rim. At 20px use 3 squares. Check that no gap is under 1px at either size.",
+    "Make the coin plus pixels fill the same 20–22px live area at 24 as its neighbours, and keep it balanced so the right side isn't visibly lighter or shorter than the left.",
+    "Solid: fill the coin disc at every size, with the inner rim as a knockout ring at 24 and larger, and draw the pixels as solid squares. Use the same treatment at 16 through 48 so the solid has the same footprint and style as the outline at each size.",
+    "Keep the level of detail the same across sizes: if 32/48 get an inner rim, 24 should get it too. Don't add details at large sizes only."
+   ]
+  },
+  "cost": 1.78
  }
 ]
