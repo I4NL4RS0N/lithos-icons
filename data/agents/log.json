@@ -626,5 +626,42 @@
    ]
   },
   "cost": 1.26
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:19:22.668Z",
+  "mode": "add",
+  "id": "project-finance",
+  "name": "Project Finance",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Sits small in its box: at 16, 20 and 24px the glyph fills only about the bottom 40–50% of the frame height, and its total height is far less than neighbours like construction, banks or municipal-bonds. It looks visibly shrunken on both sheets.; 16px outline: the deck hangers, cable curve and tower tips run together into a dense, unreadable strip. The suspension curve is lost, so it reads as a crown or picket fence.; 16px and 20px solid: the area under the cables fills in to a black trapez",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32–48px: a suspension bridge over water. At 16–24px: a small crown, a tiara or a boat on waves. It reads as a picture, not as the concept, which is fine for a bridge metaphor, but only at large sizes.",
+   "problems": [
+    "Sits small in its box: at 16, 20 and 24px the glyph fills only about the bottom 40–50% of the frame height, and its total height is far less than neighbours like construction, banks or municipal-bonds. It looks visibly shrunken on both sheets.",
+    "16px outline: the deck hangers, cable curve and tower tips run together into a dense, unreadable strip. The suspension curve is lost, so it reads as a crown or picket fence.",
+    "16px and 20px solid: the area under the cables fills in to a black trapezoid with tiny slots. It reads as a crown, boat hull or cake, not a bridge. The waves are a thin, separate squiggle that looks detached.",
+    "Solid footprint differs from outline: the filled cable area makes the solid version a heavy blob, while the outline is a light open lattice. The two versions don't feel like the same weight class.",
+    "Too much detail for the set: 4–6 hangers plus towers, cables, deck and wave are more parts than neighbours use (most have 2–4 elements). At 24px the hangers are already close to clogging.",
+    "The wave under the deck repeats the fishing/marine-shipping water language, but here it is tiny and floats apart from the structure, so it adds noise without helping recognition at small sizes.",
+    "The near/sibling preview shows only this icon, not its parent or siblings, so the parent comparison couldn't be checked directly. In the sheet, the nearest finance siblings (corporate-finance, funds, capital-markets) are different, so it isn't a duplicate."
+   ],
+   "fixes": [
+    "Redraw at a taller proportion: make the towers rise to about y=3 and the deck sit near y=17 on the 24 grid, with the water at y=20–21. The glyph should span roughly 20×18 of the 24 box, like its neighbours. Do the same per size on the 16/20/32/48 masters.",
+    "Simplify: two tall towers with pointed or rounded tops, one main cable curve between them dipping almost to the deck, short side-span cables to the deck ends, and at most 2 hangers at 24px and 0–1 at 16/20px.",
+    "At 16 and 20px, drop the hangers entirely and keep towers, the main cable curve and the deck on whole-pixel positions with at least 1.5px of clear gap between the cable and the deck.",
+    "Solid: don't fill the area under the cable. Instead, make the towers and deck solid (thicker bars) and keep the cable as a stroke, or fill only the tower shapes, so the open sky under the cable stays a clear knockout and the silhouette matches the outline.",
+    "Either join the water to the composition (one wave line directly under the deck, the same width as the deck) or drop it at 16/20px. A detached squiggle reads as noise.",
+    "Check at 16px against the crown/tiara reading: the cable dip between the towers must be clearly lower than the tower tops, and the towers clearly taller than in the current version."
+   ]
+  },
+  "cost": 1.43
  }
 ]
