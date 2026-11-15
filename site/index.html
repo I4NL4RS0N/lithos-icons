@@ -114,10 +114,10 @@
   .cell.fresh::after { content: ""; position: absolute; top: 14px; left: calc(50% + 16px); width: 7px; height: 7px; border-radius: 50%; background: #3b6df0; }
 
   /* Library map: every code in every standard as one cell (top-right, wide screens) */
-  .amapp { display: none; position: fixed; top: 84px; right: 24px; width: 292px; z-index: 5; padding: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; }
+  .amapp { display: none; position: fixed; top: 85px; right: 28px; width: 294px; z-index: 5; padding: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; }
   @media (min-width: 1280px) {
     body:not(.has-detail) .amapp { display: block; }
-    body:not(.has-detail) .wrap { max-width: none; margin: 0; padding-right: 330px; }
+    body:not(.has-detail) .wrap { max-width: none; margin: 0; padding-right: 354px; }
   }
   .amapp .mhead { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; font-size: 13px; }
   .amapp .mhead span { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
@@ -132,7 +132,7 @@
   .mstat div { font-size: 11.5px; color: var(--muted); }
   .mstat b { display: block; font-size: 17px; color: var(--fg); letter-spacing: -.01em; font-weight: 600; font-variant-numeric: tabular-nums; }
   .mlist { list-style: none; margin: 10px 0 0; padding: 0; font-size: 12.5px; }
-  .mlist button { all: unset; box-sizing: border-box; display: flex; gap: 6px; width: 100%; padding: 5px 4px; border-radius: 6px; cursor: pointer; white-space: nowrap; overflow: hidden; }
+  .mlist button { all: unset; box-sizing: border-box; display: flex; gap: 6px; width: calc(100% + 12px); margin: 0 -6px; padding: 5px 6px; border-radius: 6px; cursor: pointer; white-space: nowrap; overflow: hidden; }
   .mlist button:hover { background-color: var(--hover); }
   .mlist button span { overflow: hidden; text-overflow: ellipsis; }
   .mlist time { margin-left: auto; color: var(--faint); flex: none; }
@@ -756,7 +756,7 @@ const RECENT = FEED.filter((e) => e.result !== 'rejected' && Date.now() - stamp(
 const freshNote = (id) => { const e = RECENT.find((x) => x.id === id); return e ? `${WHO[e.mode]} ${VERB[e.mode]} this · ${ago(e)}` : ''; };
 
 // ---- Library map: one cell per code in every standard; agents' recent work shown on it ----
-const MAP = { cols: 66, pitch: 4, cells: [], built: false, ids: new Set(RECENT.map((e) => e.id)), mode: new Map(), idx: 0 };
+const MAP = { cols: 64, pad: 4, pitch: 4, cells: [], built: false, ids: new Set(RECENT.map((e) => e.id)), mode: new Map(), idx: 0 };
 for (const e of [...RECENT].reverse()) MAP.mode.set(e.id, e.mode); // newest entry wins
 function mapBuild() {
   const box = $('#amapp'); if (!box || MAP.built || innerWidth < 1280) return;
@@ -780,22 +780,22 @@ function mapBuild() {
 }
 function mapPaint() {
   const cv = $('#mosaic'); if (!cv) return;
-  const P = MAP.pitch, W = MAP.cols * P, H = MAP.rows * P, dpr = devicePixelRatio || 1, cs = getComputedStyle(document.body);
+  const P = MAP.pitch, O = MAP.pad, W = MAP.cols * P + 2 * O, H = MAP.rows * P + 2 * O, dpr = devicePixelRatio || 1, cs = getComputedStyle(document.body);
   cv.width = W * dpr; cv.height = H * dpr; cv.style.height = H + 'px';
   const g = cv.getContext('2d'); g.scale(dpr, dpr);
   const own = cs.getPropertyValue('--fg').trim() || '#111', soft = cs.getPropertyValue('--line').trim() || '#e8e8e6';
   for (const x of MAP.cells) {
     g.fillStyle = x.n.direct ? own : soft;
-    g.fillRect(x.c * P, x.r * P, P - 1, P - 1);
+    g.fillRect(O + x.c * P, O + x.r * P, P - 1, P - 1);
   }
   for (const x of MAP.cells) if (x.n.direct && MAP.ids.has(x.n.concept)) { // changed this week: bigger, with a halo
     const c = MAP.mode.get(x.n.concept) === 'refine' ? '232,163,23' : '59,109,240';
-    g.fillStyle = `rgba(${c},.25)`; g.fillRect(x.c * P - 3, x.r * P - 3, P + 5, P + 5);
-    g.fillStyle = `rgb(${c})`; g.fillRect(x.c * P - 1, x.r * P - 1, P + 1, P + 1);
+    g.fillStyle = `rgba(${c},.25)`; g.fillRect(O + x.c * P - 3, O + x.r * P - 3, P + 5, P + 5);
+    g.fillStyle = `rgb(${c})`; g.fillRect(O + x.c * P - 1, O + x.r * P - 1, P + 1, P + 1);
   }
 }
 function mapEvents() {
-  const cv = $('#mosaic'), tip = $('#mtip'), at = (e) => { const b = cv.getBoundingClientRect(); const c = Math.floor((e.clientX - b.left) / MAP.pitch), r = Math.floor((e.clientY - b.top) / MAP.pitch); return MAP.cells.find((x) => x.r === r && x.c === c); };
+  const cv = $('#mosaic'), tip = $('#mtip'), at = (e) => { const b = cv.getBoundingClientRect(); const c = Math.floor((e.clientX - b.left - MAP.pad) / MAP.pitch), r = Math.floor((e.clientY - b.top - MAP.pad) / MAP.pitch); return MAP.cells.find((x) => x.r === r && x.c === c); };
   cv.addEventListener('pointermove', (e) => {
     const x = at(e); if (!x) return tip.classList.remove('on');
     const cn = x.n.concept && byId[x.n.concept];
