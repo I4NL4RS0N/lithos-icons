@@ -72,10 +72,13 @@
   .grid.nolabels { grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); }
   .cell { position: relative; border: 0; background: transparent; border-radius: 12px; padding: 16px 6px 12px; display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
   .nolabels .cell { padding: 0; aspect-ratio: 1; justify-content: center; }
-  .cell:hover, .cell[aria-current="true"] { background: var(--hover); }
+  .cell:hover { background: var(--hover); }
+  .cell[aria-current="true"] { background: var(--hover); box-shadow: inset 0 0 0 1.5px var(--fg); }
+  .cell:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 12px; }
   .cell .art { height: 48px; display: grid; place-items: center; }
   .cell .nm { font-size: 11.5px; line-height: 1.25; color: var(--muted); text-align: center; text-wrap: balance; }
-  .cell:hover .nm, .cell[aria-current="true"] .nm { color: var(--fg); }
+  .cell:hover .nm { color: var(--fg); }
+  .cell[aria-current="true"] .nm { color: var(--fg); font-weight: 500; }
   .nolabels .cell .nm { position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%); background: var(--accent); color: var(--accent-fg); padding: 3px 8px; border-radius: 6px;
     white-space: nowrap; opacity: 0; pointer-events: none; z-index: 3; }
   .nolabels .cell:hover .nm, .nolabels .cell:focus-visible .nm { opacity: 1; color: var(--accent-fg); }
@@ -208,7 +211,8 @@
   .grid.flat .cell { scroll-margin-top: 16px; }
   .group { margin: 14px 0 6px; }
   .ghead { display: flex; align-items: center; gap: 10px; width: 100%; border: 0; background: transparent; text-align: left; padding: 6px 10px; margin: 0 -10px; border-radius: 10px; }
-  .ghead:hover, .ghead[aria-current="true"] { background: var(--hover); }
+  .ghead:hover { background: var(--hover); }
+  .ghead[aria-current="true"] { background: var(--hover); box-shadow: inset 0 0 0 1.5px var(--fg); }
   .ghead .art { flex: none; width: 20px; height: 20px; display: grid; place-items: center; }
   .ghead .t { font-size: 14px; font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .ghead .cnt { margin-left: auto; font: 11.5px var(--mono); color: var(--faint); }
@@ -538,8 +542,8 @@ function stdSection(std, q) {
   return { n: list.length, id: std.id, label: `${std.name} ${std.version}`, html: `<section class="kind" id="${esc(std.id)}" data-sec>${head(intro, list.length.toLocaleString())}<div class="grid flat">${list.map(tile).join('')}</div></section>` };
 }
 function conceptSection(k, label, items) {
-  return { n: items.length, id: SEC[k], label, html: `<section class="kind" id="${SEC[k]}" data-sec><h2>${label}<span class="n">${items.length}</span></h2><div class="grid${state.labels === 'off' ? ' nolabels' : ''}">${items.map((c) => `
-      <button class="cell${FRESH.has(c.id) ? ' fresh' : ''}" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}"${FRESH.has(c.id) ? ` title="${esc(freshNote(c.id))}"` : ''}><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>` };
+  return { n: items.length, id: SEC[k], label, html: `<section class="kind" id="${SEC[k]}" data-sec><h2>${label}<span class="n">${items.length}</span></h2><div class="grid${LABELS_OFF() ? ' nolabels' : ''}">${items.map((c) => `
+      <button class="cell${FRESH.has(c.id) ? ' fresh' : ''}" type="button" data-id="${c.id}" aria-current="${state.sel === c.id}" aria-label="${esc(c.name)}" title="${esc(c.name)}${FRESH.has(c.id) ? ' · ' + esc(freshNote(c.id)) : ''}"><span class="art">${draw(c)}</span><span class="nm">${esc(c.name)}</span></button>`).join('')}</div></section>` };
 }
 const PLAN = ['sector', 'industry', 'asset-class', 'std', 'region', 'country', 'theme']; // page order
 const LABEL = { sector: 'Sectors', industry: 'Industries', 'asset-class': 'Credit asset classes', region: 'Regions', country: 'Countries', theme: 'Topics' };
@@ -687,6 +691,8 @@ $('#q').placeholder = innerWidth < 640 ? 'Search' : 'Search by name or code';
 if (!isMac) document.querySelector('.search kbd').textContent = 'Ctrl K';
 $('#q').value = state.q;
 
+// On touch there is no hover to reveal a name, so labels stay on even if Customize hides them.
+const LABELS_OFF = () => state.labels === 'off' && !matchMedia('(hover: none)').matches;
 const set = (k, v) => { state[k] = v; save(); render(); };
 document.querySelectorAll('.seg[data-key]').forEach((seg) => (seg.onclick = (e) => { const b = e.target.closest('button'); if (!b) return;
   const k = seg.dataset.key; set(k, k === 'size' ? +b.dataset.v : b.dataset.v); }));
