@@ -144,6 +144,10 @@
   .mlist button:hover { background-color: var(--hover); }
   .mlist button span { overflow: hidden; text-overflow: ellipsis; }
   .mlist time { margin-left: auto; color: var(--faint); flex: none; }
+  .mmini { display: none; align-items: center; justify-content: space-between; gap: 10px; text-decoration: none; font-size: 13px; color: var(--muted); } .mmini:hover { color: var(--fg); } .mmini b { color: var(--fg); font-variant-numeric: tabular-nums; }
+  body.searching .amapp { padding: 11px 14px; border-radius: 12px; }
+  body.searching .amapp .mhead, body.searching .amapp .mwrap, body.searching .amapp .mkey, body.searching .amapp .mlist, body.searching .amapp .mall { display: none; }
+  body.searching .amapp .mmini { display: flex; }
   .mall { display: block; margin: 12px 0 0; padding: 8px 12px; text-align: center; text-decoration: none; font-size: 13px; font-weight: 500; border: 1px solid var(--line); border-radius: 10px; background-color: var(--bg); transition: background-color .15s ease-out, scale .15s ease-out; }
   .mall:hover { background-color: var(--hover); }
   .mall:active { scale: .98; }
@@ -792,7 +796,8 @@ function mapBuild() {
   }
   MAP.cells = cells; MAP.rows = row - 1;
   const own = cells.filter((x) => x.n.direct).length;
-  box.innerHTML = `<div class="mhead"><b>Agent Progress Map</b></div>
+  box.innerHTML = `<a class="mmini" href="?view=feed" data-feed><span>Agent activity${RECENT.length ? ` · <b>${RECENT.length}</b> this week` : ''}</span><span aria-hidden="true">→</span></a>
+    <div class="mhead"><b>Agent Progress Map</b></div>
     <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas></div>
     <div class="mkey"><span style="--c:var(--line)">To do</span><span style="--c:var(--fg)">Done</span><span style="--c:#3b6df0">New</span><span style="--c:#e8a317">Refined</span></div>
     <ul class="mlist">${RECENT.slice(0, 4).map((e) => `<li><button type="button" data-open="${esc(e.id)}"><b>${esc(WHO[e.mode])}</b><span>${VERB[e.mode]} ${esc(byId[e.id].name)}</span><time>${ago(e)}</time></button></li>`).join('') || '<li class="more">No agent runs yet. The first one is due tonight.</li>'}</ul>
