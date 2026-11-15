@@ -144,6 +144,14 @@
   .mlist button:hover { background-color: var(--hover); }
   .mlist button span { overflow: hidden; text-overflow: ellipsis; }
   .mlist time { margin-left: auto; color: var(--faint); flex: none; }
+  /* Phones and narrow windows: the card is replaced by a tappable strip under the title; the map lives at the top of the feed. */
+  .mstrip { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 18px 0 0; padding: 11px 14px; max-width: 420px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); text-decoration: none; font-size: 13.5px; color: var(--muted); transition: background-color .15s ease; }
+  .mstrip:hover { background: var(--hover); color: var(--fg); } .mstrip:active { scale: .99; }
+  .mstrip b { color: var(--fg); font-weight: 600; } .mstrip .l { display: flex; align-items: center; gap: 9px; min-width: 0; } .mstrip .l span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .mstrip .pip { flex: none; width: 7px; height: 7px; border-radius: 50%; background: #3b6df0; } .mstrip .pip.off { background: var(--line); }
+  @media (min-width: 1280px) { body:not(.has-detail) .mstrip { display: none; } }
+  body .amapp.inslot { display: block; position: static; width: auto; margin: 16px 0 20px; }
+  .amapp.inslot .mmini, .amapp.inslot .mall, .amapp.inslot .mlist { display: none; }
   .mmini { display: none; align-items: center; justify-content: space-between; gap: 10px; text-decoration: none; font-size: 13px; color: var(--muted); } .mmini:hover { color: var(--fg); } .mmini b { color: var(--fg); font-variant-numeric: tabular-nums; }
   body.searching .amapp { padding: 11px 14px; border-radius: 12px; }
   body.searching .amapp .mhead, body.searching .amapp .mwrap, body.searching .amapp .mkey, body.searching .amapp .mlist, body.searching .amapp .mall { display: none; }
@@ -375,6 +383,7 @@
   <div class="intro">
     <h1>The icon library for financial services.</h1>
     <p>Drawn by agents. New icons every night.</p>
+    <a class="mstrip" id="mstrip" href="?view=feed" data-feed></a>
   </div>
   <main id="main"></main>
   <aside class="amapp" id="amapp" aria-label="Agent Progress Map"></aside>
@@ -564,7 +573,7 @@ let FEED_DRAWN = false;
 function render() {
   syncControls(); syncUrl();
   const fopen = state.view === 'feed'; $('#feed').classList.toggle('open', fopen); $('#feed').setAttribute('aria-hidden', String(!fopen));
-  if (fopen && !FEED_DRAWN) { FEED_DRAWN = true; renderFeed(); } else if (!fopen) FEED_DRAWN = false;
+  if (fopen && !FEED_DRAWN) { FEED_DRAWN = true; renderFeed(); } else if (!fopen) { FEED_DRAWN = false; const am = $('#amapp'); if (am && am.closest('#feed')) { $('.wrap').append(am); am.classList.remove('inslot'); } }
   const q = state.q.toLowerCase().split(/\s+/).filter(Boolean);
   const only = state.kind.startsWith('std:') ? state.kind.slice(4) : null;
   const wantConcept = (c) => (only ? false : inKind(c, state.kind));
@@ -772,10 +781,12 @@ function renderFeed() {
       <div class="meta">${e.attempts ? `<span>Drawn in ${e.attempts} ${e.attempts === 1 ? 'try' : 'tries'}</span>` : ''}${pass ? '<span>Passed the judge</span>' : ''}${e.picture ? `<span>Picture: ${esc(String(e.picture).replace(/-/g, ' '))}</span>` : ''}</div>
       <div class="acts"><button class="btn" type="button" data-open="${esc(c.id)}">Open in library</button><code>get_icon({ id: "${esc(c.id)}" })</code></div></article>`;
   };
-  $('#feedbody').innerHTML = `<h1>What the agents are making</h1><p class="lede">Every icon the agents add or refine, newest first.</p>
+  const am = $('#amapp'); if (am && am.closest('#feed')) { $('.wrap').append(am); am.classList.remove('inslot'); } // keep the map card out of the markup being replaced
+  $('#feedbody').innerHTML = `<h1>What the agents are making</h1><p class="lede">Every icon the agents add or refine, newest first.</p><div id="fslot"></div>
     <div class="fchips">${chip('all', 'All')}${chip('add', 'New icons')}${chip('refine', 'Refined')}${chip('agents', 'The agents')}</div>
     ${FF === 'agents' ? agentMap() : days.length ? days.map((d) => { const day = FEED.filter((e) => e.date === d), n = day.filter((e) => e.mode === 'add' && e.result === 'added').length, rf = day.filter((e) => e.result === 'refined').length, no = day.filter((e) => e.result === 'rejected').length;
       return `<div class="day"><b>${dayLabel(d)}</b><span>${[n && `${n} new`, rf && `${rf} refined`, no && `${no} not kept`].filter(Boolean).join(' · ')}</span></div>${items.filter((e) => e.date === d).map(card).join('')}`; }).join('') : `<p class="lede" style="margin-top:28px">Nothing yet. The agents add their next batch overnight.</p>`}`;
+  if (am && innerWidth < 1280) { $('#fslot').append(am); am.classList.add('inslot'); }
 }
 $('#feed').addEventListener('click', (e) => {
   const f = e.target.closest('[data-ff]'); if (f) { FF = f.dataset.ff; return renderFeed(); }
@@ -792,11 +803,16 @@ document.addEventListener('click', (e) => { const a = e.target.closest('a[data-f
 const RECENT = FEED.filter((e) => e.result !== 'rejected' && Date.now() - stamp(e) < 7 * 864e5);
 const freshNote = (id) => { const e = RECENT.find((x) => x.id === id); return e ? `${WHO[e.mode]} ${VERB[e.mode]} this · ${ago(e)}` : ''; };
 
+// ---- Strip under the title (narrow screens): what the agents did this week ----
+{ const n = RECENT.length, e = RECENT[0];
+  $('#mstrip').innerHTML = `<span class="l"><i class="pip${n ? '' : ' off'}"></i><span>${n ? `<b>${esc(WHO[e.mode])}</b> ${VERB[e.mode]} ${esc(byId[e.id].name)}${n > 1 ? ` + ${n - 1} more` : ''}` : 'Agent activity'}</span></span><span aria-hidden="true">→</span>`;
+  $('#mstrip').setAttribute('aria-label', n ? `Agent activity: ${n} icon${n === 1 ? '' : 's'} this week. Open the progress map and activity.` : 'Agent activity. Open the progress map.'); }
+
 // ---- Library map: one cell per code in every standard; agents' recent work shown on it ----
 const MAP = { cols: 84, pad: 6, pitch: 3, cells: [], built: false, ids: new Set(RECENT.map((e) => e.id)), mode: new Map(), idx: 0 };
 for (const e of [...RECENT].reverse()) MAP.mode.set(e.id, e.mode); // newest entry wins
 function mapBuild() {
-  const box = $('#amapp'); if (!box || MAP.built || innerWidth < 1280) return;
+  const box = $('#amapp'); if (!box || MAP.built || (innerWidth < 1280 && state.view !== 'feed')) return;
   if (!DATA.standards.every((x) => STD[x.id])) { DATA.standards.forEach(loadStd); return; }
   MAP.built = true;
   const cells = []; let row = 0;
