@@ -398,7 +398,7 @@ const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors & industries'], ['a
 const inKind = (c, kind) => kind === 'all' || (kind === 'sectors' ? c.kind === 'sector' || c.kind === 'industry' : c.kind === kind);
 let JUMPS = []; // [{id, label, code}] for the current view; drives the sticky jump row
 function renderTabs() {
-  const jump = `<label class="viewby"><select id="jumpto" aria-label="Browse sections"><option value=""${state.sec ? '' : ' selected'}>Browse</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc(j.label)}</option>`).join('')}</select></label>`;
+  const jump = `<label class="viewby"><select id="jumpto" aria-label="Jump to section"><option value=""${state.sec ? '' : ' selected'}>Jump to</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc(j.label)}</option>`).join('')}</select></label>`;
   $('#tabs').innerHTML = `<div class="tabrow">${state.kind === 'all' ? '' : '<button type="button" data-kind="all" class="back">← All icons</button>'}<span class="right">${jump}</span></div>`;
 }
 const SEC = { sector: 'sectors', industry: 'industries', 'asset-class': 'credit', theme: 'topics', country: 'countries', region: 'regions' };
