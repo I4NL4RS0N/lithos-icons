@@ -214,7 +214,7 @@
   .empty { color: var(--muted); padding: 60px 0; font-size: 15px; }
 
   /* Command bar */
-  .bar { position: fixed; right: 20px; bottom: 20px; z-index: 20;
+  .bar { position: fixed; left: 50%; translate: -50% 0; bottom: 20px; z-index: 20;
     background: var(--panel); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow); display: flex; align-items: center; gap: 6px; padding: 6px; }
   .bar select { appearance: none; -webkit-appearance: none; border: 0; background: var(--pill) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%2374777d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m1 1 4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center;
     border-radius: 999px; height: 38px; padding: 0 30px 0 14px; font-size: 13px; font-weight: 500; max-width: 46%; }
@@ -225,10 +225,13 @@
   .search kbd { position: absolute; right: 10px; font: 11px var(--mono); color: var(--faint); border: 1px solid var(--line); border-radius: 5px; padding: 1px 5px; pointer-events: none; }
   .round { border: 0; background: var(--pill); width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; flex: none; }
   .round:hover { background: var(--hover); }
+  .cbtn { border: 0; background: var(--pill); height: 38px; padding: 0 16px 0 13px; border-radius: 999px; display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; flex: none; transition: background-color .15s ease-out, color .15s ease-out, scale .15s ease-out; }
+  .cbtn:hover { background: var(--hover); } .cbtn:active { scale: .96; }
+  .cbtn[aria-expanded="true"] { background: var(--accent); color: var(--accent-fg); }
   .round[aria-pressed="true"], .round[aria-expanded="true"] { background: var(--accent); color: var(--accent-fg); }
 
   /* Customize popover */
-  .pop { position: fixed; right: 20px; bottom: 82px; transform: translateY(8px); z-index: 19; width: min(400px, calc(100% - 24px)); max-height: calc(100vh - 110px); overflow-y: auto;
+  .pop { position: fixed; left: 50%; translate: -50% 0; bottom: 82px; transform: translateY(8px); z-index: 19; width: min(400px, calc(100% - 24px)); max-height: calc(100vh - 110px); overflow-y: auto;
     background: var(--panel); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); padding: 20px 20px 22px; opacity: 0; pointer-events: none; transition: opacity .14s, transform .14s; }
   .pop.open { opacity: 1; pointer-events: auto; transform: none; }
   .pop header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
@@ -297,14 +300,13 @@
   .toast.show { opacity: 1; }
   footer { border-top: 1px solid var(--line); padding: 22px 0 120px; color: var(--muted); font-size: 12.5px; max-width: 760px; }
 
-  @media (min-width: 1000px) { body.has-detail .bar, body.has-detail .pop { right: 440px; } body.has-detail .toast { left: calc(50% - 210px); } }
+  @media (min-width: 1000px) { body.has-detail .bar, body.has-detail .pop { left: calc(50% - 210px); } body.has-detail .toast { left: calc(50% - 210px); } }
   @media (max-width: 640px) {
     .wrap { padding: 0 18px; }
     .bar select { max-width: 38%; }
     .intro { padding-top: 36px; }
     .grid { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); }
-    .bar { bottom: 12px; right: 12px; }
-    .pop { right: 12px; }
+    .bar { bottom: 12px; }
     .search kbd { display: none; }
     .search input { padding-right: 12px; }
     .tabrow .viewby { font-size: 0; gap: 0; }
@@ -372,10 +374,7 @@
 </div>
 
 <div class="bar" role="toolbar" aria-label="Browse and customise">
-  <button class="round" id="styleBtn" type="button" aria-label="Switch between outline and solid" title="Outline / solid"></button>
-  <button class="round" id="custom" type="button" aria-label="Customize" aria-expanded="false" title="Customize">
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M2 4.5h5M11 4.5h3M2 11.5h3M9 11.5h5"/><circle cx="9" cy="4.5" r="2"/><circle cx="7" cy="11.5" r="2"/></svg>
-  </button>
+  <button class="cbtn" id="custom" type="button" aria-label="Customize" aria-expanded="false" title="Customize: style, size, colour"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M2 4.5h5M11 4.5h3M2 11.5h3M9 11.5h5"/><circle cx="9" cy="4.5" r="2"/><circle cx="7" cy="11.5" r="2"/></svg>Customize</button>
 </div>
 
 <aside class="drawer" id="feed" role="dialog" aria-label="Agent activity" aria-hidden="true"><div class="dbar"><button type="button" class="dx" id="feed-x" aria-label="Close agent activity"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9"/></svg></button></div><div id="feedbody"></div></aside>
@@ -485,9 +484,6 @@ function syncControls() {
   $('#stroke').value = state.stroke ?? DATA.grid[24].stroke; $('#strokeOut').textContent = (+$('#stroke').value).toFixed(2) + ' px';
   $('#radius').value = state.radius; $('#radiusOut').textContent = (state.radius * BASE_RADIUS_PX).toFixed(2);
   $('#gap').value = state.gap; $('#gapOut').textContent = (state.gap * BASE_GAP_PX).toFixed(2);
-  $('#styleBtn').innerHTML = solid
-    ? '<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg>'
-    : '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/></svg>';
   $('#pop').classList.toggle('open', state.pop); $('#pop').setAttribute('aria-hidden', !state.pop); $('#custom').setAttribute('aria-expanded', state.pop);
   renderTabs();
 }
@@ -681,7 +677,6 @@ $('#stroke').oninput = (e) => set('stroke', +e.target.value);
 $('#radius').oninput = (e) => set('radius', +e.target.value);
 $('#gap').oninput = (e) => set('gap', +e.target.value);
 $('#reset').onclick = () => { Object.assign(state, DEF); save(); render(); };
-$('#styleBtn').onclick = () => set('style', state.style === 'solid' ? 'outline' : 'solid');
 $('#custom').onclick = () => { state.pop = !state.pop; syncControls(); };
 $('#tabs').onclick = (e) => {
   const b = e.target.closest('button[data-kind]'); if (!b) return; state.kind = b.dataset.kind; state.sel = null; state.sec = null; toTop(); render(); };
