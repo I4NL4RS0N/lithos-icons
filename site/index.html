@@ -389,7 +389,7 @@
   <div class="field"><div class="lbl">Style</div><div class="seg" data-key="style"><button data-v="outline">Outline</button><button data-v="solid">Solid</button></div></div>
   <div class="field"><div class="lbl">Size</div><div class="seg mono" data-key="size"><button data-v="16">16</button><button data-v="20">20</button><button data-v="24">24</button><button data-v="32">32</button><button data-v="48">48</button></div></div>
   <div class="field"><div class="lbl">Colour</div><div class="swatches" id="swatches"></div></div>
-  <div class="field" id="strokeField"><div class="lbl"><span>Stroke</span><output id="strokeOut"></output></div><input type="range" id="stroke" min="1.25" max="2.5" step="0.25" aria-label="Stroke width"></div>
+  <div class="field" id="strokeField"><div class="lbl"><span>Stroke</span><output id="strokeOut"></output></div><input type="range" id="stroke" min="0.5" max="2.5" step="0.25" aria-label="Stroke width"></div>
   <div class="field"><div class="lbl"><span>Corner radius</span><output id="radiusOut"></output></div><input type="range" id="radius" min="0" max="2" step="0.05" aria-label="Corner radius"></div>
   <div class="field"><div class="lbl"><span>Knockout gap</span><output id="gapOut"></output></div><input type="range" id="gap" min="0.5" max="2" step="0.1" aria-label="Knockout gap"></div>
   <div class="two">
@@ -425,7 +425,7 @@ function renderTabs() {
 const SEC = { sector: 'sectors', industry: 'industries', 'asset-class': 'credit', theme: 'topics', country: 'countries', region: 'regions' };
 const SINGULAR = { sector: 'Sector', industry: 'Industry', 'asset-class': 'Credit asset class', theme: 'Topic', country: 'Country', region: 'Region' };
 const COLORS = [['', 'Default'], ['#2f6feb', 'Blue'], ['#7c5cff', 'Violet'], ['#2da44e', 'Green'], ['#d1434b', 'Red'], ['#d4901f', 'Amber'], ['#74777d', 'Grey']];
-const DEF = { style: 'outline', size: 24, color: '', stroke: null, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
+const DEF = { style: 'outline', size: 24, color: '', stroke: 1, radius: 1, gap: 1, scaling: 'scale', ctry: 'flag', labels: 'on', appearance: 'system' };
 const BASE_RADIUS_PX = 2.8, BASE_GAP_PX = 1.5;
 
 const load = () => { try { return JSON.parse(localStorage.getItem('li:settings3')) || {}; } catch { return {}; } };
@@ -448,9 +448,9 @@ const dark = matchMedia('(prefers-color-scheme: dark)');
 const isMac = /Mac|iPhone|iPad/.test(navigator.platform);
 
 function strokeAt(size) {
-  const g = DATA.grid[size], ref = DATA.grid[24].stroke, base = state.stroke ?? ref;
+  const g = DATA.grid[size], ref = DATA.grid[24].stroke, base = state.stroke ?? DEF.stroke;
   const s = state.scaling === 'scale' ? (base * g.stroke) / ref : base;
-  return Math.round(Math.min(g.max, Math.max(g.min, s)) * 100) / 100;
+  return Math.round(Math.min(g.max, Math.max(0.5, s)) * 100) / 100;
 }
 const isFlag = (c) => c.kind === 'country' && state.ctry === 'flag' && !!c.flag;
 const flagUrl = (c, size) => `flags/${c.iso2.toLowerCase()}/4x3-${size}.svg`;
@@ -514,7 +514,7 @@ function syncControls() {
   document.querySelectorAll('#swatches .sw').forEach((b) => b.setAttribute('aria-pressed', b.classList.contains('custom') ? !COLORS.some(([c]) => c === state.color) : b.dataset.v === state.color));
   const solid = state.style === 'solid';
   $('#strokeField').setAttribute('aria-disabled', solid); $('#stroke').disabled = solid;
-  $('#stroke').value = state.stroke ?? DATA.grid[24].stroke; $('#strokeOut').textContent = (+$('#stroke').value).toFixed(2) + ' px';
+  $('#stroke').value = state.stroke ?? DEF.stroke; $('#strokeOut').textContent = (+$('#stroke').value).toFixed(2) + ' px';
   $('#radius').value = state.radius; $('#radiusOut').textContent = (state.radius * BASE_RADIUS_PX).toFixed(2);
   $('#gap').value = state.gap; $('#gapOut').textContent = (state.gap * BASE_GAP_PX).toFixed(2);
   $('#pop').classList.toggle('open', state.pop); $('#pop').setAttribute('aria-hidden', !state.pop); $('#custom').setAttribute('aria-expanded', state.pop);
