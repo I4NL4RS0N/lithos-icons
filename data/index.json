@@ -68,6 +68,21 @@
     "since": "0.1.0"
   },
   {
+    "id": "pension-funds",
+    "name": "Pension Funds",
+    "kind": "asset-class",
+    "metaphor": "piggy-bank",
+    "keywords": [
+      "pension",
+      "retirement",
+      "fund"
+    ],
+    "reduction": "Side-on piggy bank facing right: one silhouette of oval body, square snout and pointed ear, with two stub legs, a coin slot on the back and an eye. 16 and 20: no tail, the slot sits lower so it keeps 1.5px clear of the back, legs are short single strokes. 24+: a small curled tail is added on the left. 32 and 48: snout and ear a touch larger. Solid: body filled with the slot and eye knocked out; legs and tail stay plain strokes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "rental-leasing",
     "name": "Rental & Leasing",
     "kind": "industry",

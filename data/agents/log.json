@@ -695,5 +695,41 @@
   "mapped": 0,
   "why": "Medical Devices is a Fitch corporate sector. It is distinct from the capsule, the DNA helix and the hospital building.",
   "cost": 0.52
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:22:59.570Z",
+  "mode": "add",
+  "id": "pension-funds",
+  "name": "Pension Funds",
+  "kind": "asset-class",
+  "picture": "piggy-bank",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A side-view piggy bank with a coin slot, eye, a pointed ear, a rectangular snout, a tail curl and two legs. People will read it as savings or a pension pot. It is the standard picture for retirement savings, though it is not unique to pensions.",
+   "problems": [
+    "The near preview (agent-pension-funds-near.png) shows only this icon, not the parent and siblings. I checked distinctness against the full sheets instead: there is no other pig in the set, and 'funds' (money bag) and 'financials' (coin stack) look clearly different.",
+    "The silhouette is wide and short, so it has a bit less visual mass than square neighbours like gambling-betting and motion-pictures on sheet-24. It still fills the frame width at every size.",
+    "The ear is a fairly sharp triangle. Next to the set's rounded joins it looks slightly spiky, especially in the solid version at 32 and 48.",
+    "At 16px outline, the coin slot sits close to the top of the body outline and the tail curl shrinks to a small hook. Both are readable but near the limit.",
+    "The piggy bank is a generic savings metaphor. Without the label, a finance professional might say 'savings' or 'retail deposits' rather than 'pension funds'. That is acceptable because the set has no savings icon to clash with."
+   ],
+   "fixes": [
+    "Optional: soften the ear tip with a small radius so it matches the rounded join style.",
+    "Optional: at 16px, drop the slot about 0.5px or shorten it so it clears the top outline by a full stroke gap.",
+    "Optional: make the body slightly taller (by about 1px at 24px) so its visual mass matches the square neighbours.",
+    "Regenerate the near preview so it actually shows the parent and siblings for the record."
+   ]
+  },
+  "mapped": 5,
+  "why": "Pension Funds are a major institutional investor type that analysts expect to see. They are distinct from the money bag used for generic funds.",
+  "cost": 0.52
  }
 ]

@@ -1,0 +1,758 @@
+{
+  "concept": "pension-funds",
+  "query": "piggy bank",
+  "fetched": "2026-11-15T23:17:17.168Z",
+  "topTerms": [
+    [
+      "bank",
+      50
+    ],
+    [
+      "piggy",
+      50
+    ],
+    [
+      "piggy-bank",
+      50
+    ],
+    [
+      "savings",
+      24
+    ],
+    [
+      "piggy bank",
+      20
+    ],
+    [
+      "bank-piggy",
+      12
+    ],
+    [
+      "piggy-bank-savings",
+      7
+    ],
+    [
+      "piggy-banks",
+      6
+    ],
+    [
+      "dollar-piggy",
+      6
+    ],
+    [
+      "money",
+      5
+    ],
+    [
+      "coin",
+      4
+    ],
+    [
+      "pig",
+      3
+    ],
+    [
+      "money savings",
+      3
+    ],
+    [
+      "money-savings",
+      3
+    ],
+    [
+      "saving",
+      2
+    ],
+    [
+      "banking",
+      2
+    ],
+    [
+      "financial",
+      2
+    ],
+    [
+      "piggy-bank-saving",
+      2
+    ],
+    [
+      "share",
+      2
+    ],
+    [
+      "sync",
+      2
+    ],
+    [
+      "lock",
+      2
+    ],
+    [
+      "cash in",
+      2
+    ],
+    [
+      "cash-in",
+      2
+    ],
+    [
+      "broken",
+      2
+    ],
+    [
+      "cash out",
+      2
+    ],
+    [
+      "cash-out",
+      2
+    ],
+    [
+      "card",
+      2
+    ],
+    [
+      "piggybank",
+      1
+    ],
+    [
+      "safe bank",
+      1
+    ],
+    [
+      "safe-bank",
+      1
+    ],
+    [
+      "animal",
+      1
+    ],
+    [
+      "piggy back",
+      1
+    ],
+    [
+      "pig-bank",
+      1
+    ],
+    [
+      "piggy-back",
+      1
+    ],
+    [
+      "cross",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "piggybank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-savings",
+            "piggy-banks",
+            "piggybank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2976133-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "dollar-piggy",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8411324-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "dollar-piggy",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7963242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "dollar-piggy",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7963230-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6970888-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "dollar-piggy",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6761425-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "dollar-piggy",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6761409-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-savings",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6637542-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "savings",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6254524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-savings",
+            "piggy-banks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4661981-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-savings",
+            "piggy-banks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2976170-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-savings",
+            "piggy-banks"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2976131-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2342153-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "dollar-piggy",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6946852-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Saving",
+          "tags": [
+            "bank",
+            "money",
+            "piggy",
+            "piggy-bank",
+            "saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6408210-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "pig",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6232362-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "money savings",
+          "tags": [
+            "bank",
+            "money",
+            "money-savings",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5956085-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "money savings",
+          "tags": [
+            "bank",
+            "money",
+            "money-savings",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5956026-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "money savings",
+          "tags": [
+            "bank",
+            "money-savings",
+            "piggy",
+            "piggy-bank",
+            "saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5956021-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Safe Bank",
+          "tags": [
+            "bank",
+            "pig",
+            "piggy",
+            "piggy-bank",
+            "safe-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5650470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "banking",
+          "tags": [
+            "bank",
+            "banking",
+            "financial",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5377925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "banking",
+          "tags": [
+            "bank",
+            "banking",
+            "financial",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5377906-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "coin",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5279728-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "bank-piggy",
+            "coin",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5279677-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5021470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4979785-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-saving"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4979736-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-banks",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4661974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Pig",
+          "tags": [
+            "animal",
+            "bank",
+            "pig",
+            "piggy",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4582113-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy back",
+          "tags": [
+            "bank",
+            "pig-bank",
+            "piggy",
+            "piggy-back",
+            "piggy-bank"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3612545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Piggy Bank",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "piggy-bank-savings",
+            "piggy-banks",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3587358-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Share",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "savings",
+            "share"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489282-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Sync",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "savings",
+            "sync"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489280-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "bank",
+            "money",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489279-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Lock",
+          "tags": [
+            "bank",
+            "lock",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489278-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "coin",
+          "tags": [
+            "bank",
+            "coin",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489276-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash in",
+          "tags": [
+            "bank",
+            "cash-in",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489275-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cross",
+          "tags": [
+            "bank",
+            "cross",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "coin",
+          "tags": [
+            "bank",
+            "coin",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489271-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "broken",
+          "tags": [
+            "bank",
+            "broken",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489270-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash out",
+          "tags": [
+            "bank",
+            "cash-out",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489268-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "bank",
+            "money",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489267-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Sync",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "savings",
+            "sync"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489265-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Card",
+          "tags": [
+            "bank",
+            "card",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489264-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Lock",
+          "tags": [
+            "bank",
+            "lock",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489261-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Share",
+          "tags": [
+            "bank",
+            "piggy",
+            "piggy-bank",
+            "savings",
+            "share"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489260-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Card",
+          "tags": [
+            "bank",
+            "card",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "broken",
+          "tags": [
+            "bank",
+            "broken",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489255-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash out",
+          "tags": [
+            "bank",
+            "cash-out",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489254-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash in",
+          "tags": [
+            "bank",
+            "cash-in",
+            "piggy",
+            "piggy-bank",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3489253-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
