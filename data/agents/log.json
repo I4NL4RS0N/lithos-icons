@@ -276,5 +276,42 @@
   "mapped": 5,
   "why": "ISIC/NACE 75 borrows a parent icon.",
   "cost": 0.75
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T18:02:31.297Z",
+  "mode": "add",
+  "id": "sewerage",
+  "name": "Sewerage",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The manhole doesn't read. Nothing shows a round cover at street level. The slanted bar floats above a short T-shaped riser and looks like a broken lid or a lever, not a manhole cover lifted off a shaft.; The overall picture (a box of wavy water with a stub on top) looks more like a pool, tank or reservoir. Without the label, a finance user would more likely guess water storage or water treatment than sewerage.; The tilted bar is the only diagonal in a mostly orthogonal glyph and looks lik",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A water tank or swimming pool with a pipe or chimney on top and a loose slanted bar above it. It could pass for a lab or factory vessel. It does not read as a manhole or a sewer.",
+   "problems": [
+    "The manhole doesn't read. Nothing shows a round cover at street level. The slanted bar floats above a short T-shaped riser and looks like a broken lid or a lever, not a manhole cover lifted off a shaft.",
+    "The overall picture (a box of wavy water with a stub on top) looks more like a pool, tank or reservoir. Without the label, a finance user would more likely guess water storage or water treatment than sewerage.",
+    "The tilted bar is the only diagonal in a mostly orthogonal glyph and looks like a mistake, especially at 16 and 20px, where it turns into a speck detached from the shape.",
+    "At 16px the two wave lines and the top edge of the box are packed close together, so the lower half becomes a cluttered mass of horizontal strokes.",
+    "In the solid version the riser fills into a heavy blob that merges with the slab. The wave knockouts are thin and at 16, 20 and 24px they read as a faint grey stripe rather than a clear cut.",
+    "The footprint is wide and short: the box takes up only about the bottom 55% of the frame, and the riser plus lid add thin, light marks above it. At 16 and 24px it looks smaller and lighter than its neighbours in the sheet, such as waste-management and water-utilities, which fill the full height.",
+    "The details are fussy for the set: a T-riser with return hooks, a floating diagonal lid and two wave lines inside a box. Most icons in the set are one bold, simple silhouette."
+   ],
+   "fixes": [
+    "Redraw around one clear metaphor: a round manhole cover seen from above (a circle with 2–3 parallel slot bars or a simple grid) sitting on a ground line, with a single flow wave or a pipe below. Or use a cross-section: a ground line, a vertical shaft going down, and a horizontal sewer pipe (a capsule shape) at the bottom with one wave inside.",
+    "Remove the floating tilted lid. If you want a lifted cover, draw it as a clear ellipse resting at an angle against the shaft opening, attached to the shape and not hovering.",
+    "Use only one wave line inside the pipe or chamber so the 16 and 20px versions stay open. Draw the 16px wave by hand on the pixel grid with at least 2px of clear space above and below.",
+    "Fill the frame: the main mass should run from about y=3 to y=21 at 24px, like water-utilities and waste-management, not sit as a short slab in the lower half.",
+    "Solid version: fill the chamber or pipe and cut out the wave as a stroke at least 1.5px wide (2px at 16px). Keep the shaft as an outline or a separate block with a clear gap where it meets the chamber, so it doesn't merge into one blob.",
+    "Check that the result doesn't look like water-utilities (tap and drop), waste-management (bin) or pipelines (valve). The manhole cover or sewer pipe needs to be the main silhouette."
+   ]
+  },
+  "cost": 1.69
  }
 ]
