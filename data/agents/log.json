@@ -521,5 +521,42 @@
    ]
   },
   "cost": 0.49
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:15:04.131Z",
+  "mode": "add",
+  "id": "homebuilding",
+  "name": "Homebuilding",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Near-duplicate of 'banks' (pediment over columns over base) and close to 'municipal-bonds'. In the sheet, homebuilding, banks and municipal-bonds read as the same family of 'columned institution' icons.; The stud wall is drawn as evenly spaced vertical bars inside a closed rectangle, which matches the bank-column metaphor. There are no horizontal plates, diagonal bracing or open, unfinished parts that would say 'frame under construction'.; The roof is a closed solid or outlined triangle t",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 1,
+   "verdict": "fail",
+   "reads_as": "A bank or classical building (triangular pediment over a row of columns). It could also be a crate or cage. It does not read as a timber house frame under construction.",
+   "problems": [
+    "Near-duplicate of 'banks' (pediment over columns over base) and close to 'municipal-bonds'. In the sheet, homebuilding, banks and municipal-bonds read as the same family of 'columned institution' icons.",
+    "The stud wall is drawn as evenly spaced vertical bars inside a closed rectangle, which matches the bank-column metaphor. There are no horizontal plates, diagonal bracing or open, unfinished parts that would say 'frame under construction'.",
+    "The roof is a closed solid or outlined triangle that sits on the box like a pediment. It reads as a finished building, not rafters.",
+    "At 16px the four studs crowd into a 3-bar grille and the bars almost touch the frame. The interior gaps are 1px or less and look clogged.",
+    "The footprint is narrow and tall. At 16, 20 and 24 the glyph sits visibly smaller in its box than neighbours like real-estate and wholesale-trade, and the body width uses only about 60% of the frame.",
+    "Solid: the filled pediment above a hollow barred body is inconsistent. The body is not filled with knockouts, so the solid footprint and weight differ from the outline and from other solids like real-estate.",
+    "There is no link to the parent 'construction' (crane) or the sibling 'real-estate' (house). Homebuilding should read as 'house + building in progress', distinct from both."
+   ],
+   "fixes": [
+    "Change the metaphor so it reads as an unfinished house frame. Use the real-estate house silhouette as the outer shape, but draw it as an open frame: the roof as two rafter strokes that do not close at the eaves, one ridge line, and walls of 2–3 studs with a top plate and bottom plate. Add one diagonal brace across one wall bay. Leave one wall bay or roof section visibly missing.",
+    "Or combine metaphors: the real-estate house outline with a small crane hook or hammer at the upper right, reusing the construction crane metaphor from data/metaphors.json. This ties it to its parent and keeps it distinct from banks.",
+    "Remove the evenly spaced column row and the closed base box, which carry the bank/temple meaning. Avoid more than 2 interior verticals.",
+    "Widen the glyph to fill the 24px live area (about 20px wide) like real-estate and wholesale-trade, at every size.",
+    "At 16px, redraw with at most 1–2 studs and 1 brace, keeping at least 2px between strokes. At 20px, use 2 studs.",
+    "Solid: fill the house silhouette and knock out the frame openings (wall bays between studs and the triangle under the rafters) so the footprint matches the outline exactly. Do not mix a filled roof with a stroked body."
+   ]
+  },
+  "cost": 1.19
  }
 ]
