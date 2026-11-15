@@ -449,5 +449,42 @@
    ]
   },
   "cost": 0.88
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T19:42:11.161Z",
+  "mode": "refine",
+  "id": "reits",
+  "result": "rejected",
+  "reason": "judge: The intended picture is an apartment block, but the tall shape has a pitched house roof, so it reads as a townhouse or tall house. Next to the small house, the pair reads as 'houses', which is generic residential, not a multi-unit block.; The small right-hand building (pitched roof plus arched door) is a shrunken copy of the parent real-estate icon. The child just repeats the parent's metaphor, which weakens how distinct it is from the parent.; The tall-plus-short building pair is very cl",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A tall gabled townhouse next to a small house, like a street of homes or a neighbourhood. It does not read as an apartment block, and nothing in it says investment trust.",
+   "problems": [
+    "The intended picture is an apartment block, but the tall shape has a pitched house roof, so it reads as a townhouse or tall house. Next to the small house, the pair reads as 'houses', which is generic residential, not a multi-unit block.",
+    "The small right-hand building (pitched roof plus arched door) is a shrunken copy of the parent real-estate icon. The child just repeats the parent's metaphor, which weakens how distinct it is from the parent.",
+    "The tall-plus-short building pair is very close to corporate-finance (tall block with a shorter block beside it) in silhouette and composition.",
+    "At 16px every window is dropped, leaving two bare house outlines. That is the same picture as the parent, just doubled. At 20px there are still no windows, and the door on the small house is a cramped 'n' squeezed against the stroke.",
+    "Solid at 16px and 20px: there are no knockouts at all, and the two silhouettes nearly fuse into one lumpy blob. At 16px the small house has no door knockout. Only 24px and up show any interior detail.",
+    "At 24px the window marks are tiny 2×1 dots, much finer than the interior detail in neighbouring icons like cmbs and corporate-finance, so the level of detail is inconsistent.",
+    "The composition is weighted left and narrow. The small house leaves empty space in the upper right, so at 16/20 it fills the frame less fully than real-estate and corporate-finance.",
+    "It is clearly better than the before version (a plain rectangle with dashes that read as a phone or remote), but the improvement is still not shippable."
+   ],
+   "fixes": [
+    "Redraw the main shape as a real apartment block: a tall flat-roofed rectangle (optionally with a small parapet or rooftop step) and a regular grid of windows, 2 columns × 3 rows at 24px. Drop the pitched roof completely.",
+    "Remove the small house with the arched door so the icon doesn't repeat the parent. If you want a second mass, use a shorter flat-roofed block of a clearly different width from corporate-finance's pair, or skip it and use one wide block with a ground-floor entrance.",
+    "To stay apart from corporate-finance, give the block a central entrance door at the base and balconies or a window grid that fills the whole facade, so it reads as residential multi-unit, not an office.",
+    "16px: keep at least a 2×2 window grid as 1px-gap knockouts or short strokes on whole pixels. 20px: 2×3. The windows are what tell this apart from the parent house, so they must survive at small sizes.",
+    "Solid: knock the windows and door out of the block at every size, 16 and 20 included, with at least 1px clear gaps. Keep the solid footprint the same as the outline.",
+    "Widen the block so it fills the 24px live area like its neighbours (about 18–20px wide and 20px tall) instead of sitting narrow and left-heavy.",
+    "Make the window marks the same visual weight as other interior details in the set (short stroke dashes at the master stroke width, not pinhead dots)."
+   ]
+  },
+  "cost": 0.35
  }
 ]
