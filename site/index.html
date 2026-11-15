@@ -465,13 +465,17 @@ function draw(c, size = state.size, style = state.style) {
   }
   return s.replace('class="li ', 'class="ic li ');
 }
+// The icon panel has its own size and style (null = follow the gallery). Customize owns the gallery's.
+const DS = { id: null, size: null, style: null };
+const cur = () => { const mine = DS.id === state.sel; return { size: (mine && DS.size) || state.size, style: (mine && DS.style) || state.style }; };
+const setLocal = (k, v) => { if (DS.id !== state.sel) { DS.id = state.sel; DS.size = DS.style = null; } DS[k] = v; renderDetail(); };
 async function exportSvg(c) {
-  if (isFlag(c)) return (await fetch(flagUrl(c, state.size))).text();
-  let s = draw(c).replace('class="ic li ', 'class="li ');
+  if (isFlag(c)) return (await fetch(flagUrl(c, cur().size))).text();
+  let s = draw(c, cur().size, cur().style).replace('class="ic li ', 'class="li ');
   if (state.color && !isFlag(c)) s = s.replace(/currentColor/g, state.color);
   return s;
 }
-const fileUrl = (c) => isFlag(c) ? '/' + flagUrl(c, state.size) : `/icons/${c.id}/${state.style}-${state.size}.svg`;
+const fileUrl = (c) => isFlag(c) ? '/' + flagUrl(c, cur().size) : `/icons/${c.id}/${cur().style}-${cur().size}.svg`;
 function matches(c, q) {
   if (!q) return true;
   const hay = [c.name, c.id, c.metaphor, c.iso2, c.m49, c.parent, ...(c.keywords || []), ...(c.codes || []).flatMap((x) => [x.scheme + ' ' + x.code, x.name])].filter(Boolean).join(' ').toLowerCase();
@@ -624,16 +628,18 @@ function renderDetail() {
   document.body.classList.toggle('has-detail', !!c);
   if (!c) { el.classList.remove('open'); el.setAttribute('aria-hidden', 'true'); return; }
   const keepScroll = el.dataset.for === c.id ? el.scrollTop : 0; el.dataset.for = c.id;
+  if (DS.id !== c.id) { DS.id = c.id; DS.size = DS.style = null; }
+  const { size: psz, style: pst } = cur();
   const parent = c.parent && DATA.concepts.find((x) => x.id === c.parent), flag = isFlag(c), rel = related(c);
   const seg = (key, opts, cur) => `<div class="seg" data-dkey="${key}">${opts.map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${String(cur) === String(v)}">${l}</button>`).join('')}</div>`;
   el.innerHTML = `
     <header><div><div class="crumb">${esc(SINGULAR[c.kind] || c.kind)}${parent ? ` · <a href="?icon=${parent.id}" data-goto="${parent.id}">${esc(parent.name)}</a>` : ''}</div><h3>${esc(c.name)}</h3><div class="sub">${esc(c.id)}${c.iso2 ? ' · ' + c.iso2 : ''}${c.m49 ? ' · M49 ' + c.m49 : ''}</div></div>
       <button class="round" id="close" type="button" aria-label="Close details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 3l8 8M11 3l-8 8"/></svg></button></header>
-    <div class="hero"><div class="stage">${flag ? '' : overlaySvg(state.size)}${draw(c, state.size)}</div></div>
+    <div class="hero"><div class="stage">${flag ? '' : overlaySvg(psz)}${draw(c, psz, pst)}</div></div>
     ${flag ? '' : `<div class="ovs">${[['grid', 'Grid'], ['key', 'Keylines'], ['pad', 'Padding']].map(([k, l]) => `<button type="button" class="chip" data-ov="${k}" aria-pressed="${OV[k]}">${l}</button>`).join('')}</div>`}
-    <div class="ctl">${flag ? '' : seg('style', [['outline', 'Outline'], ['solid', 'Solid']], state.style)}
-      <label class="sizer"><span>Size</span><input type="range" id="dsize" min="0" max="${DATA.sizes.length - 1}" step="1" value="${DATA.sizes.indexOf(state.size)}" aria-label="Size"><b>${state.size}px</b></label>
-      <div class="sizes">${DATA.sizes.map((s) => `<button type="button" data-size="${s}" aria-pressed="${s === state.size}" title="${s}px">${draw(c, s)}<span>${s}</span></button>`).join('')}</div></div>
+    <div class="ctl">${flag ? '' : seg('style', [['outline', 'Outline'], ['solid', 'Solid']], pst)}
+      <label class="sizer"><span>Size</span><input type="range" id="dsize" min="0" max="${DATA.sizes.length - 1}" step="1" value="${DATA.sizes.indexOf(psz)}" aria-label="Size"><b>${psz}px</b></label>
+      <div class="sizes">${DATA.sizes.map((s) => `<button type="button" data-size="${s}" aria-pressed="${s === psz}" title="${s}px">${draw(c, s, pst)}<span>${s}</span></button>`).join('')}</div></div>
     <div class="actions">
       <button class="btn primary" id="copy" type="button">Copy SVG</button>${flag ? '<button class="btn" id="url" type="button">Copy file URL</button>' : '<button class="btn" id="jsx" type="button">Copy JSX</button>'}
       <button class="btn" id="dl" type="button">Download SVG</button><button class="btn" id="png" type="button">Download PNG</button>
@@ -652,7 +658,7 @@ function renderDetail() {
     </dl>
     <a class="report" href="https://github.com/I4NL4RS0N/lithos-icons/issues/new?title=${encodeURIComponent('Icon: ' + c.id)}" target="_blank" rel="noopener">Report a problem with this icon</a>`;
   el.classList.add('open'); el.setAttribute('aria-hidden', 'false'); el.scrollTop = keepScroll;
-  const file = `${c.id}-${flag ? 'flag' : state.style}-${state.size}`;
+  const file = `${c.id}-${flag ? 'flag' : pst}-${psz}`;
   $('#close').onclick = () => { state.sel = null; render(); };
   $('#copy').onclick = async () => copy(await exportSvg(c), 'SVG copied');
   $('#url').onclick = () => copy(location.origin + fileUrl(c), 'URL copied');
@@ -664,10 +670,10 @@ function renderDetail() {
     if (CODE) exportSvg(c).then((svg) => { const v = $('#codeview'); if (v) v.textContent = CODE === 'jsx' ? toJsx(svg, compName(c)) : svg.trim().replace(/></g, '>\n  <').replace(/\n  <\/svg>$/, '\n</svg>'); });
     el.querySelectorAll('[data-ov]').forEach((b) => (b.onclick = () => { OV[b.dataset.ov] = !OV[b.dataset.ov]; renderDetail(); }));
     el.querySelectorAll('[data-code]').forEach((b) => (b.onclick = () => { CODE = CODE === b.dataset.code ? null : b.dataset.code; renderDetail(); }));
-    el.querySelector('[data-dkey="style"]').onclick = (e) => { const b = e.target.closest('button'); if (b) set('style', b.dataset.v); };
+    el.querySelector('[data-dkey="style"]').onclick = (e) => { const b = e.target.closest('button'); if (b) setLocal('style', b.dataset.v); };
   }
-  $('#dsize').oninput = (e) => set('size', DATA.sizes[+e.target.value]);
-  el.querySelectorAll('[data-size]').forEach((b) => (b.onclick = () => set('size', +b.dataset.size)));
+  $('#dsize').oninput = (e) => setLocal('size', DATA.sizes[+e.target.value]);
+  el.querySelectorAll('[data-size]').forEach((b) => (b.onclick = () => setLocal('size', +b.dataset.size)));
   el.querySelectorAll('[data-goto]').forEach((a) => (a.onclick = (e) => { e.preventDefault(); state.sel = a.dataset.goto; render(); }));
   el.querySelectorAll('[data-q]').forEach((b) => (b.onclick = () => { state.q = b.dataset.q; state.kind = 'all'; $('#q').value = state.q; render(); }));
 }
