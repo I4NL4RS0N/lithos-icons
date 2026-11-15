@@ -100,5 +100,39 @@
    ]
   },
   "cost": 1.35
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T17:01:25.851Z",
+  "mode": "add",
+  "id": "tariffs-trade",
+  "name": "Tariffs & Trade",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The container is a flat, wide strip, about 2:1, using only the bottom ~55% of the frame. The top-left quadrant is empty, so the icon looks bottom-heavy and sits smaller than neighbours like rmbs, cmbs and packaging, which fill the full height.; The container has no container cues: no top or bottom rails, corner posts or door end. Four bars in a rounded rectangle read as a barcode or battery, so the tag reads as a retail price tag (pricing or a sale) rather than a customs duty.; At 16px th",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A low ribbed box with a price tag on its top-right corner. At 32–48px it reads as a shipping container with a price tag. At 16–24px it reads more like a barcode, battery or product with a price tag, which suggests retail pricing or a sale rather than tariffs or trade.",
+   "problems": [
+    "The container is a flat, wide strip, about 2:1, using only the bottom ~55% of the frame. The top-left quadrant is empty, so the icon looks bottom-heavy and sits smaller than neighbours like rmbs, cmbs and packaging, which fill the full height.",
+    "The container has no container cues: no top or bottom rails, corner posts or door end. Four bars in a rounded rectangle read as a barcode or battery, so the tag reads as a retail price tag (pricing or a sale) rather than a customs duty.",
+    "At 16px the ribs shrink to 3 short stubs crowded against the left wall, and the tag's punch hole is a ~1px speck that almost closes up.",
+    "In solid at 16 and 20px the tag merges into the container's top-right corner with no clear knockout gap, so they become one blob. The tag stops reading as a separate object.",
+    "The near-siblings preview (agent-tariffs-trade-near.png) is identical to the size sheet. It shows no parent or sibling icons, so distinctness against the parent theme could not be checked in context. Against the full sheet it is distinct (marine-shipping and packaging differ)."
+   ],
+   "fixes": [
+    "Make the container taller, about 3:2: at 24px roughly x3–19, y8–20. Let the tag overlap the container's top-right more and extend to y≈2–3, so the pair fills the 24px live area in both directions like its neighbours.",
+    "Add container cues: a top and bottom rail (inset horizontal lines or a thicker frame band), or corner-post verticals at both ends. Use 3–4 evenly spaced corrugation ribs that run nearly the full inner height, so it reads as a shipping container, not a barcode or battery.",
+    "At 16px, draw 2–3 ribs with at least 2px clear between them and the walls. Make the tag hole at least 2px across or replace it with a notch. At 20px use 3 ribs.",
+    "In solid, cut a knockout gap of at least 1px (1.5px at 24) between the tag and the container body at every size. Keep the tag hole as a clear knockout, so the tag stays a separate shape at 16 and 20px.",
+    "Check that the outline and solid bounding boxes match after the resize, and rerender the near-siblings preview with the actual parent and sibling icons."
+   ]
+  },
+  "cost": 2.29
  }
 ]
