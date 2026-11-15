@@ -35,6 +35,9 @@
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
   header.top { position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--line); }
   .hin { display: flex; align-items: center; gap: 16px; padding: 12px 32px; max-width: 1180px; margin: 0 auto; }
+  .hr { display: flex; align-items: center; gap: 12px; margin-left: auto; flex: none; }
+  .hin .search { max-width: 520px; }
+  @media (min-width: 1100px) { .hin { display: grid; grid-template-columns: 1fr minmax(240px, 520px) 1fr; gap: 20px; } .hin .search { grid-column: 2; max-width: none; } .hr { grid-column: 3; justify-self: end; margin-left: 0; } body.has-detail .hin { display: flex; } }
   @media (min-width: 1280px) { .hin { max-width: none; margin: 0; padding-right: 28px; } }
   @media (min-width: 1000px) { body.has-detail .hin { max-width: none; margin: 0; padding-right: 448px; } }
   .mark { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; flex: none; }
@@ -98,7 +101,9 @@
   .cell .nm .codechip { display: inline-block; margin-bottom: 4px; }
   .cell.inherited .art { opacity: .38; }
   #tabs { flex: none; }
-  nav.links { flex: none; margin-left: 4px; }
+  nav.links { flex: none; gap: 18px; font-size: 14px; }
+  #tabs .viewby select { field-sizing: content; border-color: transparent; background-color: transparent; padding: 7px 28px 7px 12px; }
+  #tabs .viewby select:hover { background-color: var(--hover); }
   .tabrow .count { color: var(--muted); font-size: 13.5px; }
   .tabrow .right { margin-left: auto; display: flex; gap: 18px; flex-wrap: wrap; }
   .tabrow .viewby { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--faint); }
@@ -339,11 +344,11 @@
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
     <input id="q" type="search" autocomplete="off" aria-label="Search icons"><kbd>⌘K</kbd>
   </label>
-    <nav id="tabs" aria-label="Browse"></nav>
+    <div class="hr"><nav id="tabs" aria-label="Browse"></nav>
     <nav class="links" aria-label="Site">
       <button type="button" id="agents-open" class="linkbtn" aria-label="Use Lithos in your agent (MCP)" title="Use Lithos in your agent"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 1.5v3M10.5 1.5v3M3.5 4.5h9v2.5a4.5 4.5 0 0 1-9 0V4.5ZM8 11.5v3"/></svg>MCP</button>
       <a href="https://github.com/I4NL4RS0N/lithos-icons">GitHub</a>
-    </nav>
+    </nav></div>
 </div></header>
 <div class="wrap">
   <div class="intro">
@@ -393,7 +398,7 @@ const SUBJECTS = [['all', 'All icons'], ['sectors', 'Sectors & industries'], ['a
 const inKind = (c, kind) => kind === 'all' || (kind === 'sectors' ? c.kind === 'sector' || c.kind === 'industry' : c.kind === kind);
 let JUMPS = []; // [{id, label, code}] for the current view; drives the sticky jump row
 function renderTabs() {
-  const jump = `<label class="viewby">Jump to<select id="jumpto" aria-label="Jump to section"><option value=""${state.sec ? '' : ' selected'}>Top</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc(j.label)}</option>`).join('')}</select></label>`;
+  const jump = `<label class="viewby"><select id="jumpto" aria-label="Browse sections"><option value=""${state.sec ? '' : ' selected'}>Browse</option>${JUMPS.map((j) => `<option value="${esc(j.id)}"${state.sec === j.id ? ' selected' : ''}>${esc(j.label)}</option>`).join('')}</select></label>`;
   $('#tabs').innerHTML = `<div class="tabrow">${state.kind === 'all' ? '' : '<button type="button" data-kind="all" class="back">← All icons</button>'}<span class="right">${jump}</span></div>`;
 }
 const SEC = { sector: 'sectors', industry: 'industries', 'asset-class': 'credit', theme: 'topics', country: 'countries', region: 'regions' };
