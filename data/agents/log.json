@@ -416,5 +416,38 @@
   "mapped": 7,
   "why": "ISIC/NACE 59 borrows a parent icon.",
   "cost": 1.73
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T19:39:08.972Z",
+  "mode": "refine",
+  "id": "pipelines",
+  "result": "rejected",
+  "reason": "judge: It sits small in its frame. The pipe body is a short, wide band, about 1/3 of the frame height at 24px, and even with the handle the whole thing covers only about the middle 55% vertically. Neighbours like energy, funds and oil-gas fill the frame top to bottom, so this one looks undersized and floats at every size, worst at 16px.; In the solid version the flange lines become small rectangular bumps above and below the slab, and the slab has no knockouts. It reads as a black brick with nub",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Outline: a short horizontal pipe section with two flange rings and a T-handle valve on top, though it could also pass for a cable car, a small table or a dumbbell. Solid: a flat black slab with nubs on it and a T on top, which doesn't read as a pipe.",
+   "problems": [
+    "It sits small in its frame. The pipe body is a short, wide band, about 1/3 of the frame height at 24px, and even with the handle the whole thing covers only about the middle 55% vertically. Neighbours like energy, funds and oil-gas fill the frame top to bottom, so this one looks undersized and floats at every size, worst at 16px.",
+    "In the solid version the flange lines become small rectangular bumps above and below the slab, and the slab has no knockouts. It reads as a black brick with nubs, not a pipe with a valve. The outline shows lines crossing the pipe while the solid shows tabs, so the two styles don't match in shape or footprint.",
+    "At 16px the flange strokes running through the pipe body break the inside into three tiny cells, which look busy and cluttered. Combined with the small size, it turns into a smudge.",
+    "The pipe is a closed rounded rectangle with no open ends, so it doesn't suggest a pipe that keeps going (a pipeline). It looks more like a closed box or a tank.",
+    "It's only a modest step up from the before version. The before version had clearer flange bumps and a similar silhouette, so the new one isn't clearly better, and its solid is arguably worse."
+   ],
+   "fixes": [
+    "Use more of the frame. Run the pipe the full width (about x=2 to 22 at 24px) and make it thicker (about 7–8px tall). Lower it so its centre sits around y=15, and raise the valve stem and handle so the handwheel reaches about y=3. The icon should then span about 3 to 21 vertically.",
+    "Show the pipe as open-ended. Draw the pipe as two parallel horizontal lines that run off at the left and right edges or end in short end caps, or draw flanges as small raised collars at each end, rather than a closed box. That gives a sense of flow and continuation.",
+    "Make the valve the main feature. Put a valve body (a raised collar or bowtie) in the centre of the pipe, a short stem, and a T-handle or handwheel above it. Drop the two flange lines that cut through the middle of the pipe.",
+    "Solid: fill the pipe, but knock out a 1.5–2px gap on each side of the central valve collar (or knock out the flange joints) so the parts stay distinct. Keep exactly the same outer outline as the outline version, with no extra nubs.",
+    "16px: draw it separately with only the pipe, one central valve collar and the T-handle, and no inner flange lines. Keep the open spaces at least 2px wide.",
+    "Keep it clearly different from water-utilities (a tap with a T-handle). A horizontal pipe with a central inline valve does that, but don't add a spout or drip."
+   ]
+  },
+  "cost": 0.88
  }
 ]
