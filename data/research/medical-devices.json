@@ -1,0 +1,802 @@
+{
+  "concept": "medical-devices",
+  "query": "stethoscope",
+  "fetched": "2026-11-15T23:15:04.682Z",
+  "topTerms": [
+    [
+      "stethoscope",
+      50
+    ],
+    [
+      "doctor",
+      38
+    ],
+    [
+      "medical",
+      24
+    ],
+    [
+      "health",
+      19
+    ],
+    [
+      "diagnosis",
+      13
+    ],
+    [
+      "clinic",
+      12
+    ],
+    [
+      "checkup",
+      11
+    ],
+    [
+      "listen",
+      9
+    ],
+    [
+      "healthcare",
+      9
+    ],
+    [
+      "heartbeat",
+      7
+    ],
+    [
+      "heart",
+      6
+    ],
+    [
+      "hospital",
+      5
+    ],
+    [
+      "check",
+      5
+    ],
+    [
+      "diagnose",
+      5
+    ],
+    [
+      "tool",
+      4
+    ],
+    [
+      "medical-tool",
+      4
+    ],
+    [
+      "examination",
+      4
+    ],
+    [
+      "examine",
+      4
+    ],
+    [
+      "medicine",
+      3
+    ],
+    [
+      "instrument",
+      3
+    ],
+    [
+      "pharmacy",
+      2
+    ],
+    [
+      "treatment",
+      2
+    ],
+    [
+      "diagnostic",
+      2
+    ],
+    [
+      "doctor-equipment",
+      2
+    ],
+    [
+      "medical-tools",
+      2
+    ],
+    [
+      "nurse",
+      2
+    ],
+    [
+      "diagnostics",
+      2
+    ],
+    [
+      "auscultation",
+      2
+    ],
+    [
+      "listening",
+      2
+    ],
+    [
+      "equipment",
+      2
+    ],
+    [
+      "cardiac",
+      2
+    ],
+    [
+      "physician",
+      2
+    ],
+    [
+      "cardiology",
+      1
+    ],
+    [
+      "ecg",
+      1
+    ],
+    [
+      "pulse",
+      1
+    ],
+    [
+      "clinical",
+      1
+    ],
+    [
+      "monitor",
+      1
+    ],
+    [
+      "sound",
+      1
+    ],
+    [
+      "auscultation-device",
+      1
+    ],
+    [
+      "diagnostic-tool",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "health",
+            "medical",
+            "medicine",
+            "pharmacy",
+            "stethoscope",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514578-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "health",
+            "medical",
+            "medicine",
+            "pharmacy",
+            "stethoscope",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514346-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "doctor",
+            "health",
+            "listen",
+            "stethoscope",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511723-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnostic",
+            "doctor",
+            "health",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510378-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "cardiology",
+            "checkup",
+            "doctor",
+            "ecg",
+            "pulse",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505648-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "doctor-equipment",
+            "healthcare",
+            "medical-tool",
+            "medical-tools",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500267-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "diagnosis",
+            "doctor",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498123-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "diagnosis",
+            "doctor",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498058-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "doctor-equipment",
+            "healthcare",
+            "medical-tool",
+            "medical-tools",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486442-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "clinic",
+            "diagnosis",
+            "doctor",
+            "healthcare",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485106-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "health",
+            "hospital",
+            "nurse",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "clinic",
+            "doctor",
+            "health",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480103-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "clinic",
+            "doctor",
+            "health",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8479657-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "clinical",
+            "diagnostic",
+            "doctor",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478957-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "clinic",
+            "doctor",
+            "health",
+            "hospital",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475319-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnostics",
+            "doctor",
+            "health",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467076-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnostics",
+            "doctor",
+            "health",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8467025-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnosis",
+            "doctor",
+            "examination",
+            "health",
+            "heartbeat",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnosis",
+            "doctor",
+            "examination",
+            "health",
+            "heartbeat",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461536-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "heart",
+            "listen",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459688-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnosis",
+            "doctor",
+            "heartbeat",
+            "medical",
+            "stethoscope",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8455291-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "heart",
+            "listen",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454809-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "clinic",
+            "diagnosis",
+            "doctor",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "auscultation",
+            "checkup",
+            "doctor",
+            "heartbeat",
+            "medical-tool",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450499-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "heart",
+            "instrument",
+            "monitor",
+            "sound",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8445002-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "health",
+            "nurse",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441150-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "health",
+            "heartbeat",
+            "instrument",
+            "listening",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8439334-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "health",
+            "heartbeat",
+            "instrument",
+            "listening",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8439306-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "heart",
+            "listen",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438529-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "clinic",
+            "diagnosis",
+            "doctor",
+            "health",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8431682-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "clinic",
+            "healthcare",
+            "heart",
+            "stethoscope",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "clinic",
+            "doctor",
+            "equipment",
+            "health",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8427875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "healthcare",
+            "medical",
+            "stethoscope",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425863-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "cardiac",
+            "clinic",
+            "diagnosis",
+            "doctor",
+            "physician",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425027-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "cardiac",
+            "clinic",
+            "diagnosis",
+            "doctor",
+            "physician",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425012-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "check",
+            "diagnose",
+            "examine",
+            "listen",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417935-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "check",
+            "diagnose",
+            "examine",
+            "listen",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417895-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "check",
+            "diagnose",
+            "examine",
+            "listen",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417882-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "doctor",
+            "equipment",
+            "hospital",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8415851-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnosis",
+            "doctor",
+            "examination",
+            "healthcare",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8415551-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnosis",
+            "doctor",
+            "examination",
+            "healthcare",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8415521-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "auscultation-device",
+            "diagnostic-tool",
+            "doctor-tool",
+            "health-check",
+            "medical-device",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8414556-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "check",
+            "diagnosis",
+            "doctor",
+            "health",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408054-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "auscultation",
+            "checkup",
+            "doctor",
+            "heartbeat",
+            "medical-tool",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405813-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "clinic",
+            "doctor",
+            "healthcare",
+            "hospital",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403324-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "checkup",
+            "clinic",
+            "doctor",
+            "healthcare",
+            "medical",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8399857-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8398831-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "check",
+            "diagnose",
+            "examine",
+            "listen",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8391882-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "diagnose",
+            "heart",
+            "listen",
+            "lungs",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8391826-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Stethoscope",
+          "tags": [
+            "care",
+            "health",
+            "hospital",
+            "medical",
+            "medicine",
+            "stethoscope"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8391031-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

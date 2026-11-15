@@ -35,6 +35,22 @@
     "since": "0.1.0"
   },
   {
+    "id": "medical-devices",
+    "name": "Medical Devices",
+    "kind": "industry",
+    "parent": "health-care",
+    "metaphor": "stethoscope",
+    "keywords": [
+      "medical devices",
+      "stethoscope",
+      "diagnostics"
+    ],
+    "reduction": "Stethoscope at every size: ear tubes as a U with inward tips, a tube looping down and up into a round chest piece on the right. 16 and 20: chest piece slightly smaller and lower so it stays clear of the U; plain ring in outline, plain disc in solid. 24: solid gets a centre knockout. 32 and 48: outline adds an inner disc. Tubes stay live strokes in both styles; only the chest piece is filled in solid.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "motion-pictures",
     "name": "Film & TV Production",
     "kind": "industry",

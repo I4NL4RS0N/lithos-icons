@@ -663,5 +663,37 @@
    ]
   },
   "cost": 1.43
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:21:13.110Z",
+  "mode": "add",
+  "id": "medical-devices",
+  "name": "Medical Devices",
+  "kind": "industry",
+  "picture": "stethoscope",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "stethoscope (Y-shaped ear tubes with a chest piece on a curved tube)",
+   "problems": [
+    "At 16/20/24px the glyph covers a little less of the frame than siblings like veterinary and health-care, mostly because the ear tubes are narrow and leave empty space on the left and top-right. It's acceptable but on the low side.",
+    "Solid chest piece: 24/32/48 have a pinhole knockout but 16/20 are a plain filled disc. That's readable, but the detail changes between sizes.",
+    "Outline chest piece is a single ring at 16–24 and a double ring at 32/48. This is a valid per-size simplification, but the 32px inner ring is tight against the outer one."
+   ],
+   "fixes": [
+    "Optional: widen the ear-tube Y slightly at 16–24 so the glyph fills the box like its neighbours.",
+    "Optional: either drop the pinhole from solid 24 so it matches 16/20, or leave a little more space between the 32px double rings."
+   ]
+  },
+  "mapped": 0,
+  "why": "Medical Devices is a Fitch corporate sector. It is distinct from the capsule, the DNA helix and the hospital building.",
+  "cost": 0.52
  }
 ]
