@@ -1,0 +1,811 @@
+{
+  "concept": "cyber-and-outage-risk",
+  "query": "padlock",
+  "fetched": "2026-11-15T17:29:17.716Z",
+  "topTerms": [
+    [
+      "padlock",
+      50
+    ],
+    [
+      "lock",
+      32
+    ],
+    [
+      "security",
+      29
+    ],
+    [
+      "secure",
+      18
+    ],
+    [
+      "privacy",
+      16
+    ],
+    [
+      "protection",
+      16
+    ],
+    [
+      "locked",
+      13
+    ],
+    [
+      "password",
+      12
+    ],
+    [
+      "safety",
+      8
+    ],
+    [
+      "key",
+      5
+    ],
+    [
+      "ui",
+      5
+    ],
+    [
+      "pad-lock",
+      4
+    ],
+    [
+      "calendar",
+      4
+    ],
+    [
+      "code",
+      3
+    ],
+    [
+      "cybersecurity",
+      3
+    ],
+    [
+      "cyber",
+      2
+    ],
+    [
+      "digital",
+      2
+    ],
+    [
+      "network",
+      2
+    ],
+    [
+      "automation",
+      2
+    ],
+    [
+      "archive",
+      2
+    ],
+    [
+      "document",
+      2
+    ],
+    [
+      "file",
+      2
+    ],
+    [
+      "reload",
+      2
+    ],
+    [
+      "safe",
+      2
+    ],
+    [
+      "computer",
+      2
+    ],
+    [
+      "information",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "private",
+      2
+    ],
+    [
+      "access",
+      2
+    ],
+    [
+      "time",
+      2
+    ],
+    [
+      "antivirus",
+      1
+    ],
+    [
+      "computer-security",
+      1
+    ],
+    [
+      "firewall",
+      1
+    ],
+    [
+      "pc-protection",
+      1
+    ],
+    [
+      "ai",
+      1
+    ],
+    [
+      "artificial",
+      1
+    ],
+    [
+      "tools-and-utensils",
+      1
+    ],
+    [
+      "book",
+      1
+    ],
+    [
+      "education",
+      1
+    ],
+    [
+      "open-book",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "padlock",
+          "tags": [
+            "code",
+            "lock",
+            "pad-lock",
+            "padlock",
+            "password",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "locked",
+            "padlock",
+            "password",
+            "secure",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2631247-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "password",
+            "privacy",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "cyber",
+            "cybersecurity",
+            "digital",
+            "network",
+            "padlock",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512185-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "cyber",
+            "cybersecurity",
+            "digital",
+            "network",
+            "padlock",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512167-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "code",
+            "lock",
+            "pad-lock",
+            "padlock",
+            "password",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508264-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "code",
+            "lock",
+            "pad-lock",
+            "padlock",
+            "password",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508247-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "protection",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8505121-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "automation",
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8503588-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "antivirus",
+            "computer-security",
+            "cybersecurity",
+            "firewall",
+            "padlock",
+            "pc-protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490249-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "automation",
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484182-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "ai",
+            "artificial",
+            "lock",
+            "padlock",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480736-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "key",
+            "lock",
+            "padlock",
+            "privacy",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476940-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "archive",
+            "document",
+            "file",
+            "lock",
+            "padlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473499-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "archive",
+            "document",
+            "file",
+            "lock",
+            "padlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473475-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "locked",
+            "padlock",
+            "secure",
+            "security",
+            "tools-and-utensils"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8463015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "book",
+            "education",
+            "open-book",
+            "padlock",
+            "reading",
+            "school-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462957-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "locked",
+            "padlock",
+            "reload",
+            "secure",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461056-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "locked",
+            "padlock",
+            "reload",
+            "secure",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "secure",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454085-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "secure",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8452267-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "love-lock",
+            "metal",
+            "padlock",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8444798-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "secure",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436244-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "privacy-lock",
+            "safety",
+            "secure-password",
+            "security-protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8433711-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "doodle",
+            "lock",
+            "padlock",
+            "padlock",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8431653-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "key",
+            "lock",
+            "padlock",
+            "privacy",
+            "safe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428792-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "pad-lock",
+            "padlock",
+            "password",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8426490-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "computer",
+            "information",
+            "padlock",
+            "safety",
+            "security",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424665-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "computer",
+            "information",
+            "padlock",
+            "safety",
+            "security",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424640-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "locked",
+            "padlock",
+            "password",
+            "privacy",
+            "private"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8420344-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "closed",
+            "locked",
+            "padlock",
+            "password",
+            "privacy",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8420283-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "access",
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8418940-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "calendar",
+            "locked",
+            "padlock",
+            "protection",
+            "security",
+            "ui"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417197-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "calendar",
+            "locked",
+            "padlock",
+            "protection",
+            "security",
+            "ui"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8417194-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "privacy",
+            "protection",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8412408-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "key",
+            "lock",
+            "padlock",
+            "privacy",
+            "safe"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8410698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "calendar",
+            "padlock",
+            "protection",
+            "security",
+            "time",
+            "ui"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8410002-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "calendar",
+            "padlock",
+            "protection",
+            "security",
+            "time",
+            "ui"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409972-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "locked",
+            "padlock",
+            "padlock",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409741-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "locked",
+            "padlock",
+            "padlock",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409729-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "key",
+            "padlock",
+            "padlock",
+            "password",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408595-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "celebration",
+            "lock",
+            "padlock",
+            "prees-freedom",
+            "privacy",
+            "protection"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8404652-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "locked",
+            "padlock",
+            "password",
+            "safety",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8402519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "key",
+            "padlock",
+            "password",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400423-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "hide",
+            "lock",
+            "locked",
+            "padlock",
+            "padlock",
+            "private"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8396896-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "access",
+            "padlock",
+            "padlock",
+            "privacy",
+            "protection",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8392286-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "guard",
+            "lock",
+            "padlock",
+            "protect",
+            "restrict",
+            "secure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8390440-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "locked",
+            "padlock",
+            "password",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8386389-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "padlock",
+          "tags": [
+            "lock",
+            "padlock",
+            "secure",
+            "security",
+            "ui",
+            "user-interface"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8385797-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

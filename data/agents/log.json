@@ -207,5 +207,42 @@
    ]
   },
   "cost": 1.78
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T17:34:36.167Z",
+  "mode": "add",
+  "id": "cyber-and-outage-risk",
+  "name": "Cyber & Outage Risk",
+  "kind": "theme",
+  "picture": "cracked-shield",
+  "moves": "Moves software, cloud and cybersecurity stocks and cyber insurance pricing, and hits airlines and others after outages.",
+  "source": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A shield split by a zigzag crack, the usual sign for a security breach or failed protection, which points to cyber risk. Outage is only implied.",
+   "problems": [
+    "The near-preview only shows this icon. Its parent and siblings are missing, so I checked for duplicates against the full sheets instead. Nothing else in the set uses a shield.",
+    "At 16px and 20px outline, the crack is crowded inside a narrow shield. Its zigzag comes close to looking like an 'S' or a lightning bolt, so the icon could be misread as 'shield + bolt' (power protection) instead of a cracked shield.",
+    "The shield is narrower than its neighbours on the 24 and 16 sheets (about 75% of the frame width, compared with nearly full width for the dice and the box icons). Height is fine, so this is a shield proportion issue, not a real underfill.",
+    "Solid 16px: the knockout gap between the two halves is thin. It holds up on light and dark backgrounds, but there is no margin left if it gets any thinner.",
+    "The crack meets the top edge at a sharp peak, which makes a small notch in the shield's top line at 32 and 48. This is acceptable, but it is a bit busier than the plain top edges elsewhere in the set."
+   ],
+   "fixes": [
+    "Optional polish: make the crack straighter at 16 and 20, with fewer and shallower angles, so it reads as a fracture and not a bolt or an 'S'.",
+    "Optional: widen the shield by about 1px on each side at 24, 32 and 48 to fill the frame more like its neighbours. Keep the stroke at its current weight.",
+    "Optional: widen the solid knockout gap at 16px to a full 1px on the pixel grid."
+   ]
+  },
+  "mapped": 0,
+  "why": "A Microsoft global outage and an FAA system failure show systemic digital fragility.",
+  "cost": 0.59
  }
 ]

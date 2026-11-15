@@ -1,5 +1,22 @@
 [
   {
+    "id": "cyber-and-outage-risk",
+    "name": "Cyber & Outage Risk",
+    "kind": "theme",
+    "metaphor": "cracked-shield",
+    "keywords": [
+      "cyber risk",
+      "cyberattack",
+      "IT outage",
+      "operational resilience",
+      "ransomware"
+    ],
+    "reduction": "One shield split by a two-kink crack at every size; the crack enters on the right shoulder and leaves on the lower-left curve so it never pinches the points. 16 and 20: wider shield and a slightly flatter zigzag so the gaps stay open. Solid: the crack is a knockout cut right through (1.5px at 16 up to 2.75px at 48), leaving two halves.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "gambling-betting",
     "name": "Gambling & Betting",
     "kind": "industry",
