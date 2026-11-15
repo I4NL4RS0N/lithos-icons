@@ -1,0 +1,779 @@
+{
+  "concept": "motion-pictures",
+  "query": "clapperboard",
+  "fetched": "2026-11-15T18:25:33.105Z",
+  "topTerms": [
+    [
+      "clapperboard",
+      50
+    ],
+    [
+      "film",
+      42
+    ],
+    [
+      "movie",
+      36
+    ],
+    [
+      "cinema",
+      33
+    ],
+    [
+      "production",
+      18
+    ],
+    [
+      "entertainment",
+      11
+    ],
+    [
+      "video",
+      10
+    ],
+    [
+      "director",
+      7
+    ],
+    [
+      "action",
+      7
+    ],
+    [
+      "clapper",
+      6
+    ],
+    [
+      "clapboard",
+      5
+    ],
+    [
+      "scene",
+      5
+    ],
+    [
+      "filmmaking",
+      3
+    ],
+    [
+      "studio",
+      3
+    ],
+    [
+      "slate",
+      2
+    ],
+    [
+      "film-production",
+      2
+    ],
+    [
+      "movie-slate",
+      2
+    ],
+    [
+      "board",
+      2
+    ],
+    [
+      "clapper-board",
+      2
+    ],
+    [
+      "heart",
+      2
+    ],
+    [
+      "love",
+      2
+    ],
+    [
+      "romantic",
+      2
+    ],
+    [
+      "valentine-day",
+      2
+    ],
+    [
+      "ui",
+      2
+    ],
+    [
+      "ux",
+      2
+    ],
+    [
+      "cinematography",
+      1
+    ],
+    [
+      "hollywood-director",
+      1
+    ],
+    [
+      "scene-marker",
+      1
+    ],
+    [
+      "take-action",
+      1
+    ],
+    [
+      "cinema-tool",
+      1
+    ],
+    [
+      "video-production",
+      1
+    ],
+    [
+      "record",
+      1
+    ],
+    [
+      "movie-biginning",
+      1
+    ],
+    [
+      "play",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "cinematography",
+            "clapperboard",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1389447-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491681-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapperboard",
+            "film",
+            "filmmaking",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482552-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "slate",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "production",
+            "slate"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465502-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "director",
+            "filmmaking",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464127-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapperboard",
+            "film-production",
+            "hollywood-director",
+            "movie-slate",
+            "scene-marker",
+            "take-action"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8408548-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389041-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8346846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema-tool",
+            "clapperboard",
+            "film-production",
+            "movie-slate",
+            "video-production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8333809-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "board",
+            "clapper",
+            "clapper-board",
+            "clapperboard",
+            "clapperboard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8309214-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapboard",
+            "clapperboard",
+            "film",
+            "movie",
+            "scene",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8267895-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapboard",
+            "clapperboard",
+            "film",
+            "movie",
+            "scene",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8267889-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapboard",
+            "clapperboard",
+            "film",
+            "movie",
+            "scene",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8267868-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapboard",
+            "clapperboard",
+            "film",
+            "movie",
+            "scene",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8267864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260265-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260259-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260257-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260255-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260218-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260217-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260214-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260205-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "entertainment",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8260200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapperboard",
+            "film",
+            "heart",
+            "love",
+            "romantic",
+            "valentine-day"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8250269-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapperboard",
+            "film",
+            "heart",
+            "love",
+            "romantic",
+            "valentine-day"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8250243-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8247707-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8247671-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8193810-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "action",
+            "cinema",
+            "clapper",
+            "clapperboard",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8189281-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "action",
+            "cinema",
+            "clapper",
+            "clapperboard",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8189272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapboard",
+            "clapper-board",
+            "clapperboard",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8178931-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "action",
+            "clapperboard",
+            "director",
+            "film",
+            "production",
+            "studio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8145637-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "action",
+            "clapperboard",
+            "director",
+            "film",
+            "production",
+            "studio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8145596-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "action",
+            "cinema",
+            "clapperboard",
+            "film",
+            "production",
+            "studio"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8145564-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "board",
+            "clapper",
+            "clapperboard",
+            "production",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8117433-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "clapper",
+            "clapperboard",
+            "entertainment",
+            "filmmaking",
+            "production",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8110939-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "ui",
+            "ux"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8100773-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "action",
+            "clapperboard",
+            "film",
+            "movie",
+            "record",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8099580-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "movie",
+            "ui",
+            "ux"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8086637-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "director",
+            "film",
+            "movie",
+            "scene"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8071179-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapper",
+            "clapperboard",
+            "director",
+            "film"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8069501-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "action",
+            "clapperboard",
+            "movie-biginning",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8055070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "director",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8050682-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "director",
+            "film",
+            "movie"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8050681-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "film",
+            "play",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8035846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Clapperboard",
+          "tags": [
+            "cinema",
+            "clapperboard",
+            "clapperboard",
+            "film",
+            "movie",
+            "production"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8027317-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

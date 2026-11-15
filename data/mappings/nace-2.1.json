@@ -22,6 +22,7 @@
  "53": "postal-courier",
  "55": "lodging",
  "58": "publishing",
+ "59": "motion-pictures",
  "61": "telecom",
  "62": "software",
  "64": "banks",
@@ -63,5 +64,6 @@
  "69.1": "legal-services",
  "49.5": "pipelines",
  "73.1": "advertising",
- "64.3": "funds"
+ "64.3": "funds",
+ "59.11": "motion-pictures"
 }

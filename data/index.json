@@ -35,6 +35,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "motion-pictures",
+    "name": "Film & TV Production",
+    "kind": "industry",
+    "parent": "media",
+    "metaphor": "clapperboard",
+    "keywords": [
+      "film",
+      "television production",
+      "studio",
+      "sound recording"
+    ],
+    "reduction": "Clapperboard: a tall slate with a striped clapper arm hinged at its top-left corner and swung open about 22 degrees. Stripes appear at every size and step up smoothly: arm 2 stripes at 16, 3 at 20 and 24, 4 at 32 and 48. 20+: a striped band (fixed stick) across the top of the slate, with matching diagonals (2 at 20, 3 at 24, 4 at 32+). Solid: the same arm, band and slate filled, footprint matching the outline. The arm stripes are diagonal slots knocked out from its lower edge (facing the open wedge) with its top edge left straight; the band stripes are cut right through it as alternating blocks; a thin gap splits the band from the slate.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "rental-leasing",
     "name": "Rental & Leasing",
     "kind": "industry",

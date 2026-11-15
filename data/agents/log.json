@@ -383,5 +383,38 @@
    ]
   },
   "cost": 1.44
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T18:44:52.014Z",
+  "mode": "add",
+  "id": "motion-pictures",
+  "name": "Film & TV Production",
+  "kind": "industry",
+  "picture": "clapperboard",
+  "result": "added",
+  "attempts": 2,
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "Film clapperboard with the clapstick raised — reads straight away as film/TV production.",
+   "problems": [
+    "The solid 20px and 24px versions have slanted stripe knockouts in both the clapstick and the body band. At 20px these break into fragmented hatching and look a bit busy next to the plainer solids around it.",
+    "The solid 16px drops almost every stripe, leaving two small notches on the stick. It still reads, but it carries much less detail than the outline 16px.",
+    "The body is slightly short and wide, so the icon uses a little less height than square neighbours like media and gambling-betting. The gap is small and within tolerance.",
+    "The raised clapstick makes the top-right corner look heavy at 16px and 20px. It is acceptable but close to the frame edge."
+   ],
+   "fixes": [
+    "Optional: at solid 20px, use 2–3 wider stripe knockouts in the body band, or drop the body stripes and keep them only on the stick, so the shapes stay clean.",
+    "Optional: at solid 16px, keep at least two clear stripe knockouts on the stick that line up with the outline 16px."
+   ]
+  },
+  "mapped": 7,
+  "why": "ISIC/NACE 59 borrows a parent icon.",
+  "cost": 1.73
  }
 ]

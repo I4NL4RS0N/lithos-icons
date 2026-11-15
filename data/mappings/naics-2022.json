@@ -42,6 +42,7 @@
  "486": "pipelines",
  "491": "postal-courier",
  "492": "postal-courier",
+ "512": "motion-pictures",
  "513": "publishing",
  "517": "telecom",
  "518": "information-technology",
@@ -56,6 +57,7 @@
  "5418": "advertising",
  "7132": "gambling-betting",
  "54194": "veterinary-activities",
+ "512110": "motion-pictures",
  "31-33": "industrials",
  "44-45": "retail",
  "48-49": "transportation"
