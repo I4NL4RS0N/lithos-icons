@@ -558,5 +558,38 @@
    ]
   },
   "cost": 1.19
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:15:15.799Z",
+  "mode": "add",
+  "id": "airports",
+  "name": "Airports",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Outline shaft is two unconnected parallel strokes, so at 16–24px the icon reads as table legs / a stool / a 'π' rather than a tower.; 16px outline: the three window panes with slanted mullions are cramped; the mullions nearly touch and the cab clogs into a dark band.; Solid 16/20px switch to a single slot knockout with no mullions, while 24–48px show three windows, so the solid drawings don't match each other across sizes.; Solid shaft is a narrow filled block, while the outline shaft is ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "fail",
+   "reads_as": "At 32/48px a control tower (slanted glazed cab on a column). At 16–24px the outline reads as a stool/table or a 'π' glyph because the shaft is two open parallel lines; the 16/20px solid reads as a goblet or lamp.",
+   "problems": [
+    "Outline shaft is two unconnected parallel strokes, so at 16–24px the icon reads as table legs / a stool / a 'π' rather than a tower.",
+    "16px outline: the three window panes with slanted mullions are cramped; the mullions nearly touch and the cab clogs into a dark band.",
+    "Solid 16/20px switch to a single slot knockout with no mullions, while 24–48px show three windows, so the solid drawings don't match each other across sizes.",
+    "Solid shaft is a narrow filled block, while the outline shaft is two wider-spaced lines, so the footprints differ; the solid base looks narrow beside the outline.",
+    "No distinctive tower cue (antenna/mast or closed shaft with a door) to disambiguate at small sizes."
+   ],
+   "fixes": [
+    "Close the outline shaft: draw it as a closed rounded rectangle (or one wide column with a door/opening at the base), capped where it meets the cab, so it can't read as table legs.",
+    "Draw 16 and 20px separately: reduce to at most two window divisions (or one window band) and keep at least 1px clear gap between the mullions and the cab outline at 16px.",
+    "Use one solid design at all sizes: window knockouts everywhere (2 panes at 16/20, 3 at 24+) or the slot everywhere, not a mix; match the solid shaft width to the outline shaft's outer width.",
+    "Optionally add a short mast/antenna above the cab to strengthen the control-tower reading at small sizes, and register the metaphor in data/metaphors.json."
+   ]
+  },
+  "cost": 1.08
  }
 ]
