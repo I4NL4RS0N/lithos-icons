@@ -238,6 +238,13 @@
   .search svg { position: absolute; left: 12px; color: var(--faint); pointer-events: none; }
   .search input { width: 100%; height: 40px; border: 0; background: var(--pill); border-radius: 999px; padding: 0 44px 0 36px; outline-offset: 0; }
   .search input::placeholder { color: var(--faint); }
+  .search input { transition: background-color .15s ease-out, box-shadow .15s ease-out; }
+  .search input:hover { background: var(--hover); }
+  .search input:focus, .search input:focus-visible { outline: none; background: var(--panel); box-shadow: inset 0 0 0 1.5px var(--fg), 0 0 0 4px color-mix(in oklab, var(--fg) 8%, transparent); }
+  .search input::-webkit-search-cancel-button, .search input::-webkit-search-decoration { -webkit-appearance: none; appearance: none; display: none; }
+  .sclear { position: absolute; right: 8px; width: 26px; height: 26px; border: 0; border-radius: 50%; background: transparent; color: var(--muted); display: none; place-items: center; transition: background-color .15s ease-out, color .15s ease-out, scale .15s ease-out; }
+  .sclear:hover { background: var(--hover); color: var(--fg); } .sclear:active { scale: .92; }
+  .search input:not(:placeholder-shown) ~ .sclear { display: grid; }
   .search input:not(:placeholder-shown) ~ kbd { display: none; }
   body.searching .intro { display: none; }
   .qinfo { margin: 26px 0 6px; font-size: 14px; color: var(--muted); } .qinfo b { color: var(--fg); font-variant-numeric: tabular-nums; }
@@ -353,7 +360,7 @@
     </a>
     <label class="search">
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
-    <input id="q" type="search" autocomplete="off" aria-label="Search icons"><kbd>⌘K</kbd>
+    <input id="q" type="search" autocomplete="off" aria-label="Search icons"><kbd>⌘K</kbd><button type="button" class="sclear" id="qclear" aria-label="Clear search"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg></button>
   </label>
     <div class="hr"><nav id="tabs" aria-label="Browse"></nav>
     <nav class="links" aria-label="Site">
@@ -713,6 +720,7 @@ $('#tabs').onchange = (e) => { if (e.target.id === 'jumpto') { if (e.target.valu
    if (e.target.id === 'viewby') { state.kind = e.target.value; state.sel = null; state.sec = null; toTop(); render(); } };
 $('#home').onclick = (e) => { e.preventDefault(); Object.assign(state, { q: '', kind: 'all', sel: null, sec: null, view: null }); $('#q').value = ''; scrollTo(0, 0); render(); };
 addEventListener('hashchange', () => { const id = decodeURIComponent(location.hash.slice(1)); if (id === 'agents') return openAgents(); if (id && id !== state.sec) goSection(id, false); });
+$('#qclear').onclick = () => { state.q = ''; state.sec = null; $('#q').value = ''; render(); $('#q').focus(); };
 $('#q').oninput = (e) => { state.q = e.target.value.trim(); state.sec = null; render(); };
 $('#main').onclick = (e) => {
   const t = e.target.closest('.cell, .std-head, .ghead'); if (!t || !t.dataset.id) return; state.sel = state.sel === t.dataset.id ? null : t.dataset.id; render(); };
