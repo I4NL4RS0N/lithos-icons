@@ -486,5 +486,40 @@
    ]
   },
   "cost": 0.35
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T19:46:36.821Z",
+  "mode": "refine",
+  "id": "loans",
+  "result": "rejected",
+  "reason": "judge: The icon is just the % typographic glyph. That is a character or symbol, the same kind of thing as text or a currency sign, so it is an automatic fail under the rules.; It drops the intended 'document-percent' picture. There is no document, contract or paper, so nothing says 'loan' rather than 'rate', 'discount', 'tax' or 'yield'.; A plain % is the default 'percent/discount' glyph in almost every icon library, so it is generic and not distinct to this set.; Solid is only the outline drawn",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 4,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A bare percent sign (%): 'interest rate', 'discount' or 'percentage'. It doesn't read as loans or debt, and there is no document.",
+   "problems": [
+    "The icon is just the % typographic glyph. That is a character or symbol, the same kind of thing as text or a currency sign, so it is an automatic fail under the rules.",
+    "It drops the intended 'document-percent' picture. There is no document, contract or paper, so nothing says 'loan' rather than 'rate', 'discount', 'tax' or 'yield'.",
+    "A plain % is the default 'percent/discount' glyph in almost every icon library, so it is generic and not distinct to this set.",
+    "Solid is only the outline drawn heavier, with small counters punched in the circles. The footprint matches, but there is no real solid treatment, and at 16px the counters are pinholes.",
+    "In the per-icon preview, the 16, 20 and 24px versions sit visibly smaller and lighter in their boxes than the 32 and 48px ones, and it looks sparse next to dense neighbours like credit-derivatives and banks.",
+    "agent-loans-near.png is identical to agent-loans.png, so it shows no parent or siblings. I couldn't check the icon against its parent from that image.",
+    "This is not clearly better than the before version. The before version kept the right metaphor (document + %) but failed at 16px, where it collapsed to a slash in a box. The fix threw away the metaphor instead of fixing the small sizes."
+   ],
+   "fixes": [
+    "Go back to the document-percent metaphor: a portrait page with rounded corners and a folded top-right corner (match the 'clo' icon's page construction for consistency, but add a feature that sets it apart from clo, e.g. a signature line or stacked second sheet).",
+    "Don't draw a full % glyph inside the page. Build the rate mark from geometry: two small solid dots and one diagonal stroke, placed in the lower half of the page, with a short horizontal 'text line' or signature stroke above to say 'contract'.",
+    "Redraw 16px and 20px by hand. Drop the fold or the text line at 16px, keep only the page outline plus the diagonal with two dots of at least 2px, and keep at least 1.5px clear space between the marks and the page edge, so it doesn't collapse to a slash like the before version did.",
+    "Solid: fill the page and knock out the diagonal and dots, with knockouts at least 1.5px at 16px. Fold notch shown as a knocked-out triangle; footprint identical to outline.",
+    "Make the page fill the frame like its neighbours: about 18–20px tall on the 24px grid, with the same height scaled for each size.",
+    "Regenerate agent-loans-near.png so it actually shows the parent and siblings, then check that the new page shape stays distinct from clo, cmbs and abs."
+   ]
+  },
+  "cost": 0.49
  }
 ]
