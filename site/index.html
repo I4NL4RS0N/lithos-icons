@@ -136,7 +136,7 @@
   .mtip { position: fixed; z-index: 30; pointer-events: none; background: var(--bg); color: var(--fg); border: 1px solid var(--line); box-shadow: 0 6px 20px rgba(0,0,0,.12); font-size: 12px; line-height: 1.4; padding: 6px 9px; border-radius: 8px; max-width: 230px; opacity: 0; transition: opacity .12s ease-out; }
   .mtip.on { opacity: 1; }
   .mtip i { font-style: normal; color: var(--muted); display: block; }
-  .mkey { display: flex; gap: 12px; flex-wrap: wrap; margin: 9px 0 0; font-size: 11.5px; color: var(--muted); }
+  .mkey { display: flex; gap: 12px; flex-wrap: wrap; margin: 10px 0 0; font-size: 11.5px; color: var(--muted); }
   .mkey span::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 5px; background: var(--c); vertical-align: -0.5px; }
   .mstat { display: flex; gap: 18px; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
   .mstat div { font-size: 11.5px; color: var(--muted); }
@@ -795,7 +795,8 @@ const freshNote = (id) => { const e = RECENT.find((x) => x.id === id); return e 
 })();
 
 // ---- Library map: one cell per code in every standard; agents' recent work shown on it ----
-const MAP = { cols: 66, pitch: 4, cells: [], built: false, ids: new Set(RECENT.map((e) => e.id)), idx: 0 };
+const MAP = { cols: 66, pitch: 4, cells: [], built: false, ids: new Set(RECENT.map((e) => e.id)), mode: new Map(), idx: 0 };
+for (const e of [...RECENT].reverse()) MAP.mode.set(e.id, e.mode); // newest entry wins
 function mapBuild() {
   const box = $('#amapp'); if (!box || MAP.built || innerWidth < 1280) return;
   if (!DATA.standards.every((x) => STD[x.id])) { DATA.standards.forEach(loadStd); return; }
@@ -807,12 +808,9 @@ function mapBuild() {
     row += Math.ceil(nodes.length / MAP.cols) + 1;
   }
   MAP.cells = cells; MAP.rows = row - 1;
-  const own = cells.filter((x) => x.n.direct).length, fresh = cells.filter((x) => x.n.direct && MAP.ids.has(x.n.concept)).length;
-  const added = RECENT.filter((e) => e.mode === 'add').length, refined = RECENT.filter((e) => e.mode === 'refine').length;
-  box.innerHTML = `<div class="mhead"><b>Library map</b><span>${cells.length.toLocaleString()} codes</span></div>
-    <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} have their own icon."></canvas><div class="mring"><b></b></div></div>
-    <div class="mkey"><span style="--c:var(--fg)">Own icon</span><span style="--c:var(--line)">Borrowed</span><span style="--c:#3b6df0">New this week</span></div>
-    <div class="mstat"><div><b>${own.toLocaleString()}</b>have their own icon</div><div><b>${added + refined}</b>changed this week</div></div>
+  const own = cells.filter((x) => x.n.direct).length;
+  box.innerHTML = `<div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas><div class="mring"><b></b></div></div>
+    <div class="mkey"><span style="--c:var(--line)">To do</span><span style="--c:var(--fg)">Done</span><span style="--c:#3b6df0">New</span><span style="--c:#e8a317">Refined</span></div>
     <ul class="mlist">${RECENT.slice(0, 4).map((e) => `<li><button type="button" data-open="${esc(e.id)}"><b>${esc(WHO[e.mode])}</b><span>${VERB[e.mode]} ${esc(byId[e.id].name)}</span><time>${ago(e)}</time></button></li>`).join('') || '<li class="more">No agent runs yet. The first one is due tonight.</li>'}${RECENT.length > 4 ? `<li><a class="more" href="?view=feed" data-feed>All activity →</a></li>` : ''}</ul>
     <div class="mtip" id="mtip"></div>`;
   mapPaint(); mapEvents();
@@ -827,9 +825,10 @@ function mapPaint() {
     g.fillStyle = x.n.direct ? own : soft;
     g.fillRect(x.c * P, x.r * P, P - 1, P - 1);
   }
-  for (const x of MAP.cells) if (x.n.direct && MAP.ids.has(x.n.concept)) { // new this week: bigger, with a halo
-    g.fillStyle = 'rgba(59,109,240,.25)'; g.fillRect(x.c * P - 3, x.r * P - 3, P + 5, P + 5);
-    g.fillStyle = '#3b6df0'; g.fillRect(x.c * P - 1, x.r * P - 1, P + 1, P + 1);
+  for (const x of MAP.cells) if (x.n.direct && MAP.ids.has(x.n.concept)) { // changed this week: bigger, with a halo
+    const c = MAP.mode.get(x.n.concept) === 'refine' ? '232,163,23' : '59,109,240';
+    g.fillStyle = `rgba(${c},.25)`; g.fillRect(x.c * P - 3, x.r * P - 3, P + 5, P + 5);
+    g.fillStyle = `rgb(${c})`; g.fillRect(x.c * P - 1, x.r * P - 1, P + 1, P + 1);
   }
 }
 function mapEvents() {
@@ -837,7 +836,7 @@ function mapEvents() {
   cv.addEventListener('pointermove', (e) => {
     const x = at(e); if (!x) return tip.classList.remove('on');
     const cn = x.n.concept && byId[x.n.concept];
-    tip.innerHTML = `<b>${esc(x.std.name)}${x.std.codes ? ' ' + esc(x.n.code) : ''}</b> ${esc(x.n.name)}<i>${x.n.direct ? 'Has its own icon' : cn ? 'Borrows ' + esc(cn.name) : 'No icon yet'}</i>`;
+    tip.innerHTML = `<b>${esc(x.std.name)}${x.std.codes ? ' ' + esc(x.n.code) : ''}</b> ${esc(x.n.name)}<i>${x.n.direct ? 'Done' : cn ? 'To do · borrows ' + esc(cn.name) : 'To do'}</i>`;
     tip.style.left = Math.min(e.clientX + 14, innerWidth - 250) + 'px'; tip.style.top = e.clientY + 16 + 'px'; tip.classList.add('on');
   });
   cv.addEventListener('pointerleave', () => tip.classList.remove('on'));
