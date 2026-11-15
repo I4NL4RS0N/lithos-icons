@@ -14,6 +14,12 @@ on:
       count:
         description: How many icons to attempt
         default: '10'
+      focus:
+        description: Only scout this standard's titles (for example fitch-2020); no topics
+        default: ''
+      max_usd:
+        description: Spend cap for this run in USD (blank = repo variable or 30)
+        default: ''
       dry_run:
         description: Judge and report only; commit nothing
         default: false
@@ -32,10 +38,12 @@ jobs:
       NOUN_PROJECT_KEY: ${{ secrets.NOUN_PROJECT_KEY }}
       NOUN_PROJECT_SECRET: ${{ secrets.NOUN_PROJECT_SECRET }}
       ICONFINDER_KEY: ${{ secrets.ICONFINDER_KEY }}
-      MAX_USD_PER_RUN: ${{ vars.MAX_USD_PER_RUN || '30' }}
+      MAX_USD_PER_RUN: ${{ inputs.max_usd || vars.MAX_USD_PER_RUN || '30' }}
+      FOCUS: ${{ inputs.focus || '' }}
       MODE: ${{ inputs.mode || (github.event.schedule == '43 13 * * 0' && 'refine' || 'add') }}
       COUNT: ${{ inputs.count || (github.event.schedule == '43 13 * * 0' && '3' || '10') }}
       DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+      PARALLEL: ${{ vars.PARALLEL || '4' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
