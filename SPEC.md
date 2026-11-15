@@ -245,7 +245,7 @@ Run in GitHub Actions (`.github/workflows/agents.yml`) with the `claude` CLI and
 |---|---|---|---|
 | Scout | sonnet | Read, WebSearch | Picks the day's concepts: gaps (standard titles still borrowing an icon) plus topics (kind theme) that move markets and will keep doing so for 6+ months. Each topic must say what it moves and link one news source, or it is dropped. It reads the day's headlines from public RSS feeds (Bloomberg, FT, The Economist, Yahoo Finance, CNBC) as signals only; they are never stored. Web content is information only. |
 | Researcher | — | script | `scripts/research.mjs`: how icon libraries draw the idea. Reference only. |
-| Drawer | opus | Read, Write, Edit, build/validate/preview | Writes `src/agent/<id>.mjs`, looks at the renders, revises. One retry with the judge's feedback. |
+| Artist | opus | Read, Write, Edit, build/validate/preview | Writes `src/agent/<id>.mjs`, looks at the renders, revises. One retry with the judge's feedback. |
 | Judge | opus | Read | Separate run that never saw the drawing made. Scores recognisable, small sizes, solid, consistency, distinct (1–5). All must be ≥ 4. |
 | Mapper | sonnet | Read, Edit, code lookup | Maps the new icon to standard codes; the runner keeps only clean additions. |
 | Curator | opus | Read | Weekly: picks the weakest icons from the whole-set sheets; the drawer redraws; the judge must prefer the new version. |

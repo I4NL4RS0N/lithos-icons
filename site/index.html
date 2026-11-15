@@ -111,7 +111,7 @@
   .cell.fresh::after { content: ""; position: absolute; top: 14px; left: calc(50% + 16px); width: 7px; height: 7px; border-radius: 50%; background: #3b6df0; }
 
   /* Library map: every code in every standard as one cell (top-right, wide screens) */
-  .amapp { display: none; position: fixed; top: 84px; right: 28px; width: 264px; z-index: 5; }
+  .amapp { display: none; position: fixed; top: 84px; right: 24px; width: 292px; z-index: 5; padding: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; }
   @media (min-width: 1280px) {
     body:not(.has-detail):not(.feed) .amapp { display: block; }
     body:not(.has-detail):not(.feed) .wrap { max-width: none; margin: 0; padding-right: 330px; }
@@ -133,6 +133,9 @@
   .mlist button:hover { background-color: var(--hover); }
   .mlist button span { overflow: hidden; text-overflow: ellipsis; }
   .mlist time { margin-left: auto; color: var(--faint); flex: none; }
+  .mall { display: block; margin: 12px 0 0; padding: 8px 12px; text-align: center; text-decoration: none; font-size: 13px; font-weight: 500; border: 1px solid var(--line); border-radius: 10px; background-color: var(--bg); transition: background-color .15s ease-out, scale .15s ease-out; }
+  .mall:hover { background-color: var(--hover); }
+  .mall:active { scale: .98; }
   .mlist .more { display: block; margin: 6px 4px 0; color: var(--muted); font-size: 12px; }
   @media (max-height: 760px) { .amapp .mlist { display: none; } }
   body.feed .intro, body.feed #main { display: none; }
@@ -305,7 +308,7 @@
     .search input { padding-right: 12px; }
     .tabrow .viewby { font-size: 0; gap: 0; }
     header.top { gap: 8px; }
-    .mark .mk, nav.links a:not(#feed-link) { display: none; }
+    .mark .mk, nav.links a { display: none; }
     nav.links { gap: 12px; margin: 0; }
     #agents-open { font-size: 0; } #agents-open svg { width: 17px; height: 17px; }
     .viewby select { max-width: 112px; padding-left: 10px; }
@@ -335,7 +338,6 @@
   </label>
     <nav id="tabs" aria-label="Browse"></nav>
     <nav class="links" aria-label="Site">
-      <a href="?view=feed" id="feed-link">Feed</a>
       <button type="button" id="agents-open" class="linkbtn" aria-label="Use Lithos in your agent (MCP)" title="Use Lithos in your agent"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 1.5v3M10.5 1.5v3M3.5 4.5h9v2.5a4.5 4.5 0 0 1-9 0V4.5ZM8 11.5v3"/></svg>MCP</button>
       <a href="https://github.com/I4NL4RS0N/lithos-icons">GitHub</a>
     </nav>
@@ -349,7 +351,7 @@
   <aside class="amapp" id="amapp" aria-label="Agent Progress Map"></aside>
   <dialog id="agents" aria-labelledby="ag-title"></dialog>
   <footer>
-    Icons and code are MIT. Map outlines come from Natural Earth (public domain) and regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). It's an early build, so expect shapes to change before 1.0.
+    <a href="?view=feed" data-feed>What the agents are making</a> · Icons and code are MIT. Map outlines come from Natural Earth (public domain) and regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). It's an early build, so expect shapes to change before 1.0.
   </footer>
 </div>
 
@@ -706,7 +708,7 @@ const ago = (e) => {
 const dayLabel = (date) => { const d = Math.round((new Date().setHours(0, 0, 0, 0) - new Date(date + 'T00:00:00')) / 864e5); return d <= 0 ? 'Today' : d === 1 ? 'Yesterday' : new Date(date + 'T12:00').toLocaleDateString(undefined, { month: 'long', day: 'numeric' }); };
 const FRESH = new Set(FEED.filter((e) => e.result !== 'rejected' && Date.now() - stamp(e) < 7 * 864e5).map((e) => e.id));
 let FF = 'all';
-const VERB = { add: 'drew', refine: 'refined' }, WHO = { add: 'Drawer', refine: 'Refiner' };
+const VERB = { add: 'drew', refine: 'refined' }, WHO = { add: 'Artist', refine: 'Refiner' };
 function agentMap() {
   const add = FEED.filter((e) => e.mode === 'add'), kept = add.filter((e) => e.result === 'added').length, tried = add.length;
   const refined = FEED.filter((e) => e.result === 'refined').length, last = FEED[0];
@@ -714,9 +716,9 @@ function agentMap() {
   return `<div class="amap">
     <div class="stats"><span><b>${kept}</b>icons added</span><span><b>${tried ? kept + ' of ' + tried : '—'}</b>kept by the judge</span><span><b>${refined}</b>refined</span><span><b>${last ? ago(last) : '—'}</b>last activity</span></div>
     <h3>Every night: ten new icons</h3>
-    <div class="flow">${node(1, 'Scout', 'Sonnet', 'Picks what to draw: gaps in the standards, plus topics from the news.')}${node(2, 'Researcher', 'Noun Project', 'Checks what pictures people already recognise. Reference only; nothing is copied.')}${node(3, 'Drawer', 'Opus', 'Draws it in code, at every size, outline and solid.')}${node(4, 'Judge', 'Opus', 'Scores it on five counts. All must reach 4 out of 5, or it goes back once, then is dropped.')}${node(5, 'Mapper', 'Sonnet', 'Matches it to the standard codes it clearly stands for.')}</div>
+    <div class="flow">${node(1, 'Scout', 'Sonnet', 'Picks what to draw: gaps in the standards, plus topics from the news.')}${node(2, 'Researcher', 'Noun Project', 'Checks what pictures people already recognise. Reference only; nothing is copied.')}${node(3, 'Artist', 'Opus', 'Draws it in code, at every size, outline and solid.')}${node(4, 'Judge', 'Opus', 'Scores it on five counts. All must reach 4 out of 5, or it goes back once, then is dropped.')}${node(5, 'Mapper', 'Sonnet', 'Matches it to the standard codes it clearly stands for.')}</div>
     <h3>Every Sunday: three refinements</h3>
-    <div class="flow weekly">${node(1, 'Curator', 'Opus', 'Looks at the whole set and picks the three weakest icons.')}${node(2, 'Drawer', 'Opus', 'Redraws each one to fix the problems the curator found.')}${node(3, 'Judge', 'Opus', 'Compares before and after. It ships only if the new one is clearly better.')}</div>
+    <div class="flow weekly">${node(1, 'Curator', 'Opus', 'Looks at the whole set and picks the three weakest icons.')}${node(2, 'Artist', 'Opus', 'Redraws each one to fix the problems the curator found.')}${node(3, 'Judge', 'Opus', 'Compares before and after. It ships only if the new one is clearly better.')}</div>
     <p style="margin-top:14px;font-size:13px;color:var(--muted)">Nothing is published unless it passes the validator and the judge. The log behind this page is <a href="https://github.com/I4NL4RS0N/lithos-icons/blob/main/data/agents/log.json">public</a>.</p></div>`;
 }
 function renderFeed() {
@@ -745,7 +747,7 @@ $('#feed').addEventListener('click', (e) => {
   const o = e.target.closest('[data-open]'); if (o) { state.view = null; state.kind = 'all'; state.sel = o.dataset.open; render(); }
 });
 const toFeed = (e) => { e.preventDefault(); state.view = 'feed'; state.sel = null; scrollTo(0, 0); render(); };
-$('#feed-link').onclick = toFeed;
+document.addEventListener('click', (e) => { const a = e.target.closest('a[data-feed]'); if (a && !a.closest('#amapp')) toFeed(e); });
 
 
 // ---- New icons: RECENT = what the agents added or refined in the last 7 days ----
@@ -770,7 +772,8 @@ function mapBuild() {
   box.innerHTML = `<div class="mhead"><b>Agent Progress Map</b></div>
     <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas></div>
     <div class="mkey"><span style="--c:var(--line)">To do</span><span style="--c:var(--fg)">Done</span><span style="--c:#3b6df0">New</span><span style="--c:#e8a317">Refined</span></div>
-    <ul class="mlist">${RECENT.slice(0, 4).map((e) => `<li><button type="button" data-open="${esc(e.id)}"><b>${esc(WHO[e.mode])}</b><span>${VERB[e.mode]} ${esc(byId[e.id].name)}</span><time>${ago(e)}</time></button></li>`).join('') || '<li class="more">No agent runs yet. The first one is due tonight.</li>'}${RECENT.length > 4 ? `<li><a class="more" href="?view=feed" data-feed>All activity →</a></li>` : ''}</ul>
+    <ul class="mlist">${RECENT.slice(0, 4).map((e) => `<li><button type="button" data-open="${esc(e.id)}"><b>${esc(WHO[e.mode])}</b><span>${VERB[e.mode]} ${esc(byId[e.id].name)}</span><time>${ago(e)}</time></button></li>`).join('') || '<li class="more">No agent runs yet. The first one is due tonight.</li>'}</ul>
+    <a class="mall" href="?view=feed" data-feed>View all activity</a>
     <div class="mtip" id="mtip"></div>`;
   mapPaint(); mapEvents();
 }
