@@ -66,5 +66,19 @@ jobs:
           if [ "$(git rev-list --count origin/main..HEAD)" = "0" ]; then echo "nothing to publish"; exit 0; fi
           npm run build && npm run validate
           git diff --exit-code -- icons data/concepts data/index.json
-          git pull -q --rebase origin main
-          git push origin HEAD:main
+          # Another run may have pushed meanwhile. Rebase onto it, merging log.json from both sides.
+          # If that still fails, push the work to a branch so a finished run is never lost.
+          ok=0
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git rebase origin/main || while [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; do
+              node scripts/agents/merge-log.mjs && git add data/agents/log.json && GIT_EDITOR=true git rebase --continue || { git rebase --abort; break; }
+            done
+            if [ ! -d .git/rebase-merge ] && [ -z "$(git status --porcelain --untracked-files=no)" ] && git push origin HEAD:main; then ok=1; break; fi
+          done
+          if [ "$ok" != "1" ]; then
+            git rebase --abort 2>/dev/null || true
+            git push origin "HEAD:refs/heads/agent-run-$GITHUB_RUN_ID"
+            echo "::error::Could not merge to main; the work is on branch agent-run-$GITHUB_RUN_ID"
+            exit 1
+          fi

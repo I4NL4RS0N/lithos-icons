@@ -91,3 +91,7 @@ Shape helpers in `src/lib/shapes.mjs`: `pick`, `quadPts(p0, ctrl, p1, n)` and `c
 - The picture reads as something else (a coin stack that looks like a database; a turbine that looks like a plane). Change the silhouette, not the details.
 - Thin, light icons (a few lines) look weak beside the set. Give the main part a closed shape.
 - Text, letters, currency symbols, logos or brand marks: never.
+
+## Fill the frame
+
+Judges reject icons that "sit small in the box" more often than any other fault. The longer side of your drawing should span most of the live area (aim for 85–100% of it, like the neighbouring icons), at 16, 20 and 24px alike. Check this in the preview next to its siblings before you finish. Draw bigger, not thinner: do not shrink a glyph to fit more detail in.
