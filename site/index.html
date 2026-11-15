@@ -108,14 +108,6 @@
   a.mark { color: inherit; text-decoration: none; }
   .mark .tile { width: 28px; height: 28px; border-radius: 9px; overflow: hidden; background: linear-gradient(158deg, #24282b 0%, #16191b 52%, #0e1112 100%); display: block; flex: none; }
   .mark .tile svg { display: block; width: 100%; height: 100%; }
-  #agentlayer { position: fixed; inset: 0; pointer-events: none; z-index: 15; overflow: hidden; }
-  .acur { position: absolute; left: 0; top: 0; transition: transform .9s cubic-bezier(.2, 0, 0, 1), opacity .25s ease-out; opacity: 0; will-change: transform; }
-  .acur.on { opacity: 1; }
-  .acur .tag { position: absolute; left: 12px; top: 14px; background: #111; color: #fff; font-size: 11.5px; font-weight: 500; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
-  .acur .tip { position: absolute; left: 12px; top: 42px; background: var(--bg); color: var(--fg); border: 1px solid var(--line); box-shadow: 0 6px 20px rgba(0,0,0,.12); font-size: 12px; padding: 7px 11px; border-radius: 10px; white-space: nowrap; opacity: 0; transition: opacity .2s ease-out; }
-  .acur .tip.on { opacity: 1; }
-  .acur .tip i { font-style: normal; color: var(--faint); margin-left: 4px; }
-  .cell.hot { background: var(--hover); }
   .cell.fresh::after { content: ""; position: absolute; top: 14px; left: calc(50% + 16px); width: 7px; height: 7px; border-radius: 50%; background: #3b6df0; }
 
   /* Library map: every code in every standard as one cell (top-right, wide screens) */
@@ -128,11 +120,6 @@
   .amapp .mhead span { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
   .mwrap { position: relative; line-height: 0; }
   #mosaic { display: block; width: 264px; border-radius: 8px; cursor: pointer; }
-  .mring { position: absolute; width: 11px; height: 11px; margin: -4px 0 0 -4px; border: 1.5px solid #111; border-radius: 50%; background: #fff3; pointer-events: none; opacity: 0; transition: transform .7s cubic-bezier(.2, 0, 0, 1), opacity .2s ease-out; }
-  [data-theme="dark"] .mring { border-color: #fff; }
-  [data-theme="dark"] .mring b { background: #f3f3f2; color: #111; }
-  .mring.on { opacity: 1; }
-  .mring b { position: absolute; left: 12px; top: 10px; line-height: 1; background: #111; color: #fff; font: 500 11px var(--font); padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
   .mtip { position: fixed; z-index: 30; pointer-events: none; background: var(--bg); color: var(--fg); border: 1px solid var(--line); box-shadow: 0 6px 20px rgba(0,0,0,.12); font-size: 12px; line-height: 1.4; padding: 6px 9px; border-radius: 8px; max-width: 230px; opacity: 0; transition: opacity .12s ease-out; }
   .mtip.on { opacity: 1; }
   .mtip i { font-style: normal; color: var(--muted); display: block; }
@@ -359,7 +346,6 @@
   </div>
   <main id="main"></main>
   <section id="feed" hidden></section>
-  <div id="agentlayer" aria-hidden="true"></div>
   <aside class="amapp" id="amapp" aria-label="Agent Progress Map"></aside>
   <dialog id="agents" aria-labelledby="ag-title"></dialog>
   <footer>
@@ -762,37 +748,9 @@ const toFeed = (e) => { e.preventDefault(); state.view = 'feed'; state.sel = nul
 $('#feed-link').onclick = toFeed;
 
 
-// ---- Agent replay: cursors visit icons the agents really changed in the last 7 days ----
+// ---- New icons: RECENT = what the agents added or refined in the last 7 days ----
 const RECENT = FEED.filter((e) => e.result !== 'rejected' && Date.now() - stamp(e) < 7 * 864e5);
 const freshNote = (id) => { const e = RECENT.find((x) => x.id === id); return e ? `${WHO[e.mode]} ${VERB[e.mode]} this · ${ago(e)}` : ''; };
-(() => {
-  const layer = $('#agentlayer'), calm = matchMedia('(prefers-reduced-motion: reduce)');
-  if (!RECENT.length || calm.matches) return;
-  const cur = document.createElement('div'); cur.className = 'acur';
-  cur.innerHTML = `<svg width="18" height="18" viewBox="0 0 18 18"><path d="M3 2l11 5.2-4.6 1.6L7.6 14 3 2Z" fill="#111" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/></svg><span class="tag"></span><span class="tip"></span>`;
-  layer.append(cur); const tag = cur.querySelector('.tag'), tip = cur.querySelector('.tip');
-  let i = 0, last = null, first = true;
-  const idle = () => state.view === 'feed' || state.q || state.sel || $('#agents').open || document.hidden || scrollY < 0;
-  const hide = () => { cur.classList.remove('on'); tip.classList.remove('on'); last?.classList.remove('hot'); };
-  async function step() {
-    if (idle()) { hide(); return setTimeout(step, 2500); }
-    const top = $('header.top').offsetHeight + 20; let pick = null;
-    for (let n = 0; n < RECENT.length && !pick; n++) {
-      const e = RECENT[(i + n) % RECENT.length];
-      const el = [...document.querySelectorAll(`#main .cell.fresh[data-id="${e.id}"]`)].find((x) => { const r = x.getBoundingClientRect(); return r.top > top && r.bottom < innerHeight - 20 && r.left > 0 && r.right < innerWidth; });
-      if (el) { pick = { e, el }; i = (i + n + 1) % RECENT.length; }
-    }
-    if (!pick) { hide(); return setTimeout(step, 3000); }
-    const { e, el } = pick, r = el.getBoundingClientRect(), x = r.left + r.width / 2 - 6, y = r.top + r.height / 2 - 14;
-    last?.classList.remove('hot'); tip.classList.remove('on');
-    tag.textContent = WHO[e.mode]; tip.innerHTML = `${esc(WHO[e.mode])} ${VERB[e.mode]} <b>${esc(byId[e.id].name)}</b><i>${ago(e)} · replay</i>`;
-    if (first) { cur.style.transition = 'none'; cur.style.transform = `translate(${x + 120}px, ${y + 90}px)`; cur.offsetWidth; cur.style.transition = ''; first = false; }
-    cur.classList.add('on'); cur.style.transform = `translate(${x}px, ${y}px)`;
-    setTimeout(() => { el.classList.add('hot'); last = el; tip.classList.add('on'); }, 900);
-    setTimeout(step, 4200);
-  }
-  setTimeout(step, 2500);
-})();
 
 // ---- Library map: one cell per code in every standard; agents' recent work shown on it ----
 const MAP = { cols: 66, pitch: 4, cells: [], built: false, ids: new Set(RECENT.map((e) => e.id)), mode: new Map(), idx: 0 };
@@ -810,7 +768,7 @@ function mapBuild() {
   MAP.cells = cells; MAP.rows = row - 1;
   const own = cells.filter((x) => x.n.direct).length;
   box.innerHTML = `<div class="mhead"><b>Agent Progress Map</b></div>
-    <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas><div class="mring"><b></b></div></div>
+    <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas></div>
     <div class="mkey"><span style="--c:var(--line)">To do</span><span style="--c:var(--fg)">Done</span><span style="--c:#3b6df0">New</span><span style="--c:#e8a317">Refined</span></div>
     <ul class="mlist">${RECENT.slice(0, 4).map((e) => `<li><button type="button" data-open="${esc(e.id)}"><b>${esc(WHO[e.mode])}</b><span>${VERB[e.mode]} ${esc(byId[e.id].name)}</span><time>${ago(e)}</time></button></li>`).join('') || '<li class="more">No agent runs yet. The first one is due tonight.</li>'}${RECENT.length > 4 ? `<li><a class="more" href="?view=feed" data-feed>All activity →</a></li>` : ''}</ul>
     <div class="mtip" id="mtip"></div>`;
@@ -844,15 +802,6 @@ function mapEvents() {
   cv.addEventListener('click', (e) => { const x = at(e); if (x?.n.concept) { state.view = null; state.sel = x.n.concept; render(); } });
   $('#amapp').addEventListener('click', (e) => { const o = e.target.closest('[data-open]'); if (o) { state.view = null; state.kind = 'all'; state.sel = o.dataset.open; render(); } if (e.target.closest('[data-feed]')) toFeed(e); });
   new MutationObserver(mapPaint).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
-  // Replay: a marker visits cells the agents really changed this week (labelled as a replay)
-  if (!RECENT.length || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const ring = $('.mring'), lab = ring.querySelector('b');
-  const tick = () => {
-    const e = RECENT[MAP.idx++ % RECENT.length], x = MAP.cells.find((c) => c.n.direct && c.n.concept === e.id);
-    if (x && $('#amapp').getClientRects().length && !document.hidden) { ring.style.transform = `translate(${x.c * MAP.pitch}px, ${x.r * MAP.pitch}px)`; lab.textContent = `${WHO[e.mode]} · replay`; ring.classList.add('on'); } else ring.classList.remove('on');
-    setTimeout(tick, 3600);
-  };
-  setTimeout(tick, 1200);
 }
 
 // ---- For agents: MCP server setup ----
