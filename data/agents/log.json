@@ -765,5 +765,42 @@
    ]
   },
   "cost": 1.4
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:28:31.777Z",
+  "mode": "add",
+  "id": "ports",
+  "name": "Ports",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: It reads as text. The level top beam over a box and an H-shaped frame looks like a Devanagari headline (shirorekha) over letters, or like 'DH' / 'ㅁH'. Contains-letters is a hard fail on its own.; There is no crane structure. The gantry is just two vertical posts with a crossbar, which makes an H. There is no boom reaching out over the water, no trolley, and no hoist cable, so the box doesn't hang from anything. It looks like it is sitting next to the frame.; The container is a plain round",
+  "scores": {
+   "recognisable": 1,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Letter-like glyphs, something like 'ㅁH', 'БН' or a Devanagari character (क/म with a headline), not a gantry crane. The squiggle under it reads as a tilde or an underline.",
+   "problems": [
+    "It reads as text. The level top beam over a box and an H-shaped frame looks like a Devanagari headline (shirorekha) over letters, or like 'DH' / 'ㅁH'. Contains-letters is a hard fail on its own.",
+    "There is no crane structure. The gantry is just two vertical posts with a crossbar, which makes an H. There is no boom reaching out over the water, no trolley, and no hoist cable, so the box doesn't hang from anything. It looks like it is sitting next to the frame.",
+    "The container is a plain rounded rectangle with no corrugation or door lines, so it reads as a generic box or a letter.",
+    "The water is three small wavy strokes under the box only. At 16px they disappear completely and at 20px they clog into a smudge. Without water there is nothing that says port.",
+    "The 16px outline is cramped. The box, its inner gap and the posts merge into a dense glyph, and the right post sticks above the beam like a letter ascender.",
+    "The solid version just fills the box. The frame stays as thin strokes, so the solid looks unbalanced and lighter than the solid siblings (the truck and ship are heavy filled shapes).",
+    "The footprint is narrow and tall-right. The left part of the frame (the box) sits lower and smaller, so the icon doesn't fill the frame evenly the way the truck, ship and envelope do at 16 and 20px."
+   ],
+   "fixes": [
+    "Redraw it as an actual ship-to-shore gantry crane: two A-frame or splayed legs standing on a quay line, a horizontal boom that clearly sticks out past one leg over the water, and a short vertical hoist cable from a trolley on the boom down to a container. The legs should be splayed or braced so the frame can't read as an H.",
+    "Hang the container from the cable, with a gap between the box and the legs. Add one or two vertical rib lines (at 24px and up) so it reads as a shipping container.",
+    "Use a single full-width wave or a quay baseline under the whole picture instead of the short squiggle, and keep it at every size (a straight ground line at 16px is fine).",
+    "Don't let any post stick above the boom. End the boom with a rounded cap so it doesn't look like a letter ascender.",
+    "For the solid version, fill the container, thicken or fill the leg shapes (for example filled trapezoid legs), and keep the knockout ribs on the container so its weight matches the solid truck and ship.",
+    "Widen the composition to use the full 24px live area (the boom spans most of the width and the legs go down to the baseline). Draw the 16px version separately with fewer elements: legs, boom, cable, box, ground line."
+   ]
+  },
+  "cost": 1.06
  }
 ]
