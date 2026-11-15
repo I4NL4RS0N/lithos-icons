@@ -802,6 +802,13 @@ function mapBuild() {
   if (!DATA.standards.every((x) => STD[x.id])) { DATA.standards.forEach(loadStd); return; }
   MAP.built = true;
   const cells = []; let row = 0;
+  const GROUPS = [['theme', 'Topics', 12], ['sector', 'Sectors'], ['industry', 'Industries'], ['asset-class', 'Asset classes'], ['region', 'Regions'], ['country', 'Countries']]; // topics: 12 slots = the scout's target
+  for (const [kind, label, slots] of GROUPS) {
+    const cs = DATA.concepts.filter((c) => c.kind === kind), n = Math.max(cs.length, slots || 0), std = { name: label, codes: false };
+    if (!n) continue;
+    for (let i = 0; i < n; i++) cells.push({ std, n: cs[i] ? { code: '', name: cs[i].name, concept: cs[i].id, direct: true } : { code: '', name: 'Open slot', direct: false }, r: row + Math.floor(i / MAP.cols), c: i % MAP.cols });
+    row += Math.ceil(n / MAP.cols) + 1;
+  }
   for (const std of DATA.standards) {
     const nodes = STD[std.id].nodes;
     nodes.forEach((n, i) => cells.push({ std, n, r: row + Math.floor(i / MAP.cols), c: i % MAP.cols }));
@@ -811,7 +818,7 @@ function mapBuild() {
   const own = cells.filter((x) => x.n.direct).length;
   box.innerHTML = `<a class="mmini" href="?view=feed" data-feed><span>Agent activity${RECENT.length ? ` · <b>${RECENT.length}</b> this week` : ''}</span><span aria-hidden="true">→</span></a>
     <div class="mhead"><b>Agent Progress Map</b></div>
-    <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas></div>
+    <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every concept and every standard code. ${own} of ${cells.length} have their own icon."></canvas></div>
     <div class="mkey"><span style="--c:var(--line)">To do</span><span style="--c:var(--fg)">Done</span><span style="--c:#3b6df0">New</span><span style="--c:#e8a317">Refined</span></div>
     <ul class="mlist">${RECENT.slice(0, 4).map((e) => `<li><button type="button" data-open="${esc(e.id)}"><b>${esc(WHO[e.mode])}</b><span>${VERB[e.mode]} ${esc(byId[e.id].name)}</span><time>${ago(e)}</time></button></li>`).join('') || '<li class="more">No agent runs yet. The first one is due tonight.</li>'}</ul>
     <a class="mall" href="?view=feed" data-feed>View all activity</a>
