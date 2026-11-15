@@ -591,5 +591,40 @@
    ]
   },
   "cost": 1.08
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T23:17:16.518Z",
+  "mode": "add",
+  "id": "tobacco",
+  "name": "Tobacco",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Doesn't fill the frame. At 16/20/24 the cigarette body is a thin sliver about 4–5px tall in the lower-centre of the box, much smaller than the cup and basket next to it. At 16px the whole icon covers roughly a third of the box's area.; 16px outline: the body is a tiny two-cell rectangle and there's only one short smoke wisp, which reads as a speck or a small label. The internal divider and filter box clog into the outer stroke.; 20/24px outline: the filter divider and the tip box sit righ",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "a lit cigarette with smoke (smoking / tobacco), clear at 32–48px only",
+   "problems": [
+    "Doesn't fill the frame. At 16/20/24 the cigarette body is a thin sliver about 4–5px tall in the lower-centre of the box, much smaller than the cup and basket next to it. At 16px the whole icon covers roughly a third of the box's area.",
+    "16px outline: the body is a tiny two-cell rectangle and there's only one short smoke wisp, which reads as a speck or a small label. The internal divider and filter box clog into the outer stroke.",
+    "20/24px outline: the filter divider and the tip box sit right up against the outer stroke, so the inner counters are 1px slits. The 24px master shows a third divider near the lit end that merges into the outline.",
+    "Solid: the knockouts are two tiny vertical ticks instead of a clear filter band. At 16px there's only one tick, and at 20/24 they're too small to read, so the solid version looks like a plain slanted bar (a stick of gum or a USB stick) with squiggles.",
+    "Proportions change between sizes. The tilt angle, body length and number of smoke wisps (1 at 16, 2 above) vary. The smoke at 48 is much taller compared to the body than at 24.",
+    "The body is too long and thin for the grid's chunky style. Its stroke weight looks fine, but the shape is so slim that its visual mass is well below its neighbours."
+   ],
+   "fixes": [
+    "Make the cigarette much bigger: run the body corner to corner, from about (2,17) to (20,11) on the 24 grid, and make it about 6–7px thick so it's a real bar rather than a sliver. Put the smoke above the lit end so the whole icon spans about 20×20 of the live area.",
+    "Draw one clear filter division only, about a third of the length from the mouth end, and drop the extra tip divider. In outline, leave at least 2px of clear space on each side of the divider.",
+    "Solid: knock out a wide gap (at least 1.5px at 24) between the filter and the body, splitting the bar into two filled pieces, instead of the tiny ticks. Keep the same footprint as the outline.",
+    "16px: draw it on purpose. Use a thicker bar (about 4–5px tall) with a single divider and two short smoke strokes, and fill the box like the 16px basket does.",
+    "Keep the tilt angle (about 15–20°) and the two-wisp smoke the same at every size. Scale the smoke height to the body so its proportion doesn't jump at 48."
+   ]
+  },
+  "cost": 1.26
  }
 ]
