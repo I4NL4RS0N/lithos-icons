@@ -74,6 +74,17 @@
     white-space: nowrap; opacity: 0; pointer-events: none; z-index: 3; }
   .nolabels .cell:hover .nm, .nolabels .cell:focus-visible .nm { opacity: 1; color: var(--accent-fg); }
   .ic { color: var(--icon, var(--fg)); display: block; }
+  img.ic { outline: 1px solid oklch(0 0 0 / 0.1); outline-offset: -1px; } /* flags: keep white edges visible */
+  [data-theme="dark"] img.ic { outline-color: oklch(1 0 0 / 0.1); }
+  /* Feel: exact-property transitions, a small press, tabular numbers */
+  .cell, .chip, .btn, .round, .linkbtn, nav.links a { transition: background-color .15s ease-out, color .15s ease-out, scale .15s ease-out; }
+  .btn:active, .chip:active, .round:active, .linkbtn:active, nav.links a:active { scale: .96; }
+  section.kind h2 .n, .tabrow .n, .field output, .fi time, #feed .day, .fi .meta { font-variant-numeric: tabular-nums; }
+  dialog#agents { transition: opacity .2s ease-out, scale .2s ease-out, overlay .2s allow-discrete, display .2s allow-discrete; }
+  dialog#agents:not([open]) { opacity: 0; scale: .98; }
+  dialog#agents[open] { opacity: 1; scale: 1; }
+  @starting-style { dialog#agents[open] { opacity: 0; scale: .98; } }
+  dialog#agents::backdrop { transition: background-color .2s ease-out; }
   .std-intro { color: var(--muted); margin: 36px 0 0; font-size: 14px; }
   .std-intro b { color: var(--fg); font-weight: 600; }
   section.std { padding-top: 30px; }
