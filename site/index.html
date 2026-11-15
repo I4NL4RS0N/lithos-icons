@@ -39,7 +39,7 @@
   .hin .search { max-width: 520px; }
   @media (min-width: 1100px) { .hin { display: grid; grid-template-columns: 1fr minmax(240px, 520px) 1fr; gap: 20px; } .hin .search { grid-column: 2; max-width: none; } .hr { grid-column: 3; justify-self: end; margin-left: 0; } body.has-detail .hin { display: flex; } }
   @media (min-width: 1280px) { .hin { max-width: none; margin: 0; padding-right: 28px; } }
-  @media (min-width: 1000px) { body.has-detail .hin { max-width: none; margin: 0; padding-right: calc(var(--dw, 420px) + 28px); } }
+  @media (min-width: 1000px) { body.has-detail .hin { max-width: none; margin: 0; padding-right: 448px; } }
   .mark { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; flex: none; }
   nav.links { display: flex; gap: 20px; color: var(--muted); font-size: 13px; }
   nav.links a { text-decoration: none; }
@@ -247,8 +247,6 @@
   .search input:not(:placeholder-shown) ~ .sclear { display: grid; }
   .search input:not(:placeholder-shown) ~ kbd { display: none; }
   body.searching .intro { display: none; }
-  body.has-detail .search kbd { display: none; }
-  @media (min-width: 1000px) { body.has-detail nav.links { display: none; } }
   .qinfo { margin: 26px 0 6px; font-size: 14px; color: var(--muted); } .qinfo b { color: var(--fg); font-variant-numeric: tabular-nums; }
   .search kbd { position: absolute; right: 10px; font: 11px var(--mono); color: var(--faint); border: 1px solid var(--line); border-radius: 5px; padding: 1px 5px; pointer-events: none; }
   .round { border: 0; background: var(--pill); width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; flex: none; }
@@ -283,7 +281,7 @@
   .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 
   /* Detail panel */
-  aside.detail { position: fixed; top: 0; right: 0; height: 100%; width: min(var(--dw, 420px), 100%); background: var(--panel); border-left: 1px solid var(--line); box-shadow: var(--shadow);
+  aside.detail { position: fixed; top: 0; right: 0; height: 100%; width: min(420px, 100%); background: var(--panel); border-left: 1px solid var(--line); box-shadow: var(--shadow);
     transform: translateX(105%); transition: transform .18s ease; z-index: 30; overflow-y: auto; padding: 22px 24px 40px; }
   aside.detail.open { transform: none; }
   .detail header { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
@@ -294,17 +292,6 @@
   .stage { position: relative; width: 192px; height: 192px; }
   .stage > svg, .stage > img { position: absolute; inset: 0; width: 100%; height: 100%; }
   .stage .ov { overflow: visible; }
-  :root { --dw: 420px; }
-  @media (min-width: 1100px) { :root { --dw: clamp(620px, 54vw, 860px); } }
-  .dgrid { display: block; }
-  @media (min-width: 1100px) { .dgrid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr); gap: 34px; align-items: start; } .dright .ctl { margin-top: 16px; } }
-  .pair { container-type: inline-size; display: flex; gap: 10px; align-items: end; margin-top: 16px; }
-  .pair figure { margin: 0; flex: none; padding: 10px 10px 8px; background: var(--bg); border: 1px solid var(--line); border-radius: 14px; display: grid; gap: 8px; justify-items: center; }
-  .pair .box { --u: min(calc((100cqw - 56px) / 40), 11px); position: relative; width: calc(var(--s) * var(--u)); height: calc(var(--s) * var(--u)); }
-  .pair .box > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-  .pair .box .ov { overflow: visible; }
-  .pair figcaption { font: 11px var(--mono); color: var(--faint); }
-  .pairnote { margin: 8px 0 0; font-size: 12px; color: var(--faint); }
   .ovs, .codetabs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
   .chip { border: 0; background: var(--pill); color: var(--muted); border-radius: 999px; padding: 4px 11px; font-size: 12.5px; }
   .chip:hover { color: var(--fg); } .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
@@ -325,7 +312,7 @@
   .kw button:hover { background: var(--hover); }
   .report { display: inline-block; margin-top: 18px; font-size: 12.5px; color: var(--muted); }
   .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 16px 0 0; }
-  @media (min-width: 1000px) { body.has-detail .wrap { margin-right: var(--dw, 420px); margin-left: auto; max-width: none; } }
+  @media (min-width: 1000px) { body.has-detail .wrap { margin-right: 420px; margin-left: auto; max-width: none; } }
   .btn { border: 1px solid var(--line); background: transparent; border-radius: 10px; padding: 9px 12px; font-size: 13px; font-weight: 500; }
   .btn:hover { background: var(--hover); }
   .btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
@@ -339,7 +326,7 @@
   .toast.show { opacity: 1; }
   footer { border-top: 1px solid var(--line); padding: 22px 0 120px; color: var(--muted); font-size: 12.5px; max-width: 760px; }
 
-  @media (min-width: 1000px) { body.has-detail .bar, body.has-detail .pop { left: calc(50% - var(--dw, 420px) / 2); } body.has-detail .toast { left: calc(50% - var(--dw, 420px) / 2); } }
+  @media (min-width: 1000px) { body.has-detail .bar, body.has-detail .pop { left: calc(50% - 210px); } body.has-detail .toast { left: calc(50% - 210px); } }
   @media (max-width: 640px) {
     .wrap { padding: 0 18px; }
     .bar select { max-width: 38%; }
@@ -619,7 +606,7 @@ function goSection(id, smooth = false) {
 function toTop() { const t = $('.intro').getBoundingClientRect().bottom + scrollY; if (scrollY > t) scrollTo(0, t); }
 
 // Detail panel: large preview with construction overlays, size and style controls, exports, related icons.
-const OV = { grid: false, key: false, pad: false }; let CODE = null; // overlays on the preview; which code view is open
+const OV = { grid: false, key: true, pad: false }; let CODE = null; // overlays on the preview; which code view is open
 const toJsx = (svg, name) => {
   const body = svg.trim().replace(/\sclass="[^"]*"/, '').replace(/ ([a-z]+(?:[-:][a-z]+)+)=/g, (m, a) => (/^(aria|data)-/.test(a) ? m : ' ' + a.replace(/[-:]([a-z])/g, (_, ch) => ch.toUpperCase()) + '='))
     .replace(/^<svg /, '<svg {...props} ').replace(/></g, '>\n      <').replace(/^/, '    ').replace(/\n      <\/svg>$/, '\n    </svg>');
@@ -663,14 +650,11 @@ function renderDetail() {
   el.innerHTML = `
     <header><div><div class="crumb">${esc(SINGULAR[c.kind] || c.kind)}${parent ? ` · <a href="?icon=${parent.id}" data-goto="${parent.id}">${esc(parent.name)}</a>` : ''}</div><h3>${esc(c.name)}</h3><div class="sub">${esc(c.id)}${c.iso2 ? ' · ' + c.iso2 : ''}${c.m49 ? ' · M49 ' + c.m49 : ''}</div></div>
       <button class="round" id="close" type="button" aria-label="Close details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 3l8 8M11 3l-8 8"/></svg></button></header>
-    <div class="dgrid"><div class="dleft">
-    ${flag ? `<div class="hero"><div class="stage">${draw(c, psz, pst)}</div></div>` : `<div class="pair">${[16, 24].map((z) => `<figure><div class="box" style="--s:${z}">${overlaySvg(z)}${draw(c, z, pst)}</div><figcaption>${z} px</figcaption></figure>`).join('')}</div><p class="pairnote">Same magnification. Each size is drawn on its own.</p>`}
+    <div class="hero"><div class="stage">${flag ? '' : overlaySvg(psz)}${draw(c, psz, pst)}</div></div>
     ${flag ? '' : `<div class="ovs">${[['grid', 'Grid'], ['key', 'Keylines'], ['pad', 'Padding']].map(([k, l]) => `<button type="button" class="chip" data-ov="${k}" aria-pressed="${OV[k]}">${l}</button>`).join('')}</div>`}
-    <h4>Actual size</h4>
-    <div class="sizes">${DATA.sizes.map((s) => `<button type="button" data-size="${s}" aria-pressed="${s === psz}" title="${s}px">${draw(c, s, pst)}<span>${s}</span></button>`).join('')}</div>
-    </div><div class="dright">
     <div class="ctl">${flag ? '' : seg('style', [['outline', 'Outline'], ['solid', 'Solid']], pst)}
-      <label class="sizer"><span>Export size</span><input type="range" id="dsize" min="0" max="${DATA.sizes.length - 1}" step="1" value="${DATA.sizes.indexOf(psz)}" aria-label="Export size"><b>${psz}px</b></label></div>
+      <label class="sizer"><span>Size</span><input type="range" id="dsize" min="0" max="${DATA.sizes.length - 1}" step="1" value="${DATA.sizes.indexOf(psz)}" aria-label="Size"><b>${psz}px</b></label>
+      <div class="sizes">${DATA.sizes.map((s) => `<button type="button" data-size="${s}" aria-pressed="${s === psz}" title="${s}px">${draw(c, s, pst)}<span>${s}</span></button>`).join('')}</div></div>
     <div class="actions">
       <button class="btn primary" id="copy" type="button">Copy SVG</button>${flag ? '<button class="btn" id="url" type="button">Copy file URL</button>' : '<button class="btn" id="jsx" type="button">Copy JSX</button>'}
       <button class="btn" id="dl" type="button">Download SVG</button><button class="btn" id="png" type="button">Download PNG</button>
@@ -687,8 +671,7 @@ function renderDetail() {
       ${c.codes?.length ? `<dt>Codes</dt><dd class="codes">${c.codes.map((x) => `<div><span class="codechip">${esc((x.scheme + ' ' + x.code).trim())}</span><span>${esc(x.name)}</span></div>`).join('')}</dd>` : ''}
       ${c.keywords?.length ? `<dt>Keywords</dt><dd class="kw">${c.keywords.map((k) => `<button type="button" data-q="${esc(k)}">${esc(k)}</button>`).join('')}</dd>` : ''}
     </dl>
-    <a class="report" href="https://github.com/I4NL4RS0N/lithos-icons/issues/new?title=${encodeURIComponent('Icon: ' + c.id)}" target="_blank" rel="noopener">Report a problem with this icon</a>
-    </div></div>`;
+    <a class="report" href="https://github.com/I4NL4RS0N/lithos-icons/issues/new?title=${encodeURIComponent('Icon: ' + c.id)}" target="_blank" rel="noopener">Report a problem with this icon</a>`;
   el.classList.add('open'); el.setAttribute('aria-hidden', 'false'); el.scrollTop = keepScroll;
   const file = `${c.id}-${flag ? 'flag' : pst}-${psz}`;
   $('#close').onclick = () => { state.sel = null; render(); };
