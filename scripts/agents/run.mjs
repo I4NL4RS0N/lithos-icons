@@ -180,6 +180,10 @@ function scout(n) {
   }
   const gapList = Object.values(gaps).sort((a, b) => b.in.length - a.in.length).slice(0, FOCUS ? 200 : 70).map((g) => `- ${g.name} (${g.in.slice(0, 4).join('; ')})`).join('\n');
   const past = existsSync('data/agents/log.json') ? json('data/agents/log.json').filter((e) => e.result === 'rejected').slice(-40).map((e) => e.id) : [];
+  // Concepts the agents have failed twice or more are retired: re-drawing them only burns money. They go to a hand-draw queue instead.
+  const fails = {}; for (const e of existsSync('data/agents/log.json') ? json('data/agents/log.json') : []) if (e.result === 'rejected' && e.mode !== 'review' && e.id) (fails[e.id] ||= []).push(String(e.reason || '').slice(0, 300));
+  const retired = new Set(Object.keys(fails).filter((k) => fails[k].length >= 2 && !ids.has(k)));
+  if (retired.size) { const q = {}; for (const k of retired) q[k] = { fails: fails[k].length, last: fails[k].at(-1) }; writeFileSync('data/agents/hand-draw.json', JSON.stringify(q, null, 1) + '\n'); }
   // Topics (kind "theme"): the set has few, so until it has THEMES_TARGET the scout must fill at least half the day with them.
   const have_t = have.filter((c) => c.kind === 'theme').length, TARGET = +(process.env.THEMES_TARGET || 12);
   const themeMin = !FOCUS && have_t < TARGET ? Math.min(n, Math.max(1, Math.ceil(n / 2))) : 0, themeMax = FOCUS ? 0 : themeMin || Math.min(3, Math.ceil(n / 3));
@@ -194,7 +198,7 @@ function scout(n) {
 Existing icons (id: picture) — do not repeat a concept or reuse a picture:
 ${have.map((c) => `${c.id}: ${c.metaphor}`).join(', ')}
 
-Recently rejected ids (avoid unless you have a clearly better picture in mind): ${past.join(', ') || 'none'}
+Recently rejected ids (avoid unless you have a clearly better picture in mind): ${past.join(', ') || 'none'}\nRetired ids (failed twice or more; never propose these or near-synonyms): ${[...retired].join(', ') || 'none'}
 
 Source 1 — gaps. Industry titles in the published standards that still borrow a parent's icon:
 ${gapList}
@@ -208,7 +212,7 @@ Rules: each concept must be a visibly different thing from every existing icon (
     properties: { id: { type: 'string' }, name: { type: 'string' }, kind: { enum: ['industry', 'asset-class', 'theme'] }, parent: { type: 'string' }, query: { type: 'string' }, keywords: { type: 'array', items: { type: 'string' } }, why: { type: 'string' }, picture: { type: 'string' }, moves: { type: 'string' }, source: { type: 'string' } } } } } } });
   const link = (u) => { try { const x = new URL(String(u)); return x.protocol === 'https:' ? x.origin + x.pathname.slice(0, 160) : ''; } catch { return ''; } };
   const clean = (s, max) => String(s || '').replace(/[^\w &,.'()/-]/g, '').slice(0, max);
-  return (r.data?.concepts || []).filter((c) => /^[a-z][a-z0-9-]{2,40}$/.test(c.id) && !ids.has(c.id) && (c.kind !== 'industry' || ids.has(c.parent)) && (c.kind !== 'theme' || (String(c.moves || '').trim().length > 15 && link(c.source))))
+  return (r.data?.concepts || []).filter((c) => /^[a-z][a-z0-9-]{2,40}$/.test(c.id) && !ids.has(c.id) && !retired.has(c.id) && (c.kind !== 'industry' || ids.has(c.parent)) && (c.kind !== 'theme' || (String(c.moves || '').trim().length > 15 && link(c.source))))
     .slice(0, n).map((c) => ({ id: c.id, name: clean(c.name, 60), kind: c.kind, ...(c.kind === 'industry' ? { parent: c.parent } : {}), keywords: (c.keywords || []).slice(0, 8).map((k) => clean(k, 40)), query: clean(c.query, 40), why: clean(c.why, 240), picture: clean(c.picture, 80), ...(c.kind === 'theme' ? { moves: clean(c.moves, 200), source: link(c.source) } : {}) }));
 }
 
