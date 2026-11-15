@@ -39,8 +39,9 @@ function claude(role, prompt, { tools, allow = tools, turns = 30, budget = 3, sc
   let out = {};
   try { out = JSON.parse(r.stdout.trim().split('\n').pop()); } catch { /* not JSON: treated as an error below */ }
   const cost = out.total_cost_usd || 0; spent += cost;
+  const u = out.usage || {}, cr = u.cache_read_input_tokens || 0, cc = u.cache_creation_input_tokens || 0;
   const error = r.status !== 0 || out.is_error ? (out.result || r.stderr || 'run failed').slice(0, 400) : null;
-  console.log(`  [${role}] ${error ? 'ERROR ' + error : 'ok'} · $${cost.toFixed(2)} · run total $${spent.toFixed(2)}`);
+  console.log(`  [${role}] ${error ? 'ERROR ' + error : 'ok'} · $${cost.toFixed(2)} · cache read ${cr} / written ${cc} · run total $${spent.toFixed(2)}`);
   return { text: out.result || '', data: out.structured_output, cost, error };
 }
 
@@ -117,11 +118,25 @@ const judge = (c, p, before) => claude('judge', judgePrompt(c, p, before), JUDGE
 const DRAW_TOOLS = 'Read,Write,Edit,Bash', DRAW_ALLOW = 'Read,Write,Edit,Bash(npm run build),Bash(npm run validate),Bash(node scripts/agent-index.mjs),Bash(node scripts/preview.mjs *),Bash(node scripts/sheet.mjs *)';
 const drawRules = `Follow CLAUDE.md, SPEC.md §6 and docs/DRAWING.md exactly. Use only the tools you have. Do not edit any file other than the one named. Do not run git. Third-party icons are reference only: never copy one.`;
 
+// Accepted icons from the same family, as examples of the house style and of what passed the judge.
+function siblings(c, n = 3) {
+  const all = index().filter((x) => x.id !== c.id && x.status === 'active');
+  const pick = [...all.filter((x) => c.parent && x.parent === c.parent), ...all.filter((x) => x.kind === c.kind && x.parent !== c.parent)];
+  const out = [];
+  for (const x of pick) {
+    if (out.length >= n) break;
+    const f = existsSync(`src/agent/${x.id}.mjs`) ? `src/agent/${x.id}.mjs` : sh(`grep -l "id: '${x.id}'" src/concepts/*.mjs | head -1`).trim();
+    if (f) out.push(`${x.name} (${x.id}) in ${f}`);
+  }
+  return out;
+}
+
 function drawNew(c, feedback) {
+  const sib = siblings(c);
   return claude('draw', `You are the drawer for the Lithos Icons set. ${drawRules}
 
-${feedback ? `Your previous attempt at this icon was rejected. Fix it.\n${feedback}\n` : 'Draw a new icon.'}
 Concept: ${JSON.stringify(c)}
+${sib.length ? `Read these accepted icons from the same family first, to match their construction, weight and level of detail (do not copy their pictures):\n- ${sib.join('\n- ')}\n` : ''}${feedback ? `Your previous attempt at this icon was rejected. Fix it.\n${feedback}\n` : 'Draw a new icon.'}
 Write it to src/agent/${c.id}.mjs as described in docs/DRAWING.md ("export default { … }"), with these exact id, name, kind${c.parent ? ', parent' : ''} and keywords, a one-word-or-two "metaphor" for the picture you choose, and a "reduction" note.
 Research is in data/research/${c.id}.json if it exists. The picture must not already be in data/metaphors.json and must not be a near-copy of another icon (look at previews/sheet-24.png).
 Then: node scripts/agent-index.mjs, npm run build, npm run validate (0 errors), node scripts/preview.mjs ${c.id} agent-${c.id}, and LOOK at previews/agent-${c.id}.png. Judge the 16px size first. Revise until you would be happy to ship it; a strict independent judge will review it next. Finish with one line naming the picture you drew.`,
