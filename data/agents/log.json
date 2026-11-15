@@ -346,5 +346,42 @@
   "mapped": 4,
   "why": "ISIC/NACE 77 borrows a parent icon.",
   "cost": 0.66
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T18:25:32.708Z",
+  "mode": "add",
+  "id": "architecture-engineering",
+  "name": "Architecture & Engineering",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The 16, 20 and 24px versions sit far too small in their boxes. They use about half the frame height and less than half the width, while the microscope, briefcase and scales beside them fill the box.; The design changes between sizes. 32 and 48px have a pencil/lead holder on the right leg, but 16, 20 and 24px drop it and turn into two equal legs with an arc. The 24px master should be the full picture, and the smaller sizes should simplify it without changing what it is.; At 16 and 20px the",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32 and 48px it reads as a drafting compass drawing an arc. At 16, 20 and 24px it reads as a small figure with a round head, a little bell, or a plain triangle hanging under a ring. It doesn't read as a compass at those sizes.",
+   "problems": [
+    "The 16, 20 and 24px versions sit far too small in their boxes. They use about half the frame height and less than half the width, while the microscope, briefcase and scales beside them fill the box.",
+    "The design changes between sizes. 32 and 48px have a pencil/lead holder on the right leg, but 16, 20 and 24px drop it and turn into two equal legs with an arc. The 24px master should be the full picture, and the smaller sizes should simplify it without changing what it is.",
+    "At 16 and 20px the hinge ring, legs and arc crowd into a tiny blob. The ring at the top is nearly filled in, and the arc nearly touches the leg tips, so the shapes merge.",
+    "In the solid version at 16 to 24px, the filled area between the legs plus the ring makes a dark wedge that looks like a person or bell. The hinge knockout is only a pinpoint.",
+    "The solid footprint doesn't match the outline. The solid legs swell into a filled triangle, and at 32 and 48px the solid pencil leg looks heavier and wider than in the outline.",
+    "The arc under the legs spreads horizontally while the legs stay short, so the shape is wide and squat, and the empty space above the hinge wastes the frame.",
+    "At 48px the outline pencil is drawn with a small inner line, giving it a bit more detail than the rest of the set."
+   ],
+   "fixes": [
+    "Redraw the 24px master to fill the live area like the microscope does: hinge near the top edge (about y=2.5), leg tips near the bottom (about y=21), legs spread to about x=4 and x=20. The figure should be roughly 18–19px tall.",
+    "Keep the same picture at every size: hinge ring, two legs, a pencil holder on one leg as a short thicker segment, and the drawn arc. At 16px, simplify the pencil to a short stub instead of removing it.",
+    "At 16 and 20px, make the hinge ring a clear open circle about 4px across, or replace it with a short handle stub over a solid pivot dot. Keep at least 1.5px of clear space between the arc and the leg tips.",
+    "Consider dropping the arc at 16px, or making it a short tick, so that the two legs (one with the pencil) carry the picture.",
+    "For solid, fill only the legs and pencil as thicker shapes. Don't fill the triangle between them, and keep the hinge as a clear knockout ring, so the outer silhouette matches the outline.",
+    "Re-render and compare against scientific-research and legal-services at every size to check that the visual weight and frame fill match."
+   ]
+  },
+  "cost": 1.44
  }
 ]
