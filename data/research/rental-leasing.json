@@ -1,0 +1,788 @@
+{
+  "concept": "rental-leasing",
+  "query": "key",
+  "fetched": "2026-11-15T18:02:31.667Z",
+  "topTerms": [
+    [
+      "key",
+      45
+    ],
+    [
+      "security",
+      30
+    ],
+    [
+      "access",
+      28
+    ],
+    [
+      "lock",
+      22
+    ],
+    [
+      "unlock",
+      14
+    ],
+    [
+      "password",
+      12
+    ],
+    [
+      "keys",
+      7
+    ],
+    [
+      "hotel",
+      7
+    ],
+    [
+      "passkey",
+      6
+    ],
+    [
+      "pass",
+      5
+    ],
+    [
+      "safety",
+      5
+    ],
+    [
+      "property",
+      4
+    ],
+    [
+      "open",
+      4
+    ],
+    [
+      "door",
+      4
+    ],
+    [
+      "room",
+      4
+    ],
+    [
+      "keychain",
+      3
+    ],
+    [
+      "home",
+      3
+    ],
+    [
+      "house",
+      3
+    ],
+    [
+      "room-key",
+      3
+    ],
+    [
+      "hotel-key",
+      3
+    ],
+    [
+      "code",
+      2
+    ],
+    [
+      "license",
+      2
+    ],
+    [
+      "metal",
+      2
+    ],
+    [
+      "travel",
+      2
+    ],
+    [
+      "computer",
+      2
+    ],
+    [
+      "protect",
+      2
+    ],
+    [
+      "hostel",
+      2
+    ],
+    [
+      "privacy",
+      2
+    ],
+    [
+      "doodle",
+      2
+    ],
+    [
+      "answer",
+      1
+    ],
+    [
+      "education",
+      1
+    ],
+    [
+      "solution",
+      1
+    ],
+    [
+      "automotive-security",
+      1
+    ],
+    [
+      "car-key",
+      1
+    ],
+    [
+      "keyless-entry",
+      1
+    ],
+    [
+      "remote-car-key",
+      1
+    ],
+    [
+      "vehicle-remote",
+      1
+    ],
+    [
+      "purchase",
+      1
+    ],
+    [
+      "protection",
+      1
+    ],
+    [
+      "crossbones",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Key",
+          "tags": [
+            "key",
+            "keys",
+            "pass",
+            "passkey",
+            "password"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5741527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "keys",
+          "tags": [
+            "answer",
+            "education",
+            "keys",
+            "solution"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4039472-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "keys",
+          "tags": [
+            "access",
+            "keychain",
+            "keys",
+            "lock",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516829-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "automotive-security",
+            "car-key",
+            "key",
+            "keyless-entry",
+            "remote-car-key",
+            "vehicle-remote"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516659-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "keychain",
+            "lock",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513189-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "home",
+            "key",
+            "lock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508036-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "home",
+            "key",
+            "property",
+            "purchase"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507994-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "passkey",
+            "protection",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8502698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "code",
+            "key",
+            "license",
+            "password",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500721-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "code",
+            "key",
+            "license",
+            "password",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500688-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "key"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8499954-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "crossbones",
+            "key",
+            "lock",
+            "metal",
+            "open",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8499298-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "keys",
+          "tags": [
+            "access",
+            "door",
+            "keys",
+            "lock",
+            "metal",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493431-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "keyword",
+            "passkey",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488306-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "lock",
+            "open",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484742-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "pass",
+            "passkey",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483865-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "pass",
+            "passkey",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483781-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "key-code",
+            "lock",
+            "master-key",
+            "pass"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478101-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "keys",
+          "tags": [
+            "house",
+            "keys",
+            "lock",
+            "property",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475037-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "hotel",
+            "key",
+            "room",
+            "security",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473651-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "computer",
+            "key",
+            "lock",
+            "protect",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472566-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "computer",
+            "key",
+            "lock",
+            "protect",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472493-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "lock",
+            "password",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472136-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "door",
+            "hotel",
+            "key",
+            "lock",
+            "room"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464702-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "door",
+            "hotel",
+            "key",
+            "lock",
+            "room"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464665-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "open",
+            "pass",
+            "password",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462707-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "hotel",
+            "key",
+            "lock",
+            "room-key",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "keys",
+          "tags": [
+            "house",
+            "keys",
+            "lock",
+            "property",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454353-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "lock",
+            "password",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454090-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "lock",
+            "password",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8452247-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "open",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8451348-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "key",
+            "lock",
+            "safety",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450830-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "hostel",
+            "hotel",
+            "hotel-key",
+            "key",
+            "room-key"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449930-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "ownership",
+            "property",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449291-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "keys",
+          "tags": [
+            "access",
+            "key",
+            "keys",
+            "password",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449169-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "hotel",
+            "key",
+            "room",
+            "security",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8448020-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "apartment",
+            "house",
+            "key"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8442707-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "lock",
+            "password",
+            "privacy",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436497-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "lock",
+            "password",
+            "privacy",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436492-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "locksmith",
+            "password",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436245-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "holiday",
+            "hotel-key",
+            "key",
+            "trip",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8434162-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "key",
+            "keychain",
+            "padlock-accessory",
+            "password",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8433816-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "door-key",
+            "key",
+            "passkey",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8433006-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "achievement",
+            "key",
+            "success",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432480-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "hostel",
+            "hotel",
+            "hotel-key",
+            "key",
+            "room-key"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432395-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "door",
+            "home",
+            "key",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432385-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "access",
+            "authorization",
+            "control",
+            "key",
+            "security",
+            "unlock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432328-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "doodle",
+            "key",
+            "lock",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8431652-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "doodle",
+            "key",
+            "lock",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8431635-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Key",
+          "tags": [
+            "key",
+            "unlocking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8428946-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

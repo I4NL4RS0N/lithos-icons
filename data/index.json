@@ -35,6 +35,22 @@
     "since": "0.1.0"
   },
   {
+    "id": "rental-leasing",
+    "name": "Rental & Leasing",
+    "kind": "industry",
+    "parent": "administrative-services",
+    "metaphor": "key-tag",
+    "keywords": [
+      "rental",
+      "leasing",
+      "equipment hire"
+    ],
+    "reduction": "Key standing upright on the right (ring bow, shaft, two teeth) with a luggage-style tag tied to its bow by a curved cord on the left. 16: tag is a plain shape with no eyelet; bow slightly larger and teeth spaced wider so they stay apart. 20+: the tag gets an eyelet (a dot in outline, a knocked-out hole in solid). Solid: bow and tag filled, bow hole and eyelet knocked out; shaft, teeth and cord stay strokes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "scientific-research",
     "name": "Scientific Research & Development",
     "kind": "industry",

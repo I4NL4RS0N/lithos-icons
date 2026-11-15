@@ -313,5 +313,38 @@
    ]
   },
   "cost": 1.69
+ },
+ {
+  "date": "2026-11-15",
+  "at": "2026-11-15T18:07:17.548Z",
+  "mode": "add",
+  "id": "rental-leasing",
+  "name": "Rental & Leasing",
+  "kind": "industry",
+  "picture": "key-tag",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A key with a luggage/hotel-style tag on a loop, the usual 'rent / hire / lease' picture (car hire, property let)",
+   "problems": [
+    "At 16px the key's two teeth are very short stubs, and the loop between the tag and the key bow nearly touches the top of the tag. It is still readable, but there is no room to spare.",
+    "In the solid style at 16px the tag's string hole is a speck and nearly disappears, so the tag reads as a plain rounded blob.",
+    "The tag is narrow and sits lower and to the left of the key bow, so the picture leans left and down. It fills the frame no worse than its neighbours, though.",
+    "Reading it as rental depends on knowing the convention. Some viewers may read it as 'hotel key' and link it to lodging/accommodation rather than leasing."
+   ],
+   "fixes": [
+    "Optional polish: at 16px, make the key teeth longer by about 0.5px and leave at least 1px between the loop and the top of the tag.",
+    "Optional polish: in the solid 16px and 20px versions, make the tag's hole bigger (about 1.5px or more across) so the knockout survives."
+   ]
+  },
+  "mapped": 4,
+  "why": "ISIC/NACE 77 borrows a parent icon.",
+  "cost": 0.66
  }
 ]
