@@ -1,0 +1,17 @@
+{
+  "id": "covered-bonds",
+  "name": "Covered Bonds",
+  "kind": "asset-class",
+  "metaphor": "shield-lines",
+  "keywords": [
+    "covered bonds",
+    "pfandbriefe",
+    "mortgage covered",
+    "public sector covered",
+    "cover pool"
+  ],
+  "reduction": "16 and 20: one line. 24 up: two lines.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

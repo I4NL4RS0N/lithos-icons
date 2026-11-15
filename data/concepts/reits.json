@@ -1,0 +1,17 @@
+{
+  "id": "reits",
+  "name": "REITs",
+  "kind": "industry",
+  "parent": "real-estate",
+  "metaphor": "apartment-block",
+  "keywords": [
+    "real estate investment trusts",
+    "REIT",
+    "property trusts",
+    "rental property"
+  ],
+  "reduction": "16 and 20: two rows of windows. 24 up: three rows.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "student-loans",
+  "name": "Student Loans",
+  "kind": "asset-class",
+  "metaphor": "pencil",
+  "keywords": [
+    "student loans",
+    "education loans",
+    "FFELP",
+    "private student loans",
+    "tuition"
+  ],
+  "reduction": "None: one pencil silhouette at all sizes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
