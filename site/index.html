@@ -360,7 +360,7 @@
   <main id="main"></main>
   <section id="feed" hidden></section>
   <div id="agentlayer" aria-hidden="true"></div>
-  <aside class="amapp" id="amapp" aria-label="Library map and agent activity"></aside>
+  <aside class="amapp" id="amapp" aria-label="Agent Progress Map"></aside>
   <dialog id="agents" aria-labelledby="ag-title"></dialog>
   <footer>
     Icons and code are MIT. Map outlines come from Natural Earth (public domain) and regions follow UN M49. Most flags are adapted from <a href="https://github.com/lipis/flag-icons">flag-icons</a> (MIT). It's an early build, so expect shapes to change before 1.0.
@@ -809,7 +809,8 @@ function mapBuild() {
   }
   MAP.cells = cells; MAP.rows = row - 1;
   const own = cells.filter((x) => x.n.direct).length;
-  box.innerHTML = `<div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas><div class="mring"><b></b></div></div>
+  box.innerHTML = `<div class="mhead"><b>Agent Progress Map</b></div>
+    <div class="mwrap"><canvas id="mosaic" role="img" aria-label="Every code in every standard. ${own} of ${cells.length} have their own icon."></canvas><div class="mring"><b></b></div></div>
     <div class="mkey"><span style="--c:var(--line)">To do</span><span style="--c:var(--fg)">Done</span><span style="--c:#3b6df0">New</span><span style="--c:#e8a317">Refined</span></div>
     <ul class="mlist">${RECENT.slice(0, 4).map((e) => `<li><button type="button" data-open="${esc(e.id)}"><b>${esc(WHO[e.mode])}</b><span>${VERB[e.mode]} ${esc(byId[e.id].name)}</span><time>${ago(e)}</time></button></li>`).join('') || '<li class="more">No agent runs yet. The first one is due tonight.</li>'}${RECENT.length > 4 ? `<li><a class="more" href="?view=feed" data-feed>All activity →</a></li>` : ''}</ul>
     <div class="mtip" id="mtip"></div>`;
