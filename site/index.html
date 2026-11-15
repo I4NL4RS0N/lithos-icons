@@ -113,8 +113,8 @@
   /* Library map: every code in every standard as one cell (top-right, wide screens) */
   .amapp { display: none; position: fixed; top: 84px; right: 24px; width: 292px; z-index: 5; padding: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; }
   @media (min-width: 1280px) {
-    body:not(.has-detail):not(.feed) .amapp { display: block; }
-    body:not(.has-detail):not(.feed) .wrap { max-width: none; margin: 0; padding-right: 330px; }
+    body:not(.has-detail) .amapp { display: block; }
+    body:not(.has-detail) .wrap { max-width: none; margin: 0; padding-right: 330px; }
   }
   .amapp .mhead { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; font-size: 13px; }
   .amapp .mhead span { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
@@ -138,10 +138,12 @@
   .mall:active { scale: .98; }
   .mlist .more { display: block; margin: 6px 4px 0; color: var(--muted); font-size: 12px; }
   @media (max-height: 760px) { .amapp .mlist { display: none; } }
-  body.feed .intro, body.feed #main { display: none; }
-  body.feed header.top .search, body.feed header.top #tabs { visibility: hidden; }
-  #feed { max-width: 640px; margin: 40px auto 120px; }
-  #feed h1 { font-size: 26px; letter-spacing: -0.02em; margin: 0 0 6px; }
+  .drawer { position: fixed; top: 0; right: 0; height: 100%; width: min(520px, 100%); z-index: 40; overflow-y: auto; overscroll-behavior: contain; background: var(--panel); border-left: 1px solid var(--line); box-shadow: var(--shadow); padding: 0 28px 60px; transform: translateX(104%); visibility: hidden; transition: transform .28s cubic-bezier(.2, 0, 0, 1), visibility 0s .28s; }
+  .drawer.open { transform: none; visibility: visible; transition: transform .28s cubic-bezier(.2, 0, 0, 1); }
+  .dbar { position: sticky; top: 0; z-index: 2; display: flex; justify-content: flex-end; padding: 14px 0 6px; background: var(--panel); margin: 0 -28px; padding-right: 22px; }
+  .dx { all: unset; box-sizing: border-box; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 8px; cursor: pointer; color: var(--muted); transition: background-color .15s ease-out, color .15s ease-out, scale .15s ease-out; }
+  .dx:hover { background-color: var(--hover); color: var(--fg); } .dx:active { scale: .96; } .dx:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  #feed h1 { font-size: 22px; letter-spacing: -0.02em; margin: 0 0 6px; }
   #feed .lede { margin: 0 0 18px; color: var(--muted); font-size: 14px; }
   #feed .fchips { display: flex; gap: 6px; margin-bottom: 8px; }
   #feed .day { margin: 30px 0 4px; font-size: 13px; color: var(--muted); display: flex; gap: 8px; align-items: baseline; }
@@ -165,15 +167,14 @@
   .fi .ba .small { display: flex; gap: 10px; margin-left: auto; color: var(--muted); }
   .fi .ba .big svg { width: 64px; height: 64px; }
   .amap { display: grid; gap: 10px; margin-top: 22px; }
-  .amap .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; position: relative; }
+  .amap .flow { display: grid; grid-template-columns: 1fr; gap: 16px; position: relative; }
   .amap .node { border: 1px solid var(--line); border-radius: 14px; padding: 14px 14px 16px; display: grid; gap: 6px; align-content: start; background: var(--bg); position: relative; }
   .amap .node b { font-size: 14px; }
   .amap .node .model { font: 11.5px var(--mono); color: var(--faint); }
   .amap .node p { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
   .amap .node .n { font-size: 11.5px; color: var(--faint); }
-  .amap .flow .node:not(:last-child)::after { content: "→"; position: absolute; right: -13px; top: 18px; color: var(--faint); font-size: 13px; z-index: 1; }
+  .amap .flow .node:not(:last-child)::after { content: "↓"; position: absolute; left: 16px; bottom: -15px; color: var(--faint); font-size: 13px; z-index: 1; }
   .amap h3 { margin: 18px 0 0; font-size: 13px; color: var(--muted); font-weight: 500; }
-  .amap .flow.weekly { grid-template-columns: repeat(3, 1fr); }
   .amap .stats { display: flex; gap: 22px; flex-wrap: wrap; padding: 14px 0 4px; font-size: 13px; color: var(--muted); }
   .amap .stats b { display: block; font-size: 20px; color: var(--fg); letter-spacing: -0.02em; }
 
@@ -315,11 +316,9 @@
     .pop { bottom: 70px; }
     aside.detail { top: auto; bottom: 0; height: 86%; width: 100%; border-left: 0; border-top: 1px solid var(--line); border-radius: 22px 22px 0 0; transform: translateY(105%); }
     nav.links { gap: 14px; }
-    #feed, .fi, .fi > * { min-width: 0; }
+    #feed, #feedbody, .fi, .fi > * { min-width: 0; } .drawer { padding: 0 18px 60px; } .dbar { margin: 0 -18px; padding-right: 12px; }
     .fi .fstage { padding: 20px 16px; gap: 14px; } .fi .fstage .big svg { width: 56px; height: 56px; } .fi .fstage .small { gap: 8px; }
     .fi code { overflow-wrap: anywhere; }
-    .amap .flow, .amap .flow.weekly { grid-template-columns: 1fr; }
-    .amap .flow .node:not(:last-child)::after { content: "↓"; right: auto; left: 16px; top: auto; bottom: -14px; }
     .fi .ba { grid-template-columns: 1fr; }
   }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -347,7 +346,6 @@
     <p>Icons for sectors, industries, credit, regions and countries, matched to GICS, NAICS and the other classification codes you already use. Outline or solid, in five sizes that are each drawn on their own rather than scaled.</p>
   </div>
   <main id="main"></main>
-  <section id="feed" hidden></section>
   <aside class="amapp" id="amapp" aria-label="Agent Progress Map"></aside>
   <dialog id="agents" aria-labelledby="ag-title"></dialog>
   <footer>
@@ -380,6 +378,7 @@
   </button>
 </div>
 
+<aside class="drawer" id="feed" role="dialog" aria-label="Agent activity" aria-hidden="true"><div class="dbar"><button type="button" class="dx" id="feed-x" aria-label="Close agent activity"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9"/></svg></button></div><div id="feedbody"></div></aside>
 <aside class="detail" id="detail" aria-label="Icon details" aria-hidden="true"></aside>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -534,10 +533,11 @@ function conceptSection(k, label, items) {
 const PLAN = ['sector', 'industry', 'asset-class', 'std', 'region', 'country', 'theme']; // page order
 const LABEL = { sector: 'Sectors', industry: 'Industries', 'asset-class': 'Credit asset classes', region: 'Regions', country: 'Countries', theme: 'Topics' };
 
+let FEED_DRAWN = false;
 function render() {
   syncControls(); syncUrl();
-  document.body.classList.toggle('feed', state.view === 'feed'); $('#feed').hidden = state.view !== 'feed';
-  if (state.view === 'feed') { renderFeed(); renderDetail(); return; }
+  const fopen = state.view === 'feed'; $('#feed').classList.toggle('open', fopen); $('#feed').setAttribute('aria-hidden', String(!fopen));
+  if (fopen && !FEED_DRAWN) { FEED_DRAWN = true; renderFeed(); } else if (!fopen) FEED_DRAWN = false;
   const q = state.q.toLowerCase().split(/\s+/).filter(Boolean);
   const only = state.kind.startsWith('std:') ? state.kind.slice(4) : null;
   const wantConcept = (c) => (only ? false : inKind(c, state.kind));
@@ -737,7 +737,7 @@ function renderFeed() {
       <div class="meta">${e.attempts ? `<span>Drawn in ${e.attempts} ${e.attempts === 1 ? 'try' : 'tries'}</span>` : ''}${pass ? '<span>Passed the judge</span>' : ''}${e.picture ? `<span>Picture: ${esc(String(e.picture).replace(/-/g, ' '))}</span>` : ''}</div>
       <div class="acts"><button class="btn" type="button" data-open="${esc(c.id)}">Open in library</button><code>get_icon({ id: "${esc(c.id)}" })</code></div></article>`;
   };
-  $('#feed').innerHTML = `<h1>What the agents are making</h1><p class="lede">Every icon the agents add or refine, newest first.</p>
+  $('#feedbody').innerHTML = `<h1>What the agents are making</h1><p class="lede">Every icon the agents add or refine, newest first.</p>
     <div class="fchips">${chip('all', 'All')}${chip('add', 'New icons')}${chip('refine', 'Refined')}${chip('agents', 'The agents')}</div>
     ${FF === 'agents' ? agentMap() : days.length ? days.map((d) => { const day = FEED.filter((e) => e.date === d), n = day.filter((e) => e.mode === 'add' && e.result === 'added').length, rf = day.filter((e) => e.result === 'refined').length, no = day.filter((e) => e.result === 'rejected').length;
       return `<div class="day"><b>${dayLabel(d)}</b><span>${[n && `${n} new`, rf && `${rf} refined`, no && `${no} not kept`].filter(Boolean).join(' · ')}</span></div>${items.filter((e) => e.date === d).map(card).join('')}`; }).join('') : `<p class="lede" style="margin-top:28px">Nothing yet. The agents add their next batch overnight.</p>`}`;
@@ -746,7 +746,10 @@ $('#feed').addEventListener('click', (e) => {
   const f = e.target.closest('[data-ff]'); if (f) { FF = f.dataset.ff; return renderFeed(); }
   const o = e.target.closest('[data-open]'); if (o) { state.view = null; state.kind = 'all'; state.sel = o.dataset.open; render(); }
 });
-const toFeed = (e) => { e.preventDefault(); state.view = 'feed'; state.sel = null; scrollTo(0, 0); render(); };
+const toFeed = (e) => { e.preventDefault(); state.view = 'feed'; state.sel = null; render(); $('#feed-x').focus({ preventScroll: true }); };
+const closeFeed = () => { state.view = null; render(); };
+$('#feed-x').onclick = closeFeed;
+document.addEventListener('pointerdown', (e) => { if (state.view === 'feed' && !e.target.closest('#feed, a[data-feed], .mall')) closeFeed(); });
 document.addEventListener('click', (e) => { const a = e.target.closest('a[data-feed]'); if (a && !a.closest('#amapp')) toFeed(e); });
 
 
@@ -839,7 +842,7 @@ $('#agents').addEventListener('click', (e) => {
 });
 if (state.sec === 'agents') { state.sec = null; PENDING = false; openAgents(); }
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') { if (state.pop) { state.pop = false; syncControls(); } else if (state.sel) { state.sel = null; render(); } else if (document.activeElement === $('#q')) $('#q').blur(); }
+  if (e.key === 'Escape') { if (state.pop) { state.pop = false; syncControls(); } else if (state.view === 'feed') closeFeed(); else if (state.sel) { state.sel = null; render(); } else if (document.activeElement === $('#q')) $('#q').blur(); }
   if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName))) { e.preventDefault(); $('#q').focus(); $('#q').select(); }
 });
 render();
