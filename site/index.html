@@ -731,7 +731,7 @@ function renderFeed() {
     return `<article class="fi"><header><b>${WHO[e.mode]}</b><span>${VERB[e.mode]} <b>${esc(c.name)}</b></span><time>${ago(e)}</time></header>
       <div class="tags"><span class="tag">${e.mode === 'add' ? 'New icon' : 'Refined'}</span><span>${esc(SINGULAR[c.kind] || c.kind)}</span></div>
       ${e.mode === 'refine' && e.before && e.after ? ba(e) : `<div class="fstage"><span class="big">${draw(c, 48, 'outline')}</span><span class="big">${draw(c, 48, 'solid')}</span><span class="small">${DATA.sizes.slice(0, 4).map((z) => draw(c, z, 'outline')).join('')}</span></div>`}
-      ${body ? `<p>${body}</p>` : ''}${e.mode === 'add' && e.why ? `<p>Why: ${esc(first(e.why))}</p>` : ''}
+      ${body ? `<p>${body}</p>` : ''}${e.mode === 'add' && e.why ? `<p>Why: ${esc(first(e.why))}</p>` : ''}${e.moves ? `<p>Moves: ${esc(e.moves)}${e.source ? ` <a href="${esc(e.source)}" rel="noopener nofollow" target="_blank">Source</a>` : ''}</p>` : ''}
       <div class="meta">${e.attempts ? `<span>Drawn in ${e.attempts} ${e.attempts === 1 ? 'try' : 'tries'}</span>` : ''}${pass ? '<span>Passed the judge</span>' : ''}${e.picture ? `<span>Picture: ${esc(String(e.picture).replace(/-/g, ' '))}</span>` : ''}</div>
       <div class="acts"><button class="btn" type="button" data-open="${esc(c.id)}">Open in library</button><code>get_icon({ id: "${esc(c.id)}" })</code></div></article>`;
   };
