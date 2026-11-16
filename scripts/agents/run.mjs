@@ -392,6 +392,11 @@ if (MODE === 'worker') { writeFileSync(process.argv[4], JSON.stringify(work(json
 if (changed().length) { console.error('working tree is not clean'); process.exit(1); }
 mkdirSync('data/agents', { recursive: true });
 const results = MODE === 'refine' ? refine() : MODE === 'review' ? await review() : await add();
+if (!DRY) { // spend ledger: one line per run, so total spend is known exactly from here on
+  const lp = 'data/agents/spend.json', led = existsSync(lp) ? json(lp) : [];
+  led.push({ at: new Date().toISOString(), mode: MODE, usd: +spent.toFixed(2) }); writeFileSync(lp, JSON.stringify(led, null, 1) + '\n');
+  try { sh('git add data/agents/spend.json'); sh('git commit -q -m "Agents: spend ledger"'); } catch { /* nothing to commit */ }
+}
 const summary = `### Icon agents · ${MODE} · ${today}\n\n${results.map((r) => `- ${r}`).join('\n') || '- nothing attempted'}\n\nEstimated spend: $${spent.toFixed(2)}${DRY ? ' (dry run: nothing committed)' : ''}\n`;
 console.log('\n' + summary);
 if (process.env.GITHUB_STEP_SUMMARY) writeFileSync(process.env.GITHUB_STEP_SUMMARY, summary, { flag: 'a' });

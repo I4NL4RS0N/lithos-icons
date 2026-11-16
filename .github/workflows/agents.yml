@@ -72,7 +72,7 @@ jobs:
           for i in 1 2 3; do
             git fetch -q origin main
             git rebase origin/main || while [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; do
-              node scripts/agents/merge-log.mjs && git add data/agents/log.json && GIT_EDITOR=true git rebase --continue || { git rebase --abort; break; }
+              node scripts/agents/merge-log.mjs && git add data/agents && GIT_EDITOR=true git rebase --continue || { git rebase --abort; break; }
             done
             if [ ! -d .git/rebase-merge ] && [ -z "$(git status --porcelain --untracked-files=no)" ] && git push origin HEAD:main; then ok=1; break; fi
           done
