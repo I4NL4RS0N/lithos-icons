@@ -988,5 +988,38 @@
   "mapped": 5,
   "why": "ISIC/NACE 78 borrows a parent icon.",
   "cost": 0.93
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:05:46.377Z",
+  "mode": "add",
+  "id": "residential-care",
+  "name": "Residential Care",
+  "kind": "industry",
+  "picture": "rocking-chair",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A rocking chair: a tilted back, an arm rail and a curved rocker. It suggests old age and care homes. On its own it could also be read as retirement in general.",
+   "problems": [
+    "At 16px solid, the filled back and seat almost merge with the arm rail. The gap under the arm is only about 1px, so the chair reads mostly as a dark L-shape on a rocker.",
+    "At 16px and 20px, the outline chair's mass is pulled to the left (back and seat) with the arm rail sticking out to the right. Its visual centre sits a little left and high next to centred neighbours like veterinary and hospitals.",
+    "The rocker arc is the thinnest-looking part at 16px and is close to breaking where the legs meet it.",
+    "Its silhouette is close to furniture (armchair) and lodging (bed) in the sheet, but the rocker and the high tilted back keep it distinct."
+   ],
+   "fixes": [
+    "Optional polish: at 16px solid, widen the gap between the arm rail and the seat to at least 1.5px so the arm rail stays separate.",
+    "Optional polish: shift the 16px and 20px outline chair about 0.5px right, or extend the rocker slightly to the left, to balance it in the frame."
+   ]
+  },
+  "mapped": 6,
+  "why": "ISIC/NACE 87 borrows the heart cross.",
+  "cost": 0.53
  }
 ]

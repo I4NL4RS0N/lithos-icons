@@ -150,6 +150,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "residential-care",
+    "name": "Residential Care",
+    "kind": "industry",
+    "parent": "health-care",
+    "metaphor": "rocking-chair",
+    "keywords": [
+      "nursing homes",
+      "elder care",
+      "assisted living",
+      "residential care"
+    ],
+    "reduction": "Rocking chair in side view, facing right: a tall backrest slab leaning back, a seat, an armrest, two legs and a long curved rocker spanning the full width. 16 and 20: backrest is wider so its inside stays open, the armrest is dropped (it would clog between back and seat) and the rocker curves a little less. 24+: armrest with a front post that runs down to the rocker. 32 and 48: deepest rocker curve, slightly narrower backrest. Solid: backrest and a seat slab filled as one L silhouette; legs, arm and rocker stay live strokes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "scientific-research",
     "name": "Scientific Research & Development",
     "kind": "industry",

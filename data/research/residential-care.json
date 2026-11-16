@@ -1,0 +1,804 @@
+{
+  "concept": "residential-care",
+  "query": "walking cane",
+  "fetched": "2026-11-16T19:58:27.782Z",
+  "topTerms": [
+    [
+      "walking-cane",
+      47
+    ],
+    [
+      "walking cane",
+      34
+    ],
+    [
+      "cane",
+      28
+    ],
+    [
+      "walking",
+      17
+    ],
+    [
+      "walking-stick",
+      12
+    ],
+    [
+      "old",
+      9
+    ],
+    [
+      "stick",
+      9
+    ],
+    [
+      "elderly",
+      7
+    ],
+    [
+      "disability",
+      7
+    ],
+    [
+      "support",
+      6
+    ],
+    [
+      "disabled",
+      6
+    ],
+    [
+      "walking-aid",
+      5
+    ],
+    [
+      "equipment",
+      5
+    ],
+    [
+      "walker",
+      5
+    ],
+    [
+      "mobility",
+      4
+    ],
+    [
+      "medical",
+      4
+    ],
+    [
+      "recovery",
+      4
+    ],
+    [
+      "walking stick",
+      3
+    ],
+    [
+      "blind",
+      3
+    ],
+    [
+      "person",
+      3
+    ],
+    [
+      "retirement",
+      3
+    ],
+    [
+      "crutch",
+      3
+    ],
+    [
+      "healthcare",
+      3
+    ],
+    [
+      "walking-frame",
+      3
+    ],
+    [
+      "aid",
+      2
+    ],
+    [
+      "health",
+      2
+    ],
+    [
+      "assistive-device",
+      2
+    ],
+    [
+      "assistive",
+      2
+    ],
+    [
+      "tool",
+      2
+    ],
+    [
+      "orthopedic-stick",
+      2
+    ],
+    [
+      "physical",
+      2
+    ],
+    [
+      "geriatric",
+      2
+    ],
+    [
+      "helping",
+      2
+    ],
+    [
+      "walk",
+      2
+    ],
+    [
+      "aging",
+      2
+    ],
+    [
+      "medical-device",
+      2
+    ],
+    [
+      "mobility-aid",
+      2
+    ],
+    [
+      "elder-care",
+      2
+    ],
+    [
+      "mobility-aids",
+      2
+    ],
+    [
+      "walking frame",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "walking stick",
+          "tags": [
+            "cane",
+            "walking-aid",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4822263-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking stick",
+          "tags": [
+            "cane",
+            "walking-aid",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4822243-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "dissability",
+            "mobility",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456845-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "aid",
+            "elder",
+            "soldier",
+            "support",
+            "veteran",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8096913-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "disabled",
+            "elderly",
+            "fitness",
+            "health",
+            "injury",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7385003-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "assistive-device",
+            "cane",
+            "disability",
+            "support",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7356640-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "equipment",
+            "orthopaedics",
+            "treatment",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7019223-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "assistive",
+            "cane",
+            "mobility",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6879538-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "assistive",
+            "cane",
+            "mobility",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6879535-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "disabled",
+            "equipment",
+            "invalid",
+            "mobility",
+            "tool",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6696091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "assistive-device",
+            "blind",
+            "disability",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6613629-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "equipment",
+            "medical",
+            "orthopedic-stick",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6552885-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "equipment",
+            "medical",
+            "orthopedic-stick",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6552828-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "old",
+            "people",
+            "person",
+            "stick",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6479772-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "physical",
+            "recovery",
+            "support",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4608424-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "physical",
+            "recovery",
+            "support",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4606433-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "elderly",
+            "geriatric",
+            "retirement",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4482937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "elderly",
+            "geriatric",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4482454-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "elderly-woman",
+            "grandmother",
+            "tool",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4096063-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "disabled",
+            "elderly",
+            "stick",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3975153-84.png",
+          "licence": "public-domain"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "aid",
+            "helping",
+            "old",
+            "walk",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3515347-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "helping",
+            "old",
+            "walk",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3507229-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "disability",
+            "frail",
+            "old-age",
+            "retirement",
+            "senior",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3277675-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "crutch",
+            "disability",
+            "healthcare",
+            "medical",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3111808-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "crutch",
+            "disability",
+            "healthcare",
+            "medical",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3111782-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "aging",
+            "cane",
+            "medical-device",
+            "mobility-aid",
+            "recovery",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2875355-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "aging",
+            "cane",
+            "disability",
+            "medical-device",
+            "mobility-aid",
+            "recovery",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2875339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "disability",
+            "equipment",
+            "healthcare",
+            "physiotherapy",
+            "retirement",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1084303-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "grandfather",
+            "grandparents",
+            "old",
+            "stick",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/990885-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "elder-care",
+            "mobility-aids",
+            "walker",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/782774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "elder-care",
+            "mobility-aids",
+            "walker",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/782772-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "cane",
+            "old",
+            "stick",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/781344-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "rehabilitation",
+            "walking-aid",
+            "walking-assistance",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/694189-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "assistance",
+            "cane",
+            "disabled",
+            "gait",
+            "limp",
+            "limping",
+            "old",
+            "orthotic",
+            "support",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/416861-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "care",
+            "crutch",
+            "disable",
+            "handicapped",
+            "health",
+            "hospital",
+            "rod",
+            "staff",
+            "stick",
+            "third-leg",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/287507-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking cane",
+          "tags": [
+            "article",
+            "cane",
+            "item",
+            "material",
+            "object",
+            "old",
+            "show-piece",
+            "support",
+            "walking-cane",
+            "wooden-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/248033-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking frame",
+          "tags": [
+            "medical-instrument",
+            "walking",
+            "walking-cane",
+            "walking-frame"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6208035-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking frame",
+          "tags": [
+            "medical-instrument",
+            "walking",
+            "walking-cane",
+            "walking-frame"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6208034-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "stick",
+          "tags": [
+            "cane",
+            "silver-day",
+            "stick",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5876024-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walker",
+          "tags": [
+            "walker",
+            "walking-aid",
+            "walking-cane",
+            "walking-frame"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4668924-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "crutches",
+          "tags": [
+            "cane",
+            "crutches",
+            "sticks",
+            "walking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4368337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walking stick",
+          "tags": [
+            "cane",
+            "old",
+            "stick",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2719688-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Blind",
+          "tags": [
+            "blind",
+            "blindness",
+            "disabled",
+            "walking",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1984818-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "old man",
+          "tags": [
+            "cane",
+            "elderly",
+            "old-man",
+            "walking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1589154-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cane",
+          "tags": [
+            "cane",
+            "walker",
+            "walking-aid",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7544075-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Older Man",
+          "tags": [
+            "cane",
+            "older-man",
+            "person",
+            "stick",
+            "walking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4696139-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Blind",
+          "tags": [
+            "blind",
+            "blindness",
+            "disabled",
+            "walking-cane",
+            "white-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3393755-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "walker",
+          "tags": [
+            "elderly",
+            "patient",
+            "walker",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3149487-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Cane",
+          "tags": [
+            "cane",
+            "old",
+            "stick",
+            "walking-cane",
+            "walking-stick"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2719690-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "old man",
+          "tags": [
+            "cane",
+            "elderly",
+            "old-man",
+            "person",
+            "stickman",
+            "walking-cane"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2438142-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
