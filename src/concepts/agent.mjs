@@ -2,6 +2,7 @@
 import c_climate_risk from '../agent/climate-risk.mjs';
 import c_cyber_and_outage_risk from '../agent/cyber-and-outage-risk.mjs';
 import c_employment_activities from '../agent/employment-activities.mjs';
+import c_energy_equipment_services from '../agent/energy-equipment-services.mjs';
 import c_gambling_betting from '../agent/gambling-betting.mjs';
 import c_medical_devices from '../agent/medical-devices.mjs';
 import c_motion_pictures from '../agent/motion-pictures.mjs';
@@ -11,4 +12,4 @@ import c_rental_leasing from '../agent/rental-leasing.mjs';
 import c_residential_care from '../agent/residential-care.mjs';
 import c_scientific_research from '../agent/scientific-research.mjs';
 import c_veterinary_activities from '../agent/veterinary-activities.mjs';
-export default [c_climate_risk, c_cyber_and_outage_risk, c_employment_activities, c_gambling_betting, c_medical_devices, c_motion_pictures, c_pension_funds, c_private_credit, c_rental_leasing, c_residential_care, c_scientific_research, c_veterinary_activities];
+export default [c_climate_risk, c_cyber_and_outage_risk, c_employment_activities, c_energy_equipment_services, c_gambling_betting, c_medical_devices, c_motion_pictures, c_pension_funds, c_private_credit, c_rental_leasing, c_residential_care, c_scientific_research, c_veterinary_activities];

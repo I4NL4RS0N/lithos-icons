@@ -1,0 +1,17 @@
+{
+  "id": "energy-equipment-services",
+  "name": "Energy Equipment & Services",
+  "kind": "industry",
+  "parent": "oil-gas",
+  "metaphor": "drilling-rig",
+  "keywords": [
+    "oilfield services",
+    "drilling",
+    "energy equipment",
+    "rigs"
+  ],
+  "reduction": "Every size: a land drilling rig: a wide substructure block (rig floor) carrying a tapering lattice derrick with a crown bar on top. 16 to 24: one girt with a single X brace below it, the derrick head left open. 32 and 48: a second girt with a short X above the first, and a drill-floor opening in the substructure. Solid: the substructure and crown are filled; the derrick stays live strokes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

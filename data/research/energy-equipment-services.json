@@ -1,0 +1,798 @@
+{
+  "concept": "energy-equipment-services",
+  "query": "drill bit",
+  "fetched": "2026-11-16T20:00:43.852Z",
+  "topTerms": [
+    [
+      "drill-bit",
+      45
+    ],
+    [
+      "drill bit",
+      44
+    ],
+    [
+      "drilling",
+      23
+    ],
+    [
+      "drill",
+      22
+    ],
+    [
+      "equipment",
+      20
+    ],
+    [
+      "tool",
+      16
+    ],
+    [
+      "tools",
+      13
+    ],
+    [
+      "rigging",
+      12
+    ],
+    [
+      "construction",
+      9
+    ],
+    [
+      "industrial",
+      7
+    ],
+    [
+      "bit",
+      7
+    ],
+    [
+      "carpentry",
+      7
+    ],
+    [
+      "electric",
+      4
+    ],
+    [
+      "gas-drill",
+      4
+    ],
+    [
+      "machine",
+      4
+    ],
+    [
+      "oil-drill",
+      4
+    ],
+    [
+      "woodworking",
+      4
+    ],
+    [
+      "drill bits",
+      4
+    ],
+    [
+      "drill-bits",
+      4
+    ],
+    [
+      "metal",
+      3
+    ],
+    [
+      "repair",
+      3
+    ],
+    [
+      "cutting-tool",
+      3
+    ],
+    [
+      "hole-making",
+      3
+    ],
+    [
+      "bit drill",
+      2
+    ],
+    [
+      "bit-drill",
+      2
+    ],
+    [
+      "cut",
+      2
+    ],
+    [
+      "hole",
+      2
+    ],
+    [
+      "automation",
+      2
+    ],
+    [
+      "robotic",
+      2
+    ],
+    [
+      "technology",
+      2
+    ],
+    [
+      "construction-and-tools",
+      2
+    ],
+    [
+      "diy",
+      2
+    ],
+    [
+      "hole-maker-bit",
+      2
+    ],
+    [
+      "sharp",
+      2
+    ],
+    [
+      "metalworking",
+      2
+    ],
+    [
+      "machinery",
+      2
+    ],
+    [
+      "construction-equipment",
+      2
+    ],
+    [
+      "bore",
+      2
+    ],
+    [
+      "power-tools",
+      2
+    ],
+    [
+      "durable",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Bit Drill",
+          "tags": [
+            "bit-drill",
+            "cut",
+            "drill",
+            "hole",
+            "metal",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8441855-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bit Drill",
+          "tags": [
+            "bit-drill",
+            "cut",
+            "drill",
+            "hole",
+            "metal",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8422236-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "automation",
+            "drill-bit",
+            "electric",
+            "industrial",
+            "robotic",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8379797-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "automation",
+            "drill-bit",
+            "electric",
+            "industrial",
+            "robotic",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8379768-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "bit",
+            "construction-and-tools",
+            "diy",
+            "drill-bit",
+            "electric",
+            "hole-maker-bit"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8280108-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "bit",
+            "drill",
+            "drill-bit",
+            "drill-bit",
+            "sharp",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8023885-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction",
+            "drill-bit",
+            "equipment",
+            "industrial",
+            "metal",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7793157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction",
+            "drill-bit",
+            "industrial",
+            "repair",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7637484-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "bit",
+            "drill",
+            "drill-bit",
+            "durable",
+            "sharp",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7606263-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "bit",
+            "drill-bit",
+            "drilling",
+            "machining",
+            "twist"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7589039-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction-and-tools",
+            "diy",
+            "drill-bit",
+            "electric",
+            "heads"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7414932-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction",
+            "drill-bit",
+            "industrial",
+            "repair",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7195783-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction",
+            "drill-bit",
+            "industrial",
+            "repair",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7195730-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "cutting-tool",
+            "drill-bit",
+            "drilling",
+            "hole-making",
+            "metalworking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6976774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction",
+            "drill-bit",
+            "drilling",
+            "hole-making",
+            "machinery",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6817843-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction",
+            "drill-bit",
+            "drilling",
+            "hole-making",
+            "machinery",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6817808-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill-bit",
+            "equipment",
+            "gas-drill",
+            "machine",
+            "oil-drill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6781840-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill-bit",
+            "equipment",
+            "gas-drill",
+            "machine",
+            "oil-drill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6781839-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill-bit",
+            "equipment",
+            "gas-drill",
+            "machine",
+            "oil-drill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6781835-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill-bit",
+            "equipment",
+            "gas-drill",
+            "machine",
+            "oil-drill"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6781834-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "carpentry",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "woodworking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5873130-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "build",
+            "construction",
+            "drill",
+            "drill-bit",
+            "iron",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5637011-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bits",
+          "tags": [
+            "building",
+            "drill-bits",
+            "service",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5290275-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "bit",
+            "carpentry",
+            "construction",
+            "drill",
+            "drill-bit",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4892925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill-bit",
+            "industrial",
+            "metalworking",
+            "screw",
+            "spiral"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3636069-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "business",
+            "construction",
+            "drill",
+            "drill-bit",
+            "industry",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3632937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "carpentry",
+            "drill-bit",
+            "drilling",
+            "rigging",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3437953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "carpentry",
+            "drill-bit",
+            "drilling",
+            "rigging",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3437950-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bits",
+          "tags": [
+            "drill-bit",
+            "drill-bits",
+            "fixed-cutter-bit",
+            "hardware",
+            "hole-maker-bit",
+            "roller-cone-bits"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3318091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction-equipment",
+            "construction-tool",
+            "cutting-tool",
+            "drill-bit",
+            "drilling"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3314346-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "construction-equipment",
+            "cutting-tool",
+            "drill-bit",
+            "drilling",
+            "spade-bit"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3314301-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bits",
+          "tags": [
+            "drill-bits"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3312116-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bits",
+          "tags": [
+            "attachments",
+            "bore",
+            "drill",
+            "drill-bits",
+            "power-tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3097441-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2988898-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "attachment",
+            "bore",
+            "drill",
+            "drill-bit",
+            "woodwork"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1554524-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400089-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400088-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400087-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400086-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400085-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400084-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400083-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400082-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400081-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "rigging",
+            "tools"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1400080-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "bit",
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1231644-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "bit",
+            "drill",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1231641-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "carpentry",
+            "drill-bit",
+            "power-tools",
+            "woodworking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1034213-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "carpentry",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "woodworking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/901684-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "drill bit",
+          "tags": [
+            "carpentry",
+            "drill-bit",
+            "drilling",
+            "equipment",
+            "woodworking"
+          ],
+          "thumb": "https://static.thenounproject.com/png/901578-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

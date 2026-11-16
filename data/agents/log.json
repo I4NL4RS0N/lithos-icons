@@ -1057,5 +1057,40 @@
    ]
   },
   "cost": 1.89
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:08:28.044Z",
+  "mode": "add",
+  "id": "energy-equipment-services",
+  "name": "Energy Equipment & Services",
+  "kind": "industry",
+  "picture": "drilling-rig",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "An oil derrick or drilling rig: a tapering lattice tower with a crown block on a skid or platform base. That fits drilling equipment and services, and it is clearly a different picture from the parent's pumpjack.",
+   "problems": [
+    "At 16px the cross-bracing inside the narrow tower is close to the limit. The single X plus the crossbar reads, but the solid 16 version nearly fills in between the legs and the lit area.",
+    "The solid version only fills the base. The tower stays as outline-weight lattice, so solid and outline look alike at the top. The rest of the set does this too (construction crane, pipelines), but solid gives only a little extra emphasis.",
+    "The rig is narrower than most neighbours at 24px. Only the base reaches nearly full width, and the tower takes up about the middle half, so the icon looks slightly lighter than the set's average.",
+    "The 48px drawing adds three tiers of X-bracing. That is allowed at 48, but it is noticeably busier than the 32px drawing.",
+    "The slot cut into the base at 32/48 is a small detail that adds little meaning and could be read as a handle or a tray."
+   ],
+   "fixes": [
+    "Optional: at 16px solid, leave a gap of at least 1px between the X-bracing and the legs, or drop to a single crossbar with no X, so the tower interior doesn't fill in.",
+    "Optional: widen the tower's base footprint by about 1px on each side at 20 and 24 so it fills the frame more like its neighbours.",
+    "Optional: cut the 48px bracing to two tiers to match the detail level of 32px and the rest of the set."
+   ]
+  },
+  "mapped": 1,
+  "why": "GICS 101010 borrows the pump jack.",
+  "cost": 0.65
  }
 ]
