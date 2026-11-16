@@ -1092,5 +1092,40 @@
   "mapped": 1,
   "why": "GICS 101010 borrows the pump jack.",
   "cost": 0.65
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:10:53.270Z",
+  "mode": "add",
+  "id": "libraries-museums",
+  "name": "Libraries & Museums",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Solid 16 and 20 have no knockouts at all. They are three dark slabs, the gap between the first two books has almost closed, and they read as bars or a chart rather than books.; The solid knockouts change from size to size. 16/20 have none, 24 has small uneven dashes, 32 has a broken notch at the top of the middle book that looks like a rendering defect, and 48's spine bands are lopsided (the middle book's band runs only partway across). Nothing is drawn the same way twice.; In the 16px ou",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Three books on a shelf, one leaning: reads as library or books. It does not suggest museums, but book-row is the metaphor the brief asked for.",
+   "problems": [
+    "Solid 16 and 20 have no knockouts at all. They are three dark slabs, the gap between the first two books has almost closed, and they read as bars or a chart rather than books.",
+    "The solid knockouts change from size to size. 16/20 have none, 24 has small uneven dashes, 32 has a broken notch at the top of the middle book that looks like a rendering defect, and 48's spine bands are lopsided (the middle book's band runs only partway across). Nothing is drawn the same way twice.",
+    "In the 16px outline the middle book and the leaning book run together. Their inner counters are only 1px slits, so the row looks crowded and the spine bands disappear.",
+    "The footprint is narrower than neighbours like gambling-betting and arts-recreation. At 16 and 20 the glyph sits small and tall in its box, with a lot of empty space on the left and right.",
+    "Weight: at 24 and 32 the outline spine bands use thinner or shorter strokes than the book outlines, so the inner detail looks lighter than the rest of the set.",
+    "It sits close to publishing (open book) and education in subject. It is still distinct in shape, but 'books' is weak as a museum signal."
+   ],
+   "fixes": [
+    "Solid: draw one spine-band knockout on every book at every size, at least 1.5px wide at 16/20, in the same relative position (one band near the top of each book). Use the same scheme at every size and get rid of the stray notch on the middle book at 32.",
+    "Solid 16/20: keep a clear gap of at least 1px between all three books (2px at 20) so the separate books still read.",
+    "Outline 16: cut to two upright books plus one leaning book, made wider. Give each counter at least 2px inside, or drop the spine bands at 16 so it doesn't clog.",
+    "Widen the composition so it fills about 20 of the 24 grid units wide (and proportionally at the other sizes): make the books wider and lean the third one further, matching the visual mass of the gambling-betting die and the arts-recreation mask.",
+    "Draw the spine bands with the full set stroke width and run them the whole width of each spine. Optionally add a shelf baseline under the books, which helps both footprint and recognition."
+   ]
+  },
+  "cost": 1.29
  }
 ]
