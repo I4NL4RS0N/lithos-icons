@@ -952,5 +952,41 @@
    ]
   },
   "cost": 1.78
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:00:43.145Z",
+  "mode": "add",
+  "id": "employment-activities",
+  "name": "Employment Services",
+  "kind": "industry",
+  "picture": "id-badge",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "An employee ID badge / staff pass: a portrait card with a lanyard slot at the top and a head-and-shoulders person. People read it as staffing or HR, which fits Employment Services.",
+   "problems": [
+    "16px outline is the weak point: the slot, the head ring and the shoulder arc are packed into about 7px of interior. The head ring's counter is close to closing, and the slot nearly merges with the top edge of the card in the light preview.",
+    "16px solid: the knockouts for the head and the slot are very small (about 1–2px). They are readable but near the limit.",
+    "The portrait card is narrow (about 60–65% of the frame width), so the icon looks lighter than wide neighbours like the briefcase or the scales. It matches the other portrait-card icons (hospitals, cmbs, reits), so this is acceptable but not ideal.",
+    "The shoulders arch runs into the bottom edge of the card at 32/48. This is fine as a style choice, but it makes the lower part of the card look heavy at 48 outline.",
+    "Silhouette risk: the outline is close to cmbs and hospitals (tall rounded rect with a top slot or mark). Only the person figure tells them apart, so the figure must stay clear at every size.",
+    "The design is very close to the standard 'identification badge' icon found in common open-source sets. It's a generic metaphor, not a copy, but there is little that is specific to Lithos about it."
+   ],
+   "fixes": [
+    "Optional polish at 16px outline: make the head a solid dot instead of a ring, or drop the slot, so the 16px drawing has room to breathe.",
+    "Optional polish at 16px solid: shorten the slot and widen the knockout by 0.5px so it doesn't fill in on low-DPI screens.",
+    "Optional polish: widen the card by about 1px each side at 20/24 to bring its visual weight closer to its neighbours, keeping it inside the live area."
+   ]
+  },
+  "mapped": 5,
+  "why": "ISIC/NACE 78 borrows a parent icon.",
+  "cost": 0.93
  }
 ]

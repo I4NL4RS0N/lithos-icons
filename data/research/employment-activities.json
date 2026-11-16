@@ -1,0 +1,809 @@
+{
+  "concept": "employment-activities",
+  "query": "id badge",
+  "fetched": "2026-11-16T19:52:21.646Z",
+  "topTerms": [
+    [
+      "id badge",
+      48
+    ],
+    [
+      "id-badge",
+      48
+    ],
+    [
+      "identification",
+      30
+    ],
+    [
+      "id",
+      28
+    ],
+    [
+      "badge",
+      20
+    ],
+    [
+      "id-card",
+      19
+    ],
+    [
+      "identity",
+      18
+    ],
+    [
+      "card",
+      16
+    ],
+    [
+      "employee",
+      16
+    ],
+    [
+      "access",
+      10
+    ],
+    [
+      "security",
+      8
+    ],
+    [
+      "lanyard",
+      6
+    ],
+    [
+      "business",
+      5
+    ],
+    [
+      "license",
+      4
+    ],
+    [
+      "credentials",
+      3
+    ],
+    [
+      "name",
+      3
+    ],
+    [
+      "id-document",
+      3
+    ],
+    [
+      "passport",
+      3
+    ],
+    [
+      "verification",
+      2
+    ],
+    [
+      "credential",
+      2
+    ],
+    [
+      "pass",
+      2
+    ],
+    [
+      "badge id",
+      2
+    ],
+    [
+      "badge-id",
+      2
+    ],
+    [
+      "work",
+      2
+    ],
+    [
+      "analyst",
+      2
+    ],
+    [
+      "access-card",
+      2
+    ],
+    [
+      "accreditation-card",
+      2
+    ],
+    [
+      "identity-pass",
+      2
+    ],
+    [
+      "travel-id",
+      2
+    ],
+    [
+      "business-card",
+      1
+    ],
+    [
+      "identification-card",
+      1
+    ],
+    [
+      "identity-card",
+      1
+    ],
+    [
+      "name-tag",
+      1
+    ],
+    [
+      "press-pass",
+      1
+    ],
+    [
+      "security-pass",
+      1
+    ],
+    [
+      "authorization",
+      1
+    ],
+    [
+      "entry",
+      1
+    ],
+    [
+      "permit",
+      1
+    ],
+    [
+      "remote",
+      1
+    ],
+    [
+      "accounting",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "ID badge",
+          "tags": [
+            "business-card",
+            "card",
+            "id",
+            "id-badge",
+            "identification-card",
+            "identity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2129916-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "credentials",
+            "id-badge",
+            "identity-card",
+            "name-tag",
+            "press-pass",
+            "security-pass"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8433727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "business",
+            "card",
+            "id",
+            "id-badge",
+            "identification"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8340533-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "business",
+            "card",
+            "id",
+            "id-badge",
+            "identification"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8340532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "card",
+            "employee",
+            "id-badge",
+            "identification",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8265739-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "card",
+            "employee",
+            "id-badge",
+            "identification",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8265716-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "authorization",
+            "entry",
+            "id-badge",
+            "identity",
+            "permit",
+            "verification"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8253708-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "card",
+            "credential",
+            "id-badge",
+            "pass",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8237681-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "badge ID",
+          "tags": [
+            "access",
+            "badge-id",
+            "employee",
+            "identity",
+            "name",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8211120-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "badge ID",
+          "tags": [
+            "access",
+            "badge-id",
+            "employee",
+            "identity",
+            "remote",
+            "work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8164640-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "business",
+            "id-badge",
+            "identification",
+            "identity",
+            "name"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8118240-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "employee",
+            "id",
+            "id-badge",
+            "identification",
+            "lanyard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8111270-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "employee",
+            "id",
+            "id-badge",
+            "identification",
+            "lanyard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8111269-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "employee",
+            "id",
+            "id-badge",
+            "identification",
+            "lanyard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8104161-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "employee",
+            "id",
+            "id-badge",
+            "identification",
+            "lanyard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8104160-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "employee",
+            "id",
+            "id-badge",
+            "identification",
+            "lanyard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8104159-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "employee",
+            "id",
+            "id-badge",
+            "identification",
+            "lanyard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8104158-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "accounting",
+            "analyst",
+            "financial",
+            "id-badge",
+            "id-card",
+            "officer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8080764-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "analyst",
+            "business",
+            "finance",
+            "id-badge",
+            "id-card",
+            "transaction"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8075721-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access-card",
+            "accreditation-card",
+            "id-badge",
+            "identity-pass",
+            "travel-id"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8072266-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access-card",
+            "accreditation-card",
+            "id-badge",
+            "id-badge",
+            "identity-pass",
+            "travel-id"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8072229-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "badge",
+            "id",
+            "id-badge",
+            "identity",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7995821-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "badge",
+            "id",
+            "id-badge",
+            "identity",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7995805-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "card",
+            "id",
+            "id-badge",
+            "id-card",
+            "profile"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7891386-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "identification",
+            "identity",
+            "verification",
+            "verify"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7783956-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "card",
+            "id",
+            "id-badge",
+            "id-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7773932-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "credentials",
+            "employee",
+            "id-badge",
+            "identification",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7746945-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "credentials",
+            "employee",
+            "id-badge",
+            "identification",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7746916-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "access",
+            "card",
+            "credential",
+            "employee",
+            "id-badge",
+            "id-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7614751-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "card",
+            "employee",
+            "id-badge"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7543061-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "card",
+            "employee",
+            "id-badge"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7543024-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7375604-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "card",
+            "id-badge",
+            "id-card",
+            "identification"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7267633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "card",
+            "id-badge",
+            "id-card",
+            "identification"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7267632-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7241533-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7241470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity",
+            "license"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7236049-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-document",
+            "identification",
+            "passport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7183735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-document",
+            "identification",
+            "passport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7183734-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-document",
+            "identification",
+            "passport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7183732-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity",
+            "license"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7138049-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity",
+            "license"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7138047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity",
+            "license"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7138043-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "card",
+            "id",
+            "id-badge",
+            "id-card",
+            "identification"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6971311-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "business",
+            "id-badge",
+            "identification",
+            "identity",
+            "name"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6945302-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "id-badge",
+            "id-card",
+            "identity",
+            "pass",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6733773-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "card",
+            "id",
+            "id-badge",
+            "id-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6719327-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "employee",
+            "id-badge",
+            "identification",
+            "worker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6715768-84.png",
+          "licence": "public-domain"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "badge",
+            "card",
+            "id",
+            "id-badge",
+            "id-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6608192-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "ID badge",
+          "tags": [
+            "id",
+            "id-badge",
+            "id-card",
+            "identification",
+            "identity"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6584780-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

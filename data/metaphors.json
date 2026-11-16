@@ -285,5 +285,8 @@
  ],
  "safe": [
   "private-credit"
+ ],
+ "id-badge": [
+  "employment-activities"
  ]
 }

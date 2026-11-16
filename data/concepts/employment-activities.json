@@ -1,0 +1,17 @@
+{
+  "id": "employment-activities",
+  "name": "Employment Services",
+  "kind": "industry",
+  "parent": "professional-services",
+  "metaphor": "id-badge",
+  "keywords": [
+    "staffing",
+    "recruitment",
+    "temp agencies",
+    "employment services"
+  ],
+  "reduction": "Every size: portrait badge, clip slot, head and shoulders. 16–20: head and shoulders larger relative to the card with tighter (but at least 1px) gaps; 32–48: wider gaps and a smaller head. Solid: slot, head and shoulders are knockouts; a bar of at least one stroke stays under the shoulders.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
