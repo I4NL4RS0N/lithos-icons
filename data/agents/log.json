@@ -915,5 +915,42 @@
   "mapped": 0,
   "why": "Fast-growing non-bank lending that regulators and banks are watching for hidden leverage.",
   "cost": 1.24
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T19:58:27.112Z",
+  "mode": "add",
+  "id": "industrial-metals",
+  "name": "Industrial Metals",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The silhouette is almost symmetric. The horn sticks out only about 1px past the waist at 16/20/24, so the shape reads as a 'T' or 'I' letterform, which comes close to the no-letters rule.; At 16 and 20 the outline is mostly a thin waist channel. The face, waist and foot have the same visual weight, so nothing says 'anvil'. The solid 16/20 is a small T-shaped blob.; There is no clear face/horn/heel structure. The face is a flat slab with a tiny wedge on the left, while a real anvil's horn ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 48px it reads as an anvil. At 16–24px it reads as a capital letter \"T\" or \"I\", or as the cross-section of a steel I-beam or rail. The horn is too short and blunt to show that it is an anvil.",
+   "problems": [
+    "The silhouette is almost symmetric. The horn sticks out only about 1px past the waist at 16/20/24, so the shape reads as a 'T' or 'I' letterform, which comes close to the no-letters rule.",
+    "At 16 and 20 the outline is mostly a thin waist channel. The face, waist and foot have the same visual weight, so nothing says 'anvil'. The solid 16/20 is a small T-shaped blob.",
+    "There is no clear face/horn/heel structure. The face is a flat slab with a tiny wedge on the left, while a real anvil's horn is a long tapering cone that takes up roughly a third of the width.",
+    "At 16–24 the shape is narrow and does not use the full width of the frame, so it looks lighter and smaller than neighbours such as machinery, construction-materials and industrials.",
+    "At 48 the horn tip ends in a sharp point that breaks the set's rounded corner style.",
+    "The 'near' preview shows only this icon, not its parent (metals-mining) or siblings, so a side-by-side check was not possible. In the full sheet it is clearly different from the pickaxe."
+   ],
+   "fixes": [
+    "Make the horn a long tapering cone on the left. It should take up about 35–40% of the total width, so the top reads clearly as horn + face + heel, not a flat bar.",
+    "Make the shape clearly asymmetric. Keep the heel on the right short and square, and make the left overhang much longer than the right.",
+    "Add a wider, splayed foot or base with a small arch or notch cut into the bottom (as on a real anvil), so the bottom doesn't mirror the top like an I-beam.",
+    "Widen the overall footprint at 16/20/24 to fill the 2px-padded frame horizontally. Let the waist stay narrow, but don't let it shrink to a hairline channel at 16.",
+    "Give the horn tip a small round end (r≈0.5–1) at every size to match the set's round joins.",
+    "Redraw the solid so the horn taper reads as a separate shape at 16. Optionally add a thin knockout line between the face and the waist to separate them.",
+    "Regenerate the near preview with metals-mining and the other sibling themes so distinctness can be checked."
+   ]
+  },
+  "cost": 1.78
  }
 ]
