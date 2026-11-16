@@ -839,5 +839,43 @@
   "mapped": 0,
   "why": "Physical and transition climate risks affect insurers, pensions and asset values over years.",
   "cost": 0.68
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T19:52:21.084Z",
+  "mode": "add",
+  "id": "ipo-market",
+  "name": "IPO Market",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Sits small in its box: at 16, 20 and 24px the glyph covers only about 60–65% of the frame's width and height. Neighbours such as medical-devices, motion-pictures and gambling-betting fill the frame edge to edge.; The podium is a trapezoid with a lip, which reads as a tub, bucket or planter. It looks like marine-shipping's hull and consumer-staples' basket, not a lectern or rostrum.; The bell is tiny next to the base at small sizes. At 16px it shrinks to a small triangle bump, so the main ",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "A small bell or service-dome sitting in a tub, basket or boat hull. At 16–24px it looks like a cupcake or a lemon squeezer, not a bell on a podium.",
+   "problems": [
+    "Sits small in its box: at 16, 20 and 24px the glyph covers only about 60–65% of the frame's width and height. Neighbours such as medical-devices, motion-pictures and gambling-betting fill the frame edge to edge.",
+    "The podium is a trapezoid with a lip, which reads as a tub, bucket or planter. It looks like marine-shipping's hull and consumer-staples' basket, not a lectern or rostrum.",
+    "The bell is tiny next to the base at small sizes. At 16px it shrinks to a small triangle bump, so the main metaphor is lost.",
+    "Too close to accommodation-food (a dome with a knob on a base line). Both are rounded domes with a top nub on a horizontal base.",
+    "At 16px the outline's bell interior and the double line of the podium lip almost touch. Counters are only about 1px, so it feels pinched and clogged.",
+    "Solid: the gap between bell and podium is a hairline that nearly closes at 16 and 20px, and the solid version turns into one blob (a cupcake or muffin shape). It has no interior knockout to show a podium front.",
+    "The 48px bell stroke and lip look heavier than the set's standard weight, and the bell's flared rim overhangs awkwardly into the podium lip."
+   ],
+   "fixes": [
+    "Scale the composition up to fill the live area like its neighbours: about 20×20 inside the 24 grid, with the bell about 11–12px tall and the base about 18–20px wide. Redraw each size at full frame.",
+    "Make the bell dominant, taking up the top 60% of the height: a clear bell profile with a flared rim, a top loop or handle, and a visible clapper dot under the rim. That separates it from the accommodation-food cloche.",
+    "Replace the tub-shaped podium with a clear lectern or rostrum: a straight-sided rectangular stand on a wider plinth or step, or a stepped two-tier podium. Avoid the inward-tapering trapezoid with a lip.",
+    "Optionally, hang the bell from a small bracket or frame (two posts and a crossbar) over the podium, so it reads as the exchange opening bell and not a desk/service bell.",
+    "At 16px simplify to bell, clapper and a single-tier block base. Keep at least a 2px gap between the bell rim and the base, and drop the double lip line.",
+    "Solid: put a clear 1.5–2px knockout between the bell and the podium, and a knockout clapper or rim line on the bell, so the two parts stay separate. Match the outline's footprint exactly.",
+    "Check stroke weight at 32 and 48px against the set's standard stroke and match it."
+   ]
+  },
+  "cost": 1.21
  }
 ]
