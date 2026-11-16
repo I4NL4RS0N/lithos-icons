@@ -1127,5 +1127,403 @@
    ]
   },
   "cost": 1.29
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:10.665Z",
+  "mode": "review",
+  "id": "abs",
+  "name": "ABS",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "At 24px and up: a payment card or browser window sitting on two lines, close to the consumer-finance card. At 16px: a laptop, the same as information-technology.",
+   "problems": [
+    "At 16px the card's stripe is dropped, leaving a plain rounded rectangle over one line. In both outline and solid this is almost the same as information-technology (a laptop) in sheet-16.",
+    "At 16px the 'tranches' become a single line, so the stacked-tranche idea is lost.",
+    "At 24px the card is a near-copy of consumer-finance (a card with a stripe), with base lines added. Those base lines are the shared 'securitised' pattern also used by rmbs, cmbs and clo. Nothing in the icon says 'asset-backed' apart from the card, and the card already means consumer-finance.",
+    "The stripe sits at the very top of the card, so it reads as a window title bar or browser tab more than a payment card. The consumer-finance card has a stripe plus a short detail line, but this one has no card detail.",
+    "Solid 16px is a filled blob with a line under it. There is no knockout, so it is the same as solid information-technology and does not read as a card.",
+    "At 16px the icon is noticeably smaller and lower in its box than its neighbours (rmbs, cmbs, clo fill more height). At 20px and 24px the card is also short and wide, with empty space at the top.",
+    "agent-abs-near.png does not show the parent or siblings; it is a copy of the review sheet. Distinctness had to be judged from the full sheets."
+   ],
+   "fixes": [
+    "Keep the card's stripe and add a short detail line (or chip) at every size, including 16px. At 16px use a 1px gap so the stripe survives, and keep it as a knockout in solid.",
+    "Draw at least 2 tranche bars at 16px and 3 at 24px and up. Vary their widths or step them so they read as a tranche stack, not underlines. This separates it from the laptop and from the single-line base of rmbs/cmbs/clo.",
+    "Make it clearly different from consumer-finance. Tilt the card or stack 2–3 cards fanned on top of the tranches so the picture says 'pool of card receivables', not one card.",
+    "Make the card taller (about 3:2 like a real card, not a strip) and use the full height of the frame, so the icon fills its box like its siblings at 16 and 20px.",
+    "In solid, knock out the stripe and the detail line at every size, and separate the tranche bars from the card with a clear gap of at least 1px.",
+    "Re-render agent-abs-near.png with the parent (asset class / securitised) and the siblings rmbs, cmbs, clo and consumer-finance, so distinctness can be checked."
+   ]
+  },
+  "problems": [
+   "At 16px the card's stripe is dropped, leaving a plain rounded rectangle over one line. In both outline and solid this is almost the same as information-technology (a laptop) in sheet-16.",
+   "At 16px the 'tranches' become a single line, so the stacked-tranche idea is lost.",
+   "At 24px the card is a near-copy of consumer-finance (a card with a stripe), with base lines added. Those base lines are the shared 'securitised' pattern also used by rmbs, cmbs and clo. Nothing in the icon says 'asset-backed' apart from the card, and the card already means consumer-finance.",
+   "The stripe sits at the very top of the card, so it reads as a window title bar or browser tab more than a payment card. The consumer-finance card has a stripe plus a short detail line, but this one has no card detail."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:13.292Z",
+  "mode": "review",
+  "id": "cmbs",
+  "name": "CMBS",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "A narrow phone, remote control or door standing on a double underline. At 16px it reads as a door or light switch. At 32–48px it reads as a tall office tower, which looks almost the same as the REITs icon. The tranche stack does not come across as tranches.",
+   "problems": [
+    "Sits far too small in its box at 16, 20 and 24. The building is about 6×10px of a 16px frame and about 8×12px at 24, roughly half the width of neighbours like rmbs, abs and clo. In the 24 sheet it is visibly the thinnest, emptiest cell in its row.",
+    "At 32 and 48 the building grows much taller than at 16–24 (about 3:2 height to width), so its proportions jump between sizes. The 16 and 24 versions do not look like the same drawing as the 48.",
+    "Near-duplicate of the REITs icon: both are a tall rounded rectangle with a 2×3 grid of window dashes. At 48 the cmbs building is basically REITs on a plinth. It is also close to corporate-finance (a building with window ticks).",
+    "The 'tranches' are just two thin underlines, the same base rule that rmbs, abs and clo use for their ground line. They do not read as stacked tranches, and they don't tell CMBS apart from rmbs (house on lines) or abs (card on lines) except by the object on top.",
+    "At 16px the object is a tiny rectangle with one dash, so it reads as a door handle or phone. 'Office building' is lost and the icon is unrecognisable.",
+    "At 16 and 20 the solid version is a small black blob with a single knockout dash. The windows are gone, so nothing tells you it's a building, and its footprint looks smaller than the outline because the stroke weight shrinks the blob.",
+    "The near-preview image shows only this icon, not its parent or siblings, so no side-by-side check was possible. Judging from the sheet, the cousins rmbs, abs and clo all use a different, fuller footprint."
+   ],
+   "fixes": [
+    "Make the office wider so it fills the same live area as rmbs and abs, about 16–18px wide on the 24 grid and about 11–12px at 16. A low-rise or two-block office is wider than a phone-shaped tower.",
+    "Give the building a silhouette that is clearly different from REITs: for example a stepped or setback top, or a building with a flat roof parapet and a ground-floor entrance. Avoid the plain rounded rectangle with a 2×3 dash grid that REITs already uses.",
+    "Make the tranches clear: 3 stacked horizontal slabs of different lengths (stepped widths, like a waterfall or capital stack) under the building. Use the same tranche treatment as rmbs, abs and clo so the family stays consistent, but make it read as layers, not a ground line.",
+    "Keep the same proportions at every size. At 16 and 20, simplify to the silhouette plus 2 window marks and 2 tranche bars, but keep the footprint as wide as at 24.",
+    "Solid: make the building a filled shape with at least 2 window knockouts at 16 and 20, and fill the tranches as solid bars with clear gaps between them. Make sure the solid footprint matches the outline's outer edge.",
+    "Re-render the near preview with parent (asset-class/securitised) and siblings rmbs, abs and clo so distinctness can be checked properly."
+   ]
+  },
+  "problems": [
+   "Sits far too small in its box at 16, 20 and 24. The building is about 6×10px of a 16px frame and about 8×12px at 24, roughly half the width of neighbours like rmbs, abs and clo. In the 24 sheet it is visibly the thinnest, emptiest cell in its row.",
+   "At 32 and 48 the building grows much taller than at 16–24 (about 3:2 height to width), so its proportions jump between sizes. The 16 and 24 versions do not look like the same drawing as the 48.",
+   "Near-duplicate of the REITs icon: both are a tall rounded rectangle with a 2×3 grid of window dashes. At 48 the cmbs building is basically REITs on a plinth. It is also close to corporate-finance (a building with window ticks).",
+   "The 'tranches' are just two thin underlines, the same base rule that rmbs, abs and clo use for their ground line. They do not read as stacked tranches, and they don't tell CMBS apart from rmbs (house on lines) or abs (card on lines) except by the object on top."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:14.004Z",
+  "mode": "review",
+  "id": "clo",
+  "name": "CLO",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A generic text document / file sitting on a shelf or underline. At 16px it reads as a blank file with an underscore. Nothing about it says 'loan', and the base reads as 'stack' only at 24px and up.",
+   "problems": [
+    "The loan metaphor is a generic dog-eared document with text lines. It reads as 'file/document', not 'leveraged loan', and doesn't reuse the set's own 'loans' metaphor (a rounded tile with a % sign).",
+    "At 16px the text lines disappear and the two tranche bars merge into one underline. What's left is a blank file icon above a line, so the tranche idea and the CLO meaning are both lost.",
+    "At 16px the solid version is just a black page shape on a line, with no knockout, and it's indistinguishable from a generic solid file glyph.",
+    "Narrow footprint: the page is only about 10–11px wide in the 24 grid, so the icon sits small and tall in its box. Its securitisation siblings fill more of the width (abs card, rmbs house, cmbs building), and the bars are wider than the page, which makes the shape top-light and unbalanced.",
+    "The tranche bars are only two thin lines at 24px. Sibling 'abs' uses the same two-line base, so the family is consistent, but nothing marks CLO as different except a 'document', and that's weak against abs (a card on bars) at small sizes.",
+    "Too close to a plain 'document/report' icon. Risk of collision with any future filing/report/prospectus concept."
+   ],
+   "fixes": [
+    "Swap the generic page for the set's 'loans' metaphor (the rounded tile with % from data/metaphors.json) or a clearly loan-specific mark, so the parent-to-child link with 'loans' is visible. Don't use letters.",
+    "Widen the top element to roughly 14–16px in the 24 grid so it matches the width of the base bars and the visual mass of abs/rmbs/cmbs.",
+    "Show the tranches as 3 stacked bars of slightly different widths, or as distinct stacked slabs, so the 'tranches' idea survives. At 16px keep at least 2 separated bars with a ≥1px gap, not one merged line.",
+    "Redraw 16px from scratch: simplify the top element to one bold silhouette with a single interior knockout (e.g. the % or one bar), and keep two base bars at whole-pixel positions.",
+    "Solid: make sure each size keeps an internal knockout (the % or a line) so the solid isn't a bare silhouette, especially at 16 and 20px.",
+    "Check it against abs/rmbs/cmbs at 16px side by side, so the top shapes differ clearly in silhouette, not just in interior detail."
+   ]
+  },
+  "problems": [
+   "The loan metaphor is a generic dog-eared document with text lines. It reads as 'file/document', not 'leveraged loan', and doesn't reuse the set's own 'loans' metaphor (a rounded tile with a % sign).",
+   "At 16px the text lines disappear and the two tranche bars merge into one underline. What's left is a blank file icon above a line, so the tranche idea and the CLO meaning are both lost.",
+   "At 16px the solid version is just a black page shape on a line, with no knockout, and it's indistinguishable from a generic solid file glyph.",
+   "Narrow footprint: the page is only about 10–11px wide in the 24 grid, so the icon sits small and tall in its box. Its securitisation siblings fill more of the width (abs card, rmbs house, cmbs building), and the bars are wider than the page, which makes the shape top-light and unbalanced."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:14.648Z",
+  "mode": "review",
+  "id": "rmbs",
+  "name": "RMBS",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "A house standing on a ground line or doormat: \"home\" or \"real estate\". At 24px and up the two lines could be read as layers, but nothing in the picture suggests tranches or a securitisation.",
+   "problems": [
+    "At 16px the house has no door and the two tranche lines become one line. The result is a plain house outline on a baseline, almost identical to the 'real-estate' icon (house with no base) in sheet-16. Outline and solid both look like real-estate with an underline.",
+    "The tranches read as ground or floor lines, not as stacked layers of a pool. They are thin lines under a house, which is the usual 'home' baseline, so the asset-backed meaning is lost.",
+    "Footprint: the house body is clearly narrower and shorter than its neighbours. At 16 and 20px it fills about 55–60% of the box width, and the empty space on both sides makes it sit small next to real-estate, wholesale-trade and cmbs. At 16px the whole icon sits in the upper middle of the box with visible slack.",
+    "The tranche lines are wider than the house at every size. The bottom-heavy wide plinth makes the house look even smaller.",
+    "Distinctness depends on one extra baseline. Remove the lines and it is the real-estate glyph (same roof pitch, same door style at 24+), so the parent and the child cannot be told apart at a glance in a list.",
+    "Solid 16px: the door knockout is gone, leaving a filled pentagon on a line, the same as the solid real-estate shape on a line."
+   ],
+   "fixes": [
+    "Draw the house wider and taller so the walls run to about 2px from the frame edges at 16 and 20px, matching real-estate's footprint. Make the tranche lines no wider than the house walls, or only slightly wider.",
+    "Make the tranches clearly stacked layers: keep 2 separate bars at every size, including 16px (e.g. two 1.5px strokes with a 1.5px gap at 16; three bars at 32/48 is allowed). Optionally give them graduated lengths (shortest at the bottom, or the reverse) so they read as a tranche stack and not a floor line.",
+    "Keep the house's door, or another internal mark, at 16px as a 2×3px opening in outline and a clear knockout in solid. This separates rmbs from real-estate at the smallest size.",
+    "Consider stopping the house walls on the top tranche, with the walls resting directly on the first bar, so the house is visibly sitting on the tranche stack and the bars aren't read as a separate ground mark.",
+    "Re-check against cmbs, abs and clo. The family pattern (object on bars) is fine, but each object must fill the frame the same way. Today cmbs's building is taller than rmbs's house."
+   ]
+  },
+  "problems": [
+   "At 16px the house has no door and the two tranche lines become one line. The result is a plain house outline on a baseline, almost identical to the 'real-estate' icon (house with no base) in sheet-16. Outline and solid both look like real-estate with an underline.",
+   "The tranches read as ground or floor lines, not as stacked layers of a pool. They are thin lines under a house, which is the usual 'home' baseline, so the asset-backed meaning is lost.",
+   "Footprint: the house body is clearly narrower and shorter than its neighbours. At 16 and 20px it fills about 55–60% of the box width, and the empty space on both sides makes it sit small next to real-estate, wholesale-trade and cmbs. At 16px the whole icon sits in the upper middle of the box with visible slack.",
+   "The tranche lines are wider than the house at every size. The bottom-heavy wide plinth makes the house look even smaller."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:33.003Z",
+  "mode": "review",
+  "id": "municipal-bonds",
+  "name": "Municipal Bonds",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a domed civic building/capitol with columns, but no hint of a bond. At 16/20: a box with a small cap, like a cloche, bell or the 'government' icon, not a building at all.",
+   "problems": [
+    "The 16px and 20px versions drop the columns completely. What's left is a short box with a nub on top. It reads as a serving cloche (like accommodation-food) or a toaster, not a civic dome.",
+    "It sits small in the frame. At 16 it takes up about half the box width and well under half the height. At 20 and 24 it is clearly smaller than neighbours like banks, government and corporate-finance, which use the full 24px live area.",
+    "The dome is tiny next to the body: a small hump on a wide box. At 16 to 24 the dome is only a few pixels and gets lost, so the core metaphor isn't visible.",
+    "Solid 16 and 20 are featureless blobs with no knockouts. The dome merges into the body, and there are no columns or door to read.",
+    "Solid 48 has a ragged lower edge where the column knockouts break through the base into the plinth gap. The bottom looks scalloped and broken.",
+    "The column density changes a lot between sizes (0 / 0 / 4 / 6 / 5), so the sizes don't look like one icon.",
+    "It is close to its siblings. 'government' is already a dome on a box on a plinth (with a flag), and 'banks' is a columned building on a plinth. At 16px, municipal-bonds and government look nearly the same in the sheet.",
+    "There is nothing that says 'bond' or 'municipal' rather than 'government building'."
+   ],
+   "fixes": [
+    "Scale the drawing to fill the live area at every size. At 24 the plinth should span about x=3–21 and the dome top should reach about y=2–3. At 16 and 20, match the bounding box of banks and government.",
+    "Make the dome a real hemisphere, about 40–50% of the body width, on a short drum, so it stays readable at 16px. Make the finial a simple short stroke.",
+    "Keep 2–3 columns at 16 and 20 (for example 2 at 16 and 3 at 20, on whole pixels with 2px gaps) so the building still reads at small sizes. Use 4 at 24 and 32 and 5 at 48 so all sizes match.",
+    "Solid: knock out the columns as clean vertical slots that stop above the base band, and leave a gap between the body and the plinth line. Fix the scalloped bottom at 48. At 16 and 20, keep at least a gap between the dome and the body plus 2 column slots, so it isn't a blob.",
+    "Set it apart from 'government' and 'banks'. Either add a bond cue from data/metaphors.json (for example a certificate or document behind the building, or a coupon corner), or make the dome much larger than the body. Check side by side at 16px that it can't be mistaken for government.",
+    "Re-render previews and compare at 16px against government, banks and accommodation-food before resubmitting."
+   ]
+  },
+  "problems": [
+   "The 16px and 20px versions drop the columns completely. What's left is a short box with a nub on top. It reads as a serving cloche (like accommodation-food) or a toaster, not a civic dome.",
+   "It sits small in the frame. At 16 it takes up about half the box width and well under half the height. At 20 and 24 it is clearly smaller than neighbours like banks, government and corporate-finance, which use the full 24px live area.",
+   "The dome is tiny next to the body: a small hump on a wide box. At 16 to 24 the dome is only a few pixels and gets lost, so the core metaphor isn't visible.",
+   "Solid 16 and 20 are featureless blobs with no knockouts. The dome merges into the body, and there are no columns or door to read."
+  ],
+  "cost": 0.08
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:37.799Z",
+  "mode": "review",
+  "id": "credit-derivatives",
+  "name": "Credit Derivatives",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 4,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "Generic UI 'swap / exchange / transfer' arrows (⇄), with nothing about credit; a finance user would read it as 'FX swap', 'transfer' or 'convert'",
+   "problems": [
+    "Both arrows are the stock left-right swap glyph found in almost every UI icon library (Lucide/Feather arrow-left-right style). It looks copied, adds nothing of the set's own, and has no credit cue, so it does not say 'credit derivatives' over FX swap, interest-rate swap or payments transfer.",
+    "Sits small in its box. The two arrows fill only about 40% of the frame height at every size, much less than neighbours like agriculture, construction, loans and wholesale-trade, which fill it close to fully. The whole icon is a short, wide strip in the middle.",
+    "The solid version is nearly the same as the outline. Only the arrowheads become filled triangles and the shafts stay as strokes, so it has no solid mass or knockout and doesn't follow the set's solid style, where shapes become filled forms with knocked-out detail.",
+    "In solid at 16px the filled arrowheads are tiny and the icon looks even smaller and lighter than the outline.",
+    "Level of detail is far below the set. Neighbours have a container or object plus detail, and this icon is just two lines.",
+    "The near-preview image shows only this icon, with no parent or siblings, so I couldn't check it against the parent asset-class or sibling derivatives icons. A plain swap glyph is likely to clash with any future FX / rates-swap icon."
+   ],
+   "fixes": [
+    "Add a credit subject and keep the exchange as the modifier: for example, a reused credit metaphor from data/metaphors.json (a document/bond sheet or the shield used for credit protection), with a smaller swap-arrow pair on top or below it. Credit default swap = protection exchanged, so shield + two opposing arrows would read well.",
+    "Alternatively, draw two tokens or cards (one carrying a credit/risk mark such as the shield or a broken-line/default zigzag) joined by curved opposing arrows that fill the full 24px live area (about 2–22 vertically), instead of two flat horizontal lines.",
+    "Make the composition fill the frame height like its neighbours: aim for an optical bounding box of about 20×20 at 24px, and redraw the 16 and 20px versions separately to the same fill.",
+    "Rebuild the solid version as filled masses (a filled shield or document with the arrows knocked out in negative space), not stroked shafts with filled heads, and keep the outline's footprint.",
+    "Avoid the generic library arrow geometry. Use the set's own arrowhead construction and round joins so the icon doesn't read as a copied UI glyph.",
+    "Regenerate the near preview with the parent and siblings so distinctness can be checked."
+   ]
+  },
+  "problems": [
+   "Both arrows are the stock left-right swap glyph found in almost every UI icon library (Lucide/Feather arrow-left-right style). It looks copied, adds nothing of the set's own, and has no credit cue, so it does not say 'credit derivatives' over FX swap, interest-rate swap or payments transfer.",
+   "Sits small in its box. The two arrows fill only about 40% of the frame height at every size, much less than neighbours like agriculture, construction, loans and wholesale-trade, which fill it close to fully. The whole icon is a short, wide strip in the middle.",
+   "The solid version is nearly the same as the outline. Only the arrowheads become filled triangles and the shafts stay as strokes, so it has no solid mass or knockout and doesn't follow the set's solid style, where shapes become filled forms with knocked-out detail.",
+   "In solid at 16px the filled arrowheads are tiny and the icon looks even smaller and lighter than the outline."
+  ],
+  "cost": 0.08
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:38.313Z",
+  "mode": "review",
+  "id": "loans",
+  "name": "Loans & Debt",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 1,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "At 24–48px: a percent sign in a rounded tile (discount tag, calculator key or 'percent' button), not a document. At 16px: a slash in a box, like a 'disabled' or 'not set' toggle.",
+   "problems": [
+    "The intended picture is document-percent, but there is no document. It is a plain rounded rectangle with no folded corner, header or text lines, so it reads as a discount badge or calculator key, not a loan agreement.",
+    "At 16px the two percent dots are gone in both styles. What is left is a diagonal slash in a box, which reads as 'not allowed', 'blocked' or 'disabled', and says nothing about loans.",
+    "At 20px and at 24px solid the dots shrink to 1–2px specks that almost merge with the slash, so the percent sign looks smudged.",
+    "The icon sits small in its box. The tall, narrow tile covers only about 60% of the frame width at every size, and at 16 and 20 it looks clearly smaller and lighter than neighbours like credit-derivatives, corporate-finance and hospitals. The 16px solid is a tiny blob.",
+    "It doesn't match its document-family siblings. clo and abs use a page with a folded corner or a card with lines, and this tile uses neither, so the set's document metaphor breaks.",
+    "A bare '%' glyph comes close to a typographic character, and it is the whole content of the icon. It is a generic 'percent/discount' symbol, not a picture of debt.",
+    "It is too close to the hospitals icon (a tall rounded rectangle with a centred symbol) and to the generic 'discount/percent badge' icons in common UI libraries.",
+    "The near preview shows only the icon itself, with no parent or siblings, so the parent comparison couldn't be checked."
+   ],
+   "fixes": [
+    "Redraw it as a real document. Reuse the page with the folded top-right corner from clo (data/metaphors.json document metaphor), at the same width and height as clo, so it fills the frame like its neighbours.",
+    "Put a small percent mark in the lower half of the page and add one or two short text lines above it, so it reads as a 'loan agreement with an interest rate', not a percent key.",
+    "Draw 16px on its own grid. Keep the page outline and fold, and draw the percent mark as two solid dots of at least 2×2px with a 1.5px slash, with at least 1px clear space between the dots and the slash. Leave out the text lines at 16, so the dots never drop.",
+    "At 20px keep the dots at least 2px across, and keep them clear of both the slash and the page edge.",
+    "For solid, fill the page and knock out the fold crease and the percent mark. Make the knockout dots at least 2px at 16/20, and keep the same outer footprint as the outline.",
+    "Widen the footprint to match other document icons at roughly 16–18 of 24px width, and check against credit-derivatives and corporate-finance at 16 and 20 that the visual weight matches.",
+    "Optionally, add a small stacked-coin or arrow element instead of text lines to separate it from a generic 'tax/percent document'. Check it against the student-loans and consumer-finance metaphors first so it doesn't duplicate them."
+   ]
+  },
+  "problems": [
+   "The intended picture is document-percent, but there is no document. It is a plain rounded rectangle with no folded corner, header or text lines, so it reads as a discount badge or calculator key, not a loan agreement.",
+   "At 16px the two percent dots are gone in both styles. What is left is a diagonal slash in a box, which reads as 'not allowed', 'blocked' or 'disabled', and says nothing about loans.",
+   "At 20px and at 24px solid the dots shrink to 1–2px specks that almost merge with the slash, so the percent sign looks smudged.",
+   "The icon sits small in its box. The tall, narrow tile covers only about 60% of the frame width at every size, and at 16 and 20 it looks clearly smaller and lighter than neighbours like credit-derivatives, corporate-finance and hospitals. The 16px solid is a tiny blob."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:38.315Z",
+  "mode": "review",
+  "id": "corporate-finance",
+  "name": "Corporate Finance",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32–48px: two office buildings, a tall one and a short one, which is a generic 'company / organisation' building. At 16px: two plain rectangles that look like a small bar chart or a step block. It does not suggest corporate finance in particular and could just as well mean commercial real estate, office REITs or an employer.",
+   "problems": [
+    "The icon sits small in its frame. It is about two-thirds the width of its neighbours (municipal-bonds, rmbs, wholesale-trade, banks) at every size. At 16px the outline uses only the middle part of the box, so it looks visibly smaller than the rest of row 2 on sheet-16.",
+    "16px outline: the windows are removed, leaving two empty rectangles. That reads as a bar chart or a pair of boxes, not buildings.",
+    "16px solid: the two towers merge into one L-shaped or stepped blob with no knockouts at all. It looks like a staircase or a boot shape, not office towers.",
+    "20/24px solid: the short tower is joined to the tall tower with no gap or seam, so the 'two towers' idea becomes one stepped mass. The window knockouts are tiny 1px dashes that barely show.",
+    "The 24px outline windows are short dashes stacked very close together. At 20px they almost clog, and the short tower carries only one or two marks, so the detail is uneven between the towers.",
+    "The picture is generic 'organisation/building' and is not specific to corporate finance. Recognition depends entirely on the label.",
+    "The near-siblings preview shows only this icon (it is identical to the review sheet), so parent/sibling distinctness could not be checked directly. On the full sheet it does not duplicate anything, but it is close in idea to the real-estate and industrials building metaphors."
+   ],
+   "fixes": [
+    "Widen the composition to fill the live area like its neighbours. Use about 18–20px of width at 24px (for example, a tall tower about 9px wide plus a shorter tower about 7px wide), and make the ground line span the full frame width.",
+    "Draw the solid version with a clear 1.5–2px vertical knockout gap between the two towers so they stay two separate buildings at every size, especially 16 and 20.",
+    "At 16px, keep at least one row of window knockouts or windows in each tower. Use 2px square windows instead of dashes, or one vertical window slot per tower, so the shapes read as buildings rather than bars.",
+    "Replace the stacked horizontal dashes with a simpler grid of 2–3 square windows per tower at 24px, and carry a reduced but consistent version down to 20px. Make sure both towers get comparable detail.",
+    "Consider a modest finance cue that uses no text or symbols, such as a small rising-arrow or chart-line overlay at the top right, or a briefcase base. That would separate it from generic 'company' and real-estate building icons. Check data/metaphors.json for an existing corporate or issuer metaphor first.",
+    "Regenerate the near-siblings preview so it actually shows the parent and sibling icons, then recheck distinctness against real-estate, industrials and municipal-bonds."
+   ]
+  },
+  "problems": [
+   "The icon sits small in its frame. It is about two-thirds the width of its neighbours (municipal-bonds, rmbs, wholesale-trade, banks) at every size. At 16px the outline uses only the middle part of the box, so it looks visibly smaller than the rest of row 2 on sheet-16.",
+   "16px outline: the windows are removed, leaving two empty rectangles. That reads as a bar chart or a pair of boxes, not buildings.",
+   "16px solid: the two towers merge into one L-shaped or stepped blob with no knockouts at all. It looks like a staircase or a boot shape, not office towers.",
+   "20/24px solid: the short tower is joined to the tall tower with no gap or seam, so the 'two towers' idea becomes one stepped mass. The window knockouts are tiny 1px dashes that barely show."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:58:57.011Z",
+  "mode": "review",
+  "id": "agriculture",
+  "name": "Agriculture",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A seedling (sprout) with two leaves on a stem over a ground line, a common way to show agriculture or growth",
+   "problems": [
+    "The near-comparison preview (agent-agriculture-near.png) is the same image as the review sheet. It shows no parent or siblings, so I checked distinctness against the full 16px and 24px sheets instead.",
+    "At 16px the outline's left leaf is very small, and its counter is only about 1–2px. It is still open, but it is the weakest part of the icon.",
+    "The 16px and 20px versions drop the ground line that 24px and up have. This is a valid size-specific simplification, but the small sizes look a little less anchored than at 24px and up.",
+    "The leaves are uneven (the right leaf is much bigger), so at 16px the solid version reads a little top-right heavy.",
+    "A sprout can also mean 'growth' or ESG/sustainability. It is clear enough for an Agriculture sector icon, but a finance user may not name the concept without the label."
+   ],
+   "fixes": [
+    "Optional: at 16px, make the left leaf about 0.5–1px bigger so its outline counter stays clearly open and the shape is better balanced.",
+    "Optional: at 20px, consider adding a short ground line (if there is room) to match 24px and up.",
+    "Fix the near-preview generator so it actually shows the parent and siblings, then re-check against crops, forestry and paper-forest-products."
+   ]
+  },
+  "problems": [],
+  "cost": 0.08
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:59:02.615Z",
+  "mode": "review",
+  "id": "construction",
+  "name": "Construction",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Tower crane (mast, jib with tie line, hanging load). At 24px and up it clearly reads as a construction crane. At 16px it looks more like a bare 'T' or a signpost.",
+   "problems": [
+    "Solid style hardly differs from outline. Only the mast gets thicker and the small load box fills in. The jib, tie line, counterweight and base stay as thin strokes, so the solid has very little mass next to neighbours like wholesale-trade, corporate-finance and municipal-bonds.",
+    "At 16px the hanging load and counterweight are gone and only a short hook line remains. Outline and solid 16px are nearly identical, and the icon loses the cue that makes it a crane rather than a 'T' or post.",
+    "The 16px and 20px versions have small visual mass. They are a thin, open, linear glyph with large empty areas, so they look lighter and smaller than neighbouring icons in sheet-16.",
+    "The detail level is inconsistent across sizes. The counterweight appears at 32 and 48 but not at 16 to 24, and the load box shrinks to a tiny square at 20 and 24 that nearly closes up.",
+    "The composition is top-heavy and asymmetric. Everything sits in the upper half and the lower half is just a mast and a short base line, so the frame is under-filled compared with the set.",
+    "The near-preview showed only this icon, not its parent or siblings, so I checked distinctness against the full sheets only. It is distinct from energy-equipment (derrick), renewable-energy and the construction-materials bricks."
+   ],
+   "fixes": [
+    "Make the solid a real solid: draw the mast as a filled lattice/tower block with 1–2 knocked-out diagonal or rung slots, add a filled counterweight block on the short arm, and use a filled load block. Keep the same outer silhouette as the outline.",
+    "Keep a hanging load at every size. At 16px draw a hook line ending in a 3×3px load block (filled in solid, open 2px square or a filled block in outline), and add a 2px counterweight block on the back arm, even if the tie line has to go.",
+    "Give the mast more visual weight. In outline draw it as a two-rail tower (two parallel verticals with one or two cross-ties) instead of a single stroke, so the icon fills the frame like its neighbours.",
+    "Widen the base to a wider footing (e.g. a short trapezoid or a base slab spanning ~10px at 24) and run the jib nearly the full live area width, so the crane fills the frame width and the lower half isn't empty.",
+    "Enlarge the load to at least 4×4 at 20px and 5×5 at 24px with a clear interior counter in outline, and keep its counter open at 20px.",
+    "Use the same set of elements (mast, jib, tie, counterweight, hook+load, base) at every size, simplifying stroke detail rather than dropping elements."
+   ]
+  },
+  "problems": [
+   "Solid style hardly differs from outline. Only the mast gets thicker and the small load box fills in. The jib, tie line, counterweight and base stay as thin strokes, so the solid has very little mass next to neighbours like wholesale-trade, corporate-finance and municipal-bonds.",
+   "At 16px the hanging load and counterweight are gone and only a short hook line remains. Outline and solid 16px are nearly identical, and the icon loses the cue that makes it a crane rather than a 'T' or post.",
+   "The 16px and 20px versions have small visual mass. They are a thin, open, linear glyph with large empty areas, so they look lighter and smaller than neighbouring icons in sheet-16.",
+   "The detail level is inconsistent across sizes. The counterweight appears at 32 and 48 but not at 16 to 24, and the load box shrinks to a tiny square at 20 and 24 that nearly closes up."
+  ],
+  "cost": 0.09
  }
 ]
