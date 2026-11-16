@@ -1,0 +1,806 @@
+{
+  "concept": "climate-risk",
+  "query": "thermometer",
+  "fetched": "2026-11-16T19:40:28.563Z",
+  "topTerms": [
+    [
+      "thermometer",
+      49
+    ],
+    [
+      "temperature",
+      40
+    ],
+    [
+      "fever",
+      16
+    ],
+    [
+      "medical",
+      15
+    ],
+    [
+      "health",
+      14
+    ],
+    [
+      "weather",
+      13
+    ],
+    [
+      "heat",
+      10
+    ],
+    [
+      "measurement",
+      8
+    ],
+    [
+      "cold",
+      7
+    ],
+    [
+      "sun",
+      5
+    ],
+    [
+      "medicine",
+      4
+    ],
+    [
+      "winter",
+      4
+    ],
+    [
+      "air-thermometer",
+      3
+    ],
+    [
+      "mercury-thermometer",
+      3
+    ],
+    [
+      "temperature-thermometer",
+      3
+    ],
+    [
+      "check",
+      3
+    ],
+    [
+      "measure",
+      3
+    ],
+    [
+      "laboratory",
+      3
+    ],
+    [
+      "freezing",
+      2
+    ],
+    [
+      "snow-flake",
+      2
+    ],
+    [
+      "sick",
+      2
+    ],
+    [
+      "climate",
+      2
+    ],
+    [
+      "fahrenheit",
+      2
+    ],
+    [
+      "celcius",
+      2
+    ],
+    [
+      "hospital",
+      2
+    ],
+    [
+      "hot",
+      2
+    ],
+    [
+      "pharmacy",
+      2
+    ],
+    [
+      "treatment",
+      2
+    ],
+    [
+      "monitor",
+      2
+    ],
+    [
+      "science",
+      2
+    ],
+    [
+      "spring",
+      2
+    ],
+    [
+      "diagnostic",
+      2
+    ],
+    [
+      "forecast",
+      1
+    ],
+    [
+      "weather-report",
+      1
+    ],
+    [
+      "celsius",
+      1
+    ],
+    [
+      "warmth",
+      1
+    ],
+    [
+      "weather-thermometer",
+      1
+    ],
+    [
+      "farenheit",
+      1
+    ],
+    [
+      "illness",
+      1
+    ],
+    [
+      "meterology",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold",
+            "freezing",
+            "snow-flake",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509818-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold",
+            "freezing",
+            "snow-flake",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491871-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "medical",
+            "sick",
+            "temperature",
+            "thermometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454806-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "climate",
+            "forecast",
+            "temperature",
+            "thermometer",
+            "weather",
+            "weather-report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6611133-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "celsius",
+            "fahrenheit",
+            "temperature",
+            "thermometer",
+            "warmth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5994693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "air-thermometer",
+            "mercury-thermometer",
+            "temperature-thermometer",
+            "thermometer",
+            "weather-thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2656041-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "celcius",
+            "farenheit",
+            "illness",
+            "medicine",
+            "meterology",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/390705-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "emergency",
+            "healthy",
+            "hospital",
+            "medicine",
+            "thermometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8519460-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "heat",
+            "hot",
+            "measurement",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518272-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "health",
+            "medical",
+            "medicine",
+            "pharmacy",
+            "thermometer",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514582-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "health",
+            "medical",
+            "medicine",
+            "pharmacy",
+            "thermometer",
+            "treatment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514566-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "heat",
+            "sun",
+            "temperature",
+            "thermometer",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513190-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "device",
+            "fever",
+            "heat",
+            "medical",
+            "monitor",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511718-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fahrenheit",
+            "haw-weather",
+            "hobbies-and-free-time",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508075-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "heat",
+            "sun",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507783-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "check",
+            "measure",
+            "monitor",
+            "read",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8501509-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "air-thermometer",
+            "fever",
+            "mercury-thermometer",
+            "temperature",
+            "temperature-thermometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500260-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "check",
+            "fever",
+            "health",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498129-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "check",
+            "fever",
+            "health",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498078-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "snowflake",
+            "temperature",
+            "thermometer",
+            "thermometer",
+            "winter"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497702-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "heat",
+            "hot-weather",
+            "summer",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495854-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "laboratory",
+            "measurement",
+            "science",
+            "temperature",
+            "thermometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494142-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bread thermometer",
+          "tags": [
+            "bread-thermometer",
+            "bread-thermometer",
+            "dough-thermometer",
+            "food-thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493692-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "climate",
+            "heat",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491689-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold-weather",
+            "gauge",
+            "temperature",
+            "thermometer",
+            "weather-forecast",
+            "winter"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "health",
+            "measurement",
+            "medical",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487022-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "air-thermometer",
+            "fever",
+            "mercury-thermometer",
+            "temperature",
+            "temperature-thermometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486460-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "spring",
+            "sun",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486289-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "diagnostic",
+            "fever",
+            "health",
+            "medical",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485221-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "diagnostic",
+            "fever",
+            "health",
+            "medical",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485219-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "celcius",
+            "health",
+            "medical",
+            "scale",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "health",
+            "nurse",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482802-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "health",
+            "measurement",
+            "medical",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482559-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "laboratory",
+            "measurement",
+            "science",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481944-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold",
+            "temperature",
+            "thermometer",
+            "thermometer",
+            "weather",
+            "winter"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481500-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold",
+            "temperature",
+            "thermometer",
+            "weather",
+            "winter"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481341-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "clinic",
+            "health",
+            "hospital",
+            "medical",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475320-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "heat",
+            "measure",
+            "temp",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8469971-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "health",
+            "medication",
+            "temperature",
+            "themometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8469346-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "hot",
+            "sun",
+            "thermometer",
+            "thermometer",
+            "warm",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8468856-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "spring",
+            "sun",
+            "temperature",
+            "thermometer",
+            "weather"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464534-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "body-temperature",
+            "fever",
+            "medical-device",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464200-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "health",
+            "measurement",
+            "medical",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461558-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "health",
+            "measurement",
+            "medical",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8461535-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "medical",
+            "sick",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459680-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold",
+            "degree",
+            "heat",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456424-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold",
+            "heat",
+            "measurement",
+            "temperature",
+            "thermometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456423-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "cold",
+            "heat",
+            "laboratory",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456422-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "indicator",
+            "medical",
+            "meteorology",
+            "temperature",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454110-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Thermometer",
+          "tags": [
+            "fever",
+            "measure",
+            "medical",
+            "temperature",
+            "thermometer",
+            "thermometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453935-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

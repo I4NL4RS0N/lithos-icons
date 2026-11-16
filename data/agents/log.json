@@ -802,5 +802,42 @@
    ]
   },
   "cost": 1.06
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T19:46:31.649Z",
+  "mode": "add",
+  "id": "climate-risk",
+  "name": "Climate Risk",
+  "kind": "theme",
+  "picture": "thermometer-arrow",
+  "moves": "Moves insurer losses, property and infrastructure valuations and pension fund allocations as climate events rise.",
+  "source": "https://www.ft.com/content/fcce6df7-7040-4c83-84ea-30f8fbac1239",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A thermometer with an upward arrow beside it: rising temperature, global warming, so climate risk. Even without the label, the picture itself is clear.",
+   "problems": [
+    "The 'near' preview (agent-climate-risk-near.png) is a copy of the size sheet. It shows no parent or siblings, so I could only check distinctness against the full sheets. Nothing else in the set uses a thermometer, and the closest shapes (gas-utilities flame, utilities drop) are clearly different.",
+    "At 16px outline the arrowhead is very small and sits close to the top of the thermometer tube. The two shapes are still separate, but the gap is about 1px.",
+    "At 16px solid the knockout slot in the tube is short and thin, only just visible. The bulb and tube still read as a thermometer.",
+    "The glyph is tall and narrow, about two-thirds of the frame width. It fills the frame vertically like its neighbours, but it looks lighter than square icons such as the dice or briefcase.",
+    "The arrow's shaft is a single stroke and is shorter than the thermometer, so the right half of the icon carries less weight than the left. This is acceptable but slightly unbalanced."
+   ],
+   "fixes": [
+    "Optional polish: at 16px, give the arrowhead about 0.5px more clearance from the thermometer top, or make the arrow a little shorter so its tip lines up below the tube cap.",
+    "Optional polish: at 16px solid, make the tube knockout slot about 0.25px wider or a little longer so it shows up more clearly.",
+    "Optional polish: move the thermometer and arrow about 0.5–1px further apart at 24/32/48 so the icon uses more of the frame width."
+   ]
+  },
+  "mapped": 0,
+  "why": "Physical and transition climate risks affect insurers, pensions and asset values over years.",
+  "cost": 0.68
  }
 ]
