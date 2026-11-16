@@ -100,6 +100,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "private-credit",
+    "name": "Private Credit",
+    "kind": "theme",
+    "metaphor": "safe",
+    "keywords": [
+      "private credit",
+      "direct lending",
+      "shadow banking",
+      "risk transfer",
+      "non-bank lenders"
+    ],
+    "reduction": "Front of a strongbox safe on two feet: a combination dial (ring with a centre hub) left of centre and a vertical lever handle to its right, at every size and in both styles. 16 and 20: body, feet, dial ring + hub, handle. 24+: adds three short tick marks (top, left, bottom) around the dial. Solid: body filled with the dial ring, handle and (24+) ticks knocked out; feet stay plain strokes, so outline and solid share one footprint.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "rental-leasing",
     "name": "Rental & Leasing",
     "kind": "industry",

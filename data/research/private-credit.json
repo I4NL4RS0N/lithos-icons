@@ -1,0 +1,800 @@
+{
+  "concept": "private-credit",
+  "query": "vault",
+  "fetched": "2026-11-16T19:40:28.149Z",
+  "topTerms": [
+    [
+      "vault",
+      50
+    ],
+    [
+      "safe",
+      31
+    ],
+    [
+      "security",
+      27
+    ],
+    [
+      "bank",
+      26
+    ],
+    [
+      "assets",
+      14
+    ],
+    [
+      "finance",
+      14
+    ],
+    [
+      "storage",
+      13
+    ],
+    [
+      "banking",
+      11
+    ],
+    [
+      "deposit",
+      6
+    ],
+    [
+      "protection",
+      5
+    ],
+    [
+      "money",
+      5
+    ],
+    [
+      "safety",
+      5
+    ],
+    [
+      "business",
+      4
+    ],
+    [
+      "wealth",
+      3
+    ],
+    [
+      "gold",
+      3
+    ],
+    [
+      "locker",
+      3
+    ],
+    [
+      "protect",
+      3
+    ],
+    [
+      "box",
+      3
+    ],
+    [
+      "saving",
+      2
+    ],
+    [
+      "archive",
+      2
+    ],
+    [
+      "strongroom",
+      2
+    ],
+    [
+      "savings",
+      2
+    ],
+    [
+      "safebox",
+      2
+    ],
+    [
+      "lock",
+      2
+    ],
+    [
+      "metal",
+      2
+    ],
+    [
+      "safe-box",
+      1
+    ],
+    [
+      "security-box",
+      1
+    ],
+    [
+      "architecture",
+      1
+    ],
+    [
+      "hall",
+      1
+    ],
+    [
+      "passage",
+      1
+    ],
+    [
+      "shelter",
+      1
+    ],
+    [
+      "tunnel",
+      1
+    ],
+    [
+      "enclose",
+      1
+    ],
+    [
+      "imbed",
+      1
+    ],
+    [
+      "locked",
+      1
+    ],
+    [
+      "ceiling",
+      1
+    ],
+    [
+      "chamber",
+      1
+    ],
+    [
+      "curve",
+      1
+    ],
+    [
+      "roof",
+      1
+    ],
+    [
+      "structure",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "banking",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8311018-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "protection",
+            "safe",
+            "security",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506779-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "finance",
+            "safe",
+            "saving",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "finance",
+            "safe",
+            "saving",
+            "vault",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495460-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "archive",
+            "deposit",
+            "protection",
+            "strongroom",
+            "vault",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471968-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "gold",
+            "safe",
+            "security",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471967-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "deposit",
+            "safe",
+            "savings",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "deposit",
+            "safe",
+            "savings",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470126-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "finance",
+            "locker",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8447145-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8411326-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8410075-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "gold",
+            "safe",
+            "security",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8410062-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "banking",
+            "business",
+            "safebox",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "banking",
+            "business",
+            "safebox",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8409708-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "archive",
+            "deposit",
+            "protection",
+            "strongroom",
+            "vault",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8394682-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "gold",
+            "safe",
+            "security",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8394675-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "lock",
+            "protect",
+            "safe",
+            "storage",
+            "vault",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389622-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "deposit",
+            "safe",
+            "security",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364285-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "deposit",
+            "safe",
+            "security",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8358552-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "lock",
+            "protect",
+            "safe",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8346828-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "finance",
+            "locker",
+            "security",
+            "vault",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8322623-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "finance",
+            "locker",
+            "security",
+            "vault",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8322597-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "money",
+            "safe",
+            "security",
+            "vault",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8301317-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "money",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8301313-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "safe-box",
+            "security-box",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8299093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8287909-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8287908-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8287907-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8287906-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8287905-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8287904-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "finance",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281266-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "banking",
+            "finance",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8281245-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "architecture",
+            "hall",
+            "passage",
+            "shelter",
+            "tunnel",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8273449-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "enclose",
+            "imbed",
+            "safe",
+            "vault",
+            "vault",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8243693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "protection",
+            "safe",
+            "security",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8230645-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "box",
+            "locked",
+            "metal",
+            "safety",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8204358-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "box",
+            "finance",
+            "safe",
+            "safety",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194965-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "box",
+            "finance",
+            "safe",
+            "safety",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8194937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "ceiling",
+            "chamber",
+            "curve",
+            "roof",
+            "structure",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8192604-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "finance",
+            "safe",
+            "security",
+            "ui",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8163401-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "safe",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8137960-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "assets",
+            "bank",
+            "safe",
+            "vault",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8123242-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "finance",
+            "money",
+            "safety",
+            "security",
+            "vault",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8089968-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "business",
+            "financial",
+            "payment",
+            "technology",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8075960-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "analyst",
+            "business",
+            "finance",
+            "transaction",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8075709-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "finance",
+            "secure",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8071137-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "finance",
+            "money",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8006770-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "bank",
+            "money",
+            "protect",
+            "safe",
+            "security",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7993666-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "vault",
+          "tags": [
+            "metal",
+            "protection",
+            "safety",
+            "storage",
+            "vault"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7979707-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

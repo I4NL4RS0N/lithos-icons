@@ -877,5 +877,43 @@
    ]
   },
   "cost": 1.21
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T19:56:05.932Z",
+  "mode": "add",
+  "id": "private-credit",
+  "name": "Private Credit",
+  "kind": "theme",
+  "picture": "safe",
+  "moves": "Moves bank, asset manager and leveraged loan valuations and credit spreads as defaults and risk transfers build.",
+  "source": "https://www.ft.com/content/3b6cccb1-cac2-4e64-a2c2-3b3801f9a5fb",
+  "result": "added",
+  "attempts": 2,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A safe or strongbox: a box on two feet with a combination dial and a handle bar. Clearly a safe or vault, but the concept 'private credit' can't be read from the picture alone, which is normal for theme metaphors.",
+   "problems": [
+    "previews/agent-private-credit-near.png is identical to the main preview and does not show the parent or siblings. I checked distinctness against the full sheets instead. No other safe or vault is in the set; pension-funds (piggy bank) and funds (money bag) are clearly different.",
+    "At 16px, outline and solid, the dial ring plus vertical handle bar can read loosely as the letters 'OI' or a power glyph. The box outline and feet are what save it.",
+    "At 16px outline, the dial's centre dot sits very close to its ring, leaving about 1px of counter. It's still readable but on the edge of clogging.",
+    "At 24px solid, the four dial tick marks are knocked out as tiny specks that look like stipple noise. 20px has no ticks and 32px has proper ticks, so 24 is the odd one out.",
+    "The metaphor (safe = secured or protected assets) only loosely implies private credit, and it is likely to clash later with custody, vault or safe-deposit concepts. Worth recording in data/metaphors.json now so it isn't reused ambiguously."
+   ],
+   "fixes": [
+    "At 24px solid, either drop the dial ticks (as the 20px does) or lengthen them to at least 1.5–2px so they read as deliberate knockouts.",
+    "At 16px, consider removing the centre dot from the dial, or slightly enlarging the ring, so the counter stays open.",
+    "Optionally widen the gap between dial and handle bar, or shorten the bar, at 16/20 to weaken the 'OI' letter reading.",
+    "Regenerate the near preview so it actually shows the parent and siblings for the record."
+   ]
+  },
+  "mapped": 0,
+  "why": "Fast-growing non-bank lending that regulators and banks are watching for hidden leverage.",
+  "cost": 1.24
  }
 ]
