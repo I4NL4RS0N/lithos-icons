@@ -1021,5 +1021,41 @@
   "mapped": 6,
   "why": "ISIC/NACE 87 borrows the heart cross.",
   "cost": 0.53
+ },
+ {
+  "date": "2026-11-16",
+  "at": "2026-11-16T20:07:30.790Z",
+  "mode": "add",
+  "id": "civil-engineering",
+  "name": "Civil Engineering",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: 16px and 20px outline: the vertical hangers, the deck and the second rail under the deck are packed into a few pixels between the towers. They clog into a dark tangle, and the main cable sag merges with the hangers, so the span reads as a W or crown shape, not a cable over a deck.; Too many horizontal lines at small sizes. The deck, the line under the deck and the ground/base line sit about 1–2px apart at 16px and blur into one heavy bar.; Solid: the whole area between the main cable and ",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "fail",
+   "reads_as": "A suspension bridge with two towers, a sagging main cable and a deck. At 24px and up it reads clearly as a bridge, so civil engineering or infrastructure. At 16px it reads more like a crown, an 'M' shape or a gate.",
+   "problems": [
+    "16px and 20px outline: the vertical hangers, the deck and the second rail under the deck are packed into a few pixels between the towers. They clog into a dark tangle, and the main cable sag merges with the hangers, so the span reads as a W or crown shape, not a cable over a deck.",
+    "Too many horizontal lines at small sizes. The deck, the line under the deck and the ground/base line sit about 1–2px apart at 16px and blur into one heavy bar.",
+    "Solid: the whole area between the main cable and the deck is filled into one mass. The suspension picture (thin cable, open span) is lost. At 32/48 it looks like a heavy U-notched block or vase, not a light bridge, and the hangers are gone entirely.",
+    "Solid 16/20: the only knockout is a thin deck stripe that nearly closes up. The silhouette is a dark lump with two posts.",
+    "The splayed outer backstays make the towers look like A-frames or tent poles. That adds diagonals that crowd the edges at small sizes.",
+    "The detail level at 32/48 (5+ hangers, double deck) is busier than its neighbours (construction, banks, rail), which use 3–5 strokes in total."
+   ],
+   "fixes": [
+    "Simplify the master: two vertical towers, one main cable sagging between the tower tops, short backstays to the deck ends, one deck line, and at most 2 hangers at 24px (none at 16px). Drop the separate ground or base line below the deck, or merge it with the deck.",
+    "At 16px draw only the towers, the cable curve and the deck, with at least 2px clear between the cable's lowest point and the deck so the sag reads as a curve.",
+    "At 20px allow at most 1–2 hangers, keep them well clear of the towers, and make sure the cable low point stays clearly above the deck.",
+    "Solid: don't fill between the cable and the deck. Make the towers and deck solid (thicker deck slab, filled tower blocks) and keep the cable a stroke, so the open span stays a negative space and the footprint matches the outline.",
+    "Make the towers straight verticals that run through the deck, and keep the backstays as shallow diagonals that end at the deck ends, not the frame edges, so the outer corners stay open.",
+    "Recheck 16/20 solid and outline in light and dark previews after the cleanup. The span under the cable must be visibly open at 16px."
+   ]
+  },
+  "cost": 1.89
  }
 ]
