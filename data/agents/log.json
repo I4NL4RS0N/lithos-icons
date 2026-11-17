@@ -1600,5 +1600,40 @@
   "mapped": 0,
   "why": "Gold is an ongoing hedge against inflation, Fed policy and geopolitical stress.",
   "cost": 1.19
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T18:53:28.077Z",
+  "mode": "add",
+  "id": "chip-export-controls",
+  "name": "Chip Export Controls",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: At 16, 20 and 24 the chip loses its inner die and most of its pins. What is left is a small square with stubs on only the left and top sides, which looks like a gear or puzzle piece rather than a semiconductor. Compare the 'semiconductors' icon in the same sheet, which reads clearly.; The chip has pins only on the top and left edges. The right and bottom pins are dropped, so it looks partial or broken rather than like the set's chip metaphor (pins on all four sides).; Footprint is poor. T",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a small chip with a padlock in the corner. At 16–24: a gear, cog or puzzle piece beside a tiny lock. The chip is not clear at these sizes.",
+   "problems": [
+    "At 16, 20 and 24 the chip loses its inner die and most of its pins. What is left is a small square with stubs on only the left and top sides, which looks like a gear or puzzle piece rather than a semiconductor. Compare the 'semiconductors' icon in the same sheet, which reads clearly.",
+    "The chip has pins only on the top and left edges. The right and bottom pins are dropped, so it looks partial or broken rather than like the set's chip metaphor (pins on all four sides).",
+    "Footprint is poor. The composition is a diagonal pair, chip at top-left and lock at bottom-right, which leaves the top-right and bottom-left quadrants empty. In sheet-24 it sits visibly smaller and lighter than neighbours such as climate-risk, private-credit and semiconductors, and at 16px both parts are tiny.",
+    "At 16 and 20 the lock body is so small that the shackle and keyhole merge. In the solid version the lock turns into a blob and the chip turns into a cogwheel-like blot with a pinhole knockout.",
+    "The solid chip at 16 to 24 has no readable knockout for the die. It reads as a dark gear, not a chip.",
+    "Level of detail changes between sizes: 32 and 48 have an inner die, while 16 to 24 drop it. The step from 24 to 32 is jarring."
+   ],
+   "fixes": [
+    "Reuse the existing 'semiconductors' chip metaphor (body plus pins on all four sides) and make it the dominant shape, about 18 to 20px of the 24px frame. Overlay a smaller padlock at the bottom-right, knocked out of the chip with a 1.5 to 2px gap, in the badge style other compound icons use.",
+    "Or centre the padlock and replace its body with the chip, with pins coming off the lock body's sides. That gives one compact silhouette that fills the frame.",
+    "At 16 and 20, cut each side down to 2 pins but keep pins on all four sides, keep a hollow body with no inner die, and make the lock badge at least 7px wide with a clear shackle opening. Drop the keyhole at 16.",
+    "In the solid version, knock out the die (or a clear square) in the chip at every size, and keep a clean gap between the chip and the lock so the two shapes don't merge.",
+    "Make the bounding box match neighbours: the composition should reach all four edges of the live area at every size, as climate-risk and private-credit do."
+   ]
+  },
+  "cost": 1.88
  }
 ]
