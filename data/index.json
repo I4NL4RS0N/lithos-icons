@@ -184,6 +184,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "safe-haven-gold",
+    "name": "Gold & Safe Havens",
+    "kind": "theme",
+    "metaphor": "bullion-stack",
+    "keywords": [
+      "gold price",
+      "safe haven",
+      "bullion",
+      "flight to safety",
+      "central bank gold buying"
+    ],
+    "reduction": "Three bullion bars stacked as a pyramid (two below, one on top), each a tapered trapezoid, filling the full live area at every size. 16: plain bars with a gentler taper and no top-face line, so the counters stay open. 20, 24, 32, 48: each bar has its top-face edge (one horizontal line near the top). Solid: three filled bars kept apart by clear gaps; at 20 and up the top-face edge is a thin knockout band cut across each bar (1px at 20/24, wider at 32/48); 16 solid is plain bars.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "scientific-research",
     "name": "Scientific Research & Development",
     "kind": "industry",

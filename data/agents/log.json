@@ -1563,5 +1563,42 @@
   "mapped": 0,
   "why": "Dollar swings reprice global assets and funding costs, and rate expectations keep driving them.",
   "cost": 0.91
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T18:50:55.437Z",
+  "mode": "add",
+  "id": "safe-haven-gold",
+  "name": "Gold & Safe Havens",
+  "kind": "theme",
+  "picture": "bullion-stack",
+  "moves": "Moves gold, miners, real yields and Treasuries gold rises on risk aversion and falls when rate-hike expectations climb.",
+  "source": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists",
+  "result": "added",
+  "attempts": 2,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A pyramid of three gold bars, two below and one on top. People will read it as 'gold' or 'bullion', which is the usual finance shorthand for safe-haven assets.",
+   "problems": [
+    "agent-safe-haven-gold-near.png is a byte-identical copy of the size sheet. It doesn't show the parent or siblings, so the distinct score is based only on the full 24px and 16px sheets and not on a direct comparison with the parent.",
+    "16px outline: the holes inside the two bottom bars are only about 2px tall. They read, but only just, and the top bar is very small.",
+    "16px solid: the line across the top face of each bar (visible at 20px and up) is dropped, so the bars become three plain trapezoids. That's acceptable at this size, but the detail level jumps between 16 and 20.",
+    "20–48px solid: the top face is cut off as a separate thin slab, which can look like a lid sitting on the bar rather than a bevel.",
+    "On sheet-24 the icon looks slightly shorter and lighter than its neighbours in the top row (for example residential-care and private-credit). It still fills the frame acceptably, but it's at the low end."
+   ],
+   "fixes": [
+    "Optional: at 16px outline, make the bars slightly taller (move the base down about 0.5px) so the holes are at least 3px tall.",
+    "Optional: on the 24px master, make the stack about 1px taller so its visual weight matches the neighbouring icons on the sheet.",
+    "Process: regenerate the near preview so it actually shows the parent and siblings before merge, so distinctness against the parent can be confirmed."
+   ]
+  },
+  "mapped": 0,
+  "why": "Gold is an ongoing hedge against inflation, Fed policy and geopolitical stress.",
+  "cost": 1.19
  }
 ]

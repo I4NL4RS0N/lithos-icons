@@ -1,0 +1,814 @@
+{
+  "concept": "safe-haven-gold",
+  "query": "gold bar",
+  "fetched": "2026-11-17T18:39:05.633Z",
+  "topTerms": [
+    [
+      "gold",
+      36
+    ],
+    [
+      "gold-bar",
+      29
+    ],
+    [
+      "gold bar",
+      28
+    ],
+    [
+      "gold-bars",
+      25
+    ],
+    [
+      "wealth",
+      24
+    ],
+    [
+      "gold bars",
+      22
+    ],
+    [
+      "investment",
+      13
+    ],
+    [
+      "bar",
+      12
+    ],
+    [
+      "bullion",
+      12
+    ],
+    [
+      "finance",
+      11
+    ],
+    [
+      "treasure",
+      10
+    ],
+    [
+      "asset",
+      9
+    ],
+    [
+      "gold-ingots",
+      7
+    ],
+    [
+      "ingot",
+      6
+    ],
+    [
+      "metal",
+      6
+    ],
+    [
+      "brick",
+      6
+    ],
+    [
+      "bank",
+      5
+    ],
+    [
+      "business",
+      5
+    ],
+    [
+      "money",
+      5
+    ],
+    [
+      "bars",
+      4
+    ],
+    [
+      "precious-metal",
+      4
+    ],
+    [
+      "mining",
+      3
+    ],
+    [
+      "premium",
+      3
+    ],
+    [
+      "rich",
+      3
+    ],
+    [
+      "invesment",
+      3
+    ],
+    [
+      "reserve",
+      2
+    ],
+    [
+      "assets",
+      2
+    ],
+    [
+      "bricks",
+      2
+    ],
+    [
+      "precious",
+      2
+    ],
+    [
+      "analyst",
+      2
+    ],
+    [
+      "financial",
+      2
+    ],
+    [
+      "glamour",
+      2
+    ],
+    [
+      "jewel",
+      2
+    ],
+    [
+      "arabia",
+      2
+    ],
+    [
+      "saudi",
+      2
+    ],
+    [
+      "economic",
+      2
+    ],
+    [
+      "graph",
+      2
+    ],
+    [
+      "value",
+      2
+    ],
+    [
+      "gold-ingot",
+      1
+    ],
+    [
+      "saudi-arabia",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "gold bars",
+          "tags": [
+            "bar",
+            "bullion",
+            "gold",
+            "gold-bars",
+            "gold-ingots",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493542-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bar",
+            "gold",
+            "gold-bars",
+            "gold-ingots",
+            "ingot",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493500-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bullion",
+            "gold-bars",
+            "gold-ingot",
+            "reserve",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474105-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bars",
+            "gold",
+            "gold-bars",
+            "metal",
+            "mining",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465775-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bars",
+            "gold",
+            "gold-bars",
+            "metal",
+            "mining",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bar",
+            "gold",
+            "gold-bar",
+            "metal",
+            "mining",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bar",
+            "finance",
+            "gold",
+            "gold-bars",
+            "treasure",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8446701-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "assets",
+            "bar",
+            "gold",
+            "gold-bar"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8438508-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "assets",
+            "bar",
+            "gold",
+            "gold-bar",
+            "gold-bar"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8434573-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "gold",
+            "gold-bar",
+            "gold-bars",
+            "gold-ingots",
+            "premium",
+            "treasure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8328252-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "asset",
+            "bullion",
+            "gold-bar",
+            "precious-metal",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8316510-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "asset",
+            "gold",
+            "gold-bar",
+            "investment",
+            "metal",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8314262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "finance",
+            "gold",
+            "gold-bar",
+            "investment",
+            "treasure",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8314142-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "gold",
+            "gold-bars",
+            "investment",
+            "treasure",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8304070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "gold",
+            "gold-bar",
+            "investment",
+            "treasure",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8304066-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "gold",
+            "gold-bar",
+            "gold-bars",
+            "gold-ingots",
+            "premium",
+            "treasure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8302377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "gold",
+            "gold-bar",
+            "gold-bars",
+            "gold-ingots",
+            "premium",
+            "treasure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8272937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "asset",
+            "bar",
+            "gold",
+            "gold-bar",
+            "reserve",
+            "treasure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8271988-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bank",
+            "brick",
+            "business",
+            "gold",
+            "gold-bar",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8248543-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bank",
+            "brick",
+            "bricks",
+            "business",
+            "gold",
+            "gold-bar"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8248509-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "gold",
+            "gold-bar",
+            "money",
+            "precious",
+            "rich",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8227278-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "finance",
+            "gold",
+            "gold-bar",
+            "precious",
+            "rich",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8227254-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bar",
+            "business",
+            "finance",
+            "gold",
+            "gold-bar",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8211886-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bars",
+            "gold",
+            "gold-bars",
+            "money",
+            "treasure",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8188456-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bar",
+            "brick",
+            "bullion",
+            "gold",
+            "gold-bar",
+            "ingot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8187716-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bar",
+            "brick",
+            "bullion",
+            "gold",
+            "gold-bar",
+            "ingot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8187715-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "asset",
+            "bullion",
+            "gold-bar",
+            "precious-metal",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8172521-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "asset",
+            "bullion",
+            "gold-bar",
+            "precious-metal",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8172479-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bank",
+            "finance",
+            "gold-bar",
+            "invesment",
+            "saudi-arabia",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8137165-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bars",
+            "finance",
+            "gold",
+            "gold-bars",
+            "money",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8118864-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "gold",
+            "gold-bar",
+            "gold-bars",
+            "investment",
+            "rich",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8092088-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bricks",
+            "gold",
+            "gold-bars",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8089939-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "accounting",
+            "analyst",
+            "asset",
+            "financial",
+            "gold-bars",
+            "officer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8080769-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "business",
+            "financial",
+            "gold",
+            "gold-bars",
+            "payment",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8076000-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "analyst",
+            "asset",
+            "business",
+            "finance",
+            "gold-bars",
+            "transaction"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8075727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bullion",
+            "finance",
+            "gold-bar",
+            "investment",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8072642-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "glamour",
+            "gold",
+            "gold-bars",
+            "jewel",
+            "metal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8063338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "glamour",
+            "gold",
+            "gold-bars",
+            "jewel",
+            "metal"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8063319-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "arabia",
+            "bank",
+            "gold-bar",
+            "invesment",
+            "saudi",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8044350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "arabia",
+            "bank",
+            "gold-bar",
+            "invesment",
+            "saudi",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8044337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "cash",
+            "currency",
+            "finance",
+            "gold",
+            "gold-bars"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8034240-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bar",
+            "brick",
+            "bullion",
+            "gold",
+            "gold-bar",
+            "ingot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8028002-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "bar",
+            "brick",
+            "bullion",
+            "gold",
+            "gold-bar",
+            "ingot"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8028001-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "economic",
+            "finance",
+            "gold-bar",
+            "graph",
+            "investment",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8015157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bar",
+          "tags": [
+            "economic",
+            "finance",
+            "gold-bar",
+            "graph",
+            "investment",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8015136-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "asset",
+            "gold",
+            "gold-bars",
+            "gold-ingots",
+            "value",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7984790-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "asset",
+            "gold",
+            "gold-bars",
+            "gold-ingots",
+            "value",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7984755-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bullion",
+            "gold",
+            "gold-bars",
+            "ingot",
+            "treasure",
+            "wealth"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7983527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "bullion",
+            "financial-asset",
+            "gold-bars",
+            "precious-metal",
+            "wealth-storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7960487-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gold bars",
+          "tags": [
+            "gold-bars",
+            "gold-bars",
+            "metal-reserve",
+            "precious-asset",
+            "secure-investment",
+            "wealth-symbol"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7960477-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
