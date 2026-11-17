@@ -1886,5 +1886,391 @@
    ]
   },
   "cost": 3.36
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:48:32.833Z",
+  "mode": "review",
+  "id": "professional-services",
+  "name": "Professional Services",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A briefcase (business / professional services)",
+   "problems": [
+    "16px solid has no band knockout, so it is a plain filled shape with a handle and could read as a generic bag or lunchbox",
+    "48px solid band knockout looks thin against the large filled body, so it is less prominent than knockouts in other 48px solids",
+    "A briefcase is a fairly generic 'business/jobs' picture that does not single out professional services, but it is the intended metaphor"
+   ],
+   "fixes": [
+    "At 16px solid, add a short band knockout 1px wide across the body; if that clogs, open a 1px gap between the handle and the body",
+    "At 48px solid, make the band knockout slightly wider to match the knockout weight on other 48px solids"
+   ]
+  },
+  "problems": [],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:48:37.220Z",
+  "mode": "review",
+  "id": "wholesale-trade",
+  "name": "Wholesale Trade",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A warehouse or garage with a roll-up door at 32–48px. At 16–24px it reads as a house with a door, close to real-estate and rmbs.",
+   "problems": [
+    "At 16px outline the roll-up door slats are gone, leaving a plain rectangular door in a gabled house shape. It reads as a generic house or home, not a warehouse.",
+    "At 16px solid the slats are gone too. What's left is a gabled blob with a door notch, almost the same silhouette as real-estate (solid house) and rmbs (house), especially on sheet-16.",
+    "The steep gable roof is the house cue the set already uses for real-estate and rmbs, so it doesn't separate warehouse from house at small sizes.",
+    "The 20/24px solid has only one thin slat knockout, which is weak and nearly lost. The door shows as a notch instead of a clear shutter.",
+    "At 20/24px outline the door is small compared with the building, so the shutter, which is the one cue that says warehouse, is hard to read.",
+    "The overall glyph (gabled shed with a slatted shutter door) is very close to the Material Symbols 'warehouse' icon. That's a common metaphor, but it adds nothing distinctive."
+   ],
+   "fixes": [
+    "Change the silhouette from a house to an industrial building. Use a low-pitched or shallow roof that spans the full width with short vertical walls, or a wide, flat sawtooth/shed profile. It should look clearly wider and lower than the real-estate house.",
+    "Make the roll-up door wider (about 60–70% of the building width) and taller, so the shutter dominates the face at every size.",
+    "Keep at least 2 slat lines at 16px in both styles. At 16px use a door about 8px wide with 2 horizontal strokes on the pixel grid instead of dropping them.",
+    "In solid, knock out the whole door as an opening, then add 2–3 filled slat bars inside it, or knock out 2–3 clear slat gaps at least 1.5px wide. A single hairline slot isn't enough.",
+    "Optionally add one secondary warehouse cue that survives small sizes, such as a stack of boxes/pallet beside the door or a loading-dock step under it. It helps separate this from real-estate, rmbs and the Material warehouse glyph.",
+    "Re-check against real-estate, rmbs and consumer-discretionary on sheet-16 after redrawing, to make sure the silhouettes no longer collide."
+   ]
+  },
+  "problems": [
+   "At 16px outline the roll-up door slats are gone, leaving a plain rectangular door in a gabled house shape. It reads as a generic house or home, not a warehouse.",
+   "At 16px solid the slats are gone too. What's left is a gabled blob with a door notch, almost the same silhouette as real-estate (solid house) and rmbs (house), especially on sheet-16.",
+   "The steep gable roof is the house cue the set already uses for real-estate and rmbs, so it doesn't separate warehouse from house at small sizes.",
+   "The 20/24px solid has only one thin slat knockout, which is weak and nearly lost. The door shows as a notch instead of a clear shutter."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:48:37.751Z",
+  "mode": "review",
+  "id": "administrative-services",
+  "name": "Administrative Services",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A checkbox or a 'battery/charged-OK' glyph more than a clipboard. The clip is a thin flat bar sitting on top of the board, so it looks like a battery terminal. You only get 'clipboard-check' if you already know it.",
+   "problems": [
+    "The clip is too small to work. At every size it is a thin, flat bar about 1/3 of the board width, sitting on top of the board's top edge. It doesn't look like a clip that grips paper, so the shape reads as a battery or a plain checkbox, not a clipboard.",
+    "At 16px and 20px the clip shrinks to a 1–2px stub that barely shows. The icon becomes a rounded square with a tick, which is a generic 'done/approved' checkbox.",
+    "Solid 48px (and faintly 32px): a hairline light seam runs across the clip where the clip meets the board or the clip's inner opening. It looks like a rendering artifact, not a deliberate knockout.",
+    "Solid 16px: the clip merges into the board, so the solid icon is a filled rounded square with a tick. That is the generic 'checked checkbox' glyph and comes close to copying common UI icons.",
+    "The tick sits low and large. The board has no paper or line detail, so the icon carries less detail than neighbours like accounting-services, employment-activities and clo.",
+    "The board is quite narrow, so the footprint is a little thinner than square neighbours like professional-services and education. That is acceptable for a portrait object, but the gap is noticeable at 16px.",
+    "The near/sibling preview is identical to the review sheet, so it shows no parent or siblings. Distinctness was checked only against the full sheets."
+   ],
+   "fixes": [
+    "Redraw the clip as a proper clipboard clip: a rounded tab about 40–45% of the board width and about 3px tall at 24px. Make it overlap the board's top edge, so it straddles the line rather than sitting on top. Optionally add a small rounded notch or hole in the top of the tab. In outline, break the board's top stroke where the clip covers it.",
+    "At 16px and 20px, draw the clip at a minimum of 2px tall and about 6px wide. Keep 1px of clear space between the clip and the board's top-edge break so it reads as a separate part.",
+    "Solid: cut a clean knockout of at least 1px (1.5px at 24px) between the clip and the board, or a deliberate hole in the clip. Remove the hairline seam at 32px and 48px. Check that the footprint matches the outline exactly.",
+    "Make the board slightly wider, to about 15–16px wide at 24px, so it fills the frame like its neighbours. Move the tick up to the optical centre of the board below the clip, and make it slightly smaller so the board reads as paper.",
+    "Optionally, at 32px and 48px only, add one or two short text lines under the tick to show paper and make it clearly different from a checkbox. Leave them out at 16px and 20px.",
+    "Re-render the near preview so it actually shows the parent and siblings, then check it again."
+   ]
+  },
+  "problems": [
+   "The clip is too small to work. At every size it is a thin, flat bar about 1/3 of the board width, sitting on top of the board's top edge. It doesn't look like a clip that grips paper, so the shape reads as a battery or a plain checkbox, not a clipboard.",
+   "At 16px and 20px the clip shrinks to a 1–2px stub that barely shows. The icon becomes a rounded square with a tick, which is a generic 'done/approved' checkbox.",
+   "Solid 48px (and faintly 32px): a hairline light seam runs across the clip where the clip meets the board or the clip's inner opening. It looks like a rendering artifact, not a deliberate knockout.",
+   "Solid 16px: the clip merges into the board, so the solid icon is a filled rounded square with a tick. That is the generic 'checked checkbox' glyph and comes close to copying common UI icons."
+  ],
+  "cost": 0.11
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:48:40.166Z",
+  "mode": "review",
+  "id": "transportation",
+  "name": "Transportation",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Outline: a box truck seen from the side, so a delivery or freight truck. Solid: a block with a wedge and two dots under it. At 16 and 20 it looks more like a toy cart than a truck.",
+   "problems": [
+    "Solid footprint doesn't match the outline. The outline wheels overlap the bottom edge of the body, but the solid wheels hang below the body with a gap. This makes the solid body shorter and the whole glyph look smaller and lower, most clearly at 16, 20 and 24.",
+    "Solid wheels are plain filled discs with no hub knockout and no ground line. They float apart from the body, so the shape breaks into three or four separate pieces at small sizes.",
+    "Solid cab is a bare sloped wedge with no window knockout. At 16px it shrinks to a small triangle and the cab no longer reads.",
+    "Outline cab detail changes from size to size. 16 and 20 have only a curved nose, 24 has a small hook, and 32 and 48 have a diagonal window stroke plus a separate horizontal stub. The open 'hook' window at 48 looks unfinished instead of deliberate.",
+    "At 16px outline the wheels are tiny rings squeezed against the body base. This is close to clogging, and the gap between the wheels and the cab nose is under 1px.",
+    "The generic outline (box, sloped cab, two ring wheels) sits very close to common open-source truck glyphs such as Lucide's truck. It is borderline as a copy, and a distinctive detail would help."
+   ],
+   "fixes": [
+    "Redraw the solid version from the outline silhouette. Keep the wheels overlapping the bottom of the body exactly as in the outline. Cut a background-coloured gap of about 1.5px at 24 around each wheel so the wheels sit inside the body's footprint and don't hang below it.",
+    "Add a hub knockout to each solid wheel at 24, 32 and 48 (a 1–1.5px dot or ring). At 16 and 20 keep the wheels solid, but keep the separating gap from the body.",
+    "Join the cab to the cargo box in the solid version, with only a thin knockout seam between them. Cut a window knockout into the cab at 20px and up so it reads as a cab and not a wedge.",
+    "Use one cab-window treatment at every size: a closed window shape with a straight top and sloped front, drawn as a single stroke path with round joins. Simplify it at 16 but keep the same idea. Drop the separate horizontal stub at 32 and 48.",
+    "At 16px make the wheels larger, about 3px across with a 1px stroke. Use whole-pixel spacing so there is a clear 1px gap between the wheels and between the rear wheel and the cab.",
+    "Make the shape more distinctive, for example with a visible chassis line between the wheels or a slightly taller cargo box with a rear-door seam. That moves it away from the stock truck glyph and fits the finance 'freight and logistics' sector."
+   ]
+  },
+  "problems": [
+   "Solid footprint doesn't match the outline. The outline wheels overlap the bottom edge of the body, but the solid wheels hang below the body with a gap. This makes the solid body shorter and the whole glyph look smaller and lower, most clearly at 16, 20 and 24.",
+   "Solid wheels are plain filled discs with no hub knockout and no ground line. They float apart from the body, so the shape breaks into three or four separate pieces at small sizes.",
+   "Solid cab is a bare sloped wedge with no window knockout. At 16px it shrinks to a small triangle and the cab no longer reads.",
+   "Outline cab detail changes from size to size. 16 and 20 have only a curved nose, 24 has a small hook, and 32 and 48 have a diagonal window stroke plus a separate horizontal stub. The open 'hook' window at 48 looks unfinished instead of deliberate."
+  ],
+  "cost": 0.12
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:48:56.340Z",
+  "mode": "review",
+  "id": "education",
+  "name": "Education",
+  "result": "flag",
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 5,
+   "verdict": "fail",
+   "reads_as": "Graduation cap (mortarboard with a tassel), so Education.",
+   "problems": [
+    "Doesn't fill its frame. The glyph is a wide, flat band about 18×11 in the 24px box, with large empty areas above and below. On both sheets it looks clearly smaller than its row neighbours (professional-services briefcase, administrative-services clipboard, arts-recreation mask, government), which fill about 20×20.",
+    "16px is tiny for the same reason: the outline mortarboard is a thin sliver and the bowl under it is very small. It reads as a cap only because the shape is so familiar, not because the drawing is clear.",
+    "At 16px solid the tassel is a short stub and the bowl is a small arc, so the icon is almost just a black diamond. That loses detail compared with the solid neighbours.",
+    "The tassel is short and ends level with the bowl, so it adds almost no height. That makes the icon look even more horizontal and undersized.",
+    "Small risk: the composition (diamond board, U-shaped bowl, tassel dropping on the right) is very close to the standard Lucide/Material graduation-cap. It's a generic metaphor and not a copy, but it would be worth giving it a little more of the Lithos character."
+   ],
+   "fixes": [
+    "At 24px, widen the board to about x=1.5–22.5 and make the diamond deeper (about 9–10px from top to bottom instead of about 7), so the icon spans about 21×17 and sits optically centred like its neighbours.",
+    "Make the bowl/cap body deeper (drop its bottom by about 2px) so the overall height comes close to the set's typical footprint.",
+    "Lengthen the tassel so it hangs to about y=17–18 and ends in a small round cap. This adds height and helps the silhouette at 16/20.",
+    "Redraw 16px separately: board about 14px wide and 6px deep, bowl at least 3px deep, tassel at least 4px long. Snap to the pixel grid so the outline doesn't turn into a sliver. Keep a clear 1px gap between board and bowl in the solid version.",
+    "Compare 20 and 32 against the briefcase and clipboard on the sheets so the visual weight matches at every size."
+   ]
+  },
+  "problems": [
+   "Doesn't fill its frame. The glyph is a wide, flat band about 18×11 in the 24px box, with large empty areas above and below. On both sheets it looks clearly smaller than its row neighbours (professional-services briefcase, administrative-services clipboard, arts-recreation mask, government), which fill about 20×20.",
+   "16px is tiny for the same reason: the outline mortarboard is a thin sliver and the bowl under it is very small. It reads as a cap only because the shape is so familiar, not because the drawing is clear.",
+   "At 16px solid the tassel is a short stub and the bowl is a small arc, so the icon is almost just a black diamond. That loses detail compared with the solid neighbours.",
+   "The tassel is short and ends level with the bowl, so it adds almost no height. That makes the icon look even more horizontal and undersized."
+  ],
+  "cost": 0.08
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:49:03.775Z",
+  "mode": "review",
+  "id": "accommodation-food",
+  "name": "Accommodation & Food",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A serving cloche (dome with a knob on a platter). It could also pass for a hotel reception bell. Both fit Accommodation & Food.",
+   "problems": [
+    "The icon sits small in its box. On both sheets it fills only the bottom half to two-thirds of the frame. Its neighbours (wrench, education cap, government, reits) reach about 2–22 vertically, but the cloche's dome top is near y≈9–10 at 24px. That leaves a large empty band at the top, so the icon looks visibly smaller than the rest of the row.",
+    "The shape is also narrower than its neighbours. The platter spans only about 4–20 at 24px, while comparable icons use about 2–22.",
+    "At 16px and 20px the knob is a tiny ring that turns into a dot. The gap between the dome and the platter line is about 1px, so in the outline the dome and plate start to read as a single smudge. Because the whole icon is small, these details shrink even further.",
+    "The solid 16px is a small blob on a line, and the knob barely separates from the dome.",
+    "At 16px it is close to municipal-bonds (a dome with a finial over a base line). Both are low domes on a horizontal rule, and the silhouettes are too similar at small sizes.",
+    "The 'near' preview is identical to the review image and shows no parent or siblings, so the parent comparison could not be checked directly from that file."
+   ],
+   "fixes": [
+    "Redraw the 24px master to fill the frame. Platter rule at about y=19–20, spanning x≈2–22. Dome from x≈3.5 to 20.5, rising to y≈7. Knob centred at about y≈4.5. The full height should run from about 3 to 20, matching the wrench and education-cap icons.",
+    "Make the dome taller: a semicircle or a slightly raised ellipse rather than a flat arc. This gives it more height and sets it apart from the municipal-bonds dome.",
+    "Draw 16px and 20px on their own grids. Use a solid knob (r≈1.25 at 16) instead of a ring, sit it on a short stem so it clearly separates from the dome, and leave at least 1.5px of clear space between the dome rim and the platter.",
+    "Consider adding a small detail that reads as a plate, such as a slight rim lip extending past the dome on each side, or a small handle at the platter end. This helps it read as a cloche and not as a generic dome or bell.",
+    "Solid: keep the platter as a separate bar with a clear gap above it. Consider a thin curved highlight knockout on the dome at 32 and 48 only, and keep the 16px solid footprint identical to the outline.",
+    "Re-render the near preview so it shows the parent and siblings, then re-check that the cloche is clearly distinct from municipal-bonds at 16px."
+   ]
+  },
+  "problems": [
+   "The icon sits small in its box. On both sheets it fills only the bottom half to two-thirds of the frame. Its neighbours (wrench, education cap, government, reits) reach about 2–22 vertically, but the cloche's dome top is near y≈9–10 at 24px. That leaves a large empty band at the top, so the icon looks visibly smaller than the rest of the row.",
+   "The shape is also narrower than its neighbours. The platter spans only about 4–20 at 24px, while comparable icons use about 2–22.",
+   "At 16px and 20px the knob is a tiny ring that turns into a dot. The gap between the dome and the platter line is about 1px, so in the outline the dome and plate start to read as a single smudge. Because the whole icon is small, these details shrink even further.",
+   "The solid 16px is a small blob on a line, and the knob barely separates from the dome."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:49:05.082Z",
+  "mode": "review",
+  "id": "other-services",
+  "name": "Other Services",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A single open-ended wrench on a diagonal (repair / maintenance / settings). Clearly a wrench, but nothing about it says 'Other Services' specifically. That fits the chosen metaphor.",
+   "problems": [
+    "Frame fill: the wrench only covers about 70% of the box along its diagonal and leaves big empty corners. At 16 and 20 it looks noticeably smaller than neighbours such as government, reits and professional-services, and smaller than other diagonal icons like metals-mining and student-loans.",
+    "Solid footprint doesn't match the outline: at 16px the solid wrench looks smaller and stubbier than the outline. The handle seems shorter and the head tighter, so the two styles don't line up.",
+    "16px solid: the jaw opening shrinks to a small nick, and the head becomes a blob with a tiny notch. The open-ended wrench is barely legible at that size.",
+    "16px outline: the jaw-head counter is very tight, and the stroke around the head nearly closes the opening, so the head looks cramped next to the thin handle.",
+    "The silhouette is almost identical to the generic open-source wrench glyph (the Lucide/Feather-style wrench with the head top-right, handle bottom-left and the same curved jaw). That's a copied-from-known-icon risk.",
+    "The near-preview image is a duplicate of the review image and doesn't show the parent or siblings. Distinctness against the parent could only be checked from the full sheets, where no near-duplicate turned up."
+   ],
+   "fixes": [
+    "Make the wrench bigger so it runs corner to corner at about 2px padding on the 24 master, for example handle end near (3,21) and the outer edge of the head near (21,3). Redraw 16 and 20 separately with the same edge-to-edge reach, not a scaled-down copy.",
+    "Rebuild the solid from the outline path (outline geometry expanded by half the stroke width) so its outer edge matches the outline exactly at every size. In particular, lengthen the 16px solid handle and widen its head.",
+    "At 16 and 20, use a simpler head with a wider, squarer jaw opening (at least 2px clear gap) and a slightly thicker handle, so the open end stays clearly open in both styles.",
+    "Make the drawing its own so it isn't a near-copy of the Lucide/Feather wrench. Options: a double-ended or box-end + open-end spanner with a straight shank and a ring at the handle end, or a different jaw angle and head shape. If a ring end is used, keep the ring counter open at 16px.",
+    "Regenerate agent-other-services-near.png so it really shows the parent sector and siblings, then confirm distinctness from machinery (gear) and professional-services (briefcase)."
+   ]
+  },
+  "problems": [
+   "Frame fill: the wrench only covers about 70% of the box along its diagonal and leaves big empty corners. At 16 and 20 it looks noticeably smaller than neighbours such as government, reits and professional-services, and smaller than other diagonal icons like metals-mining and student-loans.",
+   "Solid footprint doesn't match the outline: at 16px the solid wrench looks smaller and stubbier than the outline. The handle seems shorter and the head tighter, so the two styles don't line up.",
+   "16px solid: the jaw opening shrinks to a small nick, and the head becomes a blob with a tiny notch. The open-ended wrench is barely legible at that size.",
+   "16px outline: the jaw-head counter is very tight, and the stroke around the head nearly closes the opening, so the head looks cramped next to the thin handle."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:49:09.071Z",
+  "mode": "review",
+  "id": "arts-recreation",
+  "name": "Arts & Recreation",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A smiley face inside a shield or badge, like a satisfaction or sentiment icon. Only on a second look does it read as a single comedy mask.",
+   "problems": [
+    "The theatre-mask idea is weak. The eyes are short flat dashes that look like closed, contented eyes on an emoji, not the open eye holes of a mask. The thin smile looks like a smiley face, not a cut-out mouth. Without the label it reads as 'happy face / customer satisfaction', which is a common finance UI meaning (sentiment, NPS) and would mislead.",
+    "The outline is a flat-topped shield with pointed upper corners and a rounded bottom. That is very close to the shield shape used by covered-bonds (shield with two horizontal bars) and cyber-and-outage-risk. In the solid row of the sheets, arts-recreation and covered-bonds are both a black shield with two short horizontal knockouts near the top, so they look alike at a glance.",
+    "There are no cues that make it a mask: no eye holes, no tie or ribbon, no second tragedy mask, no brow shaping. Only the face features separate it from the shield icons.",
+    "At 16px solid the dash eyes and the smile shrink to tiny slits. They are still visible but weak, which makes the smiley/shield reading even stronger.",
+    "The near-siblings preview shows only this icon, not its parent and siblings, so I checked distinctness against the full sheets instead."
+   ],
+   "fixes": [
+    "Replace the dash eyes with clear mask eye holes: almond or upturned-crescent shapes that are open in the outline and knocked out in the solid, at least 2px tall at 24px. On 16px, draw them as small upturned arcs rather than dots.",
+    "Make the mouth a wide upturned crescent cut-out (a filled knockout in the solid) instead of a single thin smile stroke, so it reads as a carved mask mouth.",
+    "Change the outline away from a shield. Give it a mask brow, either a gently curved top edge or a slight dip at the centre, with cheeks that taper to a narrower chin. Avoid the flat top with sharp corners that matches covered-bonds.",
+    "Add one strong mask cue. The best option is the classic comedy/tragedy pair: a second, frowning mask offset behind and to one side, partly hidden by a gap of about 1.5px. Use the 2-mask version at 24/32/48 and simplify to one mask with a ribbon tie at 16/20 if needed. Another option is a small ribbon or tie loop at one side of the brow.",
+    "Draw the 16px size separately from the master and check it against the sheet-16 covered-bonds icon, so the two solid silhouettes no longer read as the same shape.",
+    "Check data/metaphors.json for an existing theatre/mask metaphor and match it if one exists."
+   ]
+  },
+  "problems": [
+   "The theatre-mask idea is weak. The eyes are short flat dashes that look like closed, contented eyes on an emoji, not the open eye holes of a mask. The thin smile looks like a smiley face, not a cut-out mouth. Without the label it reads as 'happy face / customer satisfaction', which is a common finance UI meaning (sentiment, NPS) and would mislead.",
+   "The outline is a flat-topped shield with pointed upper corners and a rounded bottom. That is very close to the shield shape used by covered-bonds (shield with two horizontal bars) and cyber-and-outage-risk. In the solid row of the sheets, arts-recreation and covered-bonds are both a black shield with two short horizontal knockouts near the top, so they look alike at a glance.",
+   "There are no cues that make it a mask: no eye holes, no tie or ribbon, no second tragedy mask, no brow shaping. Only the face features separate it from the shield icons.",
+   "At 16px solid the dash eyes and the smile shrink to tiny slits. They are still visible but weak, which makes the smiley/shield reading even stronger."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:49:18.167Z",
+  "mode": "review",
+  "id": "government",
+  "name": "Government",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "At 32 and 48px it reads as a capitol building with a flag. At 16, 20 and 24px it reads as a cake with a flag on top or a serving cloche, not a government building.",
+   "problems": [
+    "At 16, 20 and 24px the drawing takes up only about the bottom half of the frame, roughly 10–11px tall in a 24px box. Neighbours like wholesale-trade, administrative-services and reits fill almost the whole height, so this icon looks noticeably smaller than the rest of the set.",
+    "The 16, 20 and 24px versions have no columns. What's left is a small dome on a plain empty box with a flag, which looks like a cake or podium rather than a capitol. The 32 and 48px versions add columns, so the sizes don't look like the same icon.",
+    "The 24px master is less detailed than the 32 and 48px versions, so the smaller sizes were not drawn from a complete master.",
+    "At 16 and 24px the solid version is a filled dome-and-box blob. It is almost the same shape as the solid accommodation-food cloche (dome on a base line), and in the 16px sheet it is nearly identical to solid municipal-bonds (dome on a box).",
+    "At 16px the outline is nearly the same as municipal-bonds (dome on a box with a finial) and the accommodation-food cloche. The flag is the only difference, and it is about 2px wide.",
+    "The bottom edge of the solid 48px version is wavy and scalloped where the column knockouts meet the base, instead of a clean straight line.",
+    "At 32 and 48px the columns in the solid version are short, narrow slots that come close to clogging. They don't read clearly as columns.",
+    "The near-sibling preview shows only this icon, with no parent or siblings, so it can't be used to judge how distinct it is."
+   ],
+   "fixes": [
+    "Redraw the 24px master to fill the frame, roughly x 2–22 and y 2–22. Use a tall flagpole and flag at the top (about y 2–6), a dome, a pediment or entablature line, three columns, and a full-width base step, as the 48px version does.",
+    "Keep the columns at every size. At 16px use 2–3 vertical strokes with at least 1px gaps, and drop the dome's inner detail rather than the columns, so the picture is still a building with columns.",
+    "Make the dome more distinctive than municipal-bonds and the accommodation-food cloche. Give it a drum (a short vertical band under the dome) and make the flag clearly larger, about 4×3px at 24px. Alternatively, put the flag on a separate pole to one side of the building.",
+    "In the solid version, knock out the columns as clean full-height slots between the entablature and the base. Keep the base edge straight with no scalloping, and leave a 1px gap between the base step and the body.",
+    "Match the outline's footprint exactly in the solid version, and recheck it at 16px against solid municipal-bonds, accommodation-food and banks for distinctness.",
+    "Regenerate the near-sibling preview so it shows the parent and sibling icons."
+   ]
+  },
+  "problems": [
+   "At 16, 20 and 24px the drawing takes up only about the bottom half of the frame, roughly 10–11px tall in a 24px box. Neighbours like wholesale-trade, administrative-services and reits fill almost the whole height, so this icon looks noticeably smaller than the rest of the set.",
+   "The 16, 20 and 24px versions have no columns. What's left is a small dome on a plain empty box with a flag, which looks like a cake or podium rather than a capitol. The 32 and 48px versions add columns, so the sizes don't look like the same icon.",
+   "The 24px master is less detailed than the 32 and 48px versions, so the smaller sizes were not drawn from a complete master.",
+   "At 16 and 24px the solid version is a filled dome-and-box blob. It is almost the same shape as the solid accommodation-food cloche (dome on a base line), and in the 16px sheet it is nearly identical to solid municipal-bonds (dome on a box)."
+  ],
+  "cost": 0.08
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:49:25.368Z",
+  "mode": "review",
+  "id": "reits",
+  "name": "REITs",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 1,
+   "consistency": 2,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "A plain rounded rectangle with two columns of dashes. It reads as a calculator, phone, door panel or document more than an apartment block, because it has no roofline, entrance or ground line.",
+   "problems": [
+    "Solid version is broken. The windows are not filled knockouts. They render as hairline outlined brackets like '( )' inside a filled slab, so at 16–24px the solid looks like a black tile with noise. It looks as though the window strokes were kept as outlines and not boolean-subtracted.",
+    "The footprint is too small. The outline is a narrow, tall rectangle about 10×16 units in a 24 frame. It sits visibly smaller than its neighbours (real-estate, government, banks) and has lots of empty space either side. At 16px it looks shrunken.",
+    "It isn't recognisable as a building. There's no ground line, roof, entrance or floor separation, just a box with dashes, so it reads like a calculator or keypad (compare accounting-services) or a document.",
+    "It's nearly a duplicate of cmbs (a tall rounded rect with window dashes over base lines) and close to corporate-finance (tall building with window dashes). In the set it doesn't stand out from its real-estate-family siblings.",
+    "The detail level is inconsistent across sizes. 24px has 3 rows of dashes, 16 and 20 have 2, and 48 has 3 large heavy pills. The windows are almost as thick as the frame stroke, so the outline looks busy and calculator-like.",
+    "It doesn't relate visually to the parent real-estate (house): there's no shared roof or ground motif to show the family link."
+   ],
+   "fixes": [
+    "Redraw the solid as one filled silhouette with true knockout windows: subtract the window rectangles as holes at least 1.5–2px wide at 24px. Don't keep stroked outlines inside the fill. Check that 16px still shows at least 2×2 clear holes.",
+    "Widen the building to fill the frame like its neighbours. Use a wider multi-storey block about 18–20 units wide at 24px, or a pair of blocks (a tall one plus a shorter one) spanning roughly 3–21 horizontally and 2–22 vertically.",
+    "Add clear building cues: a ground line across the full width (matching rmbs/cmbs/government), a door or entrance knockout at the base centre, and a flat roof with a parapet or step. Then it reads as an apartment block, not a calculator or phone.",
+    "Set it apart from cmbs and corporate-finance by using a grid of square windows (e.g. 3 columns × 3–4 rows at 24px, 2×2 plus a door at 16px) instead of horizontal dashes. Optionally add a small house-roof gable or a second lower block so it echoes the parent real-estate house.",
+    "Make the windows small square cut-outs, thinner visually than the frame stroke, with consistent row and column counts per size: 16px 2×2+door, 20px 2×3+door, 24px 3×3+door, 32/48px 3×4+door. Draw each size separately on its own pixel grid."
+   ]
+  },
+  "problems": [
+   "Solid version is broken. The windows are not filled knockouts. They render as hairline outlined brackets like '( )' inside a filled slab, so at 16–24px the solid looks like a black tile with noise. It looks as though the window strokes were kept as outlines and not boolean-subtracted.",
+   "The footprint is too small. The outline is a narrow, tall rectangle about 10×16 units in a 24 frame. It sits visibly smaller than its neighbours (real-estate, government, banks) and has lots of empty space either side. At 16px it looks shrunken.",
+   "It isn't recognisable as a building. There's no ground line, roof, entrance or floor separation, just a box with dashes, so it reads like a calculator or keypad (compare accounting-services) or a document.",
+   "It's nearly a duplicate of cmbs (a tall rounded rect with window dashes over base lines) and close to corporate-finance (tall building with window dashes). In the set it doesn't stand out from its real-estate-family siblings."
+  ],
+  "cost": 0.08
  }
 ]
