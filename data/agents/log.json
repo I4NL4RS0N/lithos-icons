@@ -1850,5 +1850,41 @@
    ]
   },
   "cost": 2.83
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:27:52.215Z",
+  "mode": "add",
+  "id": "wood-products",
+  "name": "Wood Products",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The icon sits far too small in its frame at 16, 20 and 24px. It fills only about the middle third of the box, while the pickaxe, flask, box, tree and bricks beside it fill most of theirs. At 32 and 48px it fills the frame, so the sizes are not consistent either.; At small sizes the blade is about as long as the handle, so the shape loses the long, tapering blade that makes a saw recognisable. With the handle loop and a few teeth, it reads as a key with bits.; Outline 16px: the handle hole",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32 and 48px it reads as a handsaw. At 16, 20 and 24px it's a short, stubby shape with a loop and notches that reads as a key, a key fob or a toothed USB stick, not a saw.",
+   "problems": [
+    "The icon sits far too small in its frame at 16, 20 and 24px. It fills only about the middle third of the box, while the pickaxe, flask, box, tree and bricks beside it fill most of theirs. At 32 and 48px it fills the frame, so the sizes are not consistent either.",
+    "At small sizes the blade is about as long as the handle, so the shape loses the long, tapering blade that makes a saw recognisable. With the handle loop and a few teeth, it reads as a key with bits.",
+    "Outline 16px: the handle hole and the teeth crowd together into a clogged knot of strokes. The handle hole is barely open.",
+    "Solid 16 and 20px: the shape is a dark blob with a pinhole knockout. The teeth merge into a rough edge and nothing reads as a saw.",
+    "The solid footprint at small sizes looks smaller than the outline footprint and smaller than its siblings' solid versions.",
+    "The teeth are drawn as many tiny notches at every size. At 16 and 20px they turn into noise instead of being simplified to a few bold teeth."
+   ],
+   "fixes": [
+    "Draw the saw corner to corner across the whole 24px live area, handle bottom-left and blade tip top-right, about 20px on the diagonal, matching the pickaxe's reach. Repeat this for the 16, 20 and 24px masters so they fill the frame like their neighbours.",
+    "Make the blade at least twice as long as the handle and taper it clearly from a wide heel to a narrow tip. That keeps the saw silhouette and gets rid of the key reading.",
+    "Simplify the teeth per size: about 3–4 large teeth at 16px, 4–5 at 20px and 6–7 at 24px, each at least 1.5–2px deep, along one edge of the blade only.",
+    "Make the handle a D-grip with one clear oval hole at least 2px wide at 16px, so the hole stays open in outline and knocks out cleanly in solid.",
+    "Solid: keep the same footprint as the outline, knock out a clear handle hole, and consider a thin knockout gap between handle and blade so the two parts read as separate at 16 and 20px.",
+    "Check 16 and 20px on the pixel grid after redrawing, and compare the footprint to metals-mining in the near sheet before resubmitting."
+   ]
+  },
+  "cost": 3.36
  }
 ]
