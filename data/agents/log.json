@@ -1777,5 +1777,41 @@
    ]
   },
   "cost": 1.06
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:18:28.990Z",
+  "mode": "add",
+  "id": "amusement-recreation",
+  "name": "Sports & Amusement",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: 16px and 20px are clogged. The 6–8 spokes, the rim and the gondola dots merge into a dark blob or an 'X' in a circle, with no open counter space.; 24px is still crowded. The gondola dots overlap the rim stroke and fill the spaces between spokes.; The solid version is almost the same as the outline. There is no clear filled shape with knockouts, so the two styles can't be told apart at 16–24px.; The icon sits small in its box at 16–24px. Its footprint is noticeably smaller than the dice an",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 1,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Ferris wheel at 32/48px; at 16–24px it reads as a dense knot or asterisk on a stand.",
+   "problems": [
+    "16px and 20px are clogged. The 6–8 spokes, the rim and the gondola dots merge into a dark blob or an 'X' in a circle, with no open counter space.",
+    "24px is still crowded. The gondola dots overlap the rim stroke and fill the spaces between spokes.",
+    "The solid version is almost the same as the outline. There is no clear filled shape with knockouts, so the two styles can't be told apart at 16–24px.",
+    "The icon sits small in its box at 16–24px. Its footprint is noticeably smaller than the dice and mask at the same sizes, while at 48px it fills the frame. Size is inconsistent across sizes.",
+    "The detail level is much higher than its neighbours (simple dice with dots, a mask with a two-line face). Too many elements for the set's style.",
+    "The gondola dots at 48px are heavy filled blobs that break the even stroke weight."
+   ],
+   "fixes": [
+    "Use at most 4 spokes (a simple + or ×) at 16/20px, or no spokes, and make the rim ring the main element.",
+    "Cut the gondolas to 4 (at 12/3/6/9 o'clock) at 24px and below, or draw them as small separate hanging cups outside the rim with a clear gap from it. Drop them entirely at 16px.",
+    "Make the wheel bigger so it fills the live area like the dice and mask: about 18–19px wheel diameter on the 24 grid, with a short A-frame stand and a base line touching the bottom of the live area.",
+    "Solid: fill the wheel disc and knock out the spokes or hub as negative lines, or knock out gondola circles from a filled rim. The solid should then read clearly differently from the outline at the same footprint.",
+    "Keep one stroke weight throughout. Draw gondolas as small stroked circles in the outline style rather than heavy dots.",
+    "Draw each size separately for pixel clarity rather than adding more detail. 16px: rim, 4 spokes, A-frame, base."
+   ]
+  },
+  "cost": 2.8
  }
 ]
