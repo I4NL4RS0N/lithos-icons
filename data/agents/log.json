@@ -1525,5 +1525,43 @@
    "The detail level is inconsistent across sizes. The counterweight appears at 32 and 48 but not at 16 to 24, and the load box shrinks to a tiny square at 20 and 24 that nearly closes up."
   ],
   "cost": 0.09
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T18:47:34.051Z",
+  "mode": "add",
+  "id": "us-dollar-strength",
+  "name": "US Dollar Strength",
+  "kind": "theme",
+  "picture": "note-uptrend",
+  "moves": "Moves FX, emerging-market debt, commodities priced in dollars and US multinational earnings a stronger dollar pressures all of them.",
+  "source": "https://www.ft.com/content/b8215e9c-bed2-49e8-a36f-6d7aca599bba",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A banknote with a rising zig-zag trend arrow above it: \"money / currency gaining value\". Without the label a finance user would say \"currency appreciation\" or \"cash rising\". That is the intended note-uptrend picture, though nothing marks it as the US dollar.",
+   "problems": [
+    "The picture shows currency in general, not the US dollar. That can't be fixed without a currency symbol, which isn't allowed, but it will clash with any future 'currency appreciation', 'revenue growth' or 'cash growth' concept that reuses the note-uptrend metaphor.",
+    "The 'near' preview (agent-us-dollar-strength-near.png) is identical to the main preview and shows no parent or siblings. I could only check distinctness against the full sheet, where nothing is a near-duplicate. The closest icons are consumer-finance, funds and private-credit, and all are clearly different.",
+    "At 16px the arrowhead is tiny and the gap between the trend line and the top edge of the note is only about 1px. It still reads, but it is close to merging.",
+    "At 16px solid the two side dots on the note drop out, leaving only the centre knockout. That is acceptable but slightly less detailed than the outline at the same size.",
+    "The trend line keeps a stroke in the solid version, as the set convention (climate-risk) also does. That is fine, but it makes the top half of the solid icon lighter than the heavy filled note below it."
+   ],
+   "fixes": [
+    "At 16px, move the trend line up by about 0.5px, or shorten the note by 0.5px, so the gap between the line and the note is at least 1.5px.",
+    "At 16px, widen the arrowhead slightly (e.g. 3px arms) so it reads as an arrow rather than a hook.",
+    "Regenerate the 'near' preview so it actually shows the parent and siblings, and check them again before merge.",
+    "Record note-uptrend in data/metaphors.json as reserved for currency-strength themes, so other growth concepts don't reuse it."
+   ]
+  },
+  "mapped": 0,
+  "why": "Dollar swings reprice global assets and funding costs, and rate expectations keep driving them.",
+  "cost": 0.91
  }
 ]

@@ -11,5 +11,6 @@ import c_private_credit from '../agent/private-credit.mjs';
 import c_rental_leasing from '../agent/rental-leasing.mjs';
 import c_residential_care from '../agent/residential-care.mjs';
 import c_scientific_research from '../agent/scientific-research.mjs';
+import c_us_dollar_strength from '../agent/us-dollar-strength.mjs';
 import c_veterinary_activities from '../agent/veterinary-activities.mjs';
-export default [c_climate_risk, c_cyber_and_outage_risk, c_employment_activities, c_energy_equipment_services, c_gambling_betting, c_medical_devices, c_motion_pictures, c_pension_funds, c_private_credit, c_rental_leasing, c_residential_care, c_scientific_research, c_veterinary_activities];
+export default [c_climate_risk, c_cyber_and_outage_risk, c_employment_activities, c_energy_equipment_services, c_gambling_betting, c_medical_devices, c_motion_pictures, c_pension_funds, c_private_credit, c_rental_leasing, c_residential_care, c_scientific_research, c_us_dollar_strength, c_veterinary_activities];

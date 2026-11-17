@@ -1,0 +1,796 @@
+{
+  "concept": "us-dollar-strength",
+  "query": "dollar banknote",
+  "fetched": "2026-11-17T18:39:05.348Z",
+  "topTerms": [
+    [
+      "dollar",
+      40
+    ],
+    [
+      "money",
+      38
+    ],
+    [
+      "banknote",
+      36
+    ],
+    [
+      "cash",
+      31
+    ],
+    [
+      "currency",
+      18
+    ],
+    [
+      "finance",
+      15
+    ],
+    [
+      "dollar banknote",
+      13
+    ],
+    [
+      "dollar-banknote",
+      13
+    ],
+    [
+      "dollar banknotes",
+      7
+    ],
+    [
+      "dollar-banknotes",
+      7
+    ],
+    [
+      "banknotes",
+      7
+    ],
+    [
+      "bill",
+      7
+    ],
+    [
+      "business",
+      5
+    ],
+    [
+      "dollars",
+      5
+    ],
+    [
+      "dollar-sign",
+      3
+    ],
+    [
+      "clock",
+      3
+    ],
+    [
+      "banknote dollar",
+      2
+    ],
+    [
+      "banknote-dollar",
+      2
+    ],
+    [
+      "paper",
+      2
+    ],
+    [
+      "banking",
+      2
+    ],
+    [
+      "linear",
+      2
+    ],
+    [
+      "symbol",
+      2
+    ],
+    [
+      "dollar-note",
+      2
+    ],
+    [
+      "dollar sign",
+      2
+    ],
+    [
+      "financial",
+      1
+    ],
+    [
+      "usd",
+      1
+    ],
+    [
+      "bundle",
+      1
+    ],
+    [
+      "stack",
+      1
+    ],
+    [
+      "payment",
+      1
+    ],
+    [
+      "earnings",
+      1
+    ],
+    [
+      "payment-method",
+      1
+    ],
+    [
+      "savings",
+      1
+    ],
+    [
+      "paper-money",
+      1
+    ],
+    [
+      "moneys",
+      1
+    ],
+    [
+      "bait",
+      1
+    ],
+    [
+      "billing",
+      1
+    ],
+    [
+      "euros",
+      1
+    ],
+    [
+      "banknote dollar copy",
+      1
+    ],
+    [
+      "banknote-dollar-copy",
+      1
+    ],
+    [
+      "smartphone and dollar banknote",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Banknote Dollar",
+          "tags": [
+            "banknote",
+            "banknote-dollar",
+            "cash",
+            "currency",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8118857-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "cash",
+            "currency",
+            "dollar-banknote",
+            "dollar-banknote",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8058980-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknotes",
+          "tags": [
+            "cash",
+            "currency",
+            "dollar",
+            "dollar-banknotes",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7900464-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknotes",
+          "tags": [
+            "banknotes",
+            "currency",
+            "dollar",
+            "dollar-banknotes",
+            "financial",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7320051-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "dollar-banknote",
+            "money",
+            "usd"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5658706-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "currency",
+            "dollar",
+            "dollar-banknote",
+            "money",
+            "paper"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3740265-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Banknote Dollar",
+          "tags": [
+            "banking",
+            "banknote-dollar",
+            "business",
+            "finance",
+            "linear"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3643351-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknotes",
+          "tags": [
+            "banknotes",
+            "cash",
+            "dollar",
+            "dollar-banknotes",
+            "money",
+            "paper"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2512067-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "business",
+            "cash",
+            "dollar",
+            "dollar-banknote",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2378031-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "currency",
+            "dollar",
+            "dollar-banknote",
+            "money",
+            "symbol"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1347650-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "currency",
+            "dollar",
+            "dollar-banknote",
+            "money",
+            "symbol"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1347616-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "business",
+            "cash",
+            "dollar",
+            "dollar-banknote",
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/918811-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknotes",
+          "tags": [
+            "bill",
+            "bundle",
+            "dollar",
+            "dollar-banknotes",
+            "money",
+            "stack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/885927-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknotes",
+          "tags": [
+            "bill",
+            "cash",
+            "currency",
+            "dollar",
+            "dollar-banknotes",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/735470-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "bill",
+            "cash",
+            "currency",
+            "dollar",
+            "dollar-banknote",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/735468-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknotes",
+          "tags": [
+            "bill",
+            "cash",
+            "currency",
+            "dollar",
+            "dollar-banknotes",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/735467-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "bill",
+            "cash",
+            "currency",
+            "dollar",
+            "dollar-banknote",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/735455-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknotes",
+          "tags": [
+            "bill",
+            "cash",
+            "currency",
+            "dollar",
+            "dollar-banknotes",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/735452-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "dollar-banknote",
+            "money",
+            "payment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/538695-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "dollar-banknote",
+            "earnings",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/538691-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar-banknote",
+            "dollars",
+            "money",
+            "payment-method"
+          ],
+          "thumb": "https://static.thenounproject.com/png/538690-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar banknote",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar-banknote",
+            "dollars",
+            "money",
+            "savings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/538689-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash",
+          "tags": [
+            "banknote",
+            "banknotes",
+            "cash",
+            "dollar-sign",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4846070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "currency",
+          "tags": [
+            "banknote",
+            "banknotes",
+            "currency",
+            "dollar",
+            "paper-money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3740191-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknote",
+            "dollar",
+            "dollars",
+            "money",
+            "moneys"
+          ],
+          "thumb": "https://static.thenounproject.com/png/963410-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bait",
+          "tags": [
+            "bait",
+            "banknote",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7408453-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "currency",
+          "tags": [
+            "banknote",
+            "billing",
+            "currency",
+            "dollar"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5857255-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5249719-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknote",
+            "dollars",
+            "euros",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4147213-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "banknote dollar copy",
+          "tags": [
+            "banking",
+            "banknote-dollar-copy",
+            "business",
+            "finance",
+            "linear"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3643356-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3096708-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "smartphone and dollar banknote",
+          "tags": [
+            "banknote",
+            "coin",
+            "engineering",
+            "gear",
+            "smartphone",
+            "smartphone-and-dollar-banknote"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2406127-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash",
+          "tags": [
+            "banknotes",
+            "cash",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2028771-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknotes",
+            "cash",
+            "dollars",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1935462-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1091352-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknote",
+            "banknotes",
+            "business-and-finance",
+            "currency",
+            "dollar-note",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497419-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar sign",
+          "tags": [
+            "banknote",
+            "dollar",
+            "dollar-sign",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8406887-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar sign",
+          "tags": [
+            "banknote",
+            "dollar",
+            "dollar-sign",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8393309-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "clock",
+          "tags": [
+            "banknote",
+            "cash",
+            "clock",
+            "dollar",
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8076007-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash",
+          "tags": [
+            "banknote",
+            "bill",
+            "cash",
+            "dollar",
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8019925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "benefit",
+          "tags": [
+            "banknote",
+            "benefit",
+            "business",
+            "dollar",
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7922300-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "money roll",
+          "tags": [
+            "banknote",
+            "cash",
+            "currency",
+            "dollar",
+            "money-roll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7507527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash",
+          "tags": [
+            "banknote",
+            "cash",
+            "currency",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7502078-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "cash",
+          "tags": [
+            "banknote",
+            "cash",
+            "currency",
+            "dollar",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7501890-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7464035-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknote",
+            "cash",
+            "dollar",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7464020-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "clock",
+          "tags": [
+            "banknote",
+            "cash",
+            "clock",
+            "dollar",
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7351729-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "clock",
+          "tags": [
+            "banknote",
+            "cash",
+            "clock",
+            "dollar",
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7263512-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dollar notes",
+          "tags": [
+            "banknote",
+            "dollar",
+            "dollar-bill",
+            "dollar-note",
+            "dollar-notes",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7184279-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Money",
+          "tags": [
+            "banknote",
+            "coins",
+            "dollar",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7148656-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

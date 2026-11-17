@@ -202,6 +202,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "us-dollar-strength",
+    "name": "US Dollar Strength",
+    "kind": "theme",
+    "metaphor": "note-uptrend",
+    "keywords": [
+      "dollar rally",
+      "strong dollar",
+      "DXY",
+      "greenback",
+      "dollar index"
+    ],
+    "reduction": "A wide landscape banknote across the bottom (rounded bill with a round centre medallion) under a rising zig-zag trend arrow that runs from the left edge to the top-right corner. No currency symbol. 16: bill, medallion and a two-step trend line. 20+: two small dots either side of the medallion. Solid: bill filled with the medallion and dots knocked out; the trend arrow stays a plain stroke.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "veterinary-activities",
     "name": "Veterinary",
     "kind": "industry",
