@@ -1669,5 +1669,42 @@
   "mapped": 2,
   "why": "ISIC and NACE division 69 borrows the legal scales or briefcase accounting needs its own picture.",
   "cost": 0.83
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T18:59:19.506Z",
+  "mode": "add",
+  "id": "energy-security",
+  "name": "Energy Security",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The drop is removed at 16 and 20px, so the only energy cue disappears. The small sizes show a plain speedometer, which reads as performance, KPIs or speed rather than fuel or energy security.; There is no fuel-gauge cue (an empty-to-full arc or an end-stop) other than the drop. Even at 24px it reads more as a speedometer than as a fuel gauge.; The solid footprint doesn't match the outline. The outline is a 3/4 arc whose legs reach down, while the solid is a flat-bottomed half-dome that is",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A speedometer or dashboard gauge. At 32 and 48px the drop makes it a fuel or oil gauge. At 16 and 20px it is a plain speedometer, which reads as 'performance' or 'speed', not energy.",
+   "problems": [
+    "The drop is removed at 16 and 20px, so the only energy cue disappears. The small sizes show a plain speedometer, which reads as performance, KPIs or speed rather than fuel or energy security.",
+    "There is no fuel-gauge cue (an empty-to-full arc or an end-stop) other than the drop. Even at 24px it reads more as a speedometer than as a fuel gauge.",
+    "The solid footprint doesn't match the outline. The outline is a 3/4 arc whose legs reach down, while the solid is a flat-bottomed half-dome that is clearly shorter and squatter, especially at 16, 20 and 24px.",
+    "Solid 16px: the needle knockout is a short, broken slash in a small blob, and the shape is illegible as a gauge.",
+    "Solid 24px: the needle knockout, the hub and the drop knockout run together into one cluttered hole in the middle, with no clear separation.",
+    "Outline 16px: the tick marks and needle crowd the upper-left quadrant. The icon looks small and lightweight next to neighbours like climate-risk and the energy barrel.",
+    "The 'near' preview is identical to the main preview and shows no parent or siblings, so I couldn't check it against its parent directly. In the full sheet it is distinct from 'energy' (the barrel) and from 'utilities'."
+   ],
+   "fixes": [
+    "Keep the energy cue at every size. At 16 and 20px, replace the needle hub with a simple solid drop (about 3–4px) under the pivot, or swap the hub for the drop, rather than removing it.",
+    "Make it read as a fuel gauge, not a speedometer. Use a short upper arc (about 120–140°) with heavier end-stop ticks at both ends and a needle pointing near the low end. Drop the extra middle ticks so it doesn't look like a speedometer.",
+    "Redraw the solid to the same silhouette as the outline: the same arc extent and leg ends, filled as a disc segment. Don't cut it to a flat half-dome; it should match the outline's height and width at every size.",
+    "In the solid, keep at least 1.5px (at 24px) of fill between the needle knockout and the drop knockout. Shorten the needle so it stops before the drop, and make the drop knockout one clean shape.",
+    "At 16px, simplify to an arc, two end ticks, a needle and a drop. Remove intermediate ticks so the shapes stay open, and grow the arc so it reaches the 1px margin like its neighbours.",
+    "Re-render the near preview with the parent and siblings so distinctness can be checked properly."
+   ]
+  },
+  "cost": 2
  }
 ]
