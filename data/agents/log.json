@@ -1706,5 +1706,40 @@
    ]
   },
   "cost": 2
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T18:59:22.916Z",
+  "mode": "add",
+  "id": "private-equity-buyouts",
+  "name": "Private Equity Buyouts",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Footprint is too small: at 16, 20 and 24px the glyph sits in roughly the middle 60–70% of the box and looks visibly smaller and lighter than neighbours like private-credit, rental-leasing and pension-funds on sheet-16 and sheet-24.; The beam is short and steep, so the plank, box and fulcrum crowd into a small cluster at the centre-right and leave empty space top-left around the thin arrow.; At 16px outline the fulcrum triangle's counter is a pinhole, the box is about 3px across with almos",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A tilted seesaw or lever: a plank on a triangular fulcrum with a box on the high end and a downward arrow pressing on the low end. At 48px it reads as 'lever / leverage', but at 16–24px it reads as a small toppling seesaw or a playground ride. Nothing in it points to a buyout or acquisition beyond the leverage pun.",
+   "problems": [
+    "Footprint is too small: at 16, 20 and 24px the glyph sits in roughly the middle 60–70% of the box and looks visibly smaller and lighter than neighbours like private-credit, rental-leasing and pension-funds on sheet-16 and sheet-24.",
+    "The beam is short and steep, so the plank, box and fulcrum crowd into a small cluster at the centre-right and leave empty space top-left around the thin arrow.",
+    "At 16px outline the fulcrum triangle's counter is a pinhole, the box is about 3px across with almost no inner space, and the arrowhead is a tiny chevron that barely reads.",
+    "At 16px and 20px solid, the filled box sits so close to the beam that they merge into one dark blob. The fulcrum and beam also join with no knockout, so the plank stops reading as a separate bar.",
+    "The solid version loses the box/plank separation that the outline relies on, so its silhouette differs from the outline at small sizes.",
+    "The metaphor is weak for the concept: a seesaw with a weight reads as balance or physics more readily than as a leveraged buyout, and there's nothing that suggests acquiring or taking over a company."
+   ],
+   "fixes": [
+    "Rescale the composition to fill the 24px live area like the neighbours: run the beam from about x=2 to x=22, put the fulcrum base on the bottom keyline (y≈21) and the top of the box/arrow near y≈3.",
+    "Flatten the beam angle to about 15–20° and lengthen it, so the plank reads as a long lever rather than a toppling seesaw. Put the arrow at the far left tip of the beam, with a full-size arrowhead (at least 4px wide at 24px).",
+    "Draw the 16px separately: drop the box's inner counter (or make it a simple 4×4 block on top of a clearly separate beam), make the fulcrum a solid or open triangle with at least a 2px counter, and use a 2-unit-wide arrowhead.",
+    "In the solid version, keep at least a 1px knockout gap (1.5px at 16px) between the box and the beam and between the beam and the fulcrum apex, so the three parts stay separate. Match the outline's outer footprint exactly.",
+    "To tie it to buyouts rather than generic leverage, consider replacing the plain box with a simple building block or briefcase taken from data/metaphors.json (e.g. the corporate-finance building), so the picture says 'levering up to lift a company'."
+   ]
+  },
+  "cost": 1.46
  }
 ]
