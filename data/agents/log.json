@@ -1741,5 +1741,41 @@
    ]
   },
   "cost": 1.46
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:07:02.663Z",
+  "mode": "add",
+  "id": "fabricated-metals",
+  "name": "Fabricated Metals",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: 16px outline and solid sit visibly smaller in the frame than 20px and than neighbours (plug, trash, gear, factory). The anvil is short and only about 60–65% of the frame height, and the 16px solid is the smallest glyph in its row.; 16px solid: the horn has shrunk to a tiny bump, so the silhouette becomes a symmetric I/spool shape and the anvil reading is lost. The 20px solid is only slightly better.; 16px outline: the narrow waist and the curled base corners crowd together, so the counter",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 5,
+   "verdict": "fail",
+   "reads_as": "An anvil at 24–48px. At 16px, and the 16/20px solid especially, it reads as a stubby I-beam or spool. At 32–48px the round dot on the face reads as an eye, which makes it look like an animal head with a beak.",
+   "problems": [
+    "16px outline and solid sit visibly smaller in the frame than 20px and than neighbours (plug, trash, gear, factory). The anvil is short and only about 60–65% of the frame height, and the 16px solid is the smallest glyph in its row.",
+    "16px solid: the horn has shrunk to a tiny bump, so the silhouette becomes a symmetric I/spool shape and the anvil reading is lost. The 20px solid is only slightly better.",
+    "16px outline: the narrow waist and the curled base corners crowd together, so the counters between waist and feet are just 1px slits.",
+    "The horn changes between sizes. It is a long sloped point at 48px and almost flat at 16/20px, so the family doesn't look like one drawing.",
+    "The round dot (hardy hole) at 24–48px reads as an eye. Together with the pointed horn, the shape looks like a creature's head, not a tool. It is also a detail that vanishes below 24px.",
+    "The 48px outline face has a slight inward step where the horn meets the top line, a little fussy against the set's clean geometry."
+   ],
+   "fixes": [
+    "Make the anvil taller in every size, at 16px above all: face top at about y=5 and base at about y=19 on the 24 grid (scaled per size), so it matches the visual height of plug, trash and factory. Widen it to about 20/24.",
+    "At 16 and 20px, redraw the horn as a clear tapered wedge at least 3–4px long beyond the face, so the asymmetric anvil silhouette survives in solid.",
+    "At 16px, simplify the base to a plain flat rectangular foot with no curled corners, and widen the waist slightly so the outline counters open to at least 2px.",
+    "Remove the hardy-hole dot at every size, or replace it with a small square notch at the heel edge so it doesn't read as an eye.",
+    "Keep the horn angle and the face-to-waist proportions the same across 16–48, so each size is a redraw of one shape and not a different anvil.",
+    "Check the 16px solid against an I-beam reading: the silhouette has to be clearly asymmetric (horn on one side, square heel on the other)."
+   ]
+  },
+  "cost": 1.06
  }
 ]
