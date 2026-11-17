@@ -1813,5 +1813,42 @@
    ]
   },
   "cost": 2.8
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T19:25:06.095Z",
+  "mode": "add",
+  "id": "social-work",
+  "name": "Social Work",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The hand is drawn as a horizontal fist, with the thumb sticking up at the left and finger bumps stacked on the right. It reads as a pointing or thumbs-up gesture, not an open palm supporting someone, so the 'hand holds person' idea doesn't come across.; The person sits inside the curve of the thumb and reads as a figure in a bathtub or a seat, not someone being held up.; The footprint is short and wide. At 16, 20 and 24px the glyph fills only about the bottom 60% of its box, with the head",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32–48px: a pointing or thumbs-up hand drawn sideways, with a person sitting on it, like someone in a bathtub or at a desk. At 16–24px: an unreadable squiggle with a dot. It doesn't read as care or support.",
+   "problems": [
+    "The hand is drawn as a horizontal fist, with the thumb sticking up at the left and finger bumps stacked on the right. It reads as a pointing or thumbs-up gesture, not an open palm supporting someone, so the 'hand holds person' idea doesn't come across.",
+    "The person sits inside the curve of the thumb and reads as a figure in a bathtub or a seat, not someone being held up.",
+    "The footprint is short and wide. At 16, 20 and 24px the glyph fills only about the bottom 60% of its box, with the head floating as a tiny dot. It looks clearly smaller than its neighbours (stethoscope, rocking chair, paw, DNA).",
+    "At 16px the outline clogs. The thumb, the person's shoulder arc and the finger bumps merge into a zigzag, and the head is a dot only 1–2px across.",
+    "The 16–24px solid is a flat black slab with a dot. The knockout between the person's shoulders and the hand closes up, so the person isn't readable as a separate shape.",
+    "The right edge, with its stacked finger bumps, goes wobbly and uneven at 32–48px. The stroke rhythm is fussier than the clean geometric shapes in the rest of the set.",
+    "There's a weight mismatch: the head ring and shoulders look lighter than the heavy hand outline at 48px."
+   ],
+   "fixes": [
+    "Redraw the hand as a simple open palm facing up: a shallow cupped curve or flat palm with a single thumb stub, no separate finger bumps. Put it at the bottom of the 24px grid, about 18–20px wide.",
+    "Stand the person centred on the palm: a head circle of about 4.5–5px diameter and a shoulder arc of about 9–10px. Scale the figure up so the whole glyph fills roughly y=2 to y=21, like its neighbours.",
+    "Leave a clear gap of at least 2px between the person's shoulders and the palm at every size. In the solid, cut a 1.5–2px knockout there so the figure stays separate.",
+    "Draw 16px and 20px on their own: drop the thumb detail, keep just palm + head + shoulders, and snap them to whole pixels.",
+    "Or reuse an existing support metaphor from data/metaphors.json (for example hands-holding-heart or a person with a supporting arc) instead of the fist shape, so it doesn't read as a gesture icon.",
+    "Check that the solid has the same outer footprint as the outline, and that the 16px solid still shows a separate head and body."
+   ]
+  },
+  "cost": 2.83
  }
 ]
