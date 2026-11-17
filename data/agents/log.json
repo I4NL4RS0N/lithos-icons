@@ -1635,5 +1635,39 @@
    ]
   },
   "cost": 1.88
+ },
+ {
+  "date": "2026-11-17",
+  "at": "2026-11-17T18:59:08.977Z",
+  "mode": "add",
+  "id": "accounting-services",
+  "name": "Accounting Services",
+  "kind": "industry",
+  "picture": "calculator",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A handheld calculator: a tall rounded body with a display window at the top and a grid of keys below. Finance readers would link it to accounting or bookkeeping.",
+   "problems": [
+    "It is a portrait shape, about 15–16 units wide in the 24 frame. That is narrower than wide neighbours like the briefcase and scales, though it matches the employment ID badge, which is also portrait. Height fills the frame at every size.",
+    "Outline and solid at 16px look a lot like employment-activities (a rounded portrait rectangle with a top element) and reits (a portrait rectangle with a grid of dots or dashes). Only the display window and the key grid tell them apart.",
+    "The key grid is dense at 20 and 24 solid (3×3 / 3×4 small round knockouts). The gaps hold up but the keys sit close to the edge of what reads cleanly.",
+    "The display plus dot keypad is the standard generic calculator icon used across many icon sets. It is acceptable as a shared metaphor and not a copy of any one mark, but it adds nothing distinctive."
+   ],
+   "fixes": [
+    "Optional: widen the body slightly (for example x 5→19 at 24px) so it fills the frame more like its neighbours and moves further from the ID badge's proportions.",
+    "Optional: make the display window slightly taller or wider at 16 and 20 so the calculator is easier to tell apart from the reits building grid and the cmbs tile at a glance.",
+    "Keep the 2×2 key grid at 16px and do not add more dots. At 20px, check that the solid knockouts stay at least 1px apart after the renderer snaps them to pixels."
+   ]
+  },
+  "mapped": 2,
+  "why": "ISIC and NACE division 69 borrows the legal scales or briefcase accounting needs its own picture.",
+  "cost": 0.83
  }
 ]

@@ -1,0 +1,813 @@
+{
+  "concept": "accounting-services",
+  "query": "calculator",
+  "fetched": "2026-11-17T18:50:55.826Z",
+  "topTerms": [
+    [
+      "calculator",
+      50
+    ],
+    [
+      "finance",
+      21
+    ],
+    [
+      "math",
+      20
+    ],
+    [
+      "accounting",
+      18
+    ],
+    [
+      "calculation",
+      16
+    ],
+    [
+      "school",
+      10
+    ],
+    [
+      "numbers",
+      10
+    ],
+    [
+      "calculating",
+      9
+    ],
+    [
+      "mathematics",
+      9
+    ],
+    [
+      "office",
+      6
+    ],
+    [
+      "calculate",
+      5
+    ],
+    [
+      "business",
+      5
+    ],
+    [
+      "maths",
+      5
+    ],
+    [
+      "stationery",
+      5
+    ],
+    [
+      "supplies",
+      5
+    ],
+    [
+      "electronic-calculator",
+      4
+    ],
+    [
+      "business-and-finance",
+      4
+    ],
+    [
+      "education",
+      4
+    ],
+    [
+      "device",
+      3
+    ],
+    [
+      "estimate",
+      3
+    ],
+    [
+      "pocket-calculator",
+      3
+    ],
+    [
+      "money",
+      3
+    ],
+    [
+      "financial",
+      3
+    ],
+    [
+      "calc",
+      2
+    ],
+    [
+      "expenses",
+      2
+    ],
+    [
+      "business-and-fiannce",
+      2
+    ],
+    [
+      "cash",
+      2
+    ],
+    [
+      "economy",
+      2
+    ],
+    [
+      "methematics",
+      2
+    ],
+    [
+      "banking",
+      2
+    ],
+    [
+      "document",
+      2
+    ],
+    [
+      "report",
+      2
+    ],
+    [
+      "knowledge",
+      2
+    ],
+    [
+      "learning",
+      2
+    ],
+    [
+      "university",
+      2
+    ],
+    [
+      "technological",
+      2
+    ],
+    [
+      "electronic",
+      1
+    ],
+    [
+      "tool",
+      1
+    ],
+    [
+      "mathemetics",
+      1
+    ],
+    [
+      "budget",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculating",
+            "calculation",
+            "calculator",
+            "math",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481009-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculation",
+            "calculator",
+            "finance",
+            "math",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478270-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "device",
+            "electronic",
+            "math",
+            "mathematics",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476719-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calc",
+            "calculating",
+            "calculation",
+            "calculator",
+            "mathemetics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8437774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculator",
+            "calculator",
+            "finance",
+            "math"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383173-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "budget",
+            "calculation",
+            "calculator",
+            "estimate",
+            "finance"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206558-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator Calculator",
+          "tags": [
+            "accounting",
+            "calculate",
+            "calculation",
+            "calculator",
+            "calculator-calculator",
+            "math"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8129243-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "calculator",
+            "finance",
+            "mathematics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7960694-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "academic",
+            "calculator",
+            "math",
+            "school",
+            "study"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6859058-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "count",
+            "counting",
+            "math",
+            "mathematics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4941511-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculate",
+            "calculator",
+            "electronic-calculator",
+            "math",
+            "pocket-calculator"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4576006-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business",
+            "calculate",
+            "calculator",
+            "digit",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2674519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "electronic-calculator",
+            "graphing-calculator",
+            "math-pocket-calculator",
+            "scientific-calculator"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2389958-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "average-calculator",
+            "calc",
+            "calculator",
+            "finances",
+            "financial",
+            "fine-calculator",
+            "good-calculator",
+            "math",
+            "office-calculator",
+            "well-calculator"
+          ],
+          "thumb": "https://static.thenounproject.com/png/300254-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "business",
+            "calculator",
+            "calculator",
+            "finance",
+            "financial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8520294-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "calculator",
+            "doodle",
+            "hand-drawn"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8520014-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculate",
+            "calculator",
+            "electronic-calculator",
+            "math",
+            "numbers",
+            "pocket-calculator"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8518361-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business-and-finance",
+            "calculating",
+            "calculator",
+            "estimate",
+            "expenses",
+            "maths"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516048-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business-and-fiannce",
+            "calculator",
+            "cash",
+            "economy",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514320-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business-and-fiannce",
+            "calculator",
+            "cash",
+            "economy",
+            "finance",
+            "money"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514308-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "electronics",
+            "mathematics",
+            "maths",
+            "school-material"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513180-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "finance",
+            "math",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "finance",
+            "math",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510948-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "business",
+            "calculator",
+            "finance",
+            "methematics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510129-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "business",
+            "calculator",
+            "calculator",
+            "finance",
+            "methematics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510107-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "banking",
+            "calculator",
+            "document",
+            "finance",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509446-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "banking",
+            "calculator",
+            "document",
+            "finance",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509445-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculate",
+            "calculator",
+            "electronic-calculator",
+            "math",
+            "numbers",
+            "pocket-calculator"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509090-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculation",
+            "calculator",
+            "device",
+            "finance",
+            "math",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculating",
+            "calculation",
+            "calculator",
+            "education",
+            "math",
+            "maths"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508057-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "finance",
+            "mathematics",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506831-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculation",
+            "calculator",
+            "finance",
+            "math",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "calculator",
+            "computation",
+            "equation",
+            "mathematics",
+            "number"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506250-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "education",
+            "knowledge",
+            "learning",
+            "school",
+            "university"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506081-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "education",
+            "knowledge",
+            "learning",
+            "school",
+            "university"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506067-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "calculator",
+            "finance",
+            "math",
+            "office",
+            "school"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500870-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business-and-finance",
+            "calculating",
+            "calculator",
+            "estimate",
+            "expenses",
+            "maths"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497387-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculating",
+            "calculator",
+            "education",
+            "maths",
+            "sings"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496810-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "finance",
+            "mathematics",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495744-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "finance",
+            "mathematics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495654-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "algebra",
+            "calculating",
+            "calculator",
+            "device",
+            "mathematics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495539-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business",
+            "calculator",
+            "finance",
+            "financial",
+            "investment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492544-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "accounting",
+            "calculation",
+            "calculator",
+            "finance",
+            "math",
+            "numbers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490646-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business-and-finance",
+            "calculating",
+            "calculator",
+            "math",
+            "technological"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486382-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "business-and-finance",
+            "calculating",
+            "calculator",
+            "math",
+            "technological"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486381-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "office",
+            "school",
+            "stationery",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484107-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "office",
+            "school",
+            "stationery",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484104-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "office",
+            "school",
+            "stationery",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484091-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "office",
+            "school",
+            "stationery",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484089-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Calculator",
+          "tags": [
+            "calculator",
+            "office",
+            "school",
+            "stationery",
+            "supplies"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484088-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
