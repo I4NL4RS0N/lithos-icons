@@ -2374,5 +2374,42 @@
   "mapped": 0,
   "why": "Persistent price pressure drives rate paths across assets.",
   "cost": 0.56
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:35:13.199Z",
+  "mode": "add",
+  "id": "aircraft-finance",
+  "name": "Aircraft Finance",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Misreads at every size as a CCTV/security camera: the tapered slab reads as a mounting bracket, the short pylon as the camera arm, and the nacelle with a front circle and stepped rear reads as the camera body and lens. Nothing says 'aircraft'.; The wing is a closed wedge seen side-on with no sweep or plan-view shape, so it doesn't read as a wing. It reads as a plank or bracket.; The engine's front ring with a centre dot (32/48) looks like a camera lens. The stepped exhaust looks like the ",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A wall-mounted CCTV/security camera (tilted bracket plate on top, cylindrical camera body with lens circle below), not an aircraft wing with an engine.",
+   "problems": [
+    "Misreads at every size as a CCTV/security camera: the tapered slab reads as a mounting bracket, the short pylon as the camera arm, and the nacelle with a front circle and stepped rear reads as the camera body and lens. Nothing says 'aircraft'.",
+    "The wing is a closed wedge seen side-on with no sweep or plan-view shape, so it doesn't read as a wing. It reads as a plank or bracket.",
+    "The engine's front ring with a centre dot (32/48) looks like a camera lens. The stepped exhaust looks like the back of a camera housing.",
+    "At 16px the outline clogs: the pylon, the nacelle's front ring and the wing's lower edge merge into a knot, and the engine body is only about 2px tall inside.",
+    "The composition is wide and short. At 16–24px the glyph uses roughly the middle half of the frame vertically, so it sits visibly smaller than ABS and its neighbours.",
+    "Solid at 16/20: the intake knockout is a tiny dot that nearly closes, the wing and nacelle fuse into one blob, and the pylon gap disappears.",
+    "The 48px wing edge runs to the frame and the solid wing looks heavier than the outline's footprint. The wing taper also changes between sizes."
+   ],
+   "fixes": [
+    "Change the viewpoint. Use a front-on or 3/4 view of a swept wing seen from below or above, with an engine pod hanging under it, so the wing reads as a long tapered airfoil running diagonally across the frame. Or use the metaphor from data/metaphors.json if an aircraft/plane metaphor already exists (check before inventing).",
+    "Better still, use a recognisable aircraft silhouette (fuselage, swept wings, tail), plain and unbranded. Leave out the camera-like ring-and-dot intake.",
+    "If you keep wing-engine, show the engine as a front-on intake: a circle with fan-blade hints or a concentric ring, hung under a swept wing line that crosses the whole 24px frame at a slant. Remove the stepped rear housing.",
+    "Make the glyph fill the frame vertically. It should take up about 20 of the 24px live area at the master, with 16 and 20 redrawn so they fill as fully as the ABS siblings.",
+    "At 16px, cut down to wing line + pylon + a single nacelle shape with no inner ring, and keep at least 1px clear between the strokes.",
+    "Solid: make the intake knockout at least 2px at 16/20, keep a clear gap between the wing and the nacelle, and match the outline footprint exactly."
+   ]
+  },
+  "cost": 1.34
  }
 ]
