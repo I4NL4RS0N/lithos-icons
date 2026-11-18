@@ -1,0 +1,17 @@
+{
+  "id": "sanctions-frozen-assets",
+  "name": "Sanctions",
+  "kind": "theme",
+  "metaphor": "padlock",
+  "keywords": [
+    "sanctions",
+    "frozen assets",
+    "asset freeze",
+    "export bans",
+    "secondary sanctions"
+  ],
+  "reduction": "Closed padlock: a wide rounded body with a round shackle on top, at every size and in both styles. 16: body + shackle + a short vertical keyhole slot (both styles). 20 and 24: outline keeps the slot (a ring would clog); solid knocks out a round keyhole with a stem. 32 and 48: round keyhole with a stem in both styles. Solid: body filled with the keyhole knocked out; the shackle stays a plain stroke, so outline and solid share one footprint.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

@@ -2448,5 +2448,41 @@
    ]
   },
   "cost": 1.85
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:42:49.299Z",
+  "mode": "add",
+  "id": "sanctions-frozen-assets",
+  "name": "Sanctions",
+  "kind": "theme",
+  "picture": "padlock",
+  "moves": "Sanctions shift energy and commodity flows and bank exposure, and widen spreads on affected sovereign and corporate debt.",
+  "source": "https://www.ft.com/content/08ad089e-bc58-4e0d-b458-a2c4e1dc86f2",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A closed padlock: locked, frozen or restricted. In a finance context it reads as assets under restriction.",
+   "problems": [
+    "The near-siblings preview (agent-sanctions-frozen-assets-near.png) shows the same image as the main preview, with no parent or siblings. I checked distinctness against the full sheets instead.",
+    "A plain padlock is a very generic UI glyph and could be read as 'security/privacy/login' rather than sanctions. There is no other padlock in the set, so it is still distinct. It does sit close in meaning to private-credit (safe) and cyber-and-outage-risk (shield).",
+    "At 16px and 20px the keyhole shrinks to a short slot. It is still readable but marginal, especially as a knockout in the solid version.",
+    "The body is a little narrower than the square-footprint neighbours on the 24px sheet. This is fine for an upright object, but it looks slightly lighter in the grid."
+   ],
+   "fixes": [
+    "Optional: widen the body by about 1px each side at 16 and 20 so the footprint matches its neighbours more closely.",
+    "Optional: at 16 and 20, make the keyhole slot at least 1.5px wide so the solid knockout doesn't fill in on low-DPI screens.",
+    "Fix the near-siblings preview generator so it actually shows the parent and sibling icons."
+   ]
+  },
+  "mapped": 0,
+  "why": "Sanctions and use of frozen Russian assets keep shaping energy flows, funding and currency risk.",
+  "cost": 0.65
  }
 ]
