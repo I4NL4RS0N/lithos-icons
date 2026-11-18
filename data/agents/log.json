@@ -2585,5 +2585,42 @@
    ]
   },
   "cost": 2.68
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:10:41.384Z",
+  "mode": "add",
+  "id": "credit-spreads",
+  "name": "Credit Spreads",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Doesn't read as a caliper. A caliper has a long horizontal beam with two jaws hanging down, one fixed and one sliding. Here the drawing is a flat top bar with two legs splayed outwards and a small notch in the middle, so it reads as a table or stool.; The double-headed arrow, the only cue for 'spread/width', appears only at 32 and 48px. At 16, 20 and 24px there is nothing that says 'measure' or 'gap'.; It sits small in its box: at 16 to 24px the glyph fills about the top two-thirds of the",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A small side table, stool or bench with splayed legs (a 'T'/'π' shape). It doesn't read as a caliper, and nothing in it suggests credit or spreads.",
+   "problems": [
+    "Doesn't read as a caliper. A caliper has a long horizontal beam with two jaws hanging down, one fixed and one sliding. Here the drawing is a flat top bar with two legs splayed outwards and a small notch in the middle, so it reads as a table or stool.",
+    "The double-headed arrow, the only cue for 'spread/width', appears only at 32 and 48px. At 16, 20 and 24px there is nothing that says 'measure' or 'gap'.",
+    "It sits small in its box: at 16 to 24px the glyph fills about the top two-thirds of the frame and is much narrower than the frame, so it looks undersized next to the set.",
+    "The legs splay outwards and have no inner jaw faces. A caliper's jaws are parallel and face each other, and that is what makes it read as measuring.",
+    "The small notch or slider in the middle of the top bar becomes a blob at 16px, and in the solid version it is a tiny knockout that clogs.",
+    "Solid version: the top bar becomes a heavy black slab while the legs stay thin strokes, so the weight is uneven and the solid footprint looks top-heavy compared with the outline.",
+    "The near-neighbour preview showed only this icon, with no parent or siblings, so distinctness against the parent theme could not be properly checked."
+   ],
+   "fixes": [
+    "Redraw as a real slide caliper. Use a long horizontal beam across the full 24px width (about x=2 to 22). Put the fixed jaw at the left end and a sliding jaw block at about 60% along. Both jaws point down, run parallel, and have short inner tips that face each other.",
+    "Make the gap between the jaw tips the hero. At every size, including 16px, put a short horizontal double-headed arrow or two facing tick marks between the tips (simplify to a plain bar with end ticks at 16px if needed).",
+    "Fill the frame: the beam should run edge to edge inside the padding, and the jaws should reach down to about y=20 so the glyph covers the same area as its neighbours.",
+    "Drop the tiny centre notch at 16 and 20px. Show the sliding jaw as a simple block with one clear knockout line, not a small detail.",
+    "Solid: fill the beam and the jaw blocks, and keep the measuring gap and the arrow as clear negative space (knockout) so the footprint matches the outline exactly.",
+    "Optional finance cue: draw the jaw tips around two short horizontal lines of different heights (two yield levels), with the arrow measuring the spread between them, but only if it stays clean at 16px."
+   ]
+  },
+  "cost": 2.17
  }
 ]
