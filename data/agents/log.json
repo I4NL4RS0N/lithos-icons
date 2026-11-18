@@ -2548,5 +2548,42 @@
    ]
   },
   "cost": 1.17
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:54:46.346Z",
+  "mode": "add",
+  "id": "stadiums",
+  "name": "Stadiums",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Footprint shrinks a lot at 16/20/24. The glyph fills about half the box (roughly 8–9px of 16, about 11px of 24), while 32 and 48 fill it fully. Neighbours (die, mask) fill their boxes at every size, so this icon looks visibly under-sized in the sheet.; The level of detail jumps between sizes. 32/48 have a pitch with a halfway line, a tiered stand with seat ticks and a front wall. 16 and 20 have only an inner oval and no halfway line. 24 has a halfway line but no stand tier. The sizes look",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a stadium bowl with a pitch and floodlights. At 16–24: a small ring or dish with two prongs, something like a buzzer, a pot with handles or a robot head. It doesn't read as a stadium.",
+   "problems": [
+    "Footprint shrinks a lot at 16/20/24. The glyph fills about half the box (roughly 8–9px of 16, about 11px of 24), while 32 and 48 fill it fully. Neighbours (die, mask) fill their boxes at every size, so this icon looks visibly under-sized in the sheet.",
+    "The level of detail jumps between sizes. 32/48 have a pitch with a halfway line, a tiered stand with seat ticks and a front wall. 16 and 20 have only an inner oval and no halfway line. 24 has a halfway line but no stand tier. The sizes look like different drawings, not one design redrawn per size.",
+    "At 16/20 the floodlights are small T-shapes sitting on top of the bowl. They read as antennae or handles, and the whole glyph reads as a pot or buzzer, not a stadium.",
+    "Solid 16/20/24 are a black blob with one small oval knockout. There is no halfway line or tier knockout, so the pitch identity is lost.",
+    "Solid 32/48 have knockouts that are too busy: thin seat slits and a halfway line that nearly closes up. At 32 the stand and bowl merge into a cluttered shape.",
+    "Floodlight heads are angled outward at 32/48 but flat at 16/20. The way the angle changes between sizes is inconsistent.",
+    "The bowl ellipse is very flat at small sizes. The vertical stack of lights, rim and stand is compressed, which wastes height in the frame."
+   ],
+   "fixes": [
+    "Redraw 16, 20 and 24 so the bowl spans the full live width (about 14px at 16, 18px at 20, 20–22px at 24), matching the die and mask. Let the ellipse run nearly edge to edge.",
+    "Keep one consistent structure at every size: an outer bowl ellipse, an inner pitch ellipse with a halfway line, and a single front stand band. Drop the seat ticks at 32 and the seat dots at 48, or keep them at 48 only. Don't add elements below 32.",
+    "At 16/20, either drop the floodlights and use the extra height for a deeper bowl and stand wall, or draw them as two short, clearly vertical masts with a small angled head at the bowl's outer edges, so they read as lights and not handles.",
+    "Solid: fill the bowl and stand and knock out the pitch as an ellipse that clearly includes the halfway line. Separate the stand from the rim with one clean horizontal knockout gap of at least 1px at 16. Remove the thin seat slits at 32.",
+    "Make the bowl's vertical proportion deeper at small sizes (ellipse height about 45% of width plus a visible stand wall) so the icon uses the full frame height, like at 32/48.",
+    "Use the same floodlight head angle at every size."
+   ]
+  },
+  "cost": 2.68
  }
 ]
