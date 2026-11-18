@@ -2622,5 +2622,363 @@
    ]
   },
   "cost": 2.17
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:22:52.654Z",
+  "mode": "review",
+  "id": "electric-utilities",
+  "name": "Electric Utilities",
+  "result": "pass",
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 5,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "Lightning bolt: electricity / power, so electric utility",
+   "problems": [
+    "It is a plain, generic lightning bolt. The outline is very close to the common 'zap' glyph found in many open icon sets. It is a basic shape, not a distinctive copy, but it adds nothing specific to the set.",
+    "The bolt is narrow, so it looks a little lighter on the row than wider neighbours like the water tap and gas burner, especially at 16px. It still fills the full height.",
+    "The bolt also appears in the parent (Utilities: a bolt inside a drop) and in cyber-and-outage-risk (a crack in a shield). Reusing the metaphor is fine and the outer shapes clearly differ, but a user scanning the set could mix up the bolt motifs at 16px.",
+    "The solid version is a plain filled silhouette with no knockout. That's acceptable for a single-stroke shape, but the bolt's lower tail is slightly thinner than the outline's footprint at 16px."
+   ],
+   "fixes": [
+    "Optional: widen the bolt's horizontal offset by about 1px at 24px (and in proportion at other sizes) so its visual weight matches wider neighbours.",
+    "Optional: at 16px, check that the solid's lower tail ends on the same pixel row as the outline's so the two footprints match exactly."
+   ]
+  },
+  "problems": [],
+  "cost": 0.12
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:22:56.166Z",
+  "mode": "review",
+  "id": "student-loans",
+  "name": "Student Loans",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "The standard UI \"edit\" pencil. A finance user would read it as edit, write or sign, not as student loans or any kind of loan.",
+   "problems": [
+    "It reads as the near-universal 'edit' action glyph (a diagonal pencil with a triangular tip and rounded butt). In an app UI it will be mistaken for an edit button, and nothing about it points to lending or students.",
+    "It is close to the generic pencil/edit icons in common open-source sets (diagonal body, open triangle nib, rounded end), so it risks looking copied from a known icon.",
+    "It sits small in its box. As a thin single diagonal it covers much less area than its neighbours (wrench, pickaxe, lightning, education mortarboard), and at 16 and 24px it looks noticeably lighter and smaller in the sheet.",
+    "It has no link to its parent 'loans' (a percent card) or to the 'education' mortarboard, so the asset-class family relationship is lost.",
+    "Small sizes: at 16px the outline body is a very narrow channel and the nib triangle is only just open. Solid is readable but has no internal detail, so it is just a bar with a point.",
+    "The near-siblings preview is the same image as the review sheet, so the parent and siblings comparison could not be checked directly. It was judged from the full sheets instead."
+   ],
+   "fixes": [
+    "Change the metaphor to education plus lending. For example, put a mortarboard (reuse the 'education' metaphor from data/metaphors.json) on top of the 'loans' card or document. Or put a small mortarboard over a banknote or coin stack. Do not use any currency symbol or % text beyond what the loans metaphor already sets up.",
+    "If the pencil has to stay, combine it with a loan cue so it is no longer a bare edit glyph: a pencil crossing a document or card with a repayment-schedule line pattern, or a pencil next to a coin stack.",
+    "Make the composition fill the frame. Use the full 2px-padded 20×20 live area at 24px, and give it about the same visual mass as neighbours like 'education' and 'loans'. Draw 16 and 20 separately with fewer elements (for example drop the inner lines) so the channels stay at least 1.5px open.",
+    "In solid, make sure the combined shape has clear knockouts (for example the mortarboard band and the card lines cut out) and the same footprint as the outline."
+   ]
+  },
+  "problems": [
+   "It reads as the near-universal 'edit' action glyph (a diagonal pencil with a triangular tip and rounded butt). In an app UI it will be mistaken for an edit button, and nothing about it points to lending or students.",
+   "It is close to the generic pencil/edit icons in common open-source sets (diagonal body, open triangle nib, rounded end), so it risks looking copied from a known icon.",
+   "It sits small in its box. As a thin single diagonal it covers much less area than its neighbours (wrench, pickaxe, lightning, education mortarboard), and at 16 and 24px it looks noticeably lighter and smaller in the sheet.",
+   "It has no link to its parent 'loans' (a percent card) or to the 'education' mortarboard, so the asset-class family relationship is lost."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:22:59.853Z",
+  "mode": "review",
+  "id": "water-utilities",
+  "name": "Water Utilities",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A water tap (faucet) with a drip. That names the picture clearly and points to water utilities.",
+   "problems": [
+    "At 16, 20 and 24px the icon looks visibly smaller than its siblings (electric bolt, gas flame, Utilities drop, wind turbine). The tap is wide and short and sits in the top half of the frame. The drop is small and leaves the lower-left quadrant empty, so the shape fills much less of the 24px box than its neighbours do.",
+    "At 16px the outline spout is a thin hollow tube with almost no open space inside. It reads as a squiggle rather than a pipe, and the handle stem and crossbar merge into a small blob.",
+    "At 16 and 20px the drop is only a few pixels across. In outline its counter closes up, so it looks like a dot or ring rather than a water drop, and it loses the 'water' cue that separates this icon from a generic pipe or fitting.",
+    "Its scale is inconsistent across sizes. The 32 and 48 versions use the frame well, but 16–24 look shrunk rather than redrawn to fill the box like the rest of the set.",
+    "In solid, the 16px spout and handle merge into one mass with a weak silhouette. The drop is only just readable."
+   ],
+   "fixes": [
+    "Redraw 16, 20 and 24 to use the full live area. Make the spout taller and make the body bar thicker vertically. Bring the outlet lower and make the drop bigger so the icon's height reaches the bottom of the box, matching the vertical extent of the bolt and the flame.",
+    "At 16px, drop the hollow outline spout and draw the spout as a single centreline stroke (a pipe with round caps). Simplify the handle to one short T, with at least 1px of clear space between the handle and the body.",
+    "Make the drop at least 5–6px tall at 16px and 7px at 20px, with a clear gap below the spout. If the outline drop can't hold an open counter at 16, draw it solid in both styles.",
+    "In solid at 16 and 20px, keep a clear 1px gap between the handle crossbar and the spout body so the T reads separately. Keep the drop separated from the spout.",
+    "Check the redrawn 16–24 masters against the electric-utilities and gas-utilities footprints in the near-preview before resubmitting."
+   ]
+  },
+  "problems": [
+   "At 16, 20 and 24px the icon looks visibly smaller than its siblings (electric bolt, gas flame, Utilities drop, wind turbine). The tap is wide and short and sits in the top half of the frame. The drop is small and leaves the lower-left quadrant empty, so the shape fills much less of the 24px box than its neighbours do.",
+   "At 16px the outline spout is a thin hollow tube with almost no open space inside. It reads as a squiggle rather than a pipe, and the handle stem and crossbar merge into a small blob.",
+   "At 16 and 20px the drop is only a few pixels across. In outline its counter closes up, so it looks like a dot or ring rather than a water drop, and it loses the 'water' cue that separates this icon from a generic pipe or fitting.",
+   "Its scale is inconsistent across sizes. The 32 and 48 versions use the frame well, but 16–24 look shrunk rather than redrawn to fill the box like the rest of the set."
+  ],
+  "cost": 0.11
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:23:05.576Z",
+  "mode": "review",
+  "id": "covered-bonds",
+  "name": "Covered Bonds",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A generic security or protection shield. At 16 and 20px it reads as 'shield-minus' (remove protection). Nothing in it says bond or collateral pool.",
+   "problems": [
+    "At 16 and 20px the two inner lines become one centred bar. The icon then reads as a shield with a minus sign, the common UI glyph for 'remove protection', so its meaning changes from size to size. Those sizes are open and not clogged, but the picture they give is wrong.",
+    "A bare shield with two horizontal bars is the stock 'security/protection' glyph found in common open-source sets. It is generic, and close to well-known shield icons.",
+    "Nothing shows 'bond'. The sibling structured-credit icons (rmbs, cmbs, abs, clo, municipal-bonds) all share a base double-rule/plinth under the object. Covered-bonds drops it, so it doesn't look like part of that family.",
+    "It is too close to cyber-and-outage-risk, which is also a plain shield outline of the same proportions with one inner mark. On the sheet the two differ only in the inner stroke.",
+    "The near preview only repeated this icon and showed no parent or siblings. I could only check the family from the full sheets."
+   ],
+   "fixes": [
+    "Add the bond-family base rules used by rmbs, cmbs, abs and clo. Make the shield a bit smaller and sit it on the same double baseline so it reads as one of the bond siblings.",
+    "Make the inside say 'bond' or 'collateral', not plain lines. For example, put a small bond certificate (rectangle with a folded corner, as in abs or clo) inside or behind the shield. Or show the shield covering a small stack of loan or house shapes, which is the cover pool.",
+    "Keep the inner motif the same at every size. Never cut it down to one horizontal bar at 16 or 20px. If two lines can't fit, use a simpler mark that isn't a minus, such as a small folded-corner document or a dot cluster.",
+    "Once the new inner motif is in, check it against cyber-and-outage-risk at 16px so the two shields are clearly different.",
+    "Re-render the near preview so it actually shows the parent and siblings, then judge again."
+   ]
+  },
+  "problems": [
+   "At 16 and 20px the two inner lines become one centred bar. The icon then reads as a shield with a minus sign, the common UI glyph for 'remove protection', so its meaning changes from size to size. Those sizes are open and not clogged, but the picture they give is wrong.",
+   "A bare shield with two horizontal bars is the stock 'security/protection' glyph found in common open-source sets. It is generic, and close to well-known shield icons.",
+   "Nothing shows 'bond'. The sibling structured-credit icons (rmbs, cmbs, abs, clo, municipal-bonds) all share a base double-rule/plinth under the object. Covered-bonds drops it, so it doesn't look like part of that family.",
+   "It is too close to cyber-and-outage-risk, which is also a plain shield outline of the same proportions with one inner mark. On the sheet the two differ only in the inner stroke."
+  ],
+  "cost": 0.14
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:23:14.017Z",
+  "mode": "review",
+  "id": "gas-utilities",
+  "name": "Gas Utilities",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "Outline: a small candle or flame on a stand or burner, readable as flame/gas at 32–48px. Solid: a teardrop or water drop on a shelf, which suggests water, not gas.",
+   "problems": [
+    "Sits far too small in the box at 16/20/24px. At 16px the flame is about 6–7px tall and the whole icon covers roughly the bottom-centre half of the frame. Electric, Water and Utilities fill their boxes; this one looks shrunken.",
+    "The size steps don't grow evenly. 16/20/24 are about the same tiny size and then 32/48 jump much larger, so the small sizes look like a different, shrunken drawing.",
+    "Solid: the inner flame tongue is gone at every size, so the shape is a plain teardrop with a slightly pointed tip. It reads as a water drop and collides with the parent Utilities drop and the drip in Water Utilities.",
+    "Solid has no knockout at all, so nothing marks it as fire.",
+    "At 16px the burner bar has no legs (20px+ have them), so the base is just a loose underline and the flame floats above it.",
+    "At 16/20px the outline flame's inner tongue nearly closes up into a blob or loop. It reads more like a lowercase 'o' or a teardrop than a flame.",
+    "The outline flame tip is a thin hooked wisp; the overall curve is weak and close to a droplet with a flick, so it doesn't clearly say 'flame'.",
+    "Thin legs and burner bar under a big round body makes the 48px look top-heavy and like a candle or lamp."
+   ],
+   "fixes": [
+    "Redraw 16/20/24 to fill the live area (about 2px padding). Make the flame about 60–65% of the height and the burner bar span about 75–85% of the width, matching how full Electric and Water Utilities are.",
+    "Give the flame a clear flame outline: a wider base, an asymmetric S-curve on one side, and a sharp tip, not a teardrop with a hook. Optionally add a second smaller side tongue so it can't be read as a drop.",
+    "Solid: knock out the inner tongue as a clear negative-space flame (at least 1.5px gap at 16px), or draw the solid flame as two tongues, so it isn't a plain drop shape.",
+    "Give the burner a more distinctive look: a short gas-ring or burner head (a flat rounded rect with 2–3 small flame jets), or a burner cap under the flame, with legs at every size including 16px. Or drop the legs and use a solid burner block so the base reads at small sizes.",
+    "At 16px, simplify on purpose: one bold flame with a single clear inner cutout or an open-stroke tongue, and a burner bar that touches or nearly touches the flame base so the two don't separate.",
+    "Check the solid footprint against the outline at each size. The outer silhouette should match exactly; only the interior should differ."
+   ]
+  },
+  "problems": [
+   "Sits far too small in the box at 16/20/24px. At 16px the flame is about 6–7px tall and the whole icon covers roughly the bottom-centre half of the frame. Electric, Water and Utilities fill their boxes; this one looks shrunken.",
+   "The size steps don't grow evenly. 16/20/24 are about the same tiny size and then 32/48 jump much larger, so the small sizes look like a different, shrunken drawing.",
+   "Solid: the inner flame tongue is gone at every size, so the shape is a plain teardrop with a slightly pointed tip. It reads as a water drop and collides with the parent Utilities drop and the drip in Water Utilities.",
+   "Solid has no knockout at all, so nothing marks it as fire."
+  ],
+  "cost": 0.07
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:23:24.739Z",
+  "mode": "review",
+  "id": "metals-mining",
+  "name": "Metals & Mining",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48 it reads as a pick, but a one-sided one, closer to an ice axe or hook. At 16–24, especially solid, it reads as a diagonal arrow, cane or tick.",
+   "problems": [
+    "The head only curves out to the right of the handle top, so it is a hooked crescent, not the two-pointed pickaxe head. That makes it look like an ice axe, hook or cane, not a mining pick.",
+    "Footprint is too small at 16, 20 and 24px. It takes up only about the top-right 60% of the box, while Chemicals, Packaging, Construction Materials and Materials fill the frame. Both styles look visibly undersized in the near-siblings view.",
+    "At 16px solid the head shrinks to a tiny nub, and the whole glyph reads as a diagonal arrow or tick mark (↗). At 20px it is barely better.",
+    "At 16px outline the handle is drawn as an outlined capsule, so two thin parallel lines meet at the head. That is busy, and it is a heavier level of detail than siblings at that size.",
+    "Solid is just the outline with the handle capsule filled. There is no knockout or internal detail, and its silhouette is thinner and lighter than other solids such as the student-loans pencil and the wrench.",
+    "In the 24px sheet the solid version is a diagonal bar with a head, which sits close to student-loans (pencil) and other-services (wrench). The silhouettes are not distinct enough at small sizes."
+   ],
+   "fixes": [
+    "Redraw the head as a symmetric (or nearly symmetric) curved crescent that crosses the handle top, with a pointed tip on each side. That is the classic pick silhouette.",
+    "Scale the drawing up to the live area. The handle should run from about (3,21) to the head center, and the head arc should span about x 6→21, y 3→12 on the 24 grid, so the bounding box matches siblings (about 18–20px of 24).",
+    "At 16 and 20px, draw the handle as a single stroke line, not an outlined capsule. Thicken the head relative to the handle so the two points stay visible. Snap the endpoints to the pixel grid.",
+    "For solid, make the crescent head a filled shape that stays wide enough to read at 16px, so it doesn't collapse into a nub. Consider a small knockout line where head meets handle (a collar) to separate the two parts. Keep the footprint the same as the outline.",
+    "Check side by side against student-loans and other-services at 16px. The pick head must make a clearly different silhouette from the pencil tip and the wrench jaw."
+   ]
+  },
+  "problems": [
+   "The head only curves out to the right of the handle top, so it is a hooked crescent, not the two-pointed pickaxe head. That makes it look like an ice axe, hook or cane, not a mining pick.",
+   "Footprint is too small at 16, 20 and 24px. It takes up only about the top-right 60% of the box, while Chemicals, Packaging, Construction Materials and Materials fill the frame. Both styles look visibly undersized in the near-siblings view.",
+   "At 16px solid the head shrinks to a tiny nub, and the whole glyph reads as a diagonal arrow or tick mark (↗). At 20px it is barely better.",
+   "At 16px outline the handle is drawn as an outlined capsule, so two thin parallel lines meet at the head. That is busy, and it is a heavier level of detail than siblings at that size."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:23:28.259Z",
+  "mode": "review",
+  "id": "chemicals",
+  "name": "Chemicals",
+  "result": "pass",
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "Conical laboratory (Erlenmeyer) flask with a liquid line, read as chemicals / chemistry",
+   "problems": [
+    "16px outline: the flask is narrow and sits a little small in the frame. It uses about 60–70% of the width, while machinery and the materials cart fill it edge to edge. It still reads, and it matches the footprint of its sibling packaging.",
+    "16px solid has no liquid-line knockout, so it is a plain silhouette. 20px and up have one. That is acceptable simplification but leaves a little less detail than at the larger sizes.",
+    "The neck at 16/20px is close to the minimum open width. Any thicker stroke would close the counter.",
+    "The conical flask is a very common generic metaphor, close to the flask in many open icon sets. This version is not traced from a specific one, and its proportions and lip bar follow this set's style."
+   ],
+   "fixes": [
+    "Optional: at 16px, widen the flask base by about 1px each side so it fills the frame more like its neighbours.",
+    "Optional: keep the neck counter at least 2px open at 16/20px in any later revision."
+   ]
+  },
+  "problems": [],
+  "cost": 0.08
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:23:28.672Z",
+  "mode": "review",
+  "id": "oil-gas",
+  "name": "Oil & Gas",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "fail",
+   "reads_as": "An oilfield pump jack (nodding donkey): a tilted walking beam on an A-frame, with a horse head on the right over the well, a counterweight on the left and a ground line.",
+   "problems": [
+    "Solid style: the horse head is a lumpy, uneven blob, worst at 32 and 48px. It has a bulge and dent where it meets the beam, which clashes with the clean geometric shapes used in the rest of the set's solids.",
+    "Solid footprint doesn't match the outline: the solid horse head is bigger and sits higher and further right than the outline head (at 48px it reaches about 6px higher), so the two styles have different silhouettes.",
+    "In the solid, the head blob is the only filled area. The A-frame, beam and post stay as thin strokes, so the solid looks almost the same as the outline with one heavy lump added. It's off-balance and adds little.",
+    "At 16px solid, the head blob merges into the end of the beam, so the hook shape that tells you it's a horse head is lost and it reads as a ball on a stick.",
+    "At 16 and 20px the A-frame with its crossbar is very close to a letter 'A' shape. It's acceptable, but it's helped only by the beam drawn through it.",
+    "At 16px the icon is a bit short vertically (about 28 of 32px in the 2× preview) next to the full-height neighbours, though the width fills the box."
+   ],
+   "fixes": [
+    "Redraw the solid horse head as a clean filled shape: a quarter-circle or D-shape with a flat face on the well side, the same radius and position as the outline head, and a smooth tangent join to the beam. No bulges or dents.",
+    "Match the solid footprint to the outline exactly: the head's outer edge should land on the outline stroke's outer edge at every size.",
+    "Give the solid more filled mass in a controlled way, for example a filled base block or plinth under the A-frame, or a solid counterweight disc with the crank arm as a knockout. Then it reads as a true solid like the other solids in the set (gas-utilities, construction).",
+    "At 16px, draw the solid head as a simple, slightly larger filled quarter-disc with a 1px gap or a clear angle change where it meets the beam, so the hook still reads.",
+    "At 16px, extend the post and A-frame so the drawing uses the full height of the safe area, and drop or shorten the A-frame crossbar so it doesn't read as the letter 'A'.",
+    "Keep the outline as it is. It reads well at all sizes and is clearly different from energy-equipment-services (derrick) and energy (barrel)."
+   ]
+  },
+  "problems": [
+   "Solid style: the horse head is a lumpy, uneven blob, worst at 32 and 48px. It has a bulge and dent where it meets the beam, which clashes with the clean geometric shapes used in the rest of the set's solids.",
+   "Solid footprint doesn't match the outline: the solid horse head is bigger and sits higher and further right than the outline head (at 48px it reaches about 6px higher), so the two styles have different silhouettes.",
+   "In the solid, the head blob is the only filled area. The A-frame, beam and post stay as thin strokes, so the solid looks almost the same as the outline with one heavy lump added. It's off-balance and adds little.",
+   "At 16px solid, the head blob merges into the end of the beam, so the hook shape that tells you it's a horse head is lost and it reads as a ball on a stick."
+  ],
+  "cost": 0.11
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:23:36.569Z",
+  "mode": "review",
+  "id": "machinery",
+  "name": "Machinery",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "a gear (cog), which stands for machinery",
+   "problems": [
+    "At 16px outline, the eight teeth plus the hub ring make the icon busier than its neighbours, with little space between teeth.",
+    "At 16px solid, the hub knockout is only about 2px across and could fill in on low-DPI screens.",
+    "A gear is also the usual 'settings' icon in apps, so in a finance UI it could be read as a settings button. This is a common shape, not a copy of a particular icon set."
+   ],
+   "fixes": [
+    "Optional: at 16px, use 6 teeth instead of 8 so the gaps are wider.",
+    "Optional: at 16px solid, make the hub knockout about 3px across."
+   ]
+  },
+  "problems": [],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T19:23:52.229Z",
+  "mode": "review",
+  "id": "aerospace-defense",
+  "name": "Aerospace & Defense",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A commercial airliner seen from above, the standard \"airplane mode\" or flight glyph. People will name it \"airline\" or \"flights\", not \"aerospace & defense\".",
+   "problems": [
+    "The picture is a generic commercial airliner: swept wings, small tailplane, nose pointing up. The set already has an 'airlines' icon, so a passenger plane here leans toward the airline concept. Nothing in it suggests defense or aerospace.",
+    "On the 24px sheet, aerospace-defense and airlines are both passenger-jet silhouettes. At 16px the difference is only the angle and the ground line under airlines, so in a list of industries the two are easy to confuse.",
+    "The solid version is almost the same as the common Material-style 'flight' / airplane-mode glyph: same proportions, same wing and tailplane shapes, same rounded nose. That is too close to a well-known existing icon.",
+    "At 16px outline, the tailplane and the back of the body run together into a small cluster. It still reads, but it is the weakest part of the icon. At 16px it also looks a little lighter and smaller than its neighbours, the gear and the bin."
+   ],
+   "fixes": [
+    "Keep the plane metaphor but redraw it as a military or aerospace jet so it reads as defense, not air travel. Use a delta or sharply swept wing that runs from mid-body to the tail, with a pointed nose and twin angled tail fins in place of the airliner tailplane. A large delta wing also fills the square better.",
+    "Make the outline different from airlines at 16px. A delta planform (one big triangle) differs from the airlines diagonal cross-shape even at small size. Check both icons side by side on sheet-16.",
+    "Avoid the Material airplane-mode proportions: drop the narrow straight wings with a separate small tailplane and the capsule-shaped body.",
+    "Draw 16px and 20px separately. Use fewer parts (body plus one wing shape plus a small fin pair) so the knockouts stay open, and push the wingtips and nose to the edges of the safe area so it fills the box like its siblings.",
+    "For the solid version, consider one thin knockout line along the body (a canopy or centreline) so it does not become a featureless blob at 16px. Keep it the same footprint as the outline."
+   ]
+  },
+  "problems": [
+   "The picture is a generic commercial airliner: swept wings, small tailplane, nose pointing up. The set already has an 'airlines' icon, so a passenger plane here leans toward the airline concept. Nothing in it suggests defense or aerospace.",
+   "On the 24px sheet, aerospace-defense and airlines are both passenger-jet silhouettes. At 16px the difference is only the angle and the ground line under airlines, so in a list of industries the two are easy to confuse.",
+   "The solid version is almost the same as the common Material-style 'flight' / airplane-mode glyph: same proportions, same wing and tailplane shapes, same rounded nose. That is too close to a well-known existing icon.",
+   "At 16px outline, the tailplane and the back of the body run together into a small cluster. It still reads, but it is the weakest part of the icon. At 16px it also looks a little lighter and smaller than its neighbours, the gear and the bin."
+  ],
+  "cost": 0.11
  }
 ]
