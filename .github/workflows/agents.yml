@@ -40,7 +40,8 @@ jobs:
       NOUN_PROJECT_SECRET: ${{ secrets.NOUN_PROJECT_SECRET }}
       ICONFINDER_KEY: ${{ secrets.ICONFINDER_KEY }}
       MAX_USD_PER_RUN: ${{ inputs.max_usd || vars.MAX_USD_PER_RUN || '30' }}
-      FOCUS: ${{ inputs.focus || '' }}
+      # Priority window (revert to '' when done): half Fitch titles, half topics. A manual run's focus input overrides it.
+      FOCUS: ${{ inputs.focus || 'fitch-2020+topics' }}
       MODE: ${{ inputs.mode || (github.event.schedule == '43 13 * * 0' && 'refine' || github.event.schedule == '7 11 * * *' && 'review' || 'add') }}
       COUNT: ${{ inputs.count || (github.event.schedule == '43 13 * * 0' && '3' || github.event.schedule == '7 11 * * *' && '10' || '10') }}
       DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
