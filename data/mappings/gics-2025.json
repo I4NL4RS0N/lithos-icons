@@ -108,5 +108,6 @@
  "55101010": "electric-utilities",
  "55102010": "gas-utilities",
  "55104010": "water-utilities",
- "55105020": "renewable-energy"
+ "55105020": "renewable-energy",
+ "60108050": "data-centres"
 }

@@ -2272,5 +2272,38 @@
    "It's nearly a duplicate of cmbs (a tall rounded rect with window dashes over base lines) and close to corporate-finance (tall building with window dashes). In the set it doesn't stand out from its real-estate-family siblings."
   ],
   "cost": 0.08
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:18:35.444Z",
+  "mode": "add",
+  "id": "data-centres",
+  "name": "Data Centres",
+  "kind": "industry",
+  "picture": "server-rack",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A free-standing server rack/cabinet with stacked units (slot bar + status dot), on two feet — reads as 'server / data centre'.",
+   "problems": [
+    "At 24px solid the gaps between the three stacked units are narrow, so the slabs nearly merge. It is readable but sits at the limit compared with the 32 and 48px versions.",
+    "The unit count drops from 3 (24/32/48) to 2 (16/20). That is a sensible simplification, but the 16 and 20px versions look like a squat cabinet or drawer unit more than a rack.",
+    "The outline has the same overall silhouette (rounded rectangle with horizontal dashes) as reits and accounting-services in the same row and column of the sheet. The horizontal unit dividers and feet keep it distinct, but at 16px it is the closest neighbour to reits.",
+    "Generic 'server' metaphor. It says data centre only through the picture, with no link to the CMBS parent (the parent shows a building on a base, this shows a rack on feet). That is acceptable for an industry child."
+   ],
+   "fixes": [
+    "Optional polish: at 24px solid, widen the knockout gaps between units by about 0.5px so the three slabs stay clearly separate on both light and dark.",
+    "Optional: at 20px consider 3 units if the gaps can stay at least 1.5px or more, to keep the rack reading consistent with 24px and above."
+   ]
+  },
+  "mapped": 2,
+  "why": "Fitch 2.2.5 colocation data centres borrow CMBS also a core financing market for AI buildout.",
+  "cost": 0.57
  }
 ]

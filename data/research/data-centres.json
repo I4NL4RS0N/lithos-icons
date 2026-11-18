@@ -1,0 +1,816 @@
+{
+  "concept": "data-centres",
+  "query": "server rack",
+  "fetched": "2026-11-18T18:09:43.976Z",
+  "topTerms": [
+    [
+      "server-rack",
+      49
+    ],
+    [
+      "server rack",
+      48
+    ],
+    [
+      "hosting",
+      25
+    ],
+    [
+      "server",
+      24
+    ],
+    [
+      "network",
+      22
+    ],
+    [
+      "hardware",
+      18
+    ],
+    [
+      "storage",
+      18
+    ],
+    [
+      "database",
+      18
+    ],
+    [
+      "rack",
+      14
+    ],
+    [
+      "data-center",
+      11
+    ],
+    [
+      "data",
+      11
+    ],
+    [
+      "datacenter",
+      7
+    ],
+    [
+      "cloud",
+      6
+    ],
+    [
+      "infrastructure",
+      5
+    ],
+    [
+      "computer",
+      5
+    ],
+    [
+      "technology",
+      4
+    ],
+    [
+      "backend",
+      4
+    ],
+    [
+      "computing",
+      3
+    ],
+    [
+      "rack-server",
+      3
+    ],
+    [
+      "system",
+      3
+    ],
+    [
+      "networking",
+      3
+    ],
+    [
+      "center",
+      3
+    ],
+    [
+      "internet",
+      3
+    ],
+    [
+      "cabinet",
+      2
+    ],
+    [
+      "cloud-computing",
+      2
+    ],
+    [
+      "data-storage",
+      2
+    ],
+    [
+      "network-server",
+      2
+    ],
+    [
+      "web-hosting",
+      2
+    ],
+    [
+      "servers",
+      2
+    ],
+    [
+      "server-room",
+      2
+    ],
+    [
+      "hard-disk",
+      1
+    ],
+    [
+      "security",
+      1
+    ],
+    [
+      "harddisk",
+      1
+    ],
+    [
+      "it-infrastructure",
+      1
+    ],
+    [
+      "connection",
+      1
+    ],
+    [
+      "doodle",
+      1
+    ],
+    [
+      "hand-drawn",
+      1
+    ],
+    [
+      "supercomputer",
+      1
+    ],
+    [
+      "dataserver",
+      1
+    ],
+    [
+      "rack server",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "hosting",
+          "tags": [
+            "hosting",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4774925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "cloud",
+            "data-center",
+            "hosting",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477255-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "cloud",
+            "data-center",
+            "hosting",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477231-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data",
+            "hardware",
+            "hosting",
+            "network",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472971-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "cabinet",
+            "computing",
+            "hardware",
+            "hosting",
+            "infrastructure",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "cabinet",
+            "computing",
+            "hardware",
+            "hosting",
+            "infrastructure",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8465627-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "hard-disk",
+            "rack",
+            "server",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8403972-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "database",
+            "network",
+            "security",
+            "server",
+            "server-rack",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383848-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "datacenter",
+            "hardware",
+            "hosting",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8377572-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "database",
+            "harddisk",
+            "rack",
+            "server",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8372190-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "datacenter",
+            "hardware",
+            "hosting",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8361402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "database",
+            "hosting",
+            "network",
+            "server",
+            "server-rack",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8354078-84.png",
+          "licence": "public-domain"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "cloud-computing",
+            "data-storage",
+            "network-server",
+            "server-rack",
+            "web-hosting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8346230-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "cloud-computing",
+            "data-storage",
+            "network-server",
+            "server-rack",
+            "web-hosting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8341484-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "database",
+            "server",
+            "server-rack",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8338393-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "hosting",
+            "infrastructure",
+            "network",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8338387-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "datacenter",
+            "hardware",
+            "hosting",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8329735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "hardware",
+            "hosting",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8329711-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "computer",
+            "database",
+            "network",
+            "rack-server",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8298967-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "computer",
+            "database",
+            "network",
+            "rack-server",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8237551-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "server-rack",
+            "server-rack",
+            "servers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8216939-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "it-infrastructure",
+            "network",
+            "server-rack",
+            "servers"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8192503-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "computer",
+            "data",
+            "network",
+            "server",
+            "server-rack",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8161946-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "connection",
+            "datacenter",
+            "hosting",
+            "network",
+            "server-rack",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8154209-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "database",
+            "hardware",
+            "server",
+            "server-rack",
+            "server-room"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8152672-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "database",
+            "hardware",
+            "server",
+            "server-rack",
+            "server-room"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8152630-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data",
+            "doodle",
+            "hand-drawn",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8131424-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data",
+            "hardware",
+            "server-rack",
+            "storage",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8118004-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "hosting",
+            "infrastructure",
+            "network",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8100704-84.png",
+          "licence": "public-domain"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "backend",
+            "cloud",
+            "database",
+            "hosting",
+            "network",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8099641-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data",
+            "hardware",
+            "server-rack",
+            "storage",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8086898-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "database",
+            "hosting",
+            "rack",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8084683-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "computing",
+            "database",
+            "networking",
+            "server",
+            "server-rack",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8055048-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "computer",
+            "data",
+            "database",
+            "server",
+            "server-rack",
+            "supercomputer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8041432-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "hardware",
+            "network",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8019846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "database",
+            "datacenter",
+            "dataserver",
+            "hosting",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8017001-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Rack Server",
+          "tags": [
+            "database",
+            "hosting",
+            "network",
+            "rack-server",
+            "rack-server",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7992978-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "center",
+            "data",
+            "internet",
+            "network",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7986264-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "backend",
+            "cloud",
+            "database",
+            "hosting",
+            "network",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7940181-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "backend",
+            "cloud",
+            "database",
+            "hosting",
+            "network",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7940019-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "backend",
+            "cloud",
+            "database",
+            "hosting",
+            "network",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7939977-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data-center",
+            "hardware",
+            "network",
+            "rack",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7930852-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "datacenter",
+            "hardware",
+            "hosting",
+            "network",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7835431-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "datacenter",
+            "hardware",
+            "hosting",
+            "network",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7835412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "center",
+            "computer",
+            "data",
+            "hardware",
+            "rack",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7815698-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "center",
+            "data",
+            "rack",
+            "server",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7782263-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "database",
+            "hardware",
+            "network",
+            "server",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7776637-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "equipment",
+            "hardware",
+            "infrastructure",
+            "network",
+            "server-rack",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756875-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data",
+            "hosting",
+            "internet",
+            "networking",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7743359-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "server rack",
+          "tags": [
+            "data",
+            "hosting",
+            "internet",
+            "networking",
+            "server",
+            "server-rack"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7743259-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

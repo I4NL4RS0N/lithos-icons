@@ -1,0 +1,17 @@
+{
+  "id": "data-centres",
+  "name": "Data Centres",
+  "kind": "industry",
+  "parent": "cmbs",
+  "metaphor": "server-rack",
+  "keywords": [
+    "data centres",
+    "colocation",
+    "hyperscale",
+    "server farms"
+  ],
+  "reduction": "Every size: a server rack cabinet standing on two short feet, split into stacked server units, each with a drive slot on the left and a status light on the right. 16 and 20: two units. 24 to 48: three units, with wider gaps as the size grows. Solid: the units are separate filled blocks (the dividers become cuts through the cabinet) with slot and light knocked out.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
