@@ -2305,5 +2305,38 @@
   "mapped": 2,
   "why": "Fitch 2.2.5 colocation data centres borrow CMBS also a core financing market for AI buildout.",
   "cost": 0.57
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:24:53.729Z",
+  "mode": "add",
+  "id": "parking-facilities",
+  "name": "Parking",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: It looks too much like its sibling Rail: both are rounded-top boxes with a rectangular window and a slot below, and both stand on short legs. At 16–24px the two look like the same vehicle front.; The meter head has no coin slot, no dial or needle and no time-expired flag, so it is not recognisable as a parking meter. It reads as a generic kiosk or vehicle front.; It sits too small in its box. At 16, 20 and 24px it fills only about half the frame width, while Transportation, Postal and Rai",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 2,
+   "verdict": "fail",
+   "reads_as": "A front-on tram or metro car, a robot head, or a mailbox on a post. At 32 and 48px it can just about pass for a parking meter, but nothing in it says 'parking'.",
+   "problems": [
+    "It looks too much like its sibling Rail: both are rounded-top boxes with a rectangular window and a slot below, and both stand on short legs. At 16–24px the two look like the same vehicle front.",
+    "The meter head has no coin slot, no dial or needle and no time-expired flag, so it is not recognisable as a parking meter. It reads as a generic kiosk or vehicle front.",
+    "It sits too small in its box. At 16, 20 and 24px it fills only about half the frame width, while Transportation, Postal and Rail fill most of theirs. The tall, narrow shape leaves the sides empty.",
+    "At 16px the outline clogs: the inner window and the slot line run into each other and fill the small head.",
+    "At 16 and 20px the solid knockouts are only a few pixels across and nearly close up, so the solid version becomes a blob on a stick."
+   ],
+   "fixes": [
+    "Turn it into a clear meter: put a semicircular dial window with a needle at the top of the head (no text), and add a coin slot below it. The dial and needle are what separate it from Rail's rectangular window.",
+    "Make the head wider (about 14–16 of the 24 units) and run the post to the baseline, with a wide base foot. That lets it fill the frame like its neighbours and gets rid of the leg-like shape.",
+    "Or use a different metaphor that doesn't clash with Rail. A car under a roof/canopy or a car inside a bay outline would work. Check data/metaphors.json first, and do not use a 'P' letter.",
+    "At 16px, leave out the slot line and keep just the dial with a single needle stroke. In the solid version, make the dial knockout at least 2px at 16px and 3px at 20px."
+   ]
+  },
+  "cost": 1.05
  }
 ]
