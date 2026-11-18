@@ -2484,5 +2484,35 @@
   "mapped": 0,
   "why": "Sanctions and use of frozen Russian assets keep shaping energy flows, funding and currency risk.",
   "cost": 0.65
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:48:47.995Z",
+  "mode": "add",
+  "id": "housing-affordability",
+  "name": "Housing Market",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: agent-housing-affordability-near.png doesn't show the parent and siblings; it's a copy of the size preview. I checked distinctness against the full sheets instead.",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "At 24px and up: a house on a screen or monitor on a stand (a smart-home display or kiosk), not a yard sign. At 16px: an up-chevron in a box on a stem, which reads as 'upload' or 'arrow-up sign'.",
+   "problems": [
+    "agent-housing-affordability-near.png doesn't show the parent and siblings; it's a copy of the size preview. I checked distinctness against the full sheets instead."
+   ],
+   "fixes": [
+    "Redraw as a real yard sign: an L-shaped post (vertical post on the left plus a top crossbar), with the sign board hanging from the crossbar on two short links. This gets rid of the monitor-on-stand look.",
+    "Use the full 24px frame: post from about y=2 to y=22, and a board about 14 wide and 10 tall that fills the right and lower part. The overall shape should match its neighbours in size.",
+    "Make the house inside the board larger, at least about 60% of the board's height, with a clear roof peak and walls. At 16px draw a separate simplified house (pitched roof plus walls, no door) so it never collapses into a chevron.",
+    "At 16 and 20, drop the door, keep at least a 1.5px gap between the house and the board edge, and check that the solid knockout reads as a house shape, not a notch.",
+    "Keep the solid the same footprint: fill the board with the house knocked out, and keep the post and crossbar as strokes at the same weight as the outline."
+   ]
+  },
+  "cost": 1.14
  }
 ]
