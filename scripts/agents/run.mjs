@@ -20,7 +20,8 @@ const MODEL = { scout: process.env.MODEL_SCOUT || 'sonnet', draw: process.env.MO
 const RUN_CAP = +(process.env.MAX_USD_PER_RUN || 30); // stop starting new icons once the run's estimated spend passes this
 const DRY = process.env.DRY_RUN === '1'; // judge and log, but commit nothing
 const PARALLEL = Math.max(1, +(process.env.PARALLEL || 4)); // icons drawn at the same time (add mode), each in its own git worktree
-const FOCUS_RAW = process.env.FOCUS || '', TOPICS = /\+topics/.test(FOCUS_RAW), FOCUS = FOCUS_RAW.replace(/\+topics/, ''); // "fitch-2020+topics" = half that standard's titles, half topics; // e.g. fitch-2020: scout only that standard's titles (three levels deep), no topics
+const PRIORITY_ON = process.env.PRIORITY && new Date().toISOString().slice(0, 10) <= (process.env.PRIORITY_UNTIL || '0000'); // a timed default that expires on its own
+const FOCUS_RAW = process.env.FOCUS || (PRIORITY_ON ? process.env.PRIORITY : ''), TOPICS = /\+topics/.test(FOCUS_RAW), FOCUS = FOCUS_RAW.replace(/\+topics/, ''); // "fitch-2020+topics" = half that standard's titles, half topics; // e.g. fitch-2020: scout only that standard's titles (three levels deep), no topics
 const today = new Date().toISOString().slice(0, 10);
 let spent = 0;
 
