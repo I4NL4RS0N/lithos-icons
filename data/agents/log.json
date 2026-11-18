@@ -2514,5 +2514,39 @@
    ]
   },
   "cost": 1.14
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:49:09.229Z",
+  "mode": "add",
+  "id": "battery-supply-chain",
+  "name": "Battery Supply Chain",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Upright rounded bodies with narrow caps on top look more like gas cylinders, propane tanks or milk bottles than battery cells. Nothing marks them as batteries: no flat shoulder, no polarity mark and no charge band.; Nothing shows 'supply chain': no flow, link, arrow or sequence. At best it reads as 'batteries', and more likely as 'gas cylinders / industrial gases'.; Solid 24/32/48: the cells are packed so tightly that the gaps between them are hairlines. The row merges into one dark block",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A row of upright gas cylinders, bottles or test tubes on a shelf. It could be batteries, but nothing in it says supply chain.",
+   "problems": [
+    "Upright rounded bodies with narrow caps on top look more like gas cylinders, propane tanks or milk bottles than battery cells. Nothing marks them as batteries: no flat shoulder, no polarity mark and no charge band.",
+    "Nothing shows 'supply chain': no flow, link, arrow or sequence. At best it reads as 'batteries', and more likely as 'gas cylinders / industrial gases'.",
+    "Solid 24/32/48: the cells are packed so tightly that the gaps between them are hairlines. The row merges into one dark block with three bumps, so the separate cells are lost.",
+    "The near preview shows only this icon. It does not show the parent and siblings, so distinctness from the parent theme could not be checked.",
+    "The cell count changes between sizes (2 cells at 16, 3 at 20–48). That is acceptable as a per-size redraw, but it makes the 16px version read even more as two bottles."
+   ],
+   "fixes": [
+    "Use the standard battery picture: a flat-topped rectangular cell with a short, wide, square terminal nub (not a rounded cap). Add one horizontal charge band or level bar inside each outline cell so it reads as a battery, not a gas cylinder.",
+    "Add a clear supply-chain cue. Either draw a single battery with a small chain link or flow arrow joining it to a second node, or put the cell pack on a pallet/conveyor line with a short right-pointing arrow. Reuse an existing flow or chain metaphor from data/metaphors.json if there is one.",
+    "Solid: leave at least 1.5px (at 24px) of clear gap between cells, or knock out a charge band in each cell, so the cells stay separate. Make the footprint match the outline.",
+    "At 16px, draw a single horizontal battery with a terminal and one charge-bar knockout (plus the supply cue if it fits) instead of two tiny bottles.",
+    "Re-render the near preview with the parent and siblings so distinctness can be checked."
+   ]
+  },
+  "cost": 1.17
  }
 ]
