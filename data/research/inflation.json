@@ -1,0 +1,808 @@
+{
+  "concept": "inflation",
+  "query": "balloon",
+  "fetched": "2026-11-18T18:24:54.265Z",
+  "topTerms": [
+    [
+      "balloons",
+      30
+    ],
+    [
+      "party",
+      29
+    ],
+    [
+      "celebration",
+      29
+    ],
+    [
+      "balloon",
+      28
+    ],
+    [
+      "birthday",
+      21
+    ],
+    [
+      "decoration",
+      21
+    ],
+    [
+      "love",
+      9
+    ],
+    [
+      "festival",
+      9
+    ],
+    [
+      "heart",
+      8
+    ],
+    [
+      "event",
+      8
+    ],
+    [
+      "holiday",
+      6
+    ],
+    [
+      "new-year",
+      5
+    ],
+    [
+      "floating",
+      5
+    ],
+    [
+      "helium",
+      5
+    ],
+    [
+      "fun",
+      3
+    ],
+    [
+      "birthday-party",
+      3
+    ],
+    [
+      "birthday-and-party",
+      2
+    ],
+    [
+      "birthday-balloons",
+      2
+    ],
+    [
+      "celebration-balloons",
+      2
+    ],
+    [
+      "decorative-balloons",
+      2
+    ],
+    [
+      "party-balloons",
+      2
+    ],
+    [
+      "greeting",
+      2
+    ],
+    [
+      "couple",
+      2
+    ],
+    [
+      "relationship",
+      2
+    ],
+    [
+      "romance",
+      2
+    ],
+    [
+      "romantic",
+      2
+    ],
+    [
+      "air",
+      2
+    ],
+    [
+      "fly",
+      2
+    ],
+    [
+      "toy",
+      2
+    ],
+    [
+      "charity",
+      2
+    ],
+    [
+      "donation",
+      2
+    ],
+    [
+      "festive-event",
+      2
+    ],
+    [
+      "ornament_1",
+      2
+    ],
+    [
+      "ornament",
+      2
+    ],
+    [
+      "outdoor",
+      2
+    ],
+    [
+      "spring",
+      2
+    ],
+    [
+      "wedding",
+      2
+    ],
+    [
+      "hand-drawn",
+      1
+    ],
+    [
+      "festive",
+      1
+    ],
+    [
+      "carnival",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "balloons",
+            "birthday",
+            "decoration",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7783383-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "birthday",
+            "celebration",
+            "fun",
+            "hand-drawn",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1710892-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "birthday",
+            "birthday-and-party",
+            "celebration",
+            "heart",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8519822-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "balloons",
+            "birthday",
+            "celebration",
+            "decoration",
+            "new-year"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8519487-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "birthday-balloons",
+            "celebration-balloons",
+            "decorative-balloons",
+            "party-balloons"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8517075-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "birthday-balloons",
+            "celebration-balloons",
+            "decorative-balloons",
+            "party-balloons"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8517074-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "fun",
+            "greeting",
+            "holiday",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514655-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "fun",
+            "greeting",
+            "holiday",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514648-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514021-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "couple",
+            "love",
+            "relationship",
+            "romance",
+            "romantic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513871-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "couple",
+            "love",
+            "relationship",
+            "romance",
+            "romantic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513851-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "decoration",
+            "heart",
+            "love"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510964-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "decoration",
+            "heart",
+            "love"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510963-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "decoration",
+            "heart",
+            "love"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510959-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "decoration",
+            "heart",
+            "love"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510956-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "air",
+            "balloon",
+            "celebration",
+            "fly",
+            "party",
+            "toy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510792-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "celebration",
+            "decoration",
+            "new-year",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508921-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "event",
+            "festival",
+            "holiday",
+            "new-year",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508738-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "event",
+            "festival",
+            "holiday",
+            "new-year",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508705-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloon",
+            "balloons",
+            "birthday",
+            "celebration",
+            "decoration",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloon",
+            "balloons",
+            "birthday",
+            "celebration",
+            "decoration",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508399-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday-and-party",
+            "celebration",
+            "decoration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507635-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "air",
+            "balloon",
+            "celebration",
+            "fly",
+            "party",
+            "toy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "balloons",
+            "birthday-party",
+            "celebration",
+            "new-year"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8504395-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "celebration",
+            "decoration",
+            "festival",
+            "holiday",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8502169-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "charity",
+            "donation",
+            "event",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500078-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "charity",
+            "donation",
+            "event",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500048-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "decoration",
+            "festive",
+            "floating",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500015-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "celebration",
+            "decoration",
+            "event"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8498388-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "carnival",
+            "celebration",
+            "decoration",
+            "holiday"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494375-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "creepy",
+            "eerie",
+            "scary",
+            "spooky"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491324-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "birthday",
+            "birthday-party",
+            "celebration",
+            "festive-event",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491160-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "birthday",
+            "birthday-party",
+            "celebration",
+            "festive-event",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491147-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "festival",
+            "floating",
+            "helium",
+            "ornament_1"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490512-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "festival",
+            "floating",
+            "helium",
+            "ornament"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490511-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "festival",
+            "floating",
+            "helium",
+            "ornament_1"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490487-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "festival",
+            "floating",
+            "helium",
+            "ornament"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490486-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloon",
+            "balloons",
+            "birthday",
+            "celebration",
+            "decoration",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8489848-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloon",
+            "balloons",
+            "birthday",
+            "celebration",
+            "decoration",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8489844-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloon",
+            "balloons",
+            "decoration",
+            "event",
+            "festival",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488674-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "celebration",
+            "outdoor",
+            "party",
+            "spring"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486274-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "decoration",
+            "entertainment",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485508-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "heart",
+            "love",
+            "party",
+            "wedding"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8484846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloon",
+            "balloons",
+            "decoration",
+            "event",
+            "festival",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8483557-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "heart",
+            "love",
+            "party",
+            "wedding"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482866-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "decoration",
+            "helium",
+            "ornaments",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480489-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "balon",
+            "berpesta",
+            "dekorasi",
+            "happy",
+            "liburan"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475353-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "birthday",
+            "decoration",
+            "heart",
+            "love"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470638-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Balloon",
+          "tags": [
+            "balloon",
+            "celebration",
+            "outdoor",
+            "party",
+            "spring"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464593-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "balloons",
+          "tags": [
+            "balloons",
+            "celebration",
+            "congratulations",
+            "event",
+            "happiness",
+            "party"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460572-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

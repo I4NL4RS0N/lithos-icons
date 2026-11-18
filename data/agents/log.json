@@ -2338,5 +2338,41 @@
    ]
   },
   "cost": 1.05
+ },
+ {
+  "date": "2026-11-18",
+  "at": "2026-11-18T18:32:23.062Z",
+  "mode": "add",
+  "id": "inflation",
+  "name": "Inflation",
+  "kind": "theme",
+  "picture": "tag-uptrend",
+  "moves": "Higher inflation lifts yields and pushes down bonds, gold and rate-sensitive equities while supporting the dollar.",
+  "source": "https://www.ft.com/content/829844ba-849f-4d9c-a667-d65d2786ad2c",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A price tag with a rising arrow inside, i.e. prices going up. That is the standard picture for inflation and fits a finance audience.",
+   "problems": [
+    "previews/agent-inflation-near.png is the same image as agent-inflation.png. It does not show the parent or siblings, so I could only check distinctness against the full sheets. Nothing in the 24px or 16px sheet is a near-duplicate: us-dollar-strength is a chart over a banknote, climate-risk is a thermometer with an arrow.",
+    "At 16px outline the arrowhead comes within about 1px of the tag's top-right edge, so that corner is tight. It still reads, but only just.",
+    "At 16px solid the tag-hole knockout is a very small dot and could disappear on low-DPI screens.",
+    "Without context, the diagonal arrow inside a tag could be read as 'tag / external link' rather than 'price up'. The risk is small because there is no box around it."
+   ],
+   "fixes": [
+    "Optional polish: at 16px, shorten the arrow shaft by about 0.5px or pull the arrowhead toward the centre to give more room before the tag edge.",
+    "Optional polish: at 16px solid, make the hole knockout about 2px across so it survives rendering.",
+    "Regenerate the near preview so it actually shows the parent and siblings, for the record."
+   ]
+  },
+  "mapped": 0,
+  "why": "Persistent price pressure drives rate paths across assets.",
+  "cost": 0.56
  }
 ]

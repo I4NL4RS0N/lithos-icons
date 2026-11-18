@@ -1,0 +1,17 @@
+{
+  "id": "inflation",
+  "name": "Inflation",
+  "kind": "theme",
+  "metaphor": "tag-uptrend",
+  "keywords": [
+    "inflation",
+    "CPI",
+    "price pressures",
+    "cost of living",
+    "sticky inflation"
+  ],
+  "reduction": "A price tag set on the diagonal (pointed end top-left, string hole near the point) with a rising arrow drawn across the tag, pointing to the top-right. 16: hole is a dot, short arrow with small head. 20+: hole becomes a small ring; arrow grows. Solid: tag filled with the hole and arrow knocked out.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
