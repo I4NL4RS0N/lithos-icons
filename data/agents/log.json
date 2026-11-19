@@ -3233,5 +3233,40 @@
    ]
   },
   "cost": 1.79
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T19:10:29.093Z",
+  "mode": "add",
+  "id": "emerging-market-currencies",
+  "name": "Emerging Market Currencies",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The coin cue disappears at 16, 20 and 24px. Those sizes have no inner rim, so the shape is just a circle with an arrow and reads as a generic 'trending down' or 'loss' UI badge, not a currency.; The design changes meaning between sizes. 32/48 is a two-ring coin and 16–24 is a single ring, so the set looks inconsistent across sizes, not just simplified.; Even with the rim it says 'falling currency/value' with nothing for 'emerging'. A finance professional would say 'currency depreciation' ",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 16–24px: a plain circle with a down-trending zigzag arrow, the generic 'trending down / decline' badge. Only at 32/48 does the inner rim make it look like a coin. Nothing suggests 'currency' or 'emerging market' at the sizes people will mostly use.",
+   "problems": [
+    "The coin cue disappears at 16, 20 and 24px. Those sizes have no inner rim, so the shape is just a circle with an arrow and reads as a generic 'trending down' or 'loss' UI badge, not a currency.",
+    "The design changes meaning between sizes. 32/48 is a two-ring coin and 16–24 is a single ring, so the set looks inconsistent across sizes, not just simplified.",
+    "Even with the rim it says 'falling currency/value' with nothing for 'emerging'. A finance professional would say 'currency depreciation' or 'downtrend', not EM currencies.",
+    "Solid 16px: the zigzag and arrowhead knockout is tiny and the head clogs into a blob. The knockout sits small inside the disc and is hard to read.",
+    "Solid 16/20: the knocked-out zigzag uses only the middle of the disc, which leaves a heavy black mass compared with neighbours like us-dollar-strength or safe-haven-gold.",
+    "In the sheet, the circle-with-arrow icon looks like a stock 'circle arrow down-right' glyph more than a drawn Lithos metaphor, and it is close in spirit to standard 'trending_down' icons."
+   ],
+   "fixes": [
+    "Make the coin read as a coin at every size. Keep an inner rim or edge ticks at 16/20/24 (redrawn per size), or show a coin in side/3-quarter view with an edge thickness, or use a small stack of 2 coins.",
+    "Move the falling zigzag off the coin face. Put a smaller coin at upper-left and a bold zigzag-down arrow that leaves it toward the lower-right and reaches the frame edge, so the picture is 'coin + falling line', not 'arrow in a circle'.",
+    "Add a secondary cue for 'emerging', for example a small sprout or up-rising base line under the coin, or a globe segment, but only if it stays open at 16px. Check data/metaphors.json for an existing 'emerging' metaphor first.",
+    "Solid: knock out a larger, simpler zigzag with fewer segments (2 bends) and a bigger arrowhead at 16/20, with at least 1.5px gaps, so the arrow stays legible inside the filled disc.",
+    "At 16px, reduce the zigzag to one bend plus the arrowhead so the strokes don't merge."
+   ]
+  },
+  "cost": 2.23
  }
 ]
