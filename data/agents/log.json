@@ -3160,5 +3160,39 @@
   "mapped": 0,
   "why": "US firms turn to robots to ease labour shortages, a multi-year capex trend.",
   "cost": 0.49
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T18:54:36.471Z",
+  "mode": "add",
+  "id": "prisons",
+  "name": "Prisons",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Recognisability: the icon is just a rectangle filled with evenly spaced vertical bars. Nothing tells you it is a prison: it has no crossbar, lock, door or wall context. It reads as a vent, radiator grille or storage crate as easily as cell bars.; Solid: the solid version is not really a solid treatment. It is the outline with thicker bars and a heavier frame. On sheet-24 and sheet-16 the outline and solid rows look almost the same, while every other icon in the set fills its main mass in ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A rounded square with 3 vertical bars inside. It could be a grille, radiator, air vent, crate or barcode. It only reads as jail bars if you already know the label.",
+   "problems": [
+    "Recognisability: the icon is just a rectangle filled with evenly spaced vertical bars. Nothing tells you it is a prison: it has no crossbar, lock, door or wall context. It reads as a vent, radiator grille or storage crate as easily as cell bars.",
+    "Solid: the solid version is not really a solid treatment. It is the outline with thicker bars and a heavier frame. On sheet-24 and sheet-16 the outline and solid rows look almost the same, while every other icon in the set fills its main mass in the solid version (hospitals, media, packaging, software).",
+    "Small sizes: at 16px the solid version has 3 thick bars plus the frame in about 12px, which leaves gaps of about 1px. It looks like a dense stripe pattern and is close to clogging. At 16 and 20 the evenly spaced bars look like a barcode or texture rather than an object.",
+    "Consistency: the level of detail is lower than its neighbours. It is an abstract pattern in a box, while the rest of the set draws real objects with a distinct silhouette. At 48px the long, unbroken bars make the icon heavier and more grid-like than the set.",
+    "Generic boxed-grid silhouette. It is close in shape to other boxed icons (reits, data-centres, construction-materials) and adds nothing that would make it stand out."
+   ],
+   "fixes": [
+    "Add one horizontal crossbar about 1/3 from the top (or a top and a bottom rail) that crosses the vertical bars. This turns the grille into a cell door.",
+    "Add a small lock or keyhole plate on the crossbar or on one side so the door reads as locked. Or make the frame a barred window set in a wall or a simple building silhouette, so it reads as a prison rather than a vent.",
+    "Use 3 bars at 24/32/48 and only 2 bars at 16 and 20, with at least 2px gaps. Drop the frame to the top and bottom rails at 16 so the counters stay open.",
+    "Redraw the solid version as a real solid: fill the door or building mass and cut the bars or lock in as knockouts, or fill a backdrop panel behind the bars. Keep the outline footprint.",
+    "Shorten the bars visually with the crossbar(s) so the 48px version does not read as a large striped box. Check that stroke weight matches neighbours such as hospitals and packaging."
+   ]
+  },
+  "cost": 1.28
  }
 ]
