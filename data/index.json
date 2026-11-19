@@ -137,6 +137,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "labour-automation",
+    "name": "Labour Automation",
+    "kind": "theme",
+    "metaphor": "robot-arm",
+    "keywords": [
+      "automation",
+      "robotics",
+      "labour shortage",
+      "humanoid robots",
+      "productivity"
+    ],
+    "reduction": "Industrial robot arm at every size: domed base on a floor line, upper arm rising to a round elbow joint, forearm reaching right to a two-jaw gripper pointing down. 16 and 20: base, elbow, two links and a square gripper only, with a taller dome and larger elbow so both stay open; solid elbow is a plain disc. 24: solid elbow gets a pivot knockout. 32 and 48: a pivot dot on the base and gripper jaws that turn inward at the tips.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "life-settlements",
     "name": "Life Settlements",
     "kind": "industry",

@@ -1,0 +1,734 @@
+{
+  "concept": "labour-automation",
+  "query": "robot arm",
+  "fetched": "2026-11-19T18:42:55.084Z",
+  "topTerms": [
+    [
+      "robot-arm",
+      47
+    ],
+    [
+      "robotic-arm",
+      45
+    ],
+    [
+      "robot",
+      38
+    ],
+    [
+      "arm",
+      37
+    ],
+    [
+      "robotics",
+      25
+    ],
+    [
+      "robot arm",
+      21
+    ],
+    [
+      "robotic arm",
+      15
+    ],
+    [
+      "robotic",
+      12
+    ],
+    [
+      "automation",
+      11
+    ],
+    [
+      "industrial-arm",
+      8
+    ],
+    [
+      "technology",
+      6
+    ],
+    [
+      "industry",
+      4
+    ],
+    [
+      "industrial-robot",
+      3
+    ],
+    [
+      "mechanical-arm",
+      3
+    ],
+    [
+      "robots",
+      2
+    ],
+    [
+      "robotic arm operator",
+      1
+    ],
+    [
+      "robotic-arm-controller",
+      1
+    ],
+    [
+      "robotic-arm-manager",
+      1
+    ],
+    [
+      "robotic-arm-operator",
+      1
+    ],
+    [
+      "industrial machine",
+      1
+    ],
+    [
+      "industrial-machine",
+      1
+    ],
+    [
+      "artificial-intelligence",
+      1
+    ],
+    [
+      "industrial",
+      1
+    ],
+    [
+      "robot-assistant",
+      1
+    ],
+    [
+      "manufacture",
+      1
+    ],
+    [
+      "manufacturing",
+      1
+    ],
+    [
+      "hand",
+      1
+    ],
+    [
+      "bionic",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8277261-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206584-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4454299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "industrial-arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3929019-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8312702-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8312696-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8312687-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8277260-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206585-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206583-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8206582-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6877957-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6492261-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6492246-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robotic arm operator",
+          "tags": [
+            "robot-arm",
+            "robotic-arm",
+            "robotic-arm-controller",
+            "robotic-arm-manager",
+            "robotic-arm-operator"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6436955-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotics",
+          "tags": [
+            "industrial-robot",
+            "mechanical-arm",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5920654-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5565090-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "industrial-arm",
+            "robot-arm",
+            "robotic",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5152377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotics",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4548549-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4454077-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "industrial machine",
+          "tags": [
+            "arm",
+            "industrial-arm",
+            "industrial-machine",
+            "robot",
+            "robot-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3928997-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475231-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8412369-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8412350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8350669-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8151852-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8151851-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8151850-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8151849-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "automation",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8127631-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robotic",
+          "tags": [
+            "industry",
+            "robot",
+            "robot-arm",
+            "robotic",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8086170-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotics",
+          "tags": [
+            "industrial-robot",
+            "mechanical-arm",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7908705-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robot",
+          "tags": [
+            "industry",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics",
+            "robots"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7445262-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robot",
+          "tags": [
+            "industry",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics",
+            "robots"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7445250-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "automation",
+          "tags": [
+            "arm",
+            "automation",
+            "industry",
+            "robot",
+            "robot-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7192457-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "artificial-intelligence",
+            "automation",
+            "industrial",
+            "industrial-arm",
+            "robot",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7072562-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6987588-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robot arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6987572-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "robotic",
+          "tags": [
+            "arm",
+            "robotic",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6820384-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robot",
+          "tags": [
+            "robot",
+            "robot-arm",
+            "robot-assistant",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6651909-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotics",
+          "tags": [
+            "industrial-robot",
+            "mechanical-arm",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5920660-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "manufacture",
+            "manufacturing",
+            "robot-arm",
+            "robotic-arm"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5565083-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Hand",
+          "tags": [
+            "arm",
+            "bionic",
+            "hand",
+            "robot-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5373477-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "automation",
+          "tags": [
+            "arm",
+            "automation",
+            "robot-arm",
+            "robotic",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5180630-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5144827-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "industrial-arm",
+            "robot-arm",
+            "robotic",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5035086-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "industrial-arm",
+            "robot-arm",
+            "robotic",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5035042-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "industrial-arm",
+            "robot",
+            "robot-arm",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4454413-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "industrial-arm",
+            "robot",
+            "robotic-arm",
+            "robotics"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4454148-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Robotic arm",
+          "tags": [
+            "arm",
+            "robot-arm",
+            "robotic",
+            "robotic-arm",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4231043-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

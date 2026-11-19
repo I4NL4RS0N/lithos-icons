@@ -3125,5 +3125,40 @@
    ]
   },
   "cost": 1.98
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T18:50:06.677Z",
+  "mode": "add",
+  "id": "labour-automation",
+  "name": "Labour Automation",
+  "kind": "theme",
+  "picture": "robot-arm",
+  "moves": "Labour shortages lift capex on robotics and automation, benefiting industrial machinery and sensor makers while affecting wage inflation.",
+  "source": "https://www.ft.com/content/747f5533-1bab-4143-a78b-ed4e2b575340",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "An industrial robot arm: a dome base, an upper arm rising to an elbow joint, and a forearm reaching down-right to a two-finger gripper. With the 'theme' context it reads as automation or robotics replacing manual work.",
+   "problems": [
+    "The 'near' preview only shows the icon by itself, without its parent or siblings, so I could only check distinctness against the full sheets. On the sheets it is clearly different from construction (crane), machinery (gear), industrials (factory) and employment-activities (badge).",
+    "At 16px the gripper shrinks to a small 'Π' with stub fingers, and the elbow circle sits close to the arm. It is still legible but this is the weakest size. Without the gripper the shape could pass for a desk lamp (dome base, jointed arm, round head).",
+    "Most of the weight sits low and on the left. The top-right quadrant stays mostly empty at every size, so it looks a little lighter than dense neighbours like data-centres or accounting-services, though it still uses the full frame width and height.",
+    "The solid version mostly just fills in the dome base and the elbow. The arm and gripper stay as strokes, so the solid and outline versions look very alike (acceptable, and other solids in the set like construction and oil-gas work the same way)."
+   ],
+   "fixes": [
+    "Optional polish: at 16px, make the gripper fingers 1px longer and the jaw opening a bit wider so the claw reads clearly as a gripper, not a lamp shade or a 'Π'.",
+    "Optional polish: at 16/20px, leave at least 1px more clear space between the elbow circle and the forearm stroke so the joint doesn't merge."
+   ]
+  },
+  "mapped": 0,
+  "why": "US firms turn to robots to ease labour shortages, a multi-year capex trend.",
+  "cost": 0.49
  }
 ]
