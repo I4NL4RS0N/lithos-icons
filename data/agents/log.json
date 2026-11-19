@@ -3085,5 +3085,45 @@
    ]
   },
   "cost": 1.65
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T18:42:54.375Z",
+  "mode": "add",
+  "id": "manufactured-housing",
+  "name": "Manufactured Housing",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The outline shape is broken. There is no floor or chassis line between the door and the right wall, so the house is open at the bottom right and the right wall just stops in mid-air.; The left 'hitch' is a short L-stub that joins the door rather than a chassis bar running under the house. It reads as a stray stroke, not a tow hitch.; The wheel overlaps the bottom-right corner and sticks out below the footprint. Nothing visible holds it up, so the 'on wheels' idea is lost.; The roof is a t",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a house outline with a door and a wheel, with no floor or chassis, so it looks like a broken house or a shed. At 16–24: a blob with a dot, like a padlock, a bell or a speech bubble. It does not clearly read as a home on a trailer.",
+   "problems": [
+    "The outline shape is broken. There is no floor or chassis line between the door and the right wall, so the house is open at the bottom right and the right wall just stops in mid-air.",
+    "The left 'hitch' is a short L-stub that joins the door rather than a chassis bar running under the house. It reads as a stray stroke, not a tow hitch.",
+    "The wheel overlaps the bottom-right corner and sticks out below the footprint. Nothing visible holds it up, so the 'on wheels' idea is lost.",
+    "The roof is a tall, narrow gable on a nearly square body. A mobile home's key feature is a long, low rectangular box, and this proportion just looks like the parent Real Estate house.",
+    "At 16px the outline drops the door completely and is a different drawing from 20/24. It shrinks to a tiny pentagon plus a dot that cannot be told apart from other glyphs.",
+    "Footprint: at 16/20/24 the glyph is clearly smaller than its neighbours (Real Estate, REITs). It looks about 60–70% of their visual size and floats high in the box.",
+    "Solid: at 16/20 the wheel knockout and door merge into a blob. At 48 the bottom edge of the solid body has the same open, ragged base as the outline, and the wheel is a disc sitting on the corner, not a clear knockout. The solid footprint also differs from the outline (the solid's left stub sits lower).",
+    "The detail level is uneven across sizes: there is a door at 20–48, no door at 16, and the wheel ring changes from a single dot to a double ring."
+   ],
+   "fixes": [
+    "Redraw the 24px master as a wide, low rectangular box, about 18×9px. Give it a shallow roof: either a very low gable or a flat roof with a small overhang. It should read as a long single-wide home, not a gabled house.",
+    "Draw a continuous chassis/floor line along the full width under the box. Extend it about 2–3px to the left and end it in a small A-frame or a short angled tow hitch.",
+    "Put one or two small wheels (r≈2, ring with a hollow centre in outline) fully below the chassis, inside the box area, and centre them. They must not overlap the body corners.",
+    "Add one or two small square windows plus a door, or just windows at 16px. Keep strokes and corners the same as the Real Estate glyph.",
+    "Fill the frame: match the width of the Real Estate glyph at each size and sit on the same baseline. Use the extra horizontal space a wide home allows.",
+    "At 16px, redraw by hand: a box, a chassis line, a hitch tick and one wheel ring, with no door. Keep at least 1px gaps so nothing clogs.",
+    "Solid: fill the box, and leave the window/door knockouts and a gap between body and wheel. Make the wheel a solid disc with a centre knockout. The outer silhouette must match the outline exactly.",
+    "Check data/metaphors.json for an existing house/vehicle/wheel metaphor and reuse its wheel and chassis geometry."
+   ]
+  },
+  "cost": 1.98
  }
 ]
