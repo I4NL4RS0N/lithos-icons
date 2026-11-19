@@ -3194,5 +3194,44 @@
    ]
   },
   "cost": 1.28
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T18:59:57.908Z",
+  "mode": "add",
+  "id": "sovereign-bond-yields",
+  "name": "Sovereign Bond Yields",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: 16px drops the globe completely. What's left is an L-shaped axis with a short curve and two dots, so it reads as a generic line chart and the 'sovereign' meaning is lost. The 16px shape also differs from the other sizes.; At 20px and 24px the globe is tiny (about 7–8px across) and pushed into the bottom-right corner under the curve. Its meridian and equator lines clog into a blob, and the curve's end dots crowd the globe's top edge.; There are too many marker dots on the curve (three or f",
+  "scores": {
+   "reads_as": "A line or yield chart with a small globe tucked into the corner at 20–48px. At 16px the globe is gone and it reads only as a generic curve or line chart.",
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "problems": [
+    "16px drops the globe completely. What's left is an L-shaped axis with a short curve and two dots, so it reads as a generic line chart and the 'sovereign' meaning is lost. The 16px shape also differs from the other sizes.",
+    "At 20px and 24px the globe is tiny (about 7–8px across) and pushed into the bottom-right corner under the curve. Its meridian and equator lines clog into a blob, and the curve's end dots crowd the globe's top edge.",
+    "There are too many marker dots on the curve (three or four at 24 and 48, packed close together near the y-axis). At 20 and 24 they merge with the axis stroke into a beaded smear. This is more detail than neighbours like capital-markets and us-dollar-strength carry.",
+    "At 16px the solid is effectively the same as the outline: no filled area and no knockout. Solid and outline can't be told apart in sheet-16.",
+    "At 20 and 24 the solid globe is a small filled disc with a thin knocked-out ellipse that is barely readable. At 32 and 48 the solid globe looks like the 'theta' version of the parent icon, not a globe.",
+    "The weight is uneven. The axis and curve strokes look heavier than the globe's inner lines, and at 48 the curve is thinner than the axes.",
+    "The composition sits off-balance. The ink is concentrated on the left axis and bottom-right, the upper-left area inside the axes is mostly empty, and the curve ends clip at the top-right corner.",
+    "The picture is too close to the generic 'chart with a growth curve' idea and doesn't tie strongly enough to the parent icon (sovereigns, a full globe). It's also hard to tell apart from other chart icons (capital-markets, us-dollar-strength trend arrow) at small sizes."
+   ],
+   "fixes": [
+    "Keep the globe at every size, including 16. Draw a hand-tuned 16px version with a simplified globe (circle plus one meridian ellipse, no equator) about 7–8px across, with the curve kept clear of it.",
+    "Change the layout so the globe is the main element: a parent-style globe of about 14–16px at the 24 master in the lower-left or centre, with a single rising yield-curve stroke (concave, steep at first then flattening) passing above it or out of it. An alternative is a globe with a short yield-curve badge. Drop the full L-axis, or keep only the baseline.",
+    "Cut the curve markers to at most one end dot (or none) at 16, 20 and 24, keeping 2px or more of clear space between the dots and the other strokes.",
+    "Draw a real solid at every size. Fill the globe disc and knock out the meridian and equator with the same knockout pattern as the solid sovereigns icon, and keep the curve as a stroke. Make sure 16px solid visibly differs from the outline.",
+    "Use the set's master stroke weight for every stroke (axes, curve, globe lines) and check it at 48 so the curve isn't thinner than the axes.",
+    "Fill the frame as fully as the neighbours do. Use the full 24 live area, balance the ink across the empty upper-left area, and keep the curve end inside the safe area instead of clipping the corner.",
+    "Check data/metaphors.json for an existing yield-curve or globe pairing and reuse it, as CLAUDE.md requires."
+   ]
+  },
+  "cost": 1.79
  }
 ]
