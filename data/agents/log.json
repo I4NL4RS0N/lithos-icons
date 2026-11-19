@@ -3015,5 +3015,39 @@
    ]
   },
   "cost": 1.01
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T18:40:20.898Z",
+  "mode": "add",
+  "id": "life-settlements",
+  "name": "Life Settlements",
+  "kind": "industry",
+  "picture": "policy-hourglass",
+  "result": "added",
+  "attempts": 2,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A policy document with an hourglass on it: a time-bound or maturing policy. It matches the intended policy-hourglass metaphor. \"Life settlements\" is an abstract concept, but the picture is clear and fits it.",
+   "problems": [
+    "16px outline: the folded corner nearly disappears at true size, so the shape can read as a plain rounded tile or phone, not a document. In sheet-16 the fold is visible but faint.",
+    "16px outline: the hourglass sits tight against the inner sides of the document, with only about 1px of air. It is legible but close to crowded.",
+    "16px solid: the frame looks a little narrower than the 16px outline in the agent preview. It is within tolerance but worth checking. The sand detail is correctly dropped at 16 and 20.",
+    "The hourglass top and bottom bars are flat lines. At 24px and up they look slightly lighter than the stroke weight of neighbours such as clo and hospitals. This is minor."
+   ],
+   "fixes": [
+    "Optional for a later pass: at 16px, make the folded corner a little larger (about 3px) so the document silhouette holds at true size.",
+    "Optional: at 16px, narrow the hourglass by about 0.5px on each side to give more air inside the document.",
+    "Optional: check that the 16px solid document is the same width as the 16px outline."
+   ]
+  },
+  "mapped": 1,
+  "why": "Fitch 2.1.11 has no own icon it is a niche of insurance-linked securitisation.",
+  "cost": 2.13
  }
 ]

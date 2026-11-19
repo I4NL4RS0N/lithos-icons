@@ -1,0 +1,840 @@
+{
+  "concept": "life-settlements",
+  "query": "hourglass document",
+  "fetched": "2026-11-19T18:21:50.735Z",
+  "topTerms": [
+    [
+      "document",
+      45
+    ],
+    [
+      "hourglass",
+      45
+    ],
+    [
+      "time",
+      19
+    ],
+    [
+      "file",
+      12
+    ],
+    [
+      "date",
+      8
+    ],
+    [
+      "clock",
+      8
+    ],
+    [
+      "paper",
+      7
+    ],
+    [
+      "file-page",
+      5
+    ],
+    [
+      "paper-sheet",
+      5
+    ],
+    [
+      "document hourglass",
+      4
+    ],
+    [
+      "document-hourglass",
+      4
+    ],
+    [
+      "report",
+      4
+    ],
+    [
+      "office-document",
+      4
+    ],
+    [
+      "clipboard",
+      4
+    ],
+    [
+      "business",
+      4
+    ],
+    [
+      "stopwatch",
+      3
+    ],
+    [
+      "file-paper",
+      3
+    ],
+    [
+      "paper-work",
+      3
+    ],
+    [
+      "sandglass",
+      3
+    ],
+    [
+      "waiting",
+      3
+    ],
+    [
+      "lists",
+      3
+    ],
+    [
+      "history",
+      3
+    ],
+    [
+      "contract",
+      3
+    ],
+    [
+      "hourglass file",
+      3
+    ],
+    [
+      "hourglass-file",
+      3
+    ],
+    [
+      "loading",
+      3
+    ],
+    [
+      "page",
+      3
+    ],
+    [
+      "loading file",
+      3
+    ],
+    [
+      "loading-file",
+      3
+    ],
+    [
+      "office",
+      3
+    ],
+    [
+      "watch",
+      2
+    ],
+    [
+      "log file",
+      2
+    ],
+    [
+      "log-file",
+      2
+    ],
+    [
+      "scroll",
+      2
+    ],
+    [
+      "execution-time",
+      2
+    ],
+    [
+      "times",
+      2
+    ],
+    [
+      "task",
+      2
+    ],
+    [
+      "pending",
+      2
+    ],
+    [
+      "waiting documents",
+      2
+    ],
+    [
+      "businesss",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "document hourglass",
+          "tags": [
+            "doc",
+            "document",
+            "document-hourglass",
+            "stopwatch",
+            "watch",
+            "word"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5974981-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "document hourglass",
+          "tags": [
+            "document-hourglass",
+            "file-page",
+            "file-paper",
+            "paper-sheet",
+            "paper-work",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/590318-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "document hourglass",
+          "tags": [
+            "document-hourglass",
+            "file-page",
+            "file-paper",
+            "office-document",
+            "paper-sheet",
+            "paper-work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/588936-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "document hourglass",
+          "tags": [
+            "document-hourglass",
+            "file-page",
+            "file-paper",
+            "office-document",
+            "paper-sheet",
+            "paper-work"
+          ],
+          "thumb": "https://static.thenounproject.com/png/588911-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "LOG File",
+          "tags": [
+            "document",
+            "hourglass",
+            "log-file",
+            "sandglass",
+            "scroll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7894561-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "execution time",
+          "tags": [
+            "document",
+            "execution-time",
+            "hourglass",
+            "time",
+            "times"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6090935-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Processing",
+          "tags": [
+            "document",
+            "file",
+            "hourglass",
+            "processing",
+            "waiting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5940778-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "deadline",
+          "tags": [
+            "deadline",
+            "deadline",
+            "document",
+            "hourglass",
+            "task",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7906979-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "pending task",
+          "tags": [
+            "delay",
+            "document",
+            "hourglass",
+            "pending",
+            "pending-task",
+            "task"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6439694-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "waiting documents",
+          "tags": [
+            "businesss",
+            "commerce",
+            "documents",
+            "finance",
+            "hourglass",
+            "waiting-documents"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5151018-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "waiting documents",
+          "tags": [
+            "businesss",
+            "commerce",
+            "documents",
+            "finance",
+            "hourglass",
+            "waiting-documents"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5150995-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "clipboard",
+          "tags": [
+            "clipboard",
+            "date",
+            "document",
+            "file",
+            "hourglass",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5062101-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "clipboard",
+          "tags": [
+            "clipboard",
+            "date",
+            "document",
+            "hourglass",
+            "lists",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5062094-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "clipboard",
+          "tags": [
+            "clipboard",
+            "date",
+            "document",
+            "hourglass",
+            "lists",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5061975-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "clipboard",
+          "tags": [
+            "clipboard",
+            "date",
+            "document",
+            "hourglass",
+            "lists",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5061973-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "order history",
+          "tags": [
+            "document",
+            "history",
+            "hourglass",
+            "linear",
+            "list",
+            "order-history"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4650706-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Banking and finance",
+          "tags": [
+            "banking-and-finance",
+            "business",
+            "contract",
+            "document",
+            "hourglass",
+            "paper"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3434478-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass file",
+          "tags": [
+            "document",
+            "file",
+            "hourglass",
+            "hourglass-file",
+            "sheet",
+            "stopwatch"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2532841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass file",
+          "tags": [
+            "document",
+            "file",
+            "hourglass",
+            "hourglass-file",
+            "sheet",
+            "stopwatch"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2532651-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "File Loading",
+          "tags": [
+            "document",
+            "file",
+            "file-loading",
+            "hourglass",
+            "loading",
+            "page"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1282337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Loading Folder",
+          "tags": [
+            "document",
+            "folder",
+            "function",
+            "hourglass",
+            "loading",
+            "loading-folder"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1134972-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "loading file",
+          "tags": [
+            "document",
+            "file",
+            "hourglass",
+            "loading-file",
+            "paper",
+            "write"
+          ],
+          "thumb": "https://static.thenounproject.com/png/767357-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "loading file",
+          "tags": [
+            "document",
+            "file",
+            "hourglass",
+            "loading-file",
+            "paper",
+            "write"
+          ],
+          "thumb": "https://static.thenounproject.com/png/767285-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "LOG File",
+          "tags": [
+            "document",
+            "hourglass",
+            "log-file",
+            "log-file",
+            "sandglass",
+            "scroll"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7894585-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "time log",
+          "tags": [
+            "document",
+            "history",
+            "hourglass",
+            "task-planning",
+            "time-log",
+            "transaction-history"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6442688-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "time log",
+          "tags": [
+            "document",
+            "history",
+            "hourglass",
+            "task-planning",
+            "time-log",
+            "transaction-history"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6336141-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Medical History",
+          "tags": [
+            "document",
+            "health",
+            "hourglass",
+            "medical",
+            "medical-history",
+            "medical-record"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2428557-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Medical History",
+          "tags": [
+            "document",
+            "health",
+            "hourglass",
+            "medical",
+            "medical-history",
+            "medical-record"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2428512-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "loading file",
+          "tags": [
+            "document",
+            "file-page",
+            "hourglass",
+            "loading-file",
+            "office-document",
+            "paper-sheet",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/596669-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ephemeral",
+          "tags": [
+            "digial",
+            "digital-media",
+            "document",
+            "ephemeral",
+            "hourglass",
+            "short-lasting",
+            "sketchathon",
+            "temporary",
+            "time",
+            "timer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/60769-84.png",
+          "licence": "public-domain"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "agreement",
+            "contract",
+            "deal",
+            "document",
+            "hourglass",
+            "paper"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6826300-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "agreement",
+            "contract",
+            "deal",
+            "document",
+            "hourglass",
+            "paper"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6826274-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "document",
+            "execution-time",
+            "hourglass",
+            "time",
+            "times"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6090963-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "checklist",
+            "document",
+            "hour",
+            "hourglass",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5795767-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "business",
+            "clock",
+            "document",
+            "hourglass",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5640055-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "business",
+            "clock",
+            "document",
+            "hourglass",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5640034-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "date",
+            "document",
+            "file",
+            "hourglass",
+            "paper",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5062082-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "date",
+            "document",
+            "file",
+            "hourglass",
+            "pending",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5062065-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "clock",
+            "date",
+            "document",
+            "file",
+            "hourglass",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5061997-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "clock",
+            "date",
+            "document",
+            "file",
+            "hourglass",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5061974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Document",
+          "tags": [
+            "data",
+            "document",
+            "hourglass",
+            "paper",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4715427-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "clock",
+            "document",
+            "hourglass",
+            "time",
+            "waiting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3471990-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "clock",
+            "document",
+            "hourglass",
+            "time",
+            "waiting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3468355-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "alarm",
+            "document",
+            "files",
+            "hourglass",
+            "time",
+            "watch"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3436703-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "document",
+            "files",
+            "hourglass",
+            "time",
+            "wait"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3436465-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Document",
+          "tags": [
+            "clock",
+            "document",
+            "hourglass",
+            "page",
+            "time"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2253248-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "business",
+            "clock",
+            "document",
+            "essentials",
+            "hourglass",
+            "office"
+          ],
+          "thumb": "https://static.thenounproject.com/png/897977-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass file",
+          "tags": [
+            "document",
+            "file-page",
+            "hourglass-file",
+            "office-document",
+            "paper-sheet",
+            "report"
+          ],
+          "thumb": "https://static.thenounproject.com/png/596636-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "hourglass",
+          "tags": [
+            "archer",
+            "click",
+            "document",
+            "hourglass",
+            "load",
+            "resume",
+            "sand",
+            "sign",
+            "time",
+            "timer",
+            "timing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/456767-84.png",
+          "licence": "public-domain"
+        },
+        {
+          "title": "File Loading",
+          "tags": [
+            "computer",
+            "design",
+            "document",
+            "file",
+            "file-loading",
+            "hourglass",
+            "illustration",
+            "load",
+            "loading",
+            "page",
+            "process",
+            "sandglass",
+            "shape",
+            "signs",
+            "solid-icon",
+            "ui",
+            "user-interface",
+            "wait"
+          ],
+          "thumb": "https://static.thenounproject.com/png/71742-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

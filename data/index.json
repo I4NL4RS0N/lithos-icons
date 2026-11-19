@@ -137,6 +137,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "life-settlements",
+    "name": "Life Settlements",
+    "kind": "industry",
+    "parent": "insurance",
+    "metaphor": "policy-hourglass",
+    "keywords": [
+      "life settlements",
+      "life policies",
+      "policy secondary market",
+      "longevity risk"
+    ],
+    "reduction": "Every size: a portrait policy page with a clipped top-right corner and an hourglass (two end bars wider than the glass, pinched waist) centred in it. 16: small clipped corner, no flap, straight-sided empty glass about 5px wide with ≥1.5px clear to the page. 20: fold flap, straight empty glass. 24+: bulbs bow outward. 32+: a low sand mound (plain curve) in the bottom bulb. Solid: page with the whole hourglass knocked out (caps 1px wider than the bulbs, open waist); 24+: a filled sand mound in the bottom bulb.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "medical-devices",
     "name": "Medical Devices",
     "kind": "industry",
