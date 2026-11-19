@@ -2980,5 +2980,40 @@
    "At 16px outline, the tailplane and the back of the body run together into a small cluster. It still reads, but it is the weakest part of the icon. At 16px it also looks a little lighter and smaller than its neighbours, the gear and the bin."
   ],
   "cost": 0.11
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T18:37:24.850Z",
+  "mode": "add",
+  "id": "public-power",
+  "name": "Public Power",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The outline is only bare strokes: one vertical, two horizontals and two tiny upturned ends. Without insulators or hanging wires it reads as an antenna or a cross as much as a power pole, and there is nothing to tie it to its parent's electricity bolt.; At 16px outline the two crossarms are nearly touching, so the top turns into a dense comb or 王 shape. The upturned end ticks are only about 1px tall and become specks.; The solid isn't a solid version of the same drawing. It's a heavy slab ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A bare pole with crossarms: a utility pole if you're looking for one, but just as easily a TV antenna, a grave cross, or a 王/士-like glyph. Nothing marks it as an electricity pole (no insulators, wires or transformer).",
+   "problems": [
+    "The outline is only bare strokes: one vertical, two horizontals and two tiny upturned ends. Without insulators or hanging wires it reads as an antenna or a cross as much as a power pole, and there is nothing to tie it to its parent's electricity bolt.",
+    "At 16px outline the two crossarms are nearly touching, so the top turns into a dense comb or 王 shape. The upturned end ticks are only about 1px tall and become specks.",
+    "The solid isn't a solid version of the same drawing. It's a heavy slab with a tapered wedge pole that is far wider at the base than the outline pole, so the footprint and silhouette differ from the outline.",
+    "The solid has no knockouts at all. At 16 and 20px the two crossarms merge into one black bar with bumps, and the second arm can't be seen.",
+    "The solid looks much heavier than its neighbours (rental-leasing, residential-care, safe-haven-gold), which keep stroke-like proportions. The tapered pole is a style the set doesn't use anywhere else.",
+    "Outline weight is fine, but the drawing is sparser than the set's typical level of detail: neighbouring icons have 2–3 parts, and this has nothing but lines."
+   ],
+   "fixes": [
+    "Add clear power-pole cues. Put small insulator nubs (short vertical stubs or small circles) on top of the upper crossarm, at both ends and optionally in the centre, and/or two short sagging wire arcs leaving the arm ends toward the frame edges. Optionally hang a small transformer can (rounded rect) off one side of the pole below the arms.",
+    "Use one long crossarm, or space the two arms clearly apart: at least 3px of clear gap at 24px, redrawn for 16px so the gap is still at least 2px. At 16px drop the second arm entirely rather than cramping it.",
+    "Rebuild the solid from the outline geometry. Keep the pole as a straight, uniform-width bar the same width as the outline (no taper), and keep the same overall footprint as the outline.",
+    "In the solid, fill the parts that have volume (insulators, transformer can) and keep the arms and pole at outline weight, so there is no single merged black slab. If a transformer is added, give it a knockout band so the solid has a clear interior shape.",
+    "Draw 16 and 20px separately: snap the arms and pole to the pixel grid, make the end insulators at least 2px, and check that every part stays separate on both light and dark backgrounds."
+   ]
+  },
+  "cost": 1.01
  }
 ]
