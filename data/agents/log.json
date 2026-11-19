@@ -3049,5 +3049,41 @@
   "mapped": 1,
   "why": "Fitch 2.1.11 has no own icon it is a niche of insurance-linked securitisation.",
   "cost": 2.13
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T18:41:50.256Z",
+  "mode": "add",
+  "id": "supranationals",
+  "name": "Supranationals",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: There's no globe to see. The only 'globe' is an open arc under the poles, which reads as a hill, a horizon or a person's shoulders. That drops the 'world' meaning, which is the link to the parent icon (sovereigns, a full globe).; The outline version looks like a written character (close to 北) because of the back-to-back flag shapes and the arc underneath. That breaks the no-letters rule in spirit and is easy to misread.; The two poles sit side by side with a narrow gap. At 16 and 20px the",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Two flags back to back on a hill or dome. At small sizes it looks like a glyph, a lot like the CJK character 北. It does not read as a globe, so it doesn't say 'supranational'.",
+   "problems": [
+    "There's no globe to see. The only 'globe' is an open arc under the poles, which reads as a hill, a horizon or a person's shoulders. That drops the 'world' meaning, which is the link to the parent icon (sovereigns, a full globe).",
+    "The outline version looks like a written character (close to 北) because of the back-to-back flag shapes and the arc underneath. That breaks the no-letters rule in spirit and is easy to misread.",
+    "The two poles sit side by side with a narrow gap. At 16 and 20px they merge into a thick bar or a double line in both styles, and in solid the gap between them is a sliver that disappears.",
+    "The footprint is too small. At 16, 20 and 24px the drawing takes up about 60% of the frame width and leaves empty space at the top and bottom, while neighbours like sovereigns, banks and municipal-bonds fill the box. The solid version at 16px looks even smaller.",
+    "The flag shapes (a notched outline pennant in outline, a wavy shape in solid) don't match the flag in the government icon. The government flag is a simple triangle, which is the set's existing flag metaphor.",
+    "The solid version doesn't match the outline. Solid fills only the flags, the arc stays an open stroke, and nothing becomes a filled globe body, so the two styles don't have the same mass."
+   ],
+   "fixes": [
+    "Start from the parent globe: draw a full circle globe (reuse the sovereigns meridian/equator metaphor), shrink it a little and place it low and centred.",
+    "Put 2–3 small flags on single poles around or above the globe, for example one on the left, one on the right and an optional one in the middle, each a simple triangle or rectangle pennant like the government flag. Don't place the flags back to back on one shared stem.",
+    "Keep the poles at least 2px apart at 24px, and at 16px use only 2 flags with clear gaps so the poles never merge.",
+    "Fill the frame like the neighbours: about 20–22px wide and tall on the 24 grid, redrawn on its own grid for 16 and 20, not scaled down.",
+    "Solid: make the globe a filled disc with the meridian and equator knocked out (matching the sovereigns solid) and fill the flags, so outline and solid have the same footprint.",
+    "Check the result for any resemblance to letters or CJK characters at 16px before resubmitting."
+   ]
+  },
+  "cost": 1.65
  }
 ]
