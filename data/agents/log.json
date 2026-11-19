@@ -3268,5 +3268,40 @@
    ]
   },
   "cost": 2.23
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T19:13:17.206Z",
+  "mode": "add",
+  "id": "critical-minerals",
+  "name": "Critical Minerals",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The icon sits small in its box at small sizes. At 16px the outline is about 10×9px of the frame, and the solid 16px is smaller still. Neighbours like metals-mining, climate-risk and data-centres fill the frame much more fully.; The silhouette is short and wide: three columns of about the same height with a flat base. That gives a crown or tiara shape, not a crystal cluster, and next to a finance label it could be misread as 'premium' or 'royalty'.; Solid 16px: the centre knockout is close",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A crystal cluster at 32–48px. At 16–24px it reads as a crown or a three-pointed tiara, and the solid 16px looks like three blunt pegs or fingers.",
+   "problems": [
+    "The icon sits small in its box at small sizes. At 16px the outline is about 10×9px of the frame, and the solid 16px is smaller still. Neighbours like metals-mining, climate-risk and data-centres fill the frame much more fully.",
+    "The silhouette is short and wide: three columns of about the same height with a flat base. That gives a crown or tiara shape, not a crystal cluster, and next to a finance label it could be misread as 'premium' or 'royalty'.",
+    "Solid 16px: the centre knockout is closed up or gone, the side crystals turn into rounded stubs and the pointed tips are lost, so it reads as three pegs.",
+    "Outline 16px: the inner centre line and the outer strokes nearly touch, so the centre crystal looks clogged.",
+    "The side crystals are barely tilted and only slightly shorter than the centre one, so there's no real spread of facets to make the cluster read.",
+    "The 'near' preview (agent-critical-minerals-near.png) is identical to the main preview and doesn't show the parent or siblings, so distinctness from the parent couldn't be checked directly. From the sheet it differs from metals-mining (pickaxe) and materials (cart)."
+   ],
+   "fixes": [
+    "Make the cluster fill the 24px live area (about 20px tall, base on the baseline, centre tip near the top keyline). Redraw 16 and 20 so they fill their frames too, matching the climate-risk and data-centres footprint, not a scaled-down master.",
+    "Make the centre crystal clearly taller and narrower with a sharp pointed tip. Tilt the two side crystals outward (about 15–25°) and make them clearly shorter, so the silhouette fans out like a crystal cluster and not a flat-topped crown.",
+    "Optionally sit the crystals on a small rock or ground mound, or use a different base angle, so the flat bar base doesn't read as a crown band.",
+    "At 16px, drop the inner facet line in the outline and keep it only at 24px and up. In the solid, keep a single clear facet knockout at least 1px wide on the centre crystal, or no knockout at all, rather than a closed-up slit.",
+    "Keep the side crystal tips pointed at every size (no rounding into stubs) so they read as crystals."
+   ]
+  },
+  "cost": 1.86
  }
 ]
