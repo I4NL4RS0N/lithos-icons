@@ -3303,5 +3303,40 @@
    ]
   },
   "cost": 1.86
+ },
+ {
+  "date": "2026-11-19",
+  "at": "2026-11-19T19:27:00.256Z",
+  "mode": "add",
+  "id": "energy-price-caps",
+  "name": "Energy Price Caps",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The cap or limit idea is missing. The thick stop tick at upper right looks like an ordinary dial tick or a second needle, not a limit the needle can't pass. So the icon says 'energy gauge', not 'price cap'.; At 16px the outline is cramped. The bolt is squeezed into the gap at the bottom of the ring and shrinks to a squiggle. The needle and the stop tick sit almost touching near the top, so the inside of the dial is clogged.; At 16, 20 and 24px in solid, the needle and stop tick knock out ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A speedometer or energy-meter gauge with a lightning bolt at the bottom. It reads as 'energy usage' or 'power meter'. The 'cap/stop' idea doesn't come through at all.",
+   "problems": [
+    "The cap or limit idea is missing. The thick stop tick at upper right looks like an ordinary dial tick or a second needle, not a limit the needle can't pass. So the icon says 'energy gauge', not 'price cap'.",
+    "At 16px the outline is cramped. The bolt is squeezed into the gap at the bottom of the ring and shrinks to a squiggle. The needle and the stop tick sit almost touching near the top, so the inside of the dial is clogged.",
+    "At 16, 20 and 24px in solid, the needle and stop tick knock out as a crossed 'X' shape. The bolt turns into a small, broken scribble that merges with the edge of the disc. It reads as a damaged ball, not a gauge.",
+    "In solid, the bolt crosses the edge of the disc, so part of it is a knockout and part is a positive shape. The silhouette is ragged and doesn't match the outline footprint.",
+    "In the per-icon preview, 16–24px look visually smaller and busier than neighbours. The detail level is higher than the set norm: about three ticks, a needle, a stop bar, a bolt and a broken ring. Most set icons use 1–2 elements.",
+    "The near preview shows only this icon, with no parent or siblings, so the parent comparison couldn't be checked (energy, electric-utilities, utilities all use a bolt)."
+   ],
+   "fixes": [
+    "Make the limit clear. Draw a short, solid cap bar across the dial arc at about the 1–2 o'clock position. Rest the needle tip against that bar, with a clear gap and no other ticks near it. Drop the minor scale ticks at 16 and 20px, or all of them.",
+    "Take the bolt out of the ring gap. Either put a small bolt in the centre as the needle's hub, or make the ring a full semicircle gauge (a flat-bottomed half dial) with the bolt below it inside the frame. Don't let the bolt cross the outline.",
+    "Simplify the 16px version to a half-dial arc, one needle, one cap bar and a 3-segment bolt. Keep at least 1.5px gaps between them.",
+    "Redraw the solid version as a filled half-disc. Knock out the needle and cap bar as clean, separated cutouts. Give the bolt its own positive shape outside the disc, or a single clean knockout fully inside it. Avoid the crossed 'X' look of the knockouts.",
+    "Make sure the drawn shape spans the same 20–22px of the 24 frame as neighbours such as energy-equipment and gambling-betting, and check that 16 and 20 aren't sitting smaller than the set."
+   ]
+  },
+  "cost": 2.61
  }
 ]
