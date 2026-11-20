@@ -37,10 +37,21 @@
   .hin { display: flex; align-items: center; gap: 16px; padding: 12px 32px; max-width: 1180px; margin: 0 auto; }
   .hr { display: flex; align-items: center; gap: 12px; margin-left: auto; flex: none; }
   .hin .search { max-width: 520px; }
-  @media (min-width: 1100px) { .hin { display: grid; grid-template-columns: 1fr minmax(240px, 520px) 1fr; gap: 20px; } .hin .search { grid-column: 2; max-width: none; } .hr { grid-column: 3; justify-self: end; margin-left: 0; } body.has-detail .hin { display: flex; } }
+  @media (min-width: 1100px) { .hin { display: grid; grid-template-columns: 1fr minmax(240px, 420px) 1fr; gap: 20px; } .hin .search { grid-column: 2; max-width: none; } .hr { grid-column: 3; justify-self: end; margin-left: 0; } body.has-detail .hin { display: flex; } }
   @media (min-width: 1280px) { .hin { max-width: none; margin: 0; padding-right: 28px; } }
   @media (min-width: 1000px) { body.has-detail .hin { max-width: none; margin: 0; padding-right: 448px; } }
   .mark { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; flex: none; }
+  .hl { display: flex; align-items: center; gap: 18px; min-width: 0; }
+  nav.family { display: flex; gap: 2px; padding: 3px; background: var(--pill); border-radius: 10px; font-size: 13px; flex: none; }
+  nav.family a, nav.family .soon { padding: 4px 11px; border-radius: 8px; text-decoration: none; color: var(--muted); white-space: nowrap; }
+  nav.family a:hover { color: var(--fg); }
+  nav.family a[aria-current="page"] { background: var(--pill-on); color: var(--fg); font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  nav.family .soon { opacity: .7; cursor: default; }
+  nav.family .soon em { font: 500 10px var(--mono); font-style: normal; margin-left: 6px; padding: 1px 5px; border-radius: 5px; background: var(--hover); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .hl .soon { display: none; }
+  @media (max-width: 1279px) { .hl .mk { display: none; } }
+  @media (min-width: 1500px) { .hl .soon { display: inline; } }
+  @media (max-width: 700px) { .hin { flex-wrap: wrap; row-gap: 8px; } .hl { display: contents; } .hl .mk { display: inline; } nav.family { order: 9; flex: 1 0 100%; } nav.family a { flex: 1; text-align: center; } }
   nav.links { display: flex; gap: 20px; color: var(--muted); font-size: 13px; }
   nav.links a { text-decoration: none; }
   nav.links a:hover, nav.links .linkbtn:hover { color: var(--fg); }
@@ -365,10 +376,11 @@
 </head>
 <body>
 <header class="top"><div class="hin">
-    <a class="mark" id="home" href="/" aria-label="Lithos Icons, home">
+    <div class="hl"><a class="mark" id="home" href="/" aria-label="Lithos Icons, home">
       <span class="tile" aria-hidden="true"><svg viewBox="0 0 96 96"><g class="seams" fill="none" stroke="#f4f1ec" stroke-width="5.5" stroke-linecap="round"><path d="M-6 24Q20 32 42 50"/><path d="M32-6Q35 22 42 50"/><path d="M42 50Q58 58 68 78"/><path d="M42 50Q72 44 102 36"/><path d="M68 78Q88 80 102 74"/><path d="M68 78Q66 92 72 102"/></g><circle cx="42" cy="50" r="6.5" fill="#f4f1ec"/><circle cx="68" cy="78" r="5" fill="#f4f1ec"/></svg></span>
       <span class="mk">Lithos Icons</span>
     </a>
+    <nav class="family" aria-label="Lithos"><a href="/" aria-current="page">Icons</a><a href="/marks/">Brand marks</a><span class="soon" title="Coming soon">Atmospheres<em>Soon</em></span></nav></div>
     <label class="search">
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
     <input id="q" type="search" autocomplete="off" aria-label="Search icons"><kbd>⌘K</kbd><button type="button" class="sclear" id="qclear" aria-label="Clear search"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg></button>

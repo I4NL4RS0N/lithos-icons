@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lithos Brand Marks — geometric marks and A–Z letters, free to use</title>
+<meta name="description" content="Geometric brand marks and A–Z letterforms. Choose colour, gradient, border and shape, then export PNG at 16, 32, 48 px and up, or SVG. Free, MIT.">
+<meta property="og:title" content="Lithos Brand Marks">
+<meta property="og:description" content="Geometric marks and A–Z letters you can restyle and export at any size.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2096%2096%27%3E%3Cdefs%3E%3CclipPath%20id=%27t%27%3E%3Crect%20width=%2796%27%20height=%2796%27%20rx=%2722%27/%3E%3C/clipPath%3E%3C/defs%3E%3Crect%20width=%2796%27%20height=%2796%27%20rx=%2722%27%20fill=%27%2316191b%27/%3E%3Cg%20clip-path=%27url%28%23t%29%27%3E%3Cg%20stroke=%27%23f4f1ec%27%20stroke-width=%277.5%27%20stroke-linecap=%27round%27%20fill=%27none%27%3E%3Cpath%20d=%27M-6%2024Q20%2032%2042%2050%27/%3E%3Cpath%20d=%27M32-6Q35%2022%2042%2050%27/%3E%3Cpath%20d=%27M42%2050Q58%2058%2068%2078%27/%3E%3Cpath%20d=%27M42%2050Q72%2044%20102%2036%27/%3E%3Cpath%20d=%27M68%2078Q88%2080%20102%2074%27/%3E%3Cpath%20d=%27M68%2078Q66%2092%2072%20102%27/%3E%3C/g%3E%3Ccircle%20cx=%2742%27%20cy=%2750%27%20r=%278%27%20fill=%27%23f4f1ec%27/%3E%3Ccircle%20cx=%2768%27%20cy=%2778%27%20r=%276.5%27%20fill=%27%23f4f1ec%27/%3E%3C/g%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #fbfbfa; --fg: #111111; --muted: #74777d; --faint: #a4a7ad; --line: #e8e8e6; --hover: #efefed; --panel: #ffffff;
+    --pill: #f1f1ef; --pill-on: #ffffff; --accent: #111111; --accent-fg: #ffffff; --focus: #2f6feb;
+    --shadow: 0 1px 2px rgba(0,0,0,.06), 0 12px 40px rgba(0,0,0,.12); --chk: #ececea;
+    --font: "Inter", ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  }
+  [data-theme="dark"] {
+    --bg: #0e0f11; --fg: #f3f3f2; --muted: #9a9da3; --faint: #6c6f75; --line: #24262a; --hover: #1c1d20; --panel: #17181b;
+    --pill: #222327; --pill-on: #3a3c41; --accent: #f3f3f2; --accent-fg: #0e0f11; --chk: #26272b;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 40px rgba(0,0,0,.55);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 14px; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  a { color: inherit; text-underline-offset: 3px; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+
+  header.top { position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .hin { display: flex; align-items: center; gap: 24px; padding: 12px 32px; max-width: 1280px; margin: 0 auto; flex-wrap: wrap; }
+  .mark { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; text-decoration: none; flex: none; }
+  .mark .tile { width: 28px; height: 28px; border-radius: 9px; overflow: hidden; background: linear-gradient(158deg, #24282b 0%, #16191b 52%, #0e1112 100%); display: block; flex: none; }
+  .mark .tile svg { display: block; width: 100%; height: 100%; }
+  nav.family { display: flex; gap: 4px; padding: 3px; background: var(--pill); border-radius: 10px; font-size: 13px; }
+  nav.family a, nav.family .soon { padding: 5px 12px; border-radius: 8px; text-decoration: none; color: var(--muted); white-space: nowrap; }
+  nav.family a:hover { color: var(--fg); }
+  nav.family a[aria-current="page"] { background: var(--pill-on); color: var(--fg); font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  nav.family .soon { opacity: .7; cursor: default; }
+  nav.family .soon em { font: 500 10px var(--mono); font-style: normal; margin-left: 6px; padding: 1px 5px; border-radius: 5px; background: var(--hover); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .hr { margin-left: auto; display: flex; gap: 20px; color: var(--muted); font-size: 13px; }
+  .hr a { text-decoration: none; } .hr a:hover { color: var(--fg); }
+
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+  .intro { padding: 44px 0 20px; max-width: 720px; }
+  .intro h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 40px); line-height: 1.08; letter-spacing: -0.03em; }
+  .intro p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.5; }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 372px; gap: 36px; align-items: start; padding-bottom: 60px; }
+  .tabs { display: flex; align-items: center; gap: 8px; margin: 14px 0 18px; flex-wrap: wrap; }
+  .tabs .t { border: 0; background: var(--pill); border-radius: 999px; padding: 7px 14px; color: var(--muted); font-size: 13px; }
+  .tabs .t[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); font-weight: 500; }
+  .tabs .more { margin-left: auto; border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 7px 14px; font-size: 13px; }
+  .tabs .more:hover { background: var(--hover); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 10px; }
+  .cell { border: 0; background: transparent; border-radius: 14px; padding: 10px; display: grid; place-items: center; aspect-ratio: 1; position: relative; }
+  .cell:hover { background: var(--hover); }
+  .cell[aria-current="true"] { background: var(--hover); box-shadow: inset 0 0 0 1.5px var(--fg); }
+  .cell svg { width: 100%; height: 100%; display: block; }
+
+  .panel { position: sticky; top: 72px; border: 1px solid var(--line); border-radius: 18px; background: var(--panel); padding: 16px; display: grid; gap: 14px; max-height: calc(100vh - 92px); overflow: auto; }
+  .panel .x { display: none; }
+  .pv { border-radius: 14px; aspect-ratio: 1.35; display: grid; place-items: center; background-color: var(--chk); background-image: linear-gradient(45deg, rgba(128,128,128,.14) 25%, transparent 25%, transparent 75%, rgba(128,128,128,.14) 75%), linear-gradient(45deg, rgba(128,128,128,.14) 25%, transparent 25%, transparent 75%, rgba(128,128,128,.14) 75%); background-size: 16px 16px; background-position: 0 0, 8px 8px; }
+  .pv svg { width: 168px; height: 168px; display: block; }
+  .pid { display: flex; align-items: center; justify-content: space-between; gap: 8px; font: 12px var(--mono); color: var(--muted); }
+  .pid button { border: 0; background: none; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; padding: 0; font: inherit; }
+  .sec { display: grid; gap: 10px; }
+  .sec h4 { margin: 0; font-size: 11.5px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 0; background: var(--pill); border-radius: 8px; padding: 6px 10px; font: 12px var(--mono); color: var(--muted); }
+  .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+  .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .btn { border: 1px solid var(--line); background: var(--bg); border-radius: 10px; padding: 9px 12px; font-size: 13px; font-weight: 500; }
+  .btn:hover { background: var(--hover); }
+  .btn.pri { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); grid-column: 1 / -1; }
+  .btn.pri:hover { opacity: .9; }
+  details.ctl { border-top: 1px solid var(--line); padding-top: 12px; }
+  details.ctl > summary { cursor: pointer; font-size: 11.5px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); list-style: none; display: flex; justify-content: space-between; }
+  details.ctl > summary::-webkit-details-marker { display: none; }
+  .ctls { display: grid; gap: 14px; margin-top: 14px; }
+  .field { display: grid; gap: 7px; }
+  .lbl { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--muted); }
+  .lbl output { font: 12px var(--mono); color: var(--fg); }
+  .seg { display: flex; background: var(--pill); border-radius: 9px; padding: 2px; }
+  .seg button { flex: 1; border: 0; background: transparent; border-radius: 7px; height: 28px; font-size: 12.5px; color: var(--muted); }
+  .seg button[aria-pressed="true"] { background: var(--pill-on); color: var(--fg); font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,.1); }
+  .row { display: flex; align-items: center; gap: 8px; }
+  .row input[type=color] { width: 34px; height: 30px; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: none; cursor: pointer; flex: none; }
+  .row input[type=text] { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 5px 8px; font: 12.5px var(--mono); }
+  input[type=range] { width: 100%; accent-color: var(--fg); }
+  .presets { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .presets button { border: 1px solid var(--line); background: var(--bg); border-radius: 12px; padding: 6px; aspect-ratio: 1; display: grid; place-items: center; }
+  .presets button:hover { background: var(--hover); }
+  .presets svg { width: 100%; height: 100%; }
+  .only-l[hidden], .only-g[hidden], .only-grad[hidden], .only-round[hidden] { display: none; }
+  .fab { display: none; }
+  footer { border-top: 1px solid var(--line); padding: 20px 0 40px; color: var(--muted); font-size: 12.5px; line-height: 1.6; }
+  footer .wrap { max-width: 900px; margin: 0; }
+
+  @media (max-width: 900px) {
+    .hin { padding: 10px 16px; gap: 12px; } .wrap { padding: 0 16px; } .hr { display: none; }
+    .intro { padding: 28px 0 8px; }
+    .layout { grid-template-columns: 1fr; }
+    .panel { position: fixed; z-index: 40; left: 0; right: 0; bottom: 0; top: auto; max-height: 82vh; border-radius: 20px 20px 0 0; border-bottom: 0; transform: translateY(105%); transition: transform .22s ease; box-shadow: var(--shadow); }
+    .panel.open { transform: none; }
+    .panel .x { display: grid; position: absolute; top: 10px; right: 10px; z-index: 2; width: 30px; height: 30px; border-radius: 50%; border: 0; background: var(--pill); place-items: center; }
+    .pv { aspect-ratio: 1.7; } .pv svg { width: 128px; height: 128px; }
+    .fab { display: flex; position: fixed; z-index: 30; left: 50%; bottom: 16px; transform: translateX(-50%); border: 0; background: var(--accent); color: var(--accent-fg); border-radius: 999px; padding: 11px 20px; font-weight: 500; box-shadow: var(--shadow); gap: 8px; align-items: center; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 6px; }
+    .layout { padding-bottom: 96px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .panel { transition: none; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="hin">
+  <a class="mark" id="home" href="/" aria-label="Lithos Icons, home">
+      <span class="tile" aria-hidden="true"><svg viewBox="0 0 96 96"><g class="seams" fill="none" stroke="#f4f1ec" stroke-width="5.5" stroke-linecap="round"><path d="M-6 24Q20 32 42 50"/><path d="M32-6Q35 22 42 50"/><path d="M42 50Q58 58 68 78"/><path d="M42 50Q72 44 102 36"/><path d="M68 78Q88 80 102 74"/><path d="M68 78Q66 92 72 102"/></g><circle cx="42" cy="50" r="6.5" fill="#f4f1ec"/><circle cx="68" cy="78" r="5" fill="#f4f1ec"/></svg></span>
+      <span class="mk">Lithos</span>
+    </a>
+  <nav class="family" aria-label="Lithos"><a href="/">Icons</a><a href="/marks/" aria-current="page">Brand marks</a><span class="soon" title="Coming soon">Atmospheres<em>Soon</em></span></nav>
+  <div class="hr"><a href="https://github.com/I4NL4RS0N/lithos-icons">GitHub</a></div>
+</div></header>
+
+<main class="wrap">
+  <section class="intro">
+    <h1>Brand marks</h1>
+    <p>Geometric marks and A–Z letters. Pick one, set its colour, gradient, border and shape, then export PNG at 16, 32, 48 px and up, or SVG.</p>
+  </section>
+  <div class="layout">
+    <div>
+      <div class="tabs" role="group" aria-label="Kind">
+        <button class="t" type="button" data-tab="g" aria-pressed="true">Geometric</button>
+        <button class="t" type="button" data-tab="l" aria-pressed="false">Letters A–Z</button>
+        <button class="more" type="button" id="more">Generate more</button>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+    <aside class="panel" id="panel" aria-label="Customise and export">
+      <button class="x" type="button" id="close" aria-label="Close"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 2l8 8M10 2l-8 8"/></svg></button>
+      <div class="pv" id="pv"></div>
+      <div class="pid"><span id="pid"></span><button type="button" id="copylink">Copy link</button></div>
+      <div class="sec">
+        <h4>Export</h4>
+        <div class="chips" id="sizes" role="group" aria-label="PNG sizes"></div>
+        <div class="btns">
+          <button class="btn pri" type="button" id="dlpng">Download PNG</button>
+          <button class="btn" type="button" id="dlsvg">Download SVG</button>
+          <button class="btn" type="button" id="cpsvg">Copy SVG</button>
+        </div>
+      </div>
+      <details class="ctl" id="ctl" open>
+        <summary>Customise <button class="btn" type="button" id="reset" style="padding:3px 9px;font-size:12px;text-transform:none;letter-spacing:0">Reset</button></summary>
+        <div class="ctls">
+          <div class="field"><div class="lbl">Presets</div><div class="presets" id="presets"></div></div>
+          <div class="field"><div class="lbl">Mark colour</div><div class="row"><input type="color" id="fg" aria-label="Mark colour"><input type="text" id="fgt" aria-label="Mark colour hex" maxlength="9" spellcheck="false"></div></div>
+          <div class="field"><div class="lbl">Background</div><div class="seg" data-key="bgType"><button type="button" data-v="none">None</button><button type="button" data-v="solid">Solid</button><button type="button" data-v="gradient">Gradient</button></div></div>
+          <div class="field only-bg"><div class="row"><input type="color" id="bg" aria-label="Background colour"><input type="text" id="bgt" aria-label="Background hex" maxlength="9" spellcheck="false"><span class="only-grad"><input type="color" id="bg2" aria-label="Gradient end colour"></span></div></div>
+          <div class="field only-grad"><div class="lbl"><span>Gradient angle</span><output id="angleOut"></output></div><input type="range" id="angle" min="0" max="360" step="5" aria-label="Gradient angle"></div>
+          <div class="field"><div class="lbl">Shape</div><div class="seg" data-key="shape"><button type="button" data-v="square">Square</button><button type="button" data-v="rounded">Rounded</button><button type="button" data-v="squircle">Squircle</button><button type="button" data-v="circle">Circle</button></div></div>
+          <div class="field only-round"><div class="lbl"><span>Corner radius</span><output id="radiusOut"></output></div><input type="range" id="radius" min="0" max="50" step="1" aria-label="Corner radius"></div>
+          <div class="field"><div class="lbl"><span>Padding</span><output id="padOut"></output></div><input type="range" id="pad" min="0" max="36" step="1" aria-label="Padding"></div>
+          <div class="field"><div class="lbl"><span>Border</span><output id="borderWOut"></output></div><input type="range" id="borderW" min="0" max="12" step="0.5" aria-label="Border width"></div>
+          <div class="field only-border"><div class="row"><input type="color" id="border" aria-label="Border colour"><input type="text" id="bordert" aria-label="Border hex" maxlength="9" spellcheck="false"></div></div>
+          <div class="field only-l"><div class="lbl"><span>Letter weight</span><output id="weightOut"></output></div><input type="range" id="weight" min="6" max="28" step="1" aria-label="Letter weight"></div>
+          <div class="two only-l field"><div class="lbl">Ends</div><div class="seg" data-key="cap"><button type="button" data-v="butt">Square</button><button type="button" data-v="round">Round</button></div></div>
+          <div class="two only-l field"><div class="lbl">Corners</div><div class="seg" data-key="join"><button type="button" data-v="miter">Sharp</button><button type="button" data-v="round">Round</button></div></div>
+        </div>
+      </details>
+    </aside>
+  </div>
+</main>
+<button class="fab" type="button" id="fab" aria-label="Customise and export">Customise &amp; export</button>
+<footer><div class="wrap">Marks and code are MIT and drawn by code, so they are starting points, not trademarks: check that a mark is free to use before you register it. Part of Lithos Icons · v__VERSION__</div></footer>
+
+<script>/*__BUNDLE__*/</script>
+<script>
+const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const KEY = 'li:marks1', SIZES = [16, 32, 48, 64, 128, 256, 512, 1024];
+const DEF = { ...MK.DEFAULT_STYLE };
+const PRESETS = [
+  { fg: '#ffffff', bgType: 'solid', bg: '#111111', shape: 'rounded', radius: 22, borderW: 0 },
+  { fg: '#111111', bgType: 'solid', bg: '#ffffff', border: '#111111', borderW: 3, shape: 'rounded', radius: 22 },
+  { fg: '#ffffff', bgType: 'gradient', bg: '#3b5bff', bg2: '#8a4dff', angle: 135, shape: 'rounded', radius: 22, borderW: 0 },
+  { fg: '#ffffff', bgType: 'gradient', bg: '#ff8a4c', bg2: '#ff3d81', angle: 160, shape: 'squircle', borderW: 0 },
+  { fg: '#ffffff', bgType: 'gradient', bg: '#1fd18b', bg2: '#0a7f63', angle: 135, shape: 'circle', borderW: 0 },
+  { fg: '#111111', bgType: 'none', shape: 'circle', border: '#111111', borderW: 3 },
+  { fg: '#2a1c05', bgType: 'gradient', bg: '#f8d775', bg2: '#f0955d', angle: 135, shape: 'rounded', radius: 22, borderW: 0 },
+  { fg: '#7cf0c9', bgType: 'solid', bg: '#0b1220', shape: 'squircle', borderW: 0 },
+];
+let S = { style: { ...DEF }, tab: 'g', sel: 'g-' + MK.CURATED[0].toString(36), sizes: [16, 32, 48, 128, 512], extra: [] };
+try { const j = JSON.parse(localStorage.getItem(KEY) || 'null'); if (j) { S = { ...S, ...j, style: { ...DEF, ...(j.style || {}) } }; S.extra = []; } } catch {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ style: S.style, tab: S.tab, sel: S.sel, sizes: S.sizes })); } catch {} };
+const u = new URLSearchParams(location.search);
+if (MK.parseMarkId(u.get('mark'))) { S.sel = u.get('mark'); S.tab = S.sel[0] === 'l' ? 'l' : 'g'; }
+
+const theme = () => { let a = 'system'; try { a = (JSON.parse(localStorage.getItem('li:settings3') || '{}')).appearance || 'system'; } catch {} document.documentElement.dataset.theme = a === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : a; };
+theme(); matchMedia('(prefers-color-scheme: dark)').addEventListener('change', theme);
+
+const geoIds = () => [...MK.CURATED, ...S.extra].map((s) => 'g-' + s.toString(36));
+const letterIds = () => Object.keys(MK.LETTERS).map((c) => 'l-' + c);
+const svgOf = (id, st = S.style, size, uid) => MK.markSvg(MK.parseMarkId(id), st, size, uid);
+
+function renderGrid() {
+  const ids = S.tab === 'g' ? geoIds() : letterIds();
+  $('#grid').innerHTML = ids.map((id, i) => `<button type="button" class="cell" data-id="${id}" aria-label="${id.startsWith('l-') ? 'Letter ' + id.slice(2) : 'Mark ' + (i + 1)}"${id === S.sel ? ' aria-current="true"' : ''}>${svgOf(id, S.style, 0, 'c' + i)}</button>`).join('');
+  $$('.tabs .t').forEach((b) => b.setAttribute('aria-pressed', b.dataset.tab === S.tab));
+  $('#more').hidden = S.tab !== 'g';
+  document.body.classList.toggle('letters', S.tab === 'l');
+}
+function renderPanel() {
+  const isL = S.sel.startsWith('l-'), st = S.style;
+  $('#pv').innerHTML = svgOf(S.sel, st, 0, 'pv');
+  $('#pid').textContent = S.sel;
+  $('#sizes').innerHTML = SIZES.map((n) => `<button type="button" class="chip" data-n="${n}" aria-pressed="${S.sizes.includes(n)}">${n}</button>`).join('');
+  const n = S.sizes.length;
+  $('#dlpng').textContent = n === 1 ? `Download PNG · ${S.sizes[0]}px` : n ? `Download ${n} sizes · .zip` : 'Choose a size';
+  $('#dlpng').disabled = !n;
+  $$('.seg').forEach((g) => $$('button', g).forEach((b) => b.setAttribute('aria-pressed', String(st[g.dataset.key]) === b.dataset.v)));
+  for (const k of ['fg', 'bg', 'bg2', 'border']) { $('#' + k).value = st[k]; const t = $('#' + k + 't'); if (t && document.activeElement !== t) t.value = st[k]; }
+  for (const k of ['angle', 'radius', 'pad', 'borderW', 'weight']) { $('#' + k).value = st[k]; $('#' + k + 'Out').textContent = k === 'angle' ? st[k] + '°' : st[k]; }
+  $$('.only-l').forEach((e) => (e.hidden = !isL));
+  $$('.only-grad').forEach((e) => (e.hidden = st.bgType !== 'gradient'));
+  $$('.only-bg').forEach((e) => (e.hidden = st.bgType === 'none'));
+  $$('.only-round').forEach((e) => (e.hidden = st.shape !== 'rounded'));
+  $$('.only-border').forEach((e) => (e.hidden = !(+st.borderW > 0)));
+  $('#presets').innerHTML = PRESETS.map((p, i) => `<button type="button" data-p="${i}" aria-label="Preset ${i + 1}">${svgOf(S.sel, { ...DEF, ...p }, 0, 'p' + i)}</button>`).join('');
+  history.replaceState(null, '', '?mark=' + S.sel);
+}
+const style = (patch) => { S.style = { ...S.style, ...patch }; save(); renderGrid(); renderPanel(); };
+const select = (id) => { S.sel = id; save(); $$('.cell').forEach((c) => c.toggleAttribute('aria-current', c.dataset.id === id)); $$('.cell').forEach((c) => c.dataset.id !== id && c.removeAttribute('aria-current')); renderPanel(); if (matchMedia('(max-width: 900px)').matches) $('#panel').classList.add('open'); };
+
+$('#grid').addEventListener('click', (e) => { const c = e.target.closest('.cell'); if (c) select(c.dataset.id); });
+$$('.tabs .t').forEach((b) => b.addEventListener('click', () => { S.tab = b.dataset.tab; if (S.tab === 'l' && !S.sel.startsWith('l-')) S.sel = 'l-A'; if (S.tab === 'g' && !S.sel.startsWith('g-')) S.sel = 'g-' + MK.CURATED[0].toString(36); save(); renderGrid(); renderPanel(); }));
+$('#more').addEventListener('click', () => { const from = 2000 + Math.floor(Math.random() * 90000); S.extra.push(...MK.goodSeeds(from, 24)); renderGrid(); });
+$$('.seg').forEach((g) => g.addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) style({ [g.dataset.key]: b.dataset.v }); }));
+for (const k of ['angle', 'radius', 'pad', 'borderW', 'weight']) $('#' + k).addEventListener('input', (e) => style({ [k]: +e.target.value }));
+for (const k of ['fg', 'bg', 'bg2', 'border']) {
+  $('#' + k).addEventListener('input', (e) => style({ [k]: e.target.value }));
+  const t = $('#' + k + 't'); if (t) t.addEventListener('input', (e) => { const v = e.target.value.trim(); if (/^#[0-9a-f]{6}$/i.test(v)) style({ [k]: v }); });
+}
+$('#presets').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) style({ ...DEF, weight: S.style.weight, cap: S.style.cap, join: S.style.join, ...PRESETS[+b.dataset.p] }); });
+$('#reset').addEventListener('click', (e) => { e.preventDefault(); style({ ...DEF }); });
+$('#sizes').addEventListener('click', (e) => { const b = e.target.closest('.chip'); if (!b) return; const n = +b.dataset.n; S.sizes = S.sizes.includes(n) ? S.sizes.filter((x) => x !== n) : [...S.sizes, n].sort((a, c) => a - c); save(); renderPanel(); });
+$('#fab').addEventListener('click', () => $('#panel').classList.add('open'));
+$('#close').addEventListener('click', () => $('#panel').classList.remove('open'));
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $('#panel').classList.remove('open'); });
+$('#copylink').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(location.origin + '/marks/?mark=' + S.sel); e.target.textContent = 'Copied'; setTimeout(() => (e.target.textContent = 'Copy link'), 1200); } catch {} });
+$('#cpsvg').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(svgOf(S.sel, S.style, 0, 'x')); e.target.textContent = 'Copied'; setTimeout(() => (e.target.textContent = 'Copy SVG'), 1200); } catch {} });
+
+// Export
+const download = (blob, name) => { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); };
+const png = (size) => new Promise((res, rej) => {
+  const img = new Image(), url = URL.createObjectURL(new Blob([svgOf(S.sel, S.style, size, 'e')], { type: 'image/svg+xml' }));
+  img.onload = () => { const c = document.createElement('canvas'); c.width = c.height = size; const x = c.getContext('2d'); x.drawImage(img, 0, 0, size, size); URL.revokeObjectURL(url); c.toBlob((b) => (b ? res(b) : rej(new Error('png'))), 'image/png'); };
+  img.onerror = () => rej(new Error('svg'));
+  img.src = url;
+});
+// Minimal ZIP (stored, no compression) so several PNG sizes can be one download.
+const crcT = (() => { const t = []; for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; t[n] = c >>> 0; } return t; })();
+const crc = (b) => { let c = 0xffffffff; for (let i = 0; i < b.length; i++) c = crcT[(c ^ b[i]) & 255] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; };
+function zip(files) {
+  const enc = new TextEncoder(), parts = [], cen = []; let off = 0;
+  for (const f of files) {
+    const nm = enc.encode(f.name), c = crc(f.data), h = new DataView(new ArrayBuffer(30));
+    h.setUint32(0, 0x04034b50, true); h.setUint16(4, 20, true); h.setUint32(14, c, true); h.setUint32(18, f.data.length, true); h.setUint32(22, f.data.length, true); h.setUint16(26, nm.length, true);
+    parts.push(new Uint8Array(h.buffer), nm, f.data);
+    const d = new DataView(new ArrayBuffer(46));
+    d.setUint32(0, 0x02014b50, true); d.setUint16(4, 20, true); d.setUint16(6, 20, true); d.setUint32(16, c, true); d.setUint32(20, f.data.length, true); d.setUint32(24, f.data.length, true); d.setUint16(28, nm.length, true); d.setUint32(42, off, true);
+    cen.push(new Uint8Array(d.buffer), nm); off += 30 + nm.length + f.data.length;
+  }
+  const csz = cen.reduce((s, p) => s + p.length, 0), e = new DataView(new ArrayBuffer(22));
+  e.setUint32(0, 0x06054b50, true); e.setUint16(8, files.length, true); e.setUint16(10, files.length, true); e.setUint32(12, csz, true); e.setUint32(16, off, true);
+  return new Blob([...parts, ...cen, new Uint8Array(e.buffer)], { type: 'application/zip' });
+}
+$('#dlsvg').addEventListener('click', () => download(new Blob([svgOf(S.sel, S.style, 0, 'x')], { type: 'image/svg+xml' }), `lithos-mark-${S.sel}.svg`));
+$('#dlpng').addEventListener('click', async (e) => {
+  const btn = e.currentTarget, label = btn.textContent; btn.disabled = true; btn.textContent = 'Preparing…';
+  try {
+    if (S.sizes.length === 1) download(await png(S.sizes[0]), `lithos-mark-${S.sel}-${S.sizes[0]}.png`);
+    else {
+      const files = [];
+      for (const n of S.sizes) files.push({ name: `lithos-mark-${S.sel}-${n}.png`, data: new Uint8Array(await (await png(n)).arrayBuffer()) });
+      files.push({ name: `lithos-mark-${S.sel}.svg`, data: new TextEncoder().encode(svgOf(S.sel, S.style, 0, 'x')) });
+      download(zip(files), `lithos-mark-${S.sel}.zip`);
+    }
+  } catch { btn.textContent = 'Export failed'; setTimeout(renderPanel, 1500); return; }
+  btn.textContent = label; btn.disabled = false;
+});
+if (matchMedia('(max-width: 900px)').matches) $('#ctl').open = false;
+renderGrid(); renderPanel();
+</script>
+</body>
+</html>
