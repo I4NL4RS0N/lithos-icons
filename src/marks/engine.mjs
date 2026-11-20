@@ -65,11 +65,18 @@ export const LETTERS = {
   K: 'M26 16V84M72 16L26 56M40 44L74 84', L: 'M26 16V84H74', M: 'M24 84V16L50 56L76 16V84', N: 'M26 84V16L74 84V16',
   O: 'M50 16A26 34 0 1 0 50 84A26 34 0 1 0 50 16Z', P: 'M26 84V16H54A17 17 0 0 1 54 50H26', Q: 'M50 16A26 34 0 1 0 50 84A26 34 0 1 0 50 16ZM56 62L76 86',
   R: 'M26 84V16H54A17 17 0 0 1 54 50H26M50 50L74 84', S: 'M73 30C68 18 27 18 27 34C27 50 73 50 73 66C73 82 32 82 27 70',
+  0: 'M50 16A22 34 0 1 0 50 84A22 34 0 1 0 50 16Z', 1: 'M36 30L52 16V84', 2: 'M28 36C28 8 72 8 72 36C72 56 28 70 28 84H74',
+  3: 'M28 24C34 10 70 10 70 32C70 46 54 50 44 50C56 50 72 54 72 68C72 90 32 90 26 74', 4: 'M62 84V16L24 62H78', 5: 'M72 16H32L30 48C42 40 72 44 72 66C72 90 34 90 26 74',
+  6: 'M72 62A22 22 0 1 0 28 62A22 22 0 1 0 72 62ZM28 62C28 30 40 18 66 18', 7: 'M26 16H74L42 84', 8: 'M50 16A18 16 0 1 0 50 48A18 16 0 1 0 50 16ZM50 48A22 18 0 1 0 50 84A22 18 0 1 0 50 48Z',
+  9: 'M72 38A22 22 0 1 0 28 38A22 22 0 1 0 72 38ZM72 38C72 70 60 82 34 82',
   T: 'M24 16H76M50 16V84', U: 'M26 16V58A24 24 0 0 0 74 58V16', V: 'M24 16L50 84L76 16', W: 'M20 16L35 84L50 36L65 84L80 16',
   X: 'M26 16L74 84M74 16L26 84', Y: 'M24 16L50 52L76 16M50 52V84', Z: 'M26 16H74L26 84H74',
 };
 
-export const DEFAULT_STYLE = { fg: '#ffffff', bgType: 'solid', bg: '#111111', bg2: '#5b4bff', angle: 135, shape: 'rounded', radius: 22, pad: 18, borderW: 0, border: '#ffffff', weight: 14, cap: 'butt', join: 'miter' };
+export const FONT_LIST = [{ id: 'geo', name: 'Geometric' }, { id: 'inter', name: 'Inter' }, { id: 'space-grotesk', name: 'Space Grotesk' }, { id: 'poppins', name: 'Poppins' }, { id: 'archivo-black', name: 'Archivo Black' }, { id: 'bebas-neue', name: 'Bebas Neue' }, { id: 'syne', name: 'Syne' }, { id: 'unbounded', name: 'Unbounded' }, { id: 'dm-serif-display', name: 'DM Serif Display' }, { id: 'playfair-display', name: 'Playfair Display' }];
+export const FONTS = {}; // id -> { glyph: path } once loaded (outlines made by scripts/marks-fonts.mjs from OFL fonts)
+export const registerFont = (f) => { FONTS[f.id] = f.glyphs; };
+export const DEFAULT_STYLE = { fg: '#ffffff', bgType: 'solid', bg: '#111111', bg2: '#5b4bff', stops: ['#3b5bff', '#8a4dff'], font: 'geo', bold: 0, angle: 135, shape: 'rounded', radius: 22, pad: 18, borderW: 0, border: '#ffffff', weight: 14, cap: 'butt', join: 'miter' };
 
 const squirclePts = (n = 4, steps = 96) => { const pts = []; for (let i = 0; i < steps; i++) { const t = (i / steps) * Math.PI * 2, c = Math.cos(t), s = Math.sin(t); pts.push([50 + 50 * Math.sign(c) * Math.abs(c) ** (2 / n), 50 + 50 * Math.sign(s) * Math.abs(s) ** (2 / n)]); } return pts; };
 
@@ -78,14 +85,18 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
   st = { ...DEFAULT_STYLE, ...st };
   const letter = mark.k === 'l', bw = +st.borderW || 0, half = bw / 2;
   const k = (100 - 2 * st.pad) / 100 * (letter ? 1.18 : 1);
-  const ink = letter
+  const glyph = letter && st.font !== 'geo' ? FONTS[st.font]?.[mark.ch] : null;
+  const ink = glyph
+    ? `<path d="${glyph}" fill="${st.fg}"${+st.bold > 0 ? ` stroke="${st.fg}" stroke-width="${st.bold}" stroke-linejoin="round"` : ''}/>`
+    : letter
     ? `<path d="${LETTERS[mark.ch]}" fill="none" stroke="${st.fg}" stroke-width="${st.weight}" stroke-linecap="${st.cap}" stroke-linejoin="${st.join}" stroke-miterlimit="2"/>`
     : `<path d="${geoPath(mark.seed)}" fill="${st.fg}" fill-rule="evenodd"/>`;
   let defs = '', fill = 'none';
   if (st.bgType === 'solid') fill = st.bg;
   if (st.bgType === 'gradient') {
+    const stops = Array.isArray(st.stops) && st.stops.length >= 2 ? st.stops : [st.bg, st.bg2];
     const a = (st.angle * Math.PI) / 180, dx = Math.sin(a) / 2, dy = -Math.cos(a) / 2;
-    defs = `<defs><linearGradient id="${uid}g" x1="${f2(0.5 - dx)}" y1="${f2(0.5 - dy)}" x2="${f2(0.5 + dx)}" y2="${f2(0.5 + dy)}"><stop offset="0" stop-color="${st.bg}"/><stop offset="1" stop-color="${st.bg2}"/></linearGradient></defs>`;
+    defs = `<defs><linearGradient id="${uid}g" x1="${f2(0.5 - dx)}" y1="${f2(0.5 - dy)}" x2="${f2(0.5 + dx)}" y2="${f2(0.5 + dy)}">${stops.map((c, i) => `<stop offset="${f2(i / (stops.length - 1))}" stop-color="${c}"/>`).join('')}</linearGradient></defs>`;
     fill = `url(#${uid}g)`;
   }
   const stroke = bw ? ` stroke="${st.border}" stroke-width="${bw}"` : '';

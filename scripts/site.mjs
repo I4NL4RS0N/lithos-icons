@@ -67,6 +67,7 @@ writeFileSync(join(out, 'index.html'), html);
 // Brand marks: a second page, with its own small bundle (src/marks).
 const marksBundle = (await build({ entryPoints: ['src/marks/browser.mjs'], bundle: true, minify: true, format: 'iife', globalName: 'MK', write: false, platform: 'browser', target: 'es2020' })).outputFiles[0].text;
 mkdirSync(join(out, 'marks'), { recursive: true });
+cpSync('src/marks/fonts', join(out, 'marks', 'fonts'), { recursive: true });
 writeFileSync(join(out, 'marks', 'index.html'), readFileSync('site/marks.html', 'utf8').replace('/*__BUNDLE__*/', () => marksBundle.replace(/<\/script/gi, '<\\/script')).replace(/__VERSION__/g, pkg.version));
 writeFileSync(join(out, 'index.json'), JSON.stringify(index, null, 2));
 writeFileSync(join(out, 'standards.json'), JSON.stringify(standards.map((x) => ({ id: x.id, name: x.name, fullName: x.fullName, version: x.version, levels: x.levels, codes: x.codes, credit: x.credit || undefined })), null, 2));

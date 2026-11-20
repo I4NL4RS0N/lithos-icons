@@ -44,3 +44,6 @@ cover their names, codes or hierarchy (`data/{schemes,nodes,mappings}/{gics-2025
 
 ## Metaphor research
 The Noun Project is used as a reference for which images people recognise. No Noun Project artwork is copied or shipped.
+
+## Brand marks typefaces
+The letters and numbers on the Brand marks page are outlines of glyphs from nine open-licensed typefaces, all under the SIL Open Font License 1.1 (https://openfontlicense.org): Inter (© The Inter Project Authors), Space Grotesk (© The Space Grotesk Project Authors), Poppins (© The Poppins Project Authors), Archivo Black (© The Archivo Black Project Authors), Bebas Neue (© The Bebas Neue Project Authors), Syne (© The Syne Project Authors), Unbounded (© The Unbounded Project Authors), DM Serif Display (© Adobe Systems Incorporated and Google LLC; Reserved Font Name "Source"), Playfair Display (© The Playfair Display Project Authors; Reserved Font Name "Playfair Display"). Glyphs were read from the `@fontsource/*` packages by `scripts/marks-fonts.mjs` and shipped as vector paths in `src/marks/fonts/`. The fonts themselves are not shipped. The typeface names above are credited, not used to name any derived font.
