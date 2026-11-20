@@ -58,7 +58,7 @@ export function geoPath(seed, prims = PRIM, W = WEIGHTS) {
 }
 
 // Pattern families (added 2026-11-20): rosettes, bursts, bars, checks, dials and hex cubes. id = f-<family>-<seed>.
-export const FAMILIES = [['ov', 'Overlaps'], ['bu', 'Bursts'], ['st', 'Bars'], ['ck', 'Checks'], ['rb', 'Dials'], ['hx', 'Hex'], ['sc', 'Scoops'], ['sl', 'Slices'], ['pl', 'Planets'], ['pw', 'Pinwheels'], ['sp', 'Stars']];
+export const FAMILIES = [['ov', 'Overlaps'], ['bu', 'Bursts'], ['st', 'Bars'], ['ck', 'Checks'], ['rb', 'Dials'], ['hx', 'Hex'], ['sc', 'Scoops'], ['sl', 'Slices'], ['pl', 'Planets'], ['pw', 'Pinwheels'], ['sp', 'Stars'], ['ht', 'Halftone'], ['tg', 'Mosaic'], ['ar', 'Arcs'], ['rg', 'Rings'], ['cp', 'Capsules'], ['sw', 'Swirls'], ['iso', 'Iso']];
 const P = (a, d = 50, c = 50) => [c + d * Math.cos((a * Math.PI) / 180), c + d * Math.sin((a * Math.PI) / 180)];
 const xy = (p) => `${f2(p[0])} ${f2(p[1])}`;
 const circ = (cx, cy, r) => `M${f2(cx - r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx + r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx - r)} ${f2(cy)}Z`;
@@ -76,6 +76,7 @@ const clipY = (poly, y1, y2) => {
 const biteArc = (a, b, depth) => { const L = Math.hypot(b[0] - a[0], b[1] - a[1]), R = (L * L / 4 + depth * depth) / (2 * depth); return `A${f2(R)} ${f2(R)} 0 0 0 ${xy(b)}`; };
 const regular = (n, R, off = -90) => Array.from({ length: n }, (_, k) => P(off + (k * 360) / n, R));
 export function famPath(fam, seed) {
+  if (MORE[fam]) return MORE[fam](mulberry(seed * 2654435761 + fam.charCodeAt(0) * 97 + fam.charCodeAt(1) * 31));
   if (fam === 'sk') return skPath(seed);
   if (fam === 'an') return angPath(seed);
   const r = mulberry(seed * 7919 + fam.charCodeAt(0) * 131 + fam.charCodeAt(1));
@@ -196,31 +197,140 @@ const TMPL = {
   M: [[12, 88], [12, 14], [36, 14], [50, 48], [64, 14], [88, 14], [88, 88], [66, 88], [66, 50], [50, 82], [34, 50], [34, 88]],
   Y: [[12, 12], [36, 12], [50, 40], [64, 12], [88, 12], [62, 56], [62, 88], [38, 88], [38, 56]],
 };
+const circPoly = (cx, cy, R, n = 72) => Array.from({ length: n }, (_, k) => [cx + R * Math.cos((k * 2 * Math.PI) / n), cy + R * Math.sin((k * 2 * Math.PI) / n)]);
+const band = (poly, nv, o, w) => clipHalf(clipHalf(poly, nv, o + w / 2), [-nv[0], -nv[1]], -(o - w / 2));
 export function skPath(seed) {
-  const r = mulberry(seed * 15485863 + 29), mode = pick(r, ['bars', 'tmpl', 'tmpl', 'tmpl', 'tmpl', 'tmpl', 'stripe', 'hexd', 'dots']);
+  const r = mulberry(seed * 15485863 + 29), mode = pick(r, ['slash', 'slash', 'bolt', 'leaf', 'leaf', 'jag', 'para', 'para', 'hexwin', 'speed', 'speed', 'tmpl']);
   let d = '';
-  if (mode === 'bars') {
-    const k = 2 + Math.floor(r() * 2), h = k === 2 ? 30 : 22, sl = 14 + r() * 10, w = 44 + r() * 14, rad = pick(r, [0, 5, 7]), rd = pick(r, ['all', 'diag']), gap = 8, tot = k * h + (k - 1) * gap, y0 = 50 - tot / 2, drift = pick(r, [-12, 0, 12]);
-    for (let i = 0; i < k; i++) { const y = y0 + i * (h + gap), x = 50 - w / 2 + (i - (k - 1) / 2) * drift + (r() < 0.5 ? -4 : 4); d += rpoly([[x + sl, y], [x + w + sl, y], [x + w, y + h], [x, y + h]], rd === 'all' ? rad : (j) => (j % 2 ? 0 : rad)); }
-  } else if (mode === 'tmpl') {
-    const t = TMPL[pick(r, Object.keys(TMPL))], sh = pick(r, [0, 0, 0.18, 0.28, -0.2]), fl = r() < 0.3, rad = pick(r, [3, 6, 9]);
-    let pts = t.map(([x, y]) => [x + (50 - y) * sh, y]); if (fl) pts = pts.map(([x, y]) => [100 - x, y]); d = rpoly(pts, rad);
-  } else if (mode === 'stripe') {
-    const n = 5 + Math.floor(r() * 3), poly = r() < 0.5 ? [[8, 12], [34, 12], [50, 58], [66, 12], [92, 12], [60, 88], [40, 88]] : [[8, 12], [92, 12], [50, 88]];
-    let y = 12; const g0 = 1.5 + r(), H = 76, hs = Array.from({ length: n }, (_, i) => 1 + (n - i) * 0.25), ht = hs.reduce((a, b) => a + b, 0), gs = Array.from({ length: n - 1 }, (_, i) => g0 + i * (1 + r())), gt = gs.reduce((a, b) => a + b, 0), sc = (H - gt) / ht;
-    for (let i = 0; i < n; i++) { const c = clipY(poly, y, y + hs[i] * sc); if (c.length > 2) d += pol(c); y += hs[i] * sc + (gs[i] || 0); }
-  } else if (mode === 'hexd') {
-    const O = regular(6, 47), f = 0.5 + r() * 0.12, I = [[50, 50 - 36 * f * 1.1], [50 + 40 * f * 1.4, 50], [50, 50 + 36 * f * 1.1], [50 - 40 * f * 1.4, 50]];
-    d = rpoly(O, 6) + rpoly(I, 4);
+  if (mode === 'slash') {
+    const th = pick(r, [-60, -45, -30, 30, 45, 60, 90]), nv = [Math.cos((th * Math.PI) / 180), Math.sin((th * Math.PI) / 180)], k = 2 + Math.floor(r() * 2), w = 5.5 + r() * 3, side = r() < 0.6, C = circPoly(50, 50, 47);
+    d = circ(50, 50, 47);
+    for (let i = 0; i < k; i++) { const o = side ? 4 + i * (w + 8 + r() * 4) : (i - (k - 1) / 2) * (w + 12); const q = band(C, nv, o, w); if (q.length > 2) d += pol(q); }
+  } else if (mode === 'bolt') {
+    const sq = r() < 0.35, B = pick(r, [[[58, 12], [30, 56], [47, 56], [40, 88], [70, 42], [53, 42], [62, 12]], [[54, 10], [34, 52], [50, 52], [44, 90], [68, 46], [52, 46], [60, 10]]]).map(([x, y]) => [x, y]);
+    d = (sq ? rpoly([[4, 4], [96, 4], [96, 96], [4, 96]], 22) : circ(50, 50, 47)) + pol(r() < 0.5 ? B : B.map(([x, y]) => [100 - x, y]));
+  } else if (mode === 'leaf') {
+    const g = 5 + r() * 3, s2 = (94 - g) / 2, kind = pick(r, ['leaf', 'leaf', 'one']), pat = pick(r, ['in', 'out', 'pin', 'diag']);
+    for (let j = 0; j < 2; j++) for (let i = 0; i < 2; i++) {
+      const x = 3 + i * (s2 + g), y = 3 + j * (s2 + g), pts = [[x, y], [x + s2, y], [x + s2, y + s2], [x, y + s2]], toC = j === 0 ? (i === 0 ? 2 : 3) : i === 0 ? 1 : 0;
+      const sharp = pat === 'in' ? toC : pat === 'out' ? (toC + 2) % 4 : pat === 'pin' ? (toC + (i + j) % 2) % 4 : (i + j) % 2 ? 0 : 1;
+      d += rpoly(pts, (c) => (kind === 'leaf' ? (c % 2 === sharp % 2 ? 0 : s2 * 0.55) : c === sharp ? 0 : s2 * 0.42));
+    }
+  } else if (mode === 'jag') {
+    const cols = pick(r, [2, 3, 3]), rows = 3, cw = (92 - (cols - 1) * 6) / cols, rh = 90 / rows, sh = Array.from({ length: cols }, () => pick(r, [-1, 0, 1]) * rh * 0.5);
+    const fill = Array.from({ length: cols * rows }, () => r() < 0.6);
+    for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) { const f = fill[i * rows + j] || fill[(cols - 1 - i) * rows + (rows - 1 - j)]; if (!f) continue; const x = 4 + i * (cw + 6), y = 5 + j * rh + sh[i] * (j === 0 || j === rows - 1 ? 0 : 1); d += pol([[x, Math.max(4, y)], [x + cw, Math.max(4, y)], [x + cw, Math.min(96, y + rh)], [x, Math.min(96, y + rh)]]); }
+    if (!d) d = pol([[4, 5], [96, 5], [96, 35], [4, 35]]);
+  } else if (mode === 'para') {
+    const n = pick(r, [3, 3, 4]), g = 6, h = (88 - (n - 1) * g) / n, sl = pick(r, [10, 16, 22, -16]), pat = pick(r, ['S', 'Z', 'arrow', 'stair', 'split']), rad = pick(r, [0, 3, 6]);
+    for (let i = 0; i < n; i++) {
+      const y = 6 + i * (h + g), t = i / (n - 1);
+      const segs = pat === 'S' ? [i === 0 ? [40, 94] : i === n - 1 ? [6, 60] : [6, 94]] : pat === 'Z' ? [i === 0 ? [6, 94] : i === n - 1 ? [6, 94] : [30, 70]] : pat === 'arrow' ? [[6 + 28 * (1 - Math.abs(t - 0.5) * 2), 70 + 24 * (1 - Math.abs(t - 0.5) * 2)]] : pat === 'stair' ? [[6 + t * 34, 60 + t * 34]] : [[6, 44], [56, 94]].map(([a1, b1], k) => (i % 2 === k ? [a1, b1] : null)).filter(Boolean);
+      for (const [x0, x1] of segs) d += rpoly([[x0 + sl / 2, y], [x1 + sl / 2, y], [x1 - sl / 2, y + h], [x0 - sl / 2, y + h]], rad);
+    }
+  } else if (mode === 'hexwin') {
+    const O = regular(6, 48, pick(r, [-90, 0])), win = pick(r, ['circle', 'slot', 'chev', 'eye']);
+    d = rpoly(O, 7);
+    if (win === 'circle') d += circ(50, 50, 13 + r() * 6);
+    else if (win === 'slot') d += rpoly([[24, 42], [76, 42], [76, 58], [24, 58]], 8);
+    else if (win === 'chev') d += pol([[26, 58], [50, 34], [74, 58], [64, 66], [50, 52], [36, 66]]);
+    else d += `M22 50Q50 26 78 50Q50 74 22 50Z` + circ(50, 50, 8);
+  } else if (mode === 'speed') {
+    const shapes = { chev: [[6, 12], [42, 12], [74, 50], [42, 88], [6, 88], [38, 50]], tri: [[6, 10], [94, 50], [6, 90]], dia: [[50, 6], [94, 50], [50, 94], [6, 50]], par: [[30, 12], [94, 12], [70, 88], [6, 88]] };
+    const sp = shapes[pick(r, Object.keys(shapes))], cut = 36 + r() * 16, m = pick(r, [7, 9, 11]), rot = Math.floor(r() * 4), fill = 0.5 + r() * 0.15;
+    const solid = clipHalf(sp, [1, 0], cut), rest = clipHalf(sp, [-1, 0], -cut), ys = sp.map((p) => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), st = (hi - lo) / m, parts = [];
+    if (solid.length > 2) parts.push(solid);
+    for (let k = 0; k < m; k++) { const q = clipY(rest, lo + k * st, lo + k * st + st * fill); if (q.length > 2) parts.push(q.map(([x, y]) => [x + (k % 2) * 2, y])); }
+    d = parts.map((q) => pol(rotQ(q, rot))).join('');
   } else {
-    const n = pick(r, [6, 8, 8, 10]), R = 33, rx = 10 + r() * 4, ry = 6 + r() * 2, alt = r() < 0.6;
-    for (let i = 0; i < n; i++) { const a = (i * 360) / n - 90, [x, y] = P(a, R), big = alt && i % 2 ? 0.72 : 1; d += ell(x, y, rx * big, ry * big, a); }
+    const t = TMPL[pick(r, Object.keys(TMPL))], sh = pick(r, [0.18, 0.28, -0.2]), rad = pick(r, [3, 9]);
+    d = rpoly(t.map(([x, y]) => [x + (50 - y) * sh, y]), rad);
   }
   return d;
 }
-export const SK_CURATED = [1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 14, 16, 17, 18, 21, 22, 23, 24, 25, 27, 28, 30, 34, 36, 42, 45, 48, 49, 52, 56, 60, 63, 64, 65, 70, 76, 77, 78, 92, 102].map((seed) => ({ k: 'f', fam: 'sk', seed }));
+export const SK_CURATED = [1, 2, 3, 4, 5, 9, 10, 12, 13, 20, 22, 24, 25, 28, 32, 33, 34, 36, 41, 43, 45, 49, 52, 55, 56, 58, 59, 61, 62, 63, 69, 70, 72, 74, 82, 83, 84, 91, 94, 95].map((seed) => ({ k: 'f', fam: 'sk', seed }));
+// More styles (added 2026-11-20): halftone, triangle mosaic, arcs, rings, capsules, swirls, hatched iso cubes.
+const Pc = (cx, cy, a, d) => [cx + d * Math.cos((a * Math.PI) / 180), cy + d * Math.sin((a * Math.PI) / 180)];
+const sectorC = (cx, cy, r1, r2, a1, a2) => { const la = a2 - a1 > 180 ? 1 : 0; return r1 <= 0 ? `M${f2(cx)} ${f2(cy)}L${xy(Pc(cx, cy, a1, r2))}A${f2(r2)} ${f2(r2)} 0 ${la} 1 ${xy(Pc(cx, cy, a2, r2))}Z` : `M${xy(Pc(cx, cy, a1, r2))}A${f2(r2)} ${f2(r2)} 0 ${la} 1 ${xy(Pc(cx, cy, a2, r2))}L${xy(Pc(cx, cy, a2, r1))}A${f2(r1)} ${f2(r1)} 0 ${la} 0 ${xy(Pc(cx, cy, a1, r1))}Z`; };
+const rotAbout = ([x, y], deg) => { const a = (deg * Math.PI) / 180, u = x - 50, v = y - 50; return [50 + u * Math.cos(a) - v * Math.sin(a), 50 + u * Math.sin(a) + v * Math.cos(a)]; };
+const clipHalf = (poly, n, c) => { const o = [], f = (p) => n[0] * p[0] + n[1] * p[1] - c; for (let i = 0; i < poly.length; i++) { const a = poly[i], b = poly[(i + 1) % poly.length], fa = f(a), fb = f(b); if (fa <= 0) o.push(a); if ((fa <= 0) !== (fb <= 0)) { const t = fa / (fa - fb); o.push([a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]); } } return o; };
+const ring = (cx, cy, R, w) => circ(cx, cy, R) + circ(cx, cy, R - w);
+const MORE = {
+  ht(r) {
+    const n = pick(r, [4, 5, 5]), s = 100 / n, mode = pick(r, ['radial', 'radial', 'corner', 'linear', 'ring']), dia = r() < 0.25, dir = Math.floor(r() * 4), g = 0.7 + r() * 0.8;
+    let d = '';
+    for (let j = 0; j < n; j++) for (let i = 0; i < n; i++) {
+      const cx = (i + 0.5) * s, cy = (j + 0.5) * s, [u, v] = rotQ([[cx, cy]], dir)[0], dc = Math.hypot(cx - 50, cy - 50);
+      let t = mode === 'radial' ? 1 - dc / 62 : mode === 'corner' ? 1 - Math.hypot(u, v) / 135 : mode === 'linear' ? 1 - v / 105 : 1 - Math.abs(dc - 30) / 26;
+      const rad = (s / 2) * 0.94 * Math.max(0, t) ** g;
+      if (rad < s * 0.16) continue;
+      d += dia ? pol([[cx, cy - rad * 1.2], [cx + rad * 1.2, cy], [cx, cy + rad * 1.2], [cx - rad * 1.2, cy]]) : circ(cx, cy, rad);
+    }
+    return d;
+  },
+  tg(r) {
+    const V = regular(6, 48, pick(r, [-90, -60])), c = [50, 50], m1 = 1 + Math.floor(r() * 14), m2 = r() < 0.4 ? 1 + Math.floor(r() * 14) : m1, gap = r() < 0.55 ? 0.84 : 1;
+    let d = '';
+    for (let k = 0; k < 6; k++) {
+      const A = V[k], B = V[(k + 1) % 6], mid = (p, q) => [(p[0] + q[0]) / 2, (p[1] + q[1]) / 2], a = mid(c, A), b = mid(A, B), e = mid(c, B);
+      const tris = [[c, a, e], [a, A, b], [e, b, B], [a, b, e]], mask = k % 2 ? m2 : m1;
+      tris.forEach((t, i) => { if (mask & (1 << i)) d += pol(gap < 1 ? shrink(t, gap) : t); });
+    }
+    return d;
+  },
+  ar(r) {
+    const mode = pick(r, ['rainbow', 'rainbow', 'corner', 'corner', 'wave']), rot = Math.floor(r() * 4), out = [];
+    const rings = (n, R0, R, core) => { const band = (R - R0) / (2 * n - 1), o = []; for (let i = 0; i < n; i++) { const r2 = R - i * 2 * band, r1 = r2 - band; o.push([i === n - 1 && core ? 0 : Math.max(0, r1), r2]); } return o; };
+    if (mode === 'rainbow') { const n = 2 + Math.floor(r() * 3), core = r() < 0.5; for (const [a1, b1] of rings(n, core ? 0 : 6, 46, core)) out.push([50, 73, a1, b1, 180, 360]); }
+    else if (mode === 'corner') { const n = 2 + Math.floor(r() * 3), two = r() < 0.5, core = r() < 0.6, R = two ? 52 : 90; for (const [a1, b1] of rings(n, 0, R, core)) { out.push([5, 95, a1, b1, 270, 360]); if (two) out.push([95, 5, a1, b1, 90, 180]); } }
+    else { const core = r() < 0.5; for (const [a1, b1] of rings(2, 0, 25, core)) out.push([27, 50, a1, b1, 180, 360], [73, 50, a1, b1, 0, 180]); }
+    return out.map(([cx, cy, r1, r2, a1, a2]) => { let c = [cx, cy]; for (let i = 0; i < rot; i++) c = [100 - c[1], c[0]]; return sectorC(c[0], c[1], r1, r2, a1 + rot * 90, a2 + rot * 90); }).join('');
+  },
+  rg(r) {
+    const mode = pick(r, ['chain', 'trio', 'broken', 'broken', 'quad']), w = 8 + r() * 4;
+    if (mode === 'chain') { const R = 28 + r() * 4, dd = 15 + r() * 4; return ring(50 - dd, 50, R, w) + ring(50 + dd, 50, R, w); }
+    if (mode === 'trio') { const R = 25 + r() * 3, dd = 20; return [0, 1, 2].map((k) => { const [x, y] = Pc(50, 54, -90 + k * 120, dd); return ring(x, y, R, w); }).join(''); }
+    if (mode === 'quad') { const R = 22 + r() * 3, dd = 47 - R; return [0, 1, 2, 3].map((k) => { const [x, y] = Pc(50, 50, 45 + k * 90, dd * 0.9); return ring(x, y, R, w * 0.85); }).join(''); }
+    const n = 2 + Math.floor(r() * 2), band = 46 / (2 * n - 0.5), gap = 30 + r() * 40, a0 = Math.floor(r() * 4) * 90, step = pick(r, [0, 90, 180, 45]);
+    let d = ''; for (let i = 0; i < n; i++) { const r2 = 47 - i * 2 * band, a = a0 + i * step; d += sectorC(50, 50, r2 - band, r2, a + gap / 2, a + 360 - gap / 2); }
+    if (r() < 0.5) d += circ(50, 50, band * 0.9);
+    return d;
+  },
+  cp(r) {
+    const mode = pick(r, ['parallel', 'parallel', 'weave', 'stairs']), rot = pick(r, [45, -45, 0, 90]);
+    let d = '';
+    if (mode === 'weave') { const w = 6.5, h = 23; for (let j = 0; j < 2; j++) for (let i = 0; i < 2; i++) { const cx = 27 + i * 46, cy = 27 + j * 46, v = (i + j) % 2; for (const o of [-h / 2 + 2, h / 2 - 2]) { const p = v ? [cx + o, cy - h + w + 2] : [cx - h + w + 2, cy + o], q = v ? [cx + o, cy + h - w - 2] : [cx + h - w - 2, cy + o]; d += cap(p, q, w); } } return d; }
+    const n = 3 + Math.floor(r() * 2), w = n === 3 ? 10 : 8, g = 5, pat = pick(r, ['ramp', 'alt', 'mid']);
+    for (let i = 0; i < n; i++) {
+      const y = 50 + (i - (n - 1) / 2) * (2 * w + g), t = i / (n - 1), Lmax = (rot % 90 ? 72 : 88) - 2 * w;
+      const L = mode === 'stairs' ? Lmax * 0.62 : pat === 'ramp' ? Lmax * (0.45 + 0.55 * t) : pat === 'alt' ? Lmax * (i % 2 ? 0.55 : 1) : Lmax * (1 - Math.abs(t - 0.5));
+      const off = mode === 'stairs' ? (t - 0.5) * Lmax * 0.38 : pat === 'ramp' ? (Lmax - L) / 2 : 0;
+      d += cap(rotAbout([50 - L / 2 + off, y], rot), rotAbout([50 + L / 2 + off, y], rot), w);
+    }
+    return d;
+  },
+  sw(r) {
+    const n = pick(r, [2, 3, 3, 4]), dd = n === 2 ? 0 : 10 + r() * 6, t = 11 + r() * 5, sweep = pick(r, [150, 180, 210]), r1 = n === 2 ? 14 : 12 + r() * 6;
+    let d = '';
+    for (let k = 0; k < n; k++) { const a = -90 + (k * 360) / n, [cx, cy] = Pc(50, 50, a, dd), r2 = Math.min(r1 + t, 47 - dd); d += n === 2 ? sectorC(50 + (k ? 1 : -1) * (r1 + t / 2) / 2, 50, r1 - t / 2 + 4, r1 + t / 2 + 4 + 14, k ? 0 : 180, k ? 180 : 360) : sectorC(cx, cy, r2 - t, r2, a, a + sweep); }
+    return d;
+  },
+  iso(r) {
+    const V = regular(6, 47), c = [50, 50], faces = [[V[5], V[0], V[1], c], [c, V[1], V[2], V[3]], [V[5], c, V[3], V[4]]];
+    const combo = pick(r, [['stripe', 'stripe', 'stripe'], ['solid', 'stripe', 'none'], ['stripe', 'solid', 'none'], ['none', 'stripe', 'solid'], ['solid', 'stripe', 'stripe'], ['stripe', 'none', 'solid']]), m = 4 + Math.floor(r() * 3);
+    let d = '';
+    faces.forEach((f0, i) => {
+      const f = shrink(f0, 0.93), kind = combo[i];
+      if (kind === 'none') return;
+      if (kind === 'solid') { d += pol(f); return; }
+      const e = pick(r, [0, 1]), u = [f[e + 1][0] - f[e][0], f[e + 1][1] - f[e][1]], L = Math.hypot(u[0], u[1]), nv = [-u[1] / L, u[0] / L], pr = f.map((p) => p[0] * nv[0] + p[1] * nv[1]), lo = Math.min(...pr), hi = Math.max(...pr), step = (hi - lo) / m;
+      for (let k = 0; k < m; k++) { let q = clipHalf(f, nv, lo + k * step + step * 0.58); q = clipHalf(q, [-nv[0], -nv[1]], -(lo + k * step)); if (q.length > 2) d += pol(q); }
+    });
+    return d;
+  },
+};
 export const famSeeds = (fam, from, count) => Array.from({ length: count }, (_, i) => from + i);
-const PICKS = { ov: [3, 4, 5, 6, 9, 11, 13], bu: [2, 4, 9, 12], st: [1, 2, 3, 5, 9, 10, 13], ck: [1, 2, 4, 13], rb: [1, 10, 13], hx: [1, 2, 4], sc: [5, 6, 9, 16, 19, 17], sl: [2, 11, 4], pl: [3, 4, 5, 1, 2, 6], pw: [1, 2, 3, 6, 9, 10], sp: [1, 13, 5] };
+const PICKS = { ov: [3, 4, 5, 6, 9, 11, 13], bu: [2, 4, 9, 12], st: [1, 2, 3, 5, 9, 10, 13], ck: [1, 2, 4, 13], rb: [1, 10, 13], hx: [1, 2, 4], sc: [5, 6, 9, 16, 19, 17], sl: [2, 11, 4], pl: [3, 4, 5, 1, 2, 6], pw: [1, 2, 3, 6, 9, 10], sp: [1, 13, 5], ht: [1, 4, 9, 11, 14], tg: [1, 2, 4, 6, 7, 9, 14, 15], ar: [1, 5, 6, 8, 10, 13, 14, 16], rg: [1, 3, 5, 7, 9, 10, 12, 14], cp: [1, 2, 3, 6, 7, 9, 11, 13], sw: [1, 3, 5, 8, 12, 13], iso: [1, 2, 3, 6, 9, 10, 11, 15] };
 export const FAM_CURATED = FAMILIES.flatMap(([f]) => (PICKS[f] || famSeeds(f, 1, 8)).map((s) => ({ k: 'f', fam: f, seed: s })));
 
 // Letters: stroked skeletons on a 100 box (ink spans about 24..76 by 16..84). Weight, caps and joins are the user's.
@@ -277,7 +387,7 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
 }
 
 export const markId = (m) => (m.k === 'l' ? `l-${m.ch}` : m.k === 'f' ? `f-${m.fam}-${m.seed.toString(36)}` : `g-${m.seed.toString(36)}`);
-export const parseMarkId = (s) => { const fm = /^f-(ov|bu|st|ck|rb|hx|sc|sl|pl|pw|sp|an|sk)-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
+export const parseMarkId = (s) => { const fm = /^f-([a-z]{2,3})-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
 
 // Quality filter for the curated set and "Generate more": skip plain, empty, near-full or very busy compositions.
 const AREA = { sq: 1, qd: 0.785, qi: 0.215, hd: 0.393, tri: 0.5, ci: 0.785, cs: 0.246, lens: 0.571, dm: 0.5, bar: 0.5 };
