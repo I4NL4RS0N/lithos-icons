@@ -3374,5 +3374,43 @@
   "mapped": 0,
   "why": "Fitch 3.5 financial guaranty insurers currently reuse the insurance umbrella.",
   "cost": 0.73
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:05:22.290Z",
+  "mode": "add",
+  "id": "savings-banks",
+  "name": "Savings Banks",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The 'coins' are flat stadium/pill rectangles with no rim or edge. They don't read as coins. Compare the 'financials' icon in the set, where the coin stack is clearly drawn as ellipses with rims.; The passbook doesn't read as a book. It is a single rectangle with a spine line and two text lines, so it looks like a generic document or receipt. The spine plus top bar also forms a letter-like 'P'/'F' shape, which risks reading as a letterform.; The coin stack overlaps the book's bottom-right ",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A document or receipt with two flat capsule/pill shapes stuck to its lower-right corner. It looks like a form or ledger page, maybe a 'P' glyph. It doesn't read as a passbook with coins or as a savings bank.",
+   "problems": [
+    "The 'coins' are flat stadium/pill rectangles with no rim or edge. They don't read as coins. Compare the 'financials' icon in the set, where the coin stack is clearly drawn as ellipses with rims.",
+    "The passbook doesn't read as a book. It is a single rectangle with a spine line and two text lines, so it looks like a generic document or receipt. The spine plus top bar also forms a letter-like 'P'/'F' shape, which risks reading as a letterform.",
+    "The coin stack overlaps the book's bottom-right corner and its outline merges with the book outline. At 16px and 20px the outline clogs into a tangle of strokes where the corner, the spine and the two coins meet.",
+    "At 16px the icon sits small and off-centre: about 10–11px wide, with its mass pushed to the right. Neighbours on sheet-16 such as banks, private-credit and pension-funds fill noticeably more of the frame.",
+    "Solid version: no knockout separates the coins from the book, so at 16–24px they fuse into one blob and the lower coin is just a bump. The spine knockout is a thin sliver that almost disappears at 16px.",
+    "Solid 16px: the text-line knockouts disappear, leaving a dark 'IF'-like mass.",
+    "The icon has little in common with its parent (banks, a pillared building). Nothing ties it to banking, so siblings don't read as a family."
+   ],
+   "fixes": [
+    "Redraw the coins as true coins: a stack of 2–3 coins in side view, as elliptical tops with straight sides, matching the coin construction in 'financials'. Or use a single round coin in front view. Don't use stadium rectangles.",
+    "Make the passbook read as a book: show it open (two facing pages with a centre gutter), or closed with a visible cover overhang or bookmark ribbon. Replace the 'P'-forming spine+bar with a plain cover and one or two short ruled lines inside a page.",
+    "Separate the coin stack from the book with a clear gap of at least 1.5px at 24px, drawn as a cut-out of the book outline behind the coins. Avoid stroke-on-stroke tangles. In solid, make the gap a real knockout so the coins read as separate shapes.",
+    "Rebalance the composition to fill the 24px live area (about 20×20) like its neighbours. The book should take the left and upper roughly 2/3, with the coins in the lower right, and the whole group centred optically.",
+    "At 16px draw a separate simplified master: the book outline with one ruled line plus a single coin (or two coins at most), with no spine line. Check it fills at least 13px of the 16px frame.",
+    "In solid, knock out one page line and the coin edge lines at 1px or more at 16px, so the icon doesn't become a blob.",
+    "Consider reusing the coin metaphor from data/metaphors.json (as used in 'financials'), as CLAUDE.md requires."
+   ]
+  },
+  "cost": 1.48
  }
 ]
