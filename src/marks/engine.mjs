@@ -220,7 +220,7 @@ export function skPath(seed) {
 }
 export const SK_CURATED = [1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 14, 16, 17, 18, 21, 22, 23, 24, 25, 27, 28, 30, 34, 36, 42, 45, 48, 49, 52, 56, 60, 63, 64, 65, 70, 76, 77, 78, 92, 102].map((seed) => ({ k: 'f', fam: 'sk', seed }));
 export const famSeeds = (fam, from, count) => Array.from({ length: count }, (_, i) => from + i);
-const PICKS = { ov: [3, 4, 5, 6, 9, 11, 13], bu: [2, 4, 9, 12], st: [1, 2, 3, 5, 9, 10, 13], ck: [1, 2, 4, 8, 13], rb: [1, 10, 13], hx: [1, 2, 4, 7], sc: [5, 6, 9, 16, 19, 17], sl: [2, 11, 21, 4], pl: [3, 4, 5, 1, 2, 6], pw: [1, 2, 3, 6, 9, 10], sp: [1, 4, 13, 5] };
+const PICKS = { ov: [3, 4, 5, 6, 9, 11, 13], bu: [2, 4, 9, 12], st: [1, 2, 3, 5, 9, 10, 13], ck: [1, 2, 4, 13], rb: [1, 10, 13], hx: [1, 2, 4], sc: [5, 6, 9, 16, 19, 17], sl: [2, 11, 4], pl: [3, 4, 5, 1, 2, 6], pw: [1, 2, 3, 6, 9, 10], sp: [1, 13, 5] };
 export const FAM_CURATED = FAMILIES.flatMap(([f]) => (PICKS[f] || famSeeds(f, 1, 8)).map((s) => ({ k: 'f', fam: f, seed: s })));
 
 // Letters: stroked skeletons on a 100 box (ink spans about 24..76 by 16..84). Weight, caps and joins are the user's.
@@ -290,4 +290,4 @@ export function isGood(seed) {
 export function goodSeeds(from, count) { const out = []; for (let s = from; out.length < count; s++) if (isGood(s)) out.push(s); return out; }
 
 // Hand-picked from the generator: distinct, bold, readable at 16px.
-export const CURATED = [2, 4, 22, 29, 44, 57, 60, 62, 63, 72, 141, 147, 159, 165, 204, 219, 278, 305, 316, 329, 387, 390, 400, 403, 408, 410, 414, 422, 428, 442, 459, 498, 507, 539, 547, 596, 682, 741, 747, 785, 807, 833, 837, 897, 931, 1116, 1222, 1246, 1266, 1270, 1291, 1363, 1398, 1485, 1490, 1520, 1525, 1568, 1587, 1643, 1694, 1717, 1748, 1754, 1761, 1766, 1789, 1808, 1816, 1846, 1861, 1905, 1943, 1956, 1991, 2012, 2059, 2083, 2099, 2144];
+export const CURATED = [2, 4, 22, 29, 44, 57, 60, 62, 63, 72, 141, 147, 159, 165, 204, 278, 329, 387, 390, 400, 403, 408, 410, 414, 422, 428, 442, 459, 498, 539, 547, 596, 682, 741, 785, 807, 833, 837, 897, 1116, 1222, 1246, 1485, 1490, 1520, 1525, 1643, 1694, 1717, 1748, 1766, 1789, 1861, 1905, 1991, 2012, 2059, 2083, 2099, 2144];
