@@ -3702,5 +3702,375 @@
    ]
   },
   "cost": 1.68
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:02.595Z",
+  "mode": "review",
+  "id": "insurance",
+  "name": "Insurance",
+  "result": "pass",
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "An umbrella. People in finance know it as the standard symbol for insurance or protection.",
+   "problems": [
+    "At 16px, the outline canopy's scalloped lower edge and the rib details almost disappear. It still reads as an umbrella, but the canopy looks thin and flat next to heavier neighbours like banks and funds.",
+    "The solid version has no inner knockouts, so it depends only on the scalloped edge and the handle. That works, but the 16px solid shape is a small dark half-disc with very little internal detail.",
+    "The J-handle is short compared with the canopy at 16, 20 and 24px. This leaves some empty space at the bottom of the box compared with siblings that fill the full height, such as funds and capital-markets. It's a minor issue and still within tolerance.",
+    "The umbrella-with-J-handle design is a very common generic icon. It is not a copy of any one known icon, but it has no distinctive house detail."
+   ],
+   "fixes": [
+    "Optional: at 16px, make the canopy scallops slightly deeper so the lower edge reads as scalloped, not flat.",
+    "Optional: at 16–24px, extend the handle by about 0.5–1px to match the vertical footprint of the siblings.",
+    "Optional: in the solid version, add a thin central rib knockout at 32/48px for a little internal structure. Leave 16/20 plain."
+   ]
+  },
+  "problems": [],
+  "cost": 0.12
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:03.535Z",
+  "mode": "review",
+  "id": "automobiles",
+  "name": "Automobiles",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Outline: a small toy or cartoon car (at 16px, a bubble-car blob). Solid: a hat or flying-saucer shape sitting on two balls, not a clearly readable car.",
+   "problems": [
+    "Sits small in the frame at every size. At 24px it covers roughly 18×12 of the box, while neighbours such as aerospace-defense, banks and machinery fill about 20–22px. On sheet-24 it is visibly the smallest glyph in its row. At 16 and 20px it shrinks to a tiny blob next to apparel, furniture and retail in the near view.",
+    "Solid: the body is a flat slab with the wheels as separate discs hanging below it, with no lower body or sill joining them. The silhouette reads as a hat, mushroom or UFO on balls rather than a car, especially at 16 and 20px.",
+    "Solid: the window knockout is missing or clogged at 16 and 20px (just a dark dome), and only a thin sliver shows at 24px. The cabin cut-out is not clear at any small size.",
+    "Solid footprint does not match the outline. The outline body has a full lower panel around the wheel tops, but the solid drops it, so the solid looks shorter and differently shaped.",
+    "Detail changes between sizes: 16 and 20px have no window at all, while 24px and up add a window and a centre bumper dash. The 16 and 20px versions read as a rounded bubble, not a car with a cabin.",
+    "Proportions are toy-like: a tall, narrow cabin on a short body with an oversized cabin-to-body ratio. That is weaker than the sturdy, wide geometry of the set (see transportation, rail).",
+    "The 48px outline wheels overlap the body outline, which gives tangled double lines where the wheel circles meet the sill."
+   ],
+   "fixes": [
+    "Widen the car to fill the live area, about 20–21px wide at 24px (x 2 to 22), and set the wheel bottoms near y 20–21 to match the bottom edge of neighbours like transportation and retail. Redraw 16 and 20px to fill their frames the same way.",
+    "Use a lower, wider side-profile sedan: a long body box (about 20×6 at 24px) with a shorter trapezoid cabin on top, about 60% of the body width. Avoid the tall bubble cabin.",
+    "Cut the wheel arches into the body and set the wheels inside them, so the body runs continuously along both sides of each wheel and the wheels don't overlap the sill strokes.",
+    "Solid: fill the full body including the lower sill and keep the same outer footprint as the outline. Knock out one clear window, at least 2px tall at 16px and 3px at 24px, and leave a 1px knockout gap around each wheel so the wheels separate from the body.",
+    "Keep one window cut-out at every size, including 16px (one simple rectangle or trapezoid is enough). Drop the bumper dash at 16 and 20px rather than adding detail only at larger sizes.",
+    "After redrawing, check it beside transportation (truck) and rail on the sheet so the car stays clearly different from the truck while matching its weight and size."
+   ]
+  },
+  "problems": [
+   "Sits small in the frame at every size. At 24px it covers roughly 18×12 of the box, while neighbours such as aerospace-defense, banks and machinery fill about 20–22px. On sheet-24 it is visibly the smallest glyph in its row. At 16 and 20px it shrinks to a tiny blob next to apparel, furniture and retail in the near view.",
+   "Solid: the body is a flat slab with the wheels as separate discs hanging below it, with no lower body or sill joining them. The silhouette reads as a hat, mushroom or UFO on balls rather than a car, especially at 16 and 20px.",
+   "Solid: the window knockout is missing or clogged at 16 and 20px (just a dark dome), and only a thin sliver shows at 24px. The cabin cut-out is not clear at any small size.",
+   "Solid footprint does not match the outline. The outline body has a full lower panel around the wheel tops, but the solid drops it, so the solid looks shorter and differently shaped."
+  ],
+  "cost": 0.11
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:04.479Z",
+  "mode": "review",
+  "id": "pharmaceuticals",
+  "name": "Pharmaceuticals",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "a diagonal pill/capsule (medicine), so pharmaceuticals. Without the label it could also pass as a generic 'medication' or 'health' icon.",
+   "problems": [
+    "Footprint: at 16, 20 and 24px the capsule sits visibly smaller in its box than its siblings (stethoscope, paw, DNA, hospital). It is a thin diagonal bar with lots of empty corner space, so it looks lighter and smaller in the health-care row.",
+    "Solid 16px and 20px: the seam knockout shrinks to a tiny dash or speck that is nearly invisible, so the solid becomes a plain dark lozenge and loses the two-half capsule meaning.",
+    "Solid 32px and 48px: the seam knockout is a short floating dash that cuts small notches into the outer edge instead of running cleanly across. The silhouette looks chipped and the drawing is inconsistent with the outline, where the seam is a full divider line.",
+    "Outline 16px: the capsule's inner hollow is very narrow, so the two halves read as a thin chain-link or paperclip shape rather than a roomy capsule.",
+    "The diagonal pill-plus-seam shape is close to the generic 'pill' glyph in common open icon sets. It is not a copy, but it adds nothing specific to the industry."
+   ],
+   "fixes": [
+    "Make the capsule fatter and longer at 16/20/24 so it fills the 24px live area corner-to-corner like its neighbours: about 8–9px body width at 24px, ends almost touching the 2px padding. Redraw 16 and 20 separately rather than scaling.",
+    "At 16 and 20 solid, widen the seam knockout to a full-width gap of at least 1.5px (16) or 2px (20) running across the whole body, or split the capsule into two filled halves with a clear gap. The seam must survive at 16px.",
+    "At 32 and 48 solid, make the seam a clean straight gap across the full width with no edge notches, or keep it fully inside the body with the same margin on both sides. Do not let it nick the outline.",
+    "At 16 outline, increase the inner hollow (wider body) so each half has clear open counter space and does not read as a chain link.",
+    "Optionally give the capsule something distinctive for the industry, such as one half filled in the outline style (a classic two-tone capsule using fill/no-fill) or a small secondary round tablet, keeping the set's level of detail."
+   ]
+  },
+  "problems": [
+   "Footprint: at 16, 20 and 24px the capsule sits visibly smaller in its box than its siblings (stethoscope, paw, DNA, hospital). It is a thin diagonal bar with lots of empty corner space, so it looks lighter and smaller in the health-care row.",
+   "Solid 16px and 20px: the seam knockout shrinks to a tiny dash or speck that is nearly invisible, so the solid becomes a plain dark lozenge and loses the two-half capsule meaning.",
+   "Solid 32px and 48px: the seam knockout is a short floating dash that cuts small notches into the outer edge instead of running cleanly across. The silhouette looks chipped and the drawing is inconsistent with the outline, where the seam is a full divider line.",
+   "Outline 16px: the capsule's inner hollow is very narrow, so the two halves read as a thin chain-link or paperclip shape rather than a roomy capsule."
+  ],
+  "cost": 0.11
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:06.970Z",
+  "mode": "review",
+  "id": "banks",
+  "name": "Banks",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Classical bank building (pediment, columns, base) at 24–48px. At 16px it reads as a squat shelter or picnic table.",
+   "problems": [
+    "The icon sits small in its box. The drawing is short and wide, so it uses noticeably less height than its siblings Insurance, Funds and Capital Markets at every size. On sheet-24 it looks lighter and smaller than the icons in its row.",
+    "At 16px the middle column is dropped. With only two short columns under a flat roof, it stops reading as a temple-style bank and looks like a table or gazebo.",
+    "The columns at 16px and 20px are very short: the column height is about the same as the roof height. That squashes the proportions and weakens the 'colonnade' cue.",
+    "Solid 16px: the filled pediment and two stub columns merge into a small blob with a weak silhouette. The solid also has no knockout detail beyond the column gaps.",
+    "Solid 20/24px: the gaps between columns are narrow compared with the thick column bars, so the colonnade starts to clog on dark backgrounds.",
+    "The outline and solid footprints are both shorter than the frame the rest of the set uses. The base line sits well above the bottom where neighbours like Funds and Insurance reach."
+   ],
+   "fixes": [
+    "Make the building taller so it fills the live area vertically: put the pediment apex near the top keyline and the base near the bottom keyline, matching the vertical extent of Insurance and Funds at each size.",
+    "Make the columns about 1.5–2× the pediment height so the colonnade dominates, as at 48px.",
+    "Keep three columns at 16px. Use 1px-wide strokes at whole-pixel positions with at least 1px gaps (e.g. columns at x=4.5, 8, 11.5 on a 16 grid) rather than dropping to two.",
+    "Add an architrave line under the pediment, or a two-step base, at 20px and up so the building reads as more than a triangle on legs. Keep detail at the same level as its neighbours.",
+    "Solid: thin the column bars, or draw the solid as a filled block with the columns knocked out as vertical slots, so the gaps stay at least 1px open at 16/20px. Keep the footprint identical to the outline.",
+    "Re-check against municipal-bonds (domed colonnade) and government after the redraw so that Banks stays the plain-pediment version and doesn't come closer to them."
+   ]
+  },
+  "problems": [
+   "The icon sits small in its box. The drawing is short and wide, so it uses noticeably less height than its siblings Insurance, Funds and Capital Markets at every size. On sheet-24 it looks lighter and smaller than the icons in its row.",
+   "At 16px the middle column is dropped. With only two short columns under a flat roof, it stops reading as a temple-style bank and looks like a table or gazebo.",
+   "The columns at 16px and 20px are very short: the column height is about the same as the roof height. That squashes the proportions and weakens the 'colonnade' cue.",
+   "Solid 16px: the filled pediment and two stub columns merge into a small blob with a weak silhouette. The solid also has no knockout detail beyond the column gaps."
+  ],
+  "cost": 0.13
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:22.354Z",
+  "mode": "review",
+  "id": "biotechnology",
+  "name": "Biotechnology",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A DNA double helix at 24px and above. At 16px it reads as a narrow X, an hourglass or a chain link.",
+   "problems": [
+    "The icon sits too small in its box. The helix uses only about 45–50% of the frame width at every size, while the stethoscope, paw, pill and hospital siblings use about 85–95%. Next to them it looks shrunk and lighter.",
+    "At 16px the outline shrinks to a tiny X shape, roughly 6px wide. The two strands cross so close together that the twist looks like a single cross, and you can't see the rungs.",
+    "At 16 and 20px the solid version gets clogged. The filled lobes merge with the strokes where the strands cross, so it becomes a dark blob or bow-tie, and the centre rung knockout is barely visible.",
+    "Solid adds little. It only fills the small lens-shaped gaps between the strands, so outline and solid look almost the same at 24px and below, while the solid siblings clearly read as heavier.",
+    "Rungs are uneven across sizes: there's one centre rung inside the 48px lobes, and only the top and bottom serif bars at small sizes. This makes the icon look more like an hourglass or a stack of spools than a DNA ladder."
+   ],
+   "fixes": [
+    "Redraw wider, close to the full 24px frame. Run the helix from about x=4 to x=20, or tilt it about 30–45° so it runs diagonally, which lets it fill the square like the diagonal pill does.",
+    "Use 1.5 twists, so there are two crossings and three lobes, and put 1–2 short horizontal rungs in each lobe so the ladder reads at once. Leave at least 2px of clear space between each rung and the strands.",
+    "For 16px, draw a dedicated simplified version. Use two clean crossings across a 12–13px wide footprint, with one rung per lobe, and make sure the strands don't touch at the crossings.",
+    "Solid: make the strands wider ribbons, or fill the lobes and knock out the rungs with at least 1.5px gaps. Then check at 16 and 20px that each knockout is still open, and match the solid's footprint to the new outline.",
+    "Drop the flat end-cap bars at top and bottom, or make them match the rung style, so the shape stops reading as an hourglass."
+   ]
+  },
+  "problems": [
+   "The icon sits too small in its box. The helix uses only about 45–50% of the frame width at every size, while the stethoscope, paw, pill and hospital siblings use about 85–95%. Next to them it looks shrunk and lighter.",
+   "At 16px the outline shrinks to a tiny X shape, roughly 6px wide. The two strands cross so close together that the twist looks like a single cross, and you can't see the rungs.",
+   "At 16 and 20px the solid version gets clogged. The filled lobes merge with the strokes where the strands cross, so it becomes a dark blob or bow-tie, and the centre rung knockout is barely visible.",
+   "Solid adds little. It only fills the small lens-shaped gaps between the strands, so outline and solid look almost the same at 24px and below, while the solid siblings clearly read as heavier."
+  ],
+  "cost": 0.07
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:26.115Z",
+  "mode": "review",
+  "id": "semiconductors",
+  "name": "Semiconductors",
+  "result": "pass",
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A microchip / IC package: a square body with pins on all four sides, plus a die square at 32–48px.",
+   "problems": [
+    "Detail changes a lot between sizes: 16/20/24 have no inner die, then 32/48 suddenly add one. The 24px master looks plainer than its larger versions.",
+    "Solid 16/20/24 is a plain silhouette with no knockout. It still reads as a chip, but the solid 24 especially looks like a dark blob with teeth, while 32/48 have a clear die knockout.",
+    "At 24px the pins are packed closely (3–4 per side, short gaps). They stay separate, but they are the busiest part of the set at that size.",
+    "The number of pins per side changes from size to size (2 → 2 → 3/4 → 3 → 3), so the family looks less consistent than it should."
+   ],
+   "fixes": [
+    "Optional polish: add a small die knockout (about 5–6px square) to the solid 24 so it matches 32/48. Leave 16/20 as they are.",
+    "Optional polish: use 3 pins per side at 24, 32 and 48 so the pin rhythm matches across sizes. Keep 2 pins at 16/20."
+   ]
+  },
+  "problems": [],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:26.918Z",
+  "mode": "review",
+  "id": "software",
+  "name": "Software",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "a code editor or browser window with </> angle brackets, the standard picture for software or development",
+   "problems": [
+    "The 16px outline drops the title bar, so it reads as a 'code brackets in a box' badge rather than a window. That is acceptable simplification, but the picture changes between 16 and 20.",
+    "The slash only appears at 32 and 48. At 16–24 the glyph is just '< >', which works but adds another inconsistency across sizes.",
+    "The solid 16px chevron knockouts are very small and short, so they come close to dissolving into the black tile. They are readable, but only just.",
+    "The solid 20 and 24px versions (dark tile, horizontal knockout bar, small mark below) share a silhouette with consumer-finance and abs solid card shapes. Only the chevrons tell them apart at a glance.",
+    "The window is wide and short (landscape), so at 16px it sits a little short vertically next to square siblings like semiconductors. The 24px sheet shows the fill is acceptable."
+   ],
+   "fixes": [
+    "Optional: make the solid 16px chevron knockouts about 0.5px longer and slightly wider so they hold up on the dark tile.",
+    "Optional: at 24px, consider adding the slash to match 32 and 48, if spacing allows without clogging.",
+    "Optional: at 16px, keep a thin title-bar line if it can stay ≥1px clear of the chevrons, so the 'window' picture carries through every size."
+   ]
+  },
+  "problems": [],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:30.594Z",
+  "mode": "review",
+  "id": "renewable-energy",
+  "name": "Renewable Energy",
+  "result": "flag",
+  "scores": {
+   "reads_as": "A wind turbine at 32 and 48px. At 16 and 20px it reads as a thin stick pinwheel or a tiny propeller.",
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "problems": [
+    "The icon sits far too small in its box. At 16/20/24 the glyph covers only about half the width and roughly two-thirds of the height that neighbours like electric-utilities, gas-utilities and water-utilities fill. In the sheets it looks much lighter and smaller than every other icon.",
+    "At 16px the base or ground line is gone, leaving a bare stroke with three tiny blade ticks. It reads as a stick or plus-like mark rather than a turbine. At 20px the blades are only about 3–4px long, so the rotor hardly shows.",
+    "The blades are short compared with the tower. The rotor diameter is about the same as the tower height, but the turbine is only recognisable when the blades clearly dominate the top half.",
+    "There is no hub detail at 16–24px. The blades meet at a point, so the rotor collapses into an asterisk-like junction.",
+    "The solid version is nearly the same as the outline. Its blades are only slightly thicker. It has no filled mass, no hub knockout and no stronger visual weight, so it does not match how other solids in the set (gas flame, tap, droplet) become filled shapes.",
+    "The blades are inconsistent: one goes up, one goes left almost horizontally, and one goes down-right. At small sizes the uneven angles read as random strokes rather than a 120° rotor.",
+    "The tower and base use a T-shape at the bottom, but the base is narrower than the base lines of gas-utilities and construction. Together these make the footprint look thin and spindly."
+   ],
+   "fixes": [
+    "Scale the drawing so it fills the live area like its siblings. At 24px the rotor should span about 18–20px across and the full height should run about 2px to 22px. Redraw each size from the master at that scale.",
+    "Make the blades longer, about 8–9px from the hub at 24px. Space them evenly at 120°, for example one pointing straight up and two at ±120°. Give each blade a tapered or teardrop shape instead of a single line, so the rotor reads at 16px.",
+    "Add a clear hub circle (r ≈ 1.5–2px at 24px). In the solid version, fill the blades as solid shapes and knock out a small ring around the hub so it stays open.",
+    "Keep a ground or base line at every size, including 16px. Widen it to about 10–12px at 24px to match the base width of gas-utilities.",
+    "Taper the tower slightly so it is wider at the bottom. In the solid version, fill the tower as a slim trapezoid so the solid has real mass and keeps the outline's footprint.",
+    "At 16px, simplify to three short, thick, evenly spaced blades, a hub dot gap, a tower and a base. Snap them to the pixel grid so no blade falls below 1.5px weight or blurs into the tower.",
+    "Optional for distinctness: add a second smaller turbine behind, or a small leaf or sun accent, only if it stays clean at 16px. Otherwise keep the single turbine but make it bigger and bolder."
+   ]
+  },
+  "problems": [
+   "The icon sits far too small in its box. At 16/20/24 the glyph covers only about half the width and roughly two-thirds of the height that neighbours like electric-utilities, gas-utilities and water-utilities fill. In the sheets it looks much lighter and smaller than every other icon.",
+   "At 16px the base or ground line is gone, leaving a bare stroke with three tiny blade ticks. It reads as a stick or plus-like mark rather than a turbine. At 20px the blades are only about 3–4px long, so the rotor hardly shows.",
+   "The blades are short compared with the tower. The rotor diameter is about the same as the tower height, but the turbine is only recognisable when the blades clearly dominate the top half.",
+   "There is no hub detail at 16–24px. The blades meet at a point, so the rotor collapses into an asterisk-like junction."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:43.119Z",
+  "mode": "review",
+  "id": "marine-shipping",
+  "name": "Marine Shipping",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32 and 48px, a boat or tugboat with a cabin and a funnel or mast. At 16–24px, a small tray or bathtub with a lump on top. It doesn't clearly read as a container cargo ship.",
+   "problems": [
+    "The footprint is far too small at 16, 20 and 24px. The 16px glyph is about 30% of the box height, and 20/24 are about 35–40%. Neighbours like the truck, train and envelope fill much more of their boxes, so this looks like a much smaller icon in the row.",
+    "The sizes don't scale consistently. 32 and 48 are tall with a prominent mast, but 16–24 are squashed flat. The mast disappears at 16 and is only a stub at 20/24.",
+    "At 16px the hull and cabin merge into a tiny two-tier shape, a small tub with a box on it. There is no cargo or ship cue left.",
+    "Solid: the container stack becomes one plain slab with no knockouts. The container divisions that carry the 'cargo' meaning in the outline are lost at every size, and the solid reads as a generic boat or barge.",
+    "Solid 16px is a tiny trapezoid with a dash above it. It can't be recognised and looks clogged next to the solid truck and train.",
+    "Recognition depends on the hull trapezoid alone. The 'cargo' part (stacked containers) is too small relative to the hull to read as containers, especially below 32px.",
+    "There's no waterline or bow cue, so the hull could be a bowl, basket or tray."
+   ],
+   "fixes": [
+    "Redraw 16/20/24 so the ship fills the frame like its neighbours: the hull should span about 20 of 24 units wide, and the whole ship about 16–18 units tall, matching the visual weight of the truck and train.",
+    "Make the container stack taller and more prominent: two tiers or at least three clearly separated container blocks that take up about 40% of the height. Draw them separately at each size with whole-pixel gaps so the divisions survive at 16px. Use two blocks at 16px if needed.",
+    "Give the hull a ship profile: a raised or angled bow on one side and a flatter stern, not a symmetric tray. Optionally add a short bridge/superstructure at the stern instead of a thin mast.",
+    "Keep one structural cue (bridge or mast) at every size, including 16px, at the same relative proportion, so the 16–48 drawings read as one design.",
+    "Solid: knock out the gaps between containers (at least 1px at 16/20) so the containers stay visible. Consider a knocked-out deck line between the containers and the hull. Keep the outer footprint identical to the outline.",
+    "Optionally add a simple wave or waterline under the hull, as the airlines icon uses a runway line, to anchor it as a vessel. Check that it stays open at 16px."
+   ]
+  },
+  "problems": [
+   "The footprint is far too small at 16, 20 and 24px. The 16px glyph is about 30% of the box height, and 20/24 are about 35–40%. Neighbours like the truck, train and envelope fill much more of their boxes, so this looks like a much smaller icon in the row.",
+   "The sizes don't scale consistently. 32 and 48 are tall with a prominent mast, but 16–24 are squashed flat. The mast disappears at 16 and is only a stub at 20/24.",
+   "At 16px the hull and cabin merge into a tiny two-tier shape, a small tub with a box on it. There is no cargo or ship cue left.",
+   "Solid: the container stack becomes one plain slab with no knockouts. The container divisions that carry the 'cargo' meaning in the outline are lost at every size, and the solid reads as a generic boat or barge."
+  ],
+  "cost": 0.07
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T19:05:50.054Z",
+  "mode": "review",
+  "id": "rail",
+  "name": "Rail",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "At 24–48px: front view of a metro/train car (window, two headlights, splayed rails). At 16px: a rounded box split by one horizontal line on two short legs. It reads as a seat, a barrel or a storage bin, not a train.",
+   "problems": [
+    "The 16px outline drops the window rectangle and both headlight dots. All that's left is a capsule with one horizontal divider line, which is not recognisable as a train. Next to it on the sheet it looks like furniture/armchair, energy (barrel) or a bin.",
+    "The 16px solid is a filled rounded block with a single dash knockout. It is almost the same as the cmbs solid and the energy solid on sheet-16, so it is not distinct at the most-used size.",
+    "The windscreen and lights carry the train idea at 24px and up, so the 16px drawing does not match the larger sizes.",
+    "The footprint is narrow and portrait. At 16px it sits visibly smaller in its box than transportation, marine-shipping and postal-courier, and its width is only about 55–60% of the frame at every size.",
+    "At 20–24px the two headlight dots are tiny and close to the window. In the solid version the dot knockouts are barely visible at 20px.",
+    "The leg/rail strokes at 16px are very short, so they read as stool legs rather than diverging rails."
+   ],
+   "fixes": [
+    "Redraw 16px from the 24px master's structure. Keep a clear window rectangle (stroke outline; solid knockout at least 2px tall and 5–6px wide) and remove the single horizontal divider line.",
+    "At 16px keep at least the window plus the lower body edge. If the headlights can't be drawn at least 1.5px with 1px clearance, drop them, but don't replace the window with a line.",
+    "Widen the body by about 1–2px at each size (24px: body around 14–15px wide instead of about 12) and lengthen the splayed rail legs so they reach the bottom of the live area. That fills the frame like the siblings and makes the rails read as track.",
+    "At 20 and 24px, make the solid headlight knockouts bigger (about 2px diameter) and add more space between them and the window.",
+    "As an option, add a short horizontal sleeper/track line under the splayed legs at 16 and 20px to push the reading towards rail and away from furniture or a bin.",
+    "After redrawing, compare the 16px solid against cmbs, energy and furniture on sheet-16 to confirm it is distinct."
+   ]
+  },
+  "problems": [
+   "The 16px outline drops the window rectangle and both headlight dots. All that's left is a capsule with one horizontal divider line, which is not recognisable as a train. Next to it on the sheet it looks like furniture/armchair, energy (barrel) or a bin.",
+   "The 16px solid is a filled rounded block with a single dash knockout. It is almost the same as the cmbs solid and the energy solid on sheet-16, so it is not distinct at the most-used size.",
+   "The windscreen and lights carry the train idea at 24px and up, so the 16px drawing does not match the larger sizes.",
+   "The footprint is narrow and portrait. At 16px it sits visibly smaller in its box than transportation, marine-shipping and postal-courier, and its width is only about 55–60% of the frame at every size."
+  ],
+  "cost": 0.09
  }
 ]
