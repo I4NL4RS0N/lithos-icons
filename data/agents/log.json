@@ -3591,5 +3591,43 @@
   "mapped": 0,
   "why": "Massive AI infrastructure spending is driving chips, power, construction and credit markets.",
   "cost": 1.49
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:20:49.936Z",
+  "mode": "add",
+  "id": "carbon-removal",
+  "name": "Carbon Removal",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The molecule is a flat horizontal chain of rings on a bar. It looks like a slider or toggle, not CO2, and with the stacked lines below the whole thing reads as a filter/sort UI glyph.; The 'ground' is broken dashed lines split by the arrow. They read as list rows or text lines, not soil, so the 'into the ground' idea is lost.; 16px and 20px sit very small in the frame. The glyph covers about half the box height, with lots of empty space above and below, much less than neighbours like clim",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A filter/sort or sliders control (circles on a bar above a down-arrow and dashed lines), or 'sort descending'. It does not read as CO2 going into the ground.",
+   "problems": [
+    "The molecule is a flat horizontal chain of rings on a bar. It looks like a slider or toggle, not CO2, and with the stacked lines below the whole thing reads as a filter/sort UI glyph.",
+    "The 'ground' is broken dashed lines split by the arrow. They read as list rows or text lines, not soil, so the 'into the ground' idea is lost.",
+    "16px and 20px sit very small in the frame. The glyph covers about half the box height, with lots of empty space above and below, much less than neighbours like climate-risk or beverages.",
+    "16px uses 2 atoms while 24px+ uses 3. The molecule changes identity between sizes.",
+    "At 16/20px the arrow is a tiny chevron squeezed between line segments and is nearly unreadable. The short dashes break into specks.",
+    "Solid: the atoms become small filled dots on a bar. At 16px the molecule is a dumbbell blob, and solid differs from outline only in the top row. The ground lines are identical, so there are no meaningful knockouts.",
+    "The stacked horizontal ground lines are close to the rmbs/cmbs/abs/clo base-stripe motif, so it visually joins the securitisation family instead of the climate family."
+   ],
+   "fixes": [
+    "Draw a clear CO2 molecule as a cluster (large centre C circle with two smaller O circles at angles, or a triangle-ish arrangement). Don't put the atoms on a straight horizontal bar, which reads as a slider.",
+    "Draw the ground as one solid horizon line with a mound or soil hatching below, or a U-shaped pocket/well the molecule drops into. Remove the dashed, list-like rows.",
+    "Use a single bold down-arrow from the molecule that breaks through the horizon line, or put the molecule itself below ground in a cavity, so 'into the ground' reads at a glance.",
+    "Fill the frame: at 16px the drawing should cover roughly 14×14 of the 16 box. Scale the composition vertically to match neighbours, drawn natively for each size.",
+    "Keep the same molecule (same atom count) at every size. Simplify by enlarging, not by dropping atoms.",
+    "Solid: fill the atoms and the soil mass below the horizon, knocking out the arrow or molecule from the filled ground so solid has a clear, distinct silhouette with the same footprint as the outline.",
+    "Consider reusing an existing climate metaphor from data/metaphors.json (e.g. the leaf/cloud language) if a CO2 cloud with a down-arrow into soil reads better than atoms."
+   ]
+  },
+  "cost": 1.51
  }
 ]
