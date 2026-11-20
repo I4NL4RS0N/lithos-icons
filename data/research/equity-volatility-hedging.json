@@ -1,0 +1,806 @@
+{
+  "concept": "equity-volatility-hedging",
+  "query": "seismograph",
+  "fetched": "2026-11-20T18:07:03.111Z",
+  "topTerms": [
+    [
+      "seismograph",
+      49
+    ],
+    [
+      "earthquake",
+      44
+    ],
+    [
+      "disaster",
+      18
+    ],
+    [
+      "seismometer",
+      12
+    ],
+    [
+      "geology",
+      8
+    ],
+    [
+      "seismic",
+      8
+    ],
+    [
+      "device",
+      6
+    ],
+    [
+      "wave",
+      6
+    ],
+    [
+      "electronics",
+      6
+    ],
+    [
+      "measurement",
+      5
+    ],
+    [
+      "chart",
+      5
+    ],
+    [
+      "detection",
+      4
+    ],
+    [
+      "richter-scale",
+      4
+    ],
+    [
+      "technology",
+      4
+    ],
+    [
+      "frequency",
+      4
+    ],
+    [
+      "diagram",
+      3
+    ],
+    [
+      "danger",
+      3
+    ],
+    [
+      "earth",
+      3
+    ],
+    [
+      "machine",
+      3
+    ],
+    [
+      "seismology",
+      3
+    ],
+    [
+      "graph",
+      3
+    ],
+    [
+      "curve",
+      3
+    ],
+    [
+      "seismograph wave",
+      3
+    ],
+    [
+      "seismograph-wave",
+      3
+    ],
+    [
+      "erathquake",
+      2
+    ],
+    [
+      "instrument",
+      2
+    ],
+    [
+      "earthquake-detector",
+      2
+    ],
+    [
+      "ecology-and-environment",
+      2
+    ],
+    [
+      "data",
+      2
+    ],
+    [
+      "recorder",
+      2
+    ],
+    [
+      "natural-disaster",
+      2
+    ],
+    [
+      "natural",
+      2
+    ],
+    [
+      "amplitude",
+      2
+    ],
+    [
+      "catastrophic",
+      2
+    ],
+    [
+      "nature",
+      2
+    ],
+    [
+      "geography",
+      2
+    ],
+    [
+      "earthquake-machine",
+      2
+    ],
+    [
+      "statistic",
+      2
+    ],
+    [
+      "pulse",
+      2
+    ],
+    [
+      "paper",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Seismograph",
+          "tags": [
+            "device",
+            "earthquake",
+            "geology",
+            "researching",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7827639-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "diagram",
+            "erathquake",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7627731-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "earthquake",
+            "instrument",
+            "measurement",
+            "science",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7540956-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "chart",
+            "diagram",
+            "earthquake",
+            "seismic",
+            "seismograph",
+            "wave"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7519069-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "device",
+            "earthquake",
+            "earthquake-detector",
+            "ecology-and-environment",
+            "geology",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7228744-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "device",
+            "earthquake",
+            "earthquake-detector",
+            "ecology-and-environment",
+            "geology",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7228727-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "data",
+            "detection",
+            "earthquake",
+            "recorder",
+            "seismic",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7227826-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "data",
+            "detection",
+            "earthquake",
+            "recorder",
+            "seismic",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7227777-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "danger",
+            "disaster",
+            "earthquake",
+            "richter-scale",
+            "seismograph",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7166737-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "danger",
+            "disaster",
+            "earthquake",
+            "richter-scale",
+            "seismograph",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7069497-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "danger",
+            "disaster",
+            "earthquake",
+            "seismograph",
+            "seismograph-richter-scale",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7069420-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "diagram",
+            "erathquake",
+            "seismograph",
+            "seismometer",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6844138-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "disaster",
+            "earthquake",
+            "geology",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6818210-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "earth",
+            "earthquake",
+            "natural-disaster",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6728283-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "earthquake",
+            "frequency",
+            "quake",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6574244-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "earthquake",
+            "instrument",
+            "measurement",
+            "seismograph",
+            "tool",
+            "underground"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6326531-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "disaster",
+            "earthquake",
+            "machine",
+            "natural",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6199996-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "amplitude",
+            "earthquake",
+            "seismograph",
+            "seismology",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6129695-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "catastrophic",
+            "disaster",
+            "earthquake",
+            "nature",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5701941-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "catastrophic",
+            "disaster",
+            "earthquake",
+            "nature",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5701922-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "disaster",
+            "earthquake",
+            "machine",
+            "natural",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5569841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "device",
+            "earthquake",
+            "electronics",
+            "geology",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5493900-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "detection",
+            "earthquake",
+            "geography",
+            "seismic",
+            "seismograph",
+            "seismology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5491381-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "detection",
+            "earthquake",
+            "geography",
+            "seismic",
+            "seismograph",
+            "seismology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5399401-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "disaster",
+            "earthquake-machine",
+            "graph",
+            "seismograph",
+            "wave"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5346017-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "disaster",
+            "earthquake-machine",
+            "graph",
+            "seismograph",
+            "wave"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5345836-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "earthquake",
+            "electronics",
+            "geology",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5325229-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "earthquake",
+            "electronics",
+            "geology",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5325203-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "earthquake",
+            "electronics",
+            "geology",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5325182-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "device",
+            "disaster",
+            "earthquake",
+            "seismograph",
+            "seismometer",
+            "statistic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5118676-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "device",
+            "disaster",
+            "earthquake",
+            "seismograph",
+            "seismometer",
+            "statistic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4840809-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "chart",
+            "disaster",
+            "earthquake",
+            "pulse",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4738824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "chart",
+            "disaster",
+            "earthquake",
+            "pulse",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4703570-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "detect",
+            "detector",
+            "machine",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4661615-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "chart",
+            "curve",
+            "earthquake",
+            "paper",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4510384-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "chart",
+            "curve",
+            "earthquake",
+            "paper",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4510363-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "collapse",
+            "cracked",
+            "disaster",
+            "earth",
+            "earthquake",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3175822-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "collapse",
+            "cracked",
+            "disaster",
+            "earth",
+            "earthquake",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3175775-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "amplify",
+            "amplitude",
+            "cleaning",
+            "earthquake",
+            "frequency",
+            "gooey",
+            "maudlin",
+            "pie",
+            "richter-scale",
+            "seismicity",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/368097-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "disaster",
+            "earthquake",
+            "graph",
+            "natural-disaster",
+            "research",
+            "richter-scale",
+            "scientist",
+            "seismograph",
+            "tremor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/241348-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph",
+          "tags": [
+            "alert",
+            "earthquake",
+            "engineering",
+            "ground-motion",
+            "seismic",
+            "seismograph",
+            "shaking",
+            "time-history",
+            "warning",
+            "waves"
+          ],
+          "thumb": "https://static.thenounproject.com/png/240735-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "seismometer",
+          "tags": [
+            "accident",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1356555-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "seismometer",
+          "tags": [
+            "earthquake",
+            "electronics",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6047532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "seismometer",
+          "tags": [
+            "earthquake",
+            "electronics",
+            "seismograph",
+            "seismometer"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6047495-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Seismograph Monitor",
+          "tags": [
+            "earthquake",
+            "measurement",
+            "monitoring",
+            "seismic",
+            "seismograph-monitor",
+            "sensor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8462051-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Earthquake",
+          "tags": [
+            "curve",
+            "earthquake",
+            "frequency",
+            "seismic",
+            "seismograph"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8366971-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Earthquake",
+          "tags": [
+            "disaster",
+            "earthquake",
+            "frequency",
+            "seismograph",
+            "vibration"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8366951-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "seismograph wave",
+          "tags": [
+            "doodle",
+            "earthquake",
+            "hand-drawn",
+            "seismograph",
+            "seismograph-wave",
+            "wave"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8086843-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "seismograph wave",
+          "tags": [
+            "earthquake",
+            "measurement",
+            "record",
+            "seismograph",
+            "seismograph-wave",
+            "wave"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8073673-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "seismograph wave",
+          "tags": [
+            "earthquake",
+            "measurement",
+            "record",
+            "seismograph",
+            "seismograph-wave",
+            "wave"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8042874-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

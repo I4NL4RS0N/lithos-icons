@@ -120,6 +120,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "equity-volatility-hedging",
+    "name": "Equity Volatility",
+    "kind": "theme",
+    "metaphor": "fear-gauge",
+    "keywords": [
+      "volatility",
+      "VIX",
+      "hedging",
+      "options demand",
+      "correction"
+    ],
+    "reduction": "The VIX \"fear gauge\": a round dial cut flat across the bottom, its needle swung hard over to the high end (upper right). 16: dial and needle only. 20+: a hub ring at the needle root. 24+: two rim ticks on the low (left) side; 32+: three. Solid: dial filled, needle, hub and ticks knocked out.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "financial-guaranties",
     "name": "Financial Guaranties",
     "kind": "industry",

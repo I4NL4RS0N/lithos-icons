@@ -3481,5 +3481,42 @@
    ]
   },
   "cost": 1.45
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:15:53.188Z",
+  "mode": "add",
+  "id": "equity-volatility-hedging",
+  "name": "Equity Volatility",
+  "kind": "theme",
+  "picture": "fear-gauge",
+  "moves": "Lifts option premiums and the VIX and pressures equities as investors hedge.",
+  "source": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A speedometer or dashboard gauge with the needle pushed toward the high end. That fits the VIX \"fear gauge\" metaphor, though on its own it is a generic gauge.",
+   "problems": [
+    "The picture is a generic speedometer. Nothing in it is specific to equities or volatility, so without the label it could also read as 'performance', 'speed' or 'dashboard'. It holds up as the well-known fear-gauge metaphor.",
+    "The tick marks are inconsistent across sizes: none at 16 and 20, 2 at 24, 3 at 32 and 48. Drawing each size separately is allowed, but the step from 20 to 24 is noticeable in the strip.",
+    "At 24px solid, the tick knockouts are very small slivers. They are close to filling in, and they don't add much there.",
+    "The flat-bottomed dome is wider than it is tall, so the icon has slightly less optical mass than square neighbours like the dice or the calculator. It is still within tolerance.",
+    "The near preview shows only this icon and no parent or siblings, so the parent/sibling comparison could only be made against the full sheet. No other gauge appears in the set."
+   ],
+   "fixes": [
+    "Optional: at 24px solid, either drop the ticks (as at 16 and 20) or make them slightly longer and wider so the knockouts stay open.",
+    "Optional: give 24px the same 3 ticks as 32 and 48, or use 2 ticks at 32 as well, so the progression across sizes is smoother.",
+    "Optional: push the needle further into the red zone (closer to horizontal right) to reinforce 'high fear' rather than a neutral speed reading."
+   ]
+  },
+  "mapped": 0,
+  "why": "Sharp equity corrections push investors to buy protection, lifting implied volatility.",
+  "cost": 1.05
  }
 ]
