@@ -3666,5 +3666,41 @@
    ]
   },
   "cost": 1.49
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:31:01.171Z",
+  "mode": "add",
+  "id": "cocoa-deforestation-rules",
+  "name": "Soft Commodities Supply",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: It sits far too small in its box. At 24px the pod is about 14–16px tall and about 10px wide, while neighbours such as beverages, climate-risk and cyber-and-outage-risk fill about 20–22px. At 16px and 20px it is a tiny blob with a lot of empty space around it.; The shape is a short, round, symmetric oval with a stem on top and two inner curved ribs. That reads as an onion or garlic, or a lantern or ball, not a cocoa pod. A cocoa pod is long and pointed at both ends, with ridges running its",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "An onion, garlic bulb, paper lantern or striped beach ball. It does not read as a cocoa pod, and nothing about it says soft commodities supply.",
+   "problems": [
+    "It sits far too small in its box. At 24px the pod is about 14–16px tall and about 10px wide, while neighbours such as beverages, climate-risk and cyber-and-outage-risk fill about 20–22px. At 16px and 20px it is a tiny blob with a lot of empty space around it.",
+    "The shape is a short, round, symmetric oval with a stem on top and two inner curved ribs. That reads as an onion or garlic, or a lantern or ball, not a cocoa pod. A cocoa pod is long and pointed at both ends, with ridges running its full length.",
+    "At 16px the two inner ribs nearly touch the outline, so the inside clogs into a striped blob. The 16px solid is a dark dot with two thin slits.",
+    "In the solid version the two slits are short and thin. At 16–24px it looks like a filled circle with a barely visible pattern, so the knockouts are weak.",
+    "The stem is a short stub, so the eye takes it as the root tip of an onion or the hanger of an ornament.",
+    "Nothing links the picture to supply or flow, though the intended picture alone could be acceptable. The concept id (deforestation rules) and the label (Soft Commodities Supply) also don't match, so the meaning is muddled.",
+    "The near preview shows only this icon again, with no parent or siblings, so I could not check how distinct it is from its parent. In the full sheet it is somewhat close to the round, ribbed globe in sovereigns and to forestry's circles."
+   ],
+   "fixes": [
+    "Redraw the 24px master to fill the live area like its neighbours: about 20–21px tall on a diagonal, from about (5,19) to (19,4), or upright at about 20px tall and 11–12px wide. Then draw 16 and 20 to fill their frames the same way.",
+    "Make the pod clearly cocoa: a long lemon or almond shape pointed at both ends, ideally tilted about 30–45°. Add a short curved stalk at one end that attaches to a small branch stub or one leaf, so it no longer reads as an onion.",
+    "Swap the two oval inner rings for 2 or 3 long ridge lines that follow the pod's length and almost reach both tips. At 16px use only one central ridge so there is at least a 2px gap from the outline.",
+    "Solid: fill the pod and knock out one or two long ridge lines at least 1.5px wide at 16px, so the knockouts stay visible. Keep the same footprint as the outline.",
+    "Optionally, show it as a cut-open pod (half pod with 3 visible beans) or add a small leaf. That separates it from round fruit and bulb shapes. Check it against metaphors.json for an existing cocoa or soft-commodity metaphor before adding a new one."
+   ]
+  },
+  "cost": 1.68
  }
 ]
