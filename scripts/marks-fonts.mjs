@@ -4,11 +4,25 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { createRequire } from 'node:module';
 const dir = process.env.FONT_DIR || '/tmp/fonts/node_modules', require = createRequire(dir + '/x.js'), opentype = require('opentype.js');
 const FONTS = [
-  { id: 'inter', pkg: 'inter', weight: 800, name: 'Inter' }, { id: 'space-grotesk', pkg: 'space-grotesk', weight: 700, name: 'Space Grotesk' },
-  { id: 'poppins', pkg: 'poppins', weight: 700, name: 'Poppins' }, { id: 'archivo-black', pkg: 'archivo-black', weight: 400, name: 'Archivo Black' },
-  { id: 'bebas-neue', pkg: 'bebas-neue', weight: 400, name: 'Bebas Neue' }, { id: 'syne', pkg: 'syne', weight: 800, name: 'Syne' },
-  { id: 'unbounded', pkg: 'unbounded', weight: 700, name: 'Unbounded' }, { id: 'dm-serif-display', pkg: 'dm-serif-display', weight: 400, name: 'DM Serif Display' },
+  { id: 'inter', pkg: 'inter', weight: 800, name: 'Inter' },
+  { id: 'archivo-black', pkg: 'archivo-black', weight: 400, name: 'Archivo Black' },
+  { id: 'bebas-neue', pkg: 'bebas-neue', weight: 400, name: 'Bebas Neue' },
+  { id: 'syne', pkg: 'syne', weight: 800, name: 'Syne' },
+  { id: 'unbounded', pkg: 'unbounded', weight: 700, name: 'Unbounded' },
   { id: 'playfair-display', pkg: 'playfair-display', weight: 800, name: 'Playfair Display' },
+  { id: 'alfa-slab-one', pkg: 'alfa-slab-one', weight: 400, name: 'Alfa Slab One' },
+  { id: 'pacifico', pkg: 'pacifico', weight: 400, name: 'Pacifico' },
+  { id: 'righteous', pkg: 'righteous', weight: 400, name: 'Righteous' },
+  { id: 'orbitron', pkg: 'orbitron', weight: 900, name: 'Orbitron' },
+  { id: 'press-start-2p', pkg: 'press-start-2p', weight: 400, name: 'Press Start 2P' },
+  { id: 'space-mono', pkg: 'space-mono', weight: 700, name: 'Space Mono' },
+  { id: 'fredoka', pkg: 'fredoka', weight: 700, name: 'Fredoka' },
+  { id: 'black-ops-one', pkg: 'black-ops-one', weight: 400, name: 'Black Ops One' },
+  { id: 'bungee', pkg: 'bungee', weight: 400, name: 'Bungee' },
+  { id: 'cinzel', pkg: 'cinzel', weight: 900, name: 'Cinzel' },
+  { id: 'permanent-marker', pkg: 'permanent-marker', weight: 400, name: 'Permanent Marker' },
+  { id: 'chakra-petch', pkg: 'chakra-petch', weight: 700, name: 'Chakra Petch' },
+  { id: 'bowlby-one', pkg: 'bowlby-one', weight: 400, name: 'Bowlby One' },
 ];
 const CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.split(''), r2 = (v) => +v.toFixed(2);
 mkdirSync('src/marks/fonts', { recursive: true });

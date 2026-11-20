@@ -76,6 +76,7 @@ const clipY = (poly, y1, y2) => {
 const biteArc = (a, b, depth) => { const L = Math.hypot(b[0] - a[0], b[1] - a[1]), R = (L * L / 4 + depth * depth) / (2 * depth); return `A${f2(R)} ${f2(R)} 0 0 0 ${xy(b)}`; };
 const regular = (n, R, off = -90) => Array.from({ length: n }, (_, k) => P(off + (k * 360) / n, R));
 export function famPath(fam, seed) {
+  if (fam === 'sk') return skPath(seed);
   if (fam === 'an') return angPath(seed);
   const r = mulberry(seed * 7919 + fam.charCodeAt(0) * 131 + fam.charCodeAt(1));
   let d = '';
@@ -175,16 +176,51 @@ export function angPath(seed) {
     let pts = [...T, ...B.reverse()]; if (flip) pts = pts.map(([x, y]) => [x, 100 - y]); d = pol(pts);
   } else if (mode === 'ring') {
     const sd = pick(r, [4, 6, 8]), off = sd === 4 ? -45 : sd === 6 ? pick(r, [-90, -60]) : -67.5, O = regular(sd, sd === 4 ? 66 : 48, off), f = 0.45 + r() * 0.22, I = O.map(([x, y]) => [50 + (x - 50) * f, 50 + (y - 50) * f]), k = Math.floor(r() * sd);
-    if (r() < 0.55) { const pts = []; for (let i = 1; i <= sd; i++) pts.push(O[(k + i) % sd]); for (let i = 0; i < sd; i++) pts.push(I[(k - i + sd) % sd]); d = pol(pts); } else d = pol(O) + pol(I);
+    if (sd === 4 || r() < 0.55) { const pts = []; for (let i = 1; i <= sd; i++) pts.push(O[(k + i) % sd]); for (let i = 0; i < sd; i++) pts.push(I[(k - i + sd) % sd]); d = pol(pts); } else d = pol(O) + pol(I);
   } else {
     const n = 2 + Math.floor(r() * 2), t = 14 + r() * 6, h = 24 + r() * 8, st = t + 6 + r() * 4, tot = (n - 1) * st + h + t, y0 = 50 - tot / 2, rot = pick(r, [0, 0, 1, 2, 3]);
     for (let i = 0; i < n; i++) { const y = y0 + i * st; d += pol(rotQ([[50, y], [96, y + h], [96, y + h + t], [50, y + t], [4, y + h + t], [4, y + h]], rot)); }
   }
   return d;
 }
-export const ANG_CURATED = (() => { const cap = { grid: 58, pin: 14, plus: 6, zig: 6, ring: 12, chev: 6 }, cnt = {}, out = []; for (let sd = 1; out.length < 100 && sd < 4000; sd++) { const m = angMode(sd); if ((cnt[m] = (cnt[m] || 0) + 1) > cap[m]) continue; out.push({ k: 'f', fam: 'an', seed: sd }); } return out; })();
+export const ANG_CURATED = (() => { const cap = { grid: 58, pin: 14, plus: 2, zig: 4, ring: 5, chev: 4 }, cnt = {}, out = []; for (let sd = 1; out.length < 87 && sd < 4000; sd++) { const m = angMode(sd); if ((cnt[m] = (cnt[m] || 0) + 1) > cap[m]) continue; out.push({ k: 'f', fam: 'an', seed: sd }); } return out; })();
+// Sleek set (added 2026-11-20): slanted bars, soft-cornered letter blocks, striped chevrons, hex eyes. id = f-sk-<seed>.
+const rpoly = (pts, r) => { const n = pts.length; let d = ''; for (let i = 0; i < n; i++) { const v = pts[i], p = pts[(i + n - 1) % n], q = pts[(i + 1) % n], rr = typeof r === 'function' ? r(i) : r, l1 = Math.hypot(p[0] - v[0], p[1] - v[1]), l2 = Math.hypot(q[0] - v[0], q[1] - v[1]), d1 = Math.min(rr, l1 / 2), d2 = Math.min(rr, l2 / 2); d += (i ? 'L' : 'M') + xy([v[0] + ((p[0] - v[0]) * d1) / l1, v[1] + ((p[1] - v[1]) * d1) / l1]) + 'Q' + xy(v) + ' ' + xy([v[0] + ((q[0] - v[0]) * d2) / l2, v[1] + ((q[1] - v[1]) * d2) / l2]); } return d + 'Z'; };
+const TMPL = {
+  L: [[24, 12], [50, 12], [50, 62], [82, 62], [82, 88], [24, 88]],
+  F: [[24, 12], [84, 12], [84, 34], [50, 34], [50, 46], [72, 46], [72, 66], [50, 66], [50, 88], [24, 88]],
+  Z: [[16, 12], [84, 12], [84, 32], [46, 68], [84, 68], [84, 88], [16, 88], [16, 68], [54, 32], [16, 32]],
+  N: [[18, 88], [18, 12], [40, 12], [62, 56], [62, 12], [84, 12], [84, 88], [62, 88], [40, 44], [40, 88]],
+  K: [[20, 12], [44, 12], [44, 38], [68, 12], [94, 12], [60, 50], [94, 88], [68, 88], [44, 62], [44, 88], [20, 88]],
+  A: [[50, 12], [90, 88], [66, 88], [50, 52], [34, 88], [10, 88]],
+  M: [[12, 88], [12, 14], [36, 14], [50, 48], [64, 14], [88, 14], [88, 88], [66, 88], [66, 50], [50, 82], [34, 50], [34, 88]],
+  Y: [[12, 12], [36, 12], [50, 40], [64, 12], [88, 12], [62, 56], [62, 88], [38, 88], [38, 56]],
+};
+export function skPath(seed) {
+  const r = mulberry(seed * 15485863 + 29), mode = pick(r, ['bars', 'tmpl', 'tmpl', 'tmpl', 'tmpl', 'tmpl', 'stripe', 'hexd', 'dots']);
+  let d = '';
+  if (mode === 'bars') {
+    const k = 2 + Math.floor(r() * 2), h = k === 2 ? 30 : 22, sl = 14 + r() * 10, w = 44 + r() * 14, rad = pick(r, [0, 5, 7]), rd = pick(r, ['all', 'diag']), gap = 8, tot = k * h + (k - 1) * gap, y0 = 50 - tot / 2, drift = pick(r, [-12, 0, 12]);
+    for (let i = 0; i < k; i++) { const y = y0 + i * (h + gap), x = 50 - w / 2 + (i - (k - 1) / 2) * drift + (r() < 0.5 ? -4 : 4); d += rpoly([[x + sl, y], [x + w + sl, y], [x + w, y + h], [x, y + h]], rd === 'all' ? rad : (j) => (j % 2 ? 0 : rad)); }
+  } else if (mode === 'tmpl') {
+    const t = TMPL[pick(r, Object.keys(TMPL))], sh = pick(r, [0, 0, 0.18, 0.28, -0.2]), fl = r() < 0.3, rad = pick(r, [3, 6, 9]);
+    let pts = t.map(([x, y]) => [x + (50 - y) * sh, y]); if (fl) pts = pts.map(([x, y]) => [100 - x, y]); d = rpoly(pts, rad);
+  } else if (mode === 'stripe') {
+    const n = 5 + Math.floor(r() * 3), poly = r() < 0.5 ? [[8, 12], [34, 12], [50, 58], [66, 12], [92, 12], [60, 88], [40, 88]] : [[8, 12], [92, 12], [50, 88]];
+    let y = 12; const g0 = 1.5 + r(), H = 76, hs = Array.from({ length: n }, (_, i) => 1 + (n - i) * 0.25), ht = hs.reduce((a, b) => a + b, 0), gs = Array.from({ length: n - 1 }, (_, i) => g0 + i * (1 + r())), gt = gs.reduce((a, b) => a + b, 0), sc = (H - gt) / ht;
+    for (let i = 0; i < n; i++) { const c = clipY(poly, y, y + hs[i] * sc); if (c.length > 2) d += pol(c); y += hs[i] * sc + (gs[i] || 0); }
+  } else if (mode === 'hexd') {
+    const O = regular(6, 47), f = 0.5 + r() * 0.12, I = [[50, 50 - 36 * f * 1.1], [50 + 40 * f * 1.4, 50], [50, 50 + 36 * f * 1.1], [50 - 40 * f * 1.4, 50]];
+    d = rpoly(O, 6) + rpoly(I, 4);
+  } else {
+    const n = pick(r, [6, 8, 8, 10]), R = 33, rx = 10 + r() * 4, ry = 6 + r() * 2, alt = r() < 0.6;
+    for (let i = 0; i < n; i++) { const a = (i * 360) / n - 90, [x, y] = P(a, R), big = alt && i % 2 ? 0.72 : 1; d += ell(x, y, rx * big, ry * big, a); }
+  }
+  return d;
+}
+export const SK_CURATED = [1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 14, 16, 17, 18, 21, 22, 23, 24, 25, 27, 28, 30, 34, 36, 42, 45, 48, 49, 52, 56, 60, 63, 64, 65, 70, 76, 77, 78, 92, 102].map((seed) => ({ k: 'f', fam: 'sk', seed }));
 export const famSeeds = (fam, from, count) => Array.from({ length: count }, (_, i) => from + i);
-const PICKS = { sc: [5, 6, 9, 10, 16, 19, 17, 8], sl: [2, 11, 21, 24, 4, 12, 16, 10], pl: [1, 2, 3, 4, 5, 6, 7, 14], pw: [1, 2, 3, 4, 6, 9, 10, 17], sp: [1, 2, 4, 5, 7, 13, 16, 18] };
+const PICKS = { ov: [3, 4, 5, 6, 9, 11, 13], bu: [2, 4, 9, 12], st: [1, 2, 3, 5, 9, 10, 13], ck: [1, 2, 4, 8, 13], rb: [1, 10, 13], hx: [1, 2, 4, 7], sc: [5, 6, 9, 16, 19, 17], sl: [2, 11, 21, 4], pl: [3, 4, 5, 1, 2, 6], pw: [1, 2, 3, 6, 9, 10], sp: [1, 4, 13, 5] };
 export const FAM_CURATED = FAMILIES.flatMap(([f]) => (PICKS[f] || famSeeds(f, 1, 8)).map((s) => ({ k: 'f', fam: f, seed: s })));
 
 // Letters: stroked skeletons on a 100 box (ink spans about 24..76 by 16..84). Weight, caps and joins are the user's.
@@ -203,7 +239,7 @@ export const LETTERS = {
   X: 'M26 16L74 84M74 16L26 84', Y: 'M24 16L50 52L76 16M50 52V84', Z: 'M26 16H74L26 84H74',
 };
 
-export const FONT_LIST = [{ id: 'geo', name: 'Geometric' }, { id: 'inter', name: 'Inter' }, { id: 'space-grotesk', name: 'Space Grotesk' }, { id: 'poppins', name: 'Poppins' }, { id: 'archivo-black', name: 'Archivo Black' }, { id: 'bebas-neue', name: 'Bebas Neue' }, { id: 'syne', name: 'Syne' }, { id: 'unbounded', name: 'Unbounded' }, { id: 'dm-serif-display', name: 'DM Serif Display' }, { id: 'playfair-display', name: 'Playfair Display' }];
+export const FONT_LIST = [{ id: 'geo', name: 'Geometric' }, { id: 'inter', name: 'Inter' }, { id: 'archivo-black', name: 'Archivo Black' }, { id: 'bebas-neue', name: 'Bebas Neue' }, { id: 'syne', name: 'Syne' }, { id: 'unbounded', name: 'Unbounded' }, { id: 'playfair-display', name: 'Playfair Display' }, { id: 'alfa-slab-one', name: 'Alfa Slab One' }, { id: 'pacifico', name: 'Pacifico' }, { id: 'righteous', name: 'Righteous' }, { id: 'orbitron', name: 'Orbitron' }, { id: 'press-start-2p', name: 'Press Start 2P' }, { id: 'space-mono', name: 'Space Mono' }, { id: 'fredoka', name: 'Fredoka' }, { id: 'black-ops-one', name: 'Black Ops One' }, { id: 'bungee', name: 'Bungee' }, { id: 'cinzel', name: 'Cinzel' }, { id: 'permanent-marker', name: 'Permanent Marker' }, { id: 'chakra-petch', name: 'Chakra Petch' }, { id: 'bowlby-one', name: 'Bowlby One' }];
 export const FONTS = {}; // id -> { glyph: path } once loaded (outlines made by scripts/marks-fonts.mjs from OFL fonts)
 export const registerFont = (f) => { FONTS[f.id] = f.glyphs; };
 export const DEFAULT_STYLE = { fg: '#ffffff', bgType: 'solid', bg: '#111111', bg2: '#5b4bff', stops: ['#3b5bff', '#8a4dff'], font: 'geo', bold: 0, angle: 135, shape: 'rounded', radius: 22, pad: 18, borderW: 0, border: '#ffffff', weight: 14, cap: 'butt', join: 'miter' };
@@ -241,7 +277,7 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
 }
 
 export const markId = (m) => (m.k === 'l' ? `l-${m.ch}` : m.k === 'f' ? `f-${m.fam}-${m.seed.toString(36)}` : `g-${m.seed.toString(36)}`);
-export const parseMarkId = (s) => { const fm = /^f-(ov|bu|st|ck|rb|hx|sc|sl|pl|pw|sp|an)-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
+export const parseMarkId = (s) => { const fm = /^f-(ov|bu|st|ck|rb|hx|sc|sl|pl|pw|sp|an|sk)-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
 
 // Quality filter for the curated set and "Generate more": skip plain, empty, near-full or very busy compositions.
 const AREA = { sq: 1, qd: 0.785, qi: 0.215, hd: 0.393, tri: 0.5, ci: 0.785, cs: 0.246, lens: 0.571, dm: 0.5, bar: 0.5 };
@@ -254,4 +290,4 @@ export function isGood(seed) {
 export function goodSeeds(from, count) { const out = []; for (let s = from; out.length < count; s++) if (isGood(s)) out.push(s); return out; }
 
 // Hand-picked from the generator: distinct, bold, readable at 16px.
-export const CURATED = [2, 4, 22, 29, 44, 57, 60, 62, 63, 72, 141, 147, 159, 165, 204, 210, 219, 278, 305, 316, 329, 387, 390, 400, 403, 408, 410, 414, 422, 428, 442, 459, 463, 498, 507, 539, 547, 596, 682, 741, 747, 785, 807, 833, 837, 897, 931, 1116, 1222, 1246, 1266, 1270, 1273, 1291, 1329, 1363, 1364, 1386, 1398, 1406, 1434, 1485, 1490, 1520, 1525, 1568, 1587, 1599, 1634, 1643, 1692, 1694, 1707, 1717, 1733, 1748, 1754, 1761, 1766, 1789, 1808, 1816, 1846, 1861, 1905, 1927, 1928, 1943, 1950, 1956, 1974, 1991, 2012, 2033, 2059, 2083, 2099, 2144, 2146, 2148];
+export const CURATED = [2, 4, 22, 29, 44, 57, 60, 62, 63, 72, 141, 147, 159, 165, 204, 219, 278, 305, 316, 329, 387, 390, 400, 403, 408, 410, 414, 422, 428, 442, 459, 498, 507, 539, 547, 596, 682, 741, 747, 785, 807, 833, 837, 897, 931, 1116, 1222, 1246, 1266, 1270, 1291, 1363, 1398, 1485, 1490, 1520, 1525, 1568, 1587, 1643, 1694, 1717, 1748, 1754, 1761, 1766, 1789, 1808, 1816, 1846, 1861, 1905, 1943, 1956, 1991, 2012, 2059, 2083, 2099, 2144];

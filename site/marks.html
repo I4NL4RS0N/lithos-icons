@@ -148,14 +148,14 @@
 <main class="wrap">
   <section class="intro">
     <h1>Brand marks</h1>
-    <p>Geometric marks, patterns and A–Z letters. Pick one, set its colour, gradient, border and shape, then export PNG at 16, 32, 48 px and up, or SVG. Letters and numbers come in ten typefaces.</p>
+    <p>Geometric marks, patterns and A–Z letters. Pick one, set its colour, gradient, border and shape, then export PNG at 16, 32, 48 px and up, or SVG. Letters and numbers come in twenty typefaces.</p>
   </section>
   <div class="layout">
     <div>
       <div class="tabs" role="group" aria-label="Kind">
         <button class="t" type="button" data-tab="g" aria-pressed="true">Geometric</button>
         <button class="t" type="button" data-tab="a" aria-pressed="false">Angular</button>
-        <button class="t" type="button" data-tab="f" aria-pressed="false">Patterns</button>
+        <button class="t" type="button" data-tab="k" aria-pressed="false">Sleek</button>
         <button class="t" type="button" data-tab="l" aria-pressed="false">Letters &amp; numbers</button>
       </div>
       <div class="grid" id="grid"></div>
@@ -217,22 +217,24 @@ const PRESETS = [
   { fg: '#7cf0c9', bgType: 'solid', bg: '#0b1220', shape: 'squircle', borderW: 0 },
 ];
 let S = { style: { ...DEF }, tab: 'g', sel: 'g-' + MK.CURATED[0].toString(36), sizes: [16, 32, 48, 128, 512], extra: [] };
+const tabOf = (id) => (id[0] === 'l' ? 'l' : id.startsWith('f-an-') ? 'a' : id.startsWith('f-sk-') ? 'k' : 'g');
 try { const j = JSON.parse(localStorage.getItem(KEY) || 'null'); if (j) { S = { ...S, ...j, style: { ...DEF, ...(j.style || {}) } }; S.extra = []; } } catch {}
+S.tab = tabOf(S.sel);
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ style: S.style, tab: S.tab, sel: S.sel, sizes: S.sizes })); } catch {} };
 const u = new URLSearchParams(location.search);
-if (MK.parseMarkId(u.get('mark'))) { S.sel = u.get('mark'); S.tab = S.sel[0] === 'l' ? 'l' : S.sel.startsWith('f-an-') ? 'a' : S.sel[0] === 'f' ? 'f' : 'g'; }
+if (MK.parseMarkId(u.get('mark'))) { S.sel = u.get('mark'); S.tab = tabOf(S.sel); }
 
 const theme = () => { let a = 'system'; try { a = (JSON.parse(localStorage.getItem('li:settings3') || '{}')).appearance || 'system'; } catch {} document.documentElement.dataset.theme = a === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : a; };
 theme(); matchMedia('(prefers-color-scheme: dark)').addEventListener('change', theme);
 
-const geoIds = () => MK.CURATED.map((s) => 'g-' + s.toString(36));
+const geoIds = () => [...MK.CURATED.map((s) => 'g-' + s.toString(36)), ...MK.FAM_CURATED.map(MK.markId)];
+const skIds = () => MK.SK_CURATED.map(MK.markId);
 const angIds = () => MK.ANG_CURATED.map(MK.markId);
-const famIds = () => MK.FAM_CURATED.map(MK.markId);
 const letterIds = () => [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'].map((c) => 'l-' + c);
 const svgOf = (id, st = S.style, size, uid) => MK.markSvg(MK.parseMarkId(id), st, size, uid);
 
 function renderGrid() {
-  const ids = S.tab === 'g' ? geoIds() : S.tab === 'f' ? famIds() : S.tab === 'a' ? angIds() : letterIds();
+  const ids = S.tab === 'g' ? geoIds() : S.tab === 'k' ? skIds() : S.tab === 'a' ? angIds() : letterIds();
   $('#grid').innerHTML = ids.map((id, i) => `<button type="button" class="cell" data-id="${id}" aria-label="${id.startsWith('l-') ? 'Letter ' + id.slice(2) : 'Mark ' + (i + 1)}"${id === S.sel ? ' aria-current="true"' : ''}>${svgOf(id, S.style, 0, 'c' + i)}</button>`).join('');
   $$('.tabs .t').forEach((b) => b.setAttribute('aria-pressed', b.dataset.tab === S.tab));
   document.body.classList.toggle('letters', S.tab === 'l');
@@ -270,7 +272,7 @@ const style = (patch) => { S.style = { ...S.style, ...patch }; save(); renderGri
 const select = (id) => { S.sel = id; save(); $$('.cell').forEach((c) => c.toggleAttribute('aria-current', c.dataset.id === id)); $$('.cell').forEach((c) => c.dataset.id !== id && c.removeAttribute('aria-current')); renderPanel(); if (matchMedia('(max-width: 900px)').matches) $('#panel').classList.add('open'); };
 
 $('#grid').addEventListener('click', (e) => { const c = e.target.closest('.cell'); if (c) select(c.dataset.id); });
-$$('.tabs .t').forEach((b) => b.addEventListener('click', () => { S.tab = b.dataset.tab; if (S.tab === 'l') loadAllFonts(); if (S.tab === 'l' && !S.sel.startsWith('l-')) S.sel = 'l-A'; if (S.tab === 'g' && !S.sel.startsWith('g-')) S.sel = 'g-' + MK.CURATED[0].toString(36); if (S.tab === 'f' && (!S.sel.startsWith('f-') || S.sel.startsWith('f-an-'))) S.sel = MK.markId(MK.FAM_CURATED[0]); if (S.tab === 'a' && !S.sel.startsWith('f-an-')) S.sel = MK.markId(MK.ANG_CURATED[0]); save(); renderGrid(); renderPanel(); }));
+$$('.tabs .t').forEach((b) => b.addEventListener('click', () => { S.tab = b.dataset.tab; if (S.tab === 'l') loadAllFonts(); if (S.tab === 'l' && !S.sel.startsWith('l-')) S.sel = 'l-A'; if (tabOf(S.sel) !== S.tab) S.sel = ({ g: 'g-' + MK.CURATED[0].toString(36), a: MK.markId(MK.ANG_CURATED[0]), k: MK.markId(MK.SK_CURATED[0]), l: 'l-A' })[S.tab]; save(); renderGrid(); renderPanel(); }));
 $$('.seg').forEach((g) => g.addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) style({ [g.dataset.key]: b.dataset.v }); }));
 for (const k of ['angle', 'radius', 'pad', 'borderW', 'weight', 'bold']) $('#' + k).addEventListener('input', (e) => style({ [k]: +e.target.value }));
 for (const k of ['fg', 'bg', 'border']) {
