@@ -102,6 +102,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "financial-guaranties",
+    "name": "Financial Guaranties",
+    "kind": "industry",
+    "parent": "insurance",
+    "metaphor": "rosette-seal",
+    "keywords": [
+      "financial guaranty",
+      "bond insurer",
+      "monoline",
+      "credit enhancement"
+    ],
+    "reduction": "Every size: a guarantee seal — a round badge at the top with two splayed ribbon tails with swallowtail-notched ends below, drawn as one silhouette, and a check mark centred in the badge. 16 and 20: plain round rim, wider tails. 24+: the rim is gently scalloped (12 bumps at 24, 14 at 32, 16 deeper ones at 48); tails get slimmer and notches shallower as the size grows. Solid: filled silhouette with the check knocked out (1.25px visible at 16, up to 3px at 48).",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "gambling-betting",
     "name": "Gambling & Betting",
     "kind": "industry",

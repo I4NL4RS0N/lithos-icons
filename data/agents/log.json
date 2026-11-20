@@ -3338,5 +3338,41 @@
    ]
   },
   "cost": 2.61
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:00:57.750Z",
+  "mode": "add",
+  "id": "financial-guaranties",
+  "name": "Financial Guaranties",
+  "kind": "industry",
+  "picture": "rosette-seal",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "An award rosette or seal with a check mark and two ribbon tails, read as a certified, guaranteed or verified badge. The picture is easy to name. Linking it to the 'guarantee' concept takes a small step, but the metaphor is reasonable.",
+   "problems": [
+    "At 16px outline, the notched ribbon tails are cramped. The inner V-notches and the gap between the two tails nearly close up, so the bottom half looks busier than the rest of the set at that size.",
+    "At 16px solid, the check knockout is very small and thin, and the badge only just reads as a dark blob with a mark in it.",
+    "The scalloped edge appears only at 24px and above. At 16 and 20px it is a plain circle, which is a correct simplification, but the jump between 20 and 24 is noticeable side by side.",
+    "The footprint is narrow (about 65% of frame width) compared with wide neighbours like insurance and credit-derivatives. Height fills the frame, so this is acceptable, but it is on the lean side.",
+    "A rosette with a check is a very common UI 'verified/award' glyph. It is not copied from any one icon set, but it could be confused with generic 'certified/quality' meanings elsewhere in a product UI.",
+    "The concept is close to administrative-services (clipboard + check) and covered-bonds (shield) because the check mark is shared, but the silhouette is clearly different."
+   ],
+   "fixes": [
+    "At 16px, simplify the ribbon tails to straight, slightly splayed tails with a single shallow notch, or no notch, and widen the gap between them by about 0.5px.",
+    "At 16px solid, make the check knockout about 10–15% larger and nudge it up slightly so it sits in the optical centre of the disc.",
+    "Optionally widen the ribbon spread at all sizes so the footprint fills more of the frame width."
+   ]
+  },
+  "mapped": 0,
+  "why": "Fitch 3.5 financial guaranty insurers currently reuse the insurance umbrella.",
+  "cost": 0.73
  }
 ]
