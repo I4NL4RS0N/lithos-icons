@@ -3518,5 +3518,41 @@
   "mapped": 0,
   "why": "Sharp equity corrections push investors to buy protection, lifting implied volatility.",
   "cost": 1.05
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:15:53.493Z",
+  "mode": "add",
+  "id": "fixed-income-funds",
+  "name": "Fixed Income Funds",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The picture doesn't read: the coupon strip is only a dotted vertical line plus tiny notches on the right edge. At 24px and below the shape looks like a ticket, form or toggle panel, not a coupon bond.; At 16px the outline turns into a muddle: the text dashes, the dotted perforation and the notches merge into noise inside a box about 7px tall.; Solid at 16 and 20px: the knockout dashes and perforation shrink to specks and the icon becomes a near-plain black rounded rectangle.; Doesn't fill",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A ticket, form or settings panel: a wide rounded rectangle with text dashes and a dotted divider. The right-edge scallops are too small to read as detachable coupons, so the bond-with-coupons idea doesn't come through, and nothing ties it to the 'funds' parent.",
+   "problems": [
+    "The picture doesn't read: the coupon strip is only a dotted vertical line plus tiny notches on the right edge. At 24px and below the shape looks like a ticket, form or toggle panel, not a coupon bond.",
+    "At 16px the outline turns into a muddle: the text dashes, the dotted perforation and the notches merge into noise inside a box about 7px tall.",
+    "Solid at 16 and 20px: the knockout dashes and perforation shrink to specks and the icon becomes a near-plain black rounded rectangle.",
+    "Doesn't fill the frame: the wide, short rectangle uses only about 55–60% of the frame height at every size. It looks visibly smaller than its neighbours on sheet-24 (e.g. gambling-betting, inflation, funds).",
+    "There's too much fine detail for the set: three text dashes, a 4–5 segment perforation and a scalloped edge, which is busier than the simple neighbours like abs, clo and municipal-bonds.",
+    "Nothing links it to the parent concept (funds/money bag) and nothing marks it as fixed income beyond the barely visible coupons."
+   ],
+   "fixes": [
+    "Redraw the bond closer to square (about 18×20 inside the 24 frame) so it fills the frame height like its neighbours.",
+    "Make the coupons a clear feature: 2–3 large detachable coupon tabs along one edge, each with a strong perforation gap (≥1.5px at 24) or one coupon visibly torn off and offset. Don't rely on tiny scallops.",
+    "Cut the inner detail to at most two text lines, and drop the dotted divider in favour of a single solid gap that separates the coupon strip.",
+    "Draw 16 and 20px as their own simplified sizes: body plus 2 coupons, one text line or none, every gap ≥1px, nothing finer than the stroke.",
+    "Solid: knock out the coupon separation and one bold line with gaps ≥1.5px at 24 and ≥1px at 16, so the coupon structure survives.",
+    "Optionally add a small cue from the parent (e.g. a tiny money-bag or pie mark in a corner) only if it stays clean at 16px. Otherwise keep the picture to a bond with coupons, made clearly legible."
+   ]
+  },
+  "cost": 2.63
  }
 ]
