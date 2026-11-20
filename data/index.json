@@ -17,6 +17,24 @@
     "since": "0.1.0"
   },
   {
+    "id": "beverages",
+    "name": "Beverages",
+    "kind": "industry",
+    "parent": "food-beverage",
+    "metaphor": "bottle-glass",
+    "keywords": [
+      "beverage",
+      "drinks",
+      "spirits",
+      "brewers",
+      "soft drinks"
+    ],
+    "reduction": "Every size: a full-height bottle on the left and a stemmed glass on the right, kept apart by at least 1.25px of clear space. 16: bare bottle, no label. 20+: a label band across the bottle (two lines in outline, a knockout in solid). Solid: bottle and glass bowl filled, stem and foot stay strokes.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "climate-risk",
     "name": "Climate Risk",
     "kind": "theme",

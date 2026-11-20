@@ -1,0 +1,811 @@
+{
+  "concept": "beverages",
+  "query": "wine bottle",
+  "fetched": "2026-11-20T18:00:58.101Z",
+  "topTerms": [
+    [
+      "wine-bottle",
+      46
+    ],
+    [
+      "wine bottle",
+      40
+    ],
+    [
+      "bottle",
+      33
+    ],
+    [
+      "wine",
+      32
+    ],
+    [
+      "drink",
+      24
+    ],
+    [
+      "alcohol",
+      23
+    ],
+    [
+      "beverage",
+      22
+    ],
+    [
+      "glass",
+      10
+    ],
+    [
+      "celebration",
+      10
+    ],
+    [
+      "wine-bottles",
+      8
+    ],
+    [
+      "bottle-of-wine",
+      8
+    ],
+    [
+      "champagne",
+      8
+    ],
+    [
+      "wine bottles",
+      6
+    ],
+    [
+      "party",
+      5
+    ],
+    [
+      "beer",
+      4
+    ],
+    [
+      "alcoholic-drink",
+      4
+    ],
+    [
+      "brandy",
+      3
+    ],
+    [
+      "whisky",
+      3
+    ],
+    [
+      "bottles",
+      3
+    ],
+    [
+      "cork",
+      3
+    ],
+    [
+      "beer-bottle",
+      3
+    ],
+    [
+      "vineyard",
+      2
+    ],
+    [
+      "happy-new-year",
+      2
+    ],
+    [
+      "festive",
+      2
+    ],
+    [
+      "bottle of wine",
+      1
+    ],
+    [
+      "bottled-wine",
+      1
+    ],
+    [
+      "wines",
+      1
+    ],
+    [
+      "label",
+      1
+    ],
+    [
+      "liquor",
+      1
+    ],
+    [
+      "red-wine",
+      1
+    ],
+    [
+      "winery",
+      1
+    ],
+    [
+      "beverage-drink",
+      1
+    ],
+    [
+      "gift",
+      1
+    ],
+    [
+      "holiday",
+      1
+    ],
+    [
+      "wine-glass",
+      1
+    ],
+    [
+      "red",
+      1
+    ],
+    [
+      "expensive",
+      1
+    ],
+    [
+      "rack",
+      1
+    ],
+    [
+      "food-and-restaurant",
+      1
+    ],
+    [
+      "cellar",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Bottle",
+          "tags": [
+            "bottle",
+            "wine",
+            "wine-bottle",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/2291655-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wine Bottles",
+          "tags": [
+            "alcohol",
+            "beer",
+            "brandy",
+            "whisky",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6020774-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beer",
+            "brandy",
+            "whisky",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6020763-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beer",
+            "brandy",
+            "whisky",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6020693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "bottle-of-wine",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4843287-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "bottle-of-wine",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4843249-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "bottle of wine",
+          "tags": [
+            "bottle",
+            "bottle-of-wine",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4647054-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Bottle",
+          "tags": [
+            "bottle",
+            "bottles",
+            "wine",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4083109-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "bottle-of-wine",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3553376-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wine",
+          "tags": [
+            "bottle",
+            "bottle-of-wine",
+            "bottled-wine",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3550417-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wine Bottles",
+          "tags": [
+            "alcohol",
+            "bottle",
+            "bottle-of-wine",
+            "wine",
+            "wine-bottle",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1922141-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wine Bottles",
+          "tags": [
+            "alcohol",
+            "bottle",
+            "bottle-of-wine",
+            "wine",
+            "wine-bottle",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1922129-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wine Bottles",
+          "tags": [
+            "alcohol",
+            "bottle",
+            "bottle-of-wine",
+            "wine",
+            "wine-bottle",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1922110-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "bottles",
+            "wine",
+            "wine-bottle",
+            "wines"
+          ],
+          "thumb": "https://static.thenounproject.com/png/404512-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "bottle",
+            "label",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472359-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "drink",
+            "liquor",
+            "wine-bottle",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8456723-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "bottle",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8399624-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "beverage",
+            "cork",
+            "glass",
+            "red-wine",
+            "vineyard",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8391317-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "glass",
+            "wine",
+            "wine-bottle",
+            "winery"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8380719-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "bottle",
+            "champagne",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8335266-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "beverage",
+            "bottle",
+            "cork",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8321941-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "beverage",
+            "bottle",
+            "cork",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8321898-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "bottle",
+            "champagne",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8317264-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "beverage-drink",
+            "bottle",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8313636-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "celebration",
+            "champagne",
+            "happy-new-year",
+            "party",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233880-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "celebration",
+            "champagne",
+            "happy-new-year",
+            "party",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233855-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "celebration",
+            "drink",
+            "festive",
+            "glass",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8233682-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "bottle",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8214096-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "celebration",
+            "drink",
+            "party",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8201246-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "celebration",
+            "gift",
+            "holiday",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8191969-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "bottle",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8184435-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "celebration",
+            "drink",
+            "festive",
+            "glass",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8181080-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "beverage",
+            "celebration",
+            "drink",
+            "glass",
+            "wine-bottle",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8173757-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcoholic-drink",
+            "beer-bottle",
+            "bottle",
+            "champagne",
+            "drink",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8172568-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "celebration",
+            "drink",
+            "party",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8166605-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "bottle",
+            "drink",
+            "wine-bottle",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8161047-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "beverage",
+            "bottle",
+            "drink",
+            "wine",
+            "wine-bottle",
+            "wine-glass"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8154097-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wine Bottles",
+          "tags": [
+            "beer",
+            "beverage",
+            "champagne",
+            "drink",
+            "party",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8153078-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "celebration",
+            "drink",
+            "glass",
+            "red",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8149679-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcoholic-drink",
+            "beverage",
+            "bottle",
+            "glass",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8142070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcoholic-drink",
+            "beverage",
+            "bottle",
+            "glass",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8142043-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wine Bottles",
+          "tags": [
+            "bottles",
+            "champagne",
+            "expensive",
+            "rack",
+            "wine",
+            "wine-bottles"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8056739-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "beer-bottle",
+            "beverage",
+            "bottle",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8049435-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "celebration",
+            "drink",
+            "wine-bottle",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8046238-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "beer-bottle",
+            "beverage",
+            "bottle",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8033728-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcoholic-drink",
+            "beverage",
+            "champagne",
+            "food-and-restaurant",
+            "glass",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8022738-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "drink",
+            "glass",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7989459-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "alcohol",
+            "beverage",
+            "bottle",
+            "drink",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7989429-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "bottle",
+            "cellar",
+            "drink",
+            "vineyard",
+            "wine",
+            "wine-bottle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7984978-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "wine bottle",
+          "tags": [
+            "award",
+            "best",
+            "gourmet",
+            "wine",
+            "wine-bottle",
+            "winner"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7984968-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

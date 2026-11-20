@@ -3412,5 +3412,38 @@
    ]
   },
   "cost": 1.48
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:07:02.727Z",
+  "mode": "add",
+  "id": "beverages",
+  "name": "Beverages",
+  "kind": "industry",
+  "picture": "bottle-glass",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A wine bottle beside a stemmed wine glass (beverages / wine & spirits)",
+   "problems": [
+    "20px outline: two label bands inside the narrow bottle leave only ~1px gaps; the bottle is denser than the glass and borders on clogged",
+    "16px: the glass bowl is very small (~4px wide) compared with the bottle, so the pair looks uneven",
+    "Solid 20/24px: the label knockout is a thin slot that barely shows"
+   ],
+   "fixes": [
+    "At 20px outline, use one label band (or an open label rectangle) instead of two",
+    "At 16px, widen the glass bowl by ~1px and shorten the stem if needed to keep the height",
+    "In solid 20/24px, make the label knockout ~0.5px taller so it stays visible"
+   ]
+  },
+  "mapped": 0,
+  "why": "Fitch 1.3.30 borrows the cup icon of food-beverage drinks makers form a separate corporate group.",
+  "cost": 0.67
  }
 ]
