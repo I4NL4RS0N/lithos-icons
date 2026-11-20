@@ -16,7 +16,7 @@ const PRIM = {
   bar: [['M', 0, 0], ['L', 1, 0], ['L', 1, 0.5], ['L', 0, 0.5], ['Z']],
 };
 const WEIGHTS = [['sq', 3], ['qd', 4], ['qi', 2], ['hd', 2], ['tri', 3], ['ci', 2], ['cs', 1], ['lens', 2], ['dm', 1], ['bar', 1], [null, 2]];
-const pickPrim = (r) => { const tot = WEIGHTS.reduce((s, w) => s + w[1], 0); let x = r() * tot; for (const [k, w] of WEIGHTS) { if ((x -= w) < 0) return k; } return 'sq'; };
+const pickPrim = (r, W = WEIGHTS) => { const tot = W.reduce((s, w) => s + w[1], 0); let x = r() * tot; for (const [k, w] of W) { if ((x -= w) < 0) return k; } return 'sq'; };
 
 // Symmetry groups, as transforms on the 100 x 100 mark box. flip = the transform reverses handedness (arcs change sweep).
 const T = {
@@ -27,21 +27,21 @@ const GROUPS = { none: ['I'], mx: ['I', 'MX'], my: ['I', 'MY'], mxy: ['I', 'MX',
 const rot90cell = ([x, y]) => [1 - y, x];
 const f2 = (v) => +v.toFixed(2);
 
-export function geoParams(seed) {
+export function geoParams(seed, W = WEIGHTS) {
   const r = mulberry(seed);
   const n = r() < 0.2 ? 3 : r() < 0.5 ? 2 : 4;
   const sym = n === 3 ? 'none' : ['mx', 'my', 'mxy', 'rot4', 'rot4', 'mxy'][Math.floor(r() * 6)];
   const cells = [], base = (i, j) => (sym === 'none' ? true : sym === 'mx' ? i < n / 2 : sym === 'my' ? j < n / 2 : i < n / 2 && j < n / 2);
-  for (let j = 0; j < n; j++) for (let i = 0; i < n; i++) if (base(i, j)) cells.push({ i, j, p: pickPrim(r), o: Math.floor(r() * 4) });
+  for (let j = 0; j < n; j++) for (let i = 0; i < n; i++) if (base(i, j)) cells.push({ i, j, p: pickPrim(r, W), o: Math.floor(r() * 4) });
   return { n, sym, cells };
 }
 
 // The mark as one path (even-odd fill) in a 100 x 100 box.
-export function geoPath(seed) {
-  const { n, sym, cells } = geoParams(seed), s = 100 / n, out = [];
+export function geoPath(seed, prims = PRIM, W = WEIGHTS) {
+  const { n, sym, cells } = geoParams(seed, W), s = 100 / n, out = [];
   for (const c of cells) {
     if (!c.p) continue;
-    let ops = PRIM[c.p].map((op) => op.slice());
+    let ops = prims[c.p].map((op) => op.slice());
     for (let k = 0; k < c.o; k++) ops = ops.map((op) => (op[0] === 'M' || op[0] === 'L' ? [op[0], ...rot90cell([op[1], op[2]])] : op[0] === 'A' ? ['A', op[1], op[2], ...rot90cell([op[3], op[4]])] : op));
     for (const g of GROUPS[sym]) {
       const [fn, flip] = T[g];
@@ -76,6 +76,7 @@ const clipY = (poly, y1, y2) => {
 const biteArc = (a, b, depth) => { const L = Math.hypot(b[0] - a[0], b[1] - a[1]), R = (L * L / 4 + depth * depth) / (2 * depth); return `A${f2(R)} ${f2(R)} 0 0 0 ${xy(b)}`; };
 const regular = (n, R, off = -90) => Array.from({ length: n }, (_, k) => P(off + (k * 360) / n, R));
 export function famPath(fam, seed) {
+  if (fam === 'an') return angPath(seed);
   const r = mulberry(seed * 7919 + fam.charCodeAt(0) * 131 + fam.charCodeAt(1));
   let d = '';
   if (fam === 'ov') {
@@ -142,6 +143,46 @@ export function famPath(fam, seed) {
   }
   return d;
 }
+// Angular set (added 2026-11-20): chamfers, 45-degree triangles, pinwheels, stencil rings, zigzags. id = f-an-<seed>.
+const ANG = {
+  sq: PRIM.sq, tri: PRIM.tri, dm: PRIM.dm, bar: PRIM.bar,
+  ch1: [['M', 0, 0], ['L', 0.5, 0], ['L', 1, 0.5], ['L', 1, 1], ['L', 0, 1], ['Z']],
+  ch2: [['M', 0, 0], ['L', 0.25, 0], ['L', 1, 0.75], ['L', 1, 1], ['L', 0, 1], ['Z']],
+  trap: [['M', 0, 0], ['L', 1, 0], ['L', 0.7, 0.5], ['L', 0.3, 0.5], ['Z']],
+  par: [['M', 0, 1], ['L', 0.5, 0], ['L', 1, 0], ['L', 0.5, 1], ['Z']],
+};
+const ANGW = [['sq', 3], ['tri', 4], ['ch1', 3], ['ch2', 2], ['trap', 2], ['bar', 1], ['dm', 1], ['par', 2], [null, 2]];
+const rotQ = (pts, k) => pts.map(([x, y]) => { let p = [x, y]; for (let i = 0; i < k; i++) p = [100 - p[1], p[0]]; return p; });
+const ANGAREA = { sq: 1, tri: 0.5, dm: 0.5, bar: 0.5, ch1: 0.875, ch2: 0.72, trap: 0.35, par: 0.5 };
+const goodAng = (seed) => { const { n, sym, cells } = geoParams(seed, ANGW), mult = GROUPS[sym].length, live = cells.filter((c) => c.p), shapes = live.length * mult, cover = live.reduce((a, c) => a + ANGAREA[c.p], 0) * mult / (n * n); return shapes >= 3 && shapes <= (n === 4 ? 9 : n === 3 ? 6 : 4) && cover >= 0.4 && cover <= 0.8 && new Set(live.map((c) => c.p)).size >= 2; };
+const angMode = (seed) => pick(mulberry(seed * 104729 + 17), ['grid', 'grid', 'grid', 'grid', 'grid', 'grid', 'plus', 'pin', 'pin', 'pin', 'zig', 'ring', 'ring', 'chev']);
+export function angPath(seed) {
+  const r = mulberry(seed * 104729 + 17), mode = pick(r, ['grid', 'grid', 'grid', 'grid', 'grid', 'grid', 'plus', 'pin', 'pin', 'pin', 'zig', 'ring', 'ring', 'chev']);
+  let d = '';
+  if (mode === 'grid') { let g = seed * 7 + 5000; for (let i = 0; i < 400 && !goodAng(g); i++) g++; return geoPath(g, ANG, ANGW); }
+  if (mode === 'plus') {
+    const hw = 11 + r() * 8, c = 5 + r() * 7, a = 47, b = r() < 0.5 ? 47 : 36 + r() * 8, arm = (L) => [[-hw, -hw], [-hw, -L + c], [-hw + c, -L], [hw - c, -L], [hw, -L + c], [hw, -hw]];
+    const pts = []; for (let k = 0; k < 4; k++) pts.push(...rotQ(arm(k % 2 ? b : a).map(([x, y]) => [50 + x, 50 + y]), 0).map(([x, y]) => { let u = x - 50, v = y - 50; for (let i = 0; i < k; i++) [u, v] = [-v, u]; return [50 + u, 50 + v]; }));
+    d = pol(pts);
+  } else if (mode === 'pin') {
+    const g = 3 + r() * 4, c = 14 + r() * 24, cs = Math.floor(r() * 4), sym = pick(r, ['rot', 'rot', 'mir']);
+    const base = [[g, g], [50 - g, g], [50 - g, 50 - g], [g, 50 - g]], cut = (pts) => { const q = pts[cs], pr = pts[(cs + 3) % 4], nx = pts[(cs + 1) % 4], u = (a, b, t) => [a[0] + ((b[0] - a[0]) * t) / Math.hypot(b[0] - a[0], b[1] - a[1]), a[1] + ((b[1] - a[1]) * t) / Math.hypot(b[0] - a[0], b[1] - a[1])]; const o = pts.slice(0, cs); o.push(u(q, pr, c), u(q, nx, c)); return o.concat(pts.slice(cs + 1)); };
+    const blk = cut(base);
+    for (let k = 0; k < 4; k++) d += pol(sym === 'rot' ? rotQ(blk, k) : blk.map(([x, y]) => (k & 1 ? [100 - x, y] : [x, y])).map(([x, y]) => (k & 2 ? [x, 100 - y] : [x, y])));
+  } else if (mode === 'zig') {
+    const n = 2, th = 28 + r() * 9, flip = r() < 0.5, hi = 10 + r() * 6, lo = 44 + r() * 8, T = [], B = [];
+    for (let k = 0; k <= 2 * n; k++) { const x = 6 + (k * 88) / (2 * n), y = k % 2 ? lo : hi; T.push([x, y]); B.push([x, Math.min(94, y + th)]); }
+    let pts = [...T, ...B.reverse()]; if (flip) pts = pts.map(([x, y]) => [x, 100 - y]); d = pol(pts);
+  } else if (mode === 'ring') {
+    const sd = pick(r, [4, 6, 8]), off = sd === 4 ? -45 : sd === 6 ? pick(r, [-90, -60]) : -67.5, O = regular(sd, sd === 4 ? 66 : 48, off), f = 0.45 + r() * 0.22, I = O.map(([x, y]) => [50 + (x - 50) * f, 50 + (y - 50) * f]), k = Math.floor(r() * sd);
+    if (r() < 0.55) { const pts = []; for (let i = 1; i <= sd; i++) pts.push(O[(k + i) % sd]); for (let i = 0; i < sd; i++) pts.push(I[(k - i + sd) % sd]); d = pol(pts); } else d = pol(O) + pol(I);
+  } else {
+    const n = 2 + Math.floor(r() * 2), t = 14 + r() * 6, h = 24 + r() * 8, st = t + 6 + r() * 4, tot = (n - 1) * st + h + t, y0 = 50 - tot / 2, rot = pick(r, [0, 0, 1, 2, 3]);
+    for (let i = 0; i < n; i++) { const y = y0 + i * st; d += pol(rotQ([[50, y], [96, y + h], [96, y + h + t], [50, y + t], [4, y + h + t], [4, y + h]], rot)); }
+  }
+  return d;
+}
+export const ANG_CURATED = (() => { const cap = { grid: 58, pin: 14, plus: 6, zig: 6, ring: 12, chev: 6 }, cnt = {}, out = []; for (let sd = 1; out.length < 100 && sd < 4000; sd++) { const m = angMode(sd); if ((cnt[m] = (cnt[m] || 0) + 1) > cap[m]) continue; out.push({ k: 'f', fam: 'an', seed: sd }); } return out; })();
 export const famSeeds = (fam, from, count) => Array.from({ length: count }, (_, i) => from + i);
 const PICKS = { sc: [5, 6, 9, 10, 16, 19, 17, 8], sl: [2, 11, 21, 24, 4, 12, 16, 10], pl: [1, 2, 3, 4, 5, 6, 7, 14], pw: [1, 2, 3, 4, 6, 9, 10, 17], sp: [1, 2, 4, 5, 7, 13, 16, 18] };
 export const FAM_CURATED = FAMILIES.flatMap(([f]) => (PICKS[f] || famSeeds(f, 1, 8)).map((s) => ({ k: 'f', fam: f, seed: s })));
@@ -200,7 +241,7 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
 }
 
 export const markId = (m) => (m.k === 'l' ? `l-${m.ch}` : m.k === 'f' ? `f-${m.fam}-${m.seed.toString(36)}` : `g-${m.seed.toString(36)}`);
-export const parseMarkId = (s) => { const fm = /^f-(ov|bu|st|ck|rb|hx|sc|sl|pl|pw|sp)-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
+export const parseMarkId = (s) => { const fm = /^f-(ov|bu|st|ck|rb|hx|sc|sl|pl|pw|sp|an)-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
 
 // Quality filter for the curated set and "Generate more": skip plain, empty, near-full or very busy compositions.
 const AREA = { sq: 1, qd: 0.785, qi: 0.215, hd: 0.393, tri: 0.5, ci: 0.785, cs: 0.246, lens: 0.571, dm: 0.5, bar: 0.5 };
