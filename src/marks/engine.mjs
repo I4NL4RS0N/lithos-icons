@@ -59,7 +59,7 @@ export function geoPath(seed, prims = PRIM, W = WEIGHTS) {
 }
 
 // Pattern families (added 2026-11-20): rosettes, bursts, bars, checks, dials and hex cubes. id = f-<family>-<seed>.
-export const FAMILIES = [['ov', 'Overlaps'], ['bu', 'Bursts'], ['st', 'Bars'], ['ck', 'Checks'], ['rb', 'Dials'], ['hx', 'Hex'], ['sc', 'Scoops'], ['sl', 'Slices'], ['pl', 'Planets'], ['pw', 'Pinwheels'], ['sp', 'Stars'], ['ht', 'Halftone'], ['tg', 'Mosaic'], ['ar', 'Arcs'], ['rg', 'Rings'], ['cp', 'Capsules'], ['sw', 'Swirls'], ['iso', 'Iso'], ['mn', 'Minimal'], ['lk', 'Interlock']];
+export const FAMILIES = [['ov', 'Overlaps'], ['bu', 'Bursts'], ['st', 'Bars'], ['ck', 'Checks'], ['rb', 'Dials'], ['hx', 'Hex'], ['sc', 'Scoops'], ['sl', 'Slices'], ['pl', 'Planets'], ['pw', 'Pinwheels'], ['sp', 'Stars'], ['ht', 'Halftone'], ['tg', 'Mosaic'], ['ar', 'Arcs'], ['rg', 'Rings'], ['cp', 'Capsules'], ['sw', 'Swirls'], ['iso', 'Iso'], ['mn', 'Minimal'], ['lk', 'Interlock'], ['ws', 'Waves'], ['bl', 'Blobs'], ['tr', 'Truchet'], ['tw', 'Twist'], ['xp', 'Cross'], ['mo', 'Moire'], ['gm', 'Gems'], ['spi', 'Spiral']];
 const P = (a, d = 50, c = 50) => [c + d * Math.cos((a * Math.PI) / 180), c + d * Math.sin((a * Math.PI) / 180)];
 const xy = (p) => `${f2(p[0])} ${f2(p[1])}`;
 const circ = (cx, cy, r) => `M${f2(cx - r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx + r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx - r)} ${f2(cy)}Z`;
@@ -311,6 +311,74 @@ const MORE = {
     const a = rpoly([[6, 24], [70, 24], [70, 76], [6, 76]], rad), b = rpoly([[6 + w, 24 + w], [70 - w, 24 + w], [70 - w, 76 - w], [6 + w, 76 - w]], Math.max(0, rad - w)), c = rpoly([[30, 6], [94, 6], [94, 58], [30, 58]], rad), d2 = rpoly([[30 + w, 6 + w], [94 - w, 6 + w], [94 - w, 58 - w], [30 + w, 58 - w]], Math.max(0, rad - w));
     return a + b + c + d2;
   },
+  ws(r) {
+    const n = 2 + Math.floor(r() * 3), A = 5 + r() * 9, per = pick(r, [1, 1.5, 2]), ph = r() * Math.PI * 2, g = 5 + r() * 3, t = (84 - (n - 1) * g - 2 * A) / n, inC = r() < 0.4, S = 44;
+    let d = '';
+    for (let i = 0; i < n; i++) {
+      const y0 = 8 + A + i * (t + g), top = [], bot = [], shift = pick(r, [0, 0, 0.5]) * Math.PI * (i % 2);
+      for (let k = 0; k <= S; k++) { const x = 4 + (92 * k) / S, y = y0 + A * Math.sin((2 * Math.PI * per * k) / S + ph + shift); top.push([x, y]); bot.push([x, y + t]); }
+      let pts = top.concat(bot.reverse());
+      if (inC) for (let k = 0; k < 48; k++) { const th = (k * Math.PI) / 24; pts = clipHalf(pts, [Math.cos(th), Math.sin(th)], 50 * Math.cos(th) + 50 * Math.sin(th) + 46); }
+      if (pts.length > 2) d += pol(pts);
+    }
+    return d;
+  },
+  bl(r) {
+    const m = pick(r, [3, 4, 5, 6, 8]), n1 = pick(r, [0.6, 1, 2, 4]), n2 = pick(r, [0.6, 1, 1.7, 3]), rot = r() * 90, pts = [];
+    let mx = 0; const raw = [];
+    for (let k = 0; k < 240; k++) { const th = (k / 240) * Math.PI * 2, v = Math.abs(Math.cos((m * th) / 4)) ** n2 + Math.abs(Math.sin((m * th) / 4)) ** n2, rr = v ** (-1 / n1); raw.push([th, rr]); mx = Math.max(mx, rr); }
+    for (const [th, rr] of raw) pts.push(Pc(50, 50, (th * 180) / Math.PI + rot, (rr / mx) * 46));
+    let d = pol(pts);
+    if (r() < 0.45) d += circ(50, 50, 8 + r() * 8);
+    return d;
+  },
+  tr(r) {
+    const n = pick(r, [2, 2, 3]), s = 92 / n, w = s * (0.24 + r() * 0.14), sym = n === 2 && r() < 0.6, bits = Array.from({ length: n * n }, () => (r() < 0.5 ? 1 : 0));
+    let d = '';
+    for (let j = 0; j < n; j++) for (let i = 0; i < n; i++) {
+      const x = 4 + i * s, y = 4 + j * s, o = sym ? (i + j) % 2 : bits[j * n + i], a = s / 2 - w / 2, b = s / 2 + w / 2;
+      d += o ? sectorC(x, y, a, b, 0, 90) + sectorC(x + s, y + s, a, b, 180, 270) : sectorC(x + s, y, a, b, 90, 180) + sectorC(x, y + s, a, b, 270, 360);
+    }
+    return d;
+  },
+  tw(r) {
+    const k = 3 + Math.floor(r() * 3), step = pick(r, [10, 15, 22.5]), w = 7 + r() * 3, sq = (sz, a) => { const h = sz / 2; return [[-h, -h], [h, -h], [h, h], [-h, h]].map(([x, y]) => rotAbout([50 + x, 50 + y], a)); };
+    let sz = 90, d = '';
+    for (let i = 0; i < k; i++) { const a = i * step; d += pol(sq(sz, a)) + pol(sq(sz - 2 * w, a)); const rad = (step * Math.PI) / 180; sz = (sz - 2 * w) / (Math.abs(Math.cos(rad)) + Math.abs(Math.sin(rad))) - 2; if (sz < 14) break; }
+    if (r() < 0.5 && sz > 8) d += pol(sq(sz, k * step));
+    return d;
+  },
+  xp(r) {
+    const n = pick(r, [2, 2, 3, 4]), w = n === 4 ? 9 : 10 + r() * 5, a0 = pick(r, [0, 45, 90]), L = 44 - w;
+    let d = '';
+    for (let i = 0; i < n; i++) { const a = a0 + (i * 180) / n; d += cap(Pc(50, 50, a, L), Pc(50, 50, a + 180, L), w); }
+    return d;
+  },
+  mo(r) {
+    const k = 2 + Math.floor(r() * 2), dd = 8 + r() * 8, R = 46 - dd, step = R / (k * 2 - 0.5), mode = pick(r, ['two', 'two', 'one']);
+    let d = '';
+    const set = (cx, cy) => { for (let i = 0; i < k; i++) d += ring(cx, cy, R - i * 2 * step, step); };
+    if (mode === 'two') { set(50 - dd, 50); set(50 + dd, 50); } else { set(50, 50 - dd / 2); d += circ(50, 50 + dd, R * 0.45); }
+    return d;
+  },
+  gm(r) {
+    const g = 0.86 + r() * 0.06, ty = 14 + r() * 8, gy = 36 + r() * 6, tx = 18 + r() * 10, A = [6, gy], B = [50 - tx, ty], C = [50 + tx, ty], D = [94, gy], E = [50, gy], F = [50, 94], mode = pick(r, ['classic', 'classic', 'split', 'hex']);
+    let facets;
+    if (mode === 'classic') facets = [[A, B, E], [B, C, E], [C, D, E], [A, E, F], [E, D, F]];
+    else if (mode === 'split') { const P1 = [28, gy], P2 = [72, gy]; facets = [[A, B, P1], [B, E, P1], [B, C, E], [C, P2, E], [C, D, P2], [A, P1, F], [P1, E, F], [E, P2, F], [P2, D, F]]; }
+    else { const V = regular(6, 47, -90); facets = V.map((v, i) => [[50, 50], v, V[(i + 1) % 6]]); if (r() < 0.5) facets = facets.filter((_, i) => i % 2 === 0).concat(facets.filter((_, i) => i % 2).map((f) => shrink(f, 0.55))); }
+    return facets.map((f) => pol(shrink(f, g))).join('');
+  },
+  spi(r) {
+    const arms = pick(r, [1, 1, 2]), w = arms === 1 ? 8 + r() * 4 : 7 + r() * 3, turns = arms === 1 ? 1.6 + r() * 0.8 : 1.1 + r() * 0.4, gap = (w + 5) * arms, b = gap / (2 * Math.PI), r0 = 46 - w / 2 - b * turns * 2 * Math.PI, S = 160;
+    let d = '';
+    for (let a = 0; a < arms; a++) {
+      const out = [], inn = [];
+      for (let k = 0; k <= S; k++) { const th = (k / S) * turns * 2 * Math.PI, rr = Math.max(0, r0) + b * th, ang = (th * 180) / Math.PI + a * 180; out.push(Pc(50, 50, ang, rr + w / 2)); inn.push(Pc(50, 50, ang, Math.max(0, rr - w / 2))); }
+      d += pol(out.concat(inn.reverse()));
+    }
+    return d;
+  },
   ar(r) {
     const mode = pick(r, ['rainbow', 'rainbow', 'corner', 'corner', 'wave']), rot = Math.floor(r() * 4), out = [];
     const rings = (n, R0, R, core) => { const band = (R - R0) / (2 * n - 1), o = []; for (let i = 0; i < n; i++) { const r2 = R - i * 2 * band, r1 = r2 - band; o.push([i === n - 1 && core ? 0 : Math.max(0, r1), r2]); } return o; };
@@ -394,7 +462,7 @@ export const LETTERS = {
   X: 'M26 16L74 84M74 16L26 84', Y: 'M24 16L50 52L76 16M50 52V84', Z: 'M26 16H74L26 84H74',
 };
 
-export const FONT_LIST = [{ id: 'geo', name: 'Geometric' }, { id: 'inter', name: 'Inter' }, { id: 'archivo-black', name: 'Archivo Black' }, { id: 'bebas-neue', name: 'Bebas Neue' }, { id: 'syne', name: 'Syne' }, { id: 'unbounded', name: 'Unbounded' }, { id: 'playfair-display', name: 'Playfair Display' }, { id: 'alfa-slab-one', name: 'Alfa Slab One' }, { id: 'pacifico', name: 'Pacifico' }, { id: 'righteous', name: 'Righteous' }, { id: 'orbitron', name: 'Orbitron' }, { id: 'press-start-2p', name: 'Press Start 2P' }, { id: 'space-mono', name: 'Space Mono' }, { id: 'fredoka', name: 'Fredoka' }, { id: 'black-ops-one', name: 'Black Ops One' }, { id: 'bungee', name: 'Bungee' }, { id: 'cinzel', name: 'Cinzel' }, { id: 'permanent-marker', name: 'Permanent Marker' }, { id: 'chakra-petch', name: 'Chakra Petch' }, { id: 'bowlby-one', name: 'Bowlby One' }];
+export const FONT_LIST = [{ id: 'geo', name: 'Geometric' }, { id: 'syne', name: 'Syne' }, { id: 'unbounded', name: 'Unbounded' }, { id: 'bricolage-grotesque', name: 'Bricolage Grotesque' }, { id: 'instrument-serif', name: 'Instrument Serif' }, { id: 'fraunces', name: 'Fraunces' }, { id: 'gloock', name: 'Gloock' }, { id: 'dela-gothic-one', name: 'Dela Gothic One' }, { id: 'rubik-mono-one', name: 'Rubik Mono One' }, { id: 'major-mono-display', name: 'Major Mono Display' }, { id: 'monoton', name: 'Monoton' }, { id: 'michroma', name: 'Michroma' }, { id: 'krona-one', name: 'Krona One' }, { id: 'zen-dots', name: 'Zen Dots' }, { id: 'tilt-warp', name: 'Tilt Warp' }, { id: 'climate-crisis', name: 'Climate Crisis' }, { id: 'big-shoulders-display', name: 'Big Shoulders Display' }, { id: 'silkscreen', name: 'Silkscreen' }, { id: 'bungee-shade', name: 'Bungee Shade' }, { id: 'bagel-fat-one', name: 'Bagel Fat One' }];
 export const FONTS = {}; // id -> { glyph: path } once loaded (outlines made by scripts/marks-fonts.mjs from OFL fonts)
 export const registerFont = (f) => { FONTS[f.id] = f.glyphs; };
 export const DEFAULT_STYLE = { fg: '#ffffff', bgType: 'solid', bg: '#111111', bg2: '#5b4bff', stops: ['#3b5bff', '#8a4dff'], font: 'geo', bold: 0, angle: 135, shape: 'rounded', radius: 22, pad: 18, borderW: 0, border: '#ffffff', weight: 14, cap: 'butt', join: 'miter' };
