@@ -57,6 +57,58 @@ export function geoPath(seed) {
   return out.join('');
 }
 
+// Pattern families (added 2026-11-20): rosettes, bursts, bars, checks, dials and hex cubes. id = f-<family>-<seed>.
+export const FAMILIES = [['ov', 'Overlaps'], ['bu', 'Bursts'], ['st', 'Bars'], ['ck', 'Checks'], ['rb', 'Dials'], ['hx', 'Hex']];
+const P = (a, d = 50, c = 50) => [c + d * Math.cos((a * Math.PI) / 180), c + d * Math.sin((a * Math.PI) / 180)];
+const xy = (p) => `${f2(p[0])} ${f2(p[1])}`;
+const circ = (cx, cy, r) => `M${f2(cx - r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx + r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx - r)} ${f2(cy)}Z`;
+const ell = (cx, cy, rx, ry, deg) => { const a = (deg * Math.PI) / 180, dx = rx * Math.cos(a), dy = rx * Math.sin(a); return `M${f2(cx - dx)} ${f2(cy - dy)}A${f2(rx)} ${f2(ry)} ${deg} 1 0 ${f2(cx + dx)} ${f2(cy + dy)}A${f2(rx)} ${f2(ry)} ${deg} 1 0 ${f2(cx - dx)} ${f2(cy - dy)}Z`; };
+const pol = (pts) => `M${pts.map(xy).join('L')}Z`;
+const cap = (p, q, w) => { const a = Math.atan2(q[1] - p[1], q[0] - p[0]) + Math.PI / 2, nx = w * Math.cos(a), ny = w * Math.sin(a); return `M${f2(p[0] + nx)} ${f2(p[1] + ny)}L${f2(q[0] + nx)} ${f2(q[1] + ny)}A${f2(w)} ${f2(w)} 0 0 0 ${f2(q[0] - nx)} ${f2(q[1] - ny)}L${f2(p[0] - nx)} ${f2(p[1] - ny)}A${f2(w)} ${f2(w)} 0 0 0 ${f2(p[0] + nx)} ${f2(p[1] + ny)}Z`; };
+const sector = (r1, r2, a1, a2) => `M${xy(P(a1, r2))}A${r2} ${r2} 0 0 1 ${xy(P(a2, r2))}L${xy(P(a2, r1))}A${r1} ${r1} 0 0 0 ${xy(P(a1, r1))}Z`;
+const pick = (r, a) => a[Math.floor(r() * a.length)];
+const shrink = (pts, k) => { const c = [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length]; return pts.map((p) => [c[0] + (p[0] - c[0]) * k, c[1] + (p[1] - c[1]) * k]); };
+export function famPath(fam, seed) {
+  const r = mulberry(seed * 7919 + fam.charCodeAt(0) * 131 + fam.charCodeAt(1));
+  let d = '';
+  if (fam === 'ov') {
+    if (r() < 0.5) { const n = 2 + Math.floor(r() * 3), ry = 11 + r() * 12, off = pick(r, [0, 0, 22.5]); for (let i = 0; i < n; i++) d += ell(50, 50, 47, ry, off + (i * 180) / n); }
+    else { const k = 2 + Math.floor(r() * 2), R = 26 + r() * 6, dd = 48 - R, rot = pick(r, [0, 30, 45, 90]); for (let i = 0; i < k; i++) { const [x, y] = P(rot - 90 + (i * 360) / k, k === 2 ? dd : dd * 0.95); d += circ(x, y, R); } }
+  } else if (fam === 'bu') {
+    const n = pick(r, [5, 6, 6, 8, 8]), gap = 0.14 + r() * 0.2, r1 = 14 + r() * 16, alt = r() < 0.4, step = 360 / n;
+    for (let i = 0; i < n; i++) { const a = i * step - 90; d += sector(r1, alt && i % 2 ? 36 : 48, a + (step * gap) / 2, a + step - (step * gap) / 2); }
+  } else if (fam === 'st') {
+    const m = 3 + Math.floor(r() * 3), mode = pick(r, ['ramp', 'peak', 'valley', 'even']), rot = pick(r, [0, 0, 45, 90]), round = r() < 0.65, pitch = 88 / m, w = pitch * (round ? 0.32 : 0.36);
+    const rt = (p) => { const a = (rot * Math.PI) / 180, x = p[0] - 50, y = p[1] - 50; return [50 + x * Math.cos(a) - y * Math.sin(a), 50 + x * Math.sin(a) + y * Math.cos(a)]; };
+    const sc = rot === 45 ? 0.74 : 1;
+    for (let i = 0; i < m; i++) {
+      const t = m === 1 ? 0 : i / (m - 1), h = (mode === 'ramp' ? 0.4 + 0.6 * t : mode === 'peak' ? 0.45 + 0.55 * (1 - Math.abs(t - 0.5) * 2) : mode === 'valley' ? 0.45 + 0.55 * Math.abs(t - 0.5) * 2 : 1) * 46 * sc - (round ? w : 0);
+      const x = 50 + (i - (m - 1) / 2) * pitch, y1 = mode === 'ramp' ? 50 + 46 * sc - (round ? w : 0) : 50 + h, y0 = mode === 'ramp' ? y1 - 2 * h : 50 - h;
+      d += round ? cap(rt([x, y0]), rt([x, y1]), w) : pol([rt([x - w, y0 - 0]), rt([x + w, y0]), rt([x + w, y1]), rt([x - w, y1])]);
+    }
+  } else if (fam === 'ck') {
+    const n = pick(r, [3, 3, 3, 4]), s = 100 / n, g = s * (0.12 + r() * 0.1), a = pick(r, ['sq', 'ci', 'dm']), b = pick(r, [null, 'dot', 'ci']), par = r() < 0.5 ? 0 : 1;
+    for (let j = 0; j < n; j++) for (let i = 0; i < n; i++) {
+      const cx = (i + 0.5) * s, cy = (j + 0.5) * s, h = s / 2 - g, t = (i + j) % 2 === par ? a : b;
+      if (t === 'sq') d += pol([[cx - h, cy - h], [cx + h, cy - h], [cx + h, cy + h], [cx - h, cy + h]]);
+      else if (t === 'ci') d += circ(cx, cy, h);
+      else if (t === 'dm') d += pol([[cx, cy - h * 1.15], [cx + h * 1.15, cy], [cx, cy + h * 1.15], [cx - h * 1.15, cy]]);
+      else if (t === 'dot') d += circ(cx, cy, h * 0.4);
+    }
+  } else if (fam === 'rb') {
+    const m = pick(r, [6, 8, 8, 10]), r1 = 19 + r() * 9, alt = r() < 0.5, w = Math.min(((Math.PI * 2 * r1) / m) * 0.36, 7.5);
+    for (let i = 0; i < m; i++) { const a = (i * 360) / m - 90, r2 = alt && i % 2 ? 36 : 47 - w; d += cap(P(a, r1 + w), P(a, r2), w); }
+  } else {
+    const V = [0, 1, 2, 3, 4, 5].map((k) => P(-90 + k * 60, 48)), c = [50, 50], mode = pick(r, ['cube', 'cube', 'ring', 'pin', 'ring2']);
+    if (mode === 'cube') for (const q of [[c, V[0], V[1], V[2]], [c, V[2], V[3], V[4]], [c, V[4], V[5], V[0]]]) d += pol(shrink(q, 0.9));
+    else if (mode === 'pin') for (let k = 0; k < 6; k += 2) d += pol(shrink([c, V[k], V[(k + 1) % 6]], 0.92));
+    else { const hex = (rr, o = 0) => pol([0, 1, 2, 3, 4, 5].map((k) => P(-90 + o + k * 60, rr))); d += hex(48) + hex(28 + r() * 6); if (mode === 'ring2') d += hex(12); }
+  }
+  return d;
+}
+export const famSeeds = (fam, from, count) => Array.from({ length: count }, (_, i) => from + i);
+export const FAM_CURATED = FAMILIES.flatMap(([f]) => famSeeds(f, 1, 8).map((s) => ({ k: 'f', fam: f, seed: s })));
+
 // Letters: stroked skeletons on a 100 box (ink spans about 24..76 by 16..84). Weight, caps and joins are the user's.
 export const LETTERS = {
   A: 'M24 84L50 16L76 84M34 60H66', B: 'M26 16H54A17 17 0 0 1 54 50H58A17 17 0 0 1 58 84H26ZM26 50H54',
@@ -90,6 +142,8 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
     ? `<path d="${glyph}" fill="${st.fg}"${+st.bold > 0 ? ` stroke="${st.fg}" stroke-width="${st.bold}" stroke-linejoin="round"` : ''}/>`
     : letter
     ? `<path d="${LETTERS[mark.ch]}" fill="none" stroke="${st.fg}" stroke-width="${st.weight}" stroke-linecap="${st.cap}" stroke-linejoin="${st.join}" stroke-miterlimit="2"/>`
+    : mark.k === 'f'
+    ? `<path d="${famPath(mark.fam, mark.seed)}" fill="${st.fg}" fill-rule="evenodd"/>`
     : `<path d="${geoPath(mark.seed)}" fill="${st.fg}" fill-rule="evenodd"/>`;
   let defs = '', fill = 'none';
   if (st.bgType === 'solid') fill = st.bg;
@@ -108,8 +162,8 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
   return `<svg xmlns="http://www.w3.org/2000/svg"${wh} viewBox="0 0 100 100">${defs}${shape}<g transform="translate(50 50) scale(${f2(k)}) translate(-50 -50)">${ink}</g></svg>`;
 }
 
-export const markId = (m) => (m.k === 'l' ? `l-${m.ch}` : `g-${m.seed.toString(36)}`);
-export const parseMarkId = (s) => { const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
+export const markId = (m) => (m.k === 'l' ? `l-${m.ch}` : m.k === 'f' ? `f-${m.fam}-${m.seed.toString(36)}` : `g-${m.seed.toString(36)}`);
+export const parseMarkId = (s) => { const fm = /^f-(ov|bu|st|ck|rb|hx)-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
 
 // Quality filter for the curated set and "Generate more": skip plain, empty, near-full or very busy compositions.
 const AREA = { sq: 1, qd: 0.785, qi: 0.215, hd: 0.393, tri: 0.5, ci: 0.785, cs: 0.246, lens: 0.571, dm: 0.5, bar: 0.5 };
