@@ -1,3 +1,4 @@
+import { MARKS, NORM_DATA } from './curated.mjs';
 // Lithos Brand Marks: pure functions, no DOM. A mark is { k: 'g', seed } (geometric) or { k: 'l', ch } (letter).
 // Geometric marks are tile compositions: a small grid of quarter discs, triangles, circles and so on, mirrored or rotated.
 export const mulberry = (seed) => { let a = seed >>> 0; return () => { a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; };
@@ -58,7 +59,7 @@ export function geoPath(seed, prims = PRIM, W = WEIGHTS) {
 }
 
 // Pattern families (added 2026-11-20): rosettes, bursts, bars, checks, dials and hex cubes. id = f-<family>-<seed>.
-export const FAMILIES = [['ov', 'Overlaps'], ['bu', 'Bursts'], ['st', 'Bars'], ['ck', 'Checks'], ['rb', 'Dials'], ['hx', 'Hex'], ['sc', 'Scoops'], ['sl', 'Slices'], ['pl', 'Planets'], ['pw', 'Pinwheels'], ['sp', 'Stars'], ['ht', 'Halftone'], ['tg', 'Mosaic'], ['ar', 'Arcs'], ['rg', 'Rings'], ['cp', 'Capsules'], ['sw', 'Swirls'], ['iso', 'Iso']];
+export const FAMILIES = [['ov', 'Overlaps'], ['bu', 'Bursts'], ['st', 'Bars'], ['ck', 'Checks'], ['rb', 'Dials'], ['hx', 'Hex'], ['sc', 'Scoops'], ['sl', 'Slices'], ['pl', 'Planets'], ['pw', 'Pinwheels'], ['sp', 'Stars'], ['ht', 'Halftone'], ['tg', 'Mosaic'], ['ar', 'Arcs'], ['rg', 'Rings'], ['cp', 'Capsules'], ['sw', 'Swirls'], ['iso', 'Iso'], ['mn', 'Minimal'], ['lk', 'Interlock']];
 const P = (a, d = 50, c = 50) => [c + d * Math.cos((a * Math.PI) / 180), c + d * Math.sin((a * Math.PI) / 180)];
 const xy = (p) => `${f2(p[0])} ${f2(p[1])}`;
 const circ = (cx, cy, r) => `M${f2(cx - r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx + r)} ${f2(cy)}A${f2(r)} ${f2(r)} 0 1 0 ${f2(cx - r)} ${f2(cy)}Z`;
@@ -278,6 +279,38 @@ const MORE = {
     }
     return d;
   },
+  mn(r) {
+    const mode = pick(r, ['split', 'split', 'slices', 'dsq', 'pie', 'bite', 'leaf', 'halfrings', 'arch', 'tricut', 'sqcirc', 'stack']), rot = Math.floor(r() * 4), R = 40;
+    let parts = [];
+    const sec = (cx, cy, rr, a1, a2) => ({ t: 's', cx, cy, rr, a1, a2 }), poly = (pts) => ({ t: 'p', pts }), ci = (cx, cy, rr) => ({ t: 'c', cx, cy, rr });
+    if (mode === 'split') { const sh = 6 + r() * 10, g = 3 + r() * 4, diag = r() < 0.4; parts = diag ? [sec(50 - sh / 2 - g / 2, 50 - sh / 2 + g / 2, 44, 135, 315), sec(50 + sh / 2 + g / 2, 50 + sh / 2 - g / 2, 44, -45, 135)] : [sec(50 - g, 50 - sh, 44, 90, 270), sec(50 + g, 50 + sh, 44, -90, 90)]; }
+    else if (mode === 'slices') { const n = 3, g = 5, h = (88 - 2 * g) / n, offs = [0, pick(r, [8, -8, 12]), 0]; for (let i = 0; i < n; i++) { const y1 = 6 + i * (h + g), y2 = y1 + h, c = clipY(circPoly(50, 50, 44, 96), y1, y2); parts.push(poly(c.map(([x, y]) => [x + offs[i], y]))); } }
+    else if (mode === 'dsq') { const g = 4 + r() * 4; parts = [poly([[6, 8], [46 - g / 2, 8], [46 - g / 2, 92], [6, 92]]), sec(46 + g / 2, 50, 42, -90, 90)]; }
+    else if (mode === 'pie') { const q = pick(r, [90, 90, 120]); parts = [sec(50, 50, 45, q - 90 + 0, 270)]; if (r() < 0.7) parts.push(ci(50 + 22, 50 - 22, 10 + r() * 4)); if (q === 120) parts[0] = sec(50, 50, 45, 30, 330); }
+    else if (mode === 'bite') { const br = 30 + r() * 14; parts = [{ t: 'raw', d: `M6 6L94 6L94 ${f2(94 - br)}A${f2(br)} ${f2(br)} 0 0 0 ${f2(94 - br)} 94L6 94Z` }]; if (r() < 0.6) parts.push(ci(94 - br * 0.3, 94 - br * 0.3, Math.min(9, br * 0.3))); }
+    else if (mode === 'leaf') { const k = pick(r, [2, 2, 4]); const L = (x, y, o) => ({ t: 'raw', d: o ? `M${x} ${y}L${x + 44} ${y}A44 44 0 0 1 ${x} ${y + 44}Z` : `M${x + 44} ${y + 44}L${x} ${y + 44}A44 44 0 0 1 ${x + 44} ${y}Z` }); parts = k === 2 ? [L(5, 5, 1), L(51, 51, 0)] : [L(5, 5, 1), L(51, 5, 0), L(5, 51, 0), L(51, 51, 1)]; if (k === 2 && r() < 0.5) parts.push(ci(73, 27, 12)); }
+    else if (mode === 'halfrings') { const w = 13 + r() * 5; parts = [sec(50, 28, 0, 0, 0)]; parts = [{ t: 'raw', d: sectorC(50, 30, 24 - w / 2, 24 + w / 2, 180, 360) + sectorC(50, 70, 24 - w / 2, 24 + w / 2, 0, 180) }]; }
+    else if (mode === 'arch') { const w = 52 + r() * 20, x0 = 50 - w / 2; parts = [{ t: 'raw', d: `M${f2(x0)} 94L${f2(x0)} ${f2(6 + w / 2)}A${f2(w / 2)} ${f2(w / 2)} 0 0 1 ${f2(x0 + w)} ${f2(6 + w / 2)}L${f2(x0 + w)} 94Z` }, ci(50, 6 + w / 2 + 4, 9 + r() * 6)]; }
+    else if (mode === 'tricut') { parts = [poly([[50, 6], [94, 90], [6, 90]]), ci(50, 62, 12 + r() * 6)]; if (r() < 0.4) parts = [poly([[50, 6], [94, 90], [6, 90]]), poly([[50, 52], [68, 90], [32, 90]])]; }
+    else if (mode === 'sqcirc') { const g = 4; parts = [poly([[6, 6], [46 - g, 6], [46 - g, 46 - g], [6, 46 - g]]), ci(73, 27, 23 - g / 2), ci(27, 73, 23 - g / 2), poly([[54 + g, 54 + g], [94, 54 + g], [94, 94], [54 + g, 94]])].filter((_, i) => i !== Math.floor(r() * 4)); }
+    else { const h = 26, g = 5; parts = [{ t: 'raw', d: rpoly([[8, 8], [92, 8], [92, 8 + h], [8, 8 + h]], h / 2) }, { t: 'raw', d: rpoly([[8, 37], [92, 37], [92, 37 + h], [8, 37 + h]], pick(r, [0, h / 2])) }, ci(pick(r, [21, 50, 79]), 79, 13)]; }
+    const tr = (p) => { for (let i = 0; i < rot; i++) p = [100 - p[1], p[0]]; return p; };
+    return parts.map((q) => {
+      if (q.t === 'p') return pol(q.pts.map(tr));
+      if (q.t === 'c') { const c = tr([q.cx, q.cy]); return circ(c[0], c[1], q.rr); }
+      if (q.t === 's') { const c = tr([q.cx, q.cy]); return sectorC(c[0], c[1], 0, q.rr, q.a1 + rot * 90, q.a2 + rot * 90); }
+      return rot ? q.d.replace(/([ML])(-?[\d.]+) (-?[\d.]+)/g, (m, c, x, y) => { const p = tr([+x, +y]); return `${c}${f2(p[0])} ${f2(p[1])}`; }).replace(/(A[\d.]+ [\d.]+ \d+ \d \d )(-?[\d.]+) (-?[\d.]+)/g, (m, a, x, y) => { const p = tr([+x, +y]); return `${a}${f2(p[0])} ${f2(p[1])}`; }).replace(/Q(-?[\d.]+) (-?[\d.]+) (-?[\d.]+) (-?[\d.]+)/g, (m, x1, y1, x2, y2) => { const p = tr([+x1, +y1]), q2 = tr([+x2, +y2]); return `Q${f2(p[0])} ${f2(p[1])} ${f2(q2[0])} ${f2(q2[1])}`; }) : q.d;
+    }).join('');
+  },
+  lk(r) {
+    const mode = pick(r, ['ll', 'hooks', 'chainsq']), w = 13 + r() * 4, rad = pick(r, [0, w / 2, w]);
+    const U = (x0, y0, x1, y1) => { const iw = w; return rpoly([[x0, y0], [x0 + iw, y0], [x0 + iw, y1 - iw], [x1 - iw, y1 - iw], [x1 - iw, y0], [x1, y0], [x1, y1], [x0, y1]], (i) => (i === 6 || i === 7 ? rad : 0)); };
+    if (mode === 'uu') { const a = U(6, 6, 64, 70), b = rotQ([[0, 0]], 0) && U(36, 6, 94, 70); return U(6, 6, 62, 66) + rpoly([[38, 34], [94, 34], [94, 94], [38, 94], [38, 94 - 0], [38 + w, 94 - 0]].slice(0, 0), 0) + U(38, 34, 94, 94).replace(/(-?[\d.]+) (-?[\d.]+)/g, (m, x, y) => `${f2(132 - +x)} ${f2(128 - +y)}`); }
+    if (mode === 'll') { const L1 = rpoly([[6, 6], [6 + w, 6], [6 + w, 66 - w], [66, 66 - w], [66, 66], [6, 66]], rad / 2), L2 = rpoly([[94, 94], [94 - w, 94], [94 - w, 34 + w], [34, 34 + w], [34, 34], [94, 34]], rad / 2); return L1 + L2; }
+    if (mode === 'hooks') { const h = (x, y, f) => { const pts = [[0, 0], [44, 0], [44, 44], [44 - w, 44], [44 - w, w], [0, w]].map(([u, v]) => (f ? [x - u, y - v] : [x + u, y + v])); return rpoly(pts, rad / 2); }; return h(6, 20, 0) + h(94, 80, 1); }
+    const a = rpoly([[6, 24], [70, 24], [70, 76], [6, 76]], rad), b = rpoly([[6 + w, 24 + w], [70 - w, 24 + w], [70 - w, 76 - w], [6 + w, 76 - w]], Math.max(0, rad - w)), c = rpoly([[30, 6], [94, 6], [94, 58], [30, 58]], rad), d2 = rpoly([[30 + w, 6 + w], [94 - w, 6 + w], [94 - w, 58 - w], [30 + w, 58 - w]], Math.max(0, rad - w));
+    return a + b + c + d2;
+  },
   ar(r) {
     const mode = pick(r, ['rainbow', 'rainbow', 'corner', 'corner', 'wave']), rot = Math.floor(r() * 4), out = [];
     const rings = (n, R0, R, core) => { const band = (R - R0) / (2 * n - 1), o = []; for (let i = 0; i < n; i++) { const r2 = R - i * 2 * band, r1 = r2 - band; o.push([i === n - 1 && core ? 0 : Math.max(0, r1), r2]); } return o; };
@@ -333,6 +366,18 @@ export const famSeeds = (fam, from, count) => Array.from({ length: count }, (_, 
 const PICKS = { ov: [3, 4, 5, 6, 9, 11, 13], bu: [2, 4, 9, 12], st: [1, 2, 3, 5, 9, 10, 13], ck: [1, 2, 4, 13], rb: [1, 10, 13], hx: [1, 2, 4], sc: [5, 6, 9, 16, 19, 17], sl: [2, 11, 4], pl: [3, 4, 5, 1, 2, 6], pw: [1, 2, 3, 6, 9, 10], sp: [1, 13, 5], ht: [1, 4, 9, 11, 14], tg: [1, 2, 4, 6, 7, 9, 14, 15], ar: [1, 5, 6, 8, 10, 13, 14, 16], rg: [1, 3, 5, 7, 9, 10, 12, 14], cp: [1, 2, 3, 6, 7, 9, 11, 13], sw: [1, 3, 5, 8, 12, 13], iso: [1, 2, 3, 6, 9, 10, 11, 15] };
 export const FAM_CURATED = FAMILIES.flatMap(([f]) => (PICKS[f] || famSeeds(f, 1, 8)).map((s) => ({ k: 'f', fam: f, seed: s })));
 
+// Optical sizing (from scripts/marks-curate): per-mark ink centre and scale so every curated mark reads the same size.
+export const NORM = { ...NORM_DATA };
+export const registerNorm = (o) => Object.assign(NORM, o);
+export { MARKS };
+function shapeInk(mark, st, uid) {
+  const base = markId({ ...mark, v: undefined }), d = mark.k === 'f' ? famPath(mark.fam, mark.seed) : geoPath(mark.seed), n = NORM[base];
+  const wrap = (inner, k = 1) => (n || k !== 1 ? `<g transform="translate(50 50) scale(${f2((n ? n[2] : 1) * k)}) translate(${f2(-(n ? n[0] : 50))} ${f2(-(n ? n[1] : 50))})">${inner}</g>` : inner);
+  if (mark.v === 'o') { const sw = 4.5 / (n ? n[2] : 1); return wrap(`<path d="${d}" fill="none" stroke="${st.fg}" stroke-width="${f2(sw)}" stroke-linejoin="round" stroke-linecap="round"/>`, 0.94); }
+  if (mark.v === 'k') return `<defs><mask id="${uid}k" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><circle cx="50" cy="50" r="48" fill="#fff"/>${wrap(`<path d="${d}" fill="#000" fill-rule="evenodd"/>`, 0.6)}</mask></defs><circle cx="50" cy="50" r="48" fill="${st.fg}" mask="url(#${uid}k)"/>`;
+  return wrap(`<path d="${d}" fill="${st.fg}" fill-rule="evenodd"/>`);
+}
+
 // Letters: stroked skeletons on a 100 box (ink spans about 24..76 by 16..84). Weight, caps and joins are the user's.
 export const LETTERS = {
   A: 'M24 84L50 16L76 84M34 60H66', B: 'M26 16H54A17 17 0 0 1 54 50H58A17 17 0 0 1 58 84H26ZM26 50H54',
@@ -366,9 +411,7 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
     ? `<path d="${glyph}" fill="${st.fg}"${+st.bold > 0 ? ` stroke="${st.fg}" stroke-width="${st.bold}" stroke-linejoin="round"` : ''}/>`
     : letter
     ? `<path d="${LETTERS[mark.ch]}" fill="none" stroke="${st.fg}" stroke-width="${st.weight}" stroke-linecap="${st.cap}" stroke-linejoin="${st.join}" stroke-miterlimit="2"/>`
-    : mark.k === 'f'
-    ? `<path d="${famPath(mark.fam, mark.seed)}" fill="${st.fg}" fill-rule="evenodd"/>`
-    : `<path d="${geoPath(mark.seed)}" fill="${st.fg}" fill-rule="evenodd"/>`;
+    : shapeInk(mark, st, uid);
   let defs = '', fill = 'none';
   if (st.bgType === 'solid') fill = st.bg;
   if (st.bgType === 'gradient') {
@@ -386,8 +429,8 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
   return `<svg xmlns="http://www.w3.org/2000/svg"${wh} viewBox="0 0 100 100">${defs}${shape}<g transform="translate(50 50) scale(${f2(k)}) translate(-50 -50)">${ink}</g></svg>`;
 }
 
-export const markId = (m) => (m.k === 'l' ? `l-${m.ch}` : m.k === 'f' ? `f-${m.fam}-${m.seed.toString(36)}` : `g-${m.seed.toString(36)}`);
-export const parseMarkId = (s) => { const fm = /^f-([a-z]{2,3})-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
+export const markId = (m) => (m.v ? markId({ ...m, v: undefined }) + '.' + m.v : m.k === 'l' ? `l-${m.ch}` : m.k === 'f' ? `f-${m.fam}-${m.seed.toString(36)}` : `g-${m.seed.toString(36)}`);
+export const parseMarkId = (s) => { const vm = /^(.+)\.(o|k)$/.exec(s || ''); if (vm) { const b = parseMarkId(vm[1]); return b && b.k !== 'l' ? { ...b, v: vm[2] } : null; } const fm = /^f-([a-z]{2,3})-([0-9a-z]+)$/i.exec(s || ''); if (fm) { const seed = parseInt(fm[2], 36); return Number.isFinite(seed) ? { k: 'f', fam: fm[1].toLowerCase(), seed } : null; } const m = /^(g|l)-([0-9a-z]+)$/i.exec(s || ''); if (!m) return null; if (m[1] === 'l') return LETTERS[m[2].toUpperCase()] ? { k: 'l', ch: m[2].toUpperCase() } : null; const seed = parseInt(m[2], 36); return Number.isFinite(seed) ? { k: 'g', seed } : null; };
 
 // Quality filter for the curated set and "Generate more": skip plain, empty, near-full or very busy compositions.
 const AREA = { sq: 1, qd: 0.785, qi: 0.215, hd: 0.393, tri: 0.5, ci: 0.785, cs: 0.246, lens: 0.571, dm: 0.5, bar: 0.5 };
