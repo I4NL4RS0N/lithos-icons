@@ -260,7 +260,7 @@ function renderPanel() {
   $$('.only-grad').forEach((e) => (e.hidden = st.bgType !== 'gradient'));
   $$('.only-round').forEach((e) => (e.hidden = st.shape !== 'rounded'));
   $$('.only-border').forEach((e) => (e.hidden = !(+st.borderW > 0)));
-  $('#presets').innerHTML = PRESETS.map((p, i) => `<button type="button" data-p="${i}" aria-label="Preset ${i + 1}">${svgOf(S.sel, { ...DEF, ...p }, 0, 'p' + i)}</button>`).join('');
+  $('#presets').innerHTML = PRESETS.map((p, i) => `<button type="button" data-p="${i}" aria-label="Preset ${i + 1}">${svgOf(S.sel, { ...DEF, weight: S.style.weight, cap: S.style.cap, join: S.style.join, font: S.style.font, bold: S.style.bold, ...p }, 0, 'p' + i)}</button>`).join('');
   $('#sp').innerHTML = [16, 20, 24, 32, 48, 64].map((n) => `<figure>${svgOf(S.sel, S.style, n, 'z' + n)}<figcaption>${n}</figcaption></figure>`).join('');
   $('#sp-wrap').dataset.bg = S.spbg || 'light';
   $$('#sp-bg button').forEach((b) => b.setAttribute('aria-pressed', b.dataset.v === (S.spbg || 'light')));
