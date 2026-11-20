@@ -3554,5 +3554,42 @@
    ]
   },
   "cost": 2.63
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:18:32.223Z",
+  "mode": "add",
+  "id": "ai-capex-buildout",
+  "name": "AI Capex Buildout",
+  "kind": "theme",
+  "picture": "gpu-card",
+  "moves": "Drives semiconductor, power, construction and credit-market pricing, and sell-offs when spending doubts emerge.",
+  "source": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html",
+  "result": "added",
+  "attempts": 2,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A graphics card (GPU): a mounting bracket on the left, a card body with a fan and vent slots, and an edge connector along the bottom. A finance reader would take it as AI or GPU hardware spend. The 'capex/buildout' part is implied, not drawn.",
+   "problems": [
+    "The 'near' preview (agent-ai-capex-buildout-near.png) is an exact copy of the main preview. It does not show the parent or siblings, so I could only check distinctness against the full sheets, not side by side with the parent.",
+    "At 16px the vent slots shrink to two dots that look like a colon, and the fan's centre dot sits close to its ring. It is still readable but at the limit of clutter.",
+    "The fan-in-a-rounded-box resembles the private-credit safe (dial plus bar). The bracket and edge connector are what tell them apart, and at 16px solid both shrink to thin stubs.",
+    "The card is wider than it is tall, so it fills less height than square neighbours. That is acceptable and in line with media and consumer-finance, but it sits slightly light in the frame at 16 and 20.",
+    "The icon shows the hardware only. Nothing in it conveys 'buildout' or scale, so it depends on the convention that GPU means AI capex."
+   ],
+   "fixes": [
+    "Regenerate the near preview so it really shows the parent theme and sibling icons, then re-check distinctness against them before merge.",
+    "Optional at 16px: drop to a single vent slot, or remove the fan's centre dot, so the fan ring has more clear space around it.",
+    "Optional at 16px solid: make the bracket a touch taller or the connector tabs a touch thicker, so the silhouette stays clearly different from the private-credit safe."
+   ]
+  },
+  "mapped": 0,
+  "why": "Massive AI infrastructure spending is driving chips, power, construction and credit markets.",
+  "cost": 1.49
  }
 ]

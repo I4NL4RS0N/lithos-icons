@@ -1,0 +1,17 @@
+{
+  "id": "ai-capex-buildout",
+  "name": "AI Capex Buildout",
+  "kind": "theme",
+  "metaphor": "gpu-card",
+  "keywords": [
+    "AI capex",
+    "AI buildout",
+    "data center spending",
+    "hyperscaler spending",
+    "AI bubble"
+  ],
+  "reduction": "Every size: an AI graphics card seen side-on: a tall card body with one large cooling fan at the right, a stack of heatsink fin slots at the left, the PC bracket (with its top screw tab) running past the body above and below, and the edge connector under the body. 16: fan hub is a dot, two wide-spaced fins; 20-24: hub dot, three fins; 32-48: hub ring, four fins, keyed connector. Solid: body filled, fan and fins cut out, hub filled inside the fan, connector a separate filled strip with a 1px gap from the body.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

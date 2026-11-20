@@ -327,5 +327,8 @@
  ],
  "fear-gauge": [
   "equity-volatility-hedging"
+ ],
+ "gpu-card": [
+  "ai-capex-buildout"
  ]
 }

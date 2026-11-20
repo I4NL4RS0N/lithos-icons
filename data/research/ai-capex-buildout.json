@@ -1,0 +1,801 @@
+{
+  "concept": "ai-capex-buildout",
+  "query": "gpu",
+  "fetched": "2026-11-20T18:05:22.617Z",
+  "topTerms": [
+    [
+      "gpu",
+      50
+    ],
+    [
+      "hardware",
+      24
+    ],
+    [
+      "computer",
+      23
+    ],
+    [
+      "technology",
+      15
+    ],
+    [
+      "graphic-card",
+      14
+    ],
+    [
+      "tool",
+      10
+    ],
+    [
+      "video-card",
+      9
+    ],
+    [
+      "processor",
+      9
+    ],
+    [
+      "fan",
+      8
+    ],
+    [
+      "graphics",
+      7
+    ],
+    [
+      "card",
+      5
+    ],
+    [
+      "vga-card",
+      4
+    ],
+    [
+      "graphics-card",
+      4
+    ],
+    [
+      "rendering",
+      4
+    ],
+    [
+      "graphic",
+      4
+    ],
+    [
+      "vga",
+      4
+    ],
+    [
+      "system",
+      3
+    ],
+    [
+      "cooling",
+      3
+    ],
+    [
+      "mining",
+      3
+    ],
+    [
+      "gaming",
+      3
+    ],
+    [
+      "computer-component",
+      2
+    ],
+    [
+      "video",
+      2
+    ],
+    [
+      "circuit",
+      2
+    ],
+    [
+      "compute",
+      2
+    ],
+    [
+      "double-fan-card",
+      2
+    ],
+    [
+      "virtual-box",
+      2
+    ],
+    [
+      "blockchain",
+      2
+    ],
+    [
+      "electronic",
+      2
+    ],
+    [
+      "microchip",
+      2
+    ],
+    [
+      "performance",
+      2
+    ],
+    [
+      "parts",
+      2
+    ],
+    [
+      "pc",
+      2
+    ],
+    [
+      "device",
+      1
+    ],
+    [
+      "network",
+      1
+    ],
+    [
+      "online",
+      1
+    ],
+    [
+      "cyber-monday",
+      1
+    ],
+    [
+      "hot-deals",
+      1
+    ],
+    [
+      "digital",
+      1
+    ],
+    [
+      "monitor",
+      1
+    ],
+    [
+      "smart-tv",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "device",
+            "gpu",
+            "hardware",
+            "network",
+            "online"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1907650-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "cyber-monday",
+            "gpu",
+            "graphic-card",
+            "hot-deals",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511378-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "fan",
+            "gpu",
+            "graphic-card",
+            "vga-card",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8458826-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "digital",
+            "gpu",
+            "gpu",
+            "system",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8316142-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gpu",
+            "graphics-card",
+            "hardware",
+            "processor",
+            "rendering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8313910-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gpu",
+            "gpu",
+            "monitor",
+            "smart-tv",
+            "technology",
+            "tv"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8306129-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "computer-component",
+            "gpu",
+            "graphics",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8252136-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "computer-component",
+            "gpu",
+            "graphics",
+            "video"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8252096-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "ai",
+            "computer-chips",
+            "cpu",
+            "gpu"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8222191-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "card",
+            "gpu",
+            "graphics",
+            "hardware",
+            "processor",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8202880-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "circuit",
+            "computer",
+            "cooling",
+            "fan",
+            "gpu",
+            "processor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8201760-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "card",
+            "gpu",
+            "graphics",
+            "hardware",
+            "processor",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8188818-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "circuit",
+            "cooling",
+            "fan",
+            "gpu",
+            "hardware",
+            "processor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8188811-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "card",
+            "compute",
+            "gpu",
+            "gpu",
+            "graphic",
+            "mining"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8168467-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gpu",
+            "gpu-card",
+            "graphic-card",
+            "vga-card",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8141554-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "gpu",
+            "graphic-card",
+            "vga-card",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8141519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "double-fan-card",
+            "gpu",
+            "gpu",
+            "graphic-card",
+            "hardware",
+            "virtual-box"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8088786-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "card",
+            "compute",
+            "gpu",
+            "graphic",
+            "mining"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8082532-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "card",
+            "computer",
+            "gpu",
+            "graphics",
+            "processor"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8056063-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gpu",
+            "gpu",
+            "hash-rate",
+            "mining",
+            "mining-farm",
+            "rig-setup"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7993007-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gpu",
+            "graphics-card",
+            "graphics-processing-unit",
+            "vga-card",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7992937-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "blockchain",
+            "gpu",
+            "graphic",
+            "processor",
+            "technology"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7969985-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "electronic",
+            "gpu",
+            "hardware",
+            "microchip",
+            "processor",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7916422-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "electronic",
+            "gpu",
+            "hardware",
+            "microchip",
+            "processor",
+            "system"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7916374-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911390-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911389-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911386-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911380-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911378-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911346-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911335-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "hardware",
+            "technology",
+            "tool"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7911333-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "fan",
+            "gpu",
+            "gpu",
+            "graphic-card",
+            "hardware"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7907617-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "fan",
+            "gpu",
+            "gpu",
+            "graphic-card",
+            "hardware"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7907606-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "fan",
+            "gpu",
+            "graphic-card",
+            "hardware"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7907596-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "graphic-card",
+            "hardware",
+            "vga",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7880031-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "graphic-card",
+            "hardware",
+            "vga",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7880005-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gaming",
+            "gpu",
+            "gpu",
+            "graphics-card",
+            "rendering",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7859786-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "display",
+            "gpu",
+            "graphic-card",
+            "graphics-card",
+            "vga"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7774417-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "component",
+            "computer-hardware",
+            "gpu",
+            "gpu",
+            "graphic-card",
+            "vga"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7774384-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "double-fan-card",
+            "gpu",
+            "gpu",
+            "graphic-card",
+            "hardware",
+            "virtual-box"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7771538-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "bitcoin",
+            "blockchain",
+            "crypto",
+            "cryptocurrency",
+            "gpu",
+            "minning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7750472-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gaming",
+            "gpu",
+            "graphics",
+            "performance",
+            "rendering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7732135-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gaming",
+            "gpu",
+            "graphics",
+            "performance",
+            "rendering"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7732102-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "cooling",
+            "fan",
+            "gpu"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7694496-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "gpu",
+            "parts",
+            "pc"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7694460-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "fan",
+            "gpu",
+            "parts",
+            "pc"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7694452-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "gpu",
+          "tags": [
+            "computer",
+            "gpu",
+            "graphic",
+            "graphic-card",
+            "video-card"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7666628-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
