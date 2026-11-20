@@ -3629,5 +3629,42 @@
    ]
   },
   "cost": 1.51
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:30:38.481Z",
+  "mode": "add",
+  "id": "safe-haven-currencies",
+  "name": "Safe-Haven Currencies",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The banknote doesn't read as a banknote. It's a short rounded rectangle with one small circle in the top-left corner. The set's own note (us-dollar-strength) has a centre disc and end dots, but here the lifebuoy covers the centre, so this one looks like a photo card or camera body.; At 32 and 48px outline, the lifebuoy has thin inner spokes or hatch ticks between two concentric rings, so it reads as a steering wheel or film reel. A lifebuoy needs a thick ring with 4 clear band segments.; ",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A photo/ID card or camera with a wheel badge (steering wheel or film reel) in the corner. At 16px it reads as a rounded box with a target. The banknote and lifebuoy only come through at 48px.",
+   "problems": [
+    "The banknote doesn't read as a banknote. It's a short rounded rectangle with one small circle in the top-left corner. The set's own note (us-dollar-strength) has a centre disc and end dots, but here the lifebuoy covers the centre, so this one looks like a photo card or camera body.",
+    "At 32 and 48px outline, the lifebuoy has thin inner spokes or hatch ticks between two concentric rings, so it reads as a steering wheel or film reel. A lifebuoy needs a thick ring with 4 clear band segments.",
+    "16px outline is clogged: the outer ring, inner ring and band ticks merge into a dense knot. The banknote shrinks to two stacked arcs and looks like a wifi or rss glyph on a box.",
+    "20px outline is still busy. The note's top edge and the buoy's outer ring nearly touch, and the gap between them is under 1px.",
+    "Solid 16 and 20px: the buoy knockouts turn into an X or close-badge shape, and the note's single knockout dot is tiny. Overall it reads as a 'remove/close' badge on a card.",
+    "Composition is unbalanced. The note fills only the top-left and is squat. The buoy hangs off the bottom-right corner past the note's baseline, so the icon's visual mass sits lower-right and the top-right of the frame is mostly empty compared with neighbours like private-credit or us-dollar-strength.",
+    "The 'near' preview shows only this icon, not the parent and siblings, so distinctness from the parent couldn't be checked directly. Against the sheet it is separate from us-dollar-strength and insurance, but it relies on the same banknote motif."
+   ],
+   "fixes": [
+    "Make the banknote recognisable. Draw a full-width note (about 20×12 at 24px) with an end dot or inner border on the visible left side. Or use a stack of two offset notes, so 'currency' reads even with the buoy covering a corner.",
+    "Redraw the lifebuoy as one thick ring with 4 short band gaps at 45°. Take out the inner hatch ticks and spokes so it can't read as a steering wheel. Keep the hole open: at least 3px inner diameter at 24px and 2px at 16px.",
+    "Draw the 16px version separately. Use a 2-ring buoy at most, with no band ticks: just 4 gaps in one ring. Leave at least 1px clear between the note outline and the buoy at 16 and 20px.",
+    "In the solid version, show the buoy as a filled ring with 4 notched gaps and a clear centre hole, not an X. Separate it from the filled note with a 1px knockout gap so the two shapes don't merge.",
+    "Rebalance the frame: let the note span the full width from top to about the middle, and set the buoy lower-right inside the 2px padding, so the footprint matches neighbours at every size.",
+    "Check the lifebuoy against existing metaphors in data/metaphors.json (e.g. the shield or umbrella used for insurance). Make sure the 'safe haven' cue is consistent with safe-haven-gold, which uses gold bars with no safety marker. Consider using the same safe-haven marker on both."
+   ]
+  },
+  "cost": 1.49
  }
 ]
