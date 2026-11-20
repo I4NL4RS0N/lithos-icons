@@ -3445,5 +3445,41 @@
   "mapped": 0,
   "why": "Fitch 1.3.30 borrows the cup icon of food-beverage drinks makers form a separate corporate group.",
   "cost": 0.67
+ },
+ {
+  "date": "2026-11-20",
+  "at": "2026-11-20T18:07:03.061Z",
+  "mode": "add",
+  "id": "social-housing",
+  "name": "Social Housing",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Outline and solid are different drawings. The outline has one shared party wall and tall doors that reach the baseline. The solid has two separate houses with a gap between them and small window knockouts that float above the baseline. The footprint and the picture both change between styles.; In the outline, each door is about two-thirds of the wall height and nearly as wide as the house. That leaves thin walls, so the shape reads as a letterform ('M M', 'Ω Ω' or 'nn') rather than a pair",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Outline: two joined gabled houses, but the full-height doors make it look like the letters \"MM\" or \"ΩΩ\" / a pair of arches. Solid: two separate gabled houses with small windows. Reads as 'houses / residential' rather than specifically social housing.",
+   "problems": [
+    "Outline and solid are different drawings. The outline has one shared party wall and tall doors that reach the baseline. The solid has two separate houses with a gap between them and small window knockouts that float above the baseline. The footprint and the picture both change between styles.",
+    "In the outline, each door is about two-thirds of the wall height and nearly as wide as the house. That leaves thin walls, so the shape reads as a letterform ('M M', 'Ω Ω' or 'nn') rather than a pair of houses. This breaks the no-letters rule in spirit.",
+    "At 16px and 20px the outline is crowded: the door strokes, wall strokes and the shared middle wall bunch into a dense zigzag, and the counters inside the doors are only about 1px wide.",
+    "The icon is wide and squat, so it fills less of the box vertically than neighbours like real-estate, rmbs and reits, especially at 16px.",
+    "The solid 16px knockouts are tiny specks that nearly disappear, and the gap between the two solid houses competes with the window knockouts.",
+    "It sits close to the parent real-estate (the same house, doubled). The only difference is the count, with no cue for 'social' or 'affordable'."
+   ],
+   "fixes": [
+    "Pick one construction and use it for both styles. Recommended: a semi-detached block with one continuous outer outline, two gables and one shared party wall. In the solid, knock out the party wall as a 1.5–2px gap. That way both styles have the same silhouette.",
+    "Shrink the doors to about 40% of the wall height and about 30% of the house width, and offset each door toward the outer side of its half (mirrored) so the counters don't form an 'M'/'n' rhythm. Or replace the doors with one small square window per house and keep a door only at 32/48.",
+    "Use the same door or window elements in the solid as knockouts, in the same positions as the outline. If the outline doors reach the ground, the solid doors must too.",
+    "Make it taller so it fills the frame: raise the eaves and steepen the roofs so the height matches real-estate at each size (for example, roughly 3–21 vertical on the 24 grid).",
+    "At 16px, drop the doors entirely (two gables with a party wall and one tiny window each, or nothing). Keep at least 2px counters and redraw on the 16 grid rather than simplifying the 24 drawing.",
+    "Optionally add a shared ground line under both units, like rmbs and cmbs do, so it reads as one building of two homes and differs more from the single-house parent."
+   ]
+  },
+  "cost": 1.45
  }
 ]
