@@ -182,7 +182,7 @@
 <main class="wrap">
   <section class="intro">
     <h1>Atmospheres</h1>
-    <p>Backgrounds for every level of a page: the page itself, sections, cards and their hover state. Mix colour, gradients, geometry, grain and motion, then copy the CSS or the SVG for Figma.</p>
+    <p>Backgrounds for every level of a page: the page itself, sections, cards and their hover state. Mix colour, gradients, geometry, line fields, grain and motion, then copy the CSS or the SVG for Figma.</p>
   </section>
   <div class="layout">
     <div>
@@ -201,6 +201,7 @@
     </div>
     <aside class="panel" id="panel" aria-label="Customise and export">
       <button class="x" type="button" id="close" aria-label="Close"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 2l8 8M10 2l-8 8"/></svg></button>
+      <div class="sec"><h4>Colour</h4><div class="seg" id="tone"><button type="button" data-v="mono">Mono</button><button type="button" data-v="some">Some</button><button type="button" data-v="full">Full</button><button type="button" data-v="high">High</button></div><p class="hint" style="margin:0">Every atmosphere is built to work in greyscale. Bring colour back in by degrees.</p></div>
       <div class="sec"><h4>Level</h4><div class="seg lvls" id="lvls"><button type="button" data-v="page">Page</button><button type="button" data-v="section">Section</button><button type="button" data-v="card">Card</button><button type="button" data-v="hover">Hover</button></div></div>
       <div class="ctls" id="ctls"></div>
       <div class="sec" style="border-top:1px solid var(--line);padding-top:14px">
@@ -226,8 +227,10 @@ const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [..
 const theme = () => { let a = 'system'; try { a = (JSON.parse(localStorage.getItem('li:settings3') || '{}')).appearance || 'system'; } catch {} document.documentElement.dataset.theme = a === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : a; };
 theme(); matchMedia('(prefers-color-scheme: dark)').addEventListener('change', theme);
 const KEY = 'li:atmos1', SIZES = { page: [1440, 900], section: [1440, 640], card: [400, 260] };
-let S = { p: 0, lvl: 'section', a: AT.clone(AT.PRESETS[0]) };
+let S = { p: 0, lvl: 'section', tone: 'full', a: AT.clone(AT.PRESETS[0]) };
 try { const h = location.hash.slice(1); if (h) S.a = JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(h))))), S.p = -1; else { const j = JSON.parse(localStorage.getItem(KEY) || 'null'); if (j && j.a) S = { ...S, ...j }; } } catch {}
+const NOF = { type: 'none', density: 0.5, weight: 1.2, opacity: 0.5, color: '#ffffff', x: 50, y: 50, seed: 1 };
+['page', 'section', 'card'].forEach((l) => { if (S.a[l] && !S.a[l].field) S.a[l].field = { ...NOF }; });
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
 const get = (o, p) => p.split('.').reduce((a, k) => a && a[k], o);
 const set = (o, p, v) => { const ks = p.split('.'), last = ks.pop(); ks.reduce((a, k) => a[k], o)[last] = v; };
@@ -236,11 +239,12 @@ const NAMES = { solid: 'Solid', linear: 'Linear', radial: 'Radial', conic: 'Coni
 const cap = (s) => NAMES[s] || s[0].toUpperCase() + s.slice(1);
 
 function gallery() {
-  $('#gal').innerHTML = AT.PRESETS.map((p, i) => `<button type="button" data-i="${i}" aria-current="${S.p === i}" style="${AT.levelStyle(p.section).replace(/"/g, '&quot;')}" aria-label="${p.name}"><span class="gn">${p.name}</span><span class="gc" style="${AT.levelStyle(p.card).replace(/"/g, '&quot;')}"></span></button>`).join('');
+  $('#gal').innerHTML = AT.PRESETS.map((p, i) => `<button type="button" data-i="${i}" aria-current="${S.p === i}" style="${AT.levelStyle(AT.toned(p.section, S.tone)).replace(/"/g, '&quot;')}" aria-label="${p.name}"><span class="gn">${p.name}</span><span class="gc" style="${AT.levelStyle(AT.toned(p.card, S.tone)).replace(/"/g, '&quot;')}"></span></button>`).join('');
 }
 function apply() {
-  $('#atmcss').textContent = AT.atmosCss(S.a, '.zatm');
-  $('#code').textContent = AT.exportCss(S.a);
+  $('#atmcss').textContent = AT.atmosCss(S.a, '.zatm', S.tone);
+  $('#code').textContent = AT.exportCss(S.a, S.tone);
+  $$('#tone button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === S.tone)));
   $$('#stage [data-lv]').forEach((e) => e.classList.toggle('on', e.dataset.lv === (S.lvl === 'hover' ? 'card' : S.lvl)));
   $$('#gal button').forEach((b) => b.setAttribute('aria-current', String(+b.dataset.i === S.p)));
   save();
@@ -265,6 +269,11 @@ function controls() {
     if (L.pat.type !== 'none') {
       h += range('pat.size', 'Scale', 4, 120, 1, L.pat.size, 'px') + range('pat.weight', 'Weight', 0.5, 8, 0.1, L.pat.weight) + range('pat.opacity', 'Opacity', 0.02, 1, 0.01, L.pat.opacity) + color('pat.color', 'Geometry colour', L.pat.color);
       if (L.pat.type === 'marks') h += `<div class="field"><button type="button" class="btn" id="patmark">Shuffle mark</button></div>`;
+    }
+    h += `<div class="field"><div class="lbl"><span>Lines &amp; fields</span>${L.field.type !== 'none' ? '<button type="button" class="mini" id="fseed">Shuffle</button>' : ''}</div><div class="pats" data-path="field.type">${AT.FIELDS.map((p) => `<button type="button" data-v="${p}" aria-pressed="${L.field.type === p}">${cap(p)}</button>`).join('')}</div></div>`;
+    if (L.field.type !== 'none') {
+      h += range('field.density', 'Density', 0, 1, 0.05, L.field.density) + range('field.weight', 'Line weight', 0.3, 4, 0.1, L.field.weight) + range('field.opacity', 'Opacity', 0.05, 1, 0.01, L.field.opacity) + color('field.color', 'Line colour', L.field.color);
+      if (L.field.type === 'burst' || L.field.type === 'echo') h += range('field.x', 'Centre across', 0, 100, 1, L.field.x, '%') + range('field.y', 'Centre down', 0, 100, 1, L.field.y, '%');
     }
     h += `<div class="field"><div class="lbl"><span>Large shape</span><span><button type="button" class="mini" id="shape">${L.shape.mark ? 'Shuffle' : 'Add a mark'}</button>${L.shape.mark ? ' <button type="button" class="mini" id="noshape">Remove</button>' : ''}</span></div></div>`;
     if (L.shape.mark) h += range('shape.size', 'Shape size', 10, 140, 1, L.shape.size, '%') + range('shape.x', 'Across', 0, 100, 1, L.shape.x, '%') + range('shape.y', 'Down', 0, 100, 1, L.shape.y, '%') + range('shape.opacity', 'Shape opacity', 0.02, 1, 0.01, L.shape.opacity) + color('shape.color', 'Shape colour', L.shape.color);
@@ -293,10 +302,12 @@ $('#ctls').addEventListener('click', (e) => {
   else if (b.id === 'shape') { L.shape.mark = MKS(); L.shape.color = AT.inkFor(L); }
   else if (b.id === 'noshape') L.shape.mark = null;
   else if (b.id === 'patmark') L.pat.mark = MKS();
+  else if (b.id === 'fseed') L.field.seed = 1 + Math.floor(Math.random() * 9999);
   else return;
   S.p = -1; render();
 });
 const MKS = () => AT.MARKS[Math.floor(Math.random() * AT.MARKS.length)].split('.')[0];
+$('#tone').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) { S.tone = b.dataset.v; gallery(); apply(); } });
 $('#lvls').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) { S.lvl = b.dataset.v; render(); } });
 $('#stage').addEventListener('click', (e) => { const el = e.target.closest('[data-lv]'); if (el) { S.lvl = el.dataset.lv; render(); if (innerWidth <= 900) $('#panel').classList.add('open'); } });
 $('#gal').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) { S.p = +b.dataset.i; S.a = AT.clone(AT.PRESETS[S.p]); render(); } });
@@ -308,9 +319,9 @@ $('#shuffle').addEventListener('click', () => {
 const flash = (b, t) => { const o = b.textContent; b.textContent = t; setTimeout(() => (b.textContent = o), 1200); };
 const dl = (name, text, type) => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); };
 const slug = () => (S.a.name || 'atmosphere').toLowerCase().replace(/[^a-z0-9]+/g, '-');
-const lvSvg = () => { const lv = S.lvl === 'hover' ? 'card' : S.lvl, [w, h] = SIZES[lv]; return AT.levelSvgDoc(S.a[lv], w, h); };
-$('#cpcss').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(AT.exportCss(S.a)); flash(e.target, 'Copied'); } catch {} });
-$('#dlcss').addEventListener('click', () => dl(slug() + '.css', AT.exportCss(S.a), 'text/css'));
+const lvSvg = () => { const lv = S.lvl === 'hover' ? 'card' : S.lvl, [w, h] = SIZES[lv]; return AT.levelSvgDoc(AT.toned(S.a[lv], S.tone), w, h); };
+$('#cpcss').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(AT.exportCss(S.a, S.tone)); flash(e.target, 'Copied'); } catch {} });
+$('#dlcss').addEventListener('click', () => dl(slug() + '.css', AT.exportCss(S.a, S.tone), 'text/css'));
 $('#cpsvg').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(lvSvg()); flash(e.target, 'Copied'); } catch {} });
 $('#dlsvg').addEventListener('click', () => dl(`${slug()}-${S.lvl === 'hover' ? 'card' : S.lvl}.svg`, lvSvg(), 'image/svg+xml'));
 $('#cplink').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(location.origin + '/atmospheres/#' + encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(S.a)))))); flash(e.target, 'Copied'); } catch {} });

@@ -1,12 +1,75 @@
 // Lithos Atmospheres (added 2026-11-21): backgrounds for four levels of a page (page, section, card, card hover).
 // An atmosphere is plain data. This module turns it into CSS (with motion) and static SVG (for Figma).
-import { markSvg, parseMarkId } from '../marks/engine.mjs';
+import { markSvg, parseMarkId, mulberry } from '../marks/engine.mjs';
 
 export const LEVELS = ['page', 'section', 'card'];
 export const BG_TYPES = ['solid', 'linear', 'radial', 'conic', 'mesh'];
 export const PATTERNS = ['none', 'dots', 'grid', 'lines', 'plus', 'waves', 'checks', 'triangles', 'rings', 'scales', 'truchet', 'marks'];
 export const MOTIONS = ['none', 'drift', 'flow', 'shimmer', 'pulse'];
 export const HOVERS = ['none', 'lift', 'glow', 'shift', 'reveal', 'tint'];
+export const FIELDS = ['none', 'burst', 'contours', 'flow', 'echo', 'comets'];
+export const TONES = ['mono', 'some', 'full', 'high'];
+
+// Colour: every atmosphere is designed to read in greyscale; tone brings colour back in.
+const toHsl = ([r, g, b]) => { r /= 255; g /= 255; b /= 255; const mx = Math.max(r, g, b), mn = Math.min(r, g, b), l = (mx + mn) / 2; if (mx === mn) return [0, 0, l]; const d = mx - mn, s = l > 0.5 ? d / (2 - mx - mn) : d / (mx + mn); const h = mx === r ? (g - b) / d + (g < b ? 6 : 0) : mx === g ? (b - r) / d + 2 : (r - g) / d + 4; return [h / 6, s, l]; };
+const fromHsl = ([h, s, l]) => { if (!s) return [l, l, l].map((v) => Math.round(v * 255)); const q = l < 0.5 ? l * (1 + s) : l + s - l * s, p = 2 * l - q, t = (x) => { x = (x + 1) % 1; return x < 1 / 6 ? p + (q - p) * 6 * x : x < 1 / 2 ? q : x < 2 / 3 ? p + (q - p) * (2 / 3 - x) * 6 : p; }; return [t(h + 1 / 3), t(h), t(h - 1 / 3)].map((v) => Math.round(v * 255)); };
+const toHex = (a) => '#' + a.map((v) => Math.max(0, Math.min(255, v)).toString(16).padStart(2, '0')).join('');
+export function toneColor(c, mode) {
+  if (mode === 'full' || !/^#[0-9a-f]{6}$/i.test(c)) return c;
+  const rgb = hex(c);
+  if (mode === 'mono') { const y = Math.round(0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]); return toHex([y, y, y]); }
+  const [h, sat, l] = toHsl(rgb);
+  return toHex(fromHsl([h, mode === 'some' ? sat * 0.38 : Math.min(1, sat * 1.35 + 0.08), l]));
+}
+export function toned(A, mode = 'full') { const walk = (o) => (typeof o === 'string' ? toneColor(o, mode) : Array.isArray(o) ? o.map(walk) : o && typeof o === 'object' ? Object.fromEntries(Object.entries(o).map(([k, v]) => [k, k === 'mark' || k === 'name' ? v : walk(v)])) : o); return walk(A); }
+
+// Fields: large line drawings (not tiles), drawn on a 1600x1000 canvas and cropped to cover the element.
+const FW = 1600, FH = 1000;
+export function fieldSvg(fd) {
+  const r = mulberry((fd.seed || 1) * 7919 + 11), c = fd.color, op = fd.opacity, w = fd.weight, dens = fd.density, cx = (fd.x / 100) * FW, cy = (fd.y / 100) * FH;
+  let g = '', defs = '';
+  if (fd.type === 'burst') {
+    const n = Math.round(90 + dens * 220), R = Math.min(FW, FH);
+    for (const [r1, r2, a] of [[R * 0.24, R * 0.33, 1], [R * 0.35, R * 0.62, 0.6]]) {
+      for (let i = 0; i < n; i++) { const t = (i / n) * Math.PI * 2, j = r(), a1 = r1 + j * 8, a2 = r2 - r() * (r2 - r1) * 0.55; g += `<path d="M${f(cx + a1 * Math.cos(t))} ${f(cy + a1 * Math.sin(t))}L${f(cx + a2 * Math.cos(t))} ${f(cy + a2 * Math.sin(t))}" stroke-opacity="${f(op * a * (0.35 + 0.65 * r()))}"/>`; }
+    }
+    g = `<g stroke="${c}" stroke-width="${f(w)}" stroke-linecap="round">${g}</g>`;
+  } else if (fd.type === 'contours') {
+    const k = Math.round(26 + dens * 46), ph = r() * 6, amp = 60 + r() * 80;
+    for (let i = 0; i < k; i++) {
+      const t = i / k, base = -80 + t * (FH + 160); let d = '';
+      for (let s2 = 0; s2 <= 48; s2++) { const x = -40 + (s2 / 48) * (FW + 80), u = x / FW, y = base + amp * Math.sin(u * 5.2 + ph + t * 2.4) * (0.4 + Math.sin(t * 3 + u * 2) * 0.6) + 40 * Math.sin(u * 13 + t * 9); d += (s2 ? 'L' : 'M') + f(x) + ' ' + f(y); }
+      g += `<path d="${d}" stroke-opacity="${f(op * (0.3 + 0.7 * Math.abs(Math.sin(t * Math.PI))))}"/>`;
+    }
+    g = `<g fill="none" stroke="${c}" stroke-width="${f(w * 1.6)}" stroke-linecap="round" stroke-dasharray="${fd.dotted === false ? 'none' : `0 ${f(w * 4.5)}`}">${g}</g>`;
+  } else if (fd.type === 'flow') {
+    const n = Math.round(40 + dens * 110);
+    for (let i = 0; i < n; i++) {
+      const t = i / n, sp = (r() - 0.5) * 0.08, y0 = FH * (1.15 - t * 0.5 + sp), y3 = FH * (-0.1 + t * 0.45 + sp), bend = 0.45 + 0.3 * t;
+      const d = `M-60 ${f(y0)}C${f(FW * 0.38)} ${f(y0 - FH * 0.15)} ${f(FW * bend)} ${f(FH * (1 - t) * 0.9)} ${f(FW * (0.62 + 0.1 * t))} ${f(FH * 0.5 + (t - 0.5) * 180)}S${f(FW * 0.9)} ${f(y3 + 120)} ${f(FW + 60)} ${f(y3)}`;
+      const lw = w * (0.4 + r() * 2.2), o = op * (0.25 + r() * 0.75);
+      g += `<path d="${d}" stroke-width="${f(lw)}" stroke-opacity="${f(o)}"/>`;
+    }
+    defs += `<filter id="fb" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="${f(3 + w * 2)}"/></filter>`;
+    g = `<g fill="none" stroke="${c}" stroke-linecap="round"><g filter="url(#fb)" opacity=".7">${g}</g>${g}</g>`;
+  } else if (fd.type === 'echo') {
+    const k = Math.round(18 + dens * 34), base = [[-0.55, -0.42], [0.55, -0.42], [0.95, 0], [0, 0.95], [-0.95, 0]], sz = 150;
+    const rp = (pts, rad) => { const n = pts.length; let d = ''; for (let i = 0; i < n; i++) { const v = pts[i], p = pts[(i + n - 1) % n], q = pts[(i + 1) % n], l1 = Math.hypot(p[0] - v[0], p[1] - v[1]), l2 = Math.hypot(q[0] - v[0], q[1] - v[1]), d1 = Math.min(rad, l1 / 2), d2 = Math.min(rad, l2 / 2); d += (i ? 'L' : 'M') + f(v[0] + ((p[0] - v[0]) * d1) / l1) + ' ' + f(v[1] + ((p[1] - v[1]) * d1) / l1) + 'Q' + f(v[0]) + ' ' + f(v[1]) + ' ' + f(v[0] + ((q[0] - v[0]) * d2) / l2) + ' ' + f(v[1] + ((q[1] - v[1]) * d2) / l2); } return d + 'Z'; };
+    for (let i = k; i >= 1; i--) { const s3 = sz + i * (9 + (1 - dens) * 8) * (1 + i * 0.02), pts = base.map(([x, y]) => [cx + x * s3, cy + y * s3]); g += `<path d="${rp(pts, 20 + i * 4)}" stroke-opacity="${f(op * (0.15 + 0.85 * (1 - i / k)))}"/>`; }
+    g = `<g fill="none" stroke="${c}" stroke-width="${f(w)}">${g}</g><path d="${rp(base.map(([x, y]) => [cx + x * sz, cy + y * sz]), 22)}" fill="#000" fill-opacity=".55"/>`;
+  } else if (fd.type === 'comets') {
+    const n = Math.round(3 + dens * 9), ang = -28 - r() * 8, ca = Math.cos((ang * Math.PI) / 180), sa = Math.sin((ang * Math.PI) / 180);
+    for (let i = 0; i < n; i++) {
+      const L = 360 + r() * 700, hx = FW * (0.15 + r() * 0.85), hy = FH * (0.1 + r() * 0.9), sx = hx - ca * L, sy = hy - sa * L, id = 'cg' + i, bendy = r() < 0.35;
+      defs += `<linearGradient id="${id}" gradientUnits="userSpaceOnUse" x1="${f(sx)}" y1="${f(sy)}" x2="${f(hx)}" y2="${f(hy)}"><stop offset="0" stop-color="${c}" stop-opacity="0"/><stop offset="1" stop-color="${c}" stop-opacity="${f(op)}"/></linearGradient>`;
+      const mx = sx + ca * L * 0.45, my = sy + sa * L * 0.45, off = 70, d = bendy ? `M${f(sx)} ${f(sy + off)}L${f(mx - 40)} ${f(my + off)}C${f(mx + 30)} ${f(my + off)} ${f(mx - 20)} ${f(my)} ${f(mx + 50)} ${f(my)}L${f(hx)} ${f(hy)}` : `M${f(sx)} ${f(sy)}L${f(hx)} ${f(hy)}`;
+      const lw = w * (0.8 + r() * 1.6);
+      g += `<path d="${d}" fill="none" stroke="url(#${id})" stroke-width="${f(lw)}" stroke-linecap="round"/><circle cx="${f(hx)}" cy="${f(hy)}" r="${f(lw * 3.2)}" fill="${c}" fill-opacity="${f(op * 0.35)}" filter="url(#cb)"/><circle cx="${f(hx)}" cy="${f(hy)}" r="${f(lw * 1.4)}" fill="${c}" fill-opacity="${f(op)}"/>`;
+    }
+    defs += `<filter id="cb" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="6"/></filter>`;
+  } else return null;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${FW} ${FH}" preserveAspectRatio="xMidYMid slice"><defs>${defs}</defs>${g}</svg>`;
+}
 
 const f = (n) => +(+n).toFixed(2);
 const hex = (h) => { h = (h || '#000').replace('#', ''); if (h.length === 3) h = h.split('').map((c) => c + c).join(''); return [0, 2, 4].map((i) => parseInt(h.slice(i, i + 2), 16) || 0); };
@@ -52,6 +115,7 @@ function bgLayers(bg) {
 function layers(L) {
   const out = [];
   if (L.grain > 0) out.push({ img: uri(grainSvg.replace('<svg ', `<svg opacity="${f(L.grain)}" `)), size: '180px 180px', pos: '0 0' });
+  if (L.field && L.field.type !== 'none') { const sv = fieldSvg(L.field); if (sv) out.push({ img: uri(sv), size: 'cover', pos: '50% 50%', rep: 'no-repeat' }); }
   if (L.shape && L.shape.mark) { const sv = shapeSvg(L.shape); if (sv) out.push({ img: uri(sv.replace('<svg ', `<svg opacity="${f(L.shape.opacity)}" `)), size: `${L.shape.size}% auto`, pos: `${L.shape.x}% ${L.shape.y}%`, rep: 'no-repeat' }); }
   if (L.pat && L.pat.type !== 'none') { const t = tile(L.pat); if (t) out.push({ img: uri(tileSvg(t)), size: `${f(t.w)}px ${f(t.h)}px`, pos: '0 0', pat: t }); }
   return out.concat(bgLayers(L.bg));
@@ -107,14 +171,14 @@ function levelCss(sel, L, name, hover) {
 }
 
 // Full stylesheet. prefix lets the site scope a preview; export uses the default classes.
-export function atmosCss(A, prefix = '.atm') {
-  const parts = [], keys = [];
+export function atmosCss(A0, prefix = '.atm', tone = 'full') {
+  const A = toned(A0, tone), parts = [], keys = [];
   for (const lv of LEVELS) { const r = levelCss(`${prefix}-${lv}`, A[lv], `${prefix.replace(/[^a-z0-9]/gi, '')}-${lv}`, lv === 'card' ? A.hover : null); parts.push(r.css); keys.push(...r.keys); }
   return `${parts.join('\n')}\n${keys.join('\n')}\n@media (prefers-reduced-motion:reduce){${LEVELS.map((l) => `${prefix}-${l},${prefix}-${l}::before,${prefix}-${l}::after`).join(',')}{animation:none!important;transition:none!important}}`;
 }
 
-export function exportCss(A) {
-  return `/* Lithos Atmosphere: ${A.name || 'Custom'}\n   Use .atm-page on <body> or a wrapper, .atm-section on bands, .atm-card on tiles (hover is built in).\n   Motion stops for people who ask their device to reduce motion. */\n${atmosCss(A).replace(/\}/g, '}\n').replace(/\n\n/g, '\n')}`;
+export function exportCss(A, tone = 'full') {
+  return `/* Lithos Atmosphere: ${A.name || 'Custom'}\n   Use .atm-page on <body> or a wrapper, .atm-section on bands, .atm-card on tiles (hover is built in).\n   Motion stops for people who ask their device to reduce motion. */\n${atmosCss(A, '.atm', tone).replace(/\}/g, '}\n').replace(/\n\n/g, '\n')}`;
 }
 
 // Static SVG of one level, for Figma (paste as layers) and download.
@@ -134,6 +198,7 @@ export function levelSvgDoc(L, w, h) {
   }
   const body = [base];
   if (L.pat && L.pat.type !== 'none') { const t = tile(L.pat); if (t) { d.push(`<pattern id="${id}p" width="${f(t.w)}" height="${f(t.h)}" patternUnits="userSpaceOnUse">${t.inner}</pattern>`); body.push(`<rect width="${w}" height="${h}" fill="url(#${id}p)"/>`); } }
+  if (L.field && L.field.type !== 'none') { const sv = fieldSvg(L.field); if (sv) body.push(sv.replace('<svg ', `<svg width="${w}" height="${h}" `).replace(/id="(fb|cb|cg\d+)"/g, `id="${id}$1"`).replace(/url\(#(fb|cb|cg\d+)\)/g, `url(#${id}$1)`)); }
   if (L.shape && L.shape.mark) { const sv = shapeSvg(L.shape); if (sv) { const sz = (w * L.shape.size) / 100; body.push(sv.replace('<svg ', `<svg x="${f((w - sz) * (L.shape.x / 100))}" y="${f((h - sz) * (L.shape.y / 100))}" width="${f(sz)}" height="${f(sz)}" opacity="${L.shape.opacity}" `).replace(/ width="400" height="400"/, '')); } }
   if (L.grain > 0) { d.push(`<filter id="${id}n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 1.4 -0.2"/></filter>`); body.push(`<rect width="${w}" height="${h}" filter="url(#${id}n)" opacity="${f(L.grain)}"/>`); }
   const clip = L.radius ? `<clipPath id="${id}c"><rect width="${w}" height="${h}" rx="${L.radius}"/></clipPath>` : '';
@@ -145,7 +210,9 @@ const P = (type, size, weight, color, opacity, extra = {}) => ({ type, size, wei
 const NOP = { type: 'none', size: 24, weight: 1, color: '#ffffff', opacity: 0.2 };
 const NOS = { mark: null, size: 60, x: 100, y: 50, opacity: 0.1, color: '#ffffff' };
 const M = (type = 'none', speed = 18) => ({ type, speed });
-const lvl = (bg, o = {}) => ({ bg, pat: o.pat || NOP, shape: o.shape || NOS, grain: o.grain ?? 0, motion: o.motion || M(), ...(o.radius != null ? { radius: o.radius } : {}) });
+const NOF = { type: 'none', density: 0.5, weight: 1.2, opacity: 0.5, color: '#ffffff', x: 50, y: 50, seed: 1 };
+const F = (type, o = {}) => ({ ...NOF, type, ...o });
+const lvl = (bg, o = {}) => ({ bg, pat: o.pat || NOP, field: o.field || NOF, shape: o.shape || NOS, grain: o.grain ?? 0, motion: o.motion || M(), ...(o.radius != null ? { radius: o.radius } : {}) });
 const bg = (type, stops, angle = 135) => ({ type, stops, angle });
 
 export const PRESETS = [
@@ -166,5 +233,13 @@ export const PRESETS = [
   { name: 'Ocean', page: lvl(bg('linear', ['#e8f4ff', '#f6fbff'], 180)), section: lvl(bg('linear', ['#003b73', '#0074b7', '#60a3d9'], 160), { pat: P('waves', 40, 1.4, '#ffffff', 0.12), motion: M('drift', 26) }), card: lvl(bg('solid', ['#ffffff']), { radius: 16 }), hover: { type: 'lift', color: '#0074b7', strength: 0.7 } },
   { name: 'Triangles', page: lvl(bg('solid', ['#121212'])), section: lvl(bg('linear', ['#222', '#121212'].map((c) => (c.length === 4 ? '#222222' : c)), 180), { pat: P('triangles', 28, 1, '#ffffff', 0.06), shape: { mark: 'f-gm-1', size: 38, x: 92, y: 40, opacity: 0.12, color: '#ffffff' } }), card: lvl(bg('solid', ['#1a1a1a']), { radius: 14 }), hover: { type: 'reveal', color: '#ffffff', strength: 0.5, pattern: 'triangles' } },
 ];
-PRESETS[1].card = lvl(bg('linear', ['#151b38', '#0e1226'], 160), { radius: 18 });
+PRESETS.unshift(
+  { name: 'Signal', page: lvl(bg('linear', ['#1a1446', '#0f0b2a'], 180)), section: lvl(bg('linear', ['#22217a', '#140f3d'], 180), { field: F('burst', { color: '#b98cff', opacity: 0.75, weight: 1.6, density: 0.6, y: 50 }), motion: M('pulse', 12), grain: 0.05 }), card: lvl(bg('linear', ['#1d1a55', '#16123f'], 160), { radius: 18 }), hover: { type: 'glow', color: '#b98cff', strength: 0.6 } },
+  { name: 'Topography', page: lvl(bg('solid', ['#100c2c'])), section: lvl(bg('linear', ['#241e7a', '#120d38'], 175), { field: F('contours', { color: '#b48cff', opacity: 0.9, weight: 1.7, density: 0.55, seed: 3 }) }), card: lvl(bg('solid', ['#171244']), { field: F('contours', { color: '#a77bff', opacity: 0.25, weight: 0.8, density: 0.3, seed: 8 }), radius: 16 }), hover: { type: 'lift', color: '#a77bff', strength: 0.6 } },
+  { name: 'Warp', page: lvl(bg('solid', ['#07060c'])), section: lvl(bg('linear', ['#3b1466', '#0b0b14', '#0b3a4a'], 100), { field: F('flow', { color: '#d9c7ff', opacity: 0.55, weight: 1.4, density: 0.7, seed: 2 }), grain: 0.06, motion: M('shimmer', 7) }), card: lvl(bg('linear', ['#15121f', '#0e1218'], 135), { radius: 16 }), hover: { type: 'glow', color: '#5fe3ff', strength: 0.7 } },
+  { name: 'Echo', page: lvl(bg('solid', ['#000000'])), section: lvl(bg('radial', ['#1a1a1a', '#000000']), { field: F('echo', { color: '#ffffff', opacity: 0.55, weight: 1, density: 0.65, x: 50, y: 18 }), grain: 0.12 }), card: lvl(bg('solid', ['#0d0d0d']), { radius: 14 }), hover: { type: 'reveal', color: '#ffffff', strength: 0.45, pattern: 'lines' } },
+  { name: 'Comets', page: lvl(bg('linear', ['#121320', '#0b0b12'], 160)), section: lvl(bg('radial', ['#2a2b44', '#0e0f18']), { field: F('comets', { color: '#a9a6ff', opacity: 0.7, weight: 1.6, density: 0.5, seed: 4 }) }), card: lvl(bg('linear', ['#1a1b2b', '#12131d'], 160), { radius: 16 }), hover: { type: 'tint', color: '#a9a6ff', strength: 0.5 } },
+);
+PRESETS.forEach((p) => LEVELS.forEach((l) => { if (!p[l].field) p[l].field = { ...NOF }; }));
+PRESETS[6].card = lvl(bg('linear', ['#151b38', '#0e1226'], 160), { radius: 18 });
 export const clone = (o) => JSON.parse(JSON.stringify(o));
