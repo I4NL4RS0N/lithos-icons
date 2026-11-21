@@ -4390,5 +4390,43 @@
    ]
   },
   "cost": 1.56
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:30:05.732Z",
+  "mode": "add",
+  "id": "ageing-populations",
+  "name": "Ageing Populations",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The body doesn't make sense. The back curves up and over to the top-left, but the head sits apart at the top-right, past where the shoulders would be. The arc reads as a raised arm or a club swing, not a stooped spine, so the figure looks like it's leaning backwards or swinging.; The arm runs straight from the head toward the cane. There's no clear shoulder or torso, so the arm, back and head blur into a tangle of lines.; The cane is a short inverted-L hook that ends level with the feet. ",
+  "scores": {
+   "reads_as": "A stick figure bent over and gripping a short post or cane. It could also be someone swinging a golf club or tugging a lever. You can tell it's a person, but it doesn't clearly say 'elderly' or 'ageing'.",
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "problems": [
+    "The body doesn't make sense. The back curves up and over to the top-left, but the head sits apart at the top-right, past where the shoulders would be. The arc reads as a raised arm or a club swing, not a stooped spine, so the figure looks like it's leaning backwards or swinging.",
+    "The arm runs straight from the head toward the cane. There's no clear shoulder or torso, so the arm, back and head blur into a tangle of lines.",
+    "The cane is a short inverted-L hook that ends level with the feet. It looks like a post or lever, not a walking stick, so the main 'elderly' cue is weak.",
+    "At 16px the outline head ring touches the back arc and the arm, and the top-left becomes a knot. At 20px it's only a little better.",
+    "In the solid version the filled head merges into the thick back arc at 16, 20 and 24px. The result is a black blob in the top-left with no gap between head and body, and the face/neck knockout disappears.",
+    "The icon sits small and leaves empty space. At 16px and 24px it covers about two-thirds of the frame width, and its visual mass is lighter and more spindly than neighbours like accounting-services or ai-capex-buildout. The legs are short, and there's wasted space above and to the left.",
+    "Its stick-figure style (thin limbs, no body mass) matches labour-automation, so the two read as a pair. The set's other people icons (employment, labour-automation) give the figure a filled or solid torso."
+   ],
+   "fixes": [
+    "Redraw the figure facing one way (e.g. right). Put the head circle at the front top, then draw one continuous curved spine from the back of the head down to the hips. The back should hump at the top-left and the head should sit forward and lower than the hump, so the stoop is obvious.",
+    "Run the arm from a shoulder point on the spine (not from the head) down and forward to the cane handle.",
+    "Make the cane a tall vertical stroke from about the hand's height down to the baseline, with a small hooked handle (a J or crook) at the top. Put it in front of the feet so it's clearly a walking stick.",
+    "Leave at least 1.5px of clear space at 24px between the head circle and the spine and arm. At 16px and 20px, draw a simpler figure for those sizes: head dot, a single curved back, one leg pair and the cane, with no separate arm.",
+    "In the solid version, fill the head and leave a clear gap all around it, or cut a knockout neck gap. Consider making the torso a filled curved wedge so the solid has real mass and its footprint matches the outline.",
+    "Scale the composition so the figure spans about 2–22 in both directions at 24px (baseline at 21–22, head near 3). Draw longer legs and a wider stride so it fills the frame as fully as its neighbours.",
+    "Check against labour-automation once redrawn. The stooped back and crook cane should be the defining shapes, so the two figures can't be confused."
+   ]
+  },
+  "cost": 1.65
  }
 ]
