@@ -4105,5 +4105,41 @@
   "mapped": 0,
   "why": "Fitch 2.1.8 ABS collateral type that borrows the card-on-tranches parent.",
   "cost": 0.49
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:03:53.636Z",
+  "mode": "add",
+  "id": "natural-gas-propane",
+  "name": "Propane & Natural Gas",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Too close to the padlock (sanctions-frozen-assets), which sits two cells away on the sheets. Both are a rounded arch on a rounded body with a small mark in the centre, and at 16px the cylinder and the lock are hard to tell apart.; Too narrow for its box. At 24px the body is about 2/3 the width of neighbours like private-credit, pension-funds and motion-pictures, so it looks small and light on the sheet.; The T-shaped valve inside the guard ring is the only cue that says 'gas', and it is t",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "At 32/48 it reads as a gas cylinder or kettlebell. At 16-24 it reads as a padlock or kettlebell, because a rounded arch sits on a rounded body and the valve is lost.",
+   "problems": [
+    "Too close to the padlock (sanctions-frozen-assets), which sits two cells away on the sheets. Both are a rounded arch on a rounded body with a small mark in the centre, and at 16px the cylinder and the lock are hard to tell apart.",
+    "Too narrow for its box. At 24px the body is about 2/3 the width of neighbours like private-credit, pension-funds and motion-pictures, so it looks small and light on the sheet.",
+    "The T-shaped valve inside the guard ring is the only cue that says 'gas', and it is too small. At 16 and 20 outline it becomes a dot or tick. In the 16 and 20 solid versions the knockout around it nearly closes up.",
+    "The solid version does not match the outline's shape. The solid top half is a flat-bottomed dome over a separate rectangular lower body, while the outline is one rounded capsule with a band. The solid looks like a different object (a bell or bag on a box), not a filled version of the outline.",
+    "The 16px solid is a dark blob. The band knockout is the only clear detail, and the guard ring opening and valve are barely visible.",
+    "The foot ring at the base is not drawn as its own part. It merges into the body outline, so the stand that makes an LPG cylinder recognisable is missing at every size."
+   ],
+   "fixes": [
+    "Widen the body so it uses about 18-20px of the 24px width, as wide as nearby icons, and keep the height filling the frame. Redraw 16 and 20 separately with the same fullness.",
+    "Make the shape stop looking like a padlock. Use sloped shoulders that taper into a narrower collar, not a round arch. Make the guard ring a short open collar (two posts with a cross-bar, or a ring with side openings), not a closed shackle-like loop.",
+    "Add a separate foot ring: a short, slightly narrower base with a visible gap or step under the body, so the outline reads as a cylinder on a stand.",
+    "Simplify the valve for small sizes. At 16 and 20, use one clear vertical stem or small knob in the collar opening, at least 2px with a 1.5px gap, or leave it out and rely on the collar and band.",
+    "Redraw the solid as the filled outline silhouette: same capsule body, shoulders, collar and foot. Knock out the band (one or two weld seams) and the collar opening, at least 1.5px wide at 16 and 20.",
+    "Optionally add a second horizontal seam so the body reads as a cylinder (two bands) rather than a lock body with one line."
+   ]
+  },
+  "cost": 1.19
  }
 ]
