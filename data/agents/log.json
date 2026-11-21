@@ -4247,5 +4247,42 @@
    ]
   },
   "cost": 1.47
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:13:07.988Z",
+  "mode": "add",
+  "id": "central-bank-rate-path",
+  "name": "Central Bank Rate Path",
+  "kind": "theme",
+  "picture": "stair-arrow",
+  "moves": "Policy-rate expectations (BoJ tightening, ECB reshuffle, rising global yields) move bond yields, currencies and equity valuations.",
+  "source": "https://www.ft.com/content/c95feb1a-f197-4942-bba8-672087f6be74",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A staircase climbing to the right, ending in an upward block arrow: \"stepped rises\" or rate hikes in increments. You can name the picture (stair-arrow) right away. Nothing in it says \"central bank\" on its own, so the concept depends on the label.",
+   "problems": [
+    "The meaning is generic. A rising stair with an arrow reads as 'step-up / escalation / growth', not specifically a central bank policy path. The path also only goes up, while a rate path can go either way. This is fine for a theme icon, but it uses up the stair-arrow metaphor that a future 'rate hikes' or 'escalation' concept would also want.",
+    "At 16px solid, the three step notches are tiny, so the body reads mostly as a wedge with an arrowhead. It's still readable, but it's the weakest cell.",
+    "The arrowhead is fairly small compared with the hollow column under it at 16 and 20 outline. The arrow is clear, but it doesn't stand out much.",
+    "The top-left quadrant is empty because of the staircase shape, so the icon looks a bit lighter in its box than full-frame neighbours like data-centres or accounting-services. It's within tolerance, since the overall width and height match the set.",
+    "The 'near' preview showed only this icon, not its parent and siblings. I checked distinctness against the full sheets instead. There's no near-duplicate: inflation is a tag with an arrow, us-dollar-strength is a banknote with a trend line, and climate-risk is a thermometer with an arrow."
+   ],
+   "fixes": [
+    "Optional: at 16px solid, make each step slightly deeper (about 1px more rise and run), or cut it to 2 steps so the notches stay distinct.",
+    "Optional: widen the arrowhead by about 1px on each side at 16 and 20 so it clearly stands out from the column.",
+    "Record stair-arrow in data/metaphors.json as the 'rate path / stepped policy' metaphor, so a later rate-hike concept reuses it on purpose or chooses a different picture."
+   ]
+  },
+  "mapped": 0,
+  "why": "Rates drive every asset class.",
+  "cost": 0.71
  }
 ]

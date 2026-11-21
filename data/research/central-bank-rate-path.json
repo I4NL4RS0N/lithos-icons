@@ -1,0 +1,780 @@
+{
+  "concept": "central-bank-rate-path",
+  "query": "dial",
+  "fetched": "2026-11-21T17:03:54.283Z",
+  "topTerms": [
+    [
+      "dial",
+      47
+    ],
+    [
+      "volume",
+      23
+    ],
+    [
+      "knob",
+      21
+    ],
+    [
+      "sound",
+      16
+    ],
+    [
+      "phone",
+      9
+    ],
+    [
+      "telephone",
+      9
+    ],
+    [
+      "call",
+      7
+    ],
+    [
+      "calling",
+      6
+    ],
+    [
+      "off",
+      5
+    ],
+    [
+      "business-and-finance",
+      4
+    ],
+    [
+      "performance",
+      4
+    ],
+    [
+      "audio",
+      4
+    ],
+    [
+      "music",
+      4
+    ],
+    [
+      "low",
+      4
+    ],
+    [
+      "indicator",
+      3
+    ],
+    [
+      "pressure",
+      3
+    ],
+    [
+      "contact",
+      3
+    ],
+    [
+      "phone-call",
+      3
+    ],
+    [
+      "rotary-dial",
+      3
+    ],
+    [
+      "gauge",
+      3
+    ],
+    [
+      "communication",
+      3
+    ],
+    [
+      "min",
+      3
+    ],
+    [
+      "medium",
+      3
+    ],
+    [
+      "dashboard",
+      2
+    ],
+    [
+      "gear",
+      2
+    ],
+    [
+      "productive",
+      2
+    ],
+    [
+      "control",
+      2
+    ],
+    [
+      "dial in",
+      2
+    ],
+    [
+      "call-in",
+      2
+    ],
+    [
+      "calls",
+      2
+    ],
+    [
+      "dial-in",
+      2
+    ],
+    [
+      "keypad",
+      2
+    ],
+    [
+      "clock-dial",
+      2
+    ],
+    [
+      "control-dial",
+      2
+    ],
+    [
+      "phone-dial",
+      2
+    ],
+    [
+      "rotary",
+      2
+    ],
+    [
+      "gesture",
+      2
+    ],
+    [
+      "hand",
+      2
+    ],
+    [
+      "hands-and-gestures",
+      2
+    ],
+    [
+      "touch",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "dial",
+          "tags": [
+            "business-and-finance",
+            "dashboard",
+            "dial",
+            "gear",
+            "performance",
+            "productive"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8517582-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "business-and-finance",
+            "dashboard",
+            "dial",
+            "gear",
+            "performance",
+            "productive"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516782-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "control",
+            "dial",
+            "indicator",
+            "knob",
+            "pressure",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "control",
+            "dial",
+            "indicator",
+            "knob",
+            "pressure",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8503620-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial in",
+          "tags": [
+            "call-in",
+            "calling",
+            "calls",
+            "contact",
+            "dial-in",
+            "phone-call"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8384070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial in",
+          "tags": [
+            "call-in",
+            "calling",
+            "calls",
+            "contact",
+            "dial-in",
+            "phone-call"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8226171-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8076152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "calling",
+            "dial",
+            "keypad",
+            "phone",
+            "rotary-dial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8045216-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dialing",
+          "tags": [
+            "call",
+            "calling",
+            "dialing",
+            "ringing",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7972690-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "gauge",
+            "indicator",
+            "pressure",
+            "temperature"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7870426-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "clock-dial",
+            "control-dial",
+            "dial",
+            "phone-dial",
+            "rotary-dial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7746244-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "clock-dial",
+            "control-dial",
+            "dial",
+            "phone-dial",
+            "rotary-dial"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7746223-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "call",
+            "dial",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7468363-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "communication",
+            "dial",
+            "phone",
+            "technology",
+            "telephone",
+            "vintage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7435750-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "calling",
+            "communication",
+            "dial",
+            "old-phone",
+            "rotary",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7435742-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "calling",
+            "communication",
+            "dial",
+            "phone",
+            "rotary",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7348483-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "call",
+            "dial",
+            "marketing",
+            "phone",
+            "phone-call",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7198726-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "gesture",
+            "hand",
+            "hands-and-gestures",
+            "touch"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7168819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "gesture",
+            "hand",
+            "hands-and-gestures",
+            "touch"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7168668-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "alert",
+            "dial",
+            "error",
+            "gauge",
+            "warning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7103858-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "alert",
+            "dial",
+            "error",
+            "gauge",
+            "warning"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7103824-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "business-and-finance",
+            "complete",
+            "dial",
+            "performance",
+            "task"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6980748-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "business-and-finance",
+            "complete",
+            "dial",
+            "performance",
+            "task"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6980731-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "call",
+            "contact",
+            "dial",
+            "phone",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6880186-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "call",
+            "dial",
+            "phone",
+            "ring",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6870808-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6786858-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "audio",
+            "dial",
+            "knob",
+            "maximum",
+            "music",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6752440-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "audio",
+            "dial",
+            "half-volume",
+            "knob",
+            "music",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6752429-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "audio",
+            "dial",
+            "knob",
+            "maximum",
+            "music",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6752409-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "audio",
+            "dial",
+            "half-volume",
+            "knob",
+            "music",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6752359-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "call",
+            "dial",
+            "essential",
+            "phone",
+            "ui"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6669093-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "phone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6615780-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "call",
+            "dial",
+            "dial-pad",
+            "phone",
+            "phone-number"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6520353-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "min",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386377-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "min",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386369-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "off",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386365-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "low",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386360-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "min",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386353-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "off",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386342-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386339-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "low",
+            "medium",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386334-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "low",
+            "medium",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386311-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "off",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "low",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386296-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386290-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "medium",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386289-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "off",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386274-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "dial",
+            "knob",
+            "off",
+            "sound",
+            "volume"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6386273-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "dial",
+          "tags": [
+            "cell-phone",
+            "dial",
+            "keypad",
+            "pad",
+            "telephone"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6356043-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

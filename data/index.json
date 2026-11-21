@@ -52,6 +52,24 @@
     "since": "0.1.0"
   },
   {
+    "id": "central-bank-rate-path",
+    "name": "Central Bank Rate Path",
+    "kind": "theme",
+    "metaphor": "stair-arrow",
+    "keywords": [
+      "rate path",
+      "rate hikes",
+      "policy rate",
+      "central bank tightening",
+      "BoJ",
+      "ECB"
+    ],
+    "reduction": "One closed silhouette: a staircase block rising left to right in flat steps (the policy rate moving in discrete hikes) whose last, tallest step turns into a broad upward arrow. No interior detail at any size: two steps plus the arrow column everywhere; only the step heights and arrowhead depth are retuned per size so treads and wings keep clear space at 16. Solid: the same silhouette filled.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "climate-risk",
     "name": "Climate Risk",
     "kind": "theme",
