@@ -53,10 +53,22 @@ export function fieldSvg(fd) {
     defs += `<filter id="fb" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="${f(3 + w * 2)}"/></filter>`;
     g = `<g fill="none" stroke="${c}" stroke-linecap="round"><g filter="url(#fb)" opacity=".7">${g}</g>${g}</g>`;
   } else if (fd.type === 'echo') {
-    const k = Math.round(18 + dens * 34), base = [[-0.55, -0.42], [0.55, -0.42], [0.95, 0], [0, 0.95], [-0.95, 0]], sz = 150;
+    const k = Math.round(18 + dens * 34), sh = fd.shape || 'gem', sz = (fd.size || 1) * 150, gap = 9 + (1 - dens) * 8;
     const rp = (pts, rad) => { const n = pts.length; let d = ''; for (let i = 0; i < n; i++) { const v = pts[i], p = pts[(i + n - 1) % n], q = pts[(i + 1) % n], l1 = Math.hypot(p[0] - v[0], p[1] - v[1]), l2 = Math.hypot(q[0] - v[0], q[1] - v[1]), d1 = Math.min(rad, l1 / 2), d2 = Math.min(rad, l2 / 2); d += (i ? 'L' : 'M') + f(v[0] + ((p[0] - v[0]) * d1) / l1) + ' ' + f(v[1] + ((p[1] - v[1]) * d1) / l1) + 'Q' + f(v[0]) + ' ' + f(v[1]) + ' ' + f(v[0] + ((q[0] - v[0]) * d2) / l2) + ' ' + f(v[1] + ((q[1] - v[1]) * d2) / l2); } return d + 'Z'; };
-    for (let i = k; i >= 1; i--) { const s3 = sz + i * (9 + (1 - dens) * 8) * (1 + i * 0.02), pts = base.map(([x, y]) => [cx + x * s3, cy + y * s3]); g += `<path d="${rp(pts, 20 + i * 4)}" stroke-opacity="${f(op * (0.15 + 0.85 * (1 - i / k)))}"/>`; }
-    g = `<g fill="none" stroke="${c}" stroke-width="${f(w)}">${g}</g><path d="${rp(base.map(([x, y]) => [cx + x * sz, cy + y * sz]), 22)}" fill="#000" fill-opacity=".55"/>`;
+    const POLY = { gem: [[-0.55, -0.42], [0.55, -0.42], [0.95, 0], [0, 0.95], [-0.95, 0]], square: [[-0.8, -0.8], [0.8, -0.8], [0.8, 0.8], [-0.8, 0.8]], hex: [0, 1, 2, 3, 4, 5].map((i) => [Math.cos(((i * 60 - 90) * Math.PI) / 180), Math.sin(((i * 60 - 90) * Math.PI) / 180)]), tri: [[0, -1], [0.95, 0.72], [-0.95, 0.72]] };
+    const path = (s3, i) => {
+      if (sh === 'circle') return `M${f(cx - s3)} ${f(cy)}A${f(s3)} ${f(s3)} 0 1 0 ${f(cx + s3)} ${f(cy)}A${f(s3)} ${f(s3)} 0 1 0 ${f(cx - s3)} ${f(cy)}Z`;
+      if (sh === 'arch') { const rr = s3 * 0.7, bot = FH + 40; return `M${f(cx - rr)} ${f(bot)}V${f(cy)}A${f(rr)} ${f(rr)} 0 0 1 ${f(cx + rr)} ${f(cy)}V${f(bot)}`; }
+      if (sh === 'pill') { const hw = s3 * 1.6, hh = s3 * 0.55; return `M${f(cx - hw + hh)} ${f(cy - hh)}H${f(cx + hw - hh)}A${f(hh)} ${f(hh)} 0 0 1 ${f(cx + hw - hh)} ${f(cy + hh)}H${f(cx - hw + hh)}A${f(hh)} ${f(hh)} 0 0 1 ${f(cx - hw + hh)} ${f(cy - hh)}Z`; }
+      return rp(POLY[sh].map(([x, y]) => [cx + x * s3, cy + y * s3]), (sh === 'square' ? 30 : 20) + i * (sh === 'square' ? 6 : 4));
+    };
+    for (let i = k; i >= 1; i--) { const s3 = sz + i * gap * (1 + i * 0.02); g += `<path d="${path(s3, i)}" stroke-opacity="${f(op * (0.15 + 0.85 * (1 - i / k)))}"/>`; }
+    const dash = fd.dotted ? ` stroke-dasharray="0 ${f(w * 4.5)}" stroke-linecap="round"` : '';
+    g = `<g fill="none" stroke="${c}" stroke-width="${f(fd.dotted ? w * 1.6 : w)}"${dash}>${g}</g>`;
+    const core = path(sz, 0), vd = fd.void || 'dark';
+    if (vd === 'dark') g += `<path d="${core}" fill="#000" fill-opacity=".6"/>`;
+    else if (vd === 'glow') { defs += `<radialGradient id="eg"><stop offset="0" stop-color="${c}" stop-opacity="${f(op * 0.9)}"/><stop offset="1" stop-color="${c}" stop-opacity="0"/></radialGradient>`; g += `<circle cx="${f(cx)}" cy="${f(cy)}" r="${f(sz * 1.3)}" fill="url(#eg)"/>`; }
+    else if (vd === 'solid') g += `<path d="${core}" fill="${c}" fill-opacity="${f(op)}"/>`;
   } else if (fd.type === 'comets') {
     const n = Math.round(3 + dens * 9), ang = -28 - r() * 8, ca = Math.cos((ang * Math.PI) / 180), sa = Math.sin((ang * Math.PI) / 180);
     for (let i = 0; i < n; i++) {
@@ -238,8 +250,13 @@ PRESETS.unshift(
   { name: 'Topography', page: lvl(bg('solid', ['#100c2c'])), section: lvl(bg('linear', ['#241e7a', '#120d38'], 175), { field: F('contours', { color: '#b48cff', opacity: 0.9, weight: 1.7, density: 0.55, seed: 3 }) }), card: lvl(bg('solid', ['#171244']), { field: F('contours', { color: '#a77bff', opacity: 0.25, weight: 0.8, density: 0.3, seed: 8 }), radius: 16 }), hover: { type: 'lift', color: '#a77bff', strength: 0.6 } },
   { name: 'Warp', page: lvl(bg('solid', ['#07060c'])), section: lvl(bg('linear', ['#3b1466', '#0b0b14', '#0b3a4a'], 100), { field: F('flow', { color: '#d9c7ff', opacity: 0.55, weight: 1.4, density: 0.7, seed: 2 }), grain: 0.06, motion: M('shimmer', 7) }), card: lvl(bg('linear', ['#15121f', '#0e1218'], 135), { radius: 16 }), hover: { type: 'glow', color: '#5fe3ff', strength: 0.7 } },
   { name: 'Echo', page: lvl(bg('solid', ['#000000'])), section: lvl(bg('radial', ['#1a1a1a', '#000000']), { field: F('echo', { color: '#ffffff', opacity: 0.55, weight: 1, density: 0.65, x: 50, y: 18 }), grain: 0.12 }), card: lvl(bg('solid', ['#0d0d0d']), { radius: 14 }), hover: { type: 'reveal', color: '#ffffff', strength: 0.45, pattern: 'lines' } },
+  { name: 'Echo orbit', page: lvl(bg('solid', ['#050505'])), section: lvl(bg('radial', ['#151515', '#030303']), { field: F('echo', { shape: 'circle', void: 'glow', color: '#ffffff', opacity: 0.5, weight: 1, density: 0.7, x: 50, y: 50, size: 0.8 }), grain: 0.12, motion: M('pulse', 14) }), card: lvl(bg('solid', ['#0e0e0e']), { radius: 20 }), hover: { type: 'glow', color: '#ffffff', strength: 0.35 } },
+  { name: 'Echo arch', page: lvl(bg('solid', ['#efeee9'])), section: lvl(bg('linear', ['#f5f4ef', '#e3e1d9'], 180), { field: F('echo', { shape: 'arch', void: 'none', color: '#1a1a1a', opacity: 0.8, weight: 1, density: 0.6, x: 50, y: 62, size: 1 }), grain: 0.1 }), card: lvl(bg('solid', ['#ffffff']), { radius: 12 }), hover: { type: 'lift', color: '#1a1a1a', strength: 0.5 } },
+  { name: 'Echo hex', page: lvl(bg('solid', ['#0a0b0d'])), section: lvl(bg('linear', ['#17191d', '#0a0b0d'], 160), { field: F('echo', { shape: 'hex', void: 'dark', dotted: true, color: '#e8eaee', opacity: 0.95, weight: 1.3, density: 0.55, x: 78, y: 50, size: 0.9 }), grain: 0.08 }), card: lvl(bg('solid', ['#121418']), { radius: 14 }), hover: { type: 'reveal', color: '#e8eaee', strength: 0.4, pattern: 'dots' } },
+  { name: 'Echo portal', page: lvl(bg('solid', ['#0b0c10'])), section: lvl(bg('radial', ['#1e2230', '#0b0c10']), { field: F('echo', { shape: 'square', void: 'dark', color: '#c9d1e6', opacity: 0.55, weight: 1.1, density: 0.65, x: 82, y: 22, size: 0.85 }), grain: 0.1 }), card: lvl(bg('solid', ['#13151c']), { radius: 16 }), hover: { type: 'glow', color: '#c9d1e6', strength: 0.4 } },
+  { name: 'Echo ripple', page: lvl(bg('solid', ['#f4f4f2'])), section: lvl(bg('solid', ['#ececea']), { field: F('echo', { shape: 'pill', void: 'none', dotted: true, color: '#111111', opacity: 0.9, weight: 1.3, density: 0.6, x: 50, y: 70, size: 0.85 }) }), card: lvl(bg('solid', ['#ffffff']), { radius: 18 }), hover: { type: 'tint', color: '#111111', strength: 0.4 } },
   { name: 'Comets', page: lvl(bg('linear', ['#121320', '#0b0b12'], 160)), section: lvl(bg('radial', ['#2a2b44', '#0e0f18']), { field: F('comets', { color: '#a9a6ff', opacity: 0.7, weight: 1.6, density: 0.5, seed: 4 }) }), card: lvl(bg('linear', ['#1a1b2b', '#12131d'], 160), { radius: 16 }), hover: { type: 'tint', color: '#a9a6ff', strength: 0.5 } },
 );
 PRESETS.forEach((p) => LEVELS.forEach((l) => { if (!p[l].field) p[l].field = { ...NOF }; }));
-PRESETS[6].card = lvl(bg('linear', ['#151b38', '#0e1226'], 160), { radius: 18 });
+PRESETS.find((p) => p.name === 'Aurora').card = lvl(bg('linear', ['#151b38', '#0e1226'], 160), { radius: 18 });
 export const clone = (o) => JSON.parse(JSON.stringify(o));
