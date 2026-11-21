@@ -4353,5 +4353,42 @@
    ]
   },
   "cost": 1.25
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:26:57.526Z",
+  "mode": "add",
+  "id": "tariffs-and-trade",
+  "name": "Tariffs & Trade",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The container doesn't read as a shipping container. It is a short box with 3–4 vertical bars that looks like a fence, radiator or barcode. It has no corrugated proportions, door seam or corner castings, and nothing else in it suggests goods or trade.; The overall picture says 'roadworks barrier'. Next to construction and construction-materials in the set, it would be read as a construction/closure icon.; Solid 16 and 20: the hazard stripes disappear, so the barrier becomes a plain slab si",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A roadworks barrier (striped sawhorse) in front of a fence, crate or radiator. It reads as 'road closed' or construction, not trade or tariffs. The shipping container is not identifiable.",
+   "problems": [
+    "The container doesn't read as a shipping container. It is a short box with 3–4 vertical bars that looks like a fence, radiator or barcode. It has no corrugated proportions, door seam or corner castings, and nothing else in it suggests goods or trade.",
+    "The overall picture says 'roadworks barrier'. Next to construction and construction-materials in the set, it would be read as a construction/closure icon.",
+    "Solid 16 and 20: the hazard stripes disappear, so the barrier becomes a plain slab sitting under a blob with 2–3 tiny slots. It reads as a bench or toaster.",
+    "Solid 24, 32 and 48: the barrier bar is cut into separate slanted shards with no closed outer edge. The footprint looks broken and differs from the outline's continuous rectangular bar.",
+    "Outline 16: the diagonal stripes inside the 2-row barrier are cramped and turn into noise. The barrier's legs and feet are tiny stubs.",
+    "The detail level changes between sizes: the outline has 3 ribs at 16–24 and 4 at 48, and the solid has 2 at 16 and 3–4 above. The top cap line on the container appears only at 32 and 48.",
+    "The container is narrower than the barrier and the feet are small, so the silhouette is top-light and sits as a squat shape. It doesn't fill the frame like the heavier neighbours do at 16 and 20."
+   ],
+   "fixes": [
+    "Make the container unmistakable. Use a wide, low box that spans nearly the full width, with evenly spaced corrugation ribs, a door seam with two vertical lock bars on one end, and small corner blocks. Consider showing it from the side, slightly taller than now.",
+    "Make the barrier a single closed rectangle (rounded joins) across the lower front of the container. At 16 and 20 drop the diagonal stripes and use 1–2 bold diagonal knockouts at most, or one simple horizontal boom bar with a post at each end.",
+    "Solid: keep the barrier bar's outer contour continuous and knock the stripes out as interior slots, so the footprint matches the outline. Knock out the corrugation ribs as clean gaps at least 1.5px wide at 16px.",
+    "Hold the rib count at 3 at every size so the drawing is the same picture at each size, and adjust spacing per size instead of adding or removing elements.",
+    "Strengthen the legs and feet, or remove them and let the barrier rest on a ground line, so the bottom isn't made of small stubs.",
+    "Optionally, check data/metaphors.json for an existing shipping/container metaphor (e.g. the one used by marine-shipping) and reuse it for the container so trade reads instantly."
+   ]
+  },
+  "cost": 1.56
  }
 ]
