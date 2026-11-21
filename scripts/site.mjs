@@ -69,6 +69,11 @@ const marksBundle = (await build({ entryPoints: ['src/marks/browser.mjs'], bundl
 mkdirSync(join(out, 'marks'), { recursive: true });
 cpSync('src/marks/fonts', join(out, 'marks', 'fonts'), { recursive: true });
 writeFileSync(join(out, 'marks', 'index.html'), readFileSync('site/marks.html', 'utf8').replace('/*__BUNDLE__*/', () => marksBundle.replace(/<\/script/gi, '<\\/script')).replace(/__VERSION__/g, pkg.version));
+
+// Atmospheres: a third page, with its own bundle (src/atmos, which reuses the marks engine for shapes).
+const atmosBundle = (await build({ entryPoints: ['src/atmos/browser.mjs'], bundle: true, minify: true, format: 'iife', globalName: 'AT', write: false, platform: 'browser', target: 'es2020' })).outputFiles[0].text;
+mkdirSync(join(out, 'atmospheres'), { recursive: true });
+writeFileSync(join(out, 'atmospheres', 'index.html'), readFileSync('site/atmos.html', 'utf8').replace('/*__BUNDLE__*/', () => atmosBundle.replace(/<\/script/gi, '<\\/script')).replace(/__VERSION__/g, pkg.version));
 writeFileSync(join(out, 'index.json'), JSON.stringify(index, null, 2));
 writeFileSync(join(out, 'standards.json'), JSON.stringify(standards.map((x) => ({ id: x.id, name: x.name, fullName: x.fullName, version: x.version, levels: x.levels, codes: x.codes, credit: x.credit || undefined })), null, 2));
 console.log(`dist/index.html ${(html.length / 1024).toFixed(0)} KB, ${concepts.length} concepts`);

@@ -344,3 +344,6 @@ Rate limiting per IP; no auth for read.
 - Fitch "Developing Americas" and other Fitch regions — source list (held until permission).
 - Themes: show on homepage at launch, or only after the scout has run for a few weeks?
 - Analytics: Netlify Analytics vs Plausible for search logs.
+
+
+**Atmospheres (added 2026-11-21).** A third page at `/atmospheres/`: background recipes for four levels (page, section, card, card hover). Each level mixes a background (solid, linear, radial, conic or mesh, 1–5 colours), geometry (11 tile patterns plus brand marks as a pattern), an optional large brand-mark shape, grain and motion (drift, flow, shimmer, pulse). Hover effects: lift, glow, shift, reveal, tint. Export is CSS (classes `.atm-page`, `.atm-section`, `.atm-card`; motion stops under prefers-reduced-motion) and static SVG per level for Figma. No Figma plugin in v1. Engine: `src/atmos/engine.mjs`; page: `site/atmos.html`.

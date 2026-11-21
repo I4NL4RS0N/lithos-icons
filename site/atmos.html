@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lithos Atmospheres — backgrounds for pages, sections, cards and hover</title>
+<meta name="description" content="Background atmospheres for page, section, card and hover: colour, gradient, mesh, geometry, grain and motion. Customise, then copy CSS or SVG for Figma. Free, MIT.">
+<meta property="og:title" content="Lithos Atmospheres">
+<meta property="og:description" content="Backgrounds for every level of a page, with motion and hover. Export CSS or SVG.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2096%2096%27%3E%3Cdefs%3E%3CclipPath%20id=%27t%27%3E%3Crect%20width=%2796%27%20height=%2796%27%20rx=%2722%27/%3E%3C/clipPath%3E%3C/defs%3E%3Crect%20width=%2796%27%20height=%2796%27%20rx=%2722%27%20fill=%27%2316191b%27/%3E%3Cg%20clip-path=%27url%28%23t%29%27%3E%3Cg%20stroke=%27%23f4f1ec%27%20stroke-width=%277.5%27%20stroke-linecap=%27round%27%20fill=%27none%27%3E%3Cpath%20d=%27M-6%2024Q20%2032%2042%2050%27/%3E%3Cpath%20d=%27M32-6Q35%2022%2042%2050%27/%3E%3Cpath%20d=%27M42%2050Q58%2058%2068%2078%27/%3E%3Cpath%20d=%27M42%2050Q72%2044%20102%2036%27/%3E%3Cpath%20d=%27M68%2078Q88%2080%20102%2074%27/%3E%3Cpath%20d=%27M68%2078Q66%2092%2072%20102%27/%3E%3C/g%3E%3Ccircle%20cx=%2742%27%20cy=%2750%27%20r=%278%27%20fill=%27%23f4f1ec%27/%3E%3Ccircle%20cx=%2768%27%20cy=%2778%27%20r=%276.5%27%20fill=%27%23f4f1ec%27/%3E%3C/g%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #fbfbfa; --fg: #111111; --muted: #74777d; --faint: #a4a7ad; --line: #e8e8e6; --hover: #efefed; --panel: #ffffff;
+    --pill: #f1f1ef; --pill-on: #ffffff; --accent: #111111; --accent-fg: #ffffff; --focus: #2f6feb;
+    --shadow: 0 1px 2px rgba(0,0,0,.06), 0 12px 40px rgba(0,0,0,.12); --chk: #ececea;
+    --font: "Inter", ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  }
+  [data-theme="dark"] {
+    --bg: #0e0f11; --fg: #f3f3f2; --muted: #9a9da3; --faint: #6c6f75; --line: #24262a; --hover: #1c1d20; --panel: #17181b;
+    --pill: #222327; --pill-on: #3a3c41; --accent: #f3f3f2; --accent-fg: #0e0f11; --chk: #26272b;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 40px rgba(0,0,0,.55);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 14px; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  a { color: inherit; text-underline-offset: 3px; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+
+  header.top { position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .hin { display: flex; align-items: center; gap: 24px; padding: 12px 32px; max-width: 1280px; margin: 0 auto; flex-wrap: wrap; }
+  .mark { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; text-decoration: none; flex: none; }
+  .mark .tile { width: 28px; height: 28px; border-radius: 9px; overflow: hidden; background: linear-gradient(158deg, #24282b 0%, #16191b 52%, #0e1112 100%); display: block; flex: none; }
+  .mark .tile svg { display: block; width: 100%; height: 100%; }
+  nav.family { display: flex; gap: 4px; padding: 3px; background: var(--pill); border-radius: 10px; font-size: 13px; }
+  nav.family a, nav.family .soon { padding: 5px 12px; border-radius: 8px; text-decoration: none; color: var(--muted); white-space: nowrap; }
+  nav.family a:hover { color: var(--fg); }
+  nav.family a[aria-current="page"] { background: var(--pill-on); color: var(--fg); font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  nav.family .soon { opacity: .7; cursor: default; }
+  nav.family .soon em { font: 500 10px var(--mono); font-style: normal; margin-left: 6px; padding: 1px 5px; border-radius: 5px; background: var(--hover); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .hr { margin-left: auto; display: flex; gap: 20px; color: var(--muted); font-size: 13px; }
+  .hr a { text-decoration: none; } .hr a:hover { color: var(--fg); }
+
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+  .intro { padding: 44px 0 20px; max-width: 720px; }
+  .intro h1 { margin: 0 0 8px; font-size: clamp(28px, 4vw, 40px); line-height: 1.08; letter-spacing: -0.03em; }
+  .intro p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.5; }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 372px; gap: 36px; align-items: start; padding-bottom: 60px; }
+  .tabs { display: flex; align-items: center; gap: 8px; margin: 14px 0 18px; flex-wrap: wrap; }
+  .tabs .t { border: 0; background: var(--pill); border-radius: 999px; padding: 7px 14px; color: var(--muted); font-size: 13px; }
+  .tabs .t[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); font-weight: 500; }
+  .tabs .more { margin-left: auto; border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 7px 14px; font-size: 13px; }
+  .tabs .more:hover { background: var(--hover); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 10px; }
+  .cell { border: 0; background: transparent; border-radius: 14px; padding: 10px; display: grid; place-items: center; aspect-ratio: 1; position: relative; }
+  .cell:hover { background: var(--hover); }
+  .cell[aria-current="true"] { background: var(--hover); box-shadow: inset 0 0 0 1.5px var(--fg); }
+  .cell svg { width: 100%; height: 100%; display: block; }
+
+  .panel { position: sticky; top: 72px; border: 1px solid var(--line); border-radius: 18px; background: var(--panel); padding: 16px; display: flex; flex-direction: column; gap: 14px; max-height: calc(100vh - 92px); overflow: auto; }
+  .panel > * { flex: none; }
+  .panel .x { display: none; }
+  .pv { border-radius: 14px; aspect-ratio: 1.35; display: grid; place-items: center; background-color: var(--chk); background-image: linear-gradient(45deg, rgba(128,128,128,.14) 25%, transparent 25%, transparent 75%, rgba(128,128,128,.14) 75%), linear-gradient(45deg, rgba(128,128,128,.14) 25%, transparent 25%, transparent 75%, rgba(128,128,128,.14) 75%); background-size: 16px 16px; background-position: 0 0, 8px 8px; }
+  .pvw { position: relative; }
+  .rst { position: absolute; top: 10px; right: 10px; padding: 6px 12px; font-size: 12.5px; background: var(--bg); box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+  .pv svg { width: 168px; height: 168px; display: block; }
+  .pid { display: flex; align-items: center; justify-content: space-between; gap: 8px; font: 12px var(--mono); color: var(--muted); }
+  .pid button { border: 0; background: none; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; padding: 0; font: inherit; }
+  .sec { display: grid; gap: 10px; }
+  .sec h4 { margin: 0; font-size: 11.5px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 0; background: var(--pill); border-radius: 8px; padding: 6px 10px; font: 12px var(--mono); color: var(--muted); }
+  .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+  .btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .btn { border: 1px solid var(--line); background: var(--bg); border-radius: 10px; padding: 9px 12px; font-size: 13px; font-weight: 500; }
+  .btn:hover { background: var(--hover); }
+  .btn.pri { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); grid-column: 1 / -1; }
+  .btn.pri:hover { opacity: .9; }
+  details.ctl { border-top: 1px solid var(--line); padding-top: 12px; }
+  details.ctl > summary { cursor: pointer; font-size: 11.5px; font-weight: 500; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); list-style: none; display: flex; justify-content: space-between; }
+  details.ctl > summary::-webkit-details-marker { display: none; }
+  .ctls { display: grid; gap: 14px; margin-top: 14px; }
+  .field { display: grid; gap: 7px; }
+  .lbl { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--muted); }
+  .lbl output { font: 12px var(--mono); color: var(--fg); }
+  .seg { display: flex; background: var(--pill); border-radius: 9px; padding: 2px; }
+  .seg button { flex: 1; border: 0; background: transparent; border-radius: 7px; height: 28px; font-size: 12.5px; color: var(--muted); }
+  .seg button[aria-pressed="true"] { background: var(--pill-on); color: var(--fg); font-weight: 500; box-shadow: 0 1px 2px rgba(0,0,0,.1); }
+  .row { display: flex; align-items: center; gap: 8px; }
+  .row input[type=color] { width: 34px; height: 30px; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: none; cursor: pointer; flex: none; }
+  .row input[type=text] { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 5px 8px; font: 12.5px var(--mono); }
+  input[type=range] { width: 100%; accent-color: var(--fg); }
+  .presets { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .presets button { border: 1px solid var(--line); background: var(--bg); border-radius: 12px; padding: 6px; aspect-ratio: 1; display: grid; place-items: center; }
+  .presets button:hover { background: var(--hover); }
+  .presets svg { width: 100%; height: 100%; }
+  .sp { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; min-height: max-content; }
+  .sp-h { display: flex; align-items: center; justify-content: space-between; padding: 8px 10px; font-size: 12.5px; color: var(--muted); }
+  .sp-h .seg { width: 120px; } .sp-h .seg button { height: 24px; font-size: 12px; }
+  .sp-row { display: flex; align-items: flex-end; gap: 14px; padding: 14px 12px 8px; overflow-x: auto; background: #ffffff; }
+  .sp[data-bg="dark"] .sp-row { background: #0e0f11; }
+  .sp-row figure { margin: 0; display: grid; justify-items: center; gap: 6px; flex: none; }
+  .sp-row svg { display: block; }
+  .sp-row figcaption { font: 10.5px var(--mono); color: #8a8d93; }
+  [hidden] { display: none !important; }
+  .mini { border: 0; background: var(--pill); border-radius: 7px; padding: 3px 9px; font-size: 12px; color: var(--fg); }
+  .mini:hover { background: var(--hover); }
+  .stops { display: grid; gap: 6px; }
+  .stops .row button { border: 0; background: none; color: var(--muted); width: 26px; height: 26px; border-radius: 6px; flex: none; }
+  .stops .row button:hover:not(:disabled) { background: var(--hover); color: var(--fg); }
+  .stops .row button:disabled { opacity: .3; cursor: default; }
+  .fonts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .fonts button { border: 1px solid var(--line); background: var(--bg); border-radius: 10px; padding: 6px 8px; display: flex; align-items: center; gap: 8px; font-size: 12px; text-align: left; color: var(--fg); }
+  .fonts button:hover { background: var(--hover); }
+  .fonts button[aria-pressed="true"] { box-shadow: inset 0 0 0 1.5px var(--fg); }
+  .fonts svg { width: 26px; height: 26px; flex: none; }
+  .fab { display: none; }
+  footer { border-top: 1px solid var(--line); padding: 20px 0 40px; color: var(--muted); font-size: 12.5px; line-height: 1.6; }
+  footer .wrap { max-width: 900px; margin: 0; }
+
+  @media (max-width: 900px) {
+    .hin { padding: 10px 16px; gap: 12px; } .wrap { padding: 0 16px; } .hr { display: none; }
+    .intro { padding: 28px 0 8px; }
+    .layout { grid-template-columns: 1fr; }
+    .panel { position: fixed; z-index: 40; left: 0; right: 0; bottom: 0; top: auto; max-height: 82vh; border-radius: 20px 20px 0 0; border-bottom: 0; transform: translateY(105%); transition: transform .22s ease; box-shadow: var(--shadow); }
+    .panel.open { transform: none; }
+    .panel .x { display: grid; position: absolute; top: 10px; right: 10px; z-index: 2; width: 30px; height: 30px; border-radius: 50%; border: 0; background: var(--pill); place-items: center; }
+    .pv { aspect-ratio: 1.7; } .pv svg { width: 128px; height: 128px; }
+    .fab { display: flex; position: fixed; z-index: 30; left: 50%; bottom: 16px; transform: translateX(-50%); border: 0; background: var(--accent); color: var(--accent-fg); border-radius: 999px; padding: 11px 20px; font-weight: 500; box-shadow: var(--shadow); gap: 8px; align-items: center; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 6px; }
+    .layout { padding-bottom: 96px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .panel { transition: none; } }
+
+  .layout { grid-template-columns: minmax(0, 1fr) 360px; }
+  .gal { display: grid; grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); gap: 10px; margin: 6px 0 22px; }
+  .gal button { border: 0; padding: 0; border-radius: 14px; overflow: hidden; aspect-ratio: 1.45; position: relative; text-align: left; box-shadow: inset 0 0 0 1px rgba(128,128,128,.18); }
+  .gal button[aria-current="true"] { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3.5px var(--fg); }
+  .gal .gc { position: absolute; right: 10px; bottom: 10px; width: 42%; height: 38%; border-radius: 7px; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+  .gal .gn { position: absolute; left: 10px; top: 9px; font-size: 12px; font-weight: 600; letter-spacing: -.01em; }
+  .stage-h { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 0 0 10px; color: var(--muted); font-size: 12.5px; }
+  #stage { border-radius: 18px; overflow: hidden; padding: 0 0 22px; box-shadow: inset 0 0 0 1px rgba(128,128,128,.2); font-family: var(--font); }
+  #stage [data-lv] { cursor: pointer; outline-offset: -3px; }
+  #stage [data-lv].on { outline: 2px dashed currentColor; }
+  .mk-nav { display: flex; align-items: center; gap: 18px; padding: 14px 22px; font-size: 13px; }
+  .mk-nav b { font-weight: 700; letter-spacing: -.02em; margin-right: auto; display: flex; align-items: center; gap: 8px; } .mk-nav b i { width: 18px; height: 18px; border-radius: 5px; background: currentColor; opacity: .9; display: block; }
+  .mk-nav span { opacity: .7; }
+  .mk-hero { margin: 4px 14px 0; border-radius: 16px; padding: 56px 34px 60px; }
+  .mk-hero small { font: 500 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
+  .mk-hero h2 { margin: 10px 0 10px; font-size: clamp(26px, 3.4vw, 40px); line-height: 1.05; letter-spacing: -.035em; max-width: 520px; }
+  .mk-hero p { margin: 0 0 22px; opacity: .78; max-width: 440px; font-size: 15px; }
+  .mk-hero .cta { display: inline-block; padding: 10px 16px; border-radius: 10px; background: currentColor; font-size: 13px; font-weight: 600; }
+  .mk-hero .cta span { filter: invert(1); color: currentColor; mix-blend-mode: normal; }
+  .mk-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; padding: 18px 14px 0; }
+  .mk-cards article { padding: 20px 18px 22px; min-height: 150px; box-shadow: inset 0 0 0 1px rgba(128,128,128,.16); }
+  .mk-cards h3 { margin: 0 0 6px; font-size: 15px; letter-spacing: -.01em; } .mk-cards p { margin: 0; font-size: 13px; opacity: .72; }
+  .mk-cards .ic { width: 30px; height: 30px; border-radius: 9px; background: currentColor; opacity: .14; margin-bottom: 26px; }
+  .mk-band { margin: 18px 14px 0; border-radius: 16px; padding: 26px 30px; display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 14px; }
+  .mk-band b { font-size: 18px; letter-spacing: -.02em; }
+  .pats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .pats button { border: 1px solid var(--line); background: var(--bg); border-radius: 9px; height: 30px; font-size: 11.5px; color: var(--muted); padding: 0 4px; }
+  .pats button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+  .lvls { display: grid; grid-template-columns: repeat(4, 1fr); }
+  pre.code { margin: 0; max-height: 220px; overflow: auto; background: var(--pill); border-radius: 10px; padding: 10px; font: 11px/1.5 var(--mono); white-space: pre-wrap; word-break: break-all; }
+  .hint { font-size: 12px; color: var(--muted); margin: -4px 0 0; }
+  @media (max-width: 900px) { .mk-cards { grid-template-columns: 1fr 1fr; } .mk-cards article:nth-child(3) { display: none; } .mk-hero { padding: 36px 22px 40px; } }
+</style>
+<style id="atmcss"></style>
+</head>
+<body>
+<header class="top"><div class="hin">
+  <a class="mark" id="home" href="/" aria-label="Lithos Icons, home">
+      <span class="tile" aria-hidden="true"><svg viewBox="0 0 96 96"><g class="seams" fill="none" stroke="#f4f1ec" stroke-width="5.5" stroke-linecap="round"><path d="M-6 24Q20 32 42 50"/><path d="M32-6Q35 22 42 50"/><path d="M42 50Q58 58 68 78"/><path d="M42 50Q72 44 102 36"/><path d="M68 78Q88 80 102 74"/><path d="M68 78Q66 92 72 102"/></g><circle cx="42" cy="50" r="6.5" fill="#f4f1ec"/><circle cx="68" cy="78" r="5" fill="#f4f1ec"/></svg></span>
+      <span class="mk">Lithos</span>
+    </a>
+  <nav class="family" aria-label="Lithos"><a href="/">Icons</a><a href="/marks/">Brand marks</a><a href="/atmospheres/" aria-current="page">Atmospheres</a></nav>
+  <div class="hr"><a href="https://github.com/I4NL4RS0N/lithos-icons">GitHub</a></div>
+</div></header>
+
+<main class="wrap">
+  <section class="intro">
+    <h1>Atmospheres</h1>
+    <p>Backgrounds for every level of a page: the page itself, sections, cards and their hover state. Mix colour, gradients, geometry, grain and motion, then copy the CSS or the SVG for Figma.</p>
+  </section>
+  <div class="layout">
+    <div>
+      <div class="gal" id="gal"></div>
+      <div class="stage-h"><span>Preview. Click a level to edit it, and hover the cards.</span><button class="mini" type="button" id="shuffle">Surprise me</button></div>
+      <div id="stage" class="zatm-page" data-lv="page">
+        <div class="mk-nav"><b><i></i>Northwind</b><span>Product</span><span>Pricing</span><span>Docs</span></div>
+        <section class="mk-hero zatm-section" data-lv="section"><small>New · Spring release</small><h2>Ship calmer, faster interfaces.</h2><p>Every surface on this page uses the atmosphere you are editing. Click any level to change it.</p><span class="cta"><span>Get started →</span></span></section>
+        <div class="mk-cards">
+          <article class="zatm-card" data-lv="card"><div class="ic"></div><h3>Analytics</h3><p>Real-time insight into every metric that matters.</p></article>
+          <article class="zatm-card" data-lv="card"><div class="ic"></div><h3>Automation</h3><p>Hand repetitive work to rules that never sleep.</p></article>
+          <article class="zatm-card" data-lv="card"><div class="ic"></div><h3>Security</h3><p>Encryption and access controls, on by default.</p></article>
+        </div>
+        <section class="mk-band zatm-section" data-lv="section"><b>Ready when you are.</b><span>Sections reuse the same recipe.</span></section>
+      </div>
+    </div>
+    <aside class="panel" id="panel" aria-label="Customise and export">
+      <button class="x" type="button" id="close" aria-label="Close"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 2l8 8M10 2l-8 8"/></svg></button>
+      <div class="sec"><h4>Level</h4><div class="seg lvls" id="lvls"><button type="button" data-v="page">Page</button><button type="button" data-v="section">Section</button><button type="button" data-v="card">Card</button><button type="button" data-v="hover">Hover</button></div></div>
+      <div class="ctls" id="ctls"></div>
+      <div class="sec" style="border-top:1px solid var(--line);padding-top:14px">
+        <h4>Export</h4>
+        <div class="btns">
+          <button class="btn pri" type="button" id="cpcss">Copy CSS</button>
+          <button class="btn" type="button" id="dlcss">Download CSS</button>
+          <button class="btn" type="button" id="cplink">Copy link</button>
+          <button class="btn" type="button" id="cpsvg">Copy SVG for Figma</button>
+          <button class="btn" type="button" id="dlsvg">Download SVG</button>
+        </div>
+        <p class="hint" id="svghint">SVG exports the selected level as a still. Paste it into Figma to get editable layers. Motion and hover live in the CSS.</p>
+        <details class="ctl"><summary>View CSS</summary><pre class="code" id="code"></pre></details>
+      </div>
+    </aside>
+  </div>
+</main>
+<button class="fab" type="button" id="fab" aria-label="Customise and export">Customise &amp; export</button>
+<footer><div class="wrap">Atmospheres and code are MIT. CSS uses standard gradients and inline SVG, so there are no image files to host. Part of Lithos Icons · v__VERSION__</div></footer>
+<script>/*__BUNDLE__*/</script>
+<script>
+const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const theme = () => { let a = 'system'; try { a = (JSON.parse(localStorage.getItem('li:settings3') || '{}')).appearance || 'system'; } catch {} document.documentElement.dataset.theme = a === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : a; };
+theme(); matchMedia('(prefers-color-scheme: dark)').addEventListener('change', theme);
+const KEY = 'li:atmos1', SIZES = { page: [1440, 900], section: [1440, 640], card: [400, 260] };
+let S = { p: 0, lvl: 'section', a: AT.clone(AT.PRESETS[0]) };
+try { const h = location.hash.slice(1); if (h) S.a = JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(h))))), S.p = -1; else { const j = JSON.parse(localStorage.getItem(KEY) || 'null'); if (j && j.a) S = { ...S, ...j }; } } catch {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
+const get = (o, p) => p.split('.').reduce((a, k) => a && a[k], o);
+const set = (o, p, v) => { const ks = p.split('.'), last = ks.pop(); ks.reduce((a, k) => a[k], o)[last] = v; };
+const cur = () => (S.lvl === 'hover' ? S.a.hover : S.a[S.lvl]);
+const NAMES = { solid: 'Solid', linear: 'Linear', radial: 'Radial', conic: 'Conic', mesh: 'Mesh', none: 'None', drift: 'Drift', flow: 'Flow', shimmer: 'Shimmer', pulse: 'Pulse', lift: 'Lift', glow: 'Glow', shift: 'Shift', reveal: 'Reveal', tint: 'Tint' };
+const cap = (s) => NAMES[s] || s[0].toUpperCase() + s.slice(1);
+
+function gallery() {
+  $('#gal').innerHTML = AT.PRESETS.map((p, i) => `<button type="button" data-i="${i}" aria-current="${S.p === i}" style="${AT.levelStyle(p.section).replace(/"/g, '&quot;')}" aria-label="${p.name}"><span class="gn">${p.name}</span><span class="gc" style="${AT.levelStyle(p.card).replace(/"/g, '&quot;')}"></span></button>`).join('');
+}
+function apply() {
+  $('#atmcss').textContent = AT.atmosCss(S.a, '.zatm');
+  $('#code').textContent = AT.exportCss(S.a);
+  $$('#stage [data-lv]').forEach((e) => e.classList.toggle('on', e.dataset.lv === (S.lvl === 'hover' ? 'card' : S.lvl)));
+  $$('#gal button').forEach((b) => b.setAttribute('aria-current', String(+b.dataset.i === S.p)));
+  save();
+}
+const seg = (path, opts, val) => `<div class="seg" data-path="${path}">${opts.map((o) => `<button type="button" data-v="${o}" aria-pressed="${o === val}">${cap(o)}</button>`).join('')}</div>`;
+const range = (path, label, min, max, step, val, unit = '') => `<div class="field"><div class="lbl"><span>${label}</span><output>${val}${unit}</output></div><input type="range" data-path="${path}" data-unit="${unit}" min="${min}" max="${max}" step="${step}" value="${val}" aria-label="${label}"></div>`;
+const color = (path, label, val) => `<div class="field"><div class="lbl">${label}</div><div class="row"><input type="color" data-path="${path}" value="${val}" aria-label="${label}"><input type="text" data-path="${path}" value="${val}" maxlength="9" spellcheck="false" aria-label="${label} hex"></div></div>`;
+function controls() {
+  const L = cur(); let h = '';
+  $$('#lvls button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.v === S.lvl)));
+  if (S.lvl === 'hover') {
+    h += `<div class="field"><div class="lbl">Hover effect on cards</div>${seg('type', AT.HOVERS, L.type)}</div>`;
+    if (L.type !== 'none') { h += color('color', 'Hover colour', L.color) + range('strength', 'Strength', 0, 1, 0.05, L.strength); }
+    if (L.type === 'reveal') h += `<div class="field"><div class="lbl">Reveal pattern</div><div class="pats" data-path="pattern">${AT.PATTERNS.filter((p) => p !== 'none').map((p) => `<button type="button" data-v="${p}" aria-pressed="${(L.pattern || 'dots') === p}">${cap(p)}</button>`).join('')}</div></div>`;
+    h += `<p class="hint">Hover a card in the preview to see it.</p>`;
+  } else {
+    h += `<div class="field"><div class="lbl">Background</div>${seg('bg.type', AT.BG_TYPES, L.bg.type)}</div>`;
+    const stops = L.bg.type === 'solid' ? [L.bg.stops[0]] : L.bg.stops;
+    h += `<div class="field"><div class="lbl"><span>${L.bg.type === 'solid' ? 'Colour' : 'Colours'}</span>${L.bg.type === 'solid' ? '' : `<button type="button" class="mini" id="addstop" ${L.bg.stops.length >= 5 ? 'disabled' : ''}>+ Add colour</button>`}</div><div class="stops">${stops.map((c, i) => `<div class="row"><input type="color" data-path="bg.stops.${i}" value="${c}" aria-label="Colour ${i + 1}"><input type="text" data-path="bg.stops.${i}" value="${c}" maxlength="9" spellcheck="false" aria-label="Colour ${i + 1} hex">${L.bg.type === 'solid' ? '' : `<button type="button" data-rm="${i}" ${L.bg.stops.length <= 2 ? 'disabled' : ''} aria-label="Remove colour">×</button>`}</div>`).join('')}</div></div>`;
+    if (L.bg.type === 'linear' || L.bg.type === 'conic') h += range('bg.angle', 'Angle', 0, 360, 5, L.bg.angle, '°');
+    h += `<div class="field"><div class="lbl">Geometry</div><div class="pats" data-path="pat.type">${AT.PATTERNS.map((p) => `<button type="button" data-v="${p}" aria-pressed="${L.pat.type === p}">${cap(p)}</button>`).join('')}</div></div>`;
+    if (L.pat.type !== 'none') {
+      h += range('pat.size', 'Scale', 4, 120, 1, L.pat.size, 'px') + range('pat.weight', 'Weight', 0.5, 8, 0.1, L.pat.weight) + range('pat.opacity', 'Opacity', 0.02, 1, 0.01, L.pat.opacity) + color('pat.color', 'Geometry colour', L.pat.color);
+      if (L.pat.type === 'marks') h += `<div class="field"><button type="button" class="btn" id="patmark">Shuffle mark</button></div>`;
+    }
+    h += `<div class="field"><div class="lbl"><span>Large shape</span><span><button type="button" class="mini" id="shape">${L.shape.mark ? 'Shuffle' : 'Add a mark'}</button>${L.shape.mark ? ' <button type="button" class="mini" id="noshape">Remove</button>' : ''}</span></div></div>`;
+    if (L.shape.mark) h += range('shape.size', 'Shape size', 10, 140, 1, L.shape.size, '%') + range('shape.x', 'Across', 0, 100, 1, L.shape.x, '%') + range('shape.y', 'Down', 0, 100, 1, L.shape.y, '%') + range('shape.opacity', 'Shape opacity', 0.02, 1, 0.01, L.shape.opacity) + color('shape.color', 'Shape colour', L.shape.color);
+    h += range('grain', 'Grain', 0, 0.3, 0.01, L.grain);
+    h += `<div class="field"><div class="lbl">Motion</div>${seg('motion.type', AT.MOTIONS, L.motion.type)}</div>`;
+    if (L.motion.type !== 'none') h += range('motion.speed', 'Cycle', 3, 60, 1, L.motion.speed, 's');
+    if (S.lvl === 'card') h += range('radius', 'Corner radius', 0, 32, 1, L.radius ?? 16, 'px');
+  }
+  $('#ctls').innerHTML = h;
+  $('#svghint').hidden = false;
+}
+function render() { controls(); apply(); }
+const isColor = (v) => /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(v);
+$('#ctls').addEventListener('input', (e) => {
+  const t = e.target, p = t.dataset.path; if (!p) return;
+  if (t.type === 'range') { set(cur(), p, +t.value); t.previousElementSibling.querySelector('output').textContent = t.value + (t.dataset.unit || ''); }
+  else if (t.type === 'color' || t.type === 'text') { if (!isColor(t.value)) return; set(cur(), p, t.value); const sib = t.type === 'color' ? t.nextElementSibling : t.previousElementSibling; if (sib) sib.value = t.value; }
+  S.p = -1; apply();
+});
+$('#ctls').addEventListener('click', (e) => {
+  const b = e.target.closest('button'); if (!b) return; const L = cur();
+  const g = b.closest('[data-path]');
+  if (g && b.dataset.v) { set(L, g.dataset.path, b.dataset.v); if (g.dataset.path === 'pat.type' && b.dataset.v === 'marks' && !L.pat.mark) L.pat.mark = MKS(); if (g.dataset.path === 'pattern' && b.dataset.v === 'marks' && !L.mark) L.mark = MKS(); }
+  else if (b.id === 'addstop') L.bg.stops.push(L.bg.stops[L.bg.stops.length - 1]);
+  else if (b.dataset.rm) L.bg.stops.splice(+b.dataset.rm, 1);
+  else if (b.id === 'shape') { L.shape.mark = MKS(); L.shape.color = AT.inkFor(L); }
+  else if (b.id === 'noshape') L.shape.mark = null;
+  else if (b.id === 'patmark') L.pat.mark = MKS();
+  else return;
+  S.p = -1; render();
+});
+const MKS = () => AT.MARKS[Math.floor(Math.random() * AT.MARKS.length)].split('.')[0];
+$('#lvls').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) { S.lvl = b.dataset.v; render(); } });
+$('#stage').addEventListener('click', (e) => { const el = e.target.closest('[data-lv]'); if (el) { S.lvl = el.dataset.lv; render(); if (innerWidth <= 900) $('#panel').classList.add('open'); } });
+$('#gal').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) { S.p = +b.dataset.i; S.a = AT.clone(AT.PRESETS[S.p]); render(); } });
+$('#shuffle').addEventListener('click', () => {
+  const r = () => AT.PRESETS[Math.floor(Math.random() * AT.PRESETS.length)];
+  S.a = { name: 'Remix', page: AT.clone(r().page), section: AT.clone(r().section), card: AT.clone(r().card), hover: AT.clone(r().hover) };
+  const pal = AT.clone(r().section.bg.stops); S.a.section.bg.stops = pal; S.p = -1; render();
+});
+const flash = (b, t) => { const o = b.textContent; b.textContent = t; setTimeout(() => (b.textContent = o), 1200); };
+const dl = (name, text, type) => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); };
+const slug = () => (S.a.name || 'atmosphere').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const lvSvg = () => { const lv = S.lvl === 'hover' ? 'card' : S.lvl, [w, h] = SIZES[lv]; return AT.levelSvgDoc(S.a[lv], w, h); };
+$('#cpcss').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(AT.exportCss(S.a)); flash(e.target, 'Copied'); } catch {} });
+$('#dlcss').addEventListener('click', () => dl(slug() + '.css', AT.exportCss(S.a), 'text/css'));
+$('#cpsvg').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(lvSvg()); flash(e.target, 'Copied'); } catch {} });
+$('#dlsvg').addEventListener('click', () => dl(`${slug()}-${S.lvl === 'hover' ? 'card' : S.lvl}.svg`, lvSvg(), 'image/svg+xml'));
+$('#cplink').addEventListener('click', async (e) => { try { await navigator.clipboard.writeText(location.origin + '/atmospheres/#' + encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(S.a)))))); flash(e.target, 'Copied'); } catch {} });
+$('#fab').addEventListener('click', () => $('#panel').classList.add('open'));
+$('#close').addEventListener('click', () => $('#panel').classList.remove('open'));
+gallery(); render();
+</script>
+</body>
+</html>
