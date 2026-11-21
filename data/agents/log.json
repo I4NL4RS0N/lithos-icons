@@ -4319,5 +4319,39 @@
    ]
   },
   "cost": 1.42
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:25:42.468Z",
+  "mode": "add",
+  "id": "european-power-prices",
+  "name": "European Power Prices",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: At 16 and 20px the lightning bolt is dropped, so it's a plain bulb plus an up arrow. That is the standard 'idea / innovation growth' cliché, not power prices. The size most often used tells the wrong story.; The composition copies climate-risk (outline object on the left, separate tall vertical up arrow on the right). The two sit next to each other in row 1 of both sheets and look like a pair of template variants. That makes it a near-duplicate in structure.; The arrow is a plain vertical",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A light bulb next to an up arrow. With no lightning bolt (16/20px) it reads as 'ideas / innovation growing' rather than electricity prices. At 24px and up the bolt helps, and it reads as 'electricity cost rising'.",
+   "problems": [
+    "At 16 and 20px the lightning bolt is dropped, so it's a plain bulb plus an up arrow. That is the standard 'idea / innovation growth' cliché, not power prices. The size most often used tells the wrong story.",
+    "The composition copies climate-risk (outline object on the left, separate tall vertical up arrow on the right). The two sit next to each other in row 1 of both sheets and look like a pair of template variants. That makes it a near-duplicate in structure.",
+    "The arrow is a plain vertical arrow, not the 'uptrend' named in the brief. Nothing ties it to a price or market reading. It just means 'up'.",
+    "The bulb and arrow are two unrelated items placed side by side. The bulb is squeezed into about 60% of the width, so at 16px its glass is very small and the base lines nearly merge.",
+    "Using a bulb for 'power' overlaps semantically with electric-utilities (a bolt) and utilities (a drop with a bolt). Nothing makes it about wholesale power prices specifically."
+   ],
+   "fixes": [
+    "Keep an electricity cue at every size. At 16/20px use a solid bolt as the main shape (or keep a simple bolt knockout in the bulb) instead of a bare bulb.",
+    "Swap the vertical arrow for a real uptrend: a zig-zag price line rising to an arrowhead (the us-dollar-strength / inflation trend arrow from metaphors.json). Put it across or above the main shape so it isn't a separate column like climate-risk.",
+    "Possible composition: a large bolt (or a plug from electrical-equipment) filling the frame, with a small rising trend arrow in the top-right corner. This separates it from climate-risk and from electric-utilities, which has the bolt alone.",
+    "If the bulb stays, make it the full-height main shape and overlay the trend line on the lower right, so it no longer reads as 'bulb + arrow = idea growth'.",
+    "Re-render 16/20px and check that the bulb base lines stay separate and the bolt knockout stays open in solid."
+   ]
+  },
+  "cost": 1.25
  }
 ]
