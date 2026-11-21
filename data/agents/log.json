@@ -4284,5 +4284,40 @@
   "mapped": 0,
   "why": "Rates drive every asset class.",
   "cost": 0.71
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:24:52.832Z",
+  "mode": "add",
+  "id": "digital-assets",
+  "name": "Digital Assets",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The 'pixel' idea is carried only by 2–3 small notches on the right edge. At 16/20/24px they read as gear teeth or a broken rim rather than pixels, so the shape looks like a cog fragment or a damaged coin.; The centre square hole makes it read as a traditional Chinese/East Asian cash coin (a physical, historical object), which is the opposite of 'digital'.; Solid version: the disc fills almost completely and only a tiny square knockout is left. At 16px the knockout is about 2px and the sha",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A round disc with a square hole whose right half becomes small steps. It looks like a traditional square-holed cash coin, half a gear or cog, or a 'D'/bitten shape. It does not clearly say 'digital coin'.",
+   "problems": [
+    "The 'pixel' idea is carried only by 2–3 small notches on the right edge. At 16/20/24px they read as gear teeth or a broken rim rather than pixels, so the shape looks like a cog fragment or a damaged coin.",
+    "The centre square hole makes it read as a traditional Chinese/East Asian cash coin (a physical, historical object), which is the opposite of 'digital'.",
+    "Solid version: the disc fills almost completely and only a tiny square knockout is left. At 16px the knockout is about 2px and the shape becomes a dark blob, like a Pac-Man or a speech-bubble stub.",
+    "Footprint: the stepped right side pulls the silhouette in, so the icon looks lopsided and narrower than its neighbours in the 24px sheet (e.g. data-centres, employment-activities). At 16px the outline also sits visibly small in its cell.",
+    "The outline at 16px is crowded: the square inside sits close to the rim and the step notches merge into a lumpy edge.",
+    "The near-siblings preview shows only the icon itself, so no parent/sibling comparison was possible there. It was checked against the full sheet instead."
+   ],
+   "fixes": [
+    "Make the pixel idea clear and deliberate: draw the whole coin rim as a stepped pixel circle (an octagon-like stair outline using 2px grid steps at 24px) instead of half smooth and half stepped. Or keep a smooth coin and break one edge into 2–3 separate square 'pixels' that float off it, so it reads as dissolving into data.",
+    "Drop the square centre hole. It signals an ancient cash coin. Use an inner pixel ring or a simple inner rim line, or a small 2×2 pixel cluster, and avoid any currency glyph.",
+    "Fill the frame: the coin silhouette should span the full live area (about 20px at 24px) on both axes, the same as round neighbours like equity-volatility and sovereigns. Redraw the 16 and 20px sizes on their own grids so the stepped edge snaps to whole pixels and fills the box.",
+    "Solid: knock out a clearly visible inner rim (at least 1.5px gap at 24px, 1px at 16px). Any floating pixels should stay as separate solid squares, so the solid keeps the same footprint and stays readable.",
+    "At 16px, simplify to at most 2 steps per quadrant, or use a fully pixelated octagonal coin with a single inner square ring, so no notch is smaller than 1px."
+   ]
+  },
+  "cost": 1.42
  }
 ]
