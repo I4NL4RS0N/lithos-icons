@@ -4213,5 +4213,39 @@
    ]
   },
   "cost": 2.05
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:11:37.030Z",
+  "mode": "add",
+  "id": "physician-groups",
+  "name": "Physician Groups",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The only thing that makes the figures doctors is a tiny V collar and a small stethoscope ring on the front figure's torso. At 16 and 20px outline these shrink into a scribble inside the torso, so the icon reads as a generic 'users' glyph, not physicians.; At 16 and 20px outline the collar strokes and stethoscope ring nearly touch the shoulder outline and each other. The torso looks clogged and the strokes are not evenly spaced.; In the solid version the stethoscope is a hairline knockout ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Two people, a generic 'team / users' glyph. The doctor cues (V-neck coat collar and stethoscope dot) only register at 32 and 48px. At 16 to 24px it reads as plain 'group of people'.",
+   "problems": [
+    "The only thing that makes the figures doctors is a tiny V collar and a small stethoscope ring on the front figure's torso. At 16 and 20px outline these shrink into a scribble inside the torso, so the icon reads as a generic 'users' glyph, not physicians.",
+    "At 16 and 20px outline the collar strokes and stethoscope ring nearly touch the shoulder outline and each other. The torso looks clogged and the strokes are not evenly spaced.",
+    "In the solid version the stethoscope is a hairline knockout plus a dot. At 16 to 24px it almost disappears, and the collar notch is the only visible cut.",
+    "In the solid version at 16 and 20px the back figure's body merges with the front figure's shoulder because there is no clear separating gap. The two people collapse into one blob with two heads.",
+    "The doctor detail is level with the bottom of the head and drawn smaller than the set's usual detail scale. Siblings such as Veterinary and Hospitals use one bold, clear medical cue (a cross), but this icon uses fine interior detail that does not survive small sizes."
+   ],
+   "fixes": [
+    "Make the medical cue bold and simple. Replace the thin collar and stethoscope ring with one clear sign that survives 16px: a plus/cross knockout on the front figure's chest (matching the cross used in Veterinary, Hospitals and Health Care), or a bold stethoscope that hangs outside the body as a U around the neck with a clear chest-piece circle.",
+    "For 16 and 20px, draw a simplified version: drop the V collar entirely and keep only the single bold cue, with at least 1.5px clearance from the shoulder outline.",
+    "In the solid version, cut a clear gap (at least 1px at 16px, 1.5px at 24px) between the back figure and the front figure's shoulder and head, so the two people stay separate at every size.",
+    "In the solid version, make the cue a solid knockout (a plus or a filled stethoscope disc with a gap ring), not a hairline. Check it at 16px against the dark background.",
+    "Keep the current two-figure layout and frame fill, which match the set well, and re-render all sizes to confirm the cue reads at 16px."
+   ]
+  },
+  "cost": 1.47
  }
 ]
