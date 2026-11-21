@@ -4176,5 +4176,42 @@
    ]
   },
   "cost": 1.91
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:09:27.105Z",
+  "mode": "add",
+  "id": "school-districts",
+  "name": "School Districts",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Generic bus, not a school bus: it has the same window row and two wheels as any city bus. Nothing marks it as a school bus (no stop-sign arm, no long hood, no school cue), so without the label it reads as 'transit' or 'bus', not School Districts.; At 16px outline, the window row with 3–4 tiny panes, the body's bottom line and the two wheel rings all crowd into about 6px of height. The windows clog into a grey band and the wheels collide with the body line.; At 16 and 20px solid, the windo",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A generic side-view bus or tram (could be a city bus or a coach). Nothing marks it as a school bus, and nothing points to school districts or municipal finance.",
+   "problems": [
+    "Generic bus, not a school bus: it has the same window row and two wheels as any city bus. Nothing marks it as a school bus (no stop-sign arm, no long hood, no school cue), so without the label it reads as 'transit' or 'bus', not School Districts.",
+    "At 16px outline, the window row with 3–4 tiny panes, the body's bottom line and the two wheel rings all crowd into about 6px of height. The windows clog into a grey band and the wheels collide with the body line.",
+    "At 16 and 20px solid, the window knockouts are a few pixels wide and close up. The wheels merge with the filled body into one blob along the bottom edge, so the shape reads as a lump with spots.",
+    "The wheel arches in the outline are odd: the bottom edge of the body bows up and around each wheel, which looks like a wobble at 24/32 and like broken joins at 16.",
+    "Footprint: the bus is a wide, low box, so it uses only about 55–60% of the frame height. At 16px it sits noticeably smaller than the parent (municipal-bonds) and its neighbours in the row. The 16 drawing is visibly smaller than the 20/24 in its slot, which suggests it wasn't re-fitted to the 16 grid.",
+    "The right end has a single vertical line (door/front?) that isn't legible. It's unclear which way the bus faces, which weakens the silhouette.",
+    "Close in style to transportation (truck) and rail. Not a duplicate, but it adds a third vehicle with no finance or municipal tie to the parent."
+   ],
+   "fixes": [
+    "Make it clearly a school bus: draw the classic long-hood front (a short lower hood step at one end), and/or add a small stop-sign paddle sticking out from the side. Keep it shape-only, with no letters.",
+    "Make the bus taller relative to its length (around 20×16 live area on the 24 grid) or use a three-quarter-front view so it fills the frame height like its neighbours. Re-fit 16 and 20 to their own grids so the bus uses the full live area.",
+    "At 16px, cut the windows to 2 panes (or one long window band) and drop the separate wheel arches. Let the wheels sit as solid dots or short half-circles under a straight bottom edge, with at least 1px clear between parts.",
+    "Solid: open the window knockouts to at least 2px at 16/20. Separate the wheels from the body with a 1px knockout gap (or knock a hub hole into them) so the bottom edge doesn't merge into one blob.",
+    "Remove the bowed wheel-arch line in the outline. Use a straight body baseline with the wheels drawn as separate circles, cleanly clipped where they overlap.",
+    "Make the front clear: put the windshield/hood at one end, with the door shown as a clear panel rather than a single stray stroke."
+   ]
+  },
+  "cost": 2.05
  }
 ]
