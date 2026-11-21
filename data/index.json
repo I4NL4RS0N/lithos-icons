@@ -240,6 +240,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "marine-loans",
+    "name": "Marine Loans",
+    "kind": "industry",
+    "parent": "abs",
+    "metaphor": "sailboat",
+    "keywords": [
+      "boat loans",
+      "marine finance",
+      "yacht finance",
+      "recreational vessel ABS"
+    ],
+    "reduction": "Every size: a sailboat — a tall mast, a large mainsail on the right and a smaller jib on the left, each kept clear of the mast, over a wide hull with a raked bow. 16 and 20: plain sails and hull. 24+: a slight curve on the mainsail edge. 32+: two portholes in the hull (dots in outline, knockouts in solid). Solid: sails and hull filled, mast stays a stroke.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "medical-devices",
     "name": "Medical Devices",
     "kind": "industry",

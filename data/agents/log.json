@@ -4072,5 +4072,38 @@
    "The footprint is narrow and portrait. At 16px it sits visibly smaller in its box than transportation, marine-shipping and postal-courier, and its width is only about 55–60% of the frame at every size."
   ],
   "cost": 0.09
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T16:56:01.197Z",
+  "mode": "add",
+  "id": "marine-loans",
+  "name": "Marine Loans",
+  "kind": "industry",
+  "picture": "sailboat",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A sailboat (mast with two triangular sails above a trapezoid hull). It's a clear boat or yacht picture. \"Marine loans\" comes from the boat plus the ABS context, which is fine for an industry leaf.",
+   "problems": [
+    "Outline at 16px: the inner gap in the small left sail is only about 1px, so it nearly fills in. It stays readable but is close to the limit.",
+    "Solid at 16px: the sails and hull merge into a dense shape, and the only gaps are the mast slit and the hull line. It still reads as a boat, but the gap between sail and hull is thin.",
+    "The portholes only appear at 32 and 48. That's an acceptable change in detail across sizes, but the hull at 16, 20 and 24 is plain and a little generic.",
+    "In the sheet it sits slightly narrower than its square-ish neighbours, because the sails taper. This is acceptable and comparable to other triangular icons like paper-forest-products."
+   ],
+   "fixes": [
+    "Optional: at 16px, widen the left sail by about 0.5px or drop its inner gap in favour of a solid stroke wedge, so it doesn't nearly fill in.",
+    "Optional: at 16px solid, widen the gap between the sail bottoms and the hull to a full 1px at pixel scale."
+   ]
+  },
+  "mapped": 0,
+  "why": "Fitch 2.1.8 ABS collateral type that borrows the card-on-tranches parent.",
+  "cost": 0.49
  }
 ]

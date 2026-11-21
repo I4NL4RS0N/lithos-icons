@@ -1,0 +1,787 @@
+{
+  "concept": "marine-loans",
+  "query": "sailboat",
+  "fetched": "2026-11-21T16:50:37.266Z",
+  "topTerms": [
+    [
+      "sailboat",
+      50
+    ],
+    [
+      "sailing",
+      25
+    ],
+    [
+      "boat",
+      22
+    ],
+    [
+      "yacht",
+      20
+    ],
+    [
+      "sea",
+      14
+    ],
+    [
+      "ocean",
+      13
+    ],
+    [
+      "travel",
+      13
+    ],
+    [
+      "marine",
+      11
+    ],
+    [
+      "transport",
+      7
+    ],
+    [
+      "ship",
+      7
+    ],
+    [
+      "wind",
+      5
+    ],
+    [
+      "sailing-boat",
+      5
+    ],
+    [
+      "vessel",
+      4
+    ],
+    [
+      "nautical",
+      3
+    ],
+    [
+      "voyage",
+      3
+    ],
+    [
+      "fishing",
+      3
+    ],
+    [
+      "transportation",
+      2
+    ],
+    [
+      "vehicle",
+      2
+    ],
+    [
+      "vacation",
+      2
+    ],
+    [
+      "water",
+      2
+    ],
+    [
+      "waves",
+      2
+    ],
+    [
+      "cruise",
+      2
+    ],
+    [
+      "mast",
+      2
+    ],
+    [
+      "sail",
+      2
+    ],
+    [
+      "sport",
+      2
+    ],
+    [
+      "watercraft",
+      2
+    ],
+    [
+      "beach",
+      2
+    ],
+    [
+      "water-transport",
+      2
+    ],
+    [
+      "navigation",
+      2
+    ],
+    [
+      "barcelona-coast",
+      1
+    ],
+    [
+      "barcelona-sailing",
+      1
+    ],
+    [
+      "marine-tourism",
+      1
+    ],
+    [
+      "mediterranean-sea",
+      1
+    ],
+    [
+      "commercial",
+      1
+    ],
+    [
+      "modern",
+      1
+    ],
+    [
+      "marine-travel",
+      1
+    ],
+    [
+      "summer",
+      1
+    ],
+    [
+      "cargo",
+      1
+    ],
+    [
+      "truck",
+      1
+    ],
+    [
+      "maritime",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "sailboat",
+          "tags": [
+            "barcelona-coast",
+            "barcelona-sailing",
+            "marine-tourism",
+            "mediterranean-sea",
+            "sailboat",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8515286-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "commercial",
+            "modern",
+            "sailboat",
+            "transport",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513645-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "ocean",
+            "sailboat",
+            "sailing",
+            "wind",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "marine-travel",
+            "ocean",
+            "sailboat",
+            "sailing",
+            "summer",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495849-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "cargo",
+            "sailboat",
+            "transport",
+            "transportation",
+            "truck",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471823-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "marine",
+            "sailboat",
+            "sailing",
+            "sea",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466636-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "nautical",
+            "sailboat",
+            "sailing",
+            "travel",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454548-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "nautical",
+            "sailboat",
+            "sailing",
+            "travel",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454514-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "ocean",
+            "sailboat",
+            "sailing",
+            "travel",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8453412-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "ocean",
+            "sailboat",
+            "sailing",
+            "travel",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450059-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "ship",
+            "waves",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8442925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "ship",
+            "waves",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8442908-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sea",
+            "wind"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8440852-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "nautical",
+            "ocean",
+            "sailboat",
+            "sailing"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8434969-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "maritime",
+            "ocean-cruise",
+            "sailboat",
+            "sailing",
+            "summer-travel",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8429017-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "sailboat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8426237-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "ocean",
+            "sailboat",
+            "sailing",
+            "travel",
+            "wind"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8416503-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "cruise",
+            "leisure",
+            "sailboat",
+            "shipping",
+            "travel",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8410999-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "mast",
+            "ocean",
+            "sailboat",
+            "sailing",
+            "voyage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8401051-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boating",
+            "ocean",
+            "sail",
+            "sailboat",
+            "vessel",
+            "voyage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8400976-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "mast",
+            "ocean",
+            "sailboat",
+            "sailing",
+            "wind",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8393388-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "marine",
+            "sail",
+            "sailboat",
+            "sailing-boat",
+            "sailing-ship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8383037-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "fishing",
+            "marine",
+            "sailboat",
+            "sailing",
+            "sea",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8376778-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sailing",
+            "sport",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364551-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sailing",
+            "sport",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8364483-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "ocean",
+            "sailboat",
+            "sailing",
+            "sea",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8342106-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sailing",
+            "sea",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8311919-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "marine",
+            "sailboat",
+            "sailing-boat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8263181-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "marine",
+            "sailboat",
+            "sailing-boat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8263175-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "marine",
+            "sailboat",
+            "sailing-boat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8263156-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "marine",
+            "sailboat",
+            "sailing-boat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8263150-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "fishing",
+            "marine",
+            "sailboat",
+            "sea",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8249683-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "fishing",
+            "marine",
+            "sailboat",
+            "sea",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8249663-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "sailboat",
+            "ship",
+            "transport",
+            "watercraft",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8248070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "beach",
+            "boat",
+            "sailboat",
+            "sailing",
+            "sea",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8246676-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "beach",
+            "boat",
+            "sailboat",
+            "sailing",
+            "sea",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8246663-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "ocean",
+            "sailboat",
+            "sailboat",
+            "voyage",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8240987-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "cruise",
+            "sailboat",
+            "sailor",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8240957-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sailing-vessel",
+            "ship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8235063-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "adventure",
+            "career-path",
+            "exploration",
+            "journey",
+            "progress",
+            "sailboat"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8230739-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sailing",
+            "sea",
+            "water-transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8229480-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sailboat",
+            "sailing",
+            "sea",
+            "water-transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8229455-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "sailboat",
+            "sea",
+            "ship",
+            "transport",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8227110-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "sailboat",
+            "sea",
+            "ship",
+            "transport",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8227068-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "sailing",
+            "sea",
+            "wind",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8221309-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "boat",
+            "sailboat",
+            "ship",
+            "watercraft",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8220837-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "ocean",
+            "sailboat",
+            "sailing",
+            "vessel",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8205172-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "marine",
+            "sailboat",
+            "sailing",
+            "vessel",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8205168-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "marine",
+            "navigation",
+            "sailboat",
+            "sailing",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8205151-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "sailboat",
+          "tags": [
+            "navigation",
+            "ocean",
+            "sailboat",
+            "vessel",
+            "yacht"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8205147-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
