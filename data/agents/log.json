@@ -4428,5 +4428,386 @@
    ]
   },
   "cost": 1.65
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:08.646Z",
+  "mode": "review",
+  "id": "hospitals",
+  "name": "Hospitals",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A rounded rectangle with a plus sign: an 'add' button, a first-aid card or a medical document. It doesn't read as a building. Only at 24px and up does the small door hint at 'building'.",
+   "problems": [
+    "There's no building silhouette: no roofline, no wings, no windows, no ground line. It's a plain upright rounded box, so it reads as a UI 'add' button, a medical chart or a first-aid card, not a hospital.",
+    "The 16px and 20px versions drop the door completely, leaving a box with a plus. That's generic and unrecognisable as a hospital, and the icon's structure changes between sizes.",
+    "At 16/20/24 the icon sits small and narrow in its frame (about 60% width) compared with the paw, rocking chair, stethoscope and DNA neighbours, which fill the box more fully.",
+    "In the solid version at 16/20 the plus is a tiny speck in a black tile, and the 24px solid door is a lone dot-like square. The knockouts are too small to read.",
+    "The plus and door are cramped together at 24px, so the door looks like a stray tick mark.",
+    "It's too close to other tall rounded-rectangle icons in the set (reits, loans, employment-activities, cmbs, accounting-services) and to the parent health-care's medical cross. It adds nothing beyond 'cross in a box'."
+   ],
+   "fixes": [
+    "Redraw it as a real building: a taller central block with two lower side wings (or a stepped roofline), a ground line like government/banks/municipal-bonds, and a plus on the central block above the entrance.",
+    "Keep the door (or the ground line plus door) at every size, including 16 and 20. Simplify the windows, not the defining parts. At 16px, use a central block with the plus and lower wings, and drop the window detail.",
+    "Widen the footprint to about 20×20 of the 24 grid (and the matching share at the other sizes) so it fills the frame like its neighbours.",
+    "Solid: fill the building. Knock out a plus at least 2px wide at 16px and a clearly sized door. Optionally knock out simple window slots in the wings. Match the outline's footprint exactly.",
+    "Leave at least 2px clear space between the plus and the door at 24px so neither crowds the other.",
+    "Check the result against reits, corporate-finance and government in the sheet so the stepped-wing silhouette plus cross stays distinct."
+   ]
+  },
+  "problems": [
+   "There's no building silhouette: no roofline, no wings, no windows, no ground line. It's a plain upright rounded box, so it reads as a UI 'add' button, a medical chart or a first-aid card, not a hospital.",
+   "The 16px and 20px versions drop the door completely, leaving a box with a plus. That's generic and unrecognisable as a hospital, and the icon's structure changes between sizes.",
+   "At 16/20/24 the icon sits small and narrow in its frame (about 60% width) compared with the paw, rocking chair, stethoscope and DNA neighbours, which fill the box more fully.",
+   "In the solid version at 16/20 the plus is a tiny speck in a black tile, and the 24px solid door is a lone dot-like square. The knockouts are too small to read."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:10.781Z",
+  "mode": "review",
+  "id": "capital-markets",
+  "name": "Capital Markets",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 5,
+   "verdict": "fail",
+   "reads_as": "Three candlesticks from a price chart (trading / stock market). The picture is clear at 32 and 48px.",
+   "problems": [
+    "The icon sits narrow in its box. The three candles span only about 65–70% of the frame width, while neighbours like banks, insurance and consumer-finance fill about 85–90%. On the 24px and 16px sheets it looks like a thin vertical sliver next to its siblings.",
+    "At 16px the outline bodies are about 2px wide inside 1.5px strokes. Their counters nearly close up, so the outline and solid versions look almost the same and the candles read as beaded lines instead of open boxes.",
+    "At 16 and 20px the gaps between candles are about 1–1.5px, so the three candles merge into one busy cluster with a weaker silhouette than the rest of the set.",
+    "The wicks are short compared with the bodies at small sizes. At 16px the wick stubs are under 2px and break up into dots instead of clean lines.",
+    "All three candles are the same width and similar height, and the vertical stagger between them is small. That makes the group look like a vertical texture rather than a deliberate chart pattern."
+   ],
+   "fixes": [
+    "Widen the composition to fill the 24px live area (about x=3 to x=21). Widen each candle body to about 5px at 24px and space the candles evenly so the outer bodies reach the edges of the live area, matching the horizontal footprint of banks and insurance.",
+    "Redraw 16px and 20px separately: either drop to two candles at 16px, or keep three with bodies at least 4px wide so the outline counters stay at least 1px open. Keep at least 2px of clear space between candles.",
+    "At 16 and 20px, make the wicks at least 2px long above and below each body, snapped to the pixel grid, so they read as lines instead of dots.",
+    "Increase the vertical stagger, for example low, high, mid with clearly different body heights, so the group reads as a price movement and the silhouette is more distinctive.",
+    "Check the solid version after widening: the bodies should keep the same outer footprint as the outline, and the wicks should stay separate from the bodies at 16px."
+   ]
+  },
+  "problems": [
+   "The icon sits narrow in its box. The three candles span only about 65–70% of the frame width, while neighbours like banks, insurance and consumer-finance fill about 85–90%. On the 24px and 16px sheets it looks like a thin vertical sliver next to its siblings.",
+   "At 16px the outline bodies are about 2px wide inside 1.5px strokes. Their counters nearly close up, so the outline and solid versions look almost the same and the candles read as beaded lines instead of open boxes.",
+   "At 16 and 20px the gaps between candles are about 1–1.5px, so the three candles merge into one busy cluster with a weaker silhouette than the rest of the set.",
+   "The wicks are short compared with the bodies at small sizes. At 16px the wick stubs are under 2px and break up into dots instead of clean lines."
+  ],
+  "cost": 0.12
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:10.943Z",
+  "mode": "review",
+  "id": "asset-management",
+  "name": "Asset Management",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "An exploded pie chart: a circle with a quarter slice pulled out to the top right. People would name the picture right away, and a finance professional would link it to portfolio allocation and asset management.",
+   "problems": [
+    "At 16px the outline gap between the pulled-out slice and the main circle is barely 1px. It is still open, but it is the tightest spot in the icon and could fill in on some renderers.",
+    "The slice sits a little outside the circle's outline at the top right, so the shape is slightly off-centre. At 16px the circle body also looks a touch smaller than neighbours like consumer-finance and capital-markets. Both are minor and within tolerance.",
+    "The idea is generic: exploded pie charts are a common picture, and Lucide's pie-chart uses the same layout. The drawing here (a squared slice with a rounded outer corner) is different enough that it doesn't count as a copy, but the icon is not very original.",
+    "This is the only pie chart in the set, so there is no risk of mixing it up with another icon. Keep that in mind for later concepts like portfolio or allocation, which should use a different picture."
+   ],
+   "fixes": [
+    "Optional: at 16px, open the slice gap to a full 1.5px, either by moving the slice 0.25–0.5px further out along the diagonal or by trimming the circle's notch, so the knockout survives anti-aliasing.",
+    "Optional: at 16px and 20px, centre the combined circle-and-slice shape optically in the frame so the circle body fills the frame as fully as its neighbours."
+   ]
+  },
+  "problems": [],
+  "cost": 0.12
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:11.692Z",
+  "mode": "review",
+  "id": "consumer-finance",
+  "name": "Consumer Finance",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "At 24px and above it reads as a payment or credit card. At 16px the outline reads as a plain rectangle with one line across it, like a window or tab. The 16px solid reads as a black pill with a white dash, like a 'minus' or 'remove' badge.",
+   "problems": [
+    "At 16px the outline drops the short number line, leaving a bare rectangle with one band. That is too generic to read as a card.",
+    "At 16px the solid is a filled pill with a single thin knockout, so it looks like a minus/remove button. In sheet-16 it is almost the same as the 16px 'energy' solid and the 'covered-bonds' minus mark.",
+    "The solid's magnetic stripe is a thin hairline knockout instead of a band. Across 20–48px the solid reads as 'card with two lines' rather than a card with a stripe, which weakens the metaphor compared with the outline.",
+    "Footprint: the card is a short landscape rectangle that fills only about 60% of the frame height. Beside Banks, Insurance, Funds and Asset Management (and in sheet-24) it sits visibly smaller and lighter, most of all at 16/20px.",
+    "Near-duplicate of 'abs', which uses the same rounded card with a stripe band (on base lines). At 16px the two differ only by abs's base lines, and the shared card silhouette creates confusion in the same row family.",
+    "The design is the stock rounded rectangle with a stripe and a short line. It is very close to the common Lucide/Feather 'credit-card' glyph, with no Lithos-specific treatment."
+   ],
+   "fixes": [
+    "Make the card larger: use the full 20–22px live width on the 24 master and raise the height to about 15–16px so its optical weight matches Banks/Funds. Redraw each size to the same fill ratio.",
+    "Give it a feature that tells it apart from 'abs' and from a generic card, for example a chip (small rounded square) at left-middle, or a second card offset behind (a stacked-cards consumer-wallet look). Keep 'abs' as the only plain card-on-lines.",
+    "At 16px, keep the stripe plus one clear secondary feature (a chip block or the short line), drawn on whole pixels, so it never reduces to a rectangle with one band.",
+    "In the solid, knock out a real stripe band (about 2px at 24, scaled per size) across the full width, plus a chip or short-line knockout. Don't use a single hairline. Check at 16 that it no longer reads as a minus pill.",
+    "After the redraw, compare it with the 16px 'abs', 'energy' and 'covered-bonds' icons in sheet-16 to confirm the silhouettes are distinct."
+   ]
+  },
+  "problems": [
+   "At 16px the outline drops the short number line, leaving a bare rectangle with one band. That is too generic to read as a card.",
+   "At 16px the solid is a filled pill with a single thin knockout, so it looks like a minus/remove button. In sheet-16 it is almost the same as the 16px 'energy' solid and the 'covered-bonds' minus mark.",
+   "The solid's magnetic stripe is a thin hairline knockout instead of a band. Across 20–48px the solid reads as 'card with two lines' rather than a card with a stripe, which weakens the metaphor compared with the outline.",
+   "Footprint: the card is a short landscape rectangle that fills only about 60% of the frame height. Beside Banks, Insurance, Funds and Asset Management (and in sheet-24) it sits visibly smaller and lighter, most of all at 16/20px."
+  ],
+  "cost": 0.12
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:31.196Z",
+  "mode": "review",
+  "id": "paper-forest-products",
+  "name": "Paper & Forest Products",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48px it reads as a conifer or Christmas tree, which hints at forestry. At 16/20px it is a plain triangle on a stub: a warning or delta sign, or a sailboat mast. It is not a tree.",
+   "problems": [
+    "At 16px and 20px the tiers are dropped and the icon is a bare triangle with a short stem. It reads as a warning or delta triangle, not a conifer, so the picture is lost at the sizes people use most.",
+    "The silhouette changes between sizes: one triangle at 16/20, two tiers at 24/32/48. It looks like two different icons rather than one shape tuned per size.",
+    "It sits small in its box. At 16, 20 and 24px it covers roughly half the width that the brick, box and cart neighbours cover. The 24px outline is especially narrow and pinched, about 60% of the frame width.",
+    "The 24px outline tiers are cramped. The notches between tiers nearly close up, so the middle looks busy and the stroke counters are tiny.",
+    "The solid 16/20 is a small filled wedge with a hair-thin trunk, so it looks much lighter than the solid box, bricks and cart. The trunk nearly disappears at 16px.",
+    "The trunk is a single thin line that fades at small sizes, especially in solid. It needs a visible trunk block to read as a tree.",
+    "Nothing points to paper. The forest metaphor alone is acceptable, but it puts more pressure on the tree being unmistakable at every size."
+   ],
+   "fixes": [
+    "Keep at least two stepped tiers at every size, including 16px (e.g. an upper tier about 6px wide and a lower tier about 11–12px wide on the 16 grid), so the conifer outline never collapses to a single triangle.",
+    "Widen the tree so it fills the live area like its siblings: lower tier about 18–20px wide on the 24 master, apex near the top padding, trunk reaching the bottom padding. Redraw 16/20/32/48 to the same proportions on each grid.",
+    "On 24px, use 2 tiers instead of 3 (or bigger tier offsets) so the notches between tiers stay open with at least one stroke-width of clear space.",
+    "Make the trunk a short rectangle about 2px wide on 16/20 (3px on 24+) rather than a hairline, in both styles, so it survives at small sizes.",
+    "Solid: fill to the same footprint as the outline. Optionally add a thin knockout gap between tiers so the tiered conifer silhouette stays clear at 16/20.",
+    "Optional: to signal paper, put a small rolled-sheet or log-end detail beside the tree at 32/48 only, if a metaphor exists in data/metaphors.json. The tree must still work alone at small sizes."
+   ]
+  },
+  "problems": [
+   "At 16px and 20px the tiers are dropped and the icon is a bare triangle with a short stem. It reads as a warning or delta triangle, not a conifer, so the picture is lost at the sizes people use most.",
+   "The silhouette changes between sizes: one triangle at 16/20, two tiers at 24/32/48. It looks like two different icons rather than one shape tuned per size.",
+   "It sits small in its box. At 16, 20 and 24px it covers roughly half the width that the brick, box and cart neighbours cover. The 24px outline is especially narrow and pinched, about 60% of the frame width.",
+   "The 24px outline tiers are cramped. The notches between tiers nearly close up, so the middle looks busy and the stroke counters are tiny."
+  ],
+  "cost": 0.07
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:32.796Z",
+  "mode": "review",
+  "id": "packaging",
+  "name": "Packaging",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "An 'archive' file box (lidded storage box with a handle slot), the familiar Archive action from email and file UIs, not a shipping or packaging box.",
+   "problems": [
+    "Reads as the common UI 'Archive' glyph (a wide lid strip over a box with a short horizontal handle slot). It is almost the same as the Feather/Lucide 'archive' icon, so it looks copied from a known icon and points users to 'archive/records', not the packaging industry.",
+    "Nothing says packaging: no flaps, no tape seam, no 3D carton, nothing about wrapping or shipping.",
+    "16px outline: the handle slot is gone, so the shape is just a small generic box with a lid line. Solid 16px is also a plain slab with no knockout, so the two styles don't carry the same detail at that size.",
+    "Footprint: the box is a short, wide rectangle that sits low in the frame. At 16/20/24 it looks noticeably smaller and lighter than the flask, tree, pickaxe and brick-wall siblings, which fill the full height.",
+    "Too close to other rectangular box or container icons in the set (the waste-management bin's lid treatment, the wholesale-trade door slot), and the lid band plus slot is reused from generic UI icons."
+   ],
+   "fixes": [
+    "Redraw as a shipping carton: a 3/4 isometric box (top face as a rhombus with two open or closed flaps, front and side faces) or a front-facing carton with a centre tape seam running down the lid and front. Drop the archive handle slot completely.",
+    "Or add a packaging cue such as a strip of tape across the top, a 'this way up' double-arrow mark drawn as a shape (no text), or folded flaps sticking up above the box. Any of these separates it from 'archive'.",
+    "Make the box taller and use the full 24px live area (about 2–22 vertically, like the flask and tree) so its visual weight matches its neighbours. Redraw 16 and 20 by hand with the main cue (seam or flaps) kept and simplified, not dropped.",
+    "Solid: knock out the tape seam or flap fold lines as clear gaps of at least 1px at 16px, so the solid isn't a featureless slab, and keep the silhouette the same as the outline.",
+    "Check the result against waste-management, wholesale-trade and materials so it doesn't become another lidded rectangle."
+   ]
+  },
+  "problems": [
+   "Reads as the common UI 'Archive' glyph (a wide lid strip over a box with a short horizontal handle slot). It is almost the same as the Feather/Lucide 'archive' icon, so it looks copied from a known icon and points users to 'archive/records', not the packaging industry.",
+   "Nothing says packaging: no flaps, no tape seam, no 3D carton, nothing about wrapping or shipping.",
+   "16px outline: the handle slot is gone, so the shape is just a small generic box with a lid line. Solid 16px is also a plain slab with no knockout, so the two styles don't carry the same detail at that size.",
+   "Footprint: the box is a short, wide rectangle that sits low in the frame. At 16/20/24 it looks noticeably smaller and lighter than the flask, tree, pickaxe and brick-wall siblings, which fill the full height."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:33.653Z",
+  "mode": "review",
+  "id": "media",
+  "name": "Media",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A video play button. The solid version reads first as the YouTube logo: a wide, heavily rounded filled rectangle with a white play triangle knocked out of the centre.",
+   "problems": [
+    "Brand-mark resemblance: the solid version at every size is almost the YouTube logo (wide pill-like rounded rectangle, centred knocked-out play triangle). This is a fail condition on its own.",
+    "The outline version is the generic 'play-video' glyph from many stock icon sets. It shows a 'video player' more than a 'media industry', and it does not show the intended 'play-screen' idea because there is no screen cue such as a stand or bezel.",
+    "Footprint: the rectangle is short and wide (about 20×14 at 24px), so it fills much less of the box vertically than neighbours like packaging, publishing or postal-courier. At 16px and 20px the icon looks small and squat next to its siblings.",
+    "The corner radius on the frame is larger and softer than other rectangular icons in the set (software, consumer-finance, postal-courier), which pushes it further toward the logo look.",
+    "Shape distinctness: an empty landscape rounded rectangle is close to postal-courier, consumer-finance and abs, and only the small triangle tells them apart at 16px.",
+    "The play triangle is small relative to the frame at 16px and 20px, so the inner symbol is the weakest part of the icon at the sizes where it matters most."
+   ],
+   "fixes": [
+    "Turn it into a real screen: draw a monitor/TV with a short neck and a base line under it (as in information-technology but with a play triangle), or add a 4:3 bezel with a stand. This matches 'play-screen' and breaks the YouTube silhouette.",
+    "Use a taller aspect ratio (about 20×15 screen plus a stand, so about 20×19 overall at 24px) so the icon fills the height of the box like its siblings at all sizes.",
+    "Reduce the corner radius to the set's standard (match software / information-technology) so it reads as a device and not a pill-shaped logo.",
+    "In the solid version, avoid a plain filled rounded rect with a knocked-out triangle. Keep the stand outside the fill and consider a bezel ring (filled screen inset from the outline frame) so it reads as a device.",
+    "Make the play triangle larger relative to the screen at 16px and 20px (about 5–6px tall at 16px), optically centred, with its own 16px drawing.",
+    "Optional, for a more distinct media-industry picture: add a small broadcast or film cue (for example a clapper is already motion-pictures, so don't use that). Check it against data/metaphors.json first."
+   ]
+  },
+  "problems": [
+   "Brand-mark resemblance: the solid version at every size is almost the YouTube logo (wide pill-like rounded rectangle, centred knocked-out play triangle). This is a fail condition on its own.",
+   "The outline version is the generic 'play-video' glyph from many stock icon sets. It shows a 'video player' more than a 'media industry', and it does not show the intended 'play-screen' idea because there is no screen cue such as a stand or bezel.",
+   "Footprint: the rectangle is short and wide (about 20×14 at 24px), so it fills much less of the box vertically than neighbours like packaging, publishing or postal-courier. At 16px and 20px the icon looks small and squat next to its siblings.",
+   "The corner radius on the frame is larger and softer than other rectangular icons in the set (software, consumer-finance, postal-courier), which pushes it further toward the logo look."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:37.403Z",
+  "mode": "review",
+  "id": "sovereigns",
+  "name": "Sovereigns",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Outline: a generic web/language globe (circle, one meridian ellipse, equator), the kind used for 'website', 'language' or 'global'. Solid: a filled disc with an ellipse and a short bar knocked out, which reads as the Greek letter theta (θ) or phi in a circle, not as a globe.",
+   "problems": [
+    "The solid version reads as a letter. The knocked-out vertical ellipse plus a short horizontal bar that stops before the rim forms a θ glyph inside a disc. That is letter-like, which is not allowed, and it no longer looks like a globe.",
+    "In the solid, the equator knockout ends with round caps just past the meridian ellipse instead of running out to the rim, so the disc never reads as a sphere divided into parts. At 16 and 20px the ellipse counter is a narrow slit and the bar is a dot-like stub, so the knockouts clog.",
+    "The outline is close to the stock globe icon found in common open-source sets (circle, a single meridian ellipse, a straight equator). It is generic to the point of looking borrowed, and it carries no sovereign or state meaning.",
+    "For the concept: a bare globe says 'global / international / web', not 'sovereign debt / governments'. A finance professional would name it 'global' or 'international equities' before 'sovereigns'. The set already uses 'government' (a capitol), so nothing ties this globe to sovereign issuers.",
+    "At 16px the outline meridian ellipse sits very close to the outer circle on each side, so the three vertical strokes start to merge into a dense band."
+   ],
+   "fixes": [
+    "Rebuild the solid as a real globe silhouette. Keep the filled disc, but knock out a full-width equator and at least one latitude line that run edge to edge (open at the rim, or stopped one stroke-width from it on both sides evenly), plus a meridian. That way it can't collapse into θ. Or use two meridian arcs instead of one closed ellipse.",
+    "Add a sovereign cue drawn from data/metaphors.json if one exists (e.g. a small flag on a pole planted on top of the globe, or a globe on a short stand/plinth like the government and municipal-bonds base lines). This separates it from a generic 'global' icon and from stock globe icons.",
+    "Add a second latitude line or make the meridian ellipse wider (roughly 45–55% of the circle width) so it no longer copies the stock three-stroke globe and the 16px strokes don't crowd.",
+    "Redraw 16 and 20px separately with fewer, more open strokes: one meridian and one equator, with at least 2px of clear space between the ellipse and the rim. In the solid, check the knockout counters stay at least 1.5px wide.",
+    "After the fix, check against government and municipal-bonds so a flag or plinth cue doesn't make it a near-duplicate of them."
+   ]
+  },
+  "problems": [
+   "The solid version reads as a letter. The knocked-out vertical ellipse plus a short horizontal bar that stops before the rim forms a θ glyph inside a disc. That is letter-like, which is not allowed, and it no longer looks like a globe.",
+   "In the solid, the equator knockout ends with round caps just past the meridian ellipse instead of running out to the rim, so the disc never reads as a sphere divided into parts. At 16 and 20px the ellipse counter is a narrow slit and the bar is a dot-like stub, so the knockouts clog.",
+   "The outline is close to the stock globe icon found in common open-source sets (circle, a single meridian ellipse, a straight equator). It is generic to the point of looking borrowed, and it carries no sovereign or state meaning.",
+   "For the concept: a bare globe says 'global / international / web', not 'sovereign debt / governments'. A finance professional would name it 'global' or 'international equities' before 'sovereigns'. The set already uses 'government' (a capitol), so nothing ties this globe to sovereign issuers."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:52.693Z",
+  "mode": "review",
+  "id": "it-services",
+  "name": "IT Services",
+  "result": "flag",
+  "scores": {
+   "reads_as": "A plain cloud. People will name the picture straight away, but it could just as easily mean weather, cloud storage or \"upload\". Nothing in it says IT services.",
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "problems": [
+    "It sits small in its box at every size. The cloud is a wide, flat shape that fills only about half the frame's height. It looks clearly smaller and lighter than the chip, code window and laptop beside it in the family row, and smaller than its neighbours on sheet-24 (media, packaging, forestry).",
+    "At 16px the outline cloud is only about 10px wide and 6px tall. It looks noticeably weaker than the other 16px icons.",
+    "There is too little detail. Every other icon in the set has an inner feature or a combined motif (chip pads, code brackets, gear teeth). A bare outline looks unfinished next to them, and the solid version is just a featureless blob.",
+    "The meaning is weak. A bare cloud is the generic weather or cloud-storage glyph and does not say 'services'. It is also basically the stock cloud icon found in every UI library, with nothing of this set's own in it.",
+    "The solid version has no knockout or inner detail. At 16 and 20px it reads as a dark lump."
+   ],
+   "fixes": [
+    "Fill the frame. Let the cloud reach the full live area across (about x 2–22 at 24px) and grow it taller, so the shape uses about 16–18px of height instead of about 11px. Or put a second element under it so the whole icon fills the frame vertically.",
+    "Add a services or IT cue that ties it to the parent. For example: a cloud above a small server or rack with two connector lines down to nodes, a cloud with a gear inside, or a cloud with a small network node below. Check data/metaphors.json for an existing 'service' or 'network' metaphor first.",
+    "Solid: knock the inner element out of the filled cloud with a clear gap of at least 1.5px, so the solid keeps the same footprint as the outline and still has a readable feature.",
+    "Draw 16px and 20px separately so they fill the frame. Keep the inner detail to a single simple mark (for example one gear or one node) so they don't clog.",
+    "Make sure the result does not end up too close to 'software' (code window) or 'information-technology' (laptop). Avoid using a laptop or screen as the base."
+   ]
+  },
+  "problems": [
+   "It sits small in its box at every size. The cloud is a wide, flat shape that fills only about half the frame's height. It looks clearly smaller and lighter than the chip, code window and laptop beside it in the family row, and smaller than its neighbours on sheet-24 (media, packaging, forestry).",
+   "At 16px the outline cloud is only about 10px wide and 6px tall. It looks noticeably weaker than the other 16px icons.",
+   "There is too little detail. Every other icon in the set has an inner feature or a combined motif (chip pads, code brackets, gear teeth). A bare outline looks unfinished next to them, and the solid version is just a featureless blob.",
+   "The meaning is weak. A bare cloud is the generic weather or cloud-storage glyph and does not say 'services'. It is also basically the stock cloud icon found in every UI library, with nothing of this set's own in it."
+  ],
+  "cost": 0.08
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:57:54.560Z",
+  "mode": "review",
+  "id": "forestry",
+  "name": "Forestry",
+  "result": "flag",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Three stacked rings: a trefoil, a cluster of buttons or pills, or film reels. Only at 32/48 does it start to suggest log ends, and even then it looks more like a stack of tape reels or cable drums than timber. Nothing says forest or wood.",
+   "problems": [
+    "Recognition: three identical circles with a centre dot read as reels, buttons, coins or a molecule, not as logs. There is no bark edge, no growth rings with uneven spacing, and no log sides, so it doesn't say wood. A finance user would not name 'Forestry'.",
+    "Small sizes: at 16 and 20 outline the centre pith/ring detail is removed, so it becomes three plain overlapping circles, like a trefoil or Venn/club shape. The outline circles touch or overlap at the joins, which crowds those spots.",
+    "Size inconsistency inside the icon: the 24px version is visibly smaller than the 20px one and uses a different construction (rings + dots vs plain circles). The 16px version is tiny, about 8px of ink in a 16 box.",
+    "Frame fill: at 16, 20 and 24 the glyph covers roughly half the box width and much less of the height than its siblings (the fishing fish, livestock head, crops wheat). It sits visibly small next to the agriculture sprout and the crops stalk.",
+    "Solid: at 16 the knockout dots disappear and it's three black blobs. At 20/24 the pinpoint dots are only 1px and close to vanishing. The solid circles also merge where they touch, with no gap, so the three logs fuse into one blob.",
+    "Detail level is inconsistent across sizes: 48 has thick double rings, 32 has ring + dot, and 16/20 have no inner detail. It doesn't feel like one icon redrawn per size."
+   ],
+   "fixes": [
+    "Draw the logs as end-on pile plus visible length: for example three or so log ends at the right, with parallel side lines running left to show cylinders (a 3/4 log-pile view). Or add a simple conifer behind or beside a small pile, so 'wood/forest' reads at once.",
+    "Make the log ends read as timber, not reels: use one inner growth ring that's slightly off-centre, or a single ring with a pith dot, and drop the heavy double-ring look at 48.",
+    "Scale the composition up to fill the live area like the siblings: about 20×20 within 24, about 14×14 within 16, about 18×18 within 20. Make sure 24 is never smaller than 20.",
+    "Keep a clear gap (at least 1px at 16/20, 1.5px at 24) between adjacent log circles in both styles, so they read as separate logs, not one trefoil blob.",
+    "At 16/20 keep one simple identifier per log, such as a 2px pith knockout, so they don't fall back to plain circles. Use the same detail logic at every size.",
+    "Solid: make the pith knockouts at least 2px at 20/24 and 1.5px at 16. Separate the logs with a knockout gap equal to the outline stroke so the footprint matches the outline."
+   ]
+  },
+  "problems": [
+   "Recognition: three identical circles with a centre dot read as reels, buttons, coins or a molecule, not as logs. There is no bark edge, no growth rings with uneven spacing, and no log sides, so it doesn't say wood. A finance user would not name 'Forestry'.",
+   "Small sizes: at 16 and 20 outline the centre pith/ring detail is removed, so it becomes three plain overlapping circles, like a trefoil or Venn/club shape. The outline circles touch or overlap at the joins, which crowds those spots.",
+   "Size inconsistency inside the icon: the 24px version is visibly smaller than the 20px one and uses a different construction (rings + dots vs plain circles). The 16px version is tiny, about 8px of ink in a 16 box.",
+   "Frame fill: at 16, 20 and 24 the glyph covers roughly half the box width and much less of the height than its siblings (the fishing fish, livestock head, crops wheat). It sits visibly small next to the agriculture sprout and the crops stalk."
+  ],
+  "cost": 0.07
  }
 ]
