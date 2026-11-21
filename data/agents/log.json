@@ -4141,5 +4141,40 @@
    ]
   },
   "cost": 1.19
+ },
+ {
+  "date": "2026-11-21",
+  "at": "2026-11-21T17:06:54.763Z",
+  "mode": "add",
+  "id": "equity-funds",
+  "name": "Equity Funds",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: At 16px and 20px the rosette loses its ribbon tails and becomes a plain dot or ring. Together with the notched corners, the icon then reads as a ticket or coupon, not a certificate. That is exactly where the metaphor needs to hold.; At small sizes it is close to us-dollar-strength (a landscape rectangle with a centred circle, i.e. a banknote). In the solid style at 16/20 the two are nearly the same: a dark rounded rectangle with a ring knockout and a dash.; Its proportions are also close ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a certificate with a rosette seal, so the share-certificate idea comes through. At 16/20, where the seal shrinks to a plain ring/dot: an admission ticket, coupon or banknote.",
+   "problems": [
+    "At 16px and 20px the rosette loses its ribbon tails and becomes a plain dot or ring. Together with the notched corners, the icon then reads as a ticket or coupon, not a certificate. That is exactly where the metaphor needs to hold.",
+    "At small sizes it is close to us-dollar-strength (a landscape rectangle with a centred circle, i.e. a banknote). In the solid style at 16/20 the two are nearly the same: a dark rounded rectangle with a ring knockout and a dash.",
+    "Its proportions are also close to consumer-finance and abs (wide, short rounded rectangles with horizontal lines). At 16px the only difference is the corner notches, which are about 1px.",
+    "The shape is very wide and short (about 2:1). At 16/20 it uses only about 60% of the box height, so it looks lighter and smaller than its square neighbours (funds, private-credit, accounting-services).",
+    "In solid at 24px the three text-line knockouts are thin and close together. They nearly fill in and add noise without helping the reading.",
+    "Nothing links it to its parent, funds (money bag). That is acceptable for an industry child, but it means everything rests on the certificate reading clearly, and at small sizes it does not."
+   ],
+   "fixes": [
+    "Keep the seal recognisable at every size. At 16/20, draw the rosette as a ring with two short ribbon tails (simplified to two 1px-wide legs if needed), never as a bare dot. Give it its own space by cutting the text lines to two at 16/20.",
+    "Change the outline so it reads as a document, not a ticket. Use a less extreme aspect ratio (about 20×16 in the 24 grid) so it fills more height. Swap the concave notched corners for a decorative double border (an inset frame line) at 24+, and a plain rounded rectangle with the seal breaking out of the bottom edge at 16/20.",
+    "To separate it from us-dollar-strength, consumer-finance and abs, move the seal to the lower right corner, overlapping the frame edge with its ribbons hanging below the border. Then the silhouette is not a plain rectangle.",
+    "In solid, use at most two text-line knockouts at 24 and below, each at least 1.5px wide with 1.5px gaps. Keep a clear gap of at least 1px between the seal ring knockout and the lines.",
+    "Re-render 16/20 in both styles and check them against us-dollar-strength and consumer-finance at the same size before resubmitting."
+   ]
+  },
+  "cost": 1.91
  }
 ]
