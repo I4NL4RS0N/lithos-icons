@@ -77,6 +77,7 @@ const clipY = (poly, y1, y2) => {
 const biteArc = (a, b, depth) => { const L = Math.hypot(b[0] - a[0], b[1] - a[1]), R = (L * L / 4 + depth * depth) / (2 * depth); return `A${f2(R)} ${f2(R)} 0 0 0 ${xy(b)}`; };
 const regular = (n, R, off = -90) => Array.from({ length: n }, (_, k) => P(off + (k * 360) / n, R));
 export function famPath(fam, seed) {
+  if (fam === 'ln') return lnPath(seed).d;
   if (MORE[fam]) return MORE[fam](mulberry(seed * 2654435761 + fam.charCodeAt(0) * 97 + fam.charCodeAt(1) * 31));
   if (fam === 'sk') return skPath(seed);
   if (fam === 'an') return angPath(seed);
@@ -439,13 +440,41 @@ export const NORM = { ...NORM_DATA };
 export const registerNorm = (o) => Object.assign(NORM, o);
 export { MARKS };
 function shapeInk(mark, st, uid) {
-  const base = markId({ ...mark, v: undefined }), d = mark.k === 'f' ? famPath(mark.fam, mark.seed) : geoPath(mark.seed), n = NORM[base];
+  const base = markId({ ...mark, v: undefined }), n = NORM[base];
+  if (mark.k === 'f' && mark.fam === 'ln') { const L = lnPath(mark.seed), ink = `<path d="${L.d}" fill="none" stroke="${st.fg}" stroke-width="${L.w}" stroke-linecap="round" stroke-linejoin="round"${L.rot ? ` transform="rotate(${L.rot} 50 50)"` : ''}/>`; if (mark.v === 'k') return `<defs><mask id="${uid}k" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><circle cx="50" cy="50" r="48" fill="#fff"/><g transform="translate(50 50) scale(.6) translate(-50 -50)">${ink.replace(`stroke="${st.fg}"`, 'stroke="#000"')}</g></mask></defs><circle cx="50" cy="50" r="48" fill="${st.fg}" mask="url(#${uid}k)"/>`; return n ? `<g transform="translate(50 50) scale(${f2(n[2])}) translate(${f2(-n[0])} ${f2(-n[1])})">${ink}</g>` : ink; }
+  const d = mark.k === 'f' ? famPath(mark.fam, mark.seed) : geoPath(mark.seed);
   const wrap = (inner, k = 1) => (n || k !== 1 ? `<g transform="translate(50 50) scale(${f2((n ? n[2] : 1) * k)}) translate(${f2(-(n ? n[0] : 50))} ${f2(-(n ? n[1] : 50))})">${inner}</g>` : inner);
   if (mark.v === 'o') { const sw = 4.5 / (n ? n[2] : 1); return wrap(`<path d="${d}" fill="none" stroke="${st.fg}" stroke-width="${f2(sw)}" stroke-linejoin="round" stroke-linecap="round"/>`, 0.94); }
   if (mark.v === 'k') return `<defs><mask id="${uid}k" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><circle cx="50" cy="50" r="48" fill="#fff"/>${wrap(`<path d="${d}" fill="#000" fill-rule="evenodd"/>`, 0.6)}</mask></defs><circle cx="50" cy="50" r="48" fill="${st.fg}" mask="url(#${uid}k)"/>`;
   return wrap(`<path d="${d}" fill="${st.fg}" fill-rule="evenodd"/>`);
 }
 
+// Linear (added 2026-11-21): monoline marks drawn as round-capped strokes — links, knots, panes, loops. id = f-ln-<seed>.
+const rr = (x, y, w, h, r) => `M${f2(x + r)} ${f2(y)}H${f2(x + w - r)}A${f2(r)} ${f2(r)} 0 0 1 ${f2(x + w)} ${f2(y + r)}V${f2(y + h - r)}A${f2(r)} ${f2(r)} 0 0 1 ${f2(x + w - r)} ${f2(y + h)}H${f2(x + r)}A${f2(r)} ${f2(r)} 0 0 1 ${f2(x)} ${f2(y + h - r)}V${f2(y + r)}A${f2(r)} ${f2(r)} 0 0 1 ${f2(x + r)} ${f2(y)}Z`;
+const LN_MODES = ['links', 'linksh', 'knot', 'hexz', 'diamonds', 'trefoil', 'panes', 'infinity', 'planet', 'arcs', 'chevrons', 'spiral', 'hexagram', 'zig', 'hexnest', 'slash', 'waves', 'loop'];
+export function lnPath(seed) {
+  const r = mulberry(seed * 48271 + 101), mode = LN_MODES[(seed - 1) % LN_MODES.length], w = pick(r, [6, 7, 8, 9]), rot = pick(r, [0, 0, 0, 45, 90]), rad = pick(r, [6, 10, 14]);
+  let d = '';
+  if (mode === 'links') { const s2 = 44 + r() * 6; d = rr(12, 12, s2, s2, rad) + rr(88 - s2, 88 - s2, s2, s2, rad); }
+  else if (mode === 'linksh') { const h = 30, wd = 52; d = rr(10, 50 - h + 4, wd, h, h / 2) + rr(38, 50 - 4, wd, h, h / 2); }
+  else if (mode === 'knot') { const t = 22 + r() * 6; d = rr(50 - t / 2, 10, t, 80, Math.min(t / 2, rad + 4)) + rr(10, 50 - t / 2, 80, t, Math.min(t / 2, rad + 4)); }
+  else if (mode === 'hexz') { const V = regular(6, 40, -90); d = rpoly(V, 6) + `M${f2(32)} ${f2(38)}H${f2(66)}L${f2(34)} ${f2(62)}H${f2(68)}`; }
+  else if (mode === 'diamonds') { const D = (cy, sz) => `M50 ${f2(cy - sz)}L${f2(50 + sz * 1.25)} ${f2(cy)}L50 ${f2(cy + sz)}L${f2(50 - sz * 1.25)} ${f2(cy)}Z`; d = D(38, 26) + D(62, 26); }
+  else if (mode === 'trefoil') { const R2 = 20 + r() * 3; d = [0, 1, 2].map((k) => { const [x, y] = P(-90 + k * 120, 15); return circ(x, y + 3, R2); }).join(''); }
+  else if (mode === 'panes') { const g = 6, s2 = (76 - g) / 2, sk = pick(r, [0, 0.12, -0.12]); const pane = (x, y) => { const pts = [[x, y], [x + s2, y], [x + s2, y + s2], [x, y + s2]].map(([u, v]) => [u + (50 - v) * sk, v]); return rpoly(pts, rad * 0.8); }; d = pane(12, 12) + pane(12 + s2 + g, 12) + pane(12, 12 + s2 + g) + pane(12 + s2 + g, 12 + s2 + g); }
+  else if (mode === 'infinity') { d = 'M50 50C40 34 14 30 14 50S40 66 50 50S86 34 86 50S60 66 50 50Z'; }
+  else if (mode === 'planet') { d = circ(50, 50, 28) + 'M12 76C30 58 56 40 88 22'; }
+  else if (mode === 'arcs') { const n2 = pick(r, [2, 3]); for (let i = 0; i < n2; i++) { const R2 = 40 - i * 13; d += `M${xy(P(-50, R2))}A${R2} ${R2} 0 1 0 ${xy(P(50, R2))}`; } }
+  else if (mode === 'chevrons') { for (let i = 0; i < 3; i++) { const y = 24 + i * 22; d += `M14 ${y}L50 ${y + 18}L86 ${y}`; } }
+  else if (mode === 'spiral') { d = 'M50 50H62V38H34V66H74V26H22V82H86'; }
+  else if (mode === 'hexagram') { d = rpoly([[50, 10], [88, 74], [12, 74]], rad) + rpoly([[50, 90], [12, 26], [88, 26]], rad); }
+  else if (mode === 'zig') { for (const o of [0, 16]) d += `M10 ${34 + o}L30 ${22 + o}L50 ${34 + o}L70 ${22 + o}L90 ${34 + o}`; d += 'M10 74H90'; }
+  else if (mode === 'hexnest') { d = rpoly(regular(6, 42, -90), rad) + rpoly(regular(6, 22, -90), rad * 0.6) + 'M50 8V28M50 72V92'; }
+  else if (mode === 'slash') { d = rr(12, 12, 76, 76, 24) + 'M30 70L70 30'; }
+  else if (mode === 'waves') { for (let i = 0; i < 3; i++) { const y = 30 + i * 20; d += `M10 ${y}Q30 ${y - 14} 50 ${y}T90 ${y}`; } }
+  else { d = 'M24 76V40A26 26 0 0 1 76 40V60A16 16 0 0 1 44 60V50'; }
+  return { d, w, rot };
+}
 // Letters: stroked skeletons on a 100 box (ink spans about 24..76 by 16..84). Weight, caps and joins are the user's.
 export const LETTERS = {
   A: 'M24 84L50 16L76 84M34 60H66', B: 'M26 16H54A17 17 0 0 1 54 50H58A17 17 0 0 1 58 84H26ZM26 50H54',
@@ -465,13 +494,19 @@ export const LETTERS = {
 export const FONT_LIST = [{ id: 'geo', name: 'Geometric' }, { id: 'syne', name: 'Syne' }, { id: 'unbounded', name: 'Unbounded' }, { id: 'bricolage-grotesque', name: 'Bricolage Grotesque' }, { id: 'instrument-serif', name: 'Instrument Serif' }, { id: 'fraunces', name: 'Fraunces' }, { id: 'gloock', name: 'Gloock' }, { id: 'dela-gothic-one', name: 'Dela Gothic One' }, { id: 'rubik-mono-one', name: 'Rubik Mono One' }, { id: 'major-mono-display', name: 'Major Mono Display' }, { id: 'monoton', name: 'Monoton' }, { id: 'michroma', name: 'Michroma' }, { id: 'krona-one', name: 'Krona One' }, { id: 'zen-dots', name: 'Zen Dots' }, { id: 'tilt-warp', name: 'Tilt Warp' }, { id: 'climate-crisis', name: 'Climate Crisis' }, { id: 'big-shoulders-display', name: 'Big Shoulders Display' }, { id: 'silkscreen', name: 'Silkscreen' }, { id: 'bungee-shade', name: 'Bungee Shade' }, { id: 'bagel-fat-one', name: 'Bagel Fat One' }];
 export const FONTS = {}; // id -> { glyph: path } once loaded (outlines made by scripts/marks-fonts.mjs from OFL fonts)
 export const registerFont = (f) => { FONTS[f.id] = f.glyphs; };
-export const DEFAULT_STYLE = { fg: '#ffffff', bgType: 'solid', bg: '#111111', bg2: '#5b4bff', stops: ['#3b5bff', '#8a4dff'], font: 'geo', bold: 0, angle: 135, shape: 'rounded', radius: 22, pad: 18, borderW: 0, border: '#ffffff', weight: 14, cap: 'butt', join: 'miter' };
+export const DEFAULT_STYLE = { fgType: 'solid', fgStops: ['#22d3ee', '#6366f1', '#ec4899'], fgAngle: 135, fg: '#ffffff', bgType: 'solid', bg: '#111111', bg2: '#5b4bff', stops: ['#3b5bff', '#8a4dff'], font: 'geo', bold: 0, angle: 135, shape: 'rounded', radius: 22, pad: 18, borderW: 0, border: '#ffffff', weight: 14, cap: 'butt', join: 'miter' };
 
 const squirclePts = (n = 4, steps = 96) => { const pts = []; for (let i = 0; i < steps; i++) { const t = (i / steps) * Math.PI * 2, c = Math.cos(t), s = Math.sin(t); pts.push([50 + 50 * Math.sign(c) * Math.abs(c) ** (2 / n), 50 + 50 * Math.sign(s) * Math.abs(s) ** (2 / n)]); } return pts; };
 
 // A full SVG for one mark with its container. size = pixel width/height (omit for a scalable SVG).
 export function markSvg(mark, st = {}, size, uid = 'm') {
   st = { ...DEFAULT_STYLE, ...st };
+  let fdef = '';
+  if (st.fgType === 'gradient' && Array.isArray(st.fgStops) && st.fgStops.length >= 2) {
+    const a = (st.fgAngle * Math.PI) / 180, dx = Math.sin(a) * 50, dy = -Math.cos(a) * 50;
+    fdef = `<linearGradient id="${uid}f" gradientUnits="userSpaceOnUse" x1="${f2(50 - dx)}" y1="${f2(50 - dy)}" x2="${f2(50 + dx)}" y2="${f2(50 + dy)}">${st.fgStops.map((c, i) => `<stop offset="${f2(i / (st.fgStops.length - 1))}" stop-color="${c}"/>`).join('')}</linearGradient>`;
+    st = { ...st, fg: `url(#${uid}f)` };
+  }
   const letter = mark.k === 'l', bw = +st.borderW || 0, half = bw / 2;
   const k = (100 - 2 * st.pad) / 100 * (letter ? 1.18 : 1);
   const glyph = letter && st.font !== 'geo' ? FONTS[st.font]?.[mark.ch] : null;
@@ -494,6 +529,7 @@ export function markSvg(mark, st = {}, size, uid = 'm') {
   else if (st.shape === 'squircle') { const sc = (100 - bw) / 100; shape = `<path d="M${squirclePts().map(([x, y]) => `${f2(50 + (x - 50) * sc)} ${f2(50 + (y - 50) * sc)}`).join('L')}Z" fill="${fill}"${stroke}/>`; }
   else { const r = st.shape === 'square' ? 0 : Math.max(0, +st.radius - half); shape = `<rect x="${half}" y="${half}" width="${100 - bw}" height="${100 - bw}" rx="${r}" fill="${fill}"${stroke}/>`; }
   const wh = size ? ` width="${size}" height="${size}"` : '';
+  if (fdef) defs = defs ? defs.replace('</defs>', fdef + '</defs>') : `<defs>${fdef}</defs>`;
   return `<svg xmlns="http://www.w3.org/2000/svg"${wh} viewBox="0 0 100 100">${defs}${shape}<g transform="translate(50 50) scale(${f2(k)}) translate(-50 -50)">${ink}</g></svg>`;
 }
 

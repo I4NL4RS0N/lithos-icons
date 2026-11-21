@@ -148,7 +148,7 @@
 <main class="wrap">
   <section class="intro">
     <h1>Brand marks</h1>
-    <p>Three hundred curated geometric marks, plus A–Z and 0–9. Pick one, set its colour, gradient, border and shape, then export PNG at 16, 32, 48 px and up, or SVG. Letters and numbers come in twenty typefaces.</p>
+    <p>Three hundred curated geometric marks, plus A–Z and 0–9. Pick one, set its colour (solid or gradient), background, border and shape, then export PNG at 16, 32, 48 px and up, or SVG. Letters and numbers come in twenty typefaces.</p>
   </section>
   <div class="layout">
     <div>
@@ -177,9 +177,12 @@
         <div class="ctls">
           <div class="field"><div class="lbl">Presets</div><div class="presets" id="presets"></div></div>
           <div class="field only-l"><div class="lbl">Typeface</div><div class="fonts" id="fonts"></div></div>
-          <div class="field"><div class="lbl">Mark colour</div><div class="row"><input type="color" id="fg" aria-label="Mark colour"><input type="text" id="fgt" aria-label="Mark colour hex" maxlength="9" spellcheck="false"></div></div>
+          <div class="field"><div class="lbl">Mark colour</div><div class="seg" data-key="fgType"><button type="button" data-v="solid">Solid</button><button type="button" data-v="gradient">Gradient</button></div></div>
+          <div class="field only-fsolid"><div class="row"><input type="color" id="fg" aria-label="Mark colour"><input type="text" id="fgt" aria-label="Mark colour hex" maxlength="9" spellcheck="false"></div></div>
           <div class="field"><div class="lbl">Background</div><div class="seg" data-key="bgType"><button type="button" data-v="none">None</button><button type="button" data-v="solid">Solid</button><button type="button" data-v="gradient">Gradient</button></div></div>
           <div class="field only-solid"><div class="row"><input type="color" id="bg" aria-label="Background colour"><input type="text" id="bgt" aria-label="Background hex" maxlength="9" spellcheck="false"></div></div>
+          <div class="field only-fgrad"><div class="lbl"><span>Mark gradient</span><button type="button" class="mini" id="faddstop">+ Add colour</button></div><div class="stops" id="fstops"></div></div>
+          <div class="field only-fgrad"><div class="lbl"><span>Mark gradient angle</span><output id="fgAngleOut"></output></div><input type="range" id="fgAngle" min="0" max="360" step="5" aria-label="Mark gradient angle"></div>
           <div class="field only-grad"><div class="lbl"><span>Gradient colours</span><button type="button" class="mini" id="addstop">+ Add colour</button></div><div class="stops" id="stops"></div></div>
           <div class="field only-grad"><div class="lbl"><span>Gradient angle</span><output id="angleOut"></output></div><input type="range" id="angle" min="0" max="360" step="5" aria-label="Gradient angle"></div>
           <div class="field"><div class="lbl">Shape</div><div class="seg" data-key="shape"><button type="button" data-v="square">Square</button><button type="button" data-v="rounded">Rounded</button><button type="button" data-v="squircle">Squircle</button><button type="button" data-v="circle">Circle</button></div></div>
@@ -213,6 +216,10 @@ const PRESETS = [
   { fg: '#111111', bgType: 'none', shape: 'circle', border: '#111111', borderW: 3 },
   { fg: '#2a1c05', bgType: 'gradient', stops: ['#fbe9a6', '#f8d775', '#f0955d'], angle: 135, shape: 'rounded', radius: 22, borderW: 0 },
   { fg: '#7cf0c9', bgType: 'solid', bg: '#0b1220', shape: 'squircle', borderW: 0 },
+  { fgType: 'gradient', fgStops: ['#22d3ee', '#6366f1', '#ec4899'], fgAngle: 135, bgType: 'solid', bg: '#0d0d16', shape: 'rounded', radius: 22, borderW: 0 },
+  { fgType: 'gradient', fgStops: ['#ffd23f', '#ff6b6b', '#c042ff'], fgAngle: 160, bgType: 'solid', bg: '#100c18', shape: 'squircle', borderW: 0 },
+  { fgType: 'gradient', fgStops: ['#5eead4', '#3b82f6'], fgAngle: 120, bgType: 'solid', bg: '#0a1020', shape: 'circle', borderW: 0 },
+  { fgType: 'gradient', fgStops: ['#a3e635', '#22d3ee', '#818cf8'], fgAngle: 135, bgType: 'none', shape: 'rounded', radius: 22, borderW: 0 },
 ];
 let S = { style: { ...DEF }, tab: 'g', sel: MK.MARKS[0], sizes: [16, 32, 48, 128, 512], extra: [] };
 const tabOf = (id) => (id[0] === 'l' ? 'l' : 'g');
@@ -255,6 +262,11 @@ function renderPanel() {
   $$('.only-solid').forEach((e) => (e.hidden = st.bgType !== 'solid'));
   $('#stops').innerHTML = st.stops.map((c, i) => `<div class="row"><input type="color" data-i="${i}" value="${c}" aria-label="Gradient colour ${i + 1}"><input type="text" data-i="${i}" value="${c}" maxlength="9" spellcheck="false" aria-label="Gradient colour ${i + 1} hex"><button type="button" data-rm="${i}" aria-label="Remove colour ${i + 1}"${st.stops.length <= 2 ? ' disabled' : ''}>×</button></div>`).join('');
   $('#addstop').hidden = st.stops.length >= 5;
+  $('#fstops').innerHTML = st.fgStops.map((c, i) => `<div class="row"><input type="color" data-i="${i}" value="${c}" aria-label="Mark gradient colour ${i + 1}"><input type="text" data-i="${i}" value="${c}" maxlength="9" spellcheck="false" aria-label="Mark gradient colour ${i + 1} hex"><button type="button" data-rm="${i}" aria-label="Remove colour ${i + 1}"${st.fgStops.length <= 2 ? ' disabled' : ''}>×</button></div>`).join('');
+  $('#faddstop').hidden = st.fgStops.length >= 5;
+  $('#fgAngle').value = st.fgAngle; $('#fgAngleOut').textContent = st.fgAngle + '°';
+  $$('.only-fgrad').forEach((e) => (e.hidden = st.fgType !== 'gradient'));
+  $$('.only-fsolid').forEach((e) => (e.hidden = st.fgType === 'gradient'));
   const ch = S.sel.startsWith('l-') ? S.sel.slice(2) : 'A';
   $('#fonts').innerHTML = MK.FONT_LIST.map((f) => `<button type="button" data-f="${f.id}" aria-pressed="${st.font === f.id}">${f.id === 'geo' || MK.FONTS[f.id] ? MK.markSvg({ k: 'l', ch }, { ...DEF, font: f.id, bgType: 'none', shape: 'square', fg: 'currentColor', pad: 2, borderW: 0, weight: 16, bold: 0 }, 0, 'f' + f.id) : '<svg viewBox="0 0 100 100"></svg>'}${f.name}</button>`).join('');
   $$('.only-grad').forEach((e) => (e.hidden = st.bgType !== 'gradient'));
@@ -280,6 +292,11 @@ for (const k of ['fg', 'bg', 'border']) {
 const setStops = (fn) => style({ stops: fn([...S.style.stops]) });
 $('#addstop').addEventListener('click', () => setStops((a) => [...a, a[a.length - 1]]));
 $('#stops').addEventListener('input', (e) => { const i = e.target.dataset.i; if (i === undefined) return; const v = e.target.value.trim(); if (/^#[0-9a-f]{6}$/i.test(v)) { const a = [...S.style.stops]; a[+i] = v; S.style = { ...S.style, stops: a }; save(); renderGrid(); $('#pv').innerHTML = svgOf(S.sel, S.style, 0, 'pv'); $$('#stops input').forEach((x) => { if (x.dataset.i === i && x !== e.target) x.value = v; }); } });
+const setF = (fn) => style({ fgStops: fn([...S.style.fgStops]) });
+$('#faddstop').addEventListener('click', () => setF((a) => [...a, a[a.length - 1]]));
+$('#fstops').addEventListener('input', (e) => { const i = e.target.dataset.i; if (i === undefined) return; const v = e.target.value.trim(); if (/^#[0-9a-f]{6}$/i.test(v)) { const a = [...S.style.fgStops]; a[+i] = v; S.style = { ...S.style, fgStops: a }; save(); renderGrid(); $('#pv').innerHTML = svgOf(S.sel, S.style, 0, 'pv'); $$('#fstops input').forEach((x) => { if (x.dataset.i === i && x !== e.target) x.value = v; }); } });
+$('#fstops').addEventListener('click', (e) => { const b = e.target.closest('[data-rm]'); if (b) setF((a) => a.filter((_, i) => i !== +b.dataset.rm)); });
+$('#fgAngle').addEventListener('input', (e) => style({ fgAngle: +e.target.value }));
 $('#stops').addEventListener('click', (e) => { const b = e.target.closest('[data-rm]'); if (b) setStops((a) => a.filter((_, i) => i !== +b.dataset.rm)); });
 async function loadFont(id) { if (id === 'geo' || MK.FONTS[id]) return; try { MK.registerFont(await (await fetch('fonts/' + id + '.json')).json()); } catch {} }
 let fontsLoading = null;
