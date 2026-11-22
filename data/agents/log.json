@@ -5101,5 +5101,40 @@
    ]
   },
   "cost": 1.49
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:42:45.963Z",
+  "mode": "add",
+  "id": "sovereign-wealth-funds",
+  "name": "Sovereign Wealth Funds",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Solid: there is no lid/body seam knockout, so the main thing that says 'chest' is gone. The solid is just a rounded blob.; Solid: the band knockouts are short cuts at the left and right edges that don't run the full height and don't meet anything. With the hollow square lock in the middle, at 16–24px it reads as a face or robot head, a camera or a gamepad.; Solid at 16px: the band cuts and the lock ring merge into noise. The lock knockout is the only clear feature.; Outline at 16 and 20px",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Outline: a domed treasure chest, though at 24 and below it is close to a backpack, helmet or mailbox. Solid: a robot head, camera or gamepad, not a chest.",
+   "problems": [
+    "Solid: there is no lid/body seam knockout, so the main thing that says 'chest' is gone. The solid is just a rounded blob.",
+    "Solid: the band knockouts are short cuts at the left and right edges that don't run the full height and don't meet anything. With the hollow square lock in the middle, at 16–24px it reads as a face or robot head, a camera or a gamepad.",
+    "Solid at 16px: the band cuts and the lock ring merge into noise. The lock knockout is the only clear feature.",
+    "Outline at 16 and 20px: the dome, the lid line, two full-height bands and a lock box are packed into about 14px. The bands and the lock box crowd each other and the gaps fall to about 1px, so it looks clogged next to simpler neighbours like private-credit or sanctions.",
+    "Outline: the chest is nearly square with a tall, steep dome, which makes the silhouette look like a backpack or helmet more than a wide, low chest.",
+    "Consistency: the solid seems to sit slightly smaller and narrower than the outline at 16 and 20. The rounded dome also leaves the top corners empty, so the footprint looks lighter than neighbouring icons that fill the square."
+   ],
+   "fixes": [
+    "Make the chest wider than it is tall (about 20×16 in the 24px master) with a shallower lid arc, so the silhouette reads as a chest and not a backpack or helmet.",
+    "In the solid, knock out a full-width horizontal lid seam (about 1.5px at 24) and run the two band knockouts through the whole body and lid, or drop the bands. The seam has to stay.",
+    "Make the lock a solid hasp that hangs from the seam. In the solid, use a single knockout keyhole or hasp outline and not a hollow square ring, so it stops reading as a face or lens.",
+    "At 16 and 20px, drop the vertical bands completely and keep only the lid arc, the seam and a small hasp. Keep at least 2px clear between features.",
+    "Check that the outline and solid footprints match at every size, and fill the frame to the same extent as sibling icons such as private-credit and pension-funds."
+   ]
+  },
+  "cost": 1.4
  }
 ]
