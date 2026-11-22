@@ -4884,5 +4884,39 @@
    ]
   },
   "cost": 1.13
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:27:32.282Z",
+  "mode": "add",
+  "id": "ports",
+  "name": "Ports",
+  "kind": "industry",
+  "picture": "anchor",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "An anchor (ports / harbour / maritime)",
+   "problems": [
+    "Solid is mostly a heavier-stroke outline rather than a true filled form, so outline and solid are less different than in most of the set (e.g. umbrella, lock). It still reads, and the footprint matches.",
+    "In the 16px solid, the knockout in the top ring is only about 1px and close to clogging. It reads as a dot in the preview.",
+    "In the near preview, the 16px glyph looks slightly lighter and smaller than the truck and envelope beside it, because the arms and fluke curve leave empty corners. This is acceptable for an anchor but sits at the low edge.",
+    "The arrow-barb fluke tips are small at 16 and 20px and blend into the arc ends. Not broken, though."
+   ],
+   "fixes": [
+    "Optional: at 16px solid, widen the ring's inner knockout to at least 1.5px (or shrink the ring stroke) so the eye stays open.",
+    "Optional: give the solid a little more mass (e.g. a filled crown/stock block) so it is more clearly the solid variant, keeping the same outer footprint.",
+    "Optional: at 16px, spread the arc a little wider (toward x=1.5–14.5) to fill the frame as fully as the truck and envelope neighbours."
+   ]
+  },
+  "mapped": 0,
+  "why": "Fitch 3.2.4 and 6.10.3 Ports/Seaports share a parent icon US ports cyber risk is in the news.",
+  "cost": 0.65
  }
 ]

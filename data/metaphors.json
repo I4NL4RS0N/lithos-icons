@@ -336,5 +336,8 @@
  ],
  "stair-arrow": [
   "central-bank-rate-path"
+ ],
+ "anchor": [
+  "ports"
  ]
 }

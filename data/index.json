@@ -323,6 +323,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "ports",
+    "name": "Ports",
+    "kind": "industry",
+    "parent": "transportation",
+    "metaphor": "anchor",
+    "keywords": [
+      "ports",
+      "seaports",
+      "container terminals",
+      "port throughput"
+    ],
+    "reduction": "16: ring, stock, shank and plain arms. 20+: arrow flukes on the arm tips.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "private-credit",
     "name": "Private Credit",
     "kind": "theme",

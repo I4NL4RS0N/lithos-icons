@@ -1,0 +1,816 @@
+{
+  "concept": "ports",
+  "query": "shipping containers",
+  "fetched": "2026-11-22T17:22:41.748Z",
+  "topTerms": [
+    [
+      "shipping container",
+      48
+    ],
+    [
+      "shipping-container",
+      48
+    ],
+    [
+      "cargo",
+      38
+    ],
+    [
+      "container",
+      25
+    ],
+    [
+      "logistics",
+      24
+    ],
+    [
+      "shipping",
+      22
+    ],
+    [
+      "freight",
+      19
+    ],
+    [
+      "transport",
+      18
+    ],
+    [
+      "storage",
+      13
+    ],
+    [
+      "delivery",
+      11
+    ],
+    [
+      "transportation",
+      7
+    ],
+    [
+      "crane",
+      6
+    ],
+    [
+      "export",
+      5
+    ],
+    [
+      "box",
+      4
+    ],
+    [
+      "cargo-container",
+      3
+    ],
+    [
+      "shipping-and-delivery",
+      3
+    ],
+    [
+      "ship",
+      3
+    ],
+    [
+      "freight-container",
+      2
+    ],
+    [
+      "transport-container",
+      2
+    ],
+    [
+      "logistic",
+      2
+    ],
+    [
+      "side-view",
+      2
+    ],
+    [
+      "container shipping",
+      2
+    ],
+    [
+      "container-shipping",
+      2
+    ],
+    [
+      "steel",
+      2
+    ],
+    [
+      "distribution",
+      2
+    ],
+    [
+      "service",
+      2
+    ],
+    [
+      "global",
+      2
+    ],
+    [
+      "goods",
+      2
+    ],
+    [
+      "trade",
+      2
+    ],
+    [
+      "cargo-ship",
+      2
+    ],
+    [
+      "storage-container",
+      1
+    ],
+    [
+      "shipping-container-truck",
+      1
+    ],
+    [
+      "container-crane",
+      1
+    ],
+    [
+      "shipment",
+      1
+    ],
+    [
+      "truck",
+      1
+    ],
+    [
+      "international",
+      1
+    ],
+    [
+      "dock-worker",
+      1
+    ],
+    [
+      "docks",
+      1
+    ],
+    [
+      "lost-container",
+      1
+    ],
+    [
+      "sea",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo-container",
+            "freight-container",
+            "shipping-container",
+            "storage-container",
+            "transport-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511159-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo-container",
+            "freight-container",
+            "shipping-container",
+            "transport-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477209-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "container",
+            "crane",
+            "freight",
+            "logistics",
+            "shipping",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8393771-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "export",
+            "shipping",
+            "shipping-container",
+            "shipping-container-truck",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8367671-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "freight",
+            "logistics",
+            "shipping",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8327278-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "freight",
+            "logistics",
+            "shipping",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8327250-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "shipping",
+            "shipping-container",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8257896-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "logistic",
+            "shipping-and-delivery",
+            "shipping-container",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8232129-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "container",
+            "container-crane",
+            "crane",
+            "shipment",
+            "shipping-container",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8232100-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "logistics",
+            "shipping",
+            "shipping-container",
+            "side-view"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8231545-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "logistics",
+            "shipping",
+            "shipping-container",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8231541-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "logistics",
+            "shipping",
+            "shipping-container",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8231428-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "logistics",
+            "shipping",
+            "shipping-container",
+            "side-view"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8231424-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "container shipping",
+          "tags": [
+            "container-shipping",
+            "delivery",
+            "international",
+            "logistic",
+            "shipping",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8165033-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "box",
+            "cargo",
+            "freight",
+            "shipping-container",
+            "steel",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8156953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "box",
+            "cargo",
+            "freight",
+            "shipping-container",
+            "steel",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8156925-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "delivery",
+            "distribution",
+            "service",
+            "shipping",
+            "shipping-container",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8094496-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "delivery",
+            "distribution",
+            "service",
+            "shipping",
+            "shipping-container",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8086660-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "freight",
+            "logistics",
+            "shipping",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8080028-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "delivery",
+            "export",
+            "global",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8070953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "delivery",
+            "export",
+            "global",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8070938-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "goods",
+            "shipping",
+            "shipping-container",
+            "trade"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8064969-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "goods",
+            "shipping",
+            "shipping-container",
+            "trade"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8064934-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "freight",
+            "shipping",
+            "shipping-container",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8002993-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "freight",
+            "shipping",
+            "shipping-container",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8002939-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "crane",
+            "delivery",
+            "dock-worker",
+            "docks",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7968939-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7952633-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "box",
+            "cargo",
+            "container",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7900257-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "logistics",
+            "shipping",
+            "shipping-container",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7892759-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo-ship",
+            "logistics",
+            "ship",
+            "shipping-and-delivery",
+            "shipping-container",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7761181-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo-ship",
+            "logistics",
+            "ship",
+            "shipping-and-delivery",
+            "shipping-container",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7761132-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7756926-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7677463-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "box",
+            "cargo",
+            "container",
+            "ship",
+            "shipping",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7454050-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "container",
+            "lost-container",
+            "sea",
+            "sea-container",
+            "shipping-container",
+            "treasure"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7452959-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7415613-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7415543-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "crane",
+            "delivery",
+            "logistics",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7339541-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "container",
+            "crane",
+            "delivery",
+            "logistics",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7316420-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7280082-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7280056-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "delivery",
+            "export",
+            "shipping",
+            "shipping-container",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7276354-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "delivery",
+            "export",
+            "shipping",
+            "shipping-container",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7276347-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7256874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7256781-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7256741-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "cargo-container",
+            "container",
+            "container-lifting",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7200814-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "crane",
+            "delivery",
+            "freight",
+            "logistics",
+            "shipping-container"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7193183-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "container shipping",
+          "tags": [
+            "cargo",
+            "container",
+            "container-shipping",
+            "freight",
+            "shipping",
+            "storage"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7167765-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "shipping container",
+          "tags": [
+            "cargo",
+            "freight",
+            "logistics",
+            "shipping-container",
+            "storage",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7098851-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
