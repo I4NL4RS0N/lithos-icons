@@ -4809,5 +4809,44 @@
    "Frame fill: at 16, 20 and 24 the glyph covers roughly half the box width and much less of the height than its siblings (the fishing fish, livestock head, crops wheat). It sits visibly small next to the agriculture sprout and the crops stalk."
   ],
   "cost": 0.07
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:22:41.344Z",
+  "mode": "add",
+  "id": "airports",
+  "name": "Airports",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: It sits too small in the frame at 16, 20 and 24. Next to the truck, rail, envelope and plane in the near preview, its footprint is clearly smaller, about 60–70% of their width and height.; Sizes don't step up evenly: the 24px icon looks smaller than the 20px one in both styles, and the 20px has a different silhouette (no roof) from the 24px.; At 16 and 20 there's no roof canopy. What's left is a box of three cells on two legs, which reads as a torii gate or signboard, not a tower.; The 16",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a control tower (or a lookout or water tower). At 16/20: a torii gate, a sign on posts, or a small table. Nothing in the shape says airport.",
+   "problems": [
+    "It sits too small in the frame at 16, 20 and 24. Next to the truck, rail, envelope and plane in the near preview, its footprint is clearly smaller, about 60–70% of their width and height.",
+    "Sizes don't step up evenly: the 24px icon looks smaller than the 20px one in both styles, and the 20px has a different silhouette (no roof) from the 24px.",
+    "At 16 and 20 there's no roof canopy. What's left is a box of three cells on two legs, which reads as a torii gate or signboard, not a tower.",
+    "The 16px outline is clogged. The window divisions and twin legs merge into a lattice and the shape is hard to read.",
+    "The 16px solid is a blob. The window knockouts are tiny, almost invisible, and the twin legs fill in to a single stem, so it doesn't match the outline's open legs.",
+    "Below 32px the solid footprint differs from the outline: the outline has two splayed legs, the solid has one tapered stem, and the solid cab looks narrower.",
+    "The tower shaft as two thin parallel legs is weak. It looks like stilts or a table, not a tower, even at 24.",
+    "Even at full size a generic tower doesn't point to airports. Nothing ties it to aviation, like a radar dish, beacon or windsock, so it may get confused with telecom or utilities."
+   ],
+   "fixes": [
+    "Scale the drawing up to fill the live area like the siblings do: about 20 units wide and 20–21 units tall on the 24 grid, with the base line close to the bottom keyline and the antenna close to the top.",
+    "Redraw 16 and 20 from the 24 master so the silhouette is the same at every size: wide flared roof cap, cab, shaft, base. Make each size at least as big as the one below it.",
+    "Simplify the cab at 16: one or two wide window slots, or one wide band, instead of three cells. At 20, two openings at most.",
+    "Draw the shaft as one tapered column, a single closed shape in outline, instead of two thin parallel legs. That reads as a tower, not stilts, and lets the solid match the outline footprint.",
+    "In the solid, make the window knockouts at least 1.5–2px wide at 16 and 20, or use one horizontal window band. Keep the roof gap so the cap doesn't merge into the cab.",
+    "Make the cab wider than the shaft and give it a slight outward flare (trapezoid glazing), the classic control-tower cue.",
+    "Consider a small aviation cue that holds up at small sizes, like a short radar bar or beacon on top. Check data/metaphors.json for an existing airport or aviation metaphor first."
+   ]
+  },
+  "cost": 1.02
  }
 ]
