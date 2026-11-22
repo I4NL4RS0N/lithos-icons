@@ -4918,5 +4918,41 @@
   "mapped": 0,
   "why": "Fitch 3.2.4 and 6.10.3 Ports/Seaports share a parent icon US ports cyber risk is in the news.",
   "cost": 0.65
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:28:54.687Z",
+  "mode": "add",
+  "id": "tobacco",
+  "name": "Tobacco",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The icon is too small in its frame at 16, 20 and 24px. The cigarette spans only about 60% of the width and very little of the height, so it looks far smaller than Food & Beverage and Consumer Staples beside it, which fill the box.; Scale is inconsistent across sizes. At 48px the drawing nearly fills the frame, but at 16–24px it shrinks a lot. That suggests the small sizes were not drawn with the same footprint as the master.; At 16px the smoke is one tiny hook-shaped squiggle, and the end",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 5,
+   "verdict": "fail",
+   "reads_as": "a lit cigarette with smoke, which is clear at 32 and 48px. At 16 and 20px it reads as a small tilted bar or battery with a squiggle.",
+   "problems": [
+    "The icon is too small in its frame at 16, 20 and 24px. The cigarette spans only about 60% of the width and very little of the height, so it looks far smaller than Food & Beverage and Consumer Staples beside it, which fill the box.",
+    "Scale is inconsistent across sizes. At 48px the drawing nearly fills the frame, but at 16–24px it shrinks a lot. That suggests the small sizes were not drawn with the same footprint as the master.",
+    "At 16px the smoke is one tiny hook-shaped squiggle, and the end segments inside the cigarette are only 1–2px. Together they read as a battery or a USB stick, not a cigarette.",
+    "At 20 and 24px the bars that mark the filter and ember sit very close to the outline stroke and clog the inside of the shape.",
+    "In the solid version at 16 and 20px, the knockout at the lit end is barely visible. The filter gap is the only clear split, so the solid shape reads as a battery.",
+    "Most of the height is unused: a thin diagonal bar sits low in the frame and the smoke is small, so the icon looks lighter and emptier than the rest of the set."
+   ],
+   "fixes": [
+    "Redraw 16, 20 and 24px so the cigarette runs corner to corner across about 20 of the 24 units (about 13–14 of 16 at 16px). Use a steeper angle, around 30°, so it takes up more height. Match the footprint of the 48px version.",
+    "Make the cigarette body thicker at small sizes (about 4–5 units tall at 24px) so the inner bars have room to breathe.",
+    "At 16px, drop the ember bar and keep only the filter split. Draw the smoke as one clear S-curve 4–5px tall, rising from the lit end, not a hook.",
+    "At 24px and up, use two smoke wisps of the same height that rise well above the body, so the icon fills the top of the frame like its neighbours.",
+    "In the solid version, make the ember a clear knockout at least 1.5px wide (or a separate end cap with a gap that matches the filter gap). That way both ends read as different and it no longer looks like a battery.",
+    "Re-check the near preview so the visual weight and bounding box at each size match Food & Beverage and Consumer Staples."
+   ]
+  },
+  "cost": 1.43
  }
 ]
