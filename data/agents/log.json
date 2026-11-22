@@ -5063,5 +5063,43 @@
   "mapped": 0,
   "why": "Asian regulators are cutting margin requirements after the Wall Street plunge.",
   "cost": 0.69
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:42:27.439Z",
+  "mode": "add",
+  "id": "ai-valuation-bubble",
+  "name": "AI Valuation Bubble",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The solid version reads as a cartoon bomb: a filled black ball with three spark dashes off the upper right is the classic bomb-and-fuse picture. Finance users would take it for 'blow-up/risk' or 'explosive', not a bubble.; The outline version reads as an open ring with sparkles, close to a spinner or refresh glyph. A bubble needs to look light and see-through (a thin ring with a highlight). This one doesn't, and the gap plus dashes don't clearly say 'pop'.; At 16px and 20px the 4-point AI",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Outline: a broken ring with sparks, a bit like a loading spinner or a 'refresh/sparkle' glyph. Solid: a cartoon bomb with a fizzing fuse. It doesn't clearly read as a popped bubble, and nothing ties it to valuation.",
+   "problems": [
+    "The solid version reads as a cartoon bomb: a filled black ball with three spark dashes off the upper right is the classic bomb-and-fuse picture. Finance users would take it for 'blow-up/risk' or 'explosive', not a bubble.",
+    "The outline version reads as an open ring with sparkles, close to a spinner or refresh glyph. A bubble needs to look light and see-through (a thin ring with a highlight). This one doesn't, and the gap plus dashes don't clearly say 'pop'.",
+    "At 16px and 20px the 4-point AI sparkle is gone, so the AI meaning is lost exactly where it matters. What's left is a broken circle with two ticks.",
+    "At 16px the spark dashes are about 1px fragments that look like noise or rendering errors, and the ring gap makes the shape look broken, not deliberately popped.",
+    "Footprint: the circle sits low-left and fills only about 70% of the frame, with sparks in the corner. In the 16/20 previews it looks noticeably smaller than its sheet neighbours (e.g. ai-capex-buildout, beverages).",
+    "Solid at 16–24: the inner highlight arc and sparkle are tiny knockouts that nearly close up, so the solid becomes a plain blob plus dashes, which pushes it further towards 'bomb'.",
+    "Nothing points to valuation (no price/level cue), so even the 'bubble' reading only works as a generic pop."
+   ],
+   "fixes": [
+    "Draw the bubble as a full, centred, near-frame-filling circle (about 20px diameter on the 24 grid) so it matches neighbours' footprint. Show the pop as two or three short burst lines spaced evenly around the rim and a few small droplet dots or arc fragments flying outward, not one spark cluster in the upper right (that's what makes it read as a fuse).",
+    "Better still, use a burst silhouette: break the circle into three or four arc fragments with radial gaps and short outward ticks, so it's clearly a bubble shattering, not a ball with a fuse.",
+    "Keep the bubble light. In the solid, avoid a heavy filled disk; use a filled ring or a disk with a large crescent highlight knockout (≥2px at 24) so it reads as a bubble, not a bomb. Check that the knockouts stay open at 16/20.",
+    "Keep an AI cue at every size: put the 4-point sparkle inside the bubble at 16 and 20 too (simplified to a 4–5px plus-star), or swap it for a small chip/node mark that survives at 16px.",
+    "Optional valuation cue: a small rising-then-falling line inside the bubble, or a bubble resting on a short baseline, if it doesn't clutter 16px.",
+    "Redraw 16 and 20 separately: at most two burst ticks, each at least 2px long at full stroke width, no fragments under 1.5px.",
+    "Re-check the solid on the sheet beside ai-capex-buildout and equity-volatility so it no longer looks like a bomb icon."
+   ]
+  },
+  "cost": 1.49
  }
 ]
