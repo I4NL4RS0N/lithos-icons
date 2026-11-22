@@ -1,0 +1,803 @@
+{
+  "concept": "prediction-markets",
+  "query": "ticket",
+  "fetched": "2026-11-22T17:23:39.216Z",
+  "topTerms": [
+    [
+      "ticket",
+      48
+    ],
+    [
+      "pass",
+      24
+    ],
+    [
+      "admission",
+      20
+    ],
+    [
+      "event",
+      16
+    ],
+    [
+      "entry",
+      15
+    ],
+    [
+      "travel",
+      11
+    ],
+    [
+      "coupon",
+      10
+    ],
+    [
+      "booking",
+      10
+    ],
+    [
+      "access",
+      7
+    ],
+    [
+      "flight",
+      4
+    ],
+    [
+      "voucher",
+      4
+    ],
+    [
+      "holiday",
+      4
+    ],
+    [
+      "tickets",
+      4
+    ],
+    [
+      "cinema",
+      3
+    ],
+    [
+      "transportation",
+      3
+    ],
+    [
+      "help",
+      3
+    ],
+    [
+      "service",
+      3
+    ],
+    [
+      "support",
+      3
+    ],
+    [
+      "new-year",
+      3
+    ],
+    [
+      "vacation",
+      3
+    ],
+    [
+      "match",
+      3
+    ],
+    [
+      "stadium",
+      3
+    ],
+    [
+      "boarding",
+      2
+    ],
+    [
+      "business",
+      2
+    ],
+    [
+      "customer",
+      2
+    ],
+    [
+      "festival",
+      2
+    ],
+    [
+      "party",
+      2
+    ],
+    [
+      "star",
+      2
+    ],
+    [
+      "entertainment",
+      2
+    ],
+    [
+      "journey",
+      2
+    ],
+    [
+      "reservation",
+      2
+    ],
+    [
+      "railway",
+      2
+    ],
+    [
+      "football",
+      2
+    ],
+    [
+      "soccer",
+      2
+    ],
+    [
+      "movie",
+      2
+    ],
+    [
+      "seat",
+      2
+    ],
+    [
+      "ticket ticket",
+      1
+    ],
+    [
+      "concert",
+      1
+    ],
+    [
+      "film",
+      1
+    ],
+    [
+      "ticket-ticket",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "ticket ticket",
+          "tags": [
+            "access",
+            "cinema",
+            "concert",
+            "film",
+            "ticket",
+            "ticket-ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7096732-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "airplane",
+            "flight",
+            "holidays",
+            "ticket",
+            "transportation",
+            "vacations"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8517386-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "admit",
+            "boarding",
+            "cinema",
+            "flight",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510498-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "coupon",
+            "entry",
+            "event",
+            "pass",
+            "ticket",
+            "voucher"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510496-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "business",
+            "customer",
+            "help",
+            "service",
+            "support",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510069-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "business",
+            "customer",
+            "help",
+            "service",
+            "support",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8510050-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "event",
+            "festival",
+            "holiday",
+            "new-year",
+            "party",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508733-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "event",
+            "festival",
+            "holiday",
+            "new-year",
+            "party",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508702-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "boarding",
+            "pass",
+            "ticket",
+            "ticketing",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506747-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "entry",
+            "event",
+            "pass",
+            "ticket",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8502977-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "event",
+            "pass",
+            "star",
+            "ticket",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8502819-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "celebration",
+            "firework",
+            "new-year",
+            "ticket",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8502802-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "snow",
+            "snowflake",
+            "ticket",
+            "ticket",
+            "weather",
+            "winter"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8497673-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "booking",
+            "entry",
+            "event",
+            "pass",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492332-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "booking",
+            "entry",
+            "event",
+            "pass",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492306-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "event",
+            "pass",
+            "star",
+            "ticket",
+            "voucher"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8490978-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "access",
+            "coupon",
+            "pass",
+            "ticket",
+            "tickets"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487840-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "access",
+            "coupon",
+            "pass",
+            "ticket",
+            "tickets"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487823-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "cinema",
+            "entertainment",
+            "event",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485564-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "coupon",
+            "entry",
+            "pass",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8481640-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "flight",
+            "holiday",
+            "ticket",
+            "travel",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476184-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "access",
+            "admission",
+            "coupon",
+            "entry",
+            "pass",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "booking",
+            "journey",
+            "ticket",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473625-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "help",
+            "issue",
+            "service",
+            "support",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "booking",
+            "online",
+            "ticket",
+            "train",
+            "web"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464559-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tickets",
+          "tags": [
+            "concert-ticket",
+            "entertainment-event",
+            "event-ticket",
+            "festival-entry",
+            "tickets"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8459534-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "circus",
+            "entertainment",
+            "event",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8454842-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "booking",
+            "event",
+            "pass",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450050-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "booking",
+            "event",
+            "pass",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8450024-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "booking-confirmation",
+            "ticket",
+            "train-ticket",
+            "travel-voucher"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8448720-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "access",
+            "admission",
+            "entry",
+            "pass",
+            "ticket",
+            "voucher"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8448210-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "booking",
+            "journey",
+            "ticket",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8448033-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "booking",
+            "entry",
+            "pass",
+            "reservation",
+            "ticket",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8448012-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "pass",
+            "railway",
+            "ticket",
+            "transport",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8444369-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "access",
+            "admission",
+            "booking",
+            "coupon",
+            "pass",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8440786-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "entry",
+            "football",
+            "pass",
+            "soccer",
+            "ticket",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436870-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "flight",
+            "plane",
+            "ticket",
+            "transportation",
+            "travel",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435964-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "movie",
+            "theatre",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435554-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "cinema-ticket",
+            "coupon",
+            "event",
+            "movie",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8434349-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "tickets",
+          "tags": [
+            "holiday",
+            "tickets",
+            "travel",
+            "trip",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8434148-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "coupon",
+            "dollar",
+            "pass",
+            "ticket",
+            "voucher"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8433517-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "entry",
+            "event",
+            "match",
+            "stadium",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8432372-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "coupon",
+            "football",
+            "pass",
+            "soccer",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8431912-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "entry",
+            "event",
+            "match",
+            "stadium",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430178-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "access",
+            "admission",
+            "coupon",
+            "entry",
+            "event",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8429461-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "fare",
+            "pass",
+            "railway",
+            "station",
+            "ticket",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8426951-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "entry",
+            "match",
+            "price",
+            "seat",
+            "stadium",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8426916-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "admission",
+            "entry",
+            "pass",
+            "seat",
+            "show",
+            "ticket"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8425551-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "immigration",
+            "pass",
+            "ticket",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424525-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Ticket",
+          "tags": [
+            "booking",
+            "entry",
+            "pass",
+            "reservation",
+            "ticket",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8423284-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

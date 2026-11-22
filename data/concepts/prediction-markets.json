@@ -1,0 +1,17 @@
+{
+  "id": "prediction-markets",
+  "name": "Prediction Markets",
+  "kind": "theme",
+  "metaphor": "crystal-ball",
+  "keywords": [
+    "prediction markets",
+    "event contracts",
+    "Kalshi",
+    "CFTC",
+    "Polymarket"
+  ],
+  "reduction": "16 and 20: large sphere seated in a wide trapezoid stand, one glint arc at upper left, nothing else inside. 24: adds a small glint dot. 32 and 48: adds a second, shorter inner glint arc. Solid: glints are knockouts, and a knockout band separates the sphere from the stand.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

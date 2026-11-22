@@ -4991,5 +4991,42 @@
    ]
   },
   "cost": 2.7
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:35:07.602Z",
+  "mode": "add",
+  "id": "prediction-markets",
+  "name": "Prediction Markets",
+  "kind": "theme",
+  "picture": "crystal-ball",
+  "moves": "Event-contract venues and brokers reprice on CFTC versus state regulatory rulings, and gambling-betting stocks trade on the outcome.",
+  "source": "https://www.cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html",
+  "result": "added",
+  "attempts": 2,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A crystal ball on a trapezoid stand (fortune-telling / forecasting). The picture is clear, but the link to 'prediction markets' is a metaphor, not a literal picture.",
+   "problems": [
+    "The -near preview shows the same single icon as the main preview, not the parent and siblings, so distinctness against the parent could only be checked on the full sheets.",
+    "Solid 16px: the specular glint is a single tiny arc. It's only just visible in the per-icon preview, so at 16 the solid icon is close to a plain disc on a base.",
+    "Outline 24px: the highlight is an arc plus a dot that is almost too small to see. At 32 and 48 it is two arcs, so detail varies a little from size to size.",
+    "The ball-on-stand silhouette could be misread as a snow globe or a cloche/dome lamp without the highlight. Fortune-telling also overlaps a little in meaning with gambling-betting (the dice), though the shapes are clearly different.",
+    "The stand is a fairly thin trapezoid band at 16px. It reads, but it's close to the minimum."
+   ],
+   "fixes": [
+    "Optional: on solid 16 and 20, make the highlight knockout a little longer or wider (e.g. a 1px-wide arc spanning about 60°) so the glint stays readable.",
+    "Optional: use the same highlight at every size (one arc at 16/20, one arc plus a short second arc at 24 and up) and drop the lone dot at 24.",
+    "Regenerate the -near preview so it really shows the parent and siblings, for the record."
+   ]
+  },
+  "mapped": 0,
+  "why": "A growing regulated trading venue facing a state vs federal fight.",
+  "cost": 1.13
  }
 ]
