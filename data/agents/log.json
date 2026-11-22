@@ -5638,5 +5638,39 @@
    }
   },
   "cost": 0.63
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T20:44:45.624Z",
+  "mode": "refine",
+  "id": "cmbs",
+  "result": "rejected",
+  "reason": "judge: The office reading is lost. The squat block with a raised middle section and a slot looks like a briefcase or toolbox handle, especially in solid at 32/48, so it clashes with professional-service (briefcase). It also reads as a school or small castle, not commercial property.; The before version (a tall tower with a window grid) said 'office' more clearly. The new version fixes the near-duplicate with reits, but it isn't clearly better as a picture, so it fails the 'clearly better' bar.; ",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A short, wide low-rise building on two lines: a raised middle block with a slot in it and a centred door. It looks like a school, a small castle, or a toolbox or briefcase with a handle more than an office building. The 'office-on-tranches' idea only comes through faintly.",
+   "problems": [
+    "The office reading is lost. The squat block with a raised middle section and a slot looks like a briefcase or toolbox handle, especially in solid at 32/48, so it clashes with professional-service (briefcase). It also reads as a school or small castle, not commercial property.",
+    "The before version (a tall tower with a window grid) said 'office' more clearly. The new version fixes the near-duplicate with reits, but it isn't clearly better as a picture, so it fails the 'clearly better' bar.",
+    "16px outline: the door, the slot and the walls crowd together into a lumpy little outline. The two window marks are gone, and the remaining shape doesn't read as a building with any confidence.",
+    "16/20px solid: the only knockout left is a tiny door notch. Windows and the slot vanish, and the shape becomes a blob that looks like a hut or bag on lines.",
+    "The slot in the raised block looks like a handle or a letterbox, not a building feature, and it pulls the reading towards bags and boxes.",
+    "The building is short compared with its width, so it looks lighter and lower than rmbs/abs/clo above the same tranche lines."
+   ],
+   "fixes": [
+    "Draw a clearly commercial building, distinct from reits (one tall tower) and rmbs (a house with a pitched roof). For example, two office blocks of different heights side by side (tall and short) with a flat roofline, sitting on the two tranche lines. That reads as 'commercial property' and is distinct from reits.",
+    "Remove the slot in the raised top block; it reads as a briefcase handle. If you keep a raised section, make it a solid stepped setback with no hole.",
+    "Use simple window bands (horizontal strokes, or 2×2 square holes at 24+). At 16px use one clear window stroke per block instead of dropping all of them. Keep at least 1.5px gaps between strokes.",
+    "Solid: knock out windows as large bands or squares that survive at 16/20, plus a door, so the solid doesn't turn into a plain blob. Keep the outer silhouette identical to the outline.",
+    "Make the building taller so its top reaches the same line as rmbs/abs/clo, and keep the tranche lines at the same height and length as the siblings.",
+    "Before resubmitting, check against reits, corporate-finance (two blocks), banks and professional-service so the new silhouette isn't a near-duplicate. If you use two blocks, make them clearly different from corporate-finance's L-shape, for example by adding window rows and the tranche base."
+   ]
+  },
+  "cost": 0.72
  }
 ]
