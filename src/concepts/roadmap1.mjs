@@ -132,10 +132,22 @@ export default [
   {
     id: 'media', name: 'Media', kind: 'industry', parent: 'communication-services', metaphor: 'play-screen',
     keywords: ['entertainment', 'streaming', 'broadcasting', 'publishing', 'advertising', 'film', 'video'],
-    reduction: 'None — screen and play mark at all sizes.',
+    reduction: 'None — antennae, screen with play mark, and stand at all sizes; the play mark is a touch smaller at 16.',
     draw(k) {
-      const screen = k.rrect(0, 0.12, 1, 0.88, R), tri = [[0.4, 0.34], [0.68, 0.5], [0.4, 0.66]];
-      return { outline: [screen, k.poly(tri, { snap: false })], solid: [{ d: screen + k.offsetPoly(tri, k.sw * 0.75), fill: true }] };
+      // A broadcast set: rabbit-ear antennae on top and a pedestal stand below, so it reads as a TV (the media
+      // industry), not a video-player glyph or a brand mark, and fills the full height like its siblings.
+      const top = 0.24, bot = 0.82, cy = (top + bot) / 2;
+      const screen = k.rrect(0, top, 1, bot, R);
+      const t = pick(k, [0.12, 0.13, 0.13, 0.13, 0.12]), tri = [[0.43, cy - t], [0.43 + t * 1.7, cy], [0.43, cy + t]];
+      const ears = k.poly([[0.3, 0.02], [0.5, top], [0.7, 0.02]], { closed: false, snap: false });
+      const stand = k.path([['M', 0.5, bot], ['V', 1]]), base = k.path([['M', 0.3, 1], ['H', 0.7]]);
+      return {
+        outline: [screen, k.poly(tri, { snap: false }), ears, stand, base],
+        solid: [
+          { d: screen + k.offsetPoly(tri, k.sw * 0.75), fill: true },
+          { d: ears, fill: false }, { d: stand, fill: false }, { d: base, fill: false },
+        ],
+      };
     },
   },
   {
