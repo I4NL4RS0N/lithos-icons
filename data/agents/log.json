@@ -4954,5 +4954,42 @@
    ]
   },
   "cost": 1.43
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:31:29.512Z",
+  "mode": "add",
+  "id": "project-finance",
+  "name": "Project Finance",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: It doesn't read as a bridge. A wide curved top bar sits over one narrow, tall arch with a short ground line underneath. That shape is a torii gate or doorway: the deck barely spans past the arch, and there is no water or gap underneath and no road running across. A torii also carries cultural and religious meaning, which is risky for a finance icon.; The arch is tall and narrow like a door (about 1:1.3 width to height). A bridge arch is wide and low, springing from the ends of the span.; ",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A torii-style gate or a gateway/doorway under a curved lintel. The solid version reads as a tunnel portal or kiln mouth. It does not read as a bridge.",
+   "problems": [
+    "It doesn't read as a bridge. A wide curved top bar sits over one narrow, tall arch with a short ground line underneath. That shape is a torii gate or doorway: the deck barely spans past the arch, and there is no water or gap underneath and no road running across. A torii also carries cultural and religious meaning, which is risky for a finance icon.",
+    "The arch is tall and narrow like a door (about 1:1.3 width to height). A bridge arch is wide and low, springing from the ends of the span.",
+    "The deck has upturned ends and a double rail with short posts, which adds to the pagoda/torii look.",
+    "Solid 16px and 20px: the slots between the rail posts fill in to a dark bar, and the shape becomes a black blob with a doorway hole. The bridge detail disappears.",
+    "Outline 16px: the double-rail deck becomes a two-line smudge and the arch looks like a small hood sitting on the ground line.",
+    "The solid version has a heavy, filled spandrel mass, so it looks like a masonry tunnel entrance rather than a span."
+   ],
+   "fixes": [
+    "Redraw it as a horizontal span: one flat or gently cambered deck line running almost the full 24px width (about x=2 to x=22), roughly at y=9–10.",
+    "Put a wide, shallow arch under the deck, springing near the two ends of the deck at about y=18–19 and rising to meet the deck in the middle, so the arch is clearly wider than it is tall (about 18 wide × 8 high).",
+    "Add 3–5 vertical hangers or spandrel posts between the arch and the deck. Drop the top double rail and the upturned deck ends, which are what create the torii/pagoda look.",
+    "Show what the bridge crosses: either short abutment stubs at both ends going down to the baseline, or one or two short wave/water dashes under the arch instead of a solid ground line through the opening.",
+    "At 16px and 20px, use only the deck, the arch and 2–3 posts, all on the pixel grid with at least 1.5px gaps. Leave out any rail detail.",
+    "For solid: fill the deck as a bar and leave the space between the arch and deck as knocked-out post gaps (or fill the spandrels but keep a clear knockout under the arch). Keep the open area under the arch so it doesn't turn into a tunnel portal. Match the outline's footprint exactly.",
+    "Check data/metaphors.json for an existing bridge/infrastructure metaphor and reuse it if there is one."
+   ]
+  },
+  "cost": 2.7
  }
 ]
