@@ -4848,5 +4848,41 @@
    ]
   },
   "cost": 1.02
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:23:38.838Z",
+  "mode": "add",
+  "id": "homebuilding",
+  "name": "Homebuilding",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The composition is lopsided. The left bay is a closed rectangle with one diagonal brace, and the right side is just a lone free-standing post with no sill, top plate or base. It looks broken or unfinished in the wrong way, not like a deliberate timber frame.; The single diagonal inside a closed box reads as a 'slash' or crossed-out mark (no entry / cancelled), not as stud framing. That works against the meaning.; The centre king post runs from the apex down into the box and meets the diag",
+  "scores": {
+   "reads_as": "A gable-roofed house frame, partly built. Could be 'house under construction', but the slashed box on the left also reads as a crossed-out door or an unfinished/blocked house.",
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "problems": [
+    "The composition is lopsided. The left bay is a closed rectangle with one diagonal brace, and the right side is just a lone free-standing post with no sill, top plate or base. It looks broken or unfinished in the wrong way, not like a deliberate timber frame.",
+    "The single diagonal inside a closed box reads as a 'slash' or crossed-out mark (no entry / cancelled), not as stud framing. That works against the meaning.",
+    "The centre king post runs from the apex down into the box and meets the diagonal and the box edge. At 16px and 20px these lines merge into a small knot at the left of the icon, so the frame isn't readable.",
+    "The frame has no ground line or bottom plate across the full width, so the right post has a loose, uncapped end. Neighbours such as real-estate, wholesale-trade and rmbs all sit on a closed base.",
+    "The solid version only fills the roof triangle. The walls stay as thin outline strokes, so the solid looks like a roof stuck on an outline icon and carries less weight than its row neighbours. At 16px the solid reads as a dark arrow tip over a few lines.",
+    "The visual weight is top-heavy and off-centre. The mass sits upper-left and the lower right is empty, unlike the balanced fills of its siblings."
+   ],
+   "fixes": [
+    "Redraw as a symmetric timber frame: a gable roof outline, a continuous bottom sill across the full width, and two outer wall posts that meet the sill, all closed at the base.",
+    "Inside the walls, use 2–3 evenly spaced vertical studs, or studs plus one horizontal noggin. Drop the single diagonal-in-a-box, or, if you keep bracing, mirror it in both bays (an X or matching braces) so it doesn't read as a slash.",
+    "End the king post at the top plate, or remove it. Don't run it through the wall box. At 16px use only the roof outline, two posts, one middle stud and the sill, with at least 2px gaps between parallel strokes.",
+    "Solid: fill the roof gable and draw the wall studs as knockouts from a filled wall block (or keep both as strokes, but match stroke weight to the solid neighbours). The silhouette must match the outline footprint exactly.",
+    "Keep the roof eaves overhanging slightly past the walls so the silhouette stays clearly 'house'. Check against real-estate and rmbs that the interior framing, not the outline, is what tells them apart.",
+    "Balance the mass on the vertical axis so the icon fills the 24px live area as fully as wholesale-trade and real-estate at every size."
+   ]
+  },
+  "cost": 1.13
  }
 ]
