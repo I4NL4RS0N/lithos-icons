@@ -1,0 +1,806 @@
+{
+  "concept": "market-stabilisation-measures",
+  "query": "life ring",
+  "fetched": "2026-11-22T17:35:08.026Z",
+  "topTerms": [
+    [
+      "life ring",
+      50
+    ],
+    [
+      "life-ring",
+      50
+    ],
+    [
+      "safety",
+      21
+    ],
+    [
+      "rescue",
+      18
+    ],
+    [
+      "help",
+      17
+    ],
+    [
+      "lifeguard",
+      11
+    ],
+    [
+      "life",
+      10
+    ],
+    [
+      "ring",
+      10
+    ],
+    [
+      "float",
+      8
+    ],
+    [
+      "lifebuoy",
+      8
+    ],
+    [
+      "sea",
+      7
+    ],
+    [
+      "security",
+      7
+    ],
+    [
+      "emergency",
+      6
+    ],
+    [
+      "buoy",
+      5
+    ],
+    [
+      "life-guard",
+      5
+    ],
+    [
+      "beach",
+      5
+    ],
+    [
+      "vacation",
+      5
+    ],
+    [
+      "swim",
+      5
+    ],
+    [
+      "lifebelt",
+      4
+    ],
+    [
+      "gear",
+      4
+    ],
+    [
+      "options",
+      4
+    ],
+    [
+      "water",
+      3
+    ],
+    [
+      "holiday",
+      3
+    ],
+    [
+      "travel",
+      3
+    ],
+    [
+      "life-preserver",
+      3
+    ],
+    [
+      "summer",
+      3
+    ],
+    [
+      "animation",
+      2
+    ],
+    [
+      "rescue-ring",
+      2
+    ],
+    [
+      "swimming-icon",
+      2
+    ],
+    [
+      "water-safety",
+      2
+    ],
+    [
+      "save",
+      2
+    ],
+    [
+      "support",
+      2
+    ],
+    [
+      "floating",
+      2
+    ],
+    [
+      "rubberring",
+      2
+    ],
+    [
+      "safe-guard",
+      2
+    ],
+    [
+      "lifesaver",
+      2
+    ],
+    [
+      "survival",
+      2
+    ],
+    [
+      "life-buoy",
+      2
+    ],
+    [
+      "rubbering",
+      1
+    ],
+    [
+      "rubber",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "life ring",
+          "tags": [
+            "float",
+            "life",
+            "life-ring",
+            "rescue",
+            "safety",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8499282-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "animation",
+            "life-ring",
+            "rescue-ring",
+            "swimming-icon",
+            "water-safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488876-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "animation",
+            "life-ring",
+            "rescue-ring",
+            "swimming-icon",
+            "water-safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488841-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "help",
+            "life-ring",
+            "rescue",
+            "ring",
+            "save",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477891-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "help",
+            "life-ring",
+            "rescue",
+            "ring",
+            "save",
+            "support"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8389543-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "buoy",
+            "life-ring",
+            "life-ring",
+            "rescue",
+            "safety",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8270388-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "emergency",
+            "float",
+            "help",
+            "life-ring",
+            "life-ring",
+            "rescue"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8176874-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "emergency",
+            "float",
+            "life-ring",
+            "rescue",
+            "safety",
+            "water"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8171388-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "emergency",
+            "float",
+            "help",
+            "life-ring",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8072813-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "floating",
+            "life-guard",
+            "life-ring",
+            "rescue",
+            "safety",
+            "sea"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8050984-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "floating",
+            "life-guard",
+            "life-ring",
+            "rescue",
+            "safety",
+            "sea"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8050974-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "emergency",
+            "float",
+            "help",
+            "life-ring",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8010103-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "emergency",
+            "float",
+            "help",
+            "life-ring",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8009990-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "buoy",
+            "life",
+            "life-ring",
+            "rescue",
+            "ring",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7645299-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "beach",
+            "life-ring",
+            "lifebelt",
+            "lifeguard",
+            "rubbering",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7560814-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "beach",
+            "life-ring",
+            "lifebelt",
+            "lifeguard",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7560813-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "lifebelt",
+            "lifeguard",
+            "rubberring",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7422720-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "lifebelt",
+            "lifeguard",
+            "rubber",
+            "rubberring"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7422659-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "buoyancy",
+            "life-ring",
+            "lifesaving",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7268443-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "gear",
+            "help",
+            "life-ring",
+            "options",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7223338-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "gear",
+            "help",
+            "life-ring",
+            "options",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7223320-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "gear",
+            "help",
+            "life-ring",
+            "options",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7223282-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "gear",
+            "help",
+            "life-ring",
+            "options",
+            "safety",
+            "security"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7223276-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "childhood",
+            "game",
+            "games",
+            "life-ring",
+            "play",
+            "toys"
+          ],
+          "thumb": "https://static.thenounproject.com/png/7119921-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life-guard",
+            "life-ring",
+            "safe-guard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6761080-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life-guard",
+            "life-ring",
+            "safe-guard"
+          ],
+          "thumb": "https://static.thenounproject.com/png/6761070-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "flotation",
+            "life-ring",
+            "lifebuoy",
+            "lifeguard",
+            "lifesaver",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5864846-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "nautical",
+            "ring",
+            "sea"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5460152-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "emergency",
+            "help",
+            "life-ring",
+            "man",
+            "people",
+            "rescue"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5320499-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "holiday",
+            "journey",
+            "life-ring",
+            "tourist",
+            "travel",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/5319590-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "float",
+            "help",
+            "life-guard",
+            "life-ring",
+            "lifesaver"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4934187-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "buoy",
+            "help",
+            "life-ring",
+            "lifeguard",
+            "safety",
+            "survival"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4867632-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "buoy",
+            "help",
+            "life-ring",
+            "lifeguard",
+            "safety",
+            "survival"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4867586-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "help",
+            "life-preserver",
+            "life-ring",
+            "lifeguard",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4864634-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "help",
+            "life-preserver",
+            "life-ring",
+            "lifeguard",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4864297-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "help",
+            "life-preserver",
+            "life-ring",
+            "lifeguard",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4864268-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "buoy",
+            "life-buoy",
+            "life-ring",
+            "lifebuoy",
+            "lifeguard",
+            "ship"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4789405-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "insurance",
+            "life-ring",
+            "lifebuoy",
+            "safe",
+            "swim"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4731021-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "beach",
+            "life-ring",
+            "lifebuoy",
+            "summer",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4675963-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "beach",
+            "life-ring",
+            "lifebuoy",
+            "summer",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4675626-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life-belt",
+            "life-buoy",
+            "life-ring",
+            "ring-buoy",
+            "safety-equipment"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4598247-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "beach",
+            "holiday",
+            "life-ring",
+            "picnic"
+          ],
+          "thumb": "https://static.thenounproject.com/png/4575655-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "lifebuoy",
+            "ring",
+            "sea",
+            "swim"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3928228-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "lifebuoy",
+            "ring",
+            "swim"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3928183-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "drowning",
+            "float",
+            "life-ring",
+            "overboard",
+            "rescue",
+            "safety"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3565059-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life-ring",
+            "lifebuoy"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3475507-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "ring",
+            "sea",
+            "swimming",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3460118-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "ring",
+            "sea",
+            "swim",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3284755-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "life",
+            "life-ring",
+            "ring",
+            "sea",
+            "swim",
+            "vacation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3284725-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "life ring",
+          "tags": [
+            "holiday",
+            "life-ring",
+            "ring",
+            "summer",
+            "travel"
+          ],
+          "thumb": "https://static.thenounproject.com/png/3183142-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

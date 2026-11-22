@@ -5028,5 +5028,40 @@
   "mapped": 0,
   "why": "A growing regulated trading venue facing a state vs federal fight.",
   "cost": 1.13
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T17:42:03.138Z",
+  "mode": "add",
+  "id": "market-stabilisation-measures",
+  "name": "Market Stabilisation",
+  "kind": "theme",
+  "picture": "life-ring",
+  "moves": "Equity markets in Korea, Taiwan and China get liquidity support as regulators ease margin rules, which dampens sell-offs.",
+  "source": "https://www.bloomberg.com/news/articles/2026-11-22/china-lowers-margin-requirement-to-80-to-boost-stock-liquidity",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A life-ring / life buoy (rescue, support, bailout). That fits a market backstop. A finance reader is more likely to say 'rescue/support' than 'stabilisation', but the picture is clear.",
+   "problems": [
+    "Solid 16px: the four knocked-out arcs are thin slivers, so the icon is close to reading as a plain donut or button. It's readable, but it's the weakest cell.",
+    "Outline 16px: the doubled diagonal band strokes plus the inner ring make the small circle look busy. The bands are still separate, but there isn't much spare room.",
+    "The metaphor leans toward 'rescue/help' (the usual support-desk symbol) rather than stabilisation as such. The label and context are needed to pin down the concept.",
+    "The life-buoy is a generic shape found in many icon sets. The doubled band edges keep this version from being a copy of any one set, but the margin is narrow."
+   ],
+   "fixes": [
+    "Optional: in the solid 16px drawing, widen the knockout arcs by about 0.25px or shorten them to fit the grid, so the four white segments read more clearly.",
+    "Optional: in the outline 16px drawing, think about using single band strokes instead of the doubled ones so the ring has more room."
+   ]
+  },
+  "mapped": 0,
+  "why": "Asian regulators are cutting margin requirements after the Wall Street plunge.",
+  "cost": 0.69
  }
 ]

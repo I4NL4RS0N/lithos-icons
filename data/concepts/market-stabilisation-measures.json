@@ -1,0 +1,16 @@
+{
+  "id": "market-stabilisation-measures",
+  "name": "Market Stabilisation",
+  "kind": "theme",
+  "metaphor": "life-ring",
+  "keywords": [
+    "margin requirement",
+    "stock market rescue",
+    "circuit breaker",
+    "stabilisation fund"
+  ],
+  "reduction": "16-20: two rings joined by one line on each diagonal. 24+: each band drawn as two parallel lines. Solid at every size: filled ring with a curved slot in each white quarter, slots widen with size.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}
