@@ -5136,5 +5136,43 @@
    ]
   },
   "cost": 1.4
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:12:15.516Z",
+  "mode": "add",
+  "id": "maritime-chokepoints",
+  "name": "Maritime Chokepoints",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The strait doesn't read. The two landmasses (a left wedge and a top-right notched box) don't look like they're squeezing a channel. They look like unrelated blocks, and the top-right one sits on top of the ship rather than beside it.; The tanker doesn't read. The hull is a short tray with a tall box on its stern. That reads as a basket, a cart or a generic boat, not a long, low tanker. Hull and land overlap into one cluster.; The composition is unbalanced and crowded towards the top right",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "A jumble of abstract blocks: a leaning slab or tombstone on the left, a tray or basket with a flag-like box on the top right, and squiggles underneath. Without the label nobody would see a strait or a tanker. At best it reads as 'a boat by some rocks'.",
+   "problems": [
+    "The strait doesn't read. The two landmasses (a left wedge and a top-right notched box) don't look like they're squeezing a channel. They look like unrelated blocks, and the top-right one sits on top of the ship rather than beside it.",
+    "The tanker doesn't read. The hull is a short tray with a tall box on its stern. That reads as a basket, a cart or a generic boat, not a long, low tanker. Hull and land overlap into one cluster.",
+    "The composition is unbalanced and crowded towards the top right, with empty space at the top left and bottom left. At 16 and 20px it sits small in the frame and doesn't fill the box the way its neighbours do.",
+    "At 16px the waves turn into a single smudgy line and the land, hull and top-right box merge into one blob. Nothing is open.",
+    "Solid: the shapes merge into one dark mass. The only knockout is a tiny window dot, which disappears at 16 and 20px. The ship and land have no separation, so the silhouette can't be read.",
+    "The gap between land and ship isn't kept clear at small sizes, so the 'choke' (the narrow passage), which is the whole idea, disappears.",
+    "The near-preview showed only this icon, with no parent or siblings, so I couldn't fully check distinctness. It probably overlaps with the recent Ports icon (ship plus water)."
+   ],
+   "fixes": [
+    "Redraw as a symmetric top-down or front view: two landmasses (simple curved headlands) coming in from the left and right edges, with a narrow channel between them, filling the full 24px width.",
+    "Put a single tanker in the channel, drawn top-down as a long pointed hull (a capsule with a pointed bow) and running vertically through the gap. Alternatively, use a side view with a long, low hull and a small bridge block at the stern, plus clear gaps of at least 2px to both shores.",
+    "Drop the separate wave squiggles at 16 and 20px. Show water through negative space only, or use one simple wave line drawn at those sizes.",
+    "Make the shapes fill the frame (land touching the left and right edges, the ship spanning about 70% of the height) so the footprint matches its neighbours at every size.",
+    "Solid: fill the land masses and the hull, and keep a clear 1.5–2px knockout channel between the hull and each shore. Add a deck or bridge knockout that is still visible at 20px.",
+    "Draw 16px separately: two headland shapes and one hull, with no window dots or extra boxes.",
+    "Make it clearly different from Ports (no quay or crane) by making the narrow passage the main feature."
+   ]
+  },
+  "cost": 5.47
  }
 ]
