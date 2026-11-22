@@ -5174,5 +5174,360 @@
    ]
   },
   "cost": 5.47
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:20.976Z",
+  "mode": "review",
+  "id": "apparel",
+  "name": "Apparel",
+  "result": "pass",
+  "scores": {
+   "recognisable": 5,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "a short-sleeved t-shirt with a round neck, so clothing or apparel",
+   "problems": [
+    "At 16px the collar curve shrinks to about one pixel of dip. The outline still reads as a shirt, but the neckline is barely there.",
+    "The solid version is a plain silhouette with no inner knockout. That is fine for this shape, but at 16px the only detail left is the collar notch, so solid 16 reads a little blobby next to its siblings.",
+    "At 24px it looks a touch smaller than 48px compared with the frame (roughly 20 of 24 px against 43 of 48 px). It is still in line with neighbours like retail and furniture.",
+    "A t-shirt silhouette is a very common icon idea. This drawing is generic and not copied, but it is not especially distinctive either."
+   ],
+   "fixes": [
+    "Optional: at 16px, make the collar dip deeper by about half a pixel, in both outline and solid, so the neckline holds up.",
+    "Optional: at 24px, push the sleeve tips and the hem out by about half a pixel so the icon fills the frame like the 48px version does."
+   ]
+  },
+  "problems": [],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:22.347Z",
+  "mode": "review",
+  "id": "fishing",
+  "name": "Fishing",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A small side-on fish with a forked tail. It reads as a fish or seafood. Fishing is a reasonable guess.",
+   "problems": [
+    "It sits small in its box. The fish spans the width but only about 40–45% of the height, so it has far less ink than its neighbours. Livestock, crops and agriculture all reach close to the full 24px height. In sheet-24 it is one of the lightest, smallest-looking icons in the set.",
+    "At 16px the outline loses its eye, and the body and tail become a thin, tiny squiggle about 6px tall. It is technically open but too small to read with confidence beside its siblings.",
+    "At 16px and 20px the solid is a small blob, and the tail notch is barely visible.",
+    "The tail tips are sharp, which clashes with the round caps and joins used elsewhere in the family. This is minor but visible at 32 and 48px.",
+    "The drawing is extremely generic: an oval body with an eye and a V tail. It is close to the stock fish glyph in common open icon sets, so it needs some character of its own to avoid looking copied."
+   ],
+   "fixes": [
+    "Redraw the 24px master so the fish fills about 20×16 of the live area instead of about 20×10. Make the body deeper, about 12–14px tall, and the tail taller, reaching close to the top and bottom of the safe area. Its ink weight should then match livestock and crops.",
+    "Option: tilt the fish slightly or arc it, as if leaping or caught, to use more of the vertical space and suggest 'fishing', not just 'fish'. Another option is a short hook or line above the fish, if the metaphor in data/metaphors.json allows it.",
+    "Draw the 16px version separately, with a body at least 10px tall and a simple open tail. Keep it as large as the 16px siblings. Drop the eye only if the body stays clearly a fish shape.",
+    "For solid 16 and 20px, keep a clear tail notch at least 1.5px wide and a punched-out eye where the size allows it. Match the larger outline footprint.",
+    "Round the tail corners and the body–tail junction so they match the round joins used across the set."
+   ]
+  },
+  "problems": [
+   "It sits small in its box. The fish spans the width but only about 40–45% of the height, so it has far less ink than its neighbours. Livestock, crops and agriculture all reach close to the full 24px height. In sheet-24 it is one of the lightest, smallest-looking icons in the set.",
+   "At 16px the outline loses its eye, and the body and tail become a thin, tiny squiggle about 6px tall. It is technically open but too small to read with confidence beside its siblings.",
+   "At 16px and 20px the solid is a small blob, and the tail notch is barely visible.",
+   "The tail tips are sharp, which clashes with the round caps and joins used elsewhere in the family. This is minor but visible at 32 and 48px."
+  ],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:25.650Z",
+  "mode": "review",
+  "id": "crops",
+  "name": "Crops",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48px: a stylised wheat ear or fern. At 16/20px: a trident, pitchfork or candelabra (a stem with one pair of upturned prongs). At 24px: a stack of chevrons, like a fishbone or herringbone.",
+   "problems": [
+    "The grain is drawn as open U-shaped arcs, not kernels. With no seed or teardrop shapes it reads as prongs or chevrons, not a wheat ear. At 16/20px it is a trident or pitchfork.",
+    "The level of detail jumps between sizes: about 1 tier of arcs at 16, 2 at 20, 3 tightly stacked at 24, then 3 looser at 32/48. The 24px master looks the most crowded of all the sizes.",
+    "At 24px outline the three nested arcs are so close that the counters close up into a dark herringbone. Their arms nearly touch.",
+    "The footprint is too narrow and short. At every size the icon spans only about 40–55% of the frame width and sits well inside the box. Neighbours (agriculture, forestry, fishing, livestock) fill about 80–90%, so crops looks undersized in the near-sheet.",
+    "Solid is not a real solid. It is the same stroked arcs made heavier (filled crescents) with no enclosed shapes and no knockouts. At 16/20 it blobs into an arrow or tuft and gets even smaller than the outline.",
+    "The solid footprint differs from the outline. The tiers are arranged and counted differently (e.g. 24 solid has 2 tiers while 24 outline has 3), so the two styles don't match.",
+    "The stem runs well below the grain with nothing to anchor it. Most of the vertical space is a bare stick, which adds to the fork reading."
+   ],
+   "fixes": [
+    "Redraw the ear as kernels: 2 columns of closed teardrop or almond grains angled about 30–40° off a central stem, plus an optional single tip grain. Use 3 pairs plus a tip at 24/32/48 and 2 pairs plus a tip at 16/20. That keeps it a wheat ear and not a fork.",
+    "Fill the frame. Make the ear about 18–20px tall within the 24 grid (on the 2px padding line) and about 10–12px wide, matching how much of the box agriculture and livestock fill. Consider a slight diagonal (e.g. 45° bottom-left to top-right) to use more of the box, or use two crossed ears for width.",
+    "Shorten the bare stem to about 3–4px below the lowest grain at 24px. A small leaf or awn can anchor it if needed.",
+    "Keep at least 2px clear space (one stroke width) between neighbouring grains at 24 and above, and at least 1.5px at 16/20, so the counters stay open.",
+    "For solid, fill each kernel as a closed shape with the same outer footprint as the outline. Separate the kernels from the stem with a clear knockout gap (about 1.5–2px at 24, 1px at 16) so they don't merge into one mass.",
+    "Keep the grain count and placement the same in outline and solid at each size, and make only small optical changes between the separately drawn sizes.",
+    "Check at 16px that the shape still reads as grain clusters and not prongs. If 2 pairs plus a tip clogs, use filled kernels even in outline at 16 rather than going back to open arcs."
+   ]
+  },
+  "problems": [
+   "The grain is drawn as open U-shaped arcs, not kernels. With no seed or teardrop shapes it reads as prongs or chevrons, not a wheat ear. At 16/20px it is a trident or pitchfork.",
+   "The level of detail jumps between sizes: about 1 tier of arcs at 16, 2 at 20, 3 tightly stacked at 24, then 3 looser at 32/48. The 24px master looks the most crowded of all the sizes.",
+   "At 24px outline the three nested arcs are so close that the counters close up into a dark herringbone. Their arms nearly touch.",
+   "The footprint is too narrow and short. At every size the icon spans only about 40–55% of the frame width and sits well inside the box. Neighbours (agriculture, forestry, fishing, livestock) fill about 80–90%, so crops looks undersized in the near-sheet."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:27.408Z",
+  "mode": "review",
+  "id": "livestock",
+  "name": "Livestock",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a horned bull or cow head, though the tall straight-sided rounded-rectangle face and the horizontal band make it look a bit like a robot or a cup with horns. At 16/20: a horned cup or jar with no features (it could be a bucket or a devil/viking mark), not clearly an animal.",
+   "problems": [
+    "The 16px outline is just a U-shaped cup with two horn hooks. It has no eyes, no muzzle and no ears, so it reads as a horned cup or bucket rather than a cow.",
+    "Detail changes a lot from size to size. 16 has no features, 20 has only a horizontal band, 24 has eyes and a band, and 32/48 have eyes, a band and nostrils. The icon doesn't read as one drawing redrawn at each size.",
+    "The face is a tall rectangle with parallel sides. A cow head is wider at the forehead and tapers to a broad, rounded muzzle. With straight sides plus the horizontal band it reads as a robot face, a jar or a battery.",
+    "In the solid version the band knockout looks like a flat mouth or slot (robot or emoji), not a muzzle line. At 16px the solid has no knockouts at all, so it's a blob with horns.",
+    "It sits small in its box at 16, 20 and 24. The head is narrow and the horns are short, so it fills much less of the frame than fishing, agriculture or crops in the same row. The horns barely stick out past the face width.",
+    "There is no ear shape. Ears are the main cue that separates a cow from a generic horned mask.",
+    "The outline at 20/24 (a rounded rectangle with a horizontal band across it) looks too much like the rail icon's shape."
+   ],
+   "fixes": [
+    "Redraw the head as a cow/bull outline: a wide forehead that tapers in at the cheeks, then flares into a broad rounded muzzle about 70% of the forehead width. Don't use a straight-sided rectangle.",
+    "Add ears as small leaf or teardrop shapes pointing out sideways just below the horns, at every size including 16 (simplify them there to short angled strokes). Make the horns curve up and out, and extend them so the horns plus ears span about 20 of the 24 units of width.",
+    "Remove the horizontal band. Show the muzzle as a separate rounded shape (an oval outline) with two nostril dots, or in solid two nostril knockouts in the muzzle. Keep the two eyes above it.",
+    "Use the same features at every size: horns, ears, two eyes and a muzzle with nostrils. At 16px use eye dots of at least 1.5px and a muzzle with two nostril knockouts, so the 16px solid isn't a blank blob.",
+    "Scale the drawing up at 16, 20 and 24 so the head fills the frame vertically (about 2px of padding at 24) and its width (horns and ears) matches the visual weight of the neighbouring fishing and crops icons.",
+    "Check the solid knockouts at 16 and 20. Eyes and nostrils need to stay open, with at least 1px gaps that don't fill in."
+   ]
+  },
+  "problems": [
+   "The 16px outline is just a U-shaped cup with two horn hooks. It has no eyes, no muzzle and no ears, so it reads as a horned cup or bucket rather than a cow.",
+   "Detail changes a lot from size to size. 16 has no features, 20 has only a horizontal band, 24 has eyes and a band, and 32/48 have eyes, a band and nostrils. The icon doesn't read as one drawing redrawn at each size.",
+   "The face is a tall rectangle with parallel sides. A cow head is wider at the forehead and tapers to a broad, rounded muzzle. With straight sides plus the horizontal band it reads as a robot face, a jar or a battery.",
+   "In the solid version the band knockout looks like a flat mouth or slot (robot or emoji), not a muzzle line. At 16px the solid has no knockouts at all, so it's a blob with horns."
+  ],
+  "cost": 0.12
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:42.126Z",
+  "mode": "review",
+  "id": "publishing",
+  "name": "Publishing",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "An open book (two pages with a centre spine), so publishing, books or reading",
+   "problems": [
+    "The open book is a generic picture. Without the label it could also mean reading, a library, documentation or education, so the link to the publishing industry relies on the book metaphor alone.",
+    "In the solid version, the spine knockout at 16px is very thin (about 1px). It is still visible in both themes, but only just. At 16px the solid shape mainly reads as a 'bow-tie' silhouette.",
+    "The outline has no centre spine line. Only the dip at the top and bottom marks the fold, so at 16px the two pages run together a little. This is still clean and readable.",
+    "The icon is wide and short, as an open book naturally is, so it uses less height than square-ish neighbours like telecom and advertising. It still fills the width at every size, like media does, so this is acceptable."
+   ],
+   "fixes": [
+    "Optional: at 16px solid, widen the spine knockout to a full 1.5–2px gap so it survives antialiasing.",
+    "Optional: add a short centre spine stroke in the outline at 24/32/48 so it matches the solid's spine and the fold reads more clearly. Leave it out at 16px if it clogs.",
+    "Optional: raise the page tops slightly (a deeper V at the spine) to use a bit more vertical space at 16/20."
+   ]
+  },
+  "problems": [],
+  "cost": 0.1
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:43.435Z",
+  "mode": "review",
+  "id": "furniture",
+  "name": "Furniture",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "armchair / upholstered easy chair (could also be read as a small sofa)",
+   "problems": [
+    "Solid 16px: the seat knockout disappears, so the icon becomes a plain silhouette. The back, arms and legs still make it read as a chair, but there is no internal detail.",
+    "Solid 20/24px: the seat-cushion knockout is a thin, short slot that barely shows; it adds little.",
+    "Outline 16px: the gap between the seat cushion and the arms is tight, so the inner rectangle comes close to touching the arm strokes.",
+    "It is slightly squat compared with apparel and retail at 16–24px, though it stays within an acceptable footprint.",
+    "It is generic enough to read as 'sofa' or 'seat' as well as 'furniture'. That is acceptable for an industry icon."
+   ],
+   "fixes": [
+    "Optional: in the solid 20/24px versions, widen the seat knockout to a clear 1.5–2px slot, or drop it so the silhouette stays clean.",
+    "Optional: at outline 16px, shorten the inner seat cushion by about 0.5px on each side so it clears the arm strokes.",
+    "Optional: raise the backrest about 1px at 16–24px to bring the height closer to neighbouring icons."
+   ]
+  },
+  "problems": [],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:51.670Z",
+  "mode": "review",
+  "id": "postal-courier",
+  "name": "Postal & Courier",
+  "result": "pass",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "An envelope: mail or post. The picture is instantly clear, though it could be read as email or communications rather than the postal and courier industry.",
+   "problems": [
+    "A generic envelope reads more as 'email/messages' than as a postal/courier industry; meaning is slightly ambiguous.",
+    "At 16px solid the V flap knockout is thin, readable but close to the limit.",
+    "Its rounded-rectangle outline is the same family as consumer-finance (card); only the V flap tells them apart."
+   ],
+   "fixes": [
+    "Optional: add short motion/speed lines to the left of the envelope (as the parent's truck does) to say courier rather than email.",
+    "Optional: widen the V knockout slightly in the 16px solid so it stays clear on low-DPI screens.",
+    "If a communications or email concept is added later, check this icon against it again for near-duplicates."
+   ]
+  },
+  "problems": [],
+  "cost": 0.11
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:28:53.913Z",
+  "mode": "review",
+  "id": "waste-management",
+  "name": "Waste Management",
+  "result": "flag",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "The standard UI \"delete / trash\" button: a tapered can with a lid bar, a small handle and vertical slats. Nothing about it suggests the waste-management industry.",
+   "problems": [
+    "It is almost exactly the stock 'trash / delete' glyph found in Lucide (trash-2), Material (delete) and most other UI kits. A lid bar with a handle on top, a tapered body and two slats is the same build. That is very close to looking copied from a known icon.",
+    "In finance software this shape is read as the Delete action. Placed next to a holding or a sector label it suggests 'remove', not 'waste-management industry'. A finance professional would say 'delete' or 'trash' and would not name the sector.",
+    "Footprint is narrow. At 16 and 20px the body uses only about 60% of the frame width, and the outline at 16px sits visibly smaller than the envelope, furniture and lodging icons beside it. The handle on top also uses up height.",
+    "At 16px the slats drop to a single line, so the picture at 16 and at 24/48 is less alike than it is for the other icons. The solid version at 16 is a small blob with one slit.",
+    "At 16px solid its silhouette is close to its neighbour food-beverage: a tapered cup with a lid bar on top. The only difference is the straw."
+   ],
+   "fixes": [
+    "Redraw it as a wheeled kerbside bin (wheelie bin) seen from the side or at a slight angle. Give it a hinged lid that overhangs at the back, a straight or slightly tapered body, one or two wheels at the bottom corner and a short handle bar at the back top. This reads as municipal waste collection and not as the UI delete action.",
+    "Drop the centred handle on the lid and the vertical slats that define the stock trash glyph. If the body needs detail, use one horizontal band or a raised lid edge instead.",
+    "Widen the body so the bin fills about 20 of 24 units across at the 24px master and close to full width at 16/20, to match its neighbours in the frame. Let the wheels set the bottom edge.",
+    "Solid: fill the body and lid, and knock out the gap between lid and body plus the wheel hubs. Keep the outline's footprint at every size.",
+    "Check the new picture against data/metaphors.json for any existing bin or truck metaphor. A refuse truck is another option, but it must stay clearly different from the transportation truck."
+   ]
+  },
+  "problems": [
+   "It is almost exactly the stock 'trash / delete' glyph found in Lucide (trash-2), Material (delete) and most other UI kits. A lid bar with a handle on top, a tapered body and two slats is the same build. That is very close to looking copied from a known icon.",
+   "In finance software this shape is read as the Delete action. Placed next to a holding or a sector label it suggests 'remove', not 'waste-management industry'. A finance professional would say 'delete' or 'trash' and would not name the sector.",
+   "Footprint is narrow. At 16 and 20px the body uses only about 60% of the frame width, and the outline at 16px sits visibly smaller than the envelope, furniture and lodging icons beside it. The handle on top also uses up height.",
+   "At 16px the slats drop to a single line, so the picture at 16 and at 24/48 is less alike than it is for the other icons. The solid version at 16 is a small blob with one slit."
+  ],
+  "cost": 0.11
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:29:05.240Z",
+  "mode": "review",
+  "id": "electrical-equipment",
+  "name": "Electrical Equipment",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "An electrical plug (two prongs, a U-shaped body and a cord). It reads clearly as 'electrical' and is close enough to 'electrical equipment'.",
+   "problems": [
+    "The icon sits small in its frame. The plug body is only about 55–60% of the frame width at every size, so it looks much lighter and smaller than Machinery (gear), Aerospace (plane), Waste Management (bin) and Industrials (factory) in the comparison image. This is most obvious at 48px, where the plug is about two-thirds the width of the gear and the factory.",
+    "At 16px and 20px the body shrinks to a small cup about 8–10px wide. The two prongs sit very close together, and with the short cord the glyph looks thin and fragile next to its neighbours. In the 16px solid it is a small blob with two pins.",
+    "The visual weight is uneven: the long prongs and cord stalk take up a lot of height for very little ink, so the icon looks spindly next to the set's chunkier silhouettes.",
+    "The solid version keeps the same footprint, but it is a plain filled shape with no knockout. That's acceptable, but it adds nothing to legibility at small sizes.",
+    "The bare plug is a very common generic metaphor (it appears in many UI sets as 'plug/connect'). It isn't copied, but there is a slight risk it reads as a UI action ('connect / plugin') rather than an industry."
+   ],
+   "fixes": [
+    "Widen the plug body so it spans about 16–18 units of the 24 grid (roughly x=3–21) instead of the current narrow cup. Keep the vertical extent, so the icon fills the frame like the gear and the bin.",
+    "Make the body squarer: a rectangular head with rounded bottom corners, or a broad U, rather than a narrow cup. This adds mass and matches the set's chunkier forms.",
+    "Move the prongs further apart (at least 6 units centre-to-centre at 24px) and shorten them slightly, so 16px and 20px don't show two pins almost touching. Redraw the 16px and 20px masters separately on the pixel grid with prongs at least 2px apart.",
+    "Shorten the cord stalk or give it a small curve or strain-relief collar so the bottom isn't a single thin line. Use the space gained to enlarge the body.",
+    "Solid: add a small knockout (for example a horizontal slot or a grip line across the body) so the filled shape keeps some interior detail and looks less like a generic UI plug glyph. Keep the footprint the same as the outline.",
+    "After resizing, check against Industrials and Machinery in the comparison image at 48px and 16px: the outer bounding box should match their visual mass."
+   ]
+  },
+  "problems": [
+   "The icon sits small in its frame. The plug body is only about 55–60% of the frame width at every size, so it looks much lighter and smaller than Machinery (gear), Aerospace (plane), Waste Management (bin) and Industrials (factory) in the comparison image. This is most obvious at 48px, where the plug is about two-thirds the width of the gear and the factory.",
+   "At 16px and 20px the body shrinks to a small cup about 8–10px wide. The two prongs sit very close together, and with the short cord the glyph looks thin and fragile next to its neighbours. In the 16px solid it is a small blob with two pins.",
+   "The visual weight is uneven: the long prongs and cord stalk take up a lot of height for very little ink, so the icon looks spindly next to the set's chunkier silhouettes.",
+   "The solid version keeps the same footprint, but it is a plain filled shape with no knockout. That's acceptable, but it adds nothing to legibility at small sizes."
+  ],
+  "cost": 0.09
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T18:29:07.956Z",
+  "mode": "review",
+  "id": "legal-services",
+  "name": "Legal Services",
+  "result": "flag",
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 3,
+   "solid": 4,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "Balance scales (scales of justice): centre post, crossbeam, two hanging pans, base foot. Reads as law/legal straight away.",
+   "problems": [
+    "Sits small in its box at 16, 20 and 24. On sheet-24 the glyph is about 75% of the width and height of its neighbours (postal-courier, electrical-equipment, waste-management), with a lot of empty space above and below. Only 32 and 48 fill the frame the way the rest of the set does.",
+    "In the review strip the 24px drawing is barely bigger than the 20px one, and the 16px one is clearly the smallest of all. The live area is not scaled up from size to size the way the rest of the set is.",
+    "16px outline: each pan is a triangle of hanger lines plus a bowl crammed into about 4px. The hanger lines, the beam ends and the bowl rim merge into a dark knot, so the pans read as blobs, not open dishes. The outline pans at 20px are also close to clogging.",
+    "16px solid: the filled pans shrink to tiny dots under a tangle of hanger lines, so the shape is dense and the two pans hardly separate from the beam.",
+    "Lots of detail for the set's level: post finial, beam, four hanger lines, two bowls and a base. Neighbours at 16px are simpler, with 2–3 primitives."
+   ],
+   "fixes": [
+    "Redraw 16, 20 and 24 so the glyph uses the full live area like its neighbours. At 24: beam about 2px from the left and right edges, finial near the top keyline, base on the bottom keyline, so the overall size is about 20×20.",
+    "At 16px, drop the hanger triangles. Hang each pan from a single vertical line off the beam end, or draw the pan as a plain open half-circle or flat 'V' bowl right under the beam end, so there is at least 1.5px clear space between beam, hanger and bowl.",
+    "At 20px, make the pans wider and shallower and lengthen the hangers, so there is clear air between the hanger apex and the bowl rim.",
+    "In solid at 16 and 20, draw the pans as bigger filled half-discs (at least 4px wide at 16) so they read as two weights, not dots. Keep the post and beam the same stroke weight as the outline so the footprint matches.",
+    "Check that 16 < 20 < 24 < 32 < 48 grow in step when previewed side by side at actual pixel size, and that the base bar width matches the beam width at every size so the silhouette stays stable."
+   ]
+  },
+  "problems": [
+   "Sits small in its box at 16, 20 and 24. On sheet-24 the glyph is about 75% of the width and height of its neighbours (postal-courier, electrical-equipment, waste-management), with a lot of empty space above and below. Only 32 and 48 fill the frame the way the rest of the set does.",
+   "In the review strip the 24px drawing is barely bigger than the 20px one, and the 16px one is clearly the smallest of all. The live area is not scaled up from size to size the way the rest of the set is.",
+   "16px outline: each pan is a triangle of hanger lines plus a bowl crammed into about 4px. The hanger lines, the beam ends and the bowl rim merge into a dark knot, so the pans read as blobs, not open dishes. The outline pans at 20px are also close to clogging.",
+   "16px solid: the filled pans shrink to tiny dots under a tangle of hanger lines, so the shape is dense and the two pans hardly separate from the beam."
+  ],
+  "cost": 0.11
  }
 ]
