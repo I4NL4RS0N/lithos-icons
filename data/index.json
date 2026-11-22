@@ -555,7 +555,7 @@
       "receivables",
       "consumer ABS"
     ],
-    "reduction": "20+: magnetic stripe.",
+    "reduction": "A pool of cascaded cards (receivables) over two tranche bars at every size. 16: two cards. 20+: three cards. Front card keeps its stripe at all sizes.",
     "status": "active",
     "replacedBy": null,
     "since": "0.1.0"

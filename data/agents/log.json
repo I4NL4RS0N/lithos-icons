@@ -5582,5 +5582,61 @@
    }
   },
   "cost": 0.36
+ },
+ {
+  "date": "2026-11-22",
+  "at": "2026-11-22T20:37:42.793Z",
+  "mode": "refine",
+  "id": "abs",
+  "name": "ABS",
+  "result": "refined",
+  "problems": [
+   "At 16px the card stripe is dropped, leaving a plain rounded rectangle over one line. In both outline and solid this is almost the same as information-technology (a laptop) on sheet-16. Keep a clear card cue at 16px.",
+   "At 16px the stacked tranches collapse into a single line, so the tranche idea is lost. Keep at least two distinct tranche bars with an open gap.",
+   "At 24px it is a near-copy of consumer-finance (a card with a stripe) plus the shared securitised base rules used by rmbs, cmbs and clo. Nothing says 'asset-backed' except a card that already means consumer-finance. Give it its own asset-pool motif (e.g. several small assets pooled) that is distinct from consumer-finance."
+  ],
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "pass",
+   "reads_as": "A stack of payment cards sitting on two tranche bars, i.e. a pool of card receivables that has been tranched. That reads as ABS, or at least as securitised consumer receivables.",
+   "problems": [
+    "agent-abs-near.png is the same image as agent-abs.png. It does not show the parent or siblings, so I judged distinctness and family consistency from sheet-24 and sheet-16 instead.",
+    "The diagonal stack offset uses up width. At 16 and 20 the front card is only about 9-11px wide, and its stripe sits close to the top edge, so the front card feels cramped next to the open shapes in the rest of the set.",
+    "At 32 and 48 there are three stacked cards, but at 16 to 24 the stack reads as two. The detail level changes between sizes. That is allowed because each size is drawn separately, but at 48 the third card adds clutter more than meaning.",
+    "In the solid version only the front card is filled. The back cards stay as outlines. This is readable, but the solid version is visually lighter than solid neighbours such as rmbs and cmbs.",
+    "The stripe on the front card is a stroke in the outline version and a knockout in the solid version, and the two sit at slightly different heights (the solid knockout is lower). The two styles don't match exactly."
+   ],
+   "fixes": [
+    "At 16 and 20, cut the stack offset to 1.5-2px so the front card gets about 2px more width, and move the card stripe down so it has at least 1.5px of clear space under the top edge.",
+    "Consider using two cards at every size, or make sure the third card at 32 and 48 has enough clear space that it doesn't look like a doubled stroke.",
+    "Line up the stripe height in the outline and solid versions at each size.",
+    "Regenerate agent-abs-near.png so it really shows the parent and the rmbs, cmbs and clo siblings for the record."
+   ]
+  },
+  "before": {
+   "16": {
+    "outline": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-outline\"><path d=\"M3 2.5H13A1.37 1.37 0 0 1 14.5 3.75V11.25A1.37 1.37 0 0 1 13 12.5H3A1.37 1.37 0 0 1 1.5 11.25V3.75A1.37 1.37 0 0 1 3 2.5Z\"/><path d=\"M1.5 15H14.5\"/></svg>",
+    "solid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-solid\"><path d=\"M3 2.5H13A1.37 1.37 0 0 1 14.5 3.75V11.25A1.37 1.37 0 0 1 13 12.5H3A1.37 1.37 0 0 1 1.5 11.25V3.75A1.37 1.37 0 0 1 3 2.5Z\" fill-rule=\"evenodd\"/><path d=\"M1.5 15H14.5\" fill=\"none\"/></svg>"
+   },
+   "24": {
+    "outline": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-outline\"><path d=\"M4.75 3.75H19.25A1.96 1.96 0 0 1 21.25 5.75V14.25A1.96 1.96 0 0 1 19.25 16H4.75A1.96 1.96 0 0 1 2.75 14.25V5.75A1.96 1.96 0 0 1 4.75 3.75Z\"/><path d=\"M2.8 8.16H21.2\"/><path d=\"M2.75 19H21.25\"/><path d=\"M2.75 22H21.25\"/></svg>",
+    "solid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-solid\"><path d=\"M4.75 3.75H19.25A1.96 1.96 0 0 1 21.25 5.75V14.25A1.96 1.96 0 0 1 19.25 16H4.75A1.96 1.96 0 0 1 2.75 14.25V5.75A1.96 1.96 0 0 1 4.75 3.75ZM4.4 9.91L19.6 9.91A1.75 1.75 0 0 0 19.6 6.41L4.4 6.41A1.75 1.75 0 0 0 4.4 9.91Z\" fill-rule=\"evenodd\"/><path d=\"M2.75 19H21.25\" fill=\"none\"/><path d=\"M2.75 22H21.25\" fill=\"none\"/></svg>"
+   }
+  },
+  "after": {
+   "16": {
+    "outline": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-outline\"><path d=\"M2.5 3.25H10.5A1.18 1.18 0 0 1 11.75 4.5V9A1.18 1.18 0 0 1 10.5 10H2.5A1.18 1.18 0 0 1 1.25 9V4.5A1.18 1.18 0 0 1 2.5 3.25Z\"/><path d=\"M1.28 5.75H11.72\"/><path d=\"M4.28 3.25V2.18A1.18 1.18 0 0 1 5.46 1H13.54A1.18 1.18 0 0 1 14.72 2.18V6.67A1.18 1.18 0 0 1 13.54 7.85H11.72\"/><path d=\"M1.5 12.5H14.5\"/><path d=\"M1.5 15H14.5\"/></svg>",
+    "solid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-solid\"><path d=\"M2.5 3.25H10.5A1.18 1.18 0 0 1 11.75 4.5V9A1.18 1.18 0 0 1 10.5 10H2.5A1.18 1.18 0 0 1 1.25 9V4.5A1.18 1.18 0 0 1 2.5 3.25ZM3.08 7L9.92 7A1.25 1.25 0 0 0 9.92 4.5L3.08 4.5A1.25 1.25 0 0 0 3.08 7Z\" fill-rule=\"evenodd\"/><path d=\"M4.28 3.25V2.18A1.18 1.18 0 0 1 5.46 1H13.54A1.18 1.18 0 0 1 14.72 2.18V6.67A1.18 1.18 0 0 1 13.54 7.85H11.72\" fill=\"none\"/><path d=\"M1.5 12.5H14.5\" fill=\"none\"/><path d=\"M1.5 15H14.5\" fill=\"none\"/></svg>"
+   },
+   "24": {
+    "outline": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-outline\"><path d=\"M4 5.25H15.75A1.68 1.68 0 0 1 17.25 7V14.5A1.68 1.68 0 0 1 15.75 16H4A1.68 1.68 0 0 1 2.5 14.5V7A1.68 1.68 0 0 1 4 5.25Z\"/><path d=\"M2.4 9.16H17.35\"/><path d=\"M6.65 5.25V3.68A1.68 1.68 0 0 1 8.33 2H19.92A1.68 1.68 0 0 1 21.6 3.68V11.17A1.68 1.68 0 0 1 19.92 12.85H17.35\"/><path d=\"M2.75 19H21.25\"/><path d=\"M2.75 22H21.25\"/></svg>",
+    "solid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"li li-solid\"><path d=\"M4 5.25H15.75A1.68 1.68 0 0 1 17.25 7V14.5A1.68 1.68 0 0 1 15.75 16H4A1.68 1.68 0 0 1 2.5 14.5V7A1.68 1.68 0 0 1 4 5.25ZM4.96 10.91L14.79 10.91A1.75 1.75 0 0 0 14.79 7.41L4.96 7.41A1.75 1.75 0 0 0 4.96 10.91Z\" fill-rule=\"evenodd\"/><path d=\"M6.65 5.25V3.68A1.68 1.68 0 0 1 8.33 2H19.92A1.68 1.68 0 0 1 21.6 3.68V11.17A1.68 1.68 0 0 1 19.92 12.85H17.35\" fill=\"none\"/><path d=\"M2.75 19H21.25\" fill=\"none\"/><path d=\"M2.75 22H21.25\" fill=\"none\"/></svg>"
+   }
+  },
+  "cost": 0.63
  }
 ]

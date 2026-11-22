@@ -52,16 +52,34 @@ export default [
   {
     id: 'abs', name: 'ABS', kind: 'asset-class', metaphor: 'card-on-tranches',
     keywords: ['asset-backed securities', 'auto loans', 'credit cards', 'student loans', 'receivables', 'consumer ABS'],
-    reduction: '20+: magnetic stripe.',
+    reduction: 'A pool of cascaded cards (receivables) over two tranche bars at every size. 16: two cards. 20+: three cards. Front card keeps its stripe at all sizes.',
     draw(k) {
-      const { top, base } = trancheBase(k);
-      const y0 = top * 0.12, y1 = top;
-      const card = k.rrect(0.04, y0, 0.96, y1, R * 0.7);
-      const sy = y0 + (y1 - y0) * 0.36;
-      const stripe = k.tier >= 1 ? [k.path([['M', 0.04, sy], ['H', 0.96]], { snap: false })] : [];
+      // Own tranche base: always two bars (keeps the tranche idea at 16px).
+      const g = k.gapN(1.2), b2 = 1, b1 = 1 - g, top = b1 - g;
+      const base = [k.path([['M', 0.04, b1], ['H', 0.96]]), k.path([['M', 0.04, b2], ['H', 0.96]])];
+      const n = k.tier <= 2 ? 2 : 3;           // cards in the pool
+      const dy = k.gapN(k.tier === 0 ? 1 : 1.5), dx = k.gapN(k.tier === 0 ? 1.75 : 2.5); // cascade offset
+      const d = dy;
+      const X0 = 0.02, X1 = 0.98;
+      const w = X1 - X0 - dx * (n - 1), h = top - dy * (n - 1);
+      const r = Math.min(R * 0.6, dy * 0.6);
+      // card i: 0 = front (bottom-left), n-1 = back (top-right)
+      const box = (i) => [X0 + i * dx, top - h - i * dy, X0 + i * dx + w, top - i * dy];
+      const [fx0, fy0, fx1, fy1] = box(0);
+      const front = k.rrect(fx0, fy0, fx1, fy1, r);
+      // Back cards: only their top and right edges show (an L behind the card in front).
+      const backs = Array.from({ length: n - 1 }, (_, j) => {
+        const [x0, y0, x1, y1] = box(j + 1);
+        return k.path([['M', x0, y0 + d], ['V', y0 + r], ['A', r, r, 0, 0, 1, x0 + r, y0], ['H', x1 - r],
+          ['A', r, r, 0, 0, 1, x1, y0 + r], ['V', y1 - r], ['A', r, r, 0, 0, 1, x1 - r, y1], ['H', x1 - dx]], { snap: false });
+      });
+      const sy = fy0 + Math.max(k.gapN(1.25), (fy1 - fy0) * 0.36);
+      const stripe = k.path([['M', fx0, sy], ['H', fx1]], { snap: false });
+      const ki = r + k.grow;
       return {
-        outline: [card, ...stripe, ...base],
-        solid: [{ d: card + (stripe.length ? k.capsule(0.12, sy, 0.88, sy, k.holeW(k.sw)) : ''), fill: true }, ...solidBase(base)],
+        outline: [front, stripe, ...backs, ...base],
+        solid: [{ d: front + k.capsule(fx0 + ki, sy, fx1 - ki, sy, k.holeW(k.sw)), fill: true },
+          ...backs.map((p) => ({ d: p, fill: false })), ...solidBase(base)],
       };
     },
   },
