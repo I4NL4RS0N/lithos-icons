@@ -2,9 +2,7 @@ name: Icon agents
 # Adds and refines icons with no human in the loop. See SPEC.md §9 and scripts/agents/run.mjs.
 on:
   schedule:
-    - cron: '17 9 * * *'   # daily: add new icons
-    - cron: '43 13 * * 0'  # Sundays: refine the weakest icons (flagged ones first)
-    - cron: '7 11 * * *'   # daily: review icons nobody has judged yet (anyone's), oldest review next
+    - cron: '17 9 * * 1,4'  # Mondays and Thursdays: add new icons (2 runs a week to limit spend)
   workflow_dispatch:
     inputs:
       mode:
@@ -44,8 +42,8 @@ jobs:
       # Priority window: half Fitch titles, half topics, until this date (inclusive); then all standards again. A focus typed into a manual run overrides it.
       PRIORITY: fitch-2020+topics
       PRIORITY_UNTIL: '2026-12-18'
-      MODE: ${{ inputs.mode || (github.event.schedule == '43 13 * * 0' && 'refine' || github.event.schedule == '7 11 * * *' && 'review' || 'add') }}
-      COUNT: ${{ inputs.count || (github.event.schedule == '43 13 * * 0' && '3' || github.event.schedule == '7 11 * * *' && '10' || '10') }}
+      MODE: ${{ inputs.mode || 'add' }}
+      COUNT: ${{ inputs.count || '10' }}
       DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
       PARALLEL: ${{ vars.PARALLEL || '4' }}
     steps:
