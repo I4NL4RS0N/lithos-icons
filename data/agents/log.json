@@ -5741,5 +5741,41 @@
   "mapped": 2,
   "why": "Fitch 2.1.6 Equipment ABS has no own icon a forklift is distinct from the truck and key-tag.",
   "cost": 0.7
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:18:39.865Z",
+  "mode": "add",
+  "id": "small-business-loans",
+  "name": "Small Business Loans",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Footprint is inconsistent between sizes. At 16, 20 and 24 the till fills only about 60% of the frame height and sits small and squat, much smaller than its neighbours, while the 48 fills the box. On sheet-24 it looks visibly flatter and lighter than most of the set (for example loans, banks and retail).; At 16px the till has merged into a tiny low slab. The keypad dots fuse into a dash, and the display, body and drawer are crowded into about 8px of height with almost no air between them.;",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At 32/48: a cash register or till. At 16–24: a squat, flat device that could be a printer, typewriter or card terminal. Nothing says loan or business finance.",
+   "problems": [
+    "Footprint is inconsistent between sizes. At 16, 20 and 24 the till fills only about 60% of the frame height and sits small and squat, much smaller than its neighbours, while the 48 fills the box. On sheet-24 it looks visibly flatter and lighter than most of the set (for example loans, banks and retail).",
+    "At 16px the till has merged into a tiny low slab. The keypad dots fuse into a dash, and the display, body and drawer are crowded into about 8px of height with almost no air between them.",
+    "At 16 and 20 the gap between the body and the drawer is a hairline, so the drawer reads as an underline or base rule, not a cash drawer.",
+    "Solid 16/20/24: the knockout dots and drawer slot are only about 1px, so they nearly vanish and the shape turns into a black blob with a thin stripe. The solid display box also merges into the body at 16.",
+    "The picture is generic. A till says retail or shop, and nothing ties it to a loan. It can easily be mistaken for the retail cart icon's sibling concept or for payments or POS.",
+    "Detail level changes between sizes: there are 6 keypad dots at 48, 3 at 24–32 and 2 at 16, and the display stem appears only at 32/48, so the sizes don't look like one family."
+   ],
+   "fixes": [
+    "Redraw 16, 20 and 24 so the till fills the live area vertically as well as horizontally, like 32/48 do. Make it taller: raise the display box and give the body and drawer more height so it reaches about 20/24 of the frame at 24px.",
+    "At 16px simplify to three clear parts (display, body, drawer) with at least 1.5px gaps between them. Drop the keypad dots or use a single 2px slot instead of fused dots.",
+    "Give the drawer a distinct rounded-rect outline with a clear gap above it at every size, so it reads as a drawer and not an underline.",
+    "Solid: use knockouts of at least 2px at 16/20 (a single key slot and a drawer handle slot), and keep a visible gap between the display and the body.",
+    "Use the same level of detail at every size: the same number of key rows (for example one row of 3 at every size, or 2×3 only from 32 up, chosen on purpose), and keep the display stem consistent.",
+    "Consider adding a loan cue from data/metaphors.json, such as the parent's %-tag as a small badge or a shop awning over the till, so the icon reads as small-business finance and not just a cash register."
+   ]
+  },
+  "cost": 1.74
  }
 ]
