@@ -307,6 +307,23 @@
     "since": "0.1.0"
   },
   {
+    "id": "money-market-funds",
+    "name": "Money Market Funds",
+    "kind": "industry",
+    "parent": "funds",
+    "metaphor": "wallet",
+    "keywords": [
+      "money market funds",
+      "MMF",
+      "cash management",
+      "short-term liquidity"
+    ],
+    "reduction": "Every size: a full-width wallet with a banknote standing up out of its top and a clasp tab on the right edge. 16 and 20: the tab is plain. 24+: a snap dot on the tab. Solid: wallet filled, the tab split off by a cut that runs to the right edge, note filled separately with a clear gap above the wallet (at 16 and 20 the solid note stands a little taller so the strip stays readable); the snap dot is knocked out of the tab.",
+    "status": "active",
+    "replacedBy": null,
+    "since": "0.1.0"
+  },
+  {
     "id": "motion-pictures",
     "name": "Film & TV Production",
     "kind": "industry",

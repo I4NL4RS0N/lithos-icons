@@ -1,0 +1,801 @@
+{
+  "concept": "money-market-funds",
+  "query": "wallet",
+  "fetched": "2026-11-26T19:05:05.908Z",
+  "topTerms": [
+    [
+      "wallet",
+      49
+    ],
+    [
+      "money",
+      29
+    ],
+    [
+      "finance",
+      20
+    ],
+    [
+      "payment",
+      19
+    ],
+    [
+      "cash",
+      18
+    ],
+    [
+      "purse",
+      9
+    ],
+    [
+      "billfold",
+      7
+    ],
+    [
+      "leather-wallet",
+      4
+    ],
+    [
+      "funds",
+      3
+    ],
+    [
+      "business",
+      3
+    ],
+    [
+      "investment",
+      3
+    ],
+    [
+      "digital-wallet",
+      3
+    ],
+    [
+      "mobile-wallet",
+      3
+    ],
+    [
+      "savings",
+      3
+    ],
+    [
+      "pocket",
+      3
+    ],
+    [
+      "business-and-finance",
+      3
+    ],
+    [
+      "coins",
+      3
+    ],
+    [
+      "pocketbook",
+      3
+    ],
+    [
+      "protection",
+      2
+    ],
+    [
+      "security",
+      2
+    ],
+    [
+      "storage",
+      2
+    ],
+    [
+      "business-and-fiannce",
+      2
+    ],
+    [
+      "economy",
+      2
+    ],
+    [
+      "accessory",
+      2
+    ],
+    [
+      "card",
+      2
+    ],
+    [
+      "coin",
+      2
+    ],
+    [
+      "cash-wallet",
+      2
+    ],
+    [
+      "pouch",
+      2
+    ],
+    [
+      "charity",
+      2
+    ],
+    [
+      "gift",
+      2
+    ],
+    [
+      "giving",
+      2
+    ],
+    [
+      "money-wallet",
+      2
+    ],
+    [
+      "payment-wallet",
+      2
+    ],
+    [
+      "money-holder",
+      2
+    ],
+    [
+      "balance",
+      2
+    ],
+    [
+      "currency",
+      2
+    ],
+    [
+      "personalfinance",
+      2
+    ],
+    [
+      "holder",
+      2
+    ],
+    [
+      "cashback",
+      2
+    ],
+    [
+      "pay",
+      2
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Wallet",
+          "tags": [
+            "card-holder",
+            "cash",
+            "money",
+            "payment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8525492-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "funds",
+            "protection",
+            "purse",
+            "security",
+            "storage",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8521419-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "business-and-fiannce",
+            "cash",
+            "economy",
+            "finance",
+            "money",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514325-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "business-and-fiannce",
+            "cash",
+            "economy",
+            "finance",
+            "money",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8514311-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "accessory",
+            "finance",
+            "money",
+            "payment",
+            "purse",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513740-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "card",
+            "coin",
+            "finance",
+            "money",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8513258-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "finance",
+            "money",
+            "payment",
+            "purse",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512811-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "finance",
+            "money",
+            "payment",
+            "purse",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8512809-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash-wallet",
+            "leather-wallet",
+            "pouch",
+            "purse",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511391-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "finance",
+            "money",
+            "payment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509658-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "finance",
+            "money",
+            "payment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509653-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "carry",
+            "charity",
+            "gift",
+            "giving",
+            "money",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8509157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "hotel",
+            "payment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508915-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "business",
+            "investment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8508027-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "charity",
+            "gift",
+            "giving",
+            "money",
+            "support",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "business",
+            "online",
+            "payment",
+            "vector",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507434-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "digital-wallet",
+            "finance-wallet",
+            "mobile-wallet",
+            "money-wallet",
+            "payment-wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507169-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash-storage",
+            "money-holder",
+            "payment-accessories",
+            "personal-finance",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8507106-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "finance",
+            "money",
+            "payment",
+            "savings",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8506781-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "balance",
+            "money",
+            "payment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500953-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "balance",
+            "money",
+            "payment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8500936-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "budget",
+            "finance",
+            "money",
+            "personal",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8499267-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "coin",
+            "love",
+            "money",
+            "pocket",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496780-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "currency",
+            "funds",
+            "pocket",
+            "pouch",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8496103-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "money",
+            "personalfinance",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495441-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "money",
+            "personalfinance",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8495410-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "billfold",
+            "cash",
+            "money",
+            "payment",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494565-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash-wallet",
+            "leather-wallet",
+            "money-wallet",
+            "purse",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494159-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "business",
+            "finance",
+            "financial",
+            "investment",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492540-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "bankruptcy",
+            "business-and-finance",
+            "coins",
+            "loss",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491527-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "billfold",
+            "cash",
+            "money",
+            "payment",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488701-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "banking",
+            "finance",
+            "investment",
+            "service",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8487664-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "accessory",
+            "billfold",
+            "business-and-finance",
+            "holder",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486402-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cashback",
+            "coins",
+            "finance",
+            "money",
+            "savings",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486360-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cashback",
+            "coins",
+            "finance",
+            "money",
+            "savings",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486358-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "finance",
+            "money",
+            "pay",
+            "pocket",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8485779-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "digital-wallet",
+            "electronic-wallet",
+            "mobile-wallet",
+            "payment-wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480965-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "funds",
+            "protection",
+            "purse",
+            "security",
+            "storage",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8480206-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "billfold",
+            "notecase",
+            "pocketbook",
+            "pouchette",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8479800-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "billfold",
+            "cash-holder",
+            "leather-wallet",
+            "money-bag",
+            "pocketbook",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8479604-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "business-and-finance",
+            "card",
+            "holder",
+            "money",
+            "notes",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8476548-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "digital wallet",
+          "tags": [
+            "digital-wallet",
+            "e-wallet",
+            "mobile-wallet",
+            "secure-wallet",
+            "wallet-lock"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475434-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "finance",
+            "money",
+            "payment",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475256-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "finance",
+            "money",
+            "payment",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8475255-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "finance",
+            "money",
+            "payment",
+            "purse",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474160-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "finance",
+            "money",
+            "payment",
+            "purse",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474157-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "billfold",
+            "cash",
+            "money",
+            "payment",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473996-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "cash",
+            "dollar",
+            "pay",
+            "payment",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471710-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "budgeting",
+            "cash",
+            "currency",
+            "expense",
+            "finance",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8471046-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Wallet",
+          "tags": [
+            "billfold",
+            "leather-wallet",
+            "money-holder",
+            "pocketbook",
+            "wallet",
+            "wallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470839-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}

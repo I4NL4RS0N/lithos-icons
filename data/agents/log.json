@@ -5672,5 +5672,40 @@
    ]
   },
   "cost": 0.72
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:12:45.125Z",
+  "mode": "add",
+  "id": "money-market-funds",
+  "name": "Money Market Funds",
+  "kind": "industry",
+  "picture": "wallet",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A wallet with a clasp tab and a card or note sticking out behind it, so it reads as cash or a cash-like holding. It shows the picture clearly, but a viewer would only link it to money market funds through the 'cash-like' association.",
+   "problems": [
+    "The concept link is indirect. A wallet means cash or personal money in general, and nothing in it says 'fund' or ties it to the parent (the money bag). A professional would name the picture but probably not 'money market funds' without the label.",
+    "At 16px solid, the dot on the clasp disappears and the clasp becomes a plain horizontal slot. It still reads, but it loses the detail it has at larger sizes.",
+    "At 16px outline, the clasp rectangle sits very close to the wallet's right side, so those two strokes almost become one double line.",
+    "The wallet is wide and short, so it fills a little less of the frame vertically than square neighbours such as consumer-finance and packaging. This is acceptable, but it is at the limit.",
+    "Wallet with a card behind it and a clasp tab is a very common UI icon. This drawing is generic rather than traced from one source, but it gives the set no distinct style of its own."
+   ],
+   "fixes": [
+    "Optional: at 16px, pull the clasp 0.5px in from the right edge, or shorten it, so its stroke stays clear of the body's side wall.",
+    "Optional: at 16px solid, widen the clasp knockout a little so it stays clear and doesn't look like a hairline slot.",
+    "Optional: add 1px to the body height at 16 and 20px so its vertical size matches the square-ish icons nearby."
+   ]
+  },
+  "mapped": 1,
+  "why": "Fitch 7.1.1 borrows the generic funds money-bag a wallet reads as cash parked short-term.",
+  "cost": 0.69
  }
 ]

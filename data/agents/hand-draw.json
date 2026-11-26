@@ -1,0 +1,22 @@
+{
+ "digital-assets": {
+  "fails": 2,
+  "last": "judge: The 'pixel' idea is carried only by 2–3 small notches on the right edge. At 16/20/24px they read as gear teeth or a broken rim rather than pixels, so the shape looks like a cog fragment or a damaged coin.; The centre square hole makes it read as a traditional Chinese/East Asian cash coin (a p"
+ },
+ "homebuilding": {
+  "fails": 2,
+  "last": "judge: The composition is lopsided. The left bay is a closed rectangle with one diagonal brace, and the right side is just a lone free-standing post with no sill, top plate or base. It looks broken or unfinished in the wrong way, not like a deliberate timber frame.; The single diagonal inside a clos"
+ },
+ "airports": {
+  "fails": 2,
+  "last": "judge: It sits too small in the frame at 16, 20 and 24. Next to the truck, rail, envelope and plane in the near preview, its footprint is clearly smaller, about 60–70% of their width and height.; Sizes don't step up evenly: the 24px icon looks smaller than the 20px one in both styles, and the 20px h"
+ },
+ "tobacco": {
+  "fails": 2,
+  "last": "judge: The icon is too small in its frame at 16, 20 and 24px. The cigarette spans only about 60% of the width and very little of the height, so it looks far smaller than Food & Beverage and Consumer Staples beside it, which fill the box.; Scale is inconsistent across sizes. At 48px the drawing nearl"
+ },
+ "project-finance": {
+  "fails": 2,
+  "last": "judge: It doesn't read as a bridge. A wide curved top bar sits over one narrow, tall arch with a short ground line underneath. That shape is a torii gate or doorway: the deck barely spans past the arch, and there is no water or gap underneath and no road running across. A torii also carries cultural"
+ }
+}
