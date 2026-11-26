@@ -5926,5 +5926,44 @@
    ]
   },
   "cost": 1.82
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:48:24.740Z",
+  "mode": "add",
+  "id": "bank-capital-rules",
+  "name": "Bank Capital Rules",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The spirit level doesn't read as a level. It's a squared-off box with two vertical dividers and a dot, which looks like a register display or a three-key bar. There's no curved bubble vial, so the main idea is lost.; The plinth is an upside-down stepped T: a narrow block on a wide slab. Combined with the bar, the whole thing looks like an anvil, a podium or a stamp. 'Level-on-plinth' doesn't come across.; There's no link to banking or capital, such as a bank pediment, columns or coin stac",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 2,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A wide box split into three cells with a dot, sitting on a stepped T-shaped block. It reads as a cash register, a toaster, an anvil or a podium, not as a spirit level on a plinth. Nothing in it says banking, capital or rules.",
+   "problems": [
+    "The spirit level doesn't read as a level. It's a squared-off box with two vertical dividers and a dot, which looks like a register display or a three-key bar. There's no curved bubble vial, so the main idea is lost.",
+    "The plinth is an upside-down stepped T: a narrow block on a wide slab. Combined with the bar, the whole thing looks like an anvil, a podium or a stamp. 'Level-on-plinth' doesn't come across.",
+    "There's no link to banking or capital, such as a bank pediment, columns or coin stack. Even if someone spotted a level, they would say 'level', not 'bank capital rules'.",
+    "In the solid version the window with the dot becomes a thin horizontal slot. The outline and solid show different details, and the solid has no bubble at all. It reads as a bar with a slot on a block.",
+    "The solid knockouts are weak. The gap between the level and the plinth is a hairline at 16 and 20px, and the slot at 16px is barely visible, so the solid turns into a single dark blob.",
+    "At 16px the outline's three cells and dot close up into a tiny dotted bar, and the dot merges with the dividers.",
+    "The icon is squat. It uses the full width but leaves a lot of empty space at the top, so it looks lighter and smaller than neighbours like accounting-services and ai-capex-buildout. The dense, boxy mass of stacked rectangles is also heavier than the rest of the set's open line style.",
+    "The 'near' preview just repeats the size sheet. It doesn't show the parent or siblings, so their closeness can't be checked properly."
+   ],
+   "fixes": [
+    "Redraw the level as a clear spirit level: a long thin rounded bar about 2.5–3px tall at 24px, with one centred vial (a rounded capsule or short arc) holding a bubble circle. Drop the two full-height dividers that turn it into three cells.",
+    "Tie it to banking. Rest the level on the existing bank pediment or column base used by 'banks' (reuse that metaphor from data/metaphors.json), or put it on a short coin stack, so it reads as rules on bank capital, not just a level on a block.",
+    "If you keep the plinth, make it a simple flat base (one slab, or a low two-step base no taller than about 30% of the frame). Remove the narrow middle block that creates the anvil or podium look.",
+    "Use the vertical space. The finished icon should fill about 20px of the 24px frame in height as well as width, like its neighbours.",
+    "Solid: fill the level bar and knock out the vial as a capsule with the bubble left solid inside it, matching the outline exactly. Keep a gap of at least 1.5px at 24px (1px at 16px) between the level and the base so the two stay separate.",
+    "Draw 16 and 20px by hand: a single vial with a 2px bubble, no dividers, and the base reduced to one slab.",
+    "Regenerate the 'near' preview so it actually shows the parent concept and its siblings."
+   ]
+  },
+  "cost": 1.6
  }
 ]
