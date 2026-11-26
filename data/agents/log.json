@@ -5777,5 +5777,40 @@
    ]
   },
   "cost": 1.74
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:18:59.809Z",
+  "mode": "add",
+  "id": "tax-liens",
+  "name": "Tax Liens",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The icon sits small in its box. At 16, 20 and 24px it fills roughly 60% of the frame width and about half the height, while neighbours like rmbs, cmbs and municipal-bonds fill nearly the whole box. Even at 48px the stamp is narrower than the rmbs house.; The 24px version is barely bigger than the 20px one. It is the master size, and it looks under-scaled beside every other icon on sheet-24.; The stamp is built from thin stacked horizontal bars (handle ring, neck, wide body, narrow pad, ba",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "At best a generic rubber stamp. At 16–24px it looks more like a stack of discs, a bollard or a cake stand. Nothing ties it to property, a claim or tax, so even a reader who sees a stamp would not get 'tax liens'.",
+   "problems": [
+    "The icon sits small in its box. At 16, 20 and 24px it fills roughly 60% of the frame width and about half the height, while neighbours like rmbs, cmbs and municipal-bonds fill nearly the whole box. Even at 48px the stamp is narrower than the rmbs house.",
+    "The 24px version is barely bigger than the 20px one. It is the master size, and it looks under-scaled beside every other icon on sheet-24.",
+    "The stamp is built from thin stacked horizontal bars (handle ring, neck, wide body, narrow pad, baseline). At 16px these merge into a pile of stripes, the oval handle shrinks to a tiny ring, and the shape stops reading as a stamp.",
+    "Solid 16px: the knob, body and pad turn into three blobs with hair-thin gaps. The gap between body and pad nearly closes, so it reads as a lumpy stack and not one object.",
+    "No link to the concept. A plain stamp could mean approved, notary, admin or legal-services. Nothing points to property (the parent is rmbs, a house) or to a claim or encumbrance.",
+    "The rubber-stamp-and-baseline layout is close in spirit to the government (podium with a flag) and scientific-research silhouettes. It is not a duplicate of either, but it adds to a cluster of 'object on a baseline' shapes."
+   ],
+   "fixes": [
+    "Scale the drawing up to the set's live area. Make the stamp body about 18–20px wide on the 24 grid, and run from y≈2 to y≈22 so it matches rmbs and municipal-bonds. Redraw 16 and 20 to fill their frames the same way, not shrunk.",
+    "Make the stamp a clearer single object: a chunky rounded handle knob, a short thick neck, and one wide block for the body and pad, with at most one internal line. Drop the separate narrow pad bar at 16 and 20px.",
+    "Tie it to property and tax liens. The best option is the stamp coming down on a small house outline: reuse the rmbs/real-estate house metaphor at the bottom right, or put the stamp's imprint as a house-shaped or 'claim' mark under the base. Don't use text or currency signs.",
+    "At 16px keep at least a 1.5px gap between the solid stamp body and the baseline or imprint so the knockouts stay open. Merge the knob and neck into one shape so you don't get a tiny ring.",
+    "Check the result against sheet-24 and sheet-16 side by side with rmbs, cmbs and abs so its visual weight and footprint match its siblings."
+   ]
+  },
+  "cost": 1.29
  }
 ]
