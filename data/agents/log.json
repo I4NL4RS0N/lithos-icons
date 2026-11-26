@@ -5850,5 +5850,45 @@
    ]
   },
   "cost": 1.51
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:35:55.302Z",
+  "mode": "add",
+  "id": "ai-chip-export-controls",
+  "name": "AI Chip Export Controls",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The boom gate doesn't read as a gate. The striped bar runs under the chip like a shelf or tray, not across a path as a barrier, so the 'blocked' idea is lost.; The post and boom form one L/J-shaped bracket attached to the chip. The picture becomes a single object (a chip on a forklift or cradle) instead of a barrier stopping a chip.; The chip is very small at 16 and 20px. Its pins merge into a fuzzy blob and the inner die square disappears.; At 16 and 20px the boom has no stripes, so the ",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 2,
+   "consistency": 2,
+   "distinct": 3,
+   "verdict": "fail",
+   "reads_as": "At 32–48px it looks like a chip sitting on a striped shelf or a forklift. At 16–20px it looks like a small box on a bracket or a toilet-like shape. It does not read as a boom gate stopping a chip.",
+   "problems": [
+    "The boom gate doesn't read as a gate. The striped bar runs under the chip like a shelf or tray, not across a path as a barrier, so the 'blocked' idea is lost.",
+    "The post and boom form one L/J-shaped bracket attached to the chip. The picture becomes a single object (a chip on a forklift or cradle) instead of a barrier stopping a chip.",
+    "The chip is very small at 16 and 20px. Its pins merge into a fuzzy blob and the inner die square disappears.",
+    "At 16 and 20px the boom has no stripes, so the only gate cue is gone. What remains is a plain rounded bar.",
+    "Detail jumps between sizes: no die at 16/20, a die at 24 and up, stripes only from 24 up. The sizes don't look like the same icon.",
+    "The 16px glyph uses only about 60% of the frame and sits small and off to the left of its box. At 24px the composition is also cramped into the left and top.",
+    "In the solid version at 16/20/24px the chip and boom fuse into one dark mass. The die knockout and stripe knockouts are barely visible or missing, and the footprint looks heavier and smaller than its neighbours.",
+    "At 24 and 48px the tiny dot inside the post's base (the pivot) is a sub-pixel speck that reads as noise.",
+    "The near-neighbours preview shows no parent or sibling icons, so distinctness from the parent can't be confirmed."
+   ],
+   "fixes": [
+    "Separate the two parts: put the chip on the right as a full-size square with pins, and a separate boom gate on the left (an upright post plus a horizontal arm across the chip's path, roughly at its mid-height or slightly in front of it). The arm should cross the chip's route, not sit underneath it.",
+    "Alternatively, keep the chip as the main shape (about 16×16 of 24, centred) and run the striped boom arm diagonally or horizontally across its lower front, with a short post at one end, so it reads as 'chip blocked by a barrier'.",
+    "Make the boom arm thicker and use 2 or 3 bold diagonal stripe gaps (knockouts) that survive at 20px. At 16px use at least one clear stripe gap, or a solid arm with a clear end cap, so the gate cue stays.",
+    "At 16 and 20px simplify the chip to 2 pins per side with a clear open centre. Keep the die square only where it can have at least 1.5px clearance.",
+    "Scale the composition so the icon reaches the same 20–22px live area as its neighbours at 24px (and the matching area at every other size), centred optically.",
+    "In the solid version keep at least 1.5px gaps (2px at 16px) between the chip and the boom. Knock out the die square and the stripes clearly, and check the footprint matches the outline version.",
+    "Drop the pivot dot below 32px, or make it a clear knockout of at least 2px."
+   ]
+  },
+  "cost": 1.98
  }
 ]
