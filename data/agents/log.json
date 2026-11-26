@@ -6000,5 +6000,41 @@
    ]
   },
   "cost": 1.4
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:52:38.124Z",
+  "mode": "add",
+  "id": "us-fiscal-deficit",
+  "name": "US Fiscal Deficit",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: Undersized footprint: at 24px the bucket body is only ~14px wide and ~16px tall. The whole group sits small and off to the left of its box. Neighbours on sheet-24 and sheet-16 (us-dollar-strength, veterinary, pension-funds, food-beverage) fill visibly more of the frame.; The leak doesn't read as a leak. The stream and drop are joined straight to the lower-right wall, so at 16 and 20px they merge into one blob that looks like a mug handle or a paint drip, not water escaping through a hole.",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 3,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A bucket or paint pail with a blob on its side; at 16px it looks like a mug or a can with a handle rather than a leaking bucket",
+   "problems": [
+    "Undersized footprint: at 24px the bucket body is only ~14px wide and ~16px tall. The whole group sits small and off to the left of its box. Neighbours on sheet-24 and sheet-16 (us-dollar-strength, veterinary, pension-funds, food-beverage) fill visibly more of the frame.",
+    "The leak doesn't read as a leak. The stream and drop are joined straight to the lower-right wall, so at 16 and 20px they merge into one blob that looks like a mug handle or a paint drip, not water escaping through a hole.",
+    "No visible hole or gap in the bucket wall in the outline version, so 'leaky' depends only on the drop. In the solid version the knockout notch at the leak is about 1px and disappears at 16/20.",
+    "The drop is visually heavier than the bucket's strokes (a filled ball at the end of a thick stem), which unbalances the icon and makes the weight uneven against the set's even 2px outlines.",
+    "The inner horizontal line (water level / band) in the outline is tiny and reads as noise at 16–24px. It is missing from the solid version, so the two styles are inconsistent.",
+    "Bucket plus drip is also the common 'paint bucket / fill' UI metaphor, so there's a risk it reads as a fill tool rather than a deficit."
+   ],
+   "fixes": [
+    "Scale the master up so the bucket spans about 3–17 x and 3–21 y on the 24 grid, with the drop reaching about x 21. Centre the combined group optically so it fills the frame like its neighbours. Redraw each size separately to match.",
+    "Put the leak at the bottom or low side of the bucket with a clear 1.5–2px gap between the wall and the falling drops. Use 2 small separated teardrops below or beside the bucket instead of one stem-plus-ball, so it reads as dripping through a hole.",
+    "Show the hole explicitly: break the outline stroke where the water leaves (outline), and cut a clear ≥1.5px knockout notch or hole (solid) that survives at 16px.",
+    "Make the drops teardrop-shaped, not ball-on-stick, and size them to the set's stroke weight so they don't outweigh the bucket.",
+    "Drop the tiny inner band, or replace it with a water-level line that is in both styles and at least 2px clear of the rim at 16/20px.",
+    "At 16px, simplify to bucket, rim, handle and one separated drop. Check that the drop never touches the wall."
+   ]
+  },
+  "cost": 2.67
  }
 ]
