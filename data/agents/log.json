@@ -5965,5 +5965,40 @@
    ]
   },
   "cost": 1.6
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:52:26.493Z",
+  "mode": "add",
+  "id": "energy-infrastructure-war-risk",
+  "name": "Energy War Risk",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: It looks like the standard 'location fixed' icon (a circle with four short ticks outside it). That is a common UI metaphor for 'locate me' or GPS, not for targeting or attack, so the war or hostile meaning gets lost and it reads as 'energy location' or 'find charger'.; Take away the ticks and it is the generic 'flash / power / charging' badge (a bolt in a circle). The risk or attack meaning depends entirely on four tiny stubs, and those almost disappear at 16px, especially in the solid ve",
+  "scores": {
+   "recognisable": 3,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A lightning bolt in a ring with four short ticks outside it. People will most likely read it as the 'GPS fixed / my location' icon with a bolt inside, so something like 'locate charging point' or 'power location'. It does not clearly read as a weapon sight aimed at energy infrastructure.",
+   "problems": [
+    "It looks like the standard 'location fixed' icon (a circle with four short ticks outside it). That is a common UI metaphor for 'locate me' or GPS, not for targeting or attack, so the war or hostile meaning gets lost and it reads as 'energy location' or 'find charger'.",
+    "Take away the ticks and it is the generic 'flash / power / charging' badge (a bolt in a circle). The risk or attack meaning depends entirely on four tiny stubs, and those almost disappear at 16px, especially in the solid version.",
+    "At 16px outline the bolt is cramped inside the ring. Its tips come very close to the ring stroke, so the middle looks busy.",
+    "At 16px solid the outside ticks are stubby nubs and the shape reads as a dark disc with a small bolt knocked out of it.",
+    "Nothing in the picture says 'infrastructure'. The bolt stands for energy in general, and the set already has electric-utilities (bolt) and utilities (drop with bolt), so the main idea is shared and only the ring tells them apart.",
+    "The 'near' preview shows the same content as the main preview rather than the parent and siblings, so I could not check closeness to the parent that way. I checked against the full sheets instead."
+   ],
+   "fixes": [
+    "Make the ring a weapon sight, not a GPS mark. Run the crosshair lines through the ring so each one crosses the stroke and continues inward a short way toward the bolt. Or break the ring into four arcs with gaps at 12, 3, 6 and 9 o'clock and put the crosshair lines in the gaps. Either way the inner ticks are what sets a sight apart from the location icon.",
+    "Or move the bolt off-centre and place it inside a simple infrastructure shape (pylon or power-line tower), with the reticle sitting over the tower. That says 'energy infrastructure under attack' rather than just 'energy'.",
+    "At 16px, make the bolt a simpler 3-segment zig-zag and keep at least 1.5px of clear space between it and the ring. If inner crosshair ticks are added, they can replace some of the bolt's detail at this size.",
+    "In the solid version, give the crosshair ticks a clear knockout gap where they meet the disc, or draw them as knocked-out lines through the disc, so the targeting cue survives at 16 and 20px.",
+    "Keep the current stroke weight and the full-frame footprint, which match the set well."
+   ]
+  },
+  "cost": 1.4
  }
 ]
