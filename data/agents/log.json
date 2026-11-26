@@ -5707,5 +5707,39 @@
   "mapped": 1,
   "why": "Fitch 7.1.1 borrows the generic funds money-bag a wallet reads as cash parked short-term.",
   "cost": 0.69
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:13:45.933Z",
+  "mode": "add",
+  "id": "equipment-finance",
+  "name": "Equipment Finance",
+  "kind": "industry",
+  "picture": "forklift",
+  "result": "added",
+  "attempts": 1,
+  "scores": {
+   "recognisable": 4,
+   "small_sizes": 4,
+   "solid": 4,
+   "consistency": 4,
+   "distinct": 5,
+   "verdict": "pass",
+   "reads_as": "A forklift seen from the side: a cab with an open roof frame, a body block, two wheels and an L-shaped mast with forks. In a finance set it reads as equipment or asset finance.",
+   "problems": [
+    "Solid 16/20/24: the wheels lose their hub knockouts and become solid dots that sit very close to the body block, so the lower half gets dense at 16px.",
+    "Outline 16: the wheel rings and the gap between them are tiny, so the hubs nearly close up. It still reads, but only just.",
+    "The mast and fork are a single thin stroke beside a heavy body, so in solid the right side looks lighter than the left at every size.",
+    "The visual mass sits slightly left of centre because the mast is thin and pushed to the right edge. This is minor."
+   ],
+   "fixes": [
+    "Optional polish: at 16px solid, open the gap between the wheels and the body by about 0.5px so the wheels stay separate dots.",
+    "Optional polish: at 32/48 solid, keep the hub knockouts but make the outer wheel ring slightly thicker so it stays as heavy as the body.",
+    "Optional polish: make the fork tine slightly longer, about 1px at 24, so the forklift reads sooner and the shape looks more balanced."
+   ]
+  },
+  "mapped": 2,
+  "why": "Fitch 2.1.6 Equipment ABS has no own icon a forklift is distinct from the truck and key-tag.",
+  "cost": 0.7
  }
 ]

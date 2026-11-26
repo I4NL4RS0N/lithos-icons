@@ -1,0 +1,16 @@
+{
+  "id": "equipment-finance",
+  "name": "Equipment Finance",
+  "kind": "industry",
+  "parent": "loans",
+  "metaphor": "forklift",
+  "keywords": [
+    "equipment leasing",
+    "equipment ABS",
+    "capital equipment loans"
+  ],
+  "reduction": "Every size: a side-on forklift facing right, a chassis with a cab whose roof guard and slanted front post frame a window, two wheels below kept clear of the chassis and of each other, and a full-height mast with forks along the ground. 16 and 20: square counterweight, plain wheels. 24+: rounded counterweight. 32+: wheel hubs. Solid: chassis and cab one fill with the window knocked out, wheels filled, mast and forks stay strokes.",
+  "status": "active",
+  "replacedBy": null,
+  "since": "0.1.0"
+}

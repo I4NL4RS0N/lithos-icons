@@ -1,0 +1,798 @@
+{
+  "concept": "equipment-finance",
+  "query": "forklift",
+  "fetched": "2026-11-26T19:05:06.072Z",
+  "topTerms": [
+    [
+      "forklift",
+      50
+    ],
+    [
+      "warehouse",
+      24
+    ],
+    [
+      "logistics",
+      22
+    ],
+    [
+      "lifting",
+      16
+    ],
+    [
+      "transport",
+      10
+    ],
+    [
+      "cargo",
+      9
+    ],
+    [
+      "machinery",
+      8
+    ],
+    [
+      "package",
+      7
+    ],
+    [
+      "vehicle",
+      6
+    ],
+    [
+      "loader",
+      6
+    ],
+    [
+      "factory",
+      6
+    ],
+    [
+      "transportation",
+      6
+    ],
+    [
+      "industrial",
+      6
+    ],
+    [
+      "lift",
+      6
+    ],
+    [
+      "industry",
+      5
+    ],
+    [
+      "truck",
+      5
+    ],
+    [
+      "forklift-truck",
+      4
+    ],
+    [
+      "delivery",
+      4
+    ],
+    [
+      "fork-truck",
+      4
+    ],
+    [
+      "pallet",
+      4
+    ],
+    [
+      "loading",
+      4
+    ],
+    [
+      "equipment",
+      3
+    ],
+    [
+      "manufacture",
+      3
+    ],
+    [
+      "shipping",
+      3
+    ],
+    [
+      "lifter",
+      3
+    ],
+    [
+      "cargo-lift",
+      2
+    ],
+    [
+      "lifting-truck",
+      2
+    ],
+    [
+      "pallet-lift",
+      2
+    ],
+    [
+      "warehouse-forklift",
+      2
+    ],
+    [
+      "shipping-and-delivery",
+      2
+    ],
+    [
+      "machine",
+      2
+    ],
+    [
+      "warehouse-car",
+      2
+    ],
+    [
+      "fork",
+      2
+    ],
+    [
+      "manufacturing",
+      1
+    ],
+    [
+      "production",
+      1
+    ],
+    [
+      "construction-machine",
+      1
+    ],
+    [
+      "heavy-vehicle",
+      1
+    ],
+    [
+      "hub",
+      1
+    ],
+    [
+      "unloading",
+      1
+    ],
+    [
+      "courier",
+      1
+    ]
+  ],
+  "sources": {
+    "nounProject": {
+      "results": [
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "forklift-truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/1872109-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "industry",
+            "manufacturing",
+            "production",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8516320-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo-lift",
+            "forklift",
+            "lifting-truck",
+            "pallet-lift",
+            "warehouse-forklift"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8511150-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "loader",
+            "machinery",
+            "package",
+            "vehicle",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8494713-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "delivery",
+            "factory",
+            "forklift",
+            "transportation",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8493002-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "logistics",
+            "machinery",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8492977-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "loader",
+            "logistics",
+            "shipping-and-delivery",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491409-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "loader",
+            "logistics",
+            "shipping-and-delivery",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8491368-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "equipment",
+            "forklift",
+            "lifting",
+            "machine",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8488350-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "construction-machine",
+            "equipment",
+            "forklift",
+            "heavy-vehicle",
+            "lifting"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8486530-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "industrial",
+            "lift",
+            "logistics",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8482825-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "factory",
+            "forklift",
+            "lifting",
+            "truck",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478580-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "factory",
+            "fork-truck",
+            "forklift",
+            "forklift-truck",
+            "industry",
+            "manufacture"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8478477-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo-lift",
+            "forklift",
+            "lifting-truck",
+            "pallet-lift",
+            "warehouse-forklift"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8477223-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "lift",
+            "logistics",
+            "package",
+            "pallet",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474521-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "industrial",
+            "lift",
+            "logistics",
+            "machinery",
+            "vehicle"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8474187-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "hub",
+            "loading",
+            "package",
+            "unloading",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8473692-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "lifting",
+            "logistics",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8472186-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "delivery",
+            "forklift",
+            "industry",
+            "logistics",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8470418-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "courier",
+            "forklift",
+            "lifter",
+            "mobility",
+            "transport",
+            "warehouse-car"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8469711-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "lift-package",
+            "lifting-machine",
+            "machine",
+            "mobility-of-package",
+            "warehouse-car"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8469693-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "all-package",
+            "cargo-service",
+            "delivery-service",
+            "forklift",
+            "much-package",
+            "package"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8466772-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "lifting",
+            "logistics",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8464389-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "industrial",
+            "lifting",
+            "logistics",
+            "transportation"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8460519-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "lifting",
+            "logistics",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8458426-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "factory",
+            "forklift",
+            "lifting",
+            "transportation",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8457533-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "fork",
+            "forklift",
+            "lift",
+            "lifter",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449647-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "fork",
+            "forklift",
+            "lift",
+            "lifter",
+            "truck"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8449636-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "loading",
+            "packages",
+            "pallet",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8444236-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "handling",
+            "loader",
+            "machinery",
+            "staker"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8436610-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "forklift",
+            "package",
+            "shipping",
+            "truck",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435063-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "logistic",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8435031-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "factory",
+            "fork-truck",
+            "forklift",
+            "forklift-truck",
+            "industry",
+            "manufacture"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430234-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "factory",
+            "fork-truck",
+            "forklift",
+            "forklift-truck",
+            "industry",
+            "manufacture"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8430206-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "loading",
+            "logistics",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424799-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "loading",
+            "logistics",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424775-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "box",
+            "cargo",
+            "fork-truck",
+            "forklift",
+            "logistics",
+            "package"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424681-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "logistics",
+            "package",
+            "parcel",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8424141-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "equipment",
+            "forklift",
+            "lifting",
+            "logistics",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8420534-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "lifting",
+            "logistics",
+            "machinery",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8406801-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "lifting",
+            "logistics",
+            "machinery",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8406779-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "industrial",
+            "lifting",
+            "loader",
+            "pallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405337-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "industrial",
+            "lifting",
+            "loader",
+            "pallet"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8405300-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "lifting",
+            "logistics",
+            "machinery",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8404971-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "lifting",
+            "logistics",
+            "machinery",
+            "transport",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8404951-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "forklift",
+            "industrial-vehicle",
+            "lifting",
+            "pallets",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8399520-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "lift",
+            "truck",
+            "vehicle",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8393705-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "forklift",
+            "forklift",
+            "freight",
+            "logistics",
+            "transportation",
+            "warehouse"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8387490-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "cargo",
+            "delivery",
+            "forklift",
+            "logistics",
+            "service",
+            "shipping"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8382958-84.png",
+          "licence": "creative-commons-attribution"
+        },
+        {
+          "title": "Forklift",
+          "tags": [
+            "delivery",
+            "distribution",
+            "forklift",
+            "industrial",
+            "transport"
+          ],
+          "thumb": "https://static.thenounproject.com/png/8382907-84.png",
+          "licence": "creative-commons-attribution"
+        }
+      ]
+    },
+    "iconfinder": {
+      "skipped": "ICONFINDER_KEY not set"
+    }
+  },
+  "decision": {
+    "metaphor": null,
+    "rationale": null
+  }
+}
