@@ -5812,5 +5812,43 @@
    ]
   },
   "cost": 1.29
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:30:01.829Z",
+  "mode": "add",
+  "id": "alternative-asset-managers",
+  "name": "Alternative Asset Managers",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: At 16 and 20px the knight head shrinks to a tiny wedge on top of a two-line base. The muzzle, ear and mane serrations clog into one smudge, and the shape reads as a bird or duck, not a horse.; The base takes up about half the height at small sizes. It is a wide double bar (the outline is two stacked rounded rectangles) that pulls attention away from the head, the only part that carries meaning.; The jagged mane (3–4 small notches down the back) is too fine below 32px. At 16, 20 and 24px i",
+  "scores": {
+   "reads_as": "At 32 and 48px: a chess knight on a base, a fairly common \"strategy\" icon. At 16, 20 and 24px: a small bird or duck head sitting on a stacked plate or burger. A finance professional would not get \"alternative asset managers\" from it. At best the chess knight suggests \"strategy\".",
+   "recognisable": 3,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 3,
+   "distinct": 4,
+   "verdict": "fail",
+   "problems": [
+    "At 16 and 20px the knight head shrinks to a tiny wedge on top of a two-line base. The muzzle, ear and mane serrations clog into one smudge, and the shape reads as a bird or duck, not a horse.",
+    "The base takes up about half the height at small sizes. It is a wide double bar (the outline is two stacked rounded rectangles) that pulls attention away from the head, the only part that carries meaning.",
+    "The jagged mane (3–4 small notches down the back) is too fine below 32px. At 16, 20 and 24px it turns into a ragged edge instead of a clear zig-zag.",
+    "The proportions change between sizes. At 32 and 48px the head is large and fills the frame. At 16, 20 and 24px the head is much smaller relative to the base and sits low, so the small sizes look underfilled and inconsistent with their own master.",
+    "Solid 16 and 20px: the head is a blob with a single eye dot. There is no clear knockout to separate the head from the neck or show the ear, and the base reads as a separate pill floating below the head. The solid only reads as a knight from 32px up.",
+    "The outline base at 24px and below uses a double-stroke plinth (two parallel lines with a gap). The gap almost closes at 16px and looks fussier than the single-line bases used elsewhere in the set (e.g. residential-care, scientific-research).",
+    "The mapping from concept to picture is weak. A chess knight says 'strategy' in general, not alternative assets, and the parent pie chart gives no visual link. A familiar pictogram is acceptable only if it is clean at every size, and here it isn't."
+   ],
+   "fixes": [
+    "Redraw 16, 20 and 24px with a larger, simpler head. The head and neck should fill about 70–75% of the height, and the base should be one short stroke of about 2px at 16px, not a double plinth.",
+    "Simplify the mane at small sizes: no notches at 16px, at most one notch at 20 and 24px. Keep the serrations for 32 and 48px only.",
+    "Make the muzzle a clear forward-pointing wedge with a visible gap under the jaw, and make the ear a distinct point, so the horse profile reads at 16px. Check that it doesn't read as a bird by viewing it at 1x.",
+    "For the outline base, use a single rounded line (or one thin rounded rectangle at 32 and 48px) the same width as the knight's chest, so the base doesn't dominate.",
+    "Solid: knock out a 1px stroke-width gap between the head and the base, and either keep a clear eye knockout or drop it at 16px. Give the solid the same head-to-base proportions as the outline at each size.",
+    "Keep the 24px master's head proportions the same as the current 32 and 48px drawings (large head that fills the frame), and redraw each smaller size from that master instead of shrinking the head.",
+    "Re-render and compare against the parent (asset-management) and its neighbours at 16px to check the optical footprint and weight match."
+   ]
+  },
+  "cost": 1.51
  }
 ]
