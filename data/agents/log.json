@@ -5890,5 +5890,41 @@
    ]
   },
   "cost": 1.98
+ },
+ {
+  "date": "2026-11-26",
+  "at": "2026-11-26T19:44:21.300Z",
+  "mode": "add",
+  "id": "carry-trade-unwind",
+  "name": "Carry Trade Unwind",
+  "result": "rejected",
+  "attempts": 2,
+  "reason": "judge: The short horizontal top bar, the slanted rod and the circle bob at the bottom right look like a scooter's handlebar, stem and wheel, not a pendulum. The pivot is only a small notch, so it doesn't read as a hanging support.; Only one pendulum position is drawn, so nothing suggests swinging. The curved arrow sits low on the left like a separate mark instead of tracing the bob's arc.; The icon sits small and low in its box. The empty top-left area and the narrow top bar leave it much smalle",
+  "scores": {
+   "recognisable": 2,
+   "small_sizes": 2,
+   "solid": 3,
+   "consistency": 2,
+   "distinct": 4,
+   "verdict": "fail",
+   "reads_as": "A kick scooter or Segway (T-bar handlebar, slanted stem, wheel), with a stray curved arrow next to it. Very few people would read it as a pendulum, and nobody would get to a carry trade unwind.",
+   "problems": [
+    "The short horizontal top bar, the slanted rod and the circle bob at the bottom right look like a scooter's handlebar, stem and wheel, not a pendulum. The pivot is only a small notch, so it doesn't read as a hanging support.",
+    "Only one pendulum position is drawn, so nothing suggests swinging. The curved arrow sits low on the left like a separate mark instead of tracing the bob's arc.",
+    "The icon sits small and low in its box. The empty top-left area and the narrow top bar leave it much smaller than its neighbours (like inflation or the climate-risk thermometer), especially at 16 and 20px.",
+    "At 16px the arrowhead and the pivot notch merge into specks, the arrow tail is tiny, and the whole glyph is about 8px of ink.",
+    "The solid version only fills the bob. The rod, bar and arrow are the same as the outline, so solid adds almost no weight compared with filled neighbours like funds or the gold bars.",
+    "Its weight is uneven: the arrow stroke looks heavier than the rod at 48px, and the arrowhead is chunkier than the arrowheads elsewhere in the set (inflation, central-bank-rate)."
+   ],
+   "fixes": [
+    "Make it clearly a pendulum. Draw a wide support beam across the top, about 14–16 units at 24px (or a small triangular pivot mount), and hang the rod from its centre so the rod is clearly suspended.",
+    "Show the swing. Add a faint or dashed rest position, or 2–3 short motion ticks behind the bob, and redraw the arrow as a concentric arc that follows the bob's path from the high right position back across the bottom centre. Keep the arrowhead at the leading end, inside the arc.",
+    "Fill the frame. The pivot should sit near y=3, the bob should reach about y=20–21, and the swing arc should run from roughly x=3 to x=21, so the footprint matches its neighbours at every size.",
+    "At 16px, redraw by hand with only the beam, the rod, a bob about 5px across and a single arc with a 2-stroke arrowhead. Drop the notch detail and any motion ticks.",
+    "For the solid version, fill the bob, make the support a filled block, and consider a filled wedge for the swept arc so it carries the same visual weight as the other solids. Keep any knockouts at least 1.5px wide.",
+    "Match the stroke width and arrowhead size to the existing arrows in inflation and central-bank-rate."
+   ]
+  },
+  "cost": 1.82
  }
 ]
